@@ -1,6 +1,5 @@
 # 統合の状態
 
-5群の研究成果を受領する前の準備段階です。横断評価と改訂案は全群のレビュー後に別PRで追加します。
+研究5群は内容レビュー後にmerge済み。固定131項目は本文確認92・部分確認14・未確認25、独立作品の正確な総数は未確定です。
 
-予定成果はreports/robustness.md、data/summary.json、必要な場合のbaseline/v2-proposedです。未検証と反例を保持し、各群の本文確認範囲、出典、異名・重複、件数収支を統合します。
-
+[横断レビュー](reports/robustness.md)、[再集計と全割当・merge証跡](data/summary.json)、[未採用の境界運用案](../baseline/v2-proposed/operational-boundaries.md) を参照。各群の判定と未確認を保持し、構造検査成功を頑健性や怖さ効果の実証とは扱いません。
