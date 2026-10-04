@@ -25,6 +25,7 @@
 - [全131項目の固定割当](assignments/groups.json)
 - [横断レビューと限界](integration/reports/robustness.md)
 - [件数・全割当・merge証跡](integration/data/summary.json)
+- [26型 v2 設計レポート（未検証）](baseline/v2-proposed/report.md)
 - [境界運用の改訂案（未採用）](baseline/v2-proposed/operational-boundaries.md)
 
 各群のAI研究担当が分析・PR提出し、統合担当AIが群2〜5の欠測メタデータと件数精度を説明付きで追補、全5群を内容レビューしました。独立した人間の分析・承認ではありません。本文根拠、版と範囲、26型の境界、本文不足、異名・重複、公開範囲をPRのCOMMENTレビューへ記録し、ユーザーのmerge承認に従って処理しました。横断評価は別統合PRで管理します。
