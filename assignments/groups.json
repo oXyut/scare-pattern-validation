@@ -1,0 +1,568 @@
+{
+  "baseline_id": "fear-patterns-v1-26types",
+  "catalogue_entries": 132,
+  "excluded_entry": {
+    "title": "コトリバコ",
+    "reason": "固定基準で検証済み"
+  },
+  "assigned_entries": 131,
+  "allocation": "掲載順のラウンドロビン5分割",
+  "other_categories_excluded": true,
+  "groups": [
+    {
+      "group_id": "group_01",
+      "assigned_count": 27,
+      "entries": [
+        {
+          "work_id": "G01-W01",
+          "title": "赤い仏像"
+        },
+        {
+          "work_id": "G01-W02",
+          "title": "悪霊食い"
+        },
+        {
+          "work_id": "G01-W03",
+          "title": "IZUMO社航空機墜落事故の生存者"
+        },
+        {
+          "work_id": "G01-W04",
+          "title": "裏S区"
+        },
+        {
+          "work_id": "G01-W05",
+          "title": "おかっぱで顔のない着物の少女"
+        },
+        {
+          "work_id": "G01-W06",
+          "title": "おっぱい揉み豚"
+        },
+        {
+          "work_id": "G01-W07",
+          "title": "ガンギギ"
+        },
+        {
+          "work_id": "G01-W08",
+          "title": "気持ち悪いスナック"
+        },
+        {
+          "work_id": "G01-W09",
+          "title": "くねくね"
+        },
+        {
+          "work_id": "G01-W10",
+          "title": "コッケさん"
+        },
+        {
+          "work_id": "G01-W11",
+          "title": "坂道の女"
+        },
+        {
+          "work_id": "G01-W12",
+          "title": "地獄のバス"
+        },
+        {
+          "work_id": "G01-W13",
+          "title": "スシ・ウォーリア・ガールズ"
+        },
+        {
+          "work_id": "G01-W14",
+          "title": "切腹ショー"
+        },
+        {
+          "work_id": "G01-W15",
+          "title": "地下の丸穴"
+        },
+        {
+          "work_id": "G01-W16",
+          "title": "つんつるてん"
+        },
+        {
+          "work_id": "G01-W17",
+          "title": "トマトの頭をした男"
+        },
+        {
+          "work_id": "G01-W18",
+          "title": "猫の忍者(ネットロア)"
+        },
+        {
+          "work_id": "G01-W19",
+          "title": "ばりばり"
+        },
+        {
+          "work_id": "G01-W20",
+          "title": "ピヨピヨの魔"
+        },
+        {
+          "work_id": "G01-W21",
+          "title": "蛇神憑きの家系"
+        },
+        {
+          "work_id": "G01-W22",
+          "title": "マイナスドライバー"
+        },
+        {
+          "work_id": "G01-W23",
+          "title": "ヤドリギ"
+        },
+        {
+          "work_id": "G01-W24",
+          "title": "ゆき・富士の影"
+        },
+        {
+          "work_id": "G01-W25",
+          "title": "ヨウコウ"
+        },
+        {
+          "work_id": "G01-W26",
+          "title": "両面宿儺(リョウメンスクナ)"
+        },
+        {
+          "work_id": "G01-W27",
+          "title": "ンーボボツク"
+        }
+      ]
+    },
+    {
+      "group_id": "group_02",
+      "assigned_count": 26,
+      "entries": [
+        {
+          "work_id": "G02-W01",
+          "title": "アクロバティックサラサラ"
+        },
+        {
+          "work_id": "G02-W02",
+          "title": "アシュラさん"
+        },
+        {
+          "work_id": "G02-W03",
+          "title": "一本足の妖女"
+        },
+        {
+          "work_id": "G02-W04",
+          "title": "エレベーターで異世界に行く方法"
+        },
+        {
+          "work_id": "G02-W05",
+          "title": "おおいさん"
+        },
+        {
+          "work_id": "G02-W06",
+          "title": "鏡の中のナナちゃん"
+        },
+        {
+          "work_id": "G02-W07",
+          "title": "カン、カン"
+        },
+        {
+          "work_id": "G02-W08",
+          "title": "ギュウギュウ詰めの軽自動車"
+        },
+        {
+          "work_id": "G02-W09",
+          "title": "狂った家族"
+        },
+        {
+          "work_id": "G02-W10",
+          "title": "怖いよアンガールズ"
+        },
+        {
+          "work_id": "G02-W11",
+          "title": "猿夢"
+        },
+        {
+          "work_id": "G02-W12",
+          "title": "死なず舞妓"
+        },
+        {
+          "work_id": "G02-W13",
+          "title": "寿司ノ神国駅"
+        },
+        {
+          "work_id": "G02-W14",
+          "title": "空を飛ぶ炎に包まれた真っ黒な人型の物体"
+        },
+        {
+          "work_id": "G02-W15",
+          "title": "チガヤ"
+        },
+        {
+          "work_id": "G02-W16",
+          "title": "つぎはぎ柄の猿みたいなヤツ"
+        },
+        {
+          "work_id": "G02-W17",
+          "title": "なにか"
+        },
+        {
+          "work_id": "G02-W18",
+          "title": "廃道の向こう側"
+        },
+        {
+          "work_id": "G02-W19",
+          "title": "禁后"
+        },
+        {
+          "work_id": "G02-W20",
+          "title": "ヒッチハイク"
+        },
+        {
+          "work_id": "G02-W21",
+          "title": "マネキンのいる家"
+        },
+        {
+          "work_id": "G02-W22",
+          "title": "みっつの選択"
+        },
+        {
+          "work_id": "G02-W23",
+          "title": "山奥のラーメン屋"
+        },
+        {
+          "work_id": "G02-W24",
+          "title": "夢鬼"
+        },
+        {
+          "work_id": "G02-W25",
+          "title": "404号室"
+        },
+        {
+          "work_id": "G02-W26",
+          "title": "旅館の求人"
+        }
+      ]
+    },
+    {
+      "group_id": "group_03",
+      "assigned_count": 26,
+      "entries": [
+        {
+          "work_id": "G03-W01",
+          "title": "赤福アキちゃん"
+        },
+        {
+          "work_id": "G03-W02",
+          "title": "あきちん"
+        },
+        {
+          "work_id": "G03-W03",
+          "title": "井戸の足臭女"
+        },
+        {
+          "work_id": "G03-W04",
+          "title": "エツ子さん"
+        },
+        {
+          "work_id": "G03-W05",
+          "title": "オンドウサマ"
+        },
+        {
+          "work_id": "G03-W06",
+          "title": "家族の奇行の真相"
+        },
+        {
+          "work_id": "G03-W07",
+          "title": "姦姦蛇螺"
+        },
+        {
+          "work_id": "G03-W08",
+          "title": "巨頭オ"
+        },
+        {
+          "work_id": "G03-W09",
+          "title": "愚乱怒狂魔ちゃん"
+        },
+        {
+          "work_id": "G03-W10",
+          "title": "The_Color-Stealing_Man"
+        },
+        {
+          "work_id": "G03-W11",
+          "title": "サンヌキカノ"
+        },
+        {
+          "work_id": "G03-W12",
+          "title": "シシノケ"
+        },
+        {
+          "work_id": "G03-W13",
+          "title": "巣くうもの"
+        },
+        {
+          "work_id": "G03-W14",
+          "title": "空に浮かぶ「い」"
+        },
+        {
+          "work_id": "G03-W15",
+          "title": "血雪"
+        },
+        {
+          "work_id": "G03-W16",
+          "title": "透眼"
+        },
+        {
+          "work_id": "G03-W17",
+          "title": "ナールナーシュ"
+        },
+        {
+          "work_id": "G03-W18",
+          "title": "鼻歌・んー"
+        },
+        {
+          "work_id": "G03-W19",
+          "title": "一つ目のっぺらぼう"
+        },
+        {
+          "work_id": "G03-W20",
+          "title": "人型焼き"
+        },
+        {
+          "work_id": "G03-W21",
+          "title": "漫湖マン"
+        },
+        {
+          "work_id": "G03-W22",
+          "title": "みっちり乗った軽自動車"
+        },
+        {
+          "work_id": "G03-W23",
+          "title": "やまけらし様"
+        },
+        {
+          "work_id": "G03-W24",
+          "title": "友人様"
+        },
+        {
+          "work_id": "G03-W25",
+          "title": "妖怪退治の仕事してるけど、何か質問ある?"
+        },
+        {
+          "work_id": "G03-W26",
+          "title": "リンフォン"
+        }
+      ]
+    },
+    {
+      "group_id": "group_04",
+      "assigned_count": 26,
+      "entries": [
+        {
+          "work_id": "G04-W01",
+          "title": "赤いマフラーの女"
+        },
+        {
+          "work_id": "G04-W02",
+          "title": "紅い階段"
+        },
+        {
+          "work_id": "G04-W03",
+          "title": "渦人形"
+        },
+        {
+          "work_id": "G04-W04",
+          "title": "朧の山"
+        },
+        {
+          "work_id": "G04-W05",
+          "title": "オムライス"
+        },
+        {
+          "work_id": "G04-W06",
+          "title": "蟹風呂"
+        },
+        {
+          "work_id": "G04-W07",
+          "title": "危険な好奇心"
+        },
+        {
+          "work_id": "G04-W08",
+          "title": "着物の少女"
+        },
+        {
+          "work_id": "G04-W09",
+          "title": "校内放送"
+        },
+        {
+          "work_id": "G04-W10",
+          "title": "最初で最後の魚"
+        },
+        {
+          "work_id": "G04-W11",
+          "title": "時空のおっさん"
+        },
+        {
+          "work_id": "G04-W12",
+          "title": "師匠シリーズ"
+        },
+        {
+          "work_id": "G04-W13",
+          "title": "須磨海岸にて"
+        },
+        {
+          "work_id": "G04-W14",
+          "title": "田所君(洒落怖)"
+        },
+        {
+          "work_id": "G04-W15",
+          "title": "千寿江(洒落怖)"
+        },
+        {
+          "work_id": "G04-W16",
+          "title": "トンネル内の雨音"
+        },
+        {
+          "work_id": "G04-W17",
+          "title": "謎の人物(洒落怖)"
+        },
+        {
+          "work_id": "G04-W18",
+          "title": "ハカソヤ"
+        },
+        {
+          "work_id": "G04-W19",
+          "title": "ヒョウタンヘビ"
+        },
+        {
+          "work_id": "G04-W20",
+          "title": "人型の物体"
+        },
+        {
+          "work_id": "G04-W21",
+          "title": "まるはっちん"
+        },
+        {
+          "work_id": "G04-W22",
+          "title": "迷惑電話(洒落怖)"
+        },
+        {
+          "work_id": "G04-W23",
+          "title": "ヤマノケ"
+        },
+        {
+          "work_id": "G04-W24",
+          "title": "夢の中に現れた窓を覗く女"
+        },
+        {
+          "work_id": "G04-W25",
+          "title": "リアル"
+        },
+        {
+          "work_id": "G04-W26",
+          "title": "ワラズマ"
+        }
+      ]
+    },
+    {
+      "group_id": "group_05",
+      "assigned_count": 26,
+      "entries": [
+        {
+          "work_id": "G05-W01",
+          "title": "アケミちゃん"
+        },
+        {
+          "work_id": "G05-W02",
+          "title": "ありがとう、ウルトラマン"
+        },
+        {
+          "work_id": "G05-W03",
+          "title": "海からやってくるモノ"
+        },
+        {
+          "work_id": "G05-W04",
+          "title": "女の字の怪"
+        },
+        {
+          "work_id": "G05-W05",
+          "title": "オキテル"
+        },
+        {
+          "work_id": "G05-W06",
+          "title": "禍垂"
+        },
+        {
+          "work_id": "G05-W07",
+          "title": "きじまさん"
+        },
+        {
+          "work_id": "G05-W08",
+          "title": "朽縄様"
+        },
+        {
+          "work_id": "G05-W09",
+          "title": "高校のクラス全員で悪霊と戦った話させてくれ"
+        },
+        {
+          "work_id": "G05-W10",
+          "title": "逆さの樵面"
+        },
+        {
+          "work_id": "G05-W11",
+          "title": "自己責任(洒落怖)"
+        },
+        {
+          "work_id": "G05-W12",
+          "title": "邪視"
+        },
+        {
+          "work_id": "G05-W13",
+          "title": "背無し"
+        },
+        {
+          "work_id": "G05-W14",
+          "title": "地下の井戸"
+        },
+        {
+          "work_id": "G05-W15",
+          "title": "ツンバイさん"
+        },
+        {
+          "work_id": "G05-W16",
+          "title": "ドライブイン"
+        },
+        {
+          "work_id": "G05-W17",
+          "title": "人間をついばむカラスはすぐ殺せ"
+        },
+        {
+          "work_id": "G05-W18",
+          "title": "八尺様"
+        },
+        {
+          "work_id": "G05-W19",
+          "title": "ヒサルキ"
+        },
+        {
+          "work_id": "G05-W20",
+          "title": "人を恨み続けていたら幼少の頃の友人を思い出す話"
+        },
+        {
+          "work_id": "G05-W21",
+          "title": "魔翠姫"
+        },
+        {
+          "work_id": "G05-W22",
+          "title": "猛スピード"
+        },
+        {
+          "work_id": "G05-W23",
+          "title": "U先生"
+        },
+        {
+          "work_id": "G05-W24",
+          "title": "夢魅"
+        },
+        {
+          "work_id": "G05-W25",
+          "title": "リゾートバイト"
+        },
+        {
+          "work_id": "G05-W26",
+          "title": "ヲヲーンワ"
+        }
+      ]
+    }
+  ]
+}
+

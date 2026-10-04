@@ -1,0 +1,13 @@
+{
+  "baseline_id": "fear-patterns-v1-26types",
+  "revision_date": "2026-10-04",
+  "revision": "コトリバコへの適用を踏まえD5・E5を追加した26型版",
+  "source_sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+  "public_sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+  "bytes": 50254,
+  "lines": 397,
+  "redactions": [],
+  "publication_review": "公開対象の基準本文に個人の絶対パス、会話ID、Library ID、認証情報は含まれていないため、本文は変更していない。非公開の調整用記録と会話履歴は収録しない。",
+  "immutability": "既存基準は上書きせず、改訂版を別ディレクトリに追加して比較する。"
+}
+
