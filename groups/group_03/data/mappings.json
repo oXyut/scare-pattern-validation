@@ -2685,7 +2685,12 @@
       "body_verified": true,
       "notes": "投稿・伝聞・命名の応酬を含む。歴史や実在人物の事実認定に使用しない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S002",
@@ -2699,7 +2704,12 @@
       "body_verified": true,
       "notes": "本版は先生が後日職員室におり一週間で退職。別版の即失踪と混ぜない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S003",
@@ -2713,7 +2723,12 @@
       "body_verified": true,
       "notes": "冒頭と末尾の自己責任文言は作中の語り。現実の行動指示にはしない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S004",
@@ -2727,7 +2742,12 @@
       "body_verified": true,
       "notes": "末期肝癌は本文の設定。呪いの証明・医学的因果の主張ではない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S005",
@@ -2741,7 +2761,12 @@
       "body_verified": true,
       "notes": "／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S006",
@@ -2755,7 +2780,12 @@
       "body_verified": true,
       "notes": "転載本文の投稿番号・次頁を連続確認。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S007",
@@ -2769,7 +2799,12 @@
       "body_verified": true,
       "notes": "転載本文の投稿番号・次頁を連続確認。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S008",
@@ -2783,7 +2818,12 @@
       "body_verified": true,
       "notes": "転載本文の投稿番号・次頁を連続確認。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S009",
@@ -2797,7 +2837,12 @@
       "body_verified": true,
       "notes": "採用は101〜133行の本文。以後の別次元説は除外。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S010",
@@ -2811,7 +2856,12 @@
       "body_verified": true,
       "notes": "不可解な体験スレenigma49。投稿の間の第三者説明を同じ語り手の観測にしない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S011",
@@ -2825,7 +2875,12 @@
       "body_verified": true,
       "notes": "本編25〜826行を分割読了。スレ内の奇形児由来説を作者の確認済設定としない。後日談は別人との編集注あり。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S012",
@@ -2839,7 +2894,12 @@
       "body_verified": true,
       "notes": "続篇は範囲外。Aの説明と語り手の仮説を分離。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S013",
@@ -2853,7 +2913,12 @@
       "body_verified": true,
       "notes": "続篇は範囲外。Aの説明と語り手の仮説を分離。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S014",
@@ -2867,7 +2932,12 @@
       "body_verified": true,
       "notes": "続篇は範囲外。Aの説明と語り手の仮説を分離。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S015",
@@ -2881,7 +2951,12 @@
       "body_verified": true,
       "notes": "／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S016",
@@ -2895,7 +2970,12 @@
       "body_verified": true,
       "notes": "本文11〜413行を分割読了。初出との一致未確認。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S017",
@@ -2909,7 +2989,12 @@
       "body_verified": true,
       "notes": "／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S018",
@@ -2923,7 +3008,12 @@
       "body_verified": true,
       "notes": "冒頭〜363行まで分割読了。儀式者の人形観は作中説明。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S019",
@@ -2937,7 +3027,12 @@
       "body_verified": true,
       "notes": "採用は投稿926のみ。記事タイトルの白いワゴンRは別作品。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S020",
@@ -2951,7 +3046,12 @@
       "body_verified": true,
       "notes": "本人の体感と祖母の説明・お礼の解釈を区別。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S021",
@@ -2965,7 +3065,12 @@
       "body_verified": true,
       "notes": "索引16話を確認し2話だけを対象化。先生の知識と語り手の推測を分ける。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S022",
@@ -2979,7 +3084,12 @@
       "body_verified": true,
       "notes": "索引16話を確認し2話だけを対象化。先生の知識と語り手の推測を分ける。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S023",
@@ -2993,7 +3103,12 @@
       "body_verified": true,
       "notes": "索引16話を確認し2話だけを対象化。先生の知識と語り手の推測を分ける。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S024",
@@ -3007,7 +3122,12 @@
       "body_verified": true,
       "notes": "投稿番号・IDを保持する転載。記事タイトルの怖さ評価・後続コメントは今回の効果測定に使わない。／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S025",
@@ -3021,7 +3141,12 @@
       "body_verified": false,
       "notes": "公開解説候補。検索断片のみ、独立した物語全文なし。／検索語: 「井戸の足臭女」; 「井戸 足臭」／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S026",
@@ -3035,7 +3160,12 @@
       "body_verified": false,
       "notes": "作品名言及・図像候補。本文として採用しない。／検索語: 「愚乱怒狂魔ちゃん」; 「愚乱怒狂魔」／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S027",
@@ -3049,7 +3179,12 @@
       "body_verified": false,
       "notes": "個別ページ取得失敗。米国コミック・童話を置換採用しない。／検索語: 「The_Color-Stealing_Man」; 「The Color-Stealing Man」; 「色を盗む男」／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S028",
@@ -3063,7 +3198,12 @@
       "body_verified": false,
       "notes": "関連しない雲・鳥居・AI創作を代用しない。／検索語: 「空に浮かぶ『い』」; 「空に浮かぶ」「い」怪談; 「空」「いの字」／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "search_record",
+      "url_status": "not_identified",
+      "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S029",
@@ -3077,7 +3217,12 @@
       "body_verified": false,
       "notes": "能力者wiki・小説の能力名と当該怪談の同一性なし。／検索語: 「透眼」怖い話; 「透眼」洒落怖; 「透眼」オカルト／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "search_record",
+      "url_status": "not_identified",
+      "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S030",
@@ -3091,7 +3236,12 @@
       "body_verified": false,
       "notes": "動画題名・概要の言及のみ。本文・字幕未取得。民話や別話を代用しない。／検索語: 「一つ目のっぺらぼう」; 「ひとつ目のっぺらぼう」; 「一つ目の」「のっぺらぼう」2ch／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S031",
@@ -3105,7 +3255,12 @@
       "body_verified": false,
       "notes": "題名の印象だけでパロディ／非ホラー判定をしない。／検索語: 「漫湖マン」; 「漫湖マン」2ch; 「漫湖マン」洒落怖／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "search_record",
+      "url_status": "not_identified",
+      "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     },
     {
       "source_id": "G03-S032",
@@ -3119,7 +3274,12 @@
       "body_verified": false,
       "notes": "小説の敬称やホテルの別話の台詞を代用しない。／検索語: 「友人様」怪談; 「友人様」洒落怖; 「友人様」「怖い」／時刻は当セッション取得バッチの台帳登録時刻。個々のHTTP応答時刻は保存していない。",
       "ledger_registered_at_utc": "2026-10-04T11:49:13Z",
-      "access_time_status": "unrecorded"
+      "access_time_status": "not_recorded",
+      "record_kind": "search_record",
+      "url_status": "not_identified",
+      "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+      "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+      "access_time_status_original": "unrecorded"
     }
   ],
   "method": {
@@ -3142,5 +3302,14 @@
     "normalization_and_pr_author": "群03研究担当自身",
     "delegated_pr_creation": false,
     "normalization_note": "研究判断・確信度・未確認・残余を保持。公開識別情報、状態ラベル、件数、取得日時欄を正規化。"
+  },
+  "integration_normalization": {
+    "actor": "統合担当（AIセッション）",
+    "analysis_actor": "群03研究担当（AIセッション）",
+    "reason": "欠測の明示と件数の単位の区別。研究判断・本文状態・型候補・確信度は受領版から変更しない。",
+    "changes": [
+      "台帳の時刻精度・欠測理由・探索記録を追加。元の日時・URL・notesを保持。",
+      "台帳ミラーへ同じメタデータを追加。"
+    ]
   }
 }
