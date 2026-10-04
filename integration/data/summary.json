@@ -1,0 +1,2479 @@
+{
+  "schema_version": "integration-summary-1",
+  "baseline_id": "fear-patterns-v1-26types",
+  "baseline_sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+  "analysis_attribution": "5群のAI研究担当による分析を統合担当AIが受領・正規化・レビュー・横断評価。独立した人間評価ではない。",
+  "research_main_sha": "be72507d37aa93afc73dc8412904a6f4bd1b4861",
+  "groups": [
+    {
+      "group_id": "group_01",
+      "assigned_entries": 27,
+      "body_status_counts": {
+        "verified": 18,
+        "unverified": 6,
+        "partial": 3
+      },
+      "scene_records": 54,
+      "source_rows": 30,
+      "independence_received_counts": {
+        "assigned_entries": 27,
+        "verified": 18,
+        "partial": 3,
+        "unverified": 6,
+        "independent_works": null,
+        "confirmed_distinct_work_clusters": 20,
+        "tentative_work_clusters": 1,
+        "unidentified_entries": 6,
+        "possible_independent_work_clusters_range": [
+          20,
+          27
+        ],
+        "independence_note": "20=単篇18＋確認範囲をもつネットロア集合2（くねくね・猫の忍者）。蛇の3篇をまとめる割当との対応は暫定1。全異本の独立作品数は未確定。別名・転載ページ・投稿番号・パロディを追加の割当件数にしない。重複未発見は独立性の全面証明ではない。",
+        "scene_records": 54,
+        "confirmed_duplicate_entries": 0,
+        "new_type_candidates": 2,
+        "new_types_adopted": 0,
+        "comic_control_entries": 1
+      },
+      "pr_url": "https://github.com/oXyut/scare-pattern-validation/pull/3",
+      "merge_sha": "0c7fd110ce7aaf12839d1bc7e6f3b0e98019794f"
+    },
+    {
+      "group_id": "group_02",
+      "assigned_entries": 26,
+      "body_status_counts": {
+        "verified": 20,
+        "unverified": 5,
+        "partial": 1
+      },
+      "scene_records": 47,
+      "source_rows": 35,
+      "independence_received_counts": {
+        "assigned_list_items": 26,
+        "work_records": 26,
+        "selected_body_read": 20,
+        "partially_verified_body": 1,
+        "insufficient_body": 5,
+        "body_status_sum": 26,
+        "confirmed_distinct_narrative_units_in_assignment": 20,
+        "ritual_tradition_identity_unresolved": 1,
+        "title_identity_unresolved": 5,
+        "confirmed_duplicate_assignment_pairs": 0,
+        "independent_works_exact_total": null,
+        "independent_works_possible_range": null,
+        "same_title_variant_extra_not_added": 1,
+        "confirmed_origin_other_than_sharekowa": 2,
+        "origin_other_than_sharekowa_titles": [
+          "空を飛ぶ炎に包まれた真っ黒な人型の物体",
+          "禁后"
+        ],
+        "scene_records": 47,
+        "assigned_entries": 26,
+        "verified": 20,
+        "partial": 1,
+        "unverified": 5,
+        "independent_works": null
+      },
+      "pr_url": "https://github.com/oXyut/scare-pattern-validation/pull/4",
+      "merge_sha": "92671d542f2f3a2c5e375a13a7e59f0bbfda29c6"
+    },
+    {
+      "group_id": "group_03",
+      "assigned_entries": 26,
+      "body_status_counts": {
+        "partial": 4,
+        "verified": 14,
+        "unverified": 8
+      },
+      "scene_records": 43,
+      "source_rows": 32,
+      "independence_received_counts": {
+        "assigned_entries": 26,
+        "verified": 14,
+        "partial": 4,
+        "unverified": 8,
+        "independent_works": null,
+        "independent_works_supported_lower_bound": 16,
+        "original_counts": {
+          "assigned_items": 26,
+          "represented_items": 26,
+          "status_counts": {
+            "部分的本文確認": 4,
+            "本文読了": 14,
+            "本文不足／未検証": 8
+          },
+          "full_body_in_fixed_scope": 14,
+          "partial_body_or_identity": 4,
+          "insufficient": 8,
+          "assigned_cross_title_duplicates_confirmed": 0,
+          "identified_distinct_work_or_corpus_units": 17,
+          "identity_pending_items": 9,
+          "independent_single_story_or_series_units_lower_bound": 16,
+          "independent_work_count_exact": null,
+          "counting_note": "17は本文同定した14単篇＋赤福の集合的伝承＋巣くうものシリーズ＋妖怪退治シリーズ。赤福は複数投稿の接合ゆえ単一独立作品とは数えず、独立作品/シリーズとして支持する下限は16。みっちり候補と本文不足8の9項目は同定保留。系列内の読了2話を2割当作品に水増ししない。全26の独立作品総数は未確定。",
+          "scene_rows": 43,
+          "source_rows": 32
+        }
+      },
+      "pr_url": "https://github.com/oXyut/scare-pattern-validation/pull/2",
+      "merge_sha": "a0cb46cee0fe7615ce6b9ec01a5e3688142403e9"
+    },
+    {
+      "group_id": "group_04",
+      "assigned_entries": 26,
+      "body_status_counts": {
+        "unverified": 3,
+        "verified": 19,
+        "partial": 4
+      },
+      "scene_records": 55,
+      "source_rows": 36,
+      "independence_received_counts": {
+        "assigned_entries": 26,
+        "verified": 19,
+        "partial": 4,
+        "unverified": 3,
+        "independent_works": null,
+        "independent_works_definition": "本文同定できた19単篇＋時空のおっさんの1話＋師匠シリーズの2話＝22の確認済み物語単位。同定留保2項目の3候補、本文不足3項目は独立作品母数に足さない。全シリーズ総数・全割当の最終独立数ではない。",
+        "confirmed_assigned_identities": 21,
+        "confirmed_alias_duplicates": 0,
+        "identity_unresolved_entries": 5,
+        "scenes": 55,
+        "negative_or_nonhorror_readings": [
+          "G04-W08",
+          "G04-W19"
+        ],
+        "independent_works_original": 22,
+        "confirmed_narrative_units_in_selected_scope": 22,
+        "confirmed_assigned_identity_units": 21
+      },
+      "pr_url": "https://github.com/oXyut/scare-pattern-validation/pull/5",
+      "merge_sha": "80f6d93b160c5a4677fccab847b27c8e07544df1"
+    },
+    {
+      "group_id": "group_05",
+      "assigned_entries": 26,
+      "body_status_counts": {
+        "verified": 21,
+        "unverified": 3,
+        "partial": 2
+      },
+      "scene_records": 59,
+      "source_rows": 33,
+      "independence_received_counts": {
+        "assigned_entries": 26,
+        "verified": 21,
+        "partial": 2,
+        "unverified": 3,
+        "independent_works": null,
+        "independent_works_original": 22,
+        "independent_works_supported_lower_bound": 22
+      },
+      "pr_url": "https://github.com/oXyut/scare-pattern-validation/pull/6",
+      "merge_sha": "be72507d37aa93afc73dc8412904a6f4bd1b4861"
+    }
+  ],
+  "counts": {
+    "assigned_entries": 131,
+    "body_status_counts": {
+      "verified": 92,
+      "unverified": 25,
+      "partial": 14
+    },
+    "independent_works_exact_total": null,
+    "independent_works_reason": "群の資料群・シリーズ・単篇・選定エピソードの単位が異なり、未同定と未確認も残る。異なる下限・単位を単純合算しない。",
+    "scene_records": 258,
+    "insufficient_body_placeholder_rows": 25,
+    "other_scene_rows": 233,
+    "scene_level_fit_counts": {
+      "部分適合": 141,
+      "不適合": 17,
+      "適合": 75,
+      "本文不足": 25
+    },
+    "source_rows": 166,
+    "url_identified_rows": 157,
+    "url_not_identified_rows": 9,
+    "access_time_precision_counts": {
+      "timestamp_utc": 83,
+      "not_recorded": 47,
+      "date_only_utc": 36
+    }
+  },
+  "type_label_occurrences_by_scene_level_fit": {
+    "A1": {
+      "部分適合": 8,
+      "適合": 6
+    },
+    "A2": {
+      "部分適合": 18,
+      "適合": 23,
+      "不適合": 1
+    },
+    "A3": {
+      "適合": 16,
+      "部分適合": 21
+    },
+    "A4": {
+      "適合": 3,
+      "部分適合": 5
+    },
+    "B1": {
+      "適合": 8,
+      "部分適合": 3
+    },
+    "B2": {
+      "部分適合": 6,
+      "適合": 10
+    },
+    "B3": {
+      "部分適合": 4,
+      "適合": 2
+    },
+    "B4": {
+      "適合": 10,
+      "部分適合": 30,
+      "不適合": 1
+    },
+    "C1": {
+      "部分適合": 3,
+      "適合": 1
+    },
+    "C2": {
+      "部分適合": 19,
+      "適合": 12,
+      "不適合": 1
+    },
+    "C3": {
+      "部分適合": 8,
+      "適合": 4
+    },
+    "C4": {
+      "部分適合": 31,
+      "適合": 22,
+      "不適合": 1
+    },
+    "D1": {
+      "適合": 4,
+      "部分適合": 4
+    },
+    "D2": {
+      "部分適合": 3
+    },
+    "D3": {
+      "部分適合": 14,
+      "適合": 6
+    },
+    "D4": {
+      "部分適合": 6,
+      "適合": 1
+    },
+    "D5": {
+      "部分適合": 7,
+      "適合": 4
+    },
+    "E1": {
+      "部分適合": 72,
+      "適合": 14
+    },
+    "E2": {
+      "部分適合": 18,
+      "適合": 2
+    },
+    "E3": {
+      "部分適合": 12,
+      "適合": 3
+    },
+    "E4": {
+      "適合": 2,
+      "部分適合": 11
+    },
+    "E5": {
+      "適合": 4,
+      "部分適合": 13
+    },
+    "F1": {},
+    "F2": {},
+    "F3": {
+      "不適合": 1
+    },
+    "F4": {
+      "部分適合": 1
+    }
+  },
+  "type_count_warning": "非排他的な型ラベル出現数。fitは場面全体の評価であり、個々のラベルの支持数・作品数・成功率ではない。未出現は型の不存在や削除根拠ではない。",
+  "assignment_inventory": [
+    {
+      "work_id": "G01-W01",
+      "title": "赤い仏像",
+      "body_status": "verified",
+      "episode_scope": "2009-05-04投稿322–390。本編322–384、同一投稿者の補足386/388を区別。『人型焼き』等別作を含めない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S001",
+        "G01-S021"
+      ]
+    },
+    {
+      "work_id": "G01-W02",
+      "title": "悪霊食い",
+      "body_status": "verified",
+      "episode_scope": "『悪霊食い』短編転載の本文全体。原スレ照合未実施。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S002"
+      ]
+    },
+    {
+      "work_id": "G01-W03",
+      "title": "IZUMO社航空機墜落事故の生存者",
+      "body_status": "verified",
+      "episode_scope": "『事件に関する重要な記録』録音・事件記録部分全体。IZUMO事故を含む短編。",
+      "alias_or_derivative": {
+        "classification": "転載見出しの別名",
+        "confirmed_duplicate_of": null,
+        "aliases": [
+          "事件に関する重要な記録"
+        ],
+        "notes": "IZUMO事故、生存少女、叔母、録音記録の固有要素が一致。別名を別作品に加算しない。"
+      },
+      "source_ids": [
+        "G01-S003"
+      ]
+    },
+    {
+      "work_id": "G01-W04",
+      "title": "裏S区",
+      "body_status": "verified",
+      "episode_scope": "2007-03-14投稿763–786の本編。後続コメントは物語の根拠にしない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S004"
+      ]
+    },
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "body_status": "unverified",
+      "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      },
+      "source_ids": [
+        "G01-S028",
+        "G01-S029"
+      ]
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "body_status": "unverified",
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称のX言及のみ。対象の物語本文は未同定。"
+      },
+      "source_ids": []
+    },
+    {
+      "work_id": "G01-W07",
+      "title": "ガンギギ",
+      "body_status": "verified",
+      "episode_scope": "洒落怖371、2022-10-10投稿1013–1014。本編全体、コメント除外。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S005"
+      ]
+    },
+    {
+      "work_id": "G01-W08",
+      "title": "気持ち悪いスナック",
+      "body_status": "verified",
+      "episode_scope": "タクシー運転手の語りと翌日の店訪問・後日談まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S006"
+      ]
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "body_status": "partial",
+      "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "alias_or_derivative": {
+        "classification": "ネットロア集合／異本群",
+        "confirmed_duplicate_of": null,
+        "notes": "第1–7話＋オマケを読了したがネット上の全体未網羅。第6話は操り型、第7話は同定推測。オマケはパロディとして本篇と分離。"
+      },
+      "source_ids": [
+        "G01-S007",
+        "G01-S022"
+      ]
+    },
+    {
+      "work_id": "G01-W10",
+      "title": "コッケさん",
+      "body_status": "verified",
+      "episode_scope": "禁称・儀礼説明から過去の迫害譚、固芥の字形まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S008"
+      ]
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "body_status": "unverified",
+      "episode_scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。"
+      },
+      "source_ids": [
+        "G01-S030"
+      ]
+    },
+    {
+      "work_id": "G01-W12",
+      "title": "地獄のバス",
+      "body_status": "verified",
+      "episode_scope": "修学旅行のバスでの排便と嘔吐の連鎖まで。笑える怪談カテゴリの単話。",
+      "alias_or_derivative": {
+        "classification": "非超常・笑い話",
+        "confirmed_duplicate_of": null,
+        "notes": "転載は「笑える怪談」カテゴリ。割当を削除しない。怖さ・笑いの効果測定ではない。"
+      },
+      "source_ids": [
+        "G01-S009"
+      ]
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "body_status": "unverified",
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストとX言及は本文の代用にならない。"
+      },
+      "source_ids": []
+    },
+    {
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "body_status": "verified",
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S024",
+        "G01-S025",
+        "G01-S026",
+        "G01-S027"
+      ]
+    },
+    {
+      "work_id": "G01-W15",
+      "title": "地下の丸穴",
+      "body_status": "verified",
+      "episode_scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S010"
+      ]
+    },
+    {
+      "work_id": "G01-W16",
+      "title": "つんつるてん",
+      "body_status": "verified",
+      "episode_scope": "犬を持つ男との追跡、仮説検討、トラック事故、多数の犬連れの結末まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S011"
+      ]
+    },
+    {
+      "work_id": "G01-W17",
+      "title": "トマトの頭をした男",
+      "body_status": "verified",
+      "episode_scope": "洒落怖380の2024-12-21投稿626–627「トマト男」のみ。同頁の旧友の霊の別話を除外。",
+      "alias_or_derivative": {
+        "classification": "本文で明示される別名",
+        "aliases": [
+          "トマト男"
+        ],
+        "confirmed_duplicate_of": null,
+        "notes": "同頁の旧友の霊の話は別作品として不採用。"
+      },
+      "source_ids": [
+        "G01-S012"
+      ]
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "body_status": "partial",
+      "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "alias_or_derivative": {
+        "classification": "実況型ネットロア／シリーズ",
+        "confirmed_duplicate_of": null,
+        "notes": "冒頭だけのコピペと、投稿121–134の本文を区別。TRPG・小説・漫画の派生は分析に含めない。"
+      },
+      "source_ids": [
+        "G01-S013",
+        "G01-S023"
+      ]
+    },
+    {
+      "work_id": "G01-W19",
+      "title": "ばりばり",
+      "body_status": "verified",
+      "episode_scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S014"
+      ]
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "body_status": "unverified",
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストと無関係小説は本文の代用にならない。"
+      },
+      "source_ids": []
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "body_status": "partial",
+      "episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+      "alias_or_derivative": {
+        "classification": "シリーズ候補／本文内の自己参照あり",
+        "confirmed_duplicate_of": null,
+        "notes": "転載見出しは蛇憑きの話、蛇が憑いた、去年亡くなった妹の話。2015年が前2篇を具体的に参照するが、割当の総称・投稿者の同一性は未確証。"
+      },
+      "source_ids": [
+        "G01-S015"
+      ]
+    },
+    {
+      "work_id": "G01-W22",
+      "title": "マイナスドライバー",
+      "body_status": "verified",
+      "episode_scope": "2000-06-15投稿175の浴室・鍵穴の短編全体。後年の同名創作は除外。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S016"
+      ]
+    },
+    {
+      "work_id": "G01-W23",
+      "title": "ヤドリギ",
+      "body_status": "verified",
+      "episode_scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S017"
+      ]
+    },
+    {
+      "work_id": "G01-W24",
+      "title": "ゆき・富士の影",
+      "body_status": "verified",
+      "episode_scope": "Uが語る「ゆき」の怪談、発声の変化、帰郷後の葬儀まで。",
+      "alias_or_derivative": {
+        "classification": "複合見出し／同一篇",
+        "aliases": [
+          "ゆき",
+          "富士の影"
+        ],
+        "confirmed_duplicate_of": null,
+        "notes": "地理の言及と怪談「ゆき」を含む単一本文を1項目として扱う。"
+      },
+      "source_ids": [
+        "G01-S018"
+      ]
+    },
+    {
+      "work_id": "G01-W25",
+      "title": "ヨウコウ",
+      "body_status": "verified",
+      "episode_scope": "祖父の山での遭遇・逃走、死後の祖母の説明まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S019"
+      ]
+    },
+    {
+      "work_id": "G01-W26",
+      "title": "両面宿儺(リョウメンスクナ)",
+      "body_status": "verified",
+      "episode_scope": "洒落怖109投稿452–515本編と電話説明。別投稿者476/477の漫画解釈は根拠にしない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "source_ids": [
+        "G01-S020"
+      ]
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "body_status": "unverified",
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      },
+      "source_ids": []
+    },
+    {
+      "work_id": "G02-W01",
+      "title": "アクロバティックサラサラ",
+      "body_status": "verified",
+      "episode_scope": "編集転載1〜4頁のスレッド物語。初出スレッド全レス・漫画等の全派生は未網羅",
+      "alias_or_derivative": "アクサラ／悪皿、転載題「ヤヴァイ奴に遭遇したかもしれん」。八尺様や漫画のキャラクターと同一話として集計しない",
+      "source_ids": [
+        "G02-S001",
+        "G02-S002",
+        "G02-S003",
+        "G02-S004"
+      ]
+    },
+    {
+      "work_id": "G02-W02",
+      "title": "アシュラさん",
+      "body_status": "verified",
+      "episode_scope": "転載の単話。参照先リョウメンスクナ本編は本割当の追加作品にしない",
+      "alias_or_derivative": "リョウメンスクナへの明示的な参照を持つ別の伝聞投稿。同一話の転載とは未確認",
+      "source_ids": [
+        "G02-S005"
+      ]
+    },
+    {
+      "work_id": "G02-W03",
+      "title": "一本足の妖女",
+      "body_status": "unverified",
+      "episode_scope": "対象本文の範囲を設定できず。未検証",
+      "alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "source_ids": [
+        "G02-S006"
+      ]
+    },
+    {
+      "work_id": "G02-W04",
+      "title": "エレベーターで異世界に行く方法",
+      "body_status": "partial",
+      "episode_scope": "伝承される操作手順の二次説明を比較。原投稿の全文・各実況シリーズは未確認",
+      "alias_or_derivative": "異世界エレベーターという儀式型伝承。単一作品の同定保留",
+      "source_ids": [
+        "G02-S012",
+        "G02-S013"
+      ]
+    },
+    {
+      "work_id": "G02-W05",
+      "title": "おおいさん",
+      "body_status": "verified",
+      "episode_scope": "店舗での遭遇・針金模型・再来店までの単話",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S014"
+      ]
+    },
+    {
+      "work_id": "G02-W06",
+      "title": "鏡の中のナナちゃん",
+      "body_status": "verified",
+      "episode_scope": "幼少期の交友、帰省後の再会、妊娠中の妻についての結末",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S015"
+      ]
+    },
+    {
+      "work_id": "G02-W07",
+      "title": "カン、カン",
+      "body_status": "verified",
+      "episode_scope": "本編一話のみ。後日談・全シリーズ未網羅",
+      "alias_or_derivative": "表記「カンカン」等。本編と後日談は別エピソード",
+      "source_ids": [
+        "G02-S016"
+      ]
+    },
+    {
+      "work_id": "G02-W08",
+      "title": "ギュウギュウ詰めの軽自動車",
+      "body_status": "unverified",
+      "episode_scope": "対象本文の範囲を設定できず。未検証",
+      "alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "source_ids": [
+        "G02-S007"
+      ]
+    },
+    {
+      "work_id": "G02-W09",
+      "title": "狂った家族",
+      "body_status": "verified",
+      "episode_scope": "家庭事件、同僚・僧侶の救援、番外の原因説明",
+      "alias_or_derivative": "ヒッチハイクの一家を動画等が狂った家族と呼ぶ場合があっても、この転載とは別話",
+      "source_ids": [
+        "G02-S017"
+      ]
+    },
+    {
+      "work_id": "G02-W10",
+      "title": "怖いよアンガールズ",
+      "body_status": "verified",
+      "episode_scope": "選定単話全編。パロディ等は対象外",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S018"
+      ]
+    },
+    {
+      "work_id": "G02-W11",
+      "title": "猿夢",
+      "body_status": "verified",
+      "episode_scope": "主分析は2000年表記の三投稿。2007年同名版は異本比較のみ。猿夢＋・コメント体験は未網羅",
+      "alias_or_derivative": "同名の2000年表記版と2007年表記版を一項目内で区別。独立作品数には後者を追加しない",
+      "source_ids": [
+        "G02-S019",
+        "G02-S020"
+      ]
+    },
+    {
+      "work_id": "G02-W12",
+      "title": "死なず舞妓",
+      "body_status": "unverified",
+      "episode_scope": "対象本文の範囲を設定できず。未検証",
+      "alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "source_ids": [
+        "G02-S008",
+        "G02-S009"
+      ]
+    },
+    {
+      "work_id": "G02-W13",
+      "title": "寿司ノ神国駅",
+      "body_status": "unverified",
+      "episode_scope": "対象本文の範囲を設定できず。未検証",
+      "alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "source_ids": [
+        "G02-S010"
+      ]
+    },
+    {
+      "work_id": "G02-W14",
+      "title": "空を飛ぶ炎に包まれた真っ黒な人型の物体",
+      "body_status": "verified",
+      "episode_scope": "目撃投稿と翌日の補足のみ",
+      "alias_or_derivative": "内容の一致による長い記述題の同定。掲載一覧とは異なり本文の出自はenigma",
+      "source_ids": [
+        "G02-S021"
+      ]
+    },
+    {
+      "work_id": "G02-W15",
+      "title": "チガヤ",
+      "body_status": "verified",
+      "episode_scope": "転載全編。続編・他作品への接続は未調査",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S022"
+      ]
+    },
+    {
+      "work_id": "G02-W16",
+      "title": "つぎはぎ柄の猿みたいなヤツ",
+      "body_status": "unverified",
+      "episode_scope": "対象本文の範囲を設定できず。未検証",
+      "alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "source_ids": [
+        "G02-S011"
+      ]
+    },
+    {
+      "work_id": "G02-W17",
+      "title": "なにか",
+      "body_status": "verified",
+      "episode_scope": "祖父のバイク旅行中の遭遇を伝える選定単話",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S023"
+      ]
+    },
+    {
+      "work_id": "G02-W18",
+      "title": "廃道の向こう側",
+      "body_status": "verified",
+      "episode_scope": "三人の廃道探索〜無事帰宅と入口の再封鎖",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S024"
+      ]
+    },
+    {
+      "work_id": "G02-W19",
+      "title": "禁后",
+      "body_status": "verified",
+      "episode_scope": "本編＋続き。映像ドラマ・創作解説は除外。シリーズの全派生未網羅",
+      "alias_or_derivative": "「パンドラ」「禁后」は本編と続きの題名関係。割当内の二項目に増やさない",
+      "source_ids": [
+        "G02-S025",
+        "G02-S026"
+      ]
+    },
+    {
+      "work_id": "G02-W20",
+      "title": "ヒッチハイク",
+      "body_status": "verified",
+      "episode_scope": "旅の開始、一家の車、森林逃走、トイレ、町への移動と廃車、帰宅後まで",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S027"
+      ]
+    },
+    {
+      "work_id": "G02-W21",
+      "title": "マネキンのいる家",
+      "body_status": "verified",
+      "episode_scope": "友人宅への訪問と疎遠になる後日、十四年後の回想。三頁全編",
+      "alias_or_derivative": "掲載題「マネキンのいる家」と本文題「マネキン」を内容から対応。同定は高確信、原一覧リンクの直接照合は未実施",
+      "source_ids": [
+        "G02-S028",
+        "G02-S029",
+        "G02-S030"
+      ]
+    },
+    {
+      "work_id": "G02-W22",
+      "title": "みっつの選択",
+      "body_status": "verified",
+      "episode_scope": "白い部屋〜犠牲選択〜遺影、飲み会の枠物語まで",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S031"
+      ]
+    },
+    {
+      "work_id": "G02-W23",
+      "title": "山奥のラーメン屋",
+      "body_status": "verified",
+      "episode_scope": "カップルの迷い〜帰路の回復と地元説明",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S032"
+      ]
+    },
+    {
+      "work_id": "G02-W24",
+      "title": "夢鬼",
+      "body_status": "verified",
+      "episode_scope": "全収録転載の長編本文と末尾補足。原投稿掲載先・初出版との一致、全派生は未確認",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S033"
+      ]
+    },
+    {
+      "work_id": "G02-W25",
+      "title": "404号室",
+      "body_status": "verified",
+      "episode_scope": "404号室の契約〜主人公が取り残される結末",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S034"
+      ]
+    },
+    {
+      "work_id": "G02-W26",
+      "title": "旅館の求人",
+      "body_status": "verified",
+      "episode_scope": "単話の全編。別話リゾートバイト等を代用しない",
+      "alias_or_derivative": "割当内の他項目との同一話は確認されない",
+      "source_ids": [
+        "G02-S035"
+      ]
+    },
+    {
+      "work_id": "G03-W01",
+      "title": "赤福アキちゃん",
+      "body_status": "partial",
+      "episode_scope": "泉の広場・赤い服の女 Part2。投稿29（転載元169）と204〜238のアキちゃん由来談を中心に同頁の投稿群を確認。Part1・Part3未網羅。",
+      "alias_or_derivative": "赤福／泉の広場の赤い女／アキちゃんは集合的な別称。同頁の語り手自身も由来談を幽霊と無関係と断る。あきちんとの同一性根拠なし。",
+      "source_ids": [
+        "G03-S001"
+      ]
+    },
+    {
+      "work_id": "G03-W02",
+      "title": "あきちん",
+      "body_status": "verified",
+      "episode_scope": "単篇。ホラスト掲載版の冒頭〜末尾。動画の続編・3rdは含めない。",
+      "alias_or_derivative": "あきちん。タイピング版では先生の失踪時期・結末が異なるため採用しない。",
+      "source_ids": [
+        "G03-S002"
+      ]
+    },
+    {
+      "work_id": "G03-W03",
+      "title": "井戸の足臭女",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S025"
+      ]
+    },
+    {
+      "work_id": "G03-W04",
+      "title": "エツ子さん",
+      "body_status": "verified",
+      "episode_scope": "エツコさん掲載版の全本文。作中に埋め込まれた古い話は作中伝聞。",
+      "alias_or_derivative": "割当の「エツ子さん」と「エツコさん」を表記異本候補として対応。原典の同定確信は中程度。別の新耳袋の同名人物談を除外。",
+      "source_ids": [
+        "G03-S003"
+      ]
+    },
+    {
+      "work_id": "G03-W05",
+      "title": "オンドウサマ",
+      "body_status": "verified",
+      "episode_scope": "2011/07/27〜28の投稿259〜315。fumibako掲載の単一相談スレ本文。",
+      "alias_or_derivative": "オンドウサマ／オンドウ様表記。2013年の別話「オンドウ様」は除外。後世コメントの死亡報告を続編確定にしない。",
+      "source_ids": [
+        "G03-S004"
+      ]
+    },
+    {
+      "work_id": "G03-W06",
+      "title": "家族の奇行の真相",
+      "body_status": "verified",
+      "episode_scope": "ホラストの単篇全文。",
+      "alias_or_derivative": "家族の奇行の真相。追加設定を含めない。",
+      "source_ids": [
+        "G03-S005"
+      ]
+    },
+    {
+      "work_id": "G03-W07",
+      "title": "姦姦蛇螺",
+      "body_status": "verified",
+      "episode_scope": "夜行列車転載3頁、本編・背景説明・報告終結まで。",
+      "alias_or_derivative": "姦姦蛇螺。由来の歴史は作品内伝説であり外部史実ではない。",
+      "source_ids": [
+        "G03-S006",
+        "G03-S007",
+        "G03-S008"
+      ]
+    },
+    {
+      "work_id": "G03-W08",
+      "title": "巨頭オ",
+      "body_status": "verified",
+      "episode_scope": "SpookyLib「あらすじ」内に掲載された一人称短篇全体のみ。後続考察を物語事実にしない。",
+      "alias_or_derivative": "巨頭オ／巨頭ｵ。映画・続編や村の字の脱落説を原典設定にしない。",
+      "source_ids": [
+        "G03-S009"
+      ]
+    },
+    {
+      "work_id": "G03-W09",
+      "title": "愚乱怒狂魔ちゃん",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S026"
+      ]
+    },
+    {
+      "work_id": "G03-W10",
+      "title": "The_Color-Stealing_Man",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S027"
+      ]
+    },
+    {
+      "work_id": "G03-W11",
+      "title": "サンヌキカノ",
+      "body_status": "verified",
+      "episode_scope": "nazologの2009/01/16〜20投稿群665等〜788。本編、応答、語り手の終結。",
+      "alias_or_derivative": "サンヌキカノ。応答者のサノキ伝承との同一性は未確定。",
+      "source_ids": [
+        "G03-S010"
+      ]
+    },
+    {
+      "work_id": "G03-W12",
+      "title": "シシノケ",
+      "body_status": "verified",
+      "episode_scope": "「変なものを見てしまった」2010/04/12〜13の本編スレ転載。本文終結と最後の応答まで。別人の未完「その後」は未採用。",
+      "alias_or_derivative": "シシノケはスレ参加者の同定候補。語り手が現地名候補を否定し、老人は複数名を留保する。",
+      "source_ids": [
+        "G03-S011"
+      ]
+    },
+    {
+      "work_id": "G03-W13",
+      "title": "巣くうもの",
+      "body_status": "partial",
+      "episode_scope": "シリーズ第1話「巣くうもの」1〜3頁、本編＋後書き。呪いの部屋等の後続7話は未読。",
+      "alias_or_derivative": "シリーズ全体と第1話を同一範囲扱いしない。後書きは初出との同一投稿者確認なし。",
+      "source_ids": [
+        "G03-S012",
+        "G03-S013",
+        "G03-S014"
+      ]
+    },
+    {
+      "work_id": "G03-W14",
+      "title": "空に浮かぶ「い」",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S028"
+      ]
+    },
+    {
+      "work_id": "G03-W15",
+      "title": "血雪",
+      "body_status": "verified",
+      "episode_scope": "ホラスト「血雪」冒頭〜末尾。",
+      "alias_or_derivative": "血雪。橋での出来事は父の伝聞、後半は語り手の観測。",
+      "source_ids": [
+        "G03-S015"
+      ]
+    },
+    {
+      "work_id": "G03-W16",
+      "title": "透眼",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S029"
+      ]
+    },
+    {
+      "work_id": "G03-W17",
+      "title": "ナールナーシュ",
+      "body_status": "verified",
+      "episode_scope": "ミステリー掲載「ナール・ナーシュ」全本文。",
+      "alias_or_derivative": "割当「ナールナーシュ」の中点異本。現サイトは編集掲載を明記するため逐字原典ではない。",
+      "source_ids": [
+        "G03-S016"
+      ]
+    },
+    {
+      "work_id": "G03-W18",
+      "title": "鼻歌・んー",
+      "body_status": "verified",
+      "episode_scope": "「女性の低い声で鼻歌が聴こえてきます」単篇全本文。",
+      "alias_or_derivative": "鼻歌／んーの別題候補として同定。初出題名は未確認。",
+      "source_ids": [
+        "G03-S017"
+      ]
+    },
+    {
+      "work_id": "G03-W19",
+      "title": "一つ目のっぺらぼう",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S030"
+      ]
+    },
+    {
+      "work_id": "G03-W20",
+      "title": "人型焼き",
+      "body_status": "verified",
+      "episode_scope": "ミステリー掲載「人型焼き」全本文。",
+      "alias_or_derivative": "人型焼き。創作改稿の有無は原典未照合。",
+      "source_ids": [
+        "G03-S018"
+      ]
+    },
+    {
+      "work_id": "G03-W21",
+      "title": "漫湖マン",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S031"
+      ]
+    },
+    {
+      "work_id": "G03-W22",
+      "title": "みっちり乗った軽自動車",
+      "body_status": "partial",
+      "episode_scope": "2011/08/11投稿926（パラノーマル掲載の白いワゴンRとは別投稿）。3文の全文を確認。ただし割当名との同定は留保。",
+      "alias_or_derivative": "無題投稿926を「みっちり乗った軽自動車」の候補とする。平野の白いワゴンR本篇と混ぜない。",
+      "source_ids": [
+        "G03-S019"
+      ]
+    },
+    {
+      "work_id": "G03-W23",
+      "title": "やまけらし様",
+      "body_status": "verified",
+      "episode_scope": "ミステリーの単篇全本文。",
+      "alias_or_derivative": "やまけらし様。山の少女と付着した脅威を別存在として記録。",
+      "source_ids": [
+        "G03-S020"
+      ]
+    },
+    {
+      "work_id": "G03-W24",
+      "title": "友人様",
+      "body_status": "unverified",
+      "episode_scope": "原話未同定・対象エピソード未固定。",
+      "alias_or_derivative": "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。",
+      "source_ids": [
+        "G03-S032"
+      ]
+    },
+    {
+      "work_id": "G03-W25",
+      "title": "妖怪退治の仕事してるけど、何か質問ある?",
+      "body_status": "partial",
+      "episode_scope": "16話の索引中「太平洋側の島の話」1〜2頁と「禁山」全文の2エピソード。ほか14話・スレの全Q&A未網羅。",
+      "alias_or_derivative": "妖怪退治の仕事シリーズ。題名の職業説明を全話の敵対戦闘としない。",
+      "source_ids": [
+        "G03-S021",
+        "G03-S022",
+        "G03-S023"
+      ]
+    },
+    {
+      "work_id": "G03-W26",
+      "title": "リンフォン",
+      "body_status": "verified",
+      "episode_scope": "2006/05/13投稿183〜207のRINFONE I〜VIII。2025年記事の本文転載欄のみ採用。",
+      "alias_or_derivative": "リンフォン／RINFONE。後世の星座解釈や二つ目の実在説は本文設定にしない。",
+      "source_ids": [
+        "G03-S024"
+      ]
+    },
+    {
+      "work_id": "G04-W01",
+      "title": "赤いマフラーの女",
+      "body_status": "unverified",
+      "episode_scope": "割当作品の本文未確定",
+      "alias_or_derivative": "同名・近似名候補があり同定未完了。",
+      "source_ids": [
+        "G04-S001",
+        "G04-S002"
+      ]
+    },
+    {
+      "work_id": "G04-W02",
+      "title": "紅い階段",
+      "body_status": "unverified",
+      "episode_scope": "割当作品の本文未確定",
+      "alias_or_derivative": "同名・近似名候補があり同定未完了。",
+      "source_ids": [
+        "G04-S003"
+      ]
+    },
+    {
+      "work_id": "G04-W03",
+      "title": "渦人形",
+      "body_status": "verified",
+      "episode_scope": "2011年5月投稿転載の学校合宿から人形破壊・後年の回顧まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S005"
+      ]
+    },
+    {
+      "work_id": "G04-W04",
+      "title": "朧の山",
+      "body_status": "verified",
+      "episode_scope": "2025/01/29投稿897・899と応答898。後世コメントの自然現象説は除外。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S006"
+      ]
+    },
+    {
+      "work_id": "G04-W05",
+      "title": "オムライス",
+      "body_status": "verified",
+      "episode_scope": "2010/07/29投稿転載。注文客と職場の出来事から退職まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S007"
+      ]
+    },
+    {
+      "work_id": "G04-W06",
+      "title": "蟹風呂",
+      "body_status": "verified",
+      "episode_scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S008"
+      ]
+    },
+    {
+      "work_id": "G04-W07",
+      "title": "危険な好奇心",
+      "body_status": "verified",
+      "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S009",
+        "G04-S010",
+        "G04-S011"
+      ]
+    },
+    {
+      "work_id": "G04-W08",
+      "title": "着物の少女",
+      "body_status": "verified",
+      "episode_scope": "幼少期の山での交流、別れ、病気、後年の回顧まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S012"
+      ]
+    },
+    {
+      "work_id": "G04-W09",
+      "title": "校内放送",
+      "body_status": "partial",
+      "episode_scope": "候補A：2009年Part223、843・845・847の旧校舎の少女。候補B：「謎の校内放送」の呼び出し。双方読了だが割当との同定未完了。",
+      "alias_or_derivative": "候補AとBは内容の異なる話。同一の割当作品に確定しない。",
+      "source_ids": [
+        "G04-S013",
+        "G04-S014"
+      ]
+    },
+    {
+      "work_id": "G04-W10",
+      "title": "最初で最後の魚",
+      "body_status": "verified",
+      "episode_scope": "2003/02/03「オキ」投稿578〜582のみ。同ページの「ミシマ沖」は別作品で除外。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S015"
+      ]
+    },
+    {
+      "work_id": "G04-W11",
+      "title": "時空のおっさん",
+      "body_status": "partial",
+      "episode_scope": "2009/04/25投稿228・230の小学4年生と自転車の話だけ。呼称で集められる他エピソードは未網羅。",
+      "alias_or_derivative": "単一著者の全シリーズとは確定せず、共通モチーフの集合名。",
+      "source_ids": [
+        "G04-S016"
+      ]
+    },
+    {
+      "work_id": "G04-W12",
+      "title": "師匠シリーズ",
+      "body_status": "partial",
+      "episode_scope": "対象は「降霊実験」「壷」の2話のみ。掲載ページの紹介件数と目次に揺れがあり総話数を確定しない。シリーズ全体未網羅。",
+      "alias_or_derivative": "集合項目。分析単位は2エピソード。",
+      "source_ids": [
+        "G04-S017"
+      ]
+    },
+    {
+      "work_id": "G04-W13",
+      "title": "須磨海岸にて",
+      "body_status": "verified",
+      "episode_scope": "2004/07/14の本編と投稿後の応答・変化を含む転載。別投稿者の消息説明は裏付けなし。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S018"
+      ]
+    },
+    {
+      "work_id": "G04-W14",
+      "title": "田所君(洒落怖)",
+      "body_status": "verified",
+      "episode_scope": "怪談の前置きに関する回顧、田所君の「蓋」の語りと失踪、後の疑問まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S019"
+      ]
+    },
+    {
+      "work_id": "G04-W15",
+      "title": "千寿江(洒落怖)",
+      "body_status": "verified",
+      "episode_scope": "祖母の人形、妹の死、介護、祖母の窒息死、親族の説明まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S020"
+      ]
+    },
+    {
+      "work_id": "G04-W16",
+      "title": "トンネル内の雨音",
+      "body_status": "partial",
+      "episode_scope": "「Cだけは青ざめていた」というトンネルの雨音の短篇。割当表題との同一性は未確定。",
+      "alias_or_derivative": "内容の合う別表題候補。同一話の別名か未確定。",
+      "source_ids": [
+        "G04-S021"
+      ]
+    },
+    {
+      "work_id": "G04-W17",
+      "title": "謎の人物(洒落怖)",
+      "body_status": "verified",
+      "episode_scope": "異様な大柄の人物の目撃、友人たちの経験、東京転居後の類似報告まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S022"
+      ]
+    },
+    {
+      "work_id": "G04-W18",
+      "title": "ハカソヤ",
+      "body_status": "verified",
+      "episode_scope": "2007/02/08投稿359〜371の護符・叔母の伝承・語り手の由来推論。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S023"
+      ]
+    },
+    {
+      "work_id": "G04-W19",
+      "title": "ヒョウタンヘビ",
+      "body_status": "verified",
+      "episode_scope": "短篇の子どもたちの探索・発見・後年の回顧全文。コメントの生物学説は除外。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S024"
+      ]
+    },
+    {
+      "work_id": "G04-W20",
+      "title": "人型の物体",
+      "body_status": "unverified",
+      "episode_scope": "割当作品の本文未確定",
+      "alias_or_derivative": "同名・近似名候補があり同定未完了。",
+      "source_ids": [
+        "G04-S004"
+      ]
+    },
+    {
+      "work_id": "G04-W21",
+      "title": "まるはっちん",
+      "body_status": "verified",
+      "episode_scope": "2002/08/03〜04 Part16の本編と作者の構成説明。冒頭の別話「ミンキーモモ」は除外。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S025"
+      ]
+    },
+    {
+      "work_id": "G04-W22",
+      "title": "迷惑電話(洒落怖)",
+      "body_status": "verified",
+      "episode_scope": "2014/10/15投稿38の電話の短篇全文。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S026"
+      ]
+    },
+    {
+      "work_id": "G04-W23",
+      "title": "ヤマノケ",
+      "body_status": "verified",
+      "episode_scope": "2007/02/05投稿167〜169。車内遭遇、寺での処置、1週間後の未回復まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S027"
+      ]
+    },
+    {
+      "work_id": "G04-W24",
+      "title": "夢の中に現れた窓を覗く女",
+      "body_status": "verified",
+      "episode_scope": "2024/12/22投稿636の夢と2025/01/03投稿680の後日談。夢内・覚醒後の友人説明を分離。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S028"
+      ]
+    },
+    {
+      "work_id": "G04-W25",
+      "title": "リアル",
+      "body_status": "verified",
+      "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S029",
+        "G04-S030",
+        "G04-S031",
+        "G04-S032",
+        "G04-S033",
+        "G04-S034",
+        "G04-S035"
+      ]
+    },
+    {
+      "work_id": "G04-W26",
+      "title": "ワラズマ",
+      "body_status": "verified",
+      "episode_scope": "幼少期の禁じた部屋、大学時代のAとの遭遇、家族・兄の説明、後年の目撃まで。",
+      "alias_or_derivative": "割当内の同一話重複は確認されていない。",
+      "source_ids": [
+        "G04-S036"
+      ]
+    },
+    {
+      "work_id": "G05-W01",
+      "title": "アケミちゃん",
+      "body_status": "verified",
+      "episode_scope": "電車遭遇の前段と本編・最終報告。各転載ページの投稿本文を対象とし読者コメント・後世の漫画は除外。",
+      "alias_or_derivative": "前段と本編は連続する人物の話として1作品。独立した2作品とは数えない。",
+      "source_ids": [
+        "G05-S01-01",
+        "G05-S01-02"
+      ]
+    },
+    {
+      "work_id": "G05-W02",
+      "title": "ありがとう、ウルトラマン",
+      "body_status": "verified",
+      "episode_scope": "2006年投稿群の絵購入から霊能者の処置・最終の謝辞まで。派生ヒーロー怪談は除外。",
+      "alias_or_derivative": "同名転載は同一投稿群。ヒーローが救う喜劇的な語りを含むが非ホラー断定はしない。",
+      "source_ids": [
+        "G05-S02-01"
+      ]
+    },
+    {
+      "work_id": "G05-W03",
+      "title": "海からやってくるモノ",
+      "body_status": "verified",
+      "episode_scope": "転載3頁のドライブ旅行本編と友人・犬の後日談。関連する別作品群は対象外。",
+      "alias_or_derivative": "「海からやってくるもの」等の表記揺れは同一本文候補。題名が似た別話は加算しない。",
+      "source_ids": [
+        "G05-S03-01",
+        "G05-S03-02",
+        "G05-S03-03"
+      ]
+    },
+    {
+      "work_id": "G05-W04",
+      "title": "女の字の怪",
+      "body_status": "unverified",
+      "episode_scope": "対象本文を同定・取得できず。",
+      "alias_or_derivative": "別名・派生・独立性は未判定。",
+      "source_ids": []
+    },
+    {
+      "work_id": "G05-W05",
+      "title": "オキテル",
+      "body_status": "verified",
+      "episode_scope": "砂風呂の遭遇から同行者への報告までの単話。",
+      "alias_or_derivative": "派生・映像化は対象外。非超常の犯罪者解釈も本文上は排除しない。",
+      "source_ids": [
+        "G05-S05-01"
+      ]
+    },
+    {
+      "work_id": "G05-W06",
+      "title": "禍垂",
+      "body_status": "verified",
+      "episode_scope": "掲載されたトンネル遭遇、儀礼、専門家の後の説明までの本編。",
+      "alias_or_derivative": "Uという人物はW23のU先生とは別。名の共通で統合しない。",
+      "source_ids": [
+        "G05-S06-01"
+      ]
+    },
+    {
+      "work_id": "G05-W07",
+      "title": "きじまさん",
+      "body_status": "verified",
+      "episode_scope": "作り話の提示、流布した体験談、話の創作者への確認までの単話。",
+      "alias_or_derivative": "語りの中に創作された「きじまさん」怪談が入る。流布中の各体験談を独立作品として加算しない。",
+      "source_ids": [
+        "G05-S07-01"
+      ]
+    },
+    {
+      "work_id": "G05-W08",
+      "title": "朽縄様",
+      "body_status": "verified",
+      "episode_scope": "祖父の由来話と孫の一晩の防御・翌朝の説明まで。",
+      "alias_or_derivative": "由来の過去譚と現代の同一作品。別エピソードとして水増ししない。",
+      "source_ids": [
+        "G05-S08-01"
+      ]
+    },
+    {
+      "work_id": "G05-W09",
+      "title": "高校のクラス全員で悪霊と戦った話させてくれ",
+      "body_status": "verified",
+      "episode_scope": "4部の投稿本文、読者への呪いを主張する追記、それを偽投稿とする後続訂正まで。",
+      "alias_or_derivative": "2016年の投稿群。第三者の偽追記を作者本編の規則と混同しない。",
+      "source_ids": [
+        "G05-S09-01",
+        "G05-S09-02",
+        "G05-S09-03",
+        "G05-S09-04"
+      ]
+    },
+    {
+      "work_id": "G05-W10",
+      "title": "逆さの樵面",
+      "body_status": "verified",
+      "episode_scope": "神楽復元、封じられた面の回収、由来説明と座長の死まで。後世の再話は除外。",
+      "alias_or_derivative": "過去の出来事を子孫が伝聞と想像で再構成すると明記する版。",
+      "source_ids": [
+        "G05-S10-01"
+      ]
+    },
+    {
+      "work_id": "G05-W11",
+      "title": "自己責任(洒落怖)",
+      "body_status": "verified",
+      "episode_scope": "封じられた家の写真に触れる少年たちの事件、後日談、語り手の読者への伝達まで。",
+      "alias_or_derivative": "同名の別呪い文は含めない。掲載は作品内で読者を巻き込む語りを持つ。",
+      "source_ids": [
+        "G05-S11-01"
+      ]
+    },
+    {
+      "work_id": "G05-W12",
+      "title": "邪視",
+      "body_status": "verified",
+      "episode_scope": "叔父との山小屋での遭遇から退避・小屋の処分まで。",
+      "alias_or_derivative": "同タイトルの邪眼解説・一般民俗論は混ぜない。",
+      "source_ids": [
+        "G05-S12-01"
+      ]
+    },
+    {
+      "work_id": "G05-W13",
+      "title": "背無し",
+      "body_status": "verified",
+      "episode_scope": "背中を確かめる運転、車内出現、事故、警察の説明と5年の後日談。",
+      "alias_or_derivative": "同名転載を同一単話として扱う。",
+      "source_ids": [
+        "G05-S13-01"
+      ]
+    },
+    {
+      "work_id": "G05-W14",
+      "title": "地下の井戸",
+      "body_status": "verified",
+      "episode_scope": "花配達から組織の地下搬送、井戸の目撃、逃亡と投稿の結末まで。",
+      "alias_or_derivative": "実話と称する語りでも組織・軍施設・犠牲の記述は作品内設定。派生のチェーンソー作品は除外。",
+      "source_ids": [
+        "G05-S14-01"
+      ]
+    },
+    {
+      "work_id": "G05-W15",
+      "title": "ツンバイさん",
+      "body_status": "verified",
+      "episode_scope": "小5の一輪車と写真、小6の別児童の目撃まで。",
+      "alias_or_derivative": "「つん這いさん」は表記異名。同一本文。",
+      "source_ids": [
+        "G05-S15-01"
+      ]
+    },
+    {
+      "work_id": "G05-W16",
+      "title": "ドライブイン",
+      "body_status": "verified",
+      "episode_scope": "林道への誤進入、ドライブイン、女子学生との退避、警察の照合と消失まで。",
+      "alias_or_derivative": "同名の異なるドライブイン怪談と混ぜず、この林道・失踪学生版を固定。",
+      "source_ids": [
+        "G05-S16-01"
+      ]
+    },
+    {
+      "work_id": "G05-W17",
+      "title": "人間をついばむカラスはすぐ殺せ",
+      "body_status": "verified",
+      "episode_scope": "本編と同じ掲載ページの後日談。絵の読み直しと卵の処分・安置まで。",
+      "alias_or_derivative": "掲載版はホラーテラー投稿を掲げる。2chを直接の初出と断定しない。",
+      "source_ids": [
+        "G05-S17-01"
+      ]
+    },
+    {
+      "work_id": "G05-W18",
+      "title": "八尺様",
+      "body_status": "verified",
+      "episode_scope": "初遭遇、一晩の隔離、村外への搬送、10年後の祖母の電話まで。",
+      "alias_or_derivative": "後世の性的・コメディ派生は対象外。同じ投稿本文のみ。",
+      "source_ids": [
+        "G05-S18-01"
+      ]
+    },
+    {
+      "work_id": "G05-W19",
+      "title": "ヒサルキ",
+      "body_status": "partial",
+      "episode_scope": "保育園編の投稿本文を全読了。他の失踪・山・動物等の関連エピソードは網羅していない。",
+      "alias_or_derivative": "ヒサルキは複数エピソードを結びつけて読まれる名称。保育園編1話だけでシリーズ全体を検証済みにしない。",
+      "source_ids": [
+        "G05-S19-01"
+      ]
+    },
+    {
+      "work_id": "G05-W20",
+      "title": "人を恨み続けていたら幼少の頃の友人を思い出す話",
+      "body_status": "verified",
+      "episode_scope": "恨み・夢・旧友の記憶から転職後の後日談までの掲載投稿群。",
+      "alias_or_derivative": "「人を恨み続けていたら幼少の頃の友人を思い出す」は末尾「話」を省く同一本文の表題。",
+      "source_ids": [
+        "G05-S20-01"
+      ]
+    },
+    {
+      "work_id": "G05-W21",
+      "title": "魔翠姫",
+      "body_status": "unverified",
+      "episode_scope": "対象本文を同定・取得できず。",
+      "alias_or_derivative": "同音名・カード名等の検索結果は別物で、置き換えない。",
+      "source_ids": []
+    },
+    {
+      "work_id": "G05-W22",
+      "title": "猛スピード",
+      "body_status": "verified",
+      "episode_scope": "屋上の望遠観察から逃走・一晩の待機・後日談までの単話。",
+      "alias_or_derivative": "同名の交通事故等の別話は除外。この屋上・裸の子供状の存在版を固定。",
+      "source_ids": [
+        "G05-S22-01"
+      ]
+    },
+    {
+      "work_id": "G05-W23",
+      "title": "U先生",
+      "body_status": "partial",
+      "episode_scope": "「光の誓い」の幼稚園のU先生と「幽霊が出る部屋」の小学校教師Uを各々読了。指定項目がどちらを指すか未確定。",
+      "alias_or_derivative": "二人の呼称一致以外に同一人物・同じ作品群とする根拠なし。候補本文を勝手にシリーズ化せず、一覧項目は1件のまま。",
+      "source_ids": [
+        "G05-S23-01",
+        "G05-S23-02"
+      ]
+    },
+    {
+      "work_id": "G05-W24",
+      "title": "夢魅",
+      "body_status": "verified",
+      "episode_scope": "廃寺地下の封じられた珠への接触、Kの夢と自傷、祖父・住職の由来説明、新しい箱への封じと移管まで。",
+      "alias_or_derivative": "歴史の4珠と現代の珠を区別。他の夢の怪談を設定として混ぜない。",
+      "source_ids": [
+        "G05-S24-01"
+      ]
+    },
+    {
+      "work_id": "G05-W25",
+      "title": "リゾートバイト",
+      "body_status": "verified",
+      "episode_scope": "転載版の全文：就労、上階の遭遇、逃走、堂の一晩、祓い、住職の由来説明、旅館の後日の連絡まで。",
+      "alias_or_derivative": "2009年ホラーテラー投稿を掲げる版。映画・改変再話・別の続編は含めない。関連する犠牲者数を独立作品数へ加算しない。",
+      "source_ids": [
+        "G05-S25-01"
+      ]
+    },
+    {
+      "work_id": "G05-W26",
+      "title": "ヲヲーンワ",
+      "body_status": "unverified",
+      "episode_scope": "名前の説明から指されたスレッド380の公開ログを検索したが対象本文を同定できず。",
+      "alias_or_derivative": "別掲示板の犬の鳴き声としての同じ文字列は別資料で、作品へ置き換えない。",
+      "source_ids": [
+        "G05-S26-01",
+        "G05-S26-02",
+        "G05-S26-03"
+      ]
+    }
+  ],
+  "missing_metadata_inventory": [
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S001",
+      "work_id": "G02-W01",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S002",
+      "work_id": "G02-W01",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S003",
+      "work_id": "G02-W01",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S004",
+      "work_id": "G02-W01",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S006",
+      "work_id": "G02-W03",
+      "url_identified": false,
+      "access_time_status": "timestamp_utc"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S007",
+      "work_id": "G02-W08",
+      "url_identified": false,
+      "access_time_status": "timestamp_utc"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S008",
+      "work_id": "G02-W12",
+      "url_identified": false,
+      "access_time_status": "timestamp_utc"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S010",
+      "work_id": "G02-W13",
+      "url_identified": false,
+      "access_time_status": "timestamp_utc"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S011",
+      "work_id": "G02-W16",
+      "url_identified": false,
+      "access_time_status": "timestamp_utc"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S012",
+      "work_id": "G02-W04",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S013",
+      "work_id": "G02-W04",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S019",
+      "work_id": "G02-W11",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S025",
+      "work_id": "G02-W19",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S026",
+      "work_id": "G02-W19",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S027",
+      "work_id": "G02-W20",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S028",
+      "work_id": "G02-W21",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S029",
+      "work_id": "G02-W21",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S030",
+      "work_id": "G02-W21",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S031",
+      "work_id": "G02-W22",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_02",
+      "source_id": "G02-S033",
+      "work_id": "G02-W24",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S001",
+      "work_id": "G03-W01",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S002",
+      "work_id": "G03-W02",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S003",
+      "work_id": "G03-W04",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S004",
+      "work_id": "G03-W05",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S005",
+      "work_id": "G03-W06",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S006",
+      "work_id": "G03-W07",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S007",
+      "work_id": "G03-W07",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S008",
+      "work_id": "G03-W07",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S009",
+      "work_id": "G03-W08",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S010",
+      "work_id": "G03-W11",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S011",
+      "work_id": "G03-W12",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S012",
+      "work_id": "G03-W13",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S013",
+      "work_id": "G03-W13",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S014",
+      "work_id": "G03-W13",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S015",
+      "work_id": "G03-W15",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S016",
+      "work_id": "G03-W17",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S017",
+      "work_id": "G03-W18",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S018",
+      "work_id": "G03-W20",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S019",
+      "work_id": "G03-W22",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S020",
+      "work_id": "G03-W23",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S021",
+      "work_id": "G03-W25",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S022",
+      "work_id": "G03-W25",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S023",
+      "work_id": "G03-W25",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S024",
+      "work_id": "G03-W26",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S025",
+      "work_id": "G03-W03",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S026",
+      "work_id": "G03-W09",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S027",
+      "work_id": "G03-W10",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S028",
+      "work_id": "G03-W14",
+      "url_identified": false,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S029",
+      "work_id": "G03-W16",
+      "url_identified": false,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S030",
+      "work_id": "G03-W19",
+      "url_identified": true,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S031",
+      "work_id": "G03-W21",
+      "url_identified": false,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_03",
+      "source_id": "G03-S032",
+      "work_id": "G03-W24",
+      "url_identified": false,
+      "access_time_status": "not_recorded"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S001",
+      "work_id": "G04-W01",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S002",
+      "work_id": "G04-W01",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S003",
+      "work_id": "G04-W02",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S004",
+      "work_id": "G04-W20",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S005",
+      "work_id": "G04-W03",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S006",
+      "work_id": "G04-W04",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S007",
+      "work_id": "G04-W05",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S008",
+      "work_id": "G04-W06",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S009",
+      "work_id": "G04-W07",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S010",
+      "work_id": "G04-W07",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S011",
+      "work_id": "G04-W07",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S012",
+      "work_id": "G04-W08",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S013",
+      "work_id": "G04-W09",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S014",
+      "work_id": "G04-W09",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S015",
+      "work_id": "G04-W10",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S016",
+      "work_id": "G04-W11",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S017",
+      "work_id": "G04-W12",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S018",
+      "work_id": "G04-W13",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S019",
+      "work_id": "G04-W14",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S020",
+      "work_id": "G04-W15",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S021",
+      "work_id": "G04-W16",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S022",
+      "work_id": "G04-W17",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S023",
+      "work_id": "G04-W18",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S024",
+      "work_id": "G04-W19",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S025",
+      "work_id": "G04-W21",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S026",
+      "work_id": "G04-W22",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S027",
+      "work_id": "G04-W23",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S028",
+      "work_id": "G04-W24",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S029",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S030",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S031",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S032",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S033",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S034",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S035",
+      "work_id": "G04-W25",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    },
+    {
+      "group_id": "group_04",
+      "source_id": "G04-S036",
+      "work_id": "G04-W26",
+      "url_identified": true,
+      "access_time_status": "date_only_utc"
+    }
+  ],
+  "cross_group_duplicate_audit": {
+    "confirmed_duplicate_assignment_pairs": 0,
+    "exact_url_overlap_pairs": [],
+    "status": "受領範囲で確定重複なし。全項目の独立性証明ではない。",
+    "unresolved_candidate_pairs": [
+      {
+        "work_ids": [
+          "G01-W05",
+          "G04-W08"
+        ],
+        "reason": "着物の少女は群1の比較候補。割当同定未達。"
+      },
+      {
+        "work_ids": [
+          "G02-W08",
+          "G03-W22"
+        ],
+        "reason": "車の形状・人数だけで同一話としない。双方の題名対応が未解決。"
+      },
+      {
+        "work_ids": [
+          "G02-W14",
+          "G04-W20"
+        ],
+        "reason": "一般的な形状名。後者の本文未同定。"
+      }
+    ]
+  },
+  "conclusion": {
+    "robustness_demonstrated": false,
+    "fear_effect_measured": false,
+    "trpg_play_effect_measured": false,
+    "new_types_adopted": 0,
+    "merge_or_delete_types_adopted": 0,
+    "received_candidate_count": 8,
+    "revision_status": "境界運用と修飾条件をv2-proposedに保留提案。v1不変。"
+  },
+  "limitations": [
+    "25項目は本文未確認、14項目は部分確認／題名同定留保。",
+    "転載の初出との完全一致、シリーズ全体、全異本は未保証。",
+    "独立した人間の再符号化・分析者間一致・盲検比較・怖さ効果の測定なし。",
+    "統合担当の出典再閲覧は重点例のみで一部取得不能。",
+    "構造検査は出典内容、著作権、分析の正しさを証明しない。"
+  ],
+  "candidate_synthesis": [
+    {
+      "received_ids": [
+        "G01-N01",
+        "G02-N01",
+        "G04-N02"
+      ],
+      "decision": "直接危害の関連残余。A2拡張・接触後・順序期限の修飾との比較を保留。"
+    },
+    {
+      "received_ids": [
+        "G01-N02",
+        "G04-N01"
+      ],
+      "decision": "公的露見と標的情報取得を区別し情報／損失対象の修飾を先行。"
+    },
+    {
+      "received_ids": [
+        "G02-N02"
+      ],
+      "decision": "具体的予期損失のない不気味さは定義域外の補助記述。"
+    },
+    {
+      "received_ids": [
+        "G03-N01"
+      ],
+      "decision": "内部侵入と外部付着を分離。位置・接触経路の修飾で比較。"
+    },
+    {
+      "received_ids": [
+        "G03-N02"
+      ],
+      "decision": "追跡のない再発予期。一般欄を先行しE5に強制しない。"
+    }
+  ],
+  "review_procedure": {
+    "all_structured_work_records_reviewed": 131,
+    "all_scene_records_reviewed": 258,
+    "source_reopening_scope": "重点例のみ。全原文の独立再読ではない。",
+    "reopened_examples": [
+      "G01-W22",
+      "G03-W23",
+      "G05-W24"
+    ],
+    "reopening_blocked_examples": [
+      "G04-W19",
+      "G05-W09"
+    ],
+    "validation_command": "python scripts/validate_repository.py --complete",
+    "validation_scope": "固定基準・131割当・5提出の構造検査。内容、著作権、効果の証明ではない。",
+    "validator_unit_tests_passed": 10,
+    "normalization": "日時とURLの欠測・精度、群4・5の独立性精度。元の本文状態・型・fit・confidence不変。"
+  }
+}
