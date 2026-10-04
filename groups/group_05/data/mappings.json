@@ -51,7 +51,9 @@
     "verified": 21,
     "partial": 2,
     "unverified": 3,
-    "independent_works": 22
+    "independent_works": null,
+    "independent_works_original": 22,
+    "independent_works_supported_lower_bound": 22
   },
   "count_notes": {
     "independent_works": "22は対象として同定できた独立作品単位の保守的な下限。21 verifiedとヒサルキ1シリーズ単位。U先生の2候補は対象同定保留で加算せず、本文不足3件も未確定。割当26と独立作品数は同義ではない。",
@@ -3961,5 +3963,15 @@
     "単一分析者、転載本文を基準、初出の逐語照合なし、シリーズ未網羅と対象同定保留あり。",
     "型への適合と実際の怖さ・作品の面白さ・TRPG設計効果は別。",
     "未確認3件は新型不要という結論の根拠にも、分類不能という反例にも数えない。"
-  ]
+  ],
+  "integration_normalization": {
+    "actor": "統合担当（AIセッション）",
+    "analysis_actor": "群05研究担当（AIセッション）",
+    "reason": "欠測の明示と件数の単位の区別。研究判断・本文状態・型候補・確信度は受領版から変更しない。",
+    "changes": [
+      "台帳の時刻精度・欠測理由・探索記録を追加。元の日時・URL・notesを保持。",
+      "台帳ミラーへ同じメタデータを追加。",
+      "independent_worksを確定総数としてnullに正規化。元の22と定義は保持し、選定範囲の物語単位または支持下限へ分離。"
+    ]
+  }
 }
