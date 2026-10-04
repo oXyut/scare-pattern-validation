@@ -2,12 +2,15 @@
 """Check the immutable baseline, assignment coverage and submitted research data."""
 import argparse
 import csv
+from datetime import datetime
 import hashlib
 import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+BASELINE_ID = 'fear-patterns-v1-26types'
+BASELINE_SHA256 = '5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c'
 TYPE_IDS = {f'{letter}{n}' for letter, size in [('A', 4), ('B', 4), ('C', 4), ('D', 5), ('E', 5), ('F', 4)] for n in range(1, size + 1)}
 WORK_FIELDS = {'work_id', 'title', 'body_status', 'source_ids', 'episode_scope', 'alias_or_derivative', 'overall_fears', 'scenes', 'unexplained_residue', 'counterexamples', 'change_proposals', 'confidence'}
 SCENE_FIELDS = {'scene_id', 'evidence_summary', 'source_ids', 'Q', 'D', 'C', 'M', 'information_state_change', 'onset_conditions', 'closure_conditions', 'local_or_global', 'type_ids', 'fit', 'competing_types', 'discriminators', 'residue', 'confidence'}
@@ -23,6 +26,8 @@ def validate(complete=False):
     baseline = baseline_path.read_bytes()
     provenance = json.loads((ROOT / 'baseline/v1-26types/provenance.json').read_text())
     digest = hashlib.sha256(baseline).hexdigest()
+    check(digest == BASELINE_SHA256, 'baseline: immutable v1 hash mismatch')
+    check(provenance.get('baseline_id') == BASELINE_ID, 'baseline: immutable v1 ID mismatch')
     check(digest == provenance['public_sha256'], 'baseline: public hash mismatch')
     check(len(baseline) == provenance['bytes'], 'baseline: byte count mismatch')
     check(len(baseline.splitlines()) == provenance['lines'], 'baseline: line count mismatch')
@@ -48,6 +53,7 @@ def validate(complete=False):
         if not all(exists):
             continue
         submitted.append(gid)
+        check(bool(paths[0].read_text().strip()), f'{gid}: empty report')
         mapping = json.loads(paths[1].read_text())
         check(mapping.get('group_id') == gid, f'{gid}: group ID mismatch')
         meta = mapping.get('baseline', {})
@@ -66,7 +72,7 @@ def validate(complete=False):
         for status in ['verified', 'partial', 'unverified']:
             check(counts.get(status) == statuses.count(status), f'{gid}: {status} count mismatch')
         independent = counts.get('independent_works')
-        check(independent is None or isinstance(independent, int) and 0 <= independent <= len(works), f'{gid}: invalid independent work count')
+        check(independent is None or type(independent) is int and 0 <= independent <= len(works), f'{gid}: invalid independent work count')
         with paths[2].open(newline='') as handle:
             reader = csv.DictReader(handle)
             check(SOURCE_FIELDS <= set(reader.fieldnames or []), f'{gid}: missing source columns')
@@ -74,22 +80,40 @@ def validate(complete=False):
         source_ids = [s.get('source_id') for s in sources]
         check(len(source_ids) == len(set(source_ids)), f'{gid}: duplicate source ID')
         known_sources = set(source_ids)
+        check(all(isinstance(s, str) and s.strip() for s in source_ids), f'{gid}: empty source ID')
+        source_owners = {s.get('source_id'): s.get('work_id') for s in sources}
         for source in sources:
             check(source.get('work_id') in expected, f'{gid}: unknown source work ID')
             check(source.get('url', '').startswith(('https://', 'http://')), f'{gid}: invalid source URL')
+            check(source.get('title') == expected.get(source.get('work_id')), f'{gid}: source title/work mismatch')
+            raw_time = source.get('accessed_at_utc', '')
+            try:
+                timestamp = datetime.fromisoformat(raw_time.replace('Z', '+00:00'))
+                valid_utc = timestamp.utcoffset() is not None and timestamp.utcoffset().total_seconds() == 0
+            except (ValueError, TypeError):
+                valid_utc = False
+            check(valid_utc, f'{gid}: source {source.get("source_id")}: missing/invalid UTC timestamp')
+            check(source.get('body_verified', '').lower() in {'true', 'false', 'partial', 'unknown'}, f'{gid}: invalid source body_verified')
         scene_ids = []
         for work in works:
             wid = work.get('work_id')
             check(WORK_FIELDS <= set(work), f'{wid}: missing work fields')
             refs = set(work.get('source_ids', []))
             check(refs <= known_sources, f'{wid}: unknown source reference')
+            check(all(source_owners.get(ref) == wid for ref in refs), f'{wid}: source belongs to another work')
             if work.get('body_status') in {'verified', 'partial'}:
                 check(bool(refs), f'{wid}: verified/partial work has no source')
             for scene in work.get('scenes', []):
                 sid = scene.get('scene_id')
                 scene_ids.append(sid)
+                check(isinstance(sid, str) and bool(sid.strip()), f'{wid}: empty scene ID')
                 check(SCENE_FIELDS <= set(scene), f'{sid}: missing scene fields')
-                check(set(scene.get('source_ids', [])) <= known_sources, f'{sid}: unknown scene source')
+                scene_refs = set(scene.get('source_ids', []))
+                check(scene_refs <= known_sources, f'{sid}: unknown scene source')
+                check(all(source_owners.get(ref) == wid for ref in scene_refs), f'{sid}: source belongs to another work')
+                check(scene_refs <= refs, f'{sid}: scene source missing from work source_ids')
+                if work.get('body_status') in {'verified', 'partial'}:
+                    check(bool(scene_refs), f'{sid}: verified/partial scene has no source')
                 check(bool(scene.get('evidence_summary')), f'{sid}: missing evidence summary')
                 check(all(t in TYPE_IDS or re.fullmatch(r'G' + gid[-2:] + r'-N\d+', t) for t in scene.get('type_ids', [])), f'{sid}: invalid type ID')
         check(len(scene_ids) == len(set(scene_ids)), f'{gid}: duplicate scene ID')
@@ -112,4 +136,4 @@ if __name__ == '__main__':
     if errors:
         print('\n'.join(errors))
         raise SystemExit(1)
-    print(f'Validated immutable 26-type baseline, 131 assignments, {len(submitted)}/5 final submissions.')
+    print(f'Structurally validated immutable 26-type baseline, 131 assignments, {len(submitted)}/5 submissions. Content review and merge status are separate.')
