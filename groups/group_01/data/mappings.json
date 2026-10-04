@@ -1,0 +1,3833 @@
+{
+  "schema_version": "1.0",
+  "baseline": {
+    "sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+    "version": 0,
+    "byte_count": 50254,
+    "line_count": 397,
+    "full_read": true,
+    "revision_utc": "2026-10-04T11:05:39Z",
+    "type_count": 26,
+    "immutable": true,
+    "baseline_id": "fear-patterns-v1-26types",
+    "path": "baseline/v1-26types/report.md",
+    "read_coverage": "1–397行を全文読了。固定版のバイト数・行数・SHA-256を確認。"
+  },
+  "group_id": "group_01",
+  "assigned_titles": [
+    "赤い仏像",
+    "悪霊食い",
+    "IZUMO社航空機墜落事故の生存者",
+    "裏S区",
+    "おかっぱで顔のない着物の少女",
+    "おっぱい揉み豚",
+    "ガンギギ",
+    "気持ち悪いスナック",
+    "くねくね",
+    "コッケさん",
+    "坂道の女",
+    "地獄のバス",
+    "スシ・ウォーリア・ガールズ",
+    "切腹ショー",
+    "地下の丸穴",
+    "つんつるてん",
+    "トマトの頭をした男",
+    "猫の忍者(ネットロア)",
+    "ばりばり",
+    "ピヨピヨの魔",
+    "蛇神憑きの家系",
+    "マイナスドライバー",
+    "ヤドリギ",
+    "ゆき・富士の影",
+    "ヨウコウ",
+    "両面宿儺(リョウメンスクナ)",
+    "ンーボボツク"
+  ],
+  "counts": {
+    "assigned_entries": 27,
+    "verified": 18,
+    "partial": 3,
+    "unverified": 6,
+    "independent_works": null,
+    "confirmed_distinct_work_clusters": 20,
+    "tentative_work_clusters": 1,
+    "unidentified_entries": 6,
+    "possible_independent_work_clusters_range": [
+      20,
+      27
+    ],
+    "independence_note": "20=単篇18＋確認範囲をもつネットロア集合2（くねくね・猫の忍者）。蛇の3篇をまとめる割当との対応は暫定1。全異本の独立作品数は未確定。別名・転載ページ・投稿番号・パロディを追加の割当件数にしない。重複未発見は独立性の全面証明ではない。",
+    "scene_records": 54,
+    "confirmed_duplicate_entries": 0,
+    "new_type_candidates": 2,
+    "new_types_adopted": 0,
+    "comic_control_entries": 1
+  },
+  "method": {
+    "scope": "構造の記述適合性検証。読者の恐怖量・面白さ・実プレイ効果は未測定。",
+    "fit_values": [
+      "適合",
+      "部分適合",
+      "不適合",
+      "本文不足"
+    ],
+    "fit_note": "複合場面のfitは当該場面全体への保守的な判定。discriminatorsに各候補の差を明記。type_idsに新候補は採用せずcompeting_typesで参照。",
+    "closure_note": "closure_conditionsは分析上の必要条件、actual_outcomeが本文上の達成・失敗を示す。両者を同一視しない。",
+    "source_reliability": "匿名投稿の公開転載中心。原典との完全一致・真実性は未実証。",
+    "forbidden_domain_accessed": false,
+    "copyright": "本文の長い転載・引用なし。短い根拠要約と独自分析中心。",
+    "unverified_rule": "割当本文未同定の比較候補は分類の根拠にしない。"
+  },
+  "new_type_candidates": [
+    {
+      "id": "G01-N01",
+      "label": "迫る直接加害",
+      "status": "保留／未採用",
+      "evidence_work_ids": [
+        "G01-W22",
+        "G01-W14",
+        "G01-W21"
+      ],
+      "definition": "追跡や安全領域の侵犯が中心ではなく、目前の一撃・強制的な身体加害の実施を避ける問題。",
+      "test": "A2を接触回避の上位型へ拡張する案、D5を内部損傷に保つ案と独立型案を盲検比較する。",
+      "reason_not_adopted": "マイナスドライバーは攻撃発生後の短い場面で予期期間が乏しい。比較例の同定・視点・外傷との境界も不安定。"
+    },
+    {
+      "id": "G01-N02",
+      "label": "秘密・脆弱さが公に露見する",
+      "status": "保留／未採用",
+      "evidence_work_ids": [
+        "G01-W12"
+      ],
+      "definition": "身体的問題を避けても、公的露見による評判・関係の損失が残る。",
+      "test": "損失対象の修飾子とC2/C3/E3の複合で足りるか、別作品で反復確認する。",
+      "reason_not_adopted": "この群では独立した強い支持が一作品のみ。非ホラー陰性例であり新型を急ぐ根拠不足。"
+    }
+  ],
+  "works": [
+    {
+      "work_id": "G01-W01",
+      "title": "赤い仏像",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S001",
+        "G01-S021"
+      ],
+      "episode_scope": "2009-05-04投稿322–390。本編322–384、同一投稿者の補足386/388を区別。『人型焼き』等別作を含めない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "未知の獣の接触・捕食",
+        "供犠を使う人間側の暴力",
+        "保護の裏に隠された代償と自己の記憶"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W01-SC01",
+          "problem_id": "G01-W01-P01",
+          "evidence_summary": "テントの外の気配をやり過ごそうとするが、姿を確かめた後、獣から逃げる。",
+          "source_ids": [
+            "G01-S001",
+            "G01-S021"
+          ],
+          "Q": {
+            "target_id": "G01-W01-P01-Q",
+            "question": "気配は何か、こちらを感知しているか"
+          },
+          "D": {
+            "target_id": "G01-W01-P01-D",
+            "anticipated_loss": "接触・捕食"
+          },
+          "C": {
+            "target_id": "G01-W01-P01-C",
+            "available_or_narrated_choices": "静止、確認、逃走"
+          },
+          "M": {
+            "target_id": "G01-W01-P01-M",
+            "premise_and_evidence": "野営場所の安全への前提が崩れる"
+          },
+          "information_state_change": "未知の音・臭い→姿の確認→危険が具体化",
+          "onset_conditions": "山で一晩過ごす。感知条件は不明",
+          "closure_conditions": "Q:正体・追跡規則。D:接触を遮断し避難。実際は捕捉後に救助",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A1",
+            "A2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E1",
+            "A3"
+          ],
+          "discriminators": "A1は所在未知の証拠が乏しく主型にはしない。A2は明瞭。仏像側で寝ることは接触機会だが禁忌発動規則未確認。",
+          "residue": "",
+          "confidence": "高",
+          "actual_outcome": "A2の捕捉回避は失敗。後に生存・避難は達成。",
+          "transitions": [
+            "A1候補→A2。正体Qが具体化してもD継続。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W01-SC02",
+          "problem_id": "G01-W01-P02",
+          "evidence_summary": "犬が獣と対峙し、後で老人は犬を身代わりに備えていたと説明する。",
+          "source_ids": [
+            "G01-S001",
+            "G01-S021"
+          ],
+          "Q": {
+            "target_id": "G01-W01-P02-Q",
+            "question": "生還と犬の犠牲はどう関係するか"
+          },
+          "D": {
+            "target_id": "G01-W01-P02-D",
+            "anticipated_loss": "犬の喪失／自分の死"
+          },
+          "C": {
+            "target_id": "G01-W01-P02-C",
+            "available_or_narrated_choices": "語り手には準備を選ぶ機会がない。老人による代償付き対処"
+          },
+          "M": {
+            "target_id": "G01-W01-P02-M",
+            "premise_and_evidence": "援助には他者の犠牲が組み込まれ得る"
+          },
+          "information_state_change": "生還の後に代償が判明",
+          "onset_conditions": "獣に襲われ、備えた犬が介入する",
+          "closure_conditions": "Q:身代わりの仕組みは証言で部分解明。D:今回の生存、犬の損失は取り消せない",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C4",
+            "E5"
+          ],
+          "discriminators": "代償の実施は老人の事前選択。犬を助ける切迫した目標は語り手に示されない。管理継続の責任は描かれずE5保留。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "本人の生還成果と犬の喪失を別対象で固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W01-SC03",
+          "problem_id": "G01-W01-P03",
+          "evidence_summary": "逃走中の映像から、祭儀が集落内部の口封じにも使われたと解釈する。",
+          "source_ids": [
+            "G01-S001",
+            "G01-S021"
+          ],
+          "Q": {
+            "target_id": "G01-W01-P03-Q",
+            "question": "映像は前世か他人の体験か、長の行為は何か"
+          },
+          "D": {
+            "target_id": "G01-W01-P03-D",
+            "anticipated_loss": "過去の子供の殺害／現代の不透明な利害"
+          },
+          "C": {
+            "target_id": "G01-W01-P03-C",
+            "available_or_narrated_choices": "現代の語り手は離村し記録する"
+          },
+          "M": {
+            "target_id": "G01-W01-P03-M",
+            "premise_and_evidence": "集落を守る儀式という説明が加害の免罪符へ反転"
+          },
+          "information_state_change": "伝承→個人的映像で説明に対立が生じる",
+          "onset_conditions": "過去の殺人を目撃した子供が追われる",
+          "closure_conditions": "過去Dは損失確定。現在Qは由来不明。離村は今回の接触回避のみ",
+          "local_or_global": "過去の局所／現代の作品全体",
+          "type_ids": [
+            "C2",
+            "A2",
+            "D4"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "B4",
+            "F4"
+          ],
+          "discriminators": "C2/A2は過去場面に適合。D4は記憶の由来の疑問のみで自己消失の予期が弱い。社会全体の成立目的F4ではない。",
+          "residue": "非自分的記憶をD4へ入れる際は自己継続への損失を追加確認。",
+          "confidence": "中",
+          "actual_outcome": "原因Qの一部更新。人間側の責任と記憶の由来は残る。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "昔の映像の由来、老人の動機は不明。語り手の探究心と軽妙な調子は問題状態だけでは説明しない。"
+      ],
+      "counterexamples": [
+        "仏像を見ても直ちに害は発生しない。奇物の存在だけでE1確定は不可。",
+        "老人は危険に誘うが救助・身代わりも用意する。C2の純粋な敵対と断定できない。"
+      ],
+      "change_proposals": [
+        "既存型の複合で大部分を記述できる。過去の残虐行為は既発損失として分ける。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W02",
+      "title": "悪霊食い",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S002"
+      ],
+      "episode_scope": "『悪霊食い』短編転載の本文全体。原スレ照合未実施。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "友人の周囲への霊的被害の疑い",
+        "巨大な守護存在を知らなかったという不気味さ"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W02-SC01",
+          "problem_id": "G01-W02-P01",
+          "evidence_summary": "霊的な場所で同行者は不調だがAは無事。寺で悪霊を飲み込む守護存在を告げられる。",
+          "source_ids": [
+            "G01-S002"
+          ],
+          "Q": {
+            "target_id": "G01-W02-P01-Q",
+            "question": "なぜAだけ無事か、なぜ同行者は守られないか"
+          },
+          "D": {
+            "target_id": "G01-W02-P01-D",
+            "anticipated_loss": "同行者の不調。A本人の将来損失は本文で強く示されない"
+          },
+          "C": {
+            "target_id": "G01-W02-P01-C",
+            "available_or_narrated_choices": "原因を尋ねる。保護喪失を想定する根拠はない"
+          },
+          "M": {
+            "target_id": "G01-W02-P01-M",
+            "premise_and_evidence": "異常な保護は存在するとの証言。保護の目的は不明"
+          },
+          "information_state_change": "安全の説明が与えられ、本人の不調への懸念は低下する",
+          "onset_conditions": "心霊場所への同行。条件の因果は寺側の説明",
+          "closure_conditions": "Q:Aの無事の理由は証言上解明。D:同行者は別対象、Aの危険未成立",
+          "local_or_global": "局所",
+          "type_ids": [],
+          "fit": "不適合",
+          "competing_types": [
+            "E1",
+            "D1",
+            "F4"
+          ],
+          "discriminators": "保護存在の付着を感染と同一視しない。人間利用の仕組みや代償は示されない。",
+          "residue": "気味悪さは26型の外に残るが定義上の欠陥とは限らない。",
+          "confidence": "高",
+          "actual_outcome": "説明による安心方向の更新。保護の由来と対象範囲は未解決。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "保護的な怪異の異様さ、本人と周囲の非対称。本人への予期的危険がほぼ開かない。"
+      ],
+      "counterexamples": [
+        "未知の存在の説明が、危険の認識ではなく保護の認識になる。",
+        "大きい存在、黒い穴、霊を食うという造形だけでD1・F4を付けられない。"
+      ],
+      "change_proposals": [
+        "新型不要。危険が開かない陰性例として保存。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W03",
+      "title": "IZUMO社航空機墜落事故の生存者",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S003"
+      ],
+      "episode_scope": "『事件に関する重要な記録』録音・事件記録部分全体。IZUMO事故を含む短編。",
+      "alias_or_derivative": {
+        "classification": "転載見出しの別名",
+        "confirmed_duplicate_of": null,
+        "aliases": [
+          "事件に関する重要な記録"
+        ],
+        "notes": "IZUMO事故、生存少女、叔母、録音記録の固有要素が一致。別名を別作品に加算しない。"
+      },
+      "overall_fears": [
+        "事故後の身体損傷・捕食",
+        "聞き取り中の安全領域の破れ",
+        "通信の誤読で助けを逸する危険"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W03-SC01",
+          "problem_id": "G01-W03-P01",
+          "evidence_summary": "少女の回想で、事故機に入って来たものが負傷者を襲う。",
+          "source_ids": [
+            "G01-S003"
+          ],
+          "Q": {
+            "target_id": "G01-W03-P01-Q",
+            "question": "侵入者は何か、誰が襲われるか"
+          },
+          "D": {
+            "target_id": "G01-W03-P01-D",
+            "anticipated_loss": "負傷状態で捕食・死亡"
+          },
+          "C": {
+            "target_id": "G01-W03-P01-C",
+            "available_or_narrated_choices": "移動・救助は制約される。少女は事故を生き延びる"
+          },
+          "M": {
+            "target_id": "G01-W03-P01-M",
+            "premise_and_evidence": "機内の境界と事故後の避難への信頼が失われる"
+          },
+          "information_state_change": "事故の損傷→外から侵入する加害の説明",
+          "onset_conditions": "機体損傷、負傷者の露出",
+          "closure_conditions": "Q:外見は一部判明。D:当該機から生還した少女について局所閉鎖、死者は損失確定",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A3"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "D5",
+            "B2"
+          ],
+          "discriminators": "身体損傷の部位・進行は細部不明。出られない原因と程度も特定し切れず補助保留。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "少女の事故生存を成果として固定。新たな病院の問題へ持ち越さない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W03-SC02",
+          "problem_id": "G01-W03-P02",
+          "evidence_summary": "電極音での問答中、叔母の言葉と音から目前の加害が疑われ、最後に二人の死亡が記録される。",
+          "source_ids": [
+            "G01-S003"
+          ],
+          "Q": {
+            "target_id": "G01-W03-P02-Q",
+            "question": "音は否定か救援か、何が病室にいるか"
+          },
+          "D": {
+            "target_id": "G01-W03-P02-D",
+            "anticipated_loss": "患者・叔母の死／誤解による救援の遅れ"
+          },
+          "C": {
+            "target_id": "G01-W03-P02-C",
+            "available_or_narrated_choices": "符号を照合、救援要請。実際の介入は記録にない"
+          },
+          "M": {
+            "target_id": "G01-W03-P02-M",
+            "premise_and_evidence": "病院・面談は安全、問答は意思を伝えるという前提が揺らぐ"
+          },
+          "information_state_change": "過去を聞く記録→現在の危機を示す音→事後の死亡記録",
+          "onset_conditions": "隔離された聞き取り、限られた符号",
+          "closure_conditions": "Q:危機の認識は進むが機序未解明。D:二人の死亡による損失終結",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A3",
+            "B4"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "E1",
+            "C4"
+          ],
+          "discriminators": "A3は現在の侵入／接近。E1の発声トリガーは未証明。叔母の救助目的はあるが後半の自他危険を一つにしない。",
+          "residue": "読者が記録を解く時間と人物が危険を認識する時間を分離。",
+          "confidence": "中",
+          "actual_outcome": "Qの一部推定とDの失敗を別記。",
+          "transitions": [
+            "回想の事故D閉鎖→病室D新規。事故を生き延びた成果は無効化しない。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "録音形式が作る遅れた認識。電極音の意味は断定し切れない。"
+      ],
+      "counterexamples": [
+        "質問で正体に迫っても、病院の安全は確保されない。",
+        "詳細な語りと襲撃の時間的隣接は、言及が召喚条件であることの証明ではない。"
+      ],
+      "change_proposals": [
+        "情報の主体と符号解釈精度を必須修飾子にする。新型は保留。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W04",
+      "title": "裏S区",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S004"
+      ],
+      "episode_scope": "2007-03-14投稿763–786の本編。後続コメントは物語の根拠にしない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "友人の暴力と周囲の援助不在",
+        "憑依と死者の接近",
+        "除去後の別対象への転移",
+        "専門家・共同体への不信"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W04-SC01",
+          "problem_id": "G01-W04-P01",
+          "evidence_summary": "Aから暴力を受け、教師は逆のいじめを疑う。その後Aの行為に除霊目的という説明が付く。",
+          "source_ids": [
+            "G01-S004"
+          ],
+          "Q": {
+            "target_id": "G01-W04-P01-Q",
+            "question": "Aはなぜ殴り、教師は何を根拠に疑うか"
+          },
+          "D": {
+            "target_id": "G01-W04-P01-D",
+            "anticipated_loss": "継続的な暴力、孤立、援助不足"
+          },
+          "C": {
+            "target_id": "G01-W04-P01-C",
+            "available_or_narrated_choices": "説明する、登校をやめる"
+          },
+          "M": {
+            "target_id": "G01-W04-P01-M",
+            "premise_and_evidence": "友人・学校の安全網が信用できなくなる"
+          },
+          "information_state_change": "敵意の認識→後に失敗した援助という説明が競合",
+          "onset_conditions": "暴力、傍観、教師の誤認",
+          "closure_conditions": "Q:目的は親族証言で部分更新。D:暴力が止んだ範囲と孤立を別記",
+          "local_or_global": "局所",
+          "type_ids": [
+            "C2",
+            "C3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "B4",
+            "D3"
+          ],
+          "discriminators": "C2は語り手の認識段階では候補、後の説明でも実害は残る。D3は語り手の怒りによる加害を自動的に憑依支配とはしない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "目的理解が行為の責任免除にはならない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W04-SC02",
+          "problem_id": "G01-W04-P02",
+          "evidence_summary": "死者らしき姿と音が続く。祓い後は見えなくなるが、Aの手紙は脅威が自分へ来たと述べる。",
+          "source_ids": [
+            "G01-S004"
+          ],
+          "Q": {
+            "target_id": "G01-W04-P02-Q",
+            "question": "何が憑き、どこへ移ったか"
+          },
+          "D": {
+            "target_id": "G01-W04-P02-D",
+            "anticipated_loss": "自分・Aへの加害と死"
+          },
+          "C": {
+            "target_id": "G01-W04-P02-C",
+            "available_or_narrated_choices": "祓い、家族と避難、別の支援"
+          },
+          "M": {
+            "target_id": "G01-W04-P02-M",
+            "premise_and_evidence": "自分の平静が他者の安全を保証しない"
+          },
+          "information_state_change": "消失観測→Aの手紙と死亡→対象範囲の再評価",
+          "onset_conditions": "憑依原因不明、名称の発声による移動は親族の規則証言",
+          "closure_conditions": "Q:転移は証言上の理解。D:本人の当面の回復とAの死亡を別対象で追跡",
+          "local_or_global": "本人からAへ／作品全体",
+          "type_ids": [
+            "E1",
+            "E2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "A2",
+            "D1",
+            "D4"
+          ],
+          "discriminators": "憑依は身体内侵入を必ず意味しない。Aの追跡は手紙の伝聞。元の人格の置換は証拠不足。",
+          "residue": "転移機序、Aの死との因果は未実証。",
+          "confidence": "中",
+          "actual_outcome": "本人の観測改善。Aは損失終結、全体の根絶なし。",
+          "transitions": [
+            "本人Dの局所抑制→AのD新規。E1→E2候補。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W04-SC03",
+          "problem_id": "G01-W04-P03",
+          "evidence_summary": "Bが死者らしい口調で語り、後に笑う。最終的に祓い・引越し・転校で霊的出来事はなくなる。",
+          "source_ids": [
+            "G01-S004"
+          ],
+          "Q": {
+            "target_id": "G01-W04-P03-Q",
+            "question": "Bの発話主体と信頼条件は何か"
+          },
+          "D": {
+            "target_id": "G01-W04-P03-D",
+            "anticipated_loss": "安全を助ける者からの不透明な接近"
+          },
+          "C": {
+            "target_id": "G01-W04-P03-C",
+            "available_or_narrated_choices": "離れる、別の神社に頼る"
+          },
+          "M": {
+            "target_id": "G01-W04-P03-M",
+            "premise_and_evidence": "専門家の説明を安全保証として採用できない"
+          },
+          "information_state_change": "説明者自身の言動が判断を不安定にする",
+          "onset_conditions": "説明中の口調変化と笑い",
+          "closure_conditions": "Q:支配主体は不明。D:語り手の以後の霊的出来事なしという範囲で回避。恐怖の後遺は残る",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "D3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C1",
+            "C2",
+            "F2"
+          ],
+          "discriminators": "B本人の発話主体が変わるならD3候補。本人の外見を似せる代替者C1の証拠なし。人類の限界F2ではない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "距離を取ることの局所成果。恐怖反応の持続は危険の存続証明ではない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "語り手の被害経験、後遺的な回避と偏見形成。地域・家系についての語りは作中の説明であり社会史の事実ではない。"
+      ],
+      "counterexamples": [
+        "祓いで姿が見えなくなっても、Aへの移動を示す手紙で全体の安全は否定される。",
+        "Aの悪意という解釈は対処知識の不足という説明で揺らぐが、殴られた被害は消えない。"
+      ],
+      "change_proposals": [
+        "C2は主観的疑いと実証された利害を分ける。E2は被害対象IDを必須にする。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "body_status": "unverified",
+      "source_ids": [
+        "G01-S028",
+        "G01-S029"
+      ],
+      "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W05-SC01",
+          "problem_id": "G01-W05-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [
+            "G01-S028",
+            "G01-S029"
+          ],
+          "Q": {
+            "target_id": "G01-W05-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W05-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W05-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W05-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "body_status": "unverified",
+      "source_ids": [],
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称のX言及のみ。対象の物語本文は未同定。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W06-SC01",
+          "problem_id": "G01-W06-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [],
+          "Q": {
+            "target_id": "G01-W06-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W06-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W06-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W06-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "名称のX言及のみ。対象の物語本文は未同定。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "名称のX言及のみ。対象の物語本文は未同定。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    },
+    {
+      "work_id": "G01-W07",
+      "title": "ガンギギ",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S005"
+      ],
+      "episode_scope": "洒落怖371、2022-10-10投稿1013–1014。本編全体、コメント除外。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "共有された怪物像の由来が分からない不気味さ",
+        "埋め込まれた噂での追跡"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W07-SC01",
+          "problem_id": "G01-W07-P01",
+          "evidence_summary": "出身国の違う同僚にも怪物像が通じるが、語り手には記録の由来が見つからない。",
+          "source_ids": [
+            "G01-S005"
+          ],
+          "Q": {
+            "target_id": "G01-W07-P01-Q",
+            "question": "共通知識はどこから来たのか"
+          },
+          "D": {
+            "target_id": "G01-W07-P01-D",
+            "anticipated_loss": "現時点の語り手への損失は示されない"
+          },
+          "C": {
+            "target_id": "G01-W07-P01-C",
+            "available_or_narrated_choices": "同僚・親に聞く、検索する"
+          },
+          "M": {
+            "target_id": "G01-W07-P01-M",
+            "premise_and_evidence": "ローカルな噂という前提が揺らぐ"
+          },
+          "information_state_change": "各地の証言が共通像を作るが出自は閉じない",
+          "onset_conditions": "会話と照合。実際の怪物との遭遇なし",
+          "closure_conditions": "Q:出自不明。D:具体化されないので除去・回避という閉鎖を設定しない",
+          "local_or_global": "局所",
+          "type_ids": [],
+          "fit": "不適合",
+          "competing_types": [
+            "B4",
+            "F1",
+            "F2"
+          ],
+          "discriminators": "B4には誤判断の損失、F群には世界規則や人間一般の脅威がさらに必要。",
+          "residue": "Qの未解明と不気味さは26型の対象外として保持。",
+          "confidence": "高",
+          "actual_outcome": "共通像の確認のみ達成。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W07-SC02",
+          "problem_id": "G01-W07-P02",
+          "evidence_summary": "噂の中では黒い小さな存在が音を鳴らし追ってくる。",
+          "source_ids": [
+            "G01-S005"
+          ],
+          "Q": {
+            "target_id": "G01-W07-P02-Q",
+            "question": "噂内の追跡規則は何か"
+          },
+          "D": {
+            "target_id": "G01-W07-P02-D",
+            "anticipated_loss": "噂内の接触。現実の遭遇被害は語られない"
+          },
+          "C": {
+            "target_id": "G01-W07-P02-C",
+            "available_or_narrated_choices": "逃げるという噂の候補のみ"
+          },
+          "M": {
+            "target_id": "G01-W07-P02-M",
+            "premise_and_evidence": "特定の怪物のイメージ"
+          },
+          "information_state_change": "会話による共有像の再提示",
+          "onset_conditions": "噂の遭遇条件は不明",
+          "closure_conditions": "噂内D:追跡遮断なら閉じるが実際の事例なし",
+          "local_or_global": "埋め込まれた噂",
+          "type_ids": [
+            "A2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E1"
+          ],
+          "discriminators": "埋め込み伝説を現在の出来事として符号化しない。",
+          "residue": "",
+          "confidence": "低",
+          "actual_outcome": "外側の語り手の危険を開いたとはしない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "当事者の具体的な将来損失を伴わない共同記憶の不整合。"
+      ],
+      "counterexamples": [
+        "多数が怪物を知ることは、実際に怪物が襲うことの証拠にならない。",
+        "検索不発と親の不知だけでF2の構造的人間限界と判定不可。"
+      ],
+      "change_proposals": [
+        "新型不要。未解決Qと不気味さタグ、噂内部の型を分ける。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W08",
+      "title": "気持ち悪いスナック",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S006"
+      ],
+      "episode_scope": "タクシー運転手の語りと翌日の店訪問・後日談まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "不気味な店と同行者の異なる知覚",
+        "肩への付着感と安全領域への持ち帰り",
+        "後日の人形変化のような発見"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W08-SC01",
+          "problem_id": "G01-W08-P01",
+          "evidence_summary": "同僚は店を避けたがる。Kは信じずに入り、肩への異様な感触から退店する。",
+          "source_ids": [
+            "G01-S006"
+          ],
+          "Q": {
+            "target_id": "G01-W08-P01-Q",
+            "question": "どの証言・感覚が危険を示すか"
+          },
+          "D": {
+            "target_id": "G01-W08-P01-D",
+            "anticipated_loss": "判断を誤り店内の異常に留まる"
+          },
+          "C": {
+            "target_id": "G01-W08-P01-C",
+            "available_or_narrated_choices": "警告、退店"
+          },
+          "M": {
+            "target_id": "G01-W08-P01-M",
+            "premise_and_evidence": "普段の飲み屋という安全理解が条件付きになる"
+          },
+          "information_state_change": "警告の拒否→本人の異常体験→離脱",
+          "onset_conditions": "来店、知覚差",
+          "closure_conditions": "Q:原因不明。D:退店による当面の曝露減少のみ",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "C3",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C2"
+          ],
+          "discriminators": "店主本人の敵対計画は未証明。E1は店との条件的な結び付きまで。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "援助を得る以前に本人が退店。説得成功そのものを閉鎖条件にしない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W08-SC02",
+          "problem_id": "G01-W08-P02",
+          "evidence_summary": "タクシーにも異様な存在がいると運転手は感じ、自宅で祓う。後日の店訪問でも人形を見て逃げる。",
+          "source_ids": [
+            "G01-S006"
+          ],
+          "Q": {
+            "target_id": "G01-W08-P02-Q",
+            "question": "何が持ち運ばれ、祓いは効いたか"
+          },
+          "D": {
+            "target_id": "G01-W08-P02-D",
+            "anticipated_loss": "移動先での被害／継続接触"
+          },
+          "C": {
+            "target_id": "G01-W08-P02-C",
+            "available_or_narrated_choices": "祓い、訪問中断"
+          },
+          "M": {
+            "target_id": "G01-W08-P02-M",
+            "premise_and_evidence": "店を出るだけでは接触が終わらない可能性"
+          },
+          "information_state_change": "店→車への観測範囲拡大。祓い後の全体検証なし",
+          "onset_conditions": "店との接触後に同乗した存在という語り",
+          "closure_conditions": "Q:媒介不明。D:今回の車の対処は語られるが恒久根絶は未確認",
+          "local_or_global": "局所から車・家へ",
+          "type_ids": [
+            "A3",
+            "E2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E5",
+            "A2"
+          ],
+          "discriminators": "A3は車を安全領域とみなす候補。E2の新被害者は未確認。管理義務の継続なし。",
+          "residue": "存在の持ち運びと感染増殖を同一視しない。",
+          "confidence": "中",
+          "actual_outcome": "祓いの実行と危険根絶の証拠を分離。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "紙人形の印象・造形、店主の病気と店の関係。"
+      ],
+      "counterexamples": [
+        "Kは疑うが、その後の異常体験で態度が変わる。",
+        "紙人形の表情が違うことは身体変容D2の証拠ではない。"
+      ],
+      "change_proposals": [
+        "E2は場所間移動と新しい被害対象の増加を区別。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "body_status": "partial",
+      "source_ids": [
+        "G01-S007",
+        "G01-S022"
+      ],
+      "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "alias_or_derivative": {
+        "classification": "ネットロア集合／異本群",
+        "confirmed_duplicate_of": null,
+        "notes": "第1–7話＋オマケを読了したがネット上の全体未網羅。第6話は操り型、第7話は同定推測。オマケはパロディとして本篇と分離。"
+      },
+      "overall_fears": [
+        "見る／理解することによる変化の予期",
+        "大切な人の応答・自己の喪失",
+        "視認の距離・精度が安全を分ける不安"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W09-SC01",
+          "problem_id": "G01-W09-P01",
+          "evidence_summary": "第1・2話で兄は白いものの認識後に応答や振る舞いが変わり、弟も後で視認してしまう。",
+          "source_ids": [
+            "G01-S022"
+          ],
+          "Q": {
+            "target_id": "G01-W09-P01-Q",
+            "question": "危険は見たことか理解したことか、兄は戻るか"
+          },
+          "D": {
+            "target_id": "G01-W09-P01-D",
+            "anticipated_loss": "兄との関係・自己の応答の喪失、自分にも同様の変化"
+          },
+          "C": {
+            "target_id": "G01-W09-P01-C",
+            "available_or_narrated_choices": "見ない、遠ざかる、兄の様子を確認"
+          },
+          "M": {
+            "target_id": "G01-W09-P01-M",
+            "premise_and_evidence": "理解が安全を増すとは限らないが機序は証言に留まる"
+          },
+          "information_state_change": "説明を求めるほど危険な観測へ近づく",
+          "onset_conditions": "精細な観察または理解。必要十分条件は未確定",
+          "closure_conditions": "Q:規則は部分証言。D:弟の一時離脱は成功、末尾の再曝露。兄の回復なし",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E1",
+            "C4",
+            "D3",
+            "D4"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D2",
+            "C1",
+            "F2"
+          ],
+          "discriminators": "身体の形が変質したという証拠はなくD2保留。同じ兄への喪失で代替者C1ではない。変化後の意図不明なのでD3も候補。",
+          "residue": "救助不能と人間一般の認識限界を区別。",
+          "confidence": "中",
+          "actual_outcome": "兄の損失と弟の再曝露を別対象で追跡。",
+          "transitions": [
+            "未知Q→兄の被害認識→弟の曝露回避→再曝露。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W09-SC02",
+          "problem_id": "G01-W09-P02",
+          "evidence_summary": "第3・5・7話では視認した同行者が異常な状態になり、何を見たか十分には語れない。",
+          "source_ids": [
+            "G01-S022"
+          ],
+          "Q": {
+            "target_id": "G01-W09-P02-Q",
+            "question": "知覚精度と被害の関係、同じ対象か"
+          },
+          "D": {
+            "target_id": "G01-W09-P02-D",
+            "anticipated_loss": "同行者の健康・応答の喪失"
+          },
+          "C": {
+            "target_id": "G01-W09-P02-C",
+            "available_or_narrated_choices": "助けを呼ぶ、離れる、事情を聞く"
+          },
+          "M": {
+            "target_id": "G01-W09-P02-M",
+            "premise_and_evidence": "視力や情報取得の通常の有利さが疑われる"
+          },
+          "information_state_change": "不鮮明な観測→同行者被害→観測精度を危険と推測",
+          "onset_conditions": "視認の前後。直接因果は未確定",
+          "closure_conditions": "Q:正体未解明。D:医療・帰宅が語られても根絶証明はない",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E1",
+            "C4"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "B4",
+            "F2"
+          ],
+          "discriminators": "病名・精神障害の記述を怪異機序の医学的証明にしない。F2は一般化不可。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "目前の救援と以後の不明状態を分ける。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W09-SC03",
+          "problem_id": "G01-W09-P03",
+          "evidence_summary": "第6話ではランナーの身体に糸が見え、別の存在がそれを手繰る。",
+          "source_ids": [
+            "G01-S022"
+          ],
+          "Q": {
+            "target_id": "G01-W09-P03-Q",
+            "question": "普通の運動か、操られているか"
+          },
+          "D": {
+            "target_id": "G01-W09-P03-D",
+            "anticipated_loss": "第三者の行動支配。観測者への危険は未提示"
+          },
+          "C": {
+            "target_id": "G01-W09-P03-C",
+            "available_or_narrated_choices": "距離を取り観察をやめる"
+          },
+          "M": {
+            "target_id": "G01-W09-P03-M",
+            "premise_and_evidence": "日常的な運動の自発性が疑われる"
+          },
+          "information_state_change": "無音・無呼吸→糸と操る者の発見",
+          "onset_conditions": "糸で連なる人物の観察",
+          "closure_conditions": "Q:操り像は見えるが由来不明。D:当事者の解放・意図は不明",
+          "local_or_global": "他者の局所問題",
+          "type_ids": [
+            "D3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C1",
+            "E1"
+          ],
+          "discriminators": "外見の模倣や観測者への災厄起動ではない。被支配者の意図を知らないので部分適合。",
+          "residue": "第1・2話と同じ認識災厄として一般化しない。",
+          "confidence": "中",
+          "actual_outcome": "観測者の距離確保だけ。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W09-SC04",
+          "problem_id": "G01-W09-P04",
+          "evidence_summary": "第4話は違和感を感じて逃げる。オマケは語り手が真似て通行人を驚かせる。",
+          "source_ids": [
+            "G01-S022"
+          ],
+          "Q": {
+            "target_id": "G01-W09-P04-Q",
+            "question": "奇妙な動きの正体"
+          },
+          "D": {
+            "target_id": "G01-W09-P04-D",
+            "anticipated_loss": "第4話では不明、オマケでは転倒という実害"
+          },
+          "C": {
+            "target_id": "G01-W09-P04-C",
+            "available_or_narrated_choices": "退避／真似する"
+          },
+          "M": {
+            "target_id": "G01-W09-P04-M",
+            "premise_and_evidence": "外見の異様さだけでは共通の被害規則を固定できない"
+          },
+          "information_state_change": "不気味な観測、パロディでは行為者が人間と分かる",
+          "onset_conditions": "観測または模倣",
+          "closure_conditions": "Q:第4話不明。D:退避は完了、オマケは転倒被害確定",
+          "local_or_global": "異本・パロディ別々",
+          "type_ids": [],
+          "fit": "不適合",
+          "competing_types": [
+            "E1",
+            "F1"
+          ],
+          "discriminators": "既存のくねくね設定をこの各篇へ逆輸入しない。",
+          "residue": "不気味さ、笑い、驚きの提示は型とは別。",
+          "confidence": "高",
+          "actual_outcome": "集合名を独立作品の増加数に使わない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "第4話の違和感、第6話の操り糸、第7話の不明な対象は同一規則で括れない。"
+      ],
+      "counterexamples": [
+        "全異本が「理解で変質する」と明言するわけではない。",
+        "第4話は見ても逃げられ、第6話は観測者に症状がない。"
+      ],
+      "change_proposals": [
+        "E1の起動条件に「見る」「精細に見る」「理解する」を別フィールドで記録。D3/D4を一律に確定しない。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "部分的本文確認"
+    },
+    {
+      "work_id": "G01-W10",
+      "title": "コッケさん",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S008"
+      ],
+      "episode_scope": "禁称・儀礼説明から過去の迫害譚、固芥の字形まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "共同体の疑心と供犠",
+        "子供・家族の救助不能",
+        "日常的な呼称の背後にある加害史"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W10-SC01",
+          "problem_id": "G01-W10-P01",
+          "evidence_summary": "過去の村で子供に災厄の責任が帰され、共同体が処罰・供犠へ進む。",
+          "source_ids": [
+            "G01-S008"
+          ],
+          "Q": {
+            "target_id": "G01-W10-P01-Q",
+            "question": "誰が本当に食糧を盗み、処罰は有効か"
+          },
+          "D": {
+            "target_id": "G01-W10-P01-D",
+            "anticipated_loss": "子供・父の命、身体の損傷"
+          },
+          "C": {
+            "target_id": "G01-W10-P01-C",
+            "available_or_narrated_choices": "父の抵抗・逃避、共同体の誤った犠牲選択"
+          },
+          "M": {
+            "target_id": "G01-W10-P01-M",
+            "premise_and_evidence": "共同体の保護が加害へ反転する"
+          },
+          "information_state_change": "責任の決め付け→供犠→後の真犯人判明",
+          "onset_conditions": "飢饉と噂、権威の断定",
+          "closure_conditions": "Q:食糧盗難は後に更新。D:子供・父は損失終結。儀礼の効力は未証明",
+          "local_or_global": "過去の局所／家族",
+          "type_ids": [
+            "C2",
+            "C4",
+            "E3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D4",
+            "F3"
+          ],
+          "discriminators": "C2の加害は明瞭。E3は有効な対処という信念の水準。D4は魂交換伝承。残酷な共同体一つでF3にはしない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "犯人の判明が犠牲者を回復させない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W10-SC02",
+          "problem_id": "G01-W10-P02",
+          "evidence_summary": "現代の語り手は呼称の禁止と踊りの由来、字形を知る。",
+          "source_ids": [
+            "G01-S008"
+          ],
+          "Q": {
+            "target_id": "G01-W10-P02-Q",
+            "question": "日常の語・形は何を記憶しているか"
+          },
+          "D": {
+            "target_id": "G01-W10-P02-D",
+            "anticipated_loss": "現代の語り手への将来被害は明示されない"
+          },
+          "C": {
+            "target_id": "G01-W10-P02-C",
+            "available_or_narrated_choices": "聞き取り、意味を読み直す"
+          },
+          "M": {
+            "target_id": "G01-W10-P02-M",
+            "premise_and_evidence": "無害な風習という理解が加害の記憶へ変わる"
+          },
+          "information_state_change": "由来情報が過去の惨事を日常へ接続する",
+          "onset_conditions": "由来の説明を受ける",
+          "closure_conditions": "Q:由来は証言上明確化。D:現代の被害起動は未確認",
+          "local_or_global": "局所",
+          "type_ids": [],
+          "fit": "不適合",
+          "competing_types": [
+            "E1",
+            "F1"
+          ],
+          "discriminators": "名前を言うと叱られることと超常災厄の発動は別。由来判明だけではF1でない。",
+          "residue": "遡及的嫌悪・社会的記憶は26型外だが新型の予期損失条件を満たさない。",
+          "confidence": "高",
+          "actual_outcome": "意味の問いの部分解明、危険除去とは無関係。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "儀礼・字形に隠れた残酷さへの嫌悪、既発の喪失への悲嘆。"
+      ],
+      "counterexamples": [
+        "供犠は飢饉を救うと信じられたが、その効力の実証はない。",
+        "魂が入れ替わったという説明は人格置換の客観的証拠ではない。"
+      ],
+      "change_proposals": [
+        "語り内の信仰／観測／噂を分ける補助タグを必須にする。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "body_status": "unverified",
+      "source_ids": [
+        "G01-S030"
+      ],
+      "episode_scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W11-SC01",
+          "problem_id": "G01-W11-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [
+            "G01-S030"
+          ],
+          "Q": {
+            "target_id": "G01-W11-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W11-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W11-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W11-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    },
+    {
+      "work_id": "G01-W12",
+      "title": "地獄のバス",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S009"
+      ],
+      "episode_scope": "修学旅行のバスでの排便と嘔吐の連鎖まで。笑える怪談カテゴリの単話。",
+      "alias_or_derivative": {
+        "classification": "非超常・笑い話",
+        "confirmed_duplicate_of": null,
+        "notes": "転載は「笑える怪談」カテゴリ。割当を削除しない。怖さ・笑いの効果測定ではない。"
+      },
+      "overall_fears": [
+        "排便の切迫と身動きの制約",
+        "他者に知られる羞恥の予期",
+        "対応が集団へ被害を広げる困惑"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W12-SC01",
+          "problem_id": "G01-W12-P01",
+          "evidence_summary": "児童は便意を隠したいが、走行中のバスで離脱できず、教師の対応で皆に知られる。",
+          "source_ids": [
+            "G01-S009"
+          ],
+          "Q": {
+            "target_id": "G01-W12-P01-Q",
+            "question": "止めてもらえるか、秘密を保てるか"
+          },
+          "D": {
+            "target_id": "G01-W12-P01-D",
+            "anticipated_loss": "身体の制御失敗と公開された羞恥"
+          },
+          "C": {
+            "target_id": "G01-W12-P01-C",
+            "available_or_narrated_choices": "助けを求める、我慢する、容器を使う"
+          },
+          "M": {
+            "target_id": "G01-W12-P01-M",
+            "premise_and_evidence": "支援を頼むと秘密が保たれるという前提が崩れる"
+          },
+          "information_state_change": "内密の相談→全体への通知→救済と露見が同時に進む",
+          "onset_conditions": "トイレのない走行車内、便意切迫",
+          "closure_conditions": "Q:可能な対応が提示。D:排便を済ませても評判の損失は別に残る",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B2",
+            "D3",
+            "E3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C2",
+            "E4"
+          ],
+          "discriminators": "B2は制度的離脱制約。D3は生理制御であり憑依と区別。E3は苦痛回避と羞恥の代償、強制的悪意C2は未証明。",
+          "residue": "露見の停止・評判回復は身体制御回復と異なる。",
+          "confidence": "中",
+          "actual_outcome": "身体的切迫の決着と社会的損失を別IDで保持。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W12-SC02",
+          "problem_id": "G01-W12-P02",
+          "evidence_summary": "排便の臭いから周囲の嘔吐が連鎖する。",
+          "source_ids": [
+            "G01-S009"
+          ],
+          "Q": {
+            "target_id": "G01-W12-P02-Q",
+            "question": "影響はどこまで広がるか"
+          },
+          "D": {
+            "target_id": "G01-W12-P02-D",
+            "anticipated_loss": "周囲の不快・体調悪化"
+          },
+          "C": {
+            "target_id": "G01-W12-P02-C",
+            "available_or_narrated_choices": "車を止める・清掃等は分析上の候補で本文の成功ではない"
+          },
+          "M": {
+            "target_id": "G01-W12-P02-M",
+            "premise_and_evidence": "自分の処理で全員の問題が終わるとは限らない"
+          },
+          "information_state_change": "個人の切迫→集団の反応",
+          "onset_conditions": "臭い等の刺激",
+          "closure_conditions": "D:刺激遮断と個々の回復。作中は混乱として描かれる",
+          "local_or_global": "車内の集団",
+          "type_ids": [
+            "E2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D1"
+          ],
+          "discriminators": "刺激反応の連鎖であって感染の証拠ではない。E2の媒介は超常に限らないが新対象への損失を確認する。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "非ホラーでも問題状態を符号化できる境界例。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "社会的な露見・評判喪失は26型に直接の専用型がない。生理描写と笑いの演出も別。"
+      ],
+      "counterexamples": [
+        "同じB2的制約やE3的選択は笑い話にも成立し、構造分類はジャンルを判別しない。"
+      ],
+      "change_proposals": [
+        "社会的露見を損失対象の修飾子として先に試す。G01-N02は保留候補であり追加採用しない。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "body_status": "unverified",
+      "source_ids": [],
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストとX言及は本文の代用にならない。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W13-SC01",
+          "problem_id": "G01-W13-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [],
+          "Q": {
+            "target_id": "G01-W13-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W13-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W13-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W13-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "名称リストとX言及は本文の代用にならない。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "名称リストとX言及は本文の代用にならない。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    },
+    {
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S024",
+        "G01-S025",
+        "G01-S026",
+        "G01-S027"
+      ],
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "加害の強要と身体損傷の進行",
+        "見物する者の価値観への不信"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W14-SC01",
+          "problem_id": "G01-W14-P01",
+          "evidence_summary": "演者が傷つける行為をためらい、中年女性はより深い損傷を要求する。",
+          "source_ids": [
+            "G01-S024",
+            "G01-S025",
+            "G01-S026",
+            "G01-S027"
+          ],
+          "Q": {
+            "target_id": "G01-W14-P01-Q",
+            "question": "拒否できるか、どこまで要求されるか"
+          },
+          "D": {
+            "target_id": "G01-W14-P01-D",
+            "anticipated_loss": "臓器損傷・死"
+          },
+          "C": {
+            "target_id": "G01-W14-P01-C",
+            "available_or_narrated_choices": "拒否・逃避・介入は理論候補。強要の制度と退出可能性は描かれない"
+          },
+          "M": {
+            "target_id": "G01-W14-P01-M",
+            "premise_and_evidence": "助力・親密さに見える関係が加害の要求を含む"
+          },
+          "information_state_change": "ためらいへの叱責→加害進行",
+          "onset_conditions": "見世物での女性の圧力",
+          "closure_conditions": "Q:要求は明白、支配関係の背景不明。D:加害停止と救命が必要だが作中未達",
+          "local_or_global": "局所",
+          "type_ids": [
+            "C2",
+            "D5"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D3",
+            "B2",
+            "E3"
+          ],
+          "discriminators": "C2は女性の有害な利害に候補適合。D5は内部臓器損傷だが起点が外傷。機会が無い描写からB2を捏造しない。",
+          "residue": "人間の外傷・直接攻撃をA群/D群が十分覆うか。",
+          "confidence": "中",
+          "actual_outcome": "演者の死亡は損失による終結。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W14-SC02",
+          "problem_id": "G01-W14-P02",
+          "evidence_summary": "語り手は身体の観察を興味として語り、死も平静に記録される。",
+          "source_ids": [
+            "G01-S024",
+            "G01-S025",
+            "G01-S026",
+            "G01-S027"
+          ],
+          "Q": {
+            "target_id": "G01-W14-P02-Q",
+            "question": "なぜ観察者は介入せず平静なのか"
+          },
+          "D": {
+            "target_id": "G01-W14-P02-D",
+            "anticipated_loss": "読者側が価値の崩れを感じ得るが観察者の予期損失は不明"
+          },
+          "C": {
+            "target_id": "G01-W14-P02-C",
+            "available_or_narrated_choices": "語り手は観察に留まる"
+          },
+          "M": {
+            "target_id": "G01-W14-P02-M",
+            "premise_and_evidence": "共感や尊厳の期待が語りの態度で揺らぎ得る"
+          },
+          "information_state_change": "救命への期待を持つ読み手と語り手の態度が食い違う",
+          "onset_conditions": "見物者の語り方",
+          "closure_conditions": "Q:動機不明。D:観察者の危険として閉鎖条件を作らない",
+          "local_or_global": "局所",
+          "type_ids": [],
+          "fit": "不適合",
+          "competing_types": [
+            "F3",
+            "C4"
+          ],
+          "discriminators": "残酷な場面だけで人間価値の世界的非中心性F3とはしない。大切な他者という関係も示されない。",
+          "residue": "嫌悪・共感の欠如の恐ろしさは構造型とは別の注釈。",
+          "confidence": "高",
+          "actual_outcome": "読者効果は未測定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "観察者が損傷を興味・興奮として描くため、観察者自身の予期恐怖を推定できない。"
+      ],
+      "counterexamples": [
+        "内臓の描写はそのままD5ではない。発生は外からの切創で、D5の「内側から」と緊張する。",
+        "自傷行為でも不随意な身体支配D3とは限らない。"
+      ],
+      "change_proposals": [
+        "G01-N01（迫る直接加害）で身体危険一般の穴を点検。D5を外傷一般へ無条件拡張しない。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W15",
+      "title": "地下の丸穴",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S010"
+      ],
+      "episode_scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "捜索される／逃げ場のない地下",
+        "帰る世界と自己の同一性の喪失",
+        "回復した生活に届く過去からの接触"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W15-SC01",
+          "problem_id": "G01-W15-P01",
+          "evidence_summary": "施設の地下で足音から隠れ、扉が使えず、同行者に続いて丸穴へ飛び込む。",
+          "source_ids": [
+            "G01-S010"
+          ],
+          "Q": {
+            "target_id": "G01-W15-P01-Q",
+            "question": "誰が探しているか、どこへ逃げられるか"
+          },
+          "D": {
+            "target_id": "G01-W15-P01-D",
+            "anticipated_loss": "発見・捕捉、閉鎖場所での加害"
+          },
+          "C": {
+            "target_id": "G01-W15-P01-C",
+            "available_or_narrated_choices": "隠れる、別経路、丸穴へ跳ぶ"
+          },
+          "M": {
+            "target_id": "G01-W15-P01-M",
+            "premise_and_evidence": "未知施設で離脱できるという前提が崩れる"
+          },
+          "information_state_change": "足音→通常出口の制約→未知の出口の選択",
+          "onset_conditions": "無断探索中の捜索と扉の阻害",
+          "closure_conditions": "Q:丸穴の行き先不明。D:元施設からの接触は途切れるが安全外部か未確定",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A1",
+            "B2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "A2",
+            "C2"
+          ],
+          "discriminators": "足音が本人を標的に接近している確証は限定的。Aを案内した友人の敵意は推測のみ。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "元の捜索から離脱した範囲を固定。",
+          "transitions": [
+            "A1/B2→B1/D4。離脱先の問題は別対象。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W15-SC02",
+          "problem_id": "G01-W15-P02",
+          "evidence_summary": "覚醒後の顔・名前・家族・地理が以前の記憶と異なり、二年の昏睡と説明される。",
+          "source_ids": [
+            "G01-S010"
+          ],
+          "Q": {
+            "target_id": "G01-W15-P02-Q",
+            "question": "現在地と自分の由来、旧記憶は何か"
+          },
+          "D": {
+            "target_id": "G01-W15-P02-D",
+            "anticipated_loss": "元の自己・関係・帰還可能性の喪失"
+          },
+          "C": {
+            "target_id": "G01-W15-P02-C",
+            "available_or_narrated_choices": "記録照合、家族に聞く、生活を学ぶ"
+          },
+          "M": {
+            "target_id": "G01-W15-P02-M",
+            "premise_and_evidence": "自己と日常の連続性が疑われる"
+          },
+          "information_state_change": "病院説明と記憶の矛盾→社会知識を学び直す",
+          "onset_conditions": "丸穴後の覚醒と食い違う証拠",
+          "closure_conditions": "Q:現在の生活条件は理解。由来は未解明。D:元の関係への帰還は未達。M:現生活へ適応",
+          "local_or_global": "作品全体／自己と生活",
+          "type_ids": [
+            "B1",
+            "D4",
+            "B4"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "C1",
+            "C3",
+            "F1"
+          ],
+          "discriminators": "C1は他者の模倣の証拠なし。F1は多数の差異を示すが本人の記憶問題という競合が残るので全世界規則の確定にしない。",
+          "residue": "社会の語彙・地理の違いが個人の認識障害でも説明可能という不確定性。",
+          "confidence": "中",
+          "actual_outcome": "現生活の学習・結婚予定は成果。元世界帰還は別未解決。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W15-SC03",
+          "problem_id": "G01-W15-P03",
+          "evidence_summary": "17年後、旧名を知る差出人の手紙が届き、秘密の面会を要求される。",
+          "source_ids": [
+            "G01-S010"
+          ],
+          "Q": {
+            "target_id": "G01-W15-P03-Q",
+            "question": "旧生活を知るのは誰か、会うと何が起こるか"
+          },
+          "D": {
+            "target_id": "G01-W15-P03-D",
+            "anticipated_loss": "現生活・関係に及ぶ不明な損失"
+          },
+          "C": {
+            "target_id": "G01-W15-P03-C",
+            "available_or_narrated_choices": "面会、拒否、周囲に相談する。作中は記録を残して行く意向"
+          },
+          "M": {
+            "target_id": "G01-W15-P03-M",
+            "premise_and_evidence": "適応によって旧問題が消えたという理解が揺らぐ"
+          },
+          "information_state_change": "旧名という新証拠が過去Qを再開する",
+          "onset_conditions": "手紙と面会要請",
+          "closure_conditions": "Q:差出人と動機未解明。D:具体的加害・面会結果は未提示",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "C2",
+            "E4"
+          ],
+          "discriminators": "秘密要請だけで敵対者確定せず。E1は面会条件の未知の帰結候補、規則不明で弱い。",
+          "residue": "未完の予期は既存型の閉鎖条件不足として残す。",
+          "confidence": "低",
+          "actual_outcome": "現生活の成果を取り消さず、新たな接触問題を開く。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "夢・記憶障害・世界移動のどれかは本文のみでは一意に決まらない。"
+      ],
+      "counterexamples": [
+        "位置の説明がついても元の世界へ帰れない。",
+        "現在の家族を悪い代替者と決め付ける根拠はない。"
+      ],
+      "change_proposals": [
+        "B1/D4/B4の競合を残し、F1は部分候補に留める。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W16",
+      "title": "つんつるてん",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S011"
+      ],
+      "episode_scope": "犬を持つ男との追跡、仮説検討、トラック事故、多数の犬連れの結末まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "異様な男からの反復追跡",
+        "避難所の境界への圧力",
+        "仮説に基づく安全判断の失敗",
+        "逃走成功後の再び多数となる追手"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W16-SC01",
+          "problem_id": "G01-W16-P01",
+          "evidence_summary": "男に追われ、トイレに籠もると外から圧力が続く。後には喫茶店の窓も安全境界になる。",
+          "source_ids": [
+            "G01-S011"
+          ],
+          "Q": {
+            "target_id": "G01-W16-P01-Q",
+            "question": "追跡を切るには何が効くか"
+          },
+          "D": {
+            "target_id": "G01-W16-P01-D",
+            "anticipated_loss": "捕捉・境界突破"
+          },
+          "C": {
+            "target_id": "G01-W16-P01-C",
+            "available_or_narrated_choices": "走る、自転車、籠城、別の服を試す"
+          },
+          "M": {
+            "target_id": "G01-W16-P01-M",
+            "premise_and_evidence": "扉や窓の安全は条件付き"
+          },
+          "information_state_change": "目撃→標的接近→境界越しの攻撃",
+          "onset_conditions": "男に目を付けられる条件不明",
+          "closure_conditions": "Q:速度・経路の断片。D:その場の距離・境界で接触を遮断するのみ",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A2",
+            "A3"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "A4",
+            "B2"
+          ],
+          "discriminators": "周囲を占有する包囲の証拠は乏しくA4を自動追加しない。自主的避難をB2と混同しない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "各回の接触回避は局所成功、反復の原因未解明。",
+          "transitions": [
+            "A2→境界維持→次のA2。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W16-SC02",
+          "problem_id": "G01-W16-P02",
+          "evidence_summary": "友人と服・解剖臭の仮説を検討するが、後の死亡と追跡で安全解釈が揺らぐ。",
+          "source_ids": [
+            "G01-S011"
+          ],
+          "Q": {
+            "target_id": "G01-W16-P02-Q",
+            "question": "男は殺すのか、死を察知するのか"
+          },
+          "D": {
+            "target_id": "G01-W16-P02-D",
+            "anticipated_loss": "誤った安全策による再曝露・死亡"
+          },
+          "C": {
+            "target_id": "G01-W16-P02-C",
+            "available_or_narrated_choices": "条件を変える、相談する、逃走"
+          },
+          "M": {
+            "target_id": "G01-W16-P02-M",
+            "premise_and_evidence": "原因を知ったという確信が限定される"
+          },
+          "information_state_change": "仮説→反証→別仮説→死の臭いという再解釈",
+          "onset_conditions": "反復遭遇と死亡の時間関係",
+          "closure_conditions": "Q:因果方向は未決。D:仮説を知っても男の接近は遮断されない",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E4",
+            "F2"
+          ],
+          "discriminators": "E1は行為による起動か、既存の死の予兆の検出かで判別。人類の恒久限界F2ではない。",
+          "residue": "予兆を原因として解除できると推定してはいけない。",
+          "confidence": "中",
+          "actual_outcome": "規則Qは閉じたと思った後に再開。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W16-SC03",
+          "problem_id": "G01-W16-P03",
+          "evidence_summary": "スクーターで逃走し一人の追手は事故で倒れるが、多数の犬連れが現れる。",
+          "source_ids": [
+            "G01-S011"
+          ],
+          "Q": {
+            "target_id": "G01-W16-P03-Q",
+            "question": "他の追手も同じ規則で来るか"
+          },
+          "D": {
+            "target_id": "G01-W16-P03-D",
+            "anticipated_loss": "新しい追手との接触"
+          },
+          "C": {
+            "target_id": "G01-W16-P03-C",
+            "available_or_narrated_choices": "走行継続、経路変更"
+          },
+          "M": {
+            "target_id": "G01-W16-P03-M",
+            "premise_and_evidence": "一体を振り切ることと脅威全体の消滅は別"
+          },
+          "information_state_change": "単一追手の停止→新たな標的接近",
+          "onset_conditions": "残る群衆が本人に反応する",
+          "closure_conditions": "D:最初の追手は追跡停止。群衆への対処は未達",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "E2",
+            "F1"
+          ],
+          "discriminators": "数が増えたことだけでは媒介・伝播経路を示さない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "一体の停止は成功として保持、新しい対象IDへ。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "死の原因か予兆かという逆因果的な曖昧さ。"
+      ],
+      "counterexamples": [
+        "黒い服の仮説は白い服でも襲われて反証される。",
+        "臭いを断った時の不遭遇は安全の十分条件にならない。",
+        "多数の犬連れの登場は伝播規則E2の証明ではない。"
+      ],
+      "change_proposals": [
+        "E1に因果起動／予兆検出の区別を導入。新型にせず確信度修飾。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W17",
+      "title": "トマトの頭をした男",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S012"
+      ],
+      "episode_scope": "洒落怖380の2024-12-21投稿626–627「トマト男」のみ。同頁の旧友の霊の別話を除外。",
+      "alias_or_derivative": {
+        "classification": "本文で明示される別名",
+        "aliases": [
+          "トマト男"
+        ],
+        "confirmed_duplicate_of": null,
+        "notes": "同頁の旧友の霊の話は別作品として不採用。"
+      },
+      "overall_fears": [
+        "食品の擬態と変質への予期",
+        "知らずに食べた他人の将来が不明"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W17-SC01",
+          "problem_id": "G01-W17-P01",
+          "evidence_summary": "語り手は小人がトマトに擬態するのを見たと語り、女性が採って食べる。",
+          "source_ids": [
+            "G01-S012"
+          ],
+          "Q": {
+            "target_id": "G01-W17-P01-Q",
+            "question": "女性は変身するか、加熱は有効か"
+          },
+          "D": {
+            "target_id": "G01-W17-P01-D",
+            "anticipated_loss": "自他の身体変質"
+          },
+          "C": {
+            "target_id": "G01-W17-P01-C",
+            "available_or_narrated_choices": "食べない、加熱する、警告する。警告実施はない"
+          },
+          "M": {
+            "target_id": "G01-W17-P01-M",
+            "premise_and_evidence": "食品の外観だけで安全を判定できない"
+          },
+          "information_state_change": "噂→擬態目撃→女性の摂取→結末不明",
+          "onset_conditions": "生食で変身するという伝承",
+          "closure_conditions": "Q:女性の状態未確認。D:語り手の回避は食べない範囲、女性の安全不明",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E1",
+            "D2"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D1",
+            "E2",
+            "C1"
+          ],
+          "discriminators": "摂食が起動条件、変質は伝承上の予期。寄生・感染機序や次の他人への媒介はない。食品擬態は本人の模倣C1ではない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "認識更新は達成、他者の安全の確認は未達。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "実際の変身は観測されない。料理による無害化も伝承。"
+      ],
+      "counterexamples": [
+        "トマトを食べた女性の変身を事実として書けない。",
+        "変身を恐れる型は同じでも造形・文章の調子からホラー効果を保証できない。"
+      ],
+      "change_proposals": [
+        "E1/D2は観測した危険と伝承上の予期を区別。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "body_status": "partial",
+      "source_ids": [
+        "G01-S013",
+        "G01-S023"
+      ],
+      "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "alias_or_derivative": {
+        "classification": "実況型ネットロア／シリーズ",
+        "confirmed_duplicate_of": null,
+        "notes": "冒頭だけのコピペと、投稿121–134の本文を区別。TRPG・小説・漫画の派生は分析に含めない。"
+      },
+      "overall_fears": [
+        "発見される／武器を持つ猫からの攻撃",
+        "家を取り囲まれ窓が破られそうになる"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W18-SC01",
+          "problem_id": "G01-W18-P01",
+          "evidence_summary": "公園で静止して見ていると気付かれ、刃物状の物を持つ猫が迫る。砂で怯ませ帰宅する。",
+          "source_ids": [
+            "G01-S013",
+            "G01-S023"
+          ],
+          "Q": {
+            "target_id": "G01-W18-P01-Q",
+            "question": "気付かれずにいられるか、逃走できるか"
+          },
+          "D": {
+            "target_id": "G01-W18-P01-D",
+            "anticipated_loss": "刃物による加害"
+          },
+          "C": {
+            "target_id": "G01-W18-P01-C",
+            "available_or_narrated_choices": "静止、逃走、砂で足止め"
+          },
+          "M": {
+            "target_id": "G01-W18-P01-M",
+            "premise_and_evidence": "猫の無害さと人間との能力差の前提が揺らぐ"
+          },
+          "information_state_change": "静かな観察→発見→武器の認識",
+          "onset_conditions": "公園で猫の姿を観測",
+          "closure_conditions": "Q:発見と武器は判明。D:その場の接触を避け家へ達する",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A1",
+            "A2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "E1"
+          ],
+          "discriminators": "姿を見た罰という因果は解説の推測であり本文では不明。",
+          "residue": "",
+          "confidence": "高",
+          "actual_outcome": "公園からの回避達成。",
+          "transitions": [
+            "A1→A2。発見回避失敗だが接触回避は成功。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W18-SC02",
+          "problem_id": "G01-W18-P02",
+          "evidence_summary": "後日の夜、複数の猫が家の周囲を回り、窓や壁を叩き、カバーの突破が懸念される。",
+          "source_ids": [
+            "G01-S013",
+            "G01-S023"
+          ],
+          "Q": {
+            "target_id": "G01-W18-P02-Q",
+            "question": "境界は保つか、何を求めるか"
+          },
+          "D": {
+            "target_id": "G01-W18-P02-D",
+            "anticipated_loss": "侵入・攻撃・睡眠喪失"
+          },
+          "C": {
+            "target_id": "G01-W18-P02-C",
+            "available_or_narrated_choices": "鍵とカバーを保つ、隠れる、援助を求める"
+          },
+          "M": {
+            "target_id": "G01-W18-P02-M",
+            "premise_and_evidence": "家の安全が継続的な防御条件に変わる"
+          },
+          "information_state_change": "外周の音→猫の確認→境界への働き掛け",
+          "onset_conditions": "家の周囲の占有、侵入企図",
+          "closure_conditions": "Q:突破条件と動機不明。D:当該夜の侵入なし、翌夜・恒久安全は不明",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A4"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "A3",
+            "E5"
+          ],
+          "discriminators": "A3は侵入が実際に成立した証拠なし。E5は自ら危険物を保有・継承する責任がなく、包囲下の防御が中心。",
+          "residue": "",
+          "confidence": "高",
+          "actual_outcome": "転載範囲の一時的境界維持のみ。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "実況の参加・時間性は型だけでは説明しない。写真動画と後続専用スレを未取得。"
+      ],
+      "counterexamples": [
+        "一晩何もない、普通の猫に見えるという自己説明は後の観測で安全根拠として崩れる。",
+        "参加者の現地行動を怪談内の呪いの伝播と解釈しない。"
+      ],
+      "change_proposals": [
+        "A1→A2→A4の遷移の有力例。シリーズ全体の終結は未検証。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "部分的本文確認"
+    },
+    {
+      "work_id": "G01-W19",
+      "title": "ばりばり",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S014"
+      ],
+      "episode_scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "夢の学校での捕食者と逃走",
+        "前回使えた出口の喪失",
+        "夢と覚醒の境界を越える痕跡と再来の予期"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W19-SC01",
+          "problem_id": "G01-W19-P01",
+          "evidence_summary": "音源を確かめると少女が人を食べており、逃げる。校門は施錠され、別門を越える。",
+          "source_ids": [
+            "G01-S014"
+          ],
+          "Q": {
+            "target_id": "G01-W19-P01-Q",
+            "question": "どの出口が使え、追手はどこまで来るか"
+          },
+          "D": {
+            "target_id": "G01-W19-P01-D",
+            "anticipated_loss": "捕食・捕捉"
+          },
+          "C": {
+            "target_id": "G01-W19-P01-C",
+            "available_or_narrated_choices": "覗く、逃げる、別門を越える"
+          },
+          "M": {
+            "target_id": "G01-W19-P01-M",
+            "premise_and_evidence": "夢の自覚は安全を保証しない"
+          },
+          "information_state_change": "不明な音→捕食の認識→前回の帰路記憶→施錠の発見",
+          "onset_conditions": "学校の夢、観測で自らの危険を認識",
+          "closure_conditions": "Q:別門の利用可能性が分かる。D:今回の接触は門の外で遮断され覚醒",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A2",
+            "B2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "A1",
+            "B3"
+          ],
+          "discriminators": "静かに覗く段階はA1候補、追跡後はA2。施錠の理由は校則変更であり直ちに時空接続異常B3ではない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "今回の逃走成功を保持。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W19-SC02",
+          "problem_id": "G01-W19-P02",
+          "evidence_summary": "覚醒後のノートにも同じ語の書き込みがあり、第三回の夢では逃げられないと懸念する。",
+          "source_ids": [
+            "G01-S014"
+          ],
+          "Q": {
+            "target_id": "G01-W19-P02-Q",
+            "question": "メモはいつ誰が書いたか、夢は繰り返すか"
+          },
+          "D": {
+            "target_id": "G01-W19-P02-D",
+            "anticipated_loss": "再来時の死"
+          },
+          "C": {
+            "target_id": "G01-W19-P02-C",
+            "available_or_narrated_choices": "記録、相談。再発を止める手段はない"
+          },
+          "M": {
+            "target_id": "G01-W19-P02-M",
+            "premise_and_evidence": "夢と現実の区切りが安全判断に使えなくなる"
+          },
+          "information_state_change": "覚醒の安心→物的な痕跡→次回の危険予期",
+          "onset_conditions": "反復夢の記憶とメモ",
+          "closure_conditions": "Q:メモの由来未解明。D:現在覚醒は成功、次回の発生・結果不明",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "B3",
+            "F1",
+            "D4"
+          ],
+          "discriminators": "メモは自作の可能性があり世界法則F1を確定しない。眠ることが必ず発動する規則も未確認。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "現在のD回避と将来のD予期を別対象にする。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "音、筆跡、記憶の帰還による不気味さ。"
+      ],
+      "counterexamples": [
+        "夢だと理解していても、接触の脅威は人物に切迫している。",
+        "校内の異形すべてが敵ではない。",
+        "出口は前回と同じとは限らないが、現在の別門からの離脱は実際に成功している。"
+      ],
+      "change_proposals": [
+        "B3は接続異常と普通の施錠変更を区別。B4はメモ由来を含む現実判断として併記。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "body_status": "unverified",
+      "source_ids": [],
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストと無関係小説は本文の代用にならない。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W20-SC01",
+          "problem_id": "G01-W20-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [],
+          "Q": {
+            "target_id": "G01-W20-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W20-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W20-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W20-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "名称リストと無関係小説は本文の代用にならない。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "名称リストと無関係小説は本文の代用にならない。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "body_status": "partial",
+      "source_ids": [
+        "G01-S015"
+      ],
+      "episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+      "alias_or_derivative": {
+        "classification": "シリーズ候補／本文内の自己参照あり",
+        "confirmed_duplicate_of": null,
+        "notes": "転載見出しは蛇憑きの話、蛇が憑いた、去年亡くなった妹の話。2015年が前2篇を具体的に参照するが、割当の総称・投稿者の同一性は未確証。"
+      },
+      "overall_fears": [
+        "視覚器官への加害と救助",
+        "恩返しの存在による意図・行動の支配",
+        "祖父の封じ込めと継承破綻",
+        "妹の犠牲・死と救助失敗"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W21-SC01",
+          "problem_id": "G01-W21-P01",
+          "evidence_summary": "2008年篇で目を奪われそうになるが蛇が介入し、七日後に視力は回復する。",
+          "source_ids": [
+            "G01-S015"
+          ],
+          "Q": {
+            "target_id": "G01-W21-P01-Q",
+            "question": "何が襲い、失明するか"
+          },
+          "D": {
+            "target_id": "G01-W21-P01-D",
+            "anticipated_loss": "視覚機能喪失"
+          },
+          "C": {
+            "target_id": "G01-W21-P01-C",
+            "available_or_narrated_choices": "治療、家族へ相談、蛇の介入を受ける"
+          },
+          "M": {
+            "target_id": "G01-W21-P01-M",
+            "premise_and_evidence": "自宅の仏間の安全、身体の境界が揺らぐ"
+          },
+          "information_state_change": "不可視の加害→保護の声→実際の回復",
+          "onset_conditions": "昼寝中の顔への攻撃",
+          "closure_conditions": "Q:攻撃者不明、回復予告は一致。D:視力回復は達成。全ての将来被害の根絶ではない",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A3",
+            "D5"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D1",
+            "G01-N01"
+          ],
+          "discriminators": "D5は眼球・内部の損傷として候補、外からの局所攻撃なので境界曖昧。D1は侵入物の証拠なし。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "視力回復という成果を固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W21-SC02",
+          "problem_id": "G01-W21-P02",
+          "evidence_summary": "2011年篇で身体感覚・願望が変わり、意に反して祖母の首を掴む。家族の祓いで終了する。",
+          "source_ids": [
+            "G01-S015"
+          ],
+          "Q": {
+            "target_id": "G01-W21-P02-Q",
+            "question": "制御主体は誰か、祓えるか"
+          },
+          "D": {
+            "target_id": "G01-W21-P02-D",
+            "anticipated_loss": "自分の制御喪失と祖母への加害"
+          },
+          "C": {
+            "target_id": "G01-W21-P02-C",
+            "available_or_narrated_choices": "自己の確認、援助を受ける、祓い"
+          },
+          "M": {
+            "target_id": "G01-W21-P02-M",
+            "premise_and_evidence": "保護者だと思った蛇の利害は自己保存と衝突する"
+          },
+          "information_state_change": "事故→家族の診断→実際の不随意加害→祓い",
+          "onset_conditions": "長く憑いていること、祓いへの抵抗",
+          "closure_conditions": "Q:蛇の意図は祖母証言。D/C:不随意行動の停止、他者の保護。自己の後悔は残る",
+          "local_or_global": "局所",
+          "type_ids": [
+            "D3",
+            "C2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "D2",
+            "D4"
+          ],
+          "discriminators": "蛇のような触感はD2候補だが不可逆変質未確認。意図に反する動作D3と人格の恒久置換D4は別。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "祓いの終了と罪責・後悔の持続を別に記録。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W21-SC03",
+          "problem_id": "G01-W21-P03",
+          "evidence_summary": "祖父は他人から移した悪霊を自分に封じて隔離生活をする。2015年に封印石が割れ再封印が難航する。",
+          "source_ids": [
+            "G01-S015"
+          ],
+          "Q": {
+            "target_id": "G01-W21-P03-Q",
+            "question": "封印はいつまで保ち、誰に引き継げるか"
+          },
+          "D": {
+            "target_id": "G01-W21-P03-D",
+            "anticipated_loss": "周囲への被害、管理破綻、内部の激痛"
+          },
+          "C": {
+            "target_id": "G01-W21-P03-C",
+            "available_or_narrated_choices": "監視・隔離、封印の更新、能力のある支援"
+          },
+          "M": {
+            "target_id": "G01-W21-P03-M",
+            "premise_and_evidence": "救助が終わらない管理責任を作る"
+          },
+          "information_state_change": "過去の封印→石破損→再封印能力不足",
+          "onset_conditions": "強い悪霊の保有、石と肉体の条件破綻",
+          "closure_conditions": "Q:管理条件は証言。D:抑制継続か無害化が必要、石だけでは未成功",
+          "local_or_global": "家族・周囲／継続管理",
+          "type_ids": [
+            "E5",
+            "E4",
+            "D5"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "E3",
+            "E2"
+          ],
+          "discriminators": "E5は対処可能だった期間の継続責任、E4は破綻後の能力不足。身体への受け入れの代償E3と混同しない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "当面抑制の成果は過去にあるが終止条件は未達。",
+          "transitions": [
+            "E5の管理破綻→E4→妹のE3。"
+          ],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W21-SC04",
+          "problem_id": "G01-W21-P04",
+          "evidence_summary": "妹が封印石を飲み、家族は救済を試みるが後に遺体を発見する。石の変化から悪霊消失と説明される。",
+          "source_ids": [
+            "G01-S015"
+          ],
+          "Q": {
+            "target_id": "G01-W21-P04-Q",
+            "question": "妹を助ける方法はあるか、悪霊は消えたか"
+          },
+          "D": {
+            "target_id": "G01-W21-P04-D",
+            "anticipated_loss": "妹の命、家族・周囲への被害"
+          },
+          "C": {
+            "target_id": "G01-W21-P04-C",
+            "available_or_narrated_choices": "代替策、捜索。妹は引き受け、家族は制止する"
+          },
+          "M": {
+            "target_id": "G01-W21-P04-M",
+            "premise_and_evidence": "管理負担を担うことと尊い選択は安全を意味しない"
+          },
+          "information_state_change": "犠牲選択→失踪→死亡確認→消失の解釈",
+          "onset_conditions": "封印破綻下での肉体使用",
+          "closure_conditions": "Q:消失は父の説明。D妹:死による損失終結。D周囲:石の状態のみで完全安全の証明は弱い",
+          "local_or_global": "家族／作品全体",
+          "type_ids": [
+            "E3",
+            "C4"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "D1",
+            "F3"
+          ],
+          "discriminators": "飲み込みは異物侵入だが中心問題は対処の代償。人間の優しさが報われない単話だけでF3を確定しない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "管理危険の抑制と妹の死は異なる成果・損失。兄の継承は家の役目、同じ悪霊の管理とは未証明。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "恩返しの後の後悔・罪責。後続投稿者が兄であること、全篇の同一人物性は原スレ未照合。"
+      ],
+      "counterexamples": [
+        "2008年の視力回復は成功であり、2015年の死で遡及的に否定しない。",
+        "祓いの対象は妹の蛇、祖父の悪霊は別。",
+        "家を守る役割だけで、人間存在全体の用途依存F4とはしない。"
+      ],
+      "change_proposals": [
+        "D3/D4、E5/E3を区別できる有力例。シリーズ同定確信度は中。"
+      ],
+      "confidence": {
+        "work_identification": "中",
+        "structural_coding": "中",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "部分的本文確認"
+    },
+    {
+      "work_id": "G01-W22",
+      "title": "マイナスドライバー",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S016"
+      ],
+      "episode_scope": "2000-06-15投稿175の浴室・鍵穴の短編全体。後年の同名創作は除外。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "覗きの直後の目への急な直接加害",
+        "母に伝えられず危険の由来が残る"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W22-SC01",
+          "problem_id": "G01-W22-P01",
+          "evidence_summary": "子供が浴室の鍵穴から覗き、直感で引いた直後にドライバーが突き出される。",
+          "source_ids": [
+            "G01-S016"
+          ],
+          "Q": {
+            "target_id": "G01-W22-P01-Q",
+            "question": "誰がなぜ刺し、また起こるか"
+          },
+          "D": {
+            "target_id": "G01-W22-P01-D",
+            "anticipated_loss": "目の損傷・直接加害"
+          },
+          "C": {
+            "target_id": "G01-W22-P01-C",
+            "available_or_narrated_choices": "顔を引く、逃げる、母に伝える（実際は伝えない）"
+          },
+          "M": {
+            "target_id": "G01-W22-P01-M",
+            "premise_and_evidence": "小さな境界・見える穴は身体を守らない"
+          },
+          "information_state_change": "視野の遮り→室内確認→直後の突刺し",
+          "onset_conditions": "鍵穴へ顔を近づける。悪意・発動因果は不明",
+          "closure_conditions": "Q:加害主体と意図未解明。D:顔を引きその一撃を回避、再発防止不明",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "A2",
+            "A1",
+            "C3",
+            "E1",
+            "D5"
+          ],
+          "discriminators": "A2の追跡・標的への接近は十分描かれず一撃のみ。A3の安全境界を小穴まで拡張すれば部分的。D5はまだ内部損傷が進んでいない。",
+          "residue": "一撃を避ける独立の閉鎖判断はあり、G01-N01を提案する。",
+          "confidence": "高",
+          "actual_outcome": "当該一撃は回避成功。主体Qと将来安全Dは未解決。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "追跡・感染・変身を伴わない局所攻撃。"
+      ],
+      "counterexamples": [
+        "追手が所在を知らない場面ではないのでA1不適合。",
+        "母に言わなかったことを「訴えても信じてもらえない」C3にしてはいけない。"
+      ],
+      "change_proposals": [
+        "G01-N01:迫る直接加害。A2の接触回避上位化との比較を先に実施。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W23",
+      "title": "ヤドリギ",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S017"
+      ],
+      "episode_scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "周囲への不調と孤立",
+        "自分が他者を危険にさらす媒介となる不安",
+        "助けを失い本人は危険を認識し切れない"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W23-SC01",
+          "problem_id": "G01-W23-P01",
+          "evidence_summary": "霊を見える人が周囲で苦しみ、語り手は警告を信じない。別の援助者の説明が警告と合う。",
+          "source_ids": [
+            "G01-S017"
+          ],
+          "Q": {
+            "target_id": "G01-W23-P01-Q",
+            "question": "本人は何を媒介し、周囲の事件とどう結びつくか"
+          },
+          "D": {
+            "target_id": "G01-W23-P01-D",
+            "anticipated_loss": "同僚・友人の健康と関係の喪失"
+          },
+          "C": {
+            "target_id": "G01-W23-P01-C",
+            "available_or_narrated_choices": "警告、離れる、専門家に相談する"
+          },
+          "M": {
+            "target_id": "G01-W23-P01-M",
+            "premise_and_evidence": "本人の無症状を安全の基準にできない"
+          },
+          "information_state_change": "周囲の証言→独立した援助者の説明→自分の過去の再解釈",
+          "onset_conditions": "語り手への付着と接近。因果は援助者の仮説",
+          "closure_conditions": "Q:体質説明は一致するが機序未解明。D:本人と周囲を分けて対応が必要",
+          "local_or_global": "本人と周囲／作品全体",
+          "type_ids": [
+            "E2",
+            "C3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D1",
+            "C2"
+          ],
+          "discriminators": "E2は本人を経由して周囲が損失を受ける仮説。知る者が援助できないC3を、無知な本人の視点と分離。侵入物・敵対計画は不明。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "警告の一部理解。援助へのアクセスは開くが安全未達。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W23-SC02",
+          "problem_id": "G01-W23-P02",
+          "evidence_summary": "援助者は死亡し、別の協力者は離職。本人は休職しても付着状態が分からない。",
+          "source_ids": [
+            "G01-S017"
+          ],
+          "Q": {
+            "target_id": "G01-W23-P02-Q",
+            "question": "危険は離れたか、援助者の死はそのせいか"
+          },
+          "D": {
+            "target_id": "G01-W23-P02-D",
+            "anticipated_loss": "周囲の死・不調、本人の孤立と将来被害"
+          },
+          "C": {
+            "target_id": "G01-W23-P02-C",
+            "available_or_narrated_choices": "専門家の支援を探す、接触を減らす。実行結果なし"
+          },
+          "M": {
+            "target_id": "G01-W23-P02-M",
+            "premise_and_evidence": "他者が去れば自分も安全とは限らない"
+          },
+          "information_state_change": "警告された予期→周囲の損失→観測不能のまま",
+          "onset_conditions": "援助者との関与、付着の継続疑い",
+          "closure_conditions": "Q:因果は未確証。D:周囲の損失は確定、本人の危険は未閉鎖",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E2",
+            "E4"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E5",
+            "C4",
+            "F2"
+          ],
+          "discriminators": "E4は専門知識不足という候補だが規則も未知。E5は有効な管理条件が定まらない。C4は大切さと救助目標が弱いので主型にしない。",
+          "residue": "無自覚な語りが被害の重さとずれる点は提示・視点。",
+          "confidence": "中",
+          "actual_outcome": "原因説明を得ても救命・除去は成功していない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "周囲の非難と語り手の無自覚、自己責任の読み。コメントの譲渡・交渉案は本文外。"
+      ],
+      "counterexamples": [
+        "本人が無症状でも周囲の被害の問題は成立する。",
+        "むっさんの援助の失敗は世界全体の無関心F3の証明ではない。"
+      ],
+      "change_proposals": [
+        "E2の対象範囲、C3の知る人の視点を明記。E5の成功した継続管理はこの本文では未確立。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W24",
+      "title": "ゆき・富士の影",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S018"
+      ],
+      "episode_scope": "Uが語る「ゆき」の怪談、発声の変化、帰郷後の葬儀まで。",
+      "alias_or_derivative": {
+        "classification": "複合見出し／同一篇",
+        "aliases": [
+          "ゆき",
+          "富士の影"
+        ],
+        "confirmed_duplicate_of": null,
+        "notes": "地理の言及と怪談「ゆき」を含む単一本文を1項目として扱う。"
+      },
+      "overall_fears": [
+        "語る声の主体が変わる",
+        "話すことによる怪異接近の予期",
+        "死者の声と地理の部分的な照合"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W24-SC01",
+          "problem_id": "G01-W24-P01",
+          "evidence_summary": "Uは書面で終わりを渡そうとするが、話すうちに声と一人称が変わり、後に本人は覚えていない。",
+          "source_ids": [
+            "G01-S018"
+          ],
+          "Q": {
+            "target_id": "G01-W24-P01-Q",
+            "question": "誰が話しているか、なぜ語るのを避けたか"
+          },
+          "D": {
+            "target_id": "G01-W24-P01-D",
+            "anticipated_loss": "本人の発声制御、聞き手への不明な接近"
+          },
+          "C": {
+            "target_id": "G01-W24-P01-C",
+            "available_or_narrated_choices": "話すのを止める、起こす、書面を確認する"
+          },
+          "M": {
+            "target_id": "G01-W24-P01-M",
+            "premise_and_evidence": "自分の語りを制御できる前提が揺らぐ"
+          },
+          "information_state_change": "通常の口承→異常な声→覚醒後の記憶欠落",
+          "onset_conditions": "口頭で語る、止める警告は書面にある",
+          "closure_conditions": "Q:発声主体未解明。C:語りを中断。D:接近の実際の被害は未確認",
+          "local_or_global": "局所",
+          "type_ids": [
+            "D3",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D4",
+            "C1",
+            "E2"
+          ],
+          "discriminators": "記憶欠落だけで自己存在の置換D4を確定しない。口頭の語りの規則と読者の黙読を同一視しない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "発声中断は達成。話の警告が有効かは別未解決。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W24-SC02",
+          "problem_id": "G01-W24-P02",
+          "evidence_summary": "帰郷後に地理の一部は確かめられ、葬儀で異様な声を再び聞いたと語る。",
+          "source_ids": [
+            "G01-S018"
+          ],
+          "Q": {
+            "target_id": "G01-W24-P02-Q",
+            "question": "以前の声と同じか、話の由来は何か"
+          },
+          "D": {
+            "target_id": "G01-W24-P02-D",
+            "anticipated_loss": "語りの怪異が近いという不安。具体的被害はなし"
+          },
+          "C": {
+            "target_id": "G01-W24-P02-C",
+            "available_or_narrated_choices": "記憶と証言を照合する"
+          },
+          "M": {
+            "target_id": "G01-W24-P02-M",
+            "premise_and_evidence": "怪談を作り話として隔離する理解が揺らぐ"
+          },
+          "information_state_change": "地理の照合と声の再認による関連の推測",
+          "onset_conditions": "葬儀、声の観測",
+          "closure_conditions": "Q:地理のみ部分解明。D:呪いの起動・解除の確認なし",
+          "local_or_global": "局所",
+          "type_ids": [
+            "B4",
+            "E1"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "F1",
+            "F2"
+          ],
+          "discriminators": "一つの声と地理照合で全世界規則を改めるF1は強すぎる。",
+          "residue": "聴覚的な不気味さと亡くなった人への悲嘆を別記。",
+          "confidence": "中",
+          "actual_outcome": "一つの命題の照合成功が全体の危険判断を閉じない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "語りの音、悲劇、罪責と懐かしさ。女性の境遇に関する作中の侮蔑的な語りを現実の価値判断として採用しない。"
+      ],
+      "counterexamples": [
+        "富士の影という地理情報の確認は、語りの呪いの実在や解除の証明ではない。",
+        "読者が読むだけで危険になる設定は確認できない。"
+      ],
+      "change_proposals": [
+        "情報主体を語り手・聞き手・後の読者に分ける。声の支配D3と人格置換D4を区別。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W25",
+      "title": "ヨウコウ",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S019"
+      ],
+      "episode_scope": "祖父の山での遭遇・逃走、死後の祖母の説明まで。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "山の存在からの追跡",
+        "孫を守れない危険",
+        "救済と引換えの死という事後解釈"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W25-SC01",
+          "problem_id": "G01-W25-P01",
+          "evidence_summary": "祖父が赤い異様な存在を撃っても止まらず、孫を抱いて逃げ、家に達する。",
+          "source_ids": [
+            "G01-S019"
+          ],
+          "Q": {
+            "target_id": "G01-W25-P01-Q",
+            "question": "追跡を止める手段は何か"
+          },
+          "D": {
+            "target_id": "G01-W25-P01-D",
+            "anticipated_loss": "祖父・孫の捕捉と死"
+          },
+          "C": {
+            "target_id": "G01-W25-P01-C",
+            "available_or_narrated_choices": "射撃、逃走、孫を守るよう願う"
+          },
+          "M": {
+            "target_id": "G01-W25-P01-M",
+            "premise_and_evidence": "猟の技能と銃の制御能力はここでは通用しない"
+          },
+          "information_state_change": "発見→武器の無効→救助を優先する逃走",
+          "onset_conditions": "山で遭遇、標的接近",
+          "closure_conditions": "Q:有効手段不明。D:家までの接触を回避、孫は成長後も生存",
+          "local_or_global": "局所",
+          "type_ids": [
+            "A2",
+            "C4",
+            "E4"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "F2",
+            "A3"
+          ],
+          "discriminators": "A2/C4は明瞭。E4は今回の装備の不適合、規則理解不十分で部分。家への侵入は語られない。",
+          "residue": "",
+          "confidence": "高",
+          "actual_outcome": "孫の生存と家への到達は成果。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W25-SC02",
+          "problem_id": "G01-W25-P02",
+          "evidence_summary": "祖父はほどなく死に、祖母は孫の代わりに引き受けたと説明する。",
+          "source_ids": [
+            "G01-S019"
+          ],
+          "Q": {
+            "target_id": "G01-W25-P02-Q",
+            "question": "死は遭遇・願いの代償か"
+          },
+          "D": {
+            "target_id": "G01-W25-P02-D",
+            "anticipated_loss": "祖父の喪失"
+          },
+          "C": {
+            "target_id": "G01-W25-P02-C",
+            "available_or_narrated_choices": "事後には因果を理解し受容するのみ"
+          },
+          "M": {
+            "target_id": "G01-W25-P02-M",
+            "premise_and_evidence": "神の救済と無償安全を同じとみなせない可能性"
+          },
+          "information_state_change": "死亡の後に代償の解釈が加わる",
+          "onset_conditions": "救助を願う言葉と後の死。因果未確証",
+          "closure_conditions": "Q:祖母の解釈止まり。D:祖父は損失終結、孫は生存",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E3"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E1",
+            "F3"
+          ],
+          "discriminators": "明示契約・必要代償ではないのでE3は弱い。山神の怒りだけで宇宙の非中心性F3にはしない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "救助成果と事後の悲嘆を分離。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "祖父の死への悲嘆と祖母の因果説明。"
+      ],
+      "counterexamples": [
+        "銃が効かないことは人類の構造的な制御不能F2ではない。",
+        "祖父の死が孫の身代わりだったというのは祖母の説明で、選択時点の代償知識はない。"
+      ],
+      "change_proposals": [
+        "E3の事後の代償帰属を、既知の取引と区別する。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W26",
+      "title": "両面宿儺(リョウメンスクナ)",
+      "body_status": "verified",
+      "source_ids": [
+        "G01-S020"
+      ],
+      "episode_scope": "洒落怖109投稿452–515本編と電話説明。別投稿者476/477の漫画解釈は根拠にしない。",
+      "alias_or_derivative": {
+        "classification": "独立短編候補",
+        "confirmed_duplicate_of": null,
+        "notes": "割当内の重複は確認されない。初出の完全照合は未実施。"
+      },
+      "overall_fears": [
+        "封じた危険物を開く禁忌",
+        "祓い後も残る身体・寿命への不安",
+        "管理の移管失敗",
+        "過去の組織的殺害と災害との関係"
+      ],
+      "scenes": [
+        {
+          "scene_id": "G01-W26-SC01",
+          "problem_id": "G01-W26-P01",
+          "evidence_summary": "解体現場で封じた箱が開かれ、開封者の死亡・精神的不調と周囲の異常が語られる。",
+          "source_ids": [
+            "G01-S020"
+          ],
+          "Q": {
+            "target_id": "G01-W26-P01-Q",
+            "question": "どの接触が危険を起動し、祓いは効くか"
+          },
+          "D": {
+            "target_id": "G01-W26-P01-D",
+            "anticipated_loss": "開封者の死、周囲の将来の寿命・身体被害"
+          },
+          "C": {
+            "target_id": "G01-W26-P01-C",
+            "available_or_narrated_choices": "閉じる、専門家に引渡す、祓い"
+          },
+          "M": {
+            "target_id": "G01-W26-P01-M",
+            "premise_and_evidence": "作業上の古物が安全な対象という前提が崩れる"
+          },
+          "information_state_change": "開封禁止の連絡→既に開封→被害と限定された祓い",
+          "onset_conditions": "開封、周囲への曝露。程度と因果は不確定",
+          "closure_conditions": "Q:開封と被害の関係は証言。D:開封者死亡、周囲の恒久安全は未達",
+          "local_or_global": "局所",
+          "type_ids": [
+            "E1",
+            "D5"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "D1",
+            "D2",
+            "E2"
+          ],
+          "discriminators": "心筋梗塞は内部損傷D5候補だが他の不調と因果未確証。箱が場所を移るだけで伝播E2の規則を確定しない。",
+          "residue": "",
+          "confidence": "中",
+          "actual_outcome": "祓いの実行と寿命危険の除去を分離。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W26-SC02",
+          "problem_id": "G01-W26-P02",
+          "evidence_summary": "以前に別寺へ移すはずだった箱が放置され、元住職が引き取り、その後連絡が取れない。",
+          "source_ids": [
+            "G01-S020"
+          ],
+          "Q": {
+            "target_id": "G01-W26-P02-Q",
+            "question": "誰がどの条件で管理を継承するか"
+          },
+          "D": {
+            "target_id": "G01-W26-P02-D",
+            "anticipated_loss": "管理破綻と未管理の危険"
+          },
+          "C": {
+            "target_id": "G01-W26-P02-C",
+            "available_or_narrated_choices": "安全な移管、情報継承、所在確認"
+          },
+          "M": {
+            "target_id": "G01-W26-P02-M",
+            "premise_and_evidence": "引き渡しただけで全体が安全とは言えない"
+          },
+          "information_state_change": "放置の事情→引取→管理者所在不明",
+          "onset_conditions": "危険物の長期封印と移管失敗",
+          "closure_conditions": "D本人:現場から遠ざける。D全体:有効管理者と条件の確認が必要、未達",
+          "local_or_global": "長期・複数管理者",
+          "type_ids": [
+            "E5"
+          ],
+          "fit": "部分適合",
+          "competing_types": [
+            "E4",
+            "C2"
+          ],
+          "discriminators": "長期監視・管理の必要性は推測を含み、具体的手入れ規則がないためE5は部分。息子の怠慢は意図的押し付けC2と断定しない。",
+          "residue": "コトリバコほど管理条件は詳しくなくE5の証拠閾値を示す。",
+          "confidence": "中",
+          "actual_outcome": "現場からの除去は局所成果、所在不明で全体問題残る。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        },
+        {
+          "scene_id": "G01-W26-SC03",
+          "problem_id": "G01-W26-P03",
+          "evidence_summary": "電話の制作史では人が密室に閉じ込められ、生存者も道具として殺害される。災害との関係も語られる。",
+          "source_ids": [
+            "G01-S020"
+          ],
+          "Q": {
+            "target_id": "G01-W26-P03-Q",
+            "question": "制作史と災害の因果は信頼できるか"
+          },
+          "D": {
+            "target_id": "G01-W26-P03-D",
+            "anticipated_loss": "過去の被害者の死／現代の国家規模被害の予期"
+          },
+          "C": {
+            "target_id": "G01-W26-P03-C",
+            "available_or_narrated_choices": "過去の被害者は救援・離脱不能、現代は距離を置く"
+          },
+          "M": {
+            "target_id": "G01-W26-P03-M",
+            "premise_and_evidence": "儀式の素材として人を扱う組織への不信"
+          },
+          "information_state_change": "由来説明→国家規模の呪いという主張。語り手自身も偶然を疑う",
+          "onset_conditions": "組織による拘束と意図的加害",
+          "closure_conditions": "過去D:死による損失終結。現代Q:伝聞と推論のまま。国家危険D:因果未証明",
+          "local_or_global": "過去の局所／語られる国家規模",
+          "type_ids": [
+            "B2",
+            "C2"
+          ],
+          "fit": "適合",
+          "competing_types": [
+            "E3",
+            "F3",
+            "F4"
+          ],
+          "discriminators": "呪具制作の犠牲は加害者側の目的、助かるためのE3と同じではない。人類の成立条件に従属する仕組みF4ではない。",
+          "residue": "死体の異様な形態や歴史災害への飛躍は型を増やす根拠にしない。",
+          "confidence": "中",
+          "actual_outcome": "国家規模の主張を局所被害の根拠で確定しない。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "残虐な制作史への嫌悪、災害因果の飛躍、担当者の失踪。地域差別・国籍・障害についての説明はフィクション内の偏見を含む証言。"
+      ],
+      "counterexamples": [
+        "祓いは長生きを保証しないと作中で警告される。",
+        "災害の場所と移動先の一致は、呪いの因果やF群の世界法則の証明ではない。",
+        "密閉されていた被害者の身体はもともとの形態であり、D2の変身ではない。"
+      ],
+      "change_proposals": [
+        "E5の移管・情報継承を具体化。因果確信の修飾子を維持。"
+      ],
+      "confidence": {
+        "work_identification": "高",
+        "structural_coding": "高",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "検証済み"
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "body_status": "unverified",
+      "source_ids": [],
+      "episode_scope": "対象本文未同定",
+      "alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      },
+      "overall_fears": [],
+      "scenes": [
+        {
+          "scene_id": "G01-W27-SC01",
+          "problem_id": "G01-W27-P01",
+          "evidence_summary": "割当作品の対象本文が確定していない。",
+          "source_ids": [],
+          "Q": {
+            "target_id": "G01-W27-P01-Q",
+            "question": "本文・対象版を特定できるか"
+          },
+          "D": {
+            "target_id": "G01-W27-P01-D",
+            "anticipated_loss": "未検証"
+          },
+          "C": {
+            "target_id": "G01-W27-P01-C",
+            "available_or_narrated_choices": "本文提供または出典同定を待つ"
+          },
+          "M": {
+            "target_id": "G01-W27-P01-M",
+            "premise_and_evidence": "未検証"
+          },
+          "information_state_change": "名称検索のみ、対象の物語命題は未取得",
+          "onset_conditions": "未検証",
+          "closure_conditions": "未検証",
+          "local_or_global": "未検証",
+          "type_ids": [],
+          "fit": "本文不足",
+          "competing_types": [],
+          "discriminators": "タイトルから恐怖場面・呪い・類型を創作しない。",
+          "residue": "検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。",
+          "confidence": "判定不能",
+          "actual_outcome": "研究工程は終了、本文不足として固定。",
+          "transitions": [],
+          "coding_order": "本文問題抽出→Q/D/C/M記述→既存型候補と競合型点検"
+        }
+      ],
+      "unexplained_residue": [
+        "検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      ],
+      "counterexamples": [
+        "未取得から既存型への適合・不適合を導けない。"
+      ],
+      "change_proposals": [
+        "本文と割当同定の確認後に再符号化。"
+      ],
+      "confidence": {
+        "work_identification": "判定不能",
+        "structural_coding": "判定不能",
+        "meaning": "根拠の明瞭さの質的評定。統計的確率・読者の怖さ評定ではない。"
+      },
+      "original_body_status": "本文不足／未検証"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "G01-S001",
+      "work_id": "G01-W01",
+      "title": "赤い仏像",
+      "url": "https://llike.net/2ch/fear/akaibutuzo/",
+      "accessed_at_utc": "2026-10-04T11:26:12.537153Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2009-05-04投稿322–390。本編322–384、同一投稿者の補足386/388を区別。『人型焼き』等別作を含めない。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S002",
+      "work_id": "G01-W02",
+      "title": "悪霊食い",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+      "accessed_at_utc": "2026-10-04T11:26:13.862068Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "『悪霊食い』短編転載の本文全体。原スレ照合未実施。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S003",
+      "work_id": "G01-W03",
+      "title": "IZUMO社航空機墜落事故の生存者",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+      "accessed_at_utc": "2026-10-04T11:26:13.863221Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "『事件に関する重要な記録』録音・事件記録部分全体。IZUMO事故を含む短編。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S004",
+      "work_id": "G01-W04",
+      "title": "裏S区",
+      "url": "https://llike.net/2ch/fear/sku/",
+      "accessed_at_utc": "2026-10-04T11:26:12.536788Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2007-03-14投稿763–786の本編。後続コメントは物語の根拠にしない。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S005",
+      "work_id": "G01-W07",
+      "title": "ガンギギ",
+      "url": "https://nazolog.com/blog-entry-11958.html",
+      "accessed_at_utc": "2026-10-04T11:26:10.608655Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "洒落怖371、2022-10-10投稿1013–1014。本編全体、コメント除外。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S006",
+      "work_id": "G01-W08",
+      "title": "気持ち悪いスナック",
+      "url": "https://the-mystery.org/scary_story/post-4112/",
+      "accessed_at_utc": "2026-10-04T11:26:14.326834Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "タクシー運転手の語りと翌日の店訪問・後日談まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S007",
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "url": "https://www.occultic.net/occult/hanashi/kunekune.html",
+      "accessed_at_utc": "2026-10-04T11:52:33.135283Z",
+      "source_kind": "取得失敗",
+      "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "false",
+      "notes": "HTTP 403。別の公開転載を参照した。 初回失敗の正確な時刻は未保存。この日時はURLの再確認時。再確認も取得失敗: HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "G01-S008",
+      "work_id": "G01-W10",
+      "title": "コッケさん",
+      "url": "https://the-mystery.org/scary_story/post-3648/",
+      "accessed_at_utc": "2026-10-04T11:26:14.325854Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "禁称・儀礼説明から過去の迫害譚、固芥の字形まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S009",
+      "work_id": "G01-W12",
+      "title": "地獄のバス",
+      "url": "https://the-mystery.org/hilarious_ghost_story/post-2492/",
+      "accessed_at_utc": "2026-10-04T11:26:14.352971Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "修学旅行のバスでの排便と嘔吐の連鎖まで。笑える怪談カテゴリの単話。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S010",
+      "work_id": "G01-W15",
+      "title": "地下の丸穴",
+      "url": "https://uneco-occult.hatenablog.com/entry/chikanomaruana",
+      "accessed_at_utc": "2026-10-04T11:26:11.568069Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S011",
+      "work_id": "G01-W16",
+      "title": "つんつるてん",
+      "url": "https://kaiitan.com/article/367467385.html",
+      "accessed_at_utc": "2026-10-04T11:26:20.315589Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "犬を持つ男との追跡、仮説検討、トラック事故、多数の犬連れの結末まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S012",
+      "work_id": "G01-W17",
+      "title": "トマトの頭をした男",
+      "url": "https://nazolog.com/blog-entry-12099.html",
+      "accessed_at_utc": "2026-10-04T11:26:15.939571Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "洒落怖380の2024-12-21投稿626–627「トマト男」のみ。同頁の旧友の霊の別話を除外。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S013",
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "url": "https://nekomesinbun.blog.jp/archives/6865733.html",
+      "accessed_at_utc": "2026-10-04T11:26:18.867181Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": "第1ページの冒頭断片のみ。後のSOURCESの実況転載で拡充。"
+    },
+    {
+      "source_id": "G01-S014",
+      "work_id": "G01-W19",
+      "title": "ばりばり",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+      "accessed_at_utc": "2026-10-04T11:26:19.753793Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S015",
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "url": "https://sanblo.com/hebituki/",
+      "accessed_at_utc": "2026-10-04T11:26:18.281672Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S016",
+      "work_id": "G01-W22",
+      "title": "マイナスドライバー",
+      "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+      "accessed_at_utc": "2026-10-04T11:26:19.753658Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2000-06-15投稿175の浴室・鍵穴の短編全体。後年の同名創作は除外。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S017",
+      "work_id": "G01-W23",
+      "title": "ヤドリギ",
+      "url": "https://nazolog.com/blog-entry-1041.html",
+      "accessed_at_utc": "2026-10-04T11:26:16.118820Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S018",
+      "work_id": "G01-W24",
+      "title": "ゆき・富士の影",
+      "url": "https://www.episodex.org/story/20180225001/",
+      "accessed_at_utc": "2026-10-04T11:26:20.114014Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "Uが語る「ゆき」の怪談、発声の変化、帰郷後の葬儀まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S019",
+      "work_id": "G01-W25",
+      "title": "ヨウコウ",
+      "url": "https://the-mystery.org/strange_experience/post-2764/",
+      "accessed_at_utc": "2026-10-04T11:26:19.369895Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "祖父の山での遭遇・逃走、死後の祖母の説明まで。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S020",
+      "work_id": "G01-W26",
+      "title": "両面宿儺(リョウメンスクナ)",
+      "url": "https://225.jpn.org/yomi/2005/09/21/ryoumen_sukuna/",
+      "accessed_at_utc": "2026-10-04T11:26:22.487765Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "洒落怖109投稿452–515本編と電話説明。別投稿者476/477の漫画解釈は根拠にしない。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S021",
+      "work_id": "G01-W01",
+      "title": "赤い仏像",
+      "url": "https://llike.net/2ch/fear/akaibutuzo/2.htm",
+      "accessed_at_utc": "2026-10-04T11:32:15.184365Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2009-05-04投稿322–390。本編322–384、同一投稿者の補足386/388を区別。『人型焼き』等別作を含めない。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S022",
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "url": "https://www.fumibako.com/kowai/story/1/118.html",
+      "accessed_at_utc": "2026-10-04T11:32:13.306145Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S023",
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "url": "https://saberismywife.seesaa.net/article/464810575.html",
+      "accessed_at_utc": "2026-10-04T11:32:12.617919Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S024",
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "url": "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/",
+      "accessed_at_utc": "2026-10-04T11:32:11.965942Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S025",
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "url": "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/2/",
+      "accessed_at_utc": "2026-10-04T11:33:02.317473Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S026",
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "url": "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/3/",
+      "accessed_at_utc": "2026-10-04T11:33:01.908735Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S027",
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "url": "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/4/",
+      "accessed_at_utc": "2026-10-04T11:33:02.323837Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": ""
+    },
+    {
+      "source_id": "G01-S028",
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "url": "https://saberismywife.seesaa.net/article/442334251.html?seesaa_related=category",
+      "accessed_at_utc": "2026-10-04T11:33:43.108141Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+    },
+    {
+      "source_id": "G01-S029",
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "url": "https://nwknews.jp/archives/4984261.html",
+      "accessed_at_utc": "2026-10-04T11:34:54.055950Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+    },
+    {
+      "source_id": "G01-S030",
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=173",
+      "accessed_at_utc": "2026-10-04T11:34:31.319214Z",
+      "source_kind": "公開本文転載",
+      "episode_scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+      "variant": "初出との完全一致は未照合",
+      "body_verified": "true",
+      "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+    }
+  ],
+  "search_attempts": [
+    {
+      "source_id": "G01-S031",
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名／おかっぱ 顔のない 着物／おかっぱ 顔が無く 両腕。似た題の本文は別作の可能性が高い。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    },
+    {
+      "source_id": "G01-S032",
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名 おっぱい揉み豚／同名 怪談。検索2系統ではXの名称言及しか見つからず本文なし。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    },
+    {
+      "source_id": "G01-S033",
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名 坂道の女／同名 洒落怖／坂の上の女。1990年テレビ・阿刀田高原作とネット短編が競合。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    },
+    {
+      "source_id": "G01-S034",
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名 スシ・ウォーリア・ガールズ／スシウォーリアガールズ／スシ ウォーリア 怪談。名称リストとXのみ。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    },
+    {
+      "source_id": "G01-S035",
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名 ピヨピヨの魔／同名 都市伝説。名称リストと無関係小説が中心。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    },
+    {
+      "source_id": "G01-S036",
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "url": "",
+      "accessed_at_utc": "",
+      "source_kind": "検索記録（本文出典未同定）",
+      "episode_scope": "割当項目を維持",
+      "variant": "未同定",
+      "body_verified": "false",
+      "notes": "完全名 ンーボボツク／同名 怪談／同名 本文。2系統で対象本文を同定できず。 dic.pixiv.net未アクセス。検索不発は非実在の証明ではない。正確な検索取得日時は保存されていないため空欄。追加確認対象。"
+    }
+  ],
+  "analysis_group_id": "G01",
+  "provenance": {
+    "analysis": "群01の研究セッション",
+    "normalization_and_pr": "同じ群01の研究セッション",
+    "proxy_submission": false,
+    "normalization_note": "固定IDとSHA-256を残し、非公開識別子と絶対パスを除去。body_statusとcountsを公開スキーマへ正規化。分析・確信度・残余・未検証理由は保持。独立作品数の確定総数はnull、確認済みクラスター数と範囲を別に残す。"
+  }
+}
