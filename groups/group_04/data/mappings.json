@@ -43,7 +43,7 @@
     "verified": 19,
     "partial": 4,
     "unverified": 3,
-    "independent_works": 22,
+    "independent_works": null,
     "independent_works_definition": "本文同定できた19単篇＋時空のおっさんの1話＋師匠シリーズの2話＝22の確認済み物語単位。同定留保2項目の3候補、本文不足3項目は独立作品母数に足さない。全シリーズ総数・全割当の最終独立数ではない。",
     "confirmed_assigned_identities": 21,
     "confirmed_alias_duplicates": 0,
@@ -52,7 +52,10 @@
     "negative_or_nonhorror_readings": [
       "G04-W08",
       "G04-W19"
-    ]
+    ],
+    "independent_works_original": 22,
+    "confirmed_narrative_units_in_selected_scope": 22,
+    "confirmed_assigned_identity_units": 21
   },
   "works": [
     {
@@ -2840,7 +2843,13 @@
       "episode_scope": "候補の存在・検索断片のみ",
       "variant": "割当本文として採用しない",
       "body_verified": false,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名都市伝説、後発創作、朗読・書籍目録は見つかるが、割当の洒落怖本文と同定できない。首の秘密などをタイトルから補完しない。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名都市伝説、後発創作、朗読・書籍目録は見つかるが、割当の洒落怖本文と同定できない。首の秘密などをタイトルから補完しない。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S002",
@@ -2852,7 +2861,13 @@
       "episode_scope": "候補の存在・検索断片のみ",
       "variant": "割当本文として採用しない",
       "body_verified": false,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名都市伝説、後発創作、朗読・書籍目録は見つかるが、割当の洒落怖本文と同定できない。首の秘密などをタイトルから補完しない。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名都市伝説、後発創作、朗読・書籍目録は見つかるが、割当の洒落怖本文と同定できない。首の秘密などをタイトルから補完しない。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S003",
@@ -2864,7 +2879,13 @@
       "episode_scope": "候補の存在・検索断片のみ",
       "variant": "割当本文として採用しない",
       "body_verified": false,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。完全一致名の本文を確定できない。「紅い石段」は別表題の創作で、改題同一話という根拠がない。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。完全一致名の本文を確定できない。「紅い石段」は別表題の創作で、改題同一話という根拠がない。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S004",
@@ -2876,7 +2897,13 @@
       "episode_scope": "候補の存在・検索断片のみ",
       "variant": "割当本文として採用しない",
       "body_verified": false,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名候補の検索断片は存在するが、本文ページは502で取得不能。欠損した人型という断片から結末・危険を補完しない。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。同名候補の検索断片は存在するが、本文ページは502で取得不能。欠損した人型という断片から結末・危険を補完しない。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S005",
@@ -2888,7 +2915,13 @@
       "episode_scope": "2011年5月投稿転載の学校合宿から人形破壊・後年の回顧まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S006",
@@ -2900,7 +2933,13 @@
       "episode_scope": "2025/01/29投稿897・899と応答898。後世コメントの自然現象説は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S007",
@@ -2912,7 +2951,13 @@
       "episode_scope": "2010/07/29投稿転載。注文客と職場の出来事から退職まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S008",
@@ -2924,7 +2969,13 @@
       "episode_scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S009",
@@ -2936,7 +2987,13 @@
       "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S010",
@@ -2948,7 +3005,13 @@
       "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S011",
@@ -2960,7 +3023,13 @@
       "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S012",
@@ -2972,7 +3041,13 @@
       "episode_scope": "幼少期の山での交流、別れ、病気、後年の回顧まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S013",
@@ -2984,7 +3059,13 @@
       "episode_scope": "候補A：2009年Part223、843・845・847の旧校舎の少女。候補B：「謎の校内放送」の呼び出し。双方読了だが割当との同定未完了。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S014",
@@ -2996,7 +3077,13 @@
       "episode_scope": "候補A：2009年Part223、843・845・847の旧校舎の少女。候補B：「謎の校内放送」の呼び出し。双方読了だが割当との同定未完了。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S015",
@@ -3008,7 +3095,13 @@
       "episode_scope": "2003/02/03「オキ」投稿578〜582のみ。同ページの「ミシマ沖」は別作品で除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S016",
@@ -3020,7 +3113,13 @@
       "episode_scope": "2009/04/25投稿228・230の小学4年生と自転車の話だけ。呼称で集められる他エピソードは未網羅。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S017",
@@ -3032,7 +3131,13 @@
       "episode_scope": "対象は「降霊実験」「壷」の2話のみ。掲載ページの紹介件数と目次に揺れがあり総話数を確定しない。シリーズ全体未網羅。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S018",
@@ -3044,7 +3149,13 @@
       "episode_scope": "2004/07/14の本編と投稿後の応答・変化を含む転載。別投稿者の消息説明は裏付けなし。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S019",
@@ -3056,7 +3167,13 @@
       "episode_scope": "怪談の前置きに関する回顧、田所君の「蓋」の語りと失踪、後の疑問まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S020",
@@ -3068,7 +3185,13 @@
       "episode_scope": "祖母の人形、妹の死、介護、祖母の窒息死、親族の説明まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S021",
@@ -3080,7 +3203,13 @@
       "episode_scope": "「Cだけは青ざめていた」というトンネルの雨音の短篇。割当表題との同一性は未確定。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S022",
@@ -3092,7 +3221,13 @@
       "episode_scope": "異様な大柄の人物の目撃、友人たちの経験、東京転居後の類似報告まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S023",
@@ -3104,7 +3239,13 @@
       "episode_scope": "2007/02/08投稿359〜371の護符・叔母の伝承・語り手の由来推論。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S024",
@@ -3116,7 +3257,13 @@
       "episode_scope": "短篇の子どもたちの探索・発見・後年の回顧全文。コメントの生物学説は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S025",
@@ -3128,7 +3275,13 @@
       "episode_scope": "2002/08/03〜04 Part16の本編と作者の構成説明。冒頭の別話「ミンキーモモ」は除外。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S026",
@@ -3140,7 +3293,13 @@
       "episode_scope": "2014/10/15投稿38の電話の短篇全文。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S027",
@@ -3152,7 +3311,13 @@
       "episode_scope": "2007/02/05投稿167〜169。車内遭遇、寺での処置、1週間後の未回復まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S028",
@@ -3164,7 +3329,13 @@
       "episode_scope": "2024/12/22投稿636の夢と2025/01/03投稿680の後日談。夢内・覚醒後の友人説明を分離。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S029",
@@ -3176,7 +3347,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S030",
@@ -3188,7 +3365,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S031",
@@ -3200,7 +3383,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S032",
@@ -3212,7 +3401,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S033",
@@ -3224,7 +3419,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S034",
@@ -3236,7 +3437,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S035",
@@ -3248,7 +3455,13 @@
       "episode_scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     },
     {
       "source_id": "G04-S036",
@@ -3260,7 +3473,23 @@
       "episode_scope": "幼少期の禁じた部屋、大学時代のAとの遭遇、家族・兄の説明、後年の目撃まで。",
       "variant": "投稿本文の転載。初出との完全一致は未確認",
       "body_verified": true,
-      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。"
+      "notes": "取得日のUTC日精度。初回取得の秒時刻は未記録。",
+      "record_kind": "source",
+      "url_status": "identified",
+      "url_missing_reason": "",
+      "access_time_status": "date_only_utc",
+      "access_time_missing_reason": "UTC取得日は記録されているが初回取得時刻は未保存。日付を保持し時分秒は補作しない。",
+      "access_time_status_original": ""
     }
-  ]
+  ],
+  "integration_normalization": {
+    "actor": "統合担当（AIセッション）",
+    "analysis_actor": "群04研究担当（AIセッション）",
+    "reason": "欠測の明示と件数の単位の区別。研究判断・本文状態・型候補・確信度は受領版から変更しない。",
+    "changes": [
+      "台帳の時刻精度・欠測理由・探索記録を追加。元の日時・URL・notesを保持。",
+      "台帳ミラーへ同じメタデータを追加。",
+      "independent_worksを確定総数としてnullに正規化。元の22と定義は保持し、選定範囲の物語単位または支持下限へ分離。"
+    ]
+  }
 }
