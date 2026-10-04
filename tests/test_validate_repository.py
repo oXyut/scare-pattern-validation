@@ -45,7 +45,7 @@ class ValidationTests(unittest.TestCase):
         (base / 'reports/report.md').write_text('Synthetic fixture. No research claim.\n')
         (base / 'data/mappings.json').write_text(json.dumps(self.mapping, ensure_ascii=False))
         with (base / 'sources/ledger.csv').open('w', newline='') as handle:
-            writer = csv.DictWriter(handle, fieldnames=sorted(validator.SOURCE_FIELDS))
+            writer = csv.DictWriter(handle, fieldnames=sorted(validator.SOURCE_FIELDS | {key for row in self.sources for key in row}))
             writer.writeheader()
             writer.writerows(self.sources)
 
@@ -96,6 +96,31 @@ class ValidationTests(unittest.TestCase):
         self.sources[0]['accessed_at_utc'] = '2026-10-04T11:00:00'
         self.write_submission()
         self.assertTrue(any('UTC timestamp' in e for e in validator.validate()[0]))
+
+    def test_documented_missing_time_is_preserved(self):
+        self.add_verified_scene()
+        self.sources[0].update(accessed_at_utc='', access_time_status='not_recorded',
+                               access_time_missing_reason='Not saved during initial retrieval.')
+        self.write_submission()
+        self.assertEqual(validator.validate()[0], [])
+
+    def test_documented_utc_date_does_not_invent_seconds(self):
+        self.add_verified_scene()
+        self.sources[0].update(accessed_at_utc='2026-10-04', access_time_status='date_only_utc',
+                               access_time_missing_reason='Only UTC calendar date was saved.')
+        self.write_submission()
+        self.assertEqual(validator.validate()[0], [])
+
+    def test_documented_search_record_is_not_body_evidence(self):
+        self.add_verified_scene()
+        self.sources[0].update(url='', record_kind='search_record', url_status='not_identified',
+                               url_missing_reason='No matching body located.', body_verified='false')
+        self.write_submission()
+        self.assertTrue(any('only search records' in e for e in validator.validate()[0]))
+        self.mapping['works'][0].update(body_status='unverified', scenes=[])
+        self.mapping['counts'].update(verified=0, unverified=27)
+        self.write_submission()
+        self.assertEqual(validator.validate()[0], [])
 
     def test_provenance_cannot_redefine_immutable_baseline(self):
         import hashlib

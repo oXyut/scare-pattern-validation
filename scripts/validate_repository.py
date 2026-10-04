@@ -84,7 +84,12 @@ def validate(complete=False):
         source_owners = {s.get('source_id'): s.get('work_id') for s in sources}
         for source in sources:
             check(source.get('work_id') in expected, f'{gid}: unknown source work ID')
-            check(source.get('url', '').startswith(('https://', 'http://')), f'{gid}: invalid source URL')
+            url = source.get('url', '')
+            documented_search = (not url and source.get('record_kind') == 'search_record'
+                                 and source.get('url_status') == 'not_identified'
+                                 and bool(source.get('url_missing_reason', '').strip())
+                                 and source.get('body_verified', '').lower() == 'false')
+            check(url.startswith(('https://', 'http://')) or documented_search, f'{gid}: invalid/undocumented source URL')
             check(source.get('title') == expected.get(source.get('work_id')), f'{gid}: source title/work mismatch')
             raw_time = source.get('accessed_at_utc', '')
             try:
@@ -92,8 +97,19 @@ def validate(complete=False):
                 valid_utc = timestamp.utcoffset() is not None and timestamp.utcoffset().total_seconds() == 0
             except (ValueError, TypeError):
                 valid_utc = False
-            check(valid_utc, f'{gid}: source {source.get("source_id")}: missing/invalid UTC timestamp')
-            check(source.get('body_verified', '').lower() in {'true', 'false', 'partial', 'unknown'}, f'{gid}: invalid source body_verified')
+            time_status = source.get('access_time_status', '')
+            time_reason = source.get('access_time_missing_reason', '').strip()
+            missing_time = not raw_time and time_status == 'not_recorded' and bool(time_reason)
+            date_only = False
+            if time_status == 'date_only_utc' and time_reason:
+                try:
+                    date_only = bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}', raw_time))
+                    if date_only:
+                        datetime.strptime(raw_time, '%Y-%m-%d')
+                except ValueError:
+                    date_only = False
+            check(valid_utc or missing_time or date_only, f'{gid}: source {source.get("source_id")}: missing/invalid or undocumented UTC timestamp')
+            check((source.get('body_verified') or '').lower() in {'true', 'false', 'partial', 'unknown'}, f'{gid}: invalid source body_verified')
         scene_ids = []
         for work in works:
             wid = work.get('work_id')
@@ -103,6 +119,8 @@ def validate(complete=False):
             check(all(source_owners.get(ref) == wid for ref in refs), f'{wid}: source belongs to another work')
             if work.get('body_status') in {'verified', 'partial'}:
                 check(bool(refs), f'{wid}: verified/partial work has no source')
+                check(any(s.get('source_id') in refs and s.get('url', '').startswith(('https://', 'http://')) for s in sources),
+                      f'{wid}: verified/partial work has only search records')
             for scene in work.get('scenes', []):
                 sid = scene.get('scene_id')
                 scene_ids.append(sid)
@@ -114,6 +132,8 @@ def validate(complete=False):
                 check(scene_refs <= refs, f'{sid}: scene source missing from work source_ids')
                 if work.get('body_status') in {'verified', 'partial'}:
                     check(bool(scene_refs), f'{sid}: verified/partial scene has no source')
+                    check(any(s.get('source_id') in scene_refs and s.get('url', '').startswith(('https://', 'http://')) for s in sources),
+                          f'{sid}: verified/partial scene has only search records')
                 check(bool(scene.get('evidence_summary')), f'{sid}: missing evidence summary')
                 check(all(t in TYPE_IDS or re.fullmatch(r'G' + gid[-2:] + r'-N\d+', t) for t in scene.get('type_ids', [])), f'{sid}: invalid type ID')
         check(len(scene_ids) == len(set(scene_ids)), f'{gid}: duplicate scene ID')
