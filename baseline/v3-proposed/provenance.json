@@ -1,0 +1,92 @@
+{
+  "document_id": "anticipatory-problem-states-v3-proposed",
+  "revision_date": "2026-10-04",
+  "status": "未検証の提案版。test実施前の研究基準固定は未完了。",
+  "source_repository": "oXyut/scare-pattern-validation",
+  "source_commit": "e398df92ed9521d0bb9e6fe038be0f7389e9874d",
+  "sources": [
+    {
+      "path": "baseline/v1-26types/report.md",
+      "sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+      "git_blob_sha": "47fe7ec87f95228c77df63c062e3906ed524f2e6",
+      "bytes": 50254,
+      "lines": 397
+    },
+    {
+      "path": "baseline/v2-proposed/report.md",
+      "sha256": "9f861f37bbb66f8e0a5931a0c6ff488e7a88f9897babca7bd50ed7cb60207f3d",
+      "git_blob_sha": "4ef6c195fe4f21146eed4065a99ddc00c4121016",
+      "bytes": 69062,
+      "lines": 560
+    },
+    {
+      "path": "baseline/v2-proposed/operational-boundaries.md",
+      "sha256": "41798f9b762448758b37c8147a7809f325fe91229a66d73f5f5f0af5899ce270",
+      "git_blob_sha": "563a906a61082f9327ef486868f8de9e97c780c2",
+      "bytes": 2417,
+      "lines": 15
+    },
+    {
+      "path": "integration/reports/robustness.md",
+      "sha256": "b962a46877b4b494358d3f091f2c18bba2517c7bb348790fa4ea30667d6ba46f",
+      "git_blob_sha": "1bb38c9524c82b204f30a9ee9eb49d85bd816f71",
+      "bytes": 14804,
+      "lines": 117
+    },
+    {
+      "path": "integration/data/summary.json",
+      "sha256": "ae6ea4708722807cb7f5123b7b6b097644ab7c9ef3ec9a673df298c473599c08",
+      "git_blob_sha": "d17b15a843fd2ce9572fdf568b22f51a68591b47",
+      "bytes": 84172,
+      "lines": 2479
+    }
+  ],
+  "provided_attachment": {
+    "name": "CoC_fear_patterns_report.md",
+    "sha256": "b813739e602f6db9686f823ce323ca15114d00006594e7c789d952b73bcab174",
+    "bytes": 69063,
+    "lines": 561,
+    "comparison_to_repo_v2": "末尾の空行以外の内容が一致"
+  },
+  "artifacts": [
+    {
+      "path": "baseline/v3-proposed/report.md",
+      "sha256": "0009a428b8d6c96c6e347e823b1eed17a9b80d5fad9b27a49bf5752e01a55ba1",
+      "git_blob_sha": "483263741b8e713bdd2b0ba1685bb7ee296cf5a8",
+      "bytes": 83492,
+      "lines": 630
+    },
+    {
+      "path": "baseline/v3-proposed/revision-notes.md",
+      "sha256": "b1bfbee37d6c9c7c91e59f28774b81d60ed6409ef86544653c737ec3b5dbb39b",
+      "git_blob_sha": "96f2ff163c40bf90722a9d17747da6c1ceb18308",
+      "bytes": 5034,
+      "lines": 45
+    },
+    {
+      "path": "methods/v3-evaluation-plan.md",
+      "sha256": "0f2a4384aec618a885ddc86323b6560ac9c2ed9d14528f5109c24455191e365b",
+      "git_blob_sha": "245adb501ca346672a80ace23d845abffc34df65",
+      "bytes": 12120,
+      "lines": 96
+    }
+  ],
+  "id_compatibility": {
+    "retained_ids": 26,
+    "problem_state_ids": 22,
+    "world_model_rupture_ids": 4,
+    "added": 0,
+    "merged": 0,
+    "deleted": 0,
+    "semantic_compatibility": "階層と判定運用を変更。過去ラベルとfitをv3の支持へ読み替えない。"
+  },
+  "empirical_status": {
+    "independent_test_set_evaluated": false,
+    "independent_human_recoding_completed": false,
+    "inter_analyst_agreement_measured": false,
+    "gm_design_effect_measured": false,
+    "player_experience_effect_measured": false
+  },
+  "preservation": "固定v1・v2・割当・群別成果・統合データは不変。mainへの直接変更なし。",
+  "source_limitations": "作品事実と外部引用を継承。全作品・全外部出典の再閲覧および情報設計レポートv2の独立再確認は実施していない。"
+}
