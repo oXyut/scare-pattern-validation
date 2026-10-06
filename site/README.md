@@ -16,3 +16,15 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 研究資料の参照版は`research-snapshot.json`に固定します。研究資料を更新する際は、その版と画面内の数値・説明・出典参照を一緒に更新してください。固定v1の判定をv3へ読み替えません。生成後は`docs/`もコミットします。
 
 検索条件はURLのクエリへ保存し、作品詳細は割当IDのハッシュで開きます。詳細から戻ると検索条件が残ります。型ラベルと場面判定は同一場面で照合し、作品全体の適合率を作りません。型ラベルは非排他的です。
+
+`#source-出典ID`と`#scene-場面ID`の直リンク・履歴移動では、公開データから所有作品を解決します。未存在IDと不正なpercent encodingは一覧へ戻れるリンクエラーとして表示します。同一作品内では補足欄の開閉状態を保持します。
+
+公開JSONのschemaは`public-research-site-2`です。群02の`target_outcomes`と`transitions`、群03の`problem_tracking`、群05の`outcome_tracking`を作品レベルの独立した欄に収録します。追跡対象の内部IDは除外し、公開済みの場面IDを参照リンクに使います。場面内の成果・閉鎖条件・v1判定を作品全体の記録へ置き換えません。これら3群の149場面行では成果欄の欠測を保持します。本文不足の行や資料同定の工程記録も含むため、149行全てに物語内の成果があるとは扱いません。
+
+ブラウザ回帰テストはPlaywrightとChromiumがある環境で実行します。専用の一時ブラウザプロファイルとlocalhostの空きポートを使い、履歴、直リンク、リンクエラー、検索条件、空結果、mobile、keyboardを確認します。
+
+```sh
+node --test tests/site.browser.test.mjs
+```
+
+Playwrightが通常のmodule検索パスにない環境では`PLAYWRIGHT_MODULE_PATH`にその`index.mjs`を指定できます。既存Chromeをテストに使う場合は`SITE_BROWSER_CHANNEL=chrome`、スクリーンショットを保存する場合は`SITE_QA_DIR`に出力先を指定します。画像は公開treeへ自動コピーしません。
