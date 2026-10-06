@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "adjudication",
+  "record_status": "template",
+  "adjudication_id": null,
+  "study_id": null,
+  "scene_id": null,
+  "original_records": [],
+  "pre_agreement_snapshot_ref": null,
+  "pre_agreement_snapshot_sha256": null,
+  "pre_agreement_saved_at": null,
+  "adjudicated_at": null,
+  "disputed_condition_ids": [],
+  "adjudicator_id": null,
+  "evidence_summary": null,
+  "outcome": null,
+  "final_decision": null,
+  "unresolved_reason": null
+}
