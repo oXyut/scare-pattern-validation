@@ -1,0 +1,1431 @@
+{
+  "schema_version": "source-followup-1",
+  "title": "群01・02の本文未確認・部分確認15割当への出典追補",
+  "scope": {
+    "groups": [
+      "group_01",
+      "group_02"
+    ],
+    "assigned_entries": 15,
+    "original_unverified": 11,
+    "original_partial": 4,
+    "excluded_groups": [
+      "group_03",
+      "group_04",
+      "group_05"
+    ]
+  },
+  "base_commit": "215734dad5315a19d19cbe9159af32eb315fef0b",
+  "original_inputs_sha256": {
+    "baseline/v1-26types/report.md": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
+    "baseline/v1-26types/provenance.json": "c3e25ba1e63d22ba775d1c43892ee19cdc311064167158867abc6627c538bfea",
+    "assignments/groups.json": "08e7b656f0de3ef702f2575918d1c6cdc8e72ede648104a1e2a60b6355408fc5",
+    "groups/group_01/data/mappings.json": "57e120dae030d5a8a09cb5d0bda719b557bfd02b3e6d78038e02141d078b7248",
+    "groups/group_01/sources/ledger.csv": "d59b7199f9e29dcc0e369075ffd415174edfc2543f334daf0894f33a97ccdc34",
+    "groups/group_02/data/mappings.json": "256d52c6004521ae0694094f90c29b6613d4991d3a0fcf350efbf494fafe2728",
+    "groups/group_02/sources/ledger.csv": "f41543773aadf95130de024d56a605b3b20eb62cc9b18e2a0dff14212691eae9",
+    "integration/data/summary.json": "ae6ea4708722807cb7f5123b7b6b097644ab7c9ef3ec9a673df298c473599c08",
+    "site/research-snapshot.json": "4f761c3fba8fdb626ed0e4dfafdcc877d23073ca6d6a70d4e3c284f34c1396c6",
+    "docs/data.json": "3ea15787cc82eda86a6d5a5031a7ebd077c1dc6643c0c01fd15fa11692a7441e"
+  },
+  "historical_v1": {
+    "assigned_entries": 131,
+    "verified": 92,
+    "partial": 14,
+    "unverified": 25,
+    "scenes": 258,
+    "body_insufficient_scenes": 25,
+    "coded_scenes": 233,
+    "fit": 75,
+    "partial_fit": 141,
+    "nonfit": 17,
+    "new_candidates": 8,
+    "adopted_candidates": 0,
+    "independent_works": null,
+    "corpus_role": "development",
+    "v3_status": "separate_unvalidated_proposal"
+  },
+  "method": {
+    "analysis_kind": "AIによる出典追跡追補",
+    "independent_human_evaluation": false,
+    "v3_validation": false,
+    "recode_performed": false,
+    "status_definitions": {
+      "confirmed": "割当の同定・指定範囲の本文が確認できた場合。今回0件。",
+      "partial": "一部本文・限定した版を確認。起源・全系列・割当総称等に未解決が残る。",
+      "unresolved": "割当の本文を同定できない。比較候補の読了や名称言及を成功としない。"
+    },
+    "time_policy": "新規のaccessed_at_utcは取得ツールの成功応答直後に時計で記録した確認時刻。失敗はattempted_at_utc、検索はsearched_at_utcへ分離。原サイト公開日時・原投稿日時・過去の初回取得日時とは異なる。legacy_source_metadataの日時・欠測を変更しない。",
+    "evidence_policy": "本文の丸ごと転載を含めず、自作の短い要約とURL・見出し・投稿番号で根拠を示す。検索抜粋・書誌・名前一覧と本文読了を分ける。HTTP状態が報告されない取得不能を403/404と推測しない。",
+    "limits": [
+      "全異本・全実況の網羅なし。",
+      "原投稿との完全一致・投稿者の同一性は未検証。",
+      "検索不発から不存在・非ホラー・類型不適合を導かない。",
+      "出典追補はv1の131割当・状態件数・符号化結果・独立作品数を更新しない。"
+    ]
+  },
+  "counts": {
+    "entries": 15,
+    "confirmed": 0,
+    "partial": 4,
+    "unresolved": 11
+  },
+  "works": [
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "old_status": "unverified",
+      "old_episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      },
+      "legacy_source_metadata": [
+        {
+          "source_id": "G01-S028",
+          "work_id": "G01-W05",
+          "title": "おかっぱで顔のない着物の少女",
+          "url": "https://saberismywife.seesaa.net/article/442334251.html?seesaa_related=category",
+          "accessed_at_utc": "2026-10-04T11:33:43.108141Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+        },
+        {
+          "source_id": "G01-S029",
+          "work_id": "G01-W05",
+          "title": "おかっぱで顔のない着物の少女",
+          "url": "https://nwknews.jp/archives/4984261.html",
+          "accessed_at_utc": "2026-10-04T11:34:54.055950Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "「着物の少女」の2転載と、2010-07-26投稿932–934の比較。割当本文は未同定。",
+      "evidence_summary": "2転載には顔の表情・涙、山の交流と別れがある。別投稿は顔と両腕がない女性の目撃だが、少女とは同定できない。",
+      "sources": [
+        {
+          "source_id": "G01-W05-F01",
+          "url": "https://saberismywife.seesaa.net/article/442334251.html?seesaa_related=category",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:27:10Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "本文772–776相当（2005-07-26）。解説は物語本文から分離。",
+          "variant": "着物の少女／転載に掲げたスレ105とリンク先104の番号が異なる。",
+          "evidence_summary": "少女の顔の表情と涙が描かれる。転載内のスレ番号差もあり、初出の完全一致は未照合。",
+          "locator": "見出し「着物の少女」、772–776、本文末尾と出典表示。",
+          "identification_relation": "candidate_only",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W05-F02",
+          "url": "https://kaiki-catharsis.com/girl-in-kimono/",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:05Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "掲載本文の山での交流・別れ・高熱・造成・回顧まで。",
+          "variant": "G04-W08が参照する転載。初出は未照合。",
+          "evidence_summary": "同じ交流・別れの筋を持ち、顔の表情と涙がある。お手玉の記述には他転載との省略差がある。",
+          "locator": "本文「女の子は困ったような何とも言えない顔」、別れ、回顧、元スレ表記。",
+          "identification_relation": "cross_group_comparison",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W05-F03",
+          "url": "https://nwknews.jp/archives/4984261.html",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:19Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "2010-07-26の932–934のみ。前後の別投稿は対象外。",
+          "variant": "まとめ記事中のマンションの目撃談。",
+          "evidence_summary": "おかっぱ・顔なし・両腕なしは一致するが、本文は女性と呼び、少女とする説明がない。",
+          "locator": "932–934、末尾「おしまい」。",
+          "identification_relation": "candidate_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W05-Q01",
+          "query": "\"おかっぱ\" \"顔のない\" \"着物\" 怪談",
+          "searched_at_utc": "2026-10-06T05:27:24Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "人形の顔が破壊される「風の行方」等が出るが、割当への橋渡しを示さない。",
+          "result_urls": [
+            "https://kaidanstorys.com/sisyou-series-8/"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "固定割当名と原投稿を結ぶ明示的な改題・参照リンクがない。",
+        "G04-W08の転載との似た題名だけでは重複を確定できない。",
+        "顔なし女性の投稿は年齢・少女という呼称が一致しない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "cross_group_candidate_unconfirmed",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [
+          "G04-W08"
+        ],
+        "evidence_source_ids": [
+          "G01-W05-F01",
+          "G01-W05-F02"
+        ],
+        "reason": "G04-W08の本文と比較候補は対応するが、G01-W05は未同定であり同一話へ統合しない。顔の描写は割当名と衝突する。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文未同定",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称のX言及のみ。対象の物語本文は未同定。"
+      },
+      "legacy_source_metadata": [],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "再検索でも対象の物語本文を同定できない。旧記録のX言及は今回再取得していない。",
+      "sources": [],
+      "searches": [
+        {
+          "search_id": "G01-W06-Q01",
+          "query": "\"おっぱい揉み豚\" 洒落怖",
+          "searched_at_utc": "2026-10-06T05:27:24Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "名称に対応する物語本文を同定できない。語の一部だけが一致する一覧・掲示板等を本文として採用しない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "元のリンク先・投稿番号が得られず、題名から場面や同一性を補えない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "old_status": "partial",
+      "old_episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "old_alias_or_derivative": {
+        "classification": "ネットロア集合／異本群",
+        "confirmed_duplicate_of": null,
+        "notes": "第1–7話＋オマケを読了したがネット上の全体未網羅。第6話は操り型、第7話は同定推測。オマケはパロディとして本篇と分離。"
+      },
+      "legacy_source_metadata": [
+        {
+          "source_id": "G01-S007",
+          "work_id": "G01-W09",
+          "title": "くねくね",
+          "url": "https://www.occultic.net/occult/hanashi/kunekune.html",
+          "accessed_at_utc": "2026-10-04T11:52:33.135283Z",
+          "source_kind": "取得失敗",
+          "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "false",
+          "notes": "HTTP 403。別の公開転載を参照した。 初回失敗の正確な時刻は未保存。この日時はURLの再確認時。再確認も取得失敗: HTTP Error 403: Forbidden"
+        },
+        {
+          "source_id": "G01-S022",
+          "work_id": "G01-W09",
+          "title": "くねくね",
+          "url": "https://www.fumibako.com/kowai/story/1/118.html",
+          "accessed_at_utc": "2026-10-04T11:32:13.306145Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": ""
+        }
+      ],
+      "followup_status": "partial",
+      "followup_scope": "「くねくねまとめ」第1–7話・オマケの転載再確認。学術論文は書誌のみ確認。",
+      "evidence_summary": "同じまとめの中でも白い人影、黒い人型、糸による操り、模倣のオマケを分ける必要がある。全異本の網羅・起源の照合は未達。",
+      "sources": [
+        {
+          "source_id": "G01-W09-F01",
+          "url": "https://www.fumibako.com/kowai/story/1/118.html",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:27:10Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "第1–7話・オマケの掲載本文。",
+          "variant": "第1話に2001-07-07の投稿212を掲げる編集まとめ。他の各話の原投稿・初出は未照合。",
+          "evidence_summary": "第6話は糸で人を操る話。第7話は同定を推測する語り。オマケは真似をする別枠で、一律の認識災厄規則へ統合しない。",
+          "locator": "見出し「第１話」〜「第７話」、「オマケ」。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W09-F02",
+          "url": "https://www.occultic.net/occult/hanashi/kunekune.html",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:28:35Z",
+          "retrieval_error": "Failed to fetch: (403) Forbidden",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "旧台帳で取得失敗のURL。",
+          "evidence_summary": "今回も403で本文取得できない。",
+          "locator": "URL取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W09-F03",
+          "url": "https://ronbun.nijl.ac.jp/kokubun/01143914",
+          "source_kind": "primary_bibliographic_catalogue",
+          "retrieval_status": "retrieved",
+          "body_read": false,
+          "accessed_at_utc": "2026-10-06T05:29:17Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "題名・執筆者・誌名・巻号・掲載頁・日付の書誌。",
+          "variant": "伊藤龍平、世間話研究18、1–13頁。本文なし。",
+          "evidence_summary": "研究論文の書誌は確認したが、2000年の原型・初出の主張を論文本体で確かめていない。",
+          "locator": "書誌項目「ネット怪談『くねくね』考―世間話の電承について」。",
+          "identification_relation": "bibliography_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W09-Q01",
+          "query": "\"くねくね\" \"2000\"",
+          "searched_at_utc": "2026-10-06T05:27:48Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "初出を説明する近年の二次記事は見つかったが、初出の本文根拠へ代用しない。",
+          "result_urls": [
+            "https://kowaiuwasa.hatenablog.com/entry/kunekune-motoneta"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W09-Q02",
+          "query": "\"ネット怪談\" \"くねくね\" \"伊藤龍平\"",
+          "searched_at_utc": "2026-10-06T05:28:52Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "学術論文の書誌に到達。論文本体・原型の原ページは未取得。",
+          "result_urls": [
+            "https://ronbun.nijl.ac.jp/kokubun/01143914"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "全異本・原型・原投稿との対応を網羅していない。",
+        "まとめの7話を7独立作品とも、すべて同一作品の異本とも確定できない。",
+        "書誌だけでは初出を検証済みにできない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "network_lore_variant_collection",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "第1–7話・オマケは編集上の集合。話ごとの異なる機構・パロディを保持し、総称の独立作品数を未確定とする。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "原型ページ・原投稿ログ、各話の投稿番号・日付、論文本体と引用する初出資料。"
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "old_status": "unverified",
+      "old_episode_scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。"
+      },
+      "legacy_source_metadata": [
+        {
+          "source_id": "G01-S030",
+          "work_id": "G01-W11",
+          "title": "坂道の女",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=173",
+          "accessed_at_utc": "2026-10-04T11:34:31.319214Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": " 比較候補の本文は読了。割当作品との同一性は未確認で、その作品の類型根拠には使わない。"
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "「坂の上の女」の掲載短編と、同名テレビ作品の公式書誌・あらすじの比較。",
+      "evidence_summary": "ネット短編は坂上の女性との遭遇と衣服の髪の結末。公式の「坂道の女」は編集者と作家、幼い子の声を扱う。割当がどちらを指すかは未確定。",
+      "sources": [
+        {
+          "source_id": "G01-W11-F01",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=173",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:27:10Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "短編冒頭から翌朝の衣服の髪まで。",
+          "variant": "掲載表題「坂の上の女」。",
+          "evidence_summary": "題名が異なり、改題・同一話という根拠はない。",
+          "locator": "「坂の上の女とは」の本文冒頭〜結末。",
+          "identification_relation": "candidate_only",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W11-F02",
+          "url": "https://www.fujitv.co.jp/kimyo/001-039.html",
+          "source_kind": "primary_programme_catalogue",
+          "retrieval_status": "retrieved",
+          "body_read": false,
+          "accessed_at_utc": "2026-10-06T05:29:40Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "#026の放送日・原作・あらすじのみ。映像・小説本文は未確認。",
+          "variant": "1990-08-23、阿刀田高「坂道の女」『マッチ箱の人生』。",
+          "evidence_summary": "同名の商業作品が公式に載る。編集者が原稿を取りに作家を訪ねる筋で、ネット短編の改題根拠にはならない。",
+          "locator": "#026「坂道の女」。",
+          "identification_relation": "candidate_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W11-Q01",
+          "query": "\"坂道の女\" 洒落怖 怪談",
+          "searched_at_utc": "2026-10-06T05:29:22Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "公式同名作品と後年の一般解説などが競合し、割当版の同定に至らない。",
+          "result_urls": [
+            "https://www.fujitv.co.jp/kimyo/001-039.html",
+            "https://himamako.com/post-0-565"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "元一覧が参照した作品URLが不明。",
+        "「坂の上」と「坂道」を同一話とする資料がなく、同名商業作品も競合する。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文未同定",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストとX言及は本文の代用にならない。"
+      },
+      "legacy_source_metadata": [],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "名称一覧に題名の一致はあるが、対象の物語本文は同定できない。",
+      "sources": [
+        {
+          "source_id": "G01-W13-F01",
+          "url": "https://icebergs.gnix807.cn/iceberg/occult",
+          "source_kind": "name_index",
+          "retrieval_status": "retrieved",
+          "body_read": false,
+          "accessed_at_utc": "2026-10-06T05:29:40Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "「禁厌密仪」の名称一覧にある日本語の題名。",
+          "variant": "中国語の都市伝説・オカルト一覧。",
+          "evidence_summary": "日本語題名の一致のみ。対象の怪談本文は掲載範囲にない。",
+          "locator": "名称「スシ・ウォーリア・ガールズ」。",
+          "identification_relation": "name_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W13-Q01",
+          "query": "\"スシウォーリアガールズ\"",
+          "searched_at_utc": "2026-10-06T05:27:24Z",
+          "outcome": "tool_error",
+          "evidence_summary": "検索ツールが有効な応答を返さなかった。結果なしとみなさず、別表記で再検索した。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W13-Q02",
+          "query": "スシ ウォーリア ガールズ 洒落怖",
+          "searched_at_utc": "2026-10-06T05:28:38Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "中黒を空白にした名称検索でも対応する物語本文を同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W13-Q03",
+          "query": "\"スシ・ウォーリア・ガールズ\" 怖い話",
+          "searched_at_utc": "2026-10-06T05:29:22Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "中国語の都市伝説一覧に日本語題名の一致がある。物語本文・初出への橋渡しはない。",
+          "result_urls": [
+            "https://icebergs.gnix807.cn/iceberg/occult"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "一覧での題名言及は、本文・初出・版の確認を補わない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "old_status": "partial",
+      "old_episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "old_alias_or_derivative": {
+        "classification": "実況型ネットロア／シリーズ",
+        "confirmed_duplicate_of": null,
+        "notes": "冒頭だけのコピペと、投稿121–134の本文を区別。TRPG・小説・漫画の派生は分析に含めない。"
+      },
+      "legacy_source_metadata": [
+        {
+          "source_id": "G01-S013",
+          "work_id": "G01-W18",
+          "title": "猫の忍者(ネットロア)",
+          "url": "https://nekomesinbun.blog.jp/archives/6865733.html",
+          "accessed_at_utc": "2026-10-04T11:26:18.867181Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": "第1ページの冒頭断片のみ。後のSOURCESの実況転載で拡充。"
+        },
+        {
+          "source_id": "G01-S023",
+          "work_id": "G01-W18",
+          "title": "猫の忍者(ネットロア)",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "accessed_at_utc": "2026-10-04T11:32:12.617919Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": ""
+        }
+      ],
+      "followup_status": "partial",
+      "followup_scope": "2008-03-21実況スレ151の121–134の選択転載、後続リンク・解説を再確認。後続本文・画像・動画は未取得。",
+      "evidence_summary": "公園の遭遇から自宅周辺・窓の襲来までの選択転載を再確認。後続の終端について解説と検索抜粋に差があり、完結範囲は未確定。",
+      "sources": [
+        {
+          "source_id": "G01-W18-F01",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "source_kind": "public_repost_with_commentary",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:05Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "2008-03-21の121、122、123、125、126、127、129、134の選択転載。後続リンクと解説。",
+          "variant": "2019-03-26の記事。欠番は記事の選択転載であって全レス読了ではない。",
+          "evidence_summary": "公園・刀・帰宅・夜の窓の襲来を記す。解説は4月16日651で終息とするが、後続全文で照合していない。",
+          "locator": "引用範囲121–134、リンク「猫忍」「猫忍・二ノ巻」、後続の解説。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W18-F02",
+          "url": "https://hobby10.5ch.net/test/read.cgi/occult/1205653191/",
+          "source_kind": "linked_original_thread",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:28:35Z",
+          "retrieval_error": "URL is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "転載記事から示された原スレURL。",
+          "evidence_summary": "今回の取得ツールではアクセスできない。",
+          "locator": "リンク先の取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W18-F03",
+          "url": "https://hobby10.5ch.net/test/read.cgi/occult/1206198276/l50",
+          "source_kind": "linked_original_thread",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:28:35Z",
+          "retrieval_error": "URL is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "転載記事から示された原スレURL。",
+          "evidence_summary": "今回の取得ツールではアクセスできない。",
+          "locator": "リンク先の取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W18-F04",
+          "url": "https://hobby10.5ch.net/test/read.cgi/occult/1206460571/",
+          "source_kind": "linked_original_thread",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:28:35Z",
+          "retrieval_error": "URL is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "転載記事から示された原スレURL。",
+          "evidence_summary": "今回の取得ツールではアクセスできない。",
+          "locator": "リンク先の取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G01-W18-F05",
+          "url": "https://kako.5ch.net/test/read.cgi/occult/1206460571/",
+          "source_kind": "public_thread_archive",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:29:40Z",
+          "retrieval_error": "(500) Redirected to https://kako.5ch.io/test/read.cgi/occult/1206460571/ which is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "後続スレの検索候補。",
+          "evidence_summary": "検索索引は見えるが、本文のopenは500表示とリダイレクト先取得不能になった。",
+          "locator": "検索候補とopenの取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W18-Q01",
+          "query": "\"猫の忍者\" \"狙われてる\"",
+          "searched_at_utc": "2026-10-06T05:27:48Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "冒頭コピペやTRPG等の派生が多く、後続本文の代用にしない。",
+          "result_urls": [
+            "https://nekomesinbun.blog.jp/archives/6865733.html",
+            "https://booth.pm/ja/items/5373847"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W18-Q02",
+          "query": "\"猫忍・二ノ巻\"",
+          "searched_at_utc": "2026-10-06T05:28:52Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "後続スレ「猫忍・二ノ巻」の索引を発見。本文未取得。",
+          "result_urls": [
+            "https://kako.5ch.net/test/read.cgi/occult/1206460571/"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W18-Q03",
+          "query": "\"猫忍\" \"1206198276\"",
+          "searched_at_utc": "2026-10-06T05:29:22Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "同じ後続索引には0895・2008/05/18という抜粋もある。記事の終息説明と差があるが、索引のみで終端を訂正しない。",
+          "result_urls": [
+            "https://kako.5ch.net/test/read.cgi/occult/1206460571/"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "原スレと後続2スレの全文を取得できない。",
+        "解説の2008-04-16・651と、検索抜粋の0895・2008-05-18の差を本文で確認できない。",
+        "写真・動画・現地報告の一次資料は確認していない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "live_thread_network_lore",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "欠番のある選択転載と後続実況・二次解説・TRPG派生を分ける。後続の各報告を独立作品数へ加算しない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "原スレ151と後続2スレの保存本文、投稿者識別の連続性、媒体の範囲と終端を照合する資料。"
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文未同定",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "名称リストと無関係小説は本文の代用にならない。"
+      },
+      "legacy_source_metadata": [],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "名称一覧に題名の一致はあるが、別小説との単語一致から割当の本文へ置き換えられない。",
+      "sources": [
+        {
+          "source_id": "G01-W20-F01",
+          "url": "https://icebergs.gnix807.cn/iceberg/occult",
+          "source_kind": "name_index",
+          "retrieval_status": "retrieved",
+          "body_read": false,
+          "accessed_at_utc": "2026-10-06T05:29:40Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "「禁厌密仪」の名称一覧にある日本語の題名。",
+          "variant": "中国語の都市伝説・オカルト一覧。",
+          "evidence_summary": "日本語題名の一致のみ。対象の怪談本文は掲載範囲にない。",
+          "locator": "名称「ピヨピヨの魔」。",
+          "identification_relation": "name_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W20-Q01",
+          "query": "\"ピヨピヨの魔\" 洒落怖",
+          "searched_at_utc": "2026-10-06T05:27:27Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "語の一部が一致する別小説等が出るが、対象の物語本文を同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "原投稿・本文のリンク・版・筋を確かめられない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "old_status": "partial",
+      "old_episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+      "old_alias_or_derivative": {
+        "classification": "シリーズ候補／本文内の自己参照あり",
+        "confirmed_duplicate_of": null,
+        "notes": "転載見出しは蛇憑きの話、蛇が憑いた、去年亡くなった妹の話。2015年が前2篇を具体的に参照するが、割当の総称・投稿者の同一性は未確証。"
+      },
+      "legacy_source_metadata": [
+        {
+          "source_id": "G01-S015",
+          "work_id": "G01-W21",
+          "title": "蛇神憑きの家系",
+          "url": "https://sanblo.com/hebituki/",
+          "accessed_at_utc": "2026-10-04T11:26:18.281672Z",
+          "source_kind": "公開本文転載",
+          "episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+          "variant": "初出との完全一致は未照合",
+          "body_verified": "true",
+          "notes": ""
+        }
+      ],
+      "followup_status": "partial",
+      "followup_scope": "2008-05-11の56–57・59・64、2011-09-19の874–877と同投稿者補足、2015-10-31の689–692。908は別投稿として除外。",
+      "evidence_summary": "2015年の兄の語りは妹による7年前・4年前の投稿を具体的に参照する。2008年の23歳までという補足と2011年の20歳で離れるはずという説明差も残る。",
+      "sources": [
+        {
+          "source_id": "G01-W21-F01",
+          "url": "https://sanblo.com/hebituki/",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:19Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "2008、2011、2015の3篇と本文内の自己参照。無関係投稿908と読者レスを作者本文へ混入しない。",
+          "variant": "ページ更新2024-03-01。見出しは「蛇憑きの話」「蛇が憑いた」「去年亡くなった妹の話。」。",
+          "evidence_summary": "2015年689が前2篇の出来事と投稿時期を参照する。関連性は強まるが、作者の実際の同一性・割当総称の由来を証明しない。",
+          "locator": "56–57・59・64、874–877・881・883・884・897・899・902、689–692。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G01-W21-Q01",
+          "query": "\"蛇神憑きの家系\"",
+          "searched_at_utc": "2026-10-06T05:27:48Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "固定割当名そのものの検索は別小説・占い等が中心で、総称と転載3篇の明示的対応を得られない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "「蛇神憑きの家系」という割当総称と3篇を結ぶ元一覧リンクがない。",
+        "匿名投稿者の同一性・初出本文の完全一致は未検証。",
+        "年齢条件の記述差を統一して補正しない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "series_candidate_with_internal_reference",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "2015年689の本文内自己参照は系列候補の根拠。3篇を独立3作品とも、総称の全系列確認済みとも数えない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク、3篇の原スレ・投稿番号、匿名投稿者と版差の照合資料。"
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文未同定",
+      "old_alias_or_derivative": {
+        "classification": "未同定",
+        "confirmed_duplicate_of": null,
+        "notes": "検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      },
+      "legacy_source_metadata": [],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "完全名の検索は結果が空。広げた検索も対象本文へ到達せず、非実在・非ホラーとは判定しない。",
+      "sources": [],
+      "searches": [
+        {
+          "search_id": "G01-W27-Q01",
+          "query": "\"ンーボボツク\" 洒落怖",
+          "searched_at_utc": "2026-10-06T05:27:27Z",
+          "outcome": "no_results",
+          "evidence_summary": "検索結果は空。非実在を示す証拠ではない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G01-W27-Q02",
+          "query": "ンーボボツク 怖い話",
+          "searched_at_utc": "2026-10-06T05:28:38Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "引用符を外した名称と怖い話の検索は一般一覧等になり、対象本文を同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "原投稿・本文URL・表記揺れの確実な対応が不明。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G02-W03",
+      "title": "一本足の妖女",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文の範囲を設定できず。未検証",
+      "old_alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S006",
+          "work_id": "G02-W03",
+          "title": "一本足の妖女",
+          "url": "",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "検索記録（本文出典ではない）",
+          "episode_scope": "検索語：一本足の妖女。二系統の検索エンジンによる候補探索",
+          "variant": "意図された作品版は未確定",
+          "body_verified": "false",
+          "notes": "一つ足の妖女等の表記も調べた。伝統的な一本足妖怪やイラストを同一本文に代用しない",
+          "record_kind": "search_record",
+          "url_status": "not_identified",
+          "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "一本足妖怪一般や「一本足の女」という商業文学候補があるが、割当名との対応がない。候補本文は今回未読。",
+      "sources": [],
+      "searches": [
+        {
+          "search_id": "G02-W03-Q01",
+          "query": "\"一本足\" \"妖女\" 洒落怖",
+          "searched_at_utc": "2026-10-06T05:27:27Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "妖怪一般や別文学資料が出るが、割当の物語本文へ同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G02-W03-Q02",
+          "query": "\"一本足の女\" \"怖い話\"",
+          "searched_at_utc": "2026-10-06T05:28:38Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "岡本綺堂「一本足の女」が候補に出るが、題名・作者付きの別資料で、割当との同一性は未確認。",
+          "result_urls": [
+            "https://nazolog.com/blog-entry-7521.html"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "題名の近さだけで商業文学や民俗妖怪の話に置き換えられない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G02-W04",
+      "title": "エレベーターで異世界に行く方法",
+      "old_status": "partial",
+      "old_episode_scope": "伝承される操作手順の二次説明を比較。原投稿の全文・各実況シリーズは未確認",
+      "old_alias_or_derivative": "異世界エレベーターという儀式型伝承。単一作品の同定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S012",
+          "work_id": "G02-W04",
+          "title": "エレベーターで異世界に行く方法",
+          "url": "https://toshidensetsu-ikki.com/horror/elevator-different-world",
+          "accessed_at_utc": "",
+          "source_kind": "都市伝説の二次説明",
+          "episode_scope": "2017年記事の儀式説明・会話形式。コメントは除外",
+          "variant": "手順に追加の階移動がある版",
+          "body_verified": "true",
+          "notes": "説明全文読了。ただし原投稿の忠実な転載と確認できない／本文は読了したが正確な取得時刻の記録を保持していない。日時は空欄とし、追加確認を要する／body_verifiedは当該二次記事の説明本文についてtrue。原典確認は未達",
+          "record_kind": "source",
+          "url_status": "identified",
+          "url_missing_reason": "",
+          "access_time_status": "not_recorded",
+          "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+          "access_time_status_original": ""
+        },
+        {
+          "source_id": "G02-S013",
+          "work_id": "G02-W04",
+          "title": "エレベーターで異世界に行く方法",
+          "url": "https://spookylib.com/elevetor-to-a-parallel-world-1659",
+          "accessed_at_utc": "",
+          "source_kind": "二次説明と派生的再話",
+          "episode_scope": "2022年記事の手順説明と創作的なインタビュー形式",
+          "variant": "手順の差・並行世界の後付け体験談",
+          "body_verified": "true",
+          "notes": "記事全文読了。インタビューを元投稿の出来事と混同しない／本文は読了したが正確な取得時刻の記録を保持していない。日時は空欄とし、追加確認を要する／body_verifiedは当該二次記事の説明本文についてtrue。原典確認は未達",
+          "record_kind": "source",
+          "url_status": "identified",
+          "url_missing_reason": "",
+          "access_time_status": "not_recorded",
+          "access_time_missing_reason": "初回取得の正確なUTC時刻は受領記録に保存されていない。台帳登録時刻や再閲覧時刻で代用しない。",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "partial",
+      "followup_scope": "2009年更新表記の儀式転載、2009-04-21実況の選択転載、2017・2022年二次記事の手順比較。原投稿・全実況は未確認。",
+      "evidence_summary": "早い転載は4→2→6→2→10→5。2022年記事は6の後の2を省く。実況転載39では女性が乗らず通常の1階へ戻ったと報告され、陰性の経過も保持する。",
+      "sources": [
+        {
+          "source_id": "G02-W04-F01",
+          "url": "https://w.atwiki.jp/collection/pages/360.html",
+          "source_kind": "public_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:05Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "儀式手順1–7、元スレ候補と実況資料のリンク。",
+          "variant": "最終更新2009-05-02 19:27と記載。ページ表記の日時でUTCへの変換はしない。",
+          "evidence_summary": "4→2→6→2→10→5から1を押す手順、失敗・中止条件を記す。2008-12-12スレ成立という説明は掲載者の説明で、初出の確証ではない。",
+          "locator": "見出し「異世界に行く方法」、手順1–7、関連URL、参考資料。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G02-W04-F02",
+          "url": "https://w.atwiki.jp/collection/pages/359.html",
+          "source_kind": "public_live_thread_repost",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:30:11Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "2009-04-21実況スレ4の5–45の掲載テキスト。",
+          "variant": "最終更新2010-03-01 21:36と記載。画像・動画そのものは未確認。",
+          "evidence_summary": "39で女性が乗らず普通に1階に降り、何も起きなかったと報告。成功体験だけを選ばず、資料内の陰性の経過を残す。",
+          "locator": "見出し「2009年4月21日ペイン」、33・39・43、掲載末尾45。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G02-W04-F03",
+          "url": "https://toshidensetsu-ikki.com/horror/elevator-different-world",
+          "source_kind": "secondary_explanation",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:27:10Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "記事の儀式説明と箇条書きの手順。コメント除外。",
+          "variant": "2017年記事の二次説明。",
+          "evidence_summary": "早い転載と同様に6の後の2を含む。",
+          "locator": "「異世界へ行く方法まとめ」の手順。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G02-W04-F04",
+          "url": "https://spookylib.com/elevetor-to-a-parallel-world-1659",
+          "source_kind": "secondary_explanation_and_retelling",
+          "retrieval_status": "retrieved",
+          "body_read": true,
+          "accessed_at_utc": "2026-10-06T05:28:19Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "手順の箇条書きとインタビュー導入・実行過程。",
+          "variant": "2022年記事の説明・派生的インタビュー再話。",
+          "evidence_summary": "手順と実行描写の双方が6→10とし、もう一度の2を省く。後付け再話を原投稿の出来事として合成しない。",
+          "locator": "手順2、インタビュー内の6階・10階の移動。",
+          "identification_relation": "scope_support",
+          "original_post_match_verified": false
+        },
+        {
+          "source_id": "G02-W04-F05",
+          "url": "http://anchorage.2ch.net/test/read.cgi/occult/1213622148/",
+          "source_kind": "linked_original_thread",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:28:35Z",
+          "retrieval_error": "URL https://anchorage.2ch.net/test/read.cgi/occult/1213622148/ is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "転載が示す「時を戻す方法はないでしょうか？ part4」。",
+          "evidence_summary": "取得ツールでは本文を確認できない。",
+          "locator": "リンク先の取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G02-W04-Q01",
+          "query": "\"エレベーターで異世界に行く方法\" \"2008\"",
+          "searched_at_utc": "2026-10-06T05:27:48Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "早い転載と実況資料の手がかりが見つかった。原投稿の初出を確認したものではない。",
+          "result_urls": [
+            "https://w.atwiki.jp/collection/pages/360.html"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "原投稿・初出・実況シリーズ全体の本文を未取得。",
+        "後年記事には手順差と付加された再話があり、一つの原作品として統一できない。",
+        "実況のテキスト転載を、動画の確認や現実の異世界移動の検証とみなさない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "ritual_network_lore_with_variants",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "手順伝承・実況・後年の再話を別資料単位で保持する。単一原作品や独立作品数は未確定。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "儀式の原投稿日時・本文、2008年以降の実況各スレの範囲、編集転載と原文との対応。"
+    },
+    {
+      "work_id": "G02-W08",
+      "title": "ギュウギュウ詰めの軽自動車",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文の範囲を設定できず。未検証",
+      "old_alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S007",
+          "work_id": "G02-W08",
+          "title": "ギュウギュウ詰めの軽自動車",
+          "url": "",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "検索記録（本文出典ではない）",
+          "episode_scope": "検索語：ギュウギュウ詰めの軽自動車。二系統の検索エンジンによる候補探索",
+          "variant": "意図された作品版は未確定",
+          "body_verified": "false",
+          "notes": "ぎゅうぎゅう／軽自動車／怪談の組合せも照合した。満員の車という題材から追跡を創作しない",
+          "record_kind": "search_record",
+          "url_status": "not_identified",
+          "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "再検索の語の一致は別小説・車の記事等で、割当の物語本文へ同定できない。",
+      "sources": [],
+      "searches": [
+        {
+          "search_id": "G02-W08-Q01",
+          "query": "\"ぎゅうぎゅう\" \"軽自動車\" 怖い話",
+          "searched_at_utc": "2026-10-06T05:27:29Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "かな表記の検索で車の記事等が出るが、対象本文は同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G02-W08-Q02",
+          "query": "\"軽自動車\" \"ぎゅうぎゅう詰め\" 怪談",
+          "searched_at_utc": "2026-10-06T05:28:38Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "引用した軽自動車・ぎゅうぎゅう詰めの検索は別小説等になり、割当との対応がない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "軽自動車・満員という題材だけで別話を同一と扱えない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G02-W12",
+      "title": "死なず舞妓",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文の範囲を設定できず。未検証",
+      "old_alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S008",
+          "work_id": "G02-W12",
+          "title": "死なず舞妓",
+          "url": "",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "検索記録（本文出典ではない）",
+          "episode_scope": "検索語：死なず舞妓。二系統の検索エンジンによる候補探索",
+          "variant": "意図された作品版は未確定",
+          "body_verified": "false",
+          "notes": "検索上の同名候補は妖怪ウォッチ攻略掲示板の不存在というやり取り。割当怪談と同定できない",
+          "record_kind": "search_record",
+          "url_status": "not_identified",
+          "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        },
+        {
+          "source_id": "G02-S009",
+          "work_id": "G02-W12",
+          "title": "死なず舞妓",
+          "url": "https://y-watch.info/bbs_cap/index.cgi?mode=view&no=413&p=0",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "候補索引のみ",
+          "episode_scope": "2014年8月のゲーム攻略掲示板検索結果",
+          "variant": "同名候補・別資料",
+          "body_verified": "false",
+          "notes": "検索スニペットの同名一致のみ。怪談本文未確認・作品同定不可",
+          "record_kind": "source",
+          "url_status": "identified",
+          "url_missing_reason": "",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "対象本文は未同定。旧候補URLも今回取得できず、旧検索抜粋を今回の読了へ変更しない。",
+      "sources": [
+        {
+          "source_id": "G02-W12-F01",
+          "url": "https://y-watch.info/bbs_cap/index.cgi?mode=view&no=413&p=0",
+          "source_kind": "legacy_search_candidate",
+          "retrieval_status": "retrieval_failed",
+          "body_read": false,
+          "accessed_at_utc": null,
+          "attempted_at_utc": "2026-10-06T05:27:10Z",
+          "retrieval_error": "URL is not accessible via this tool",
+          "confirmed_scope": "本文取得に至らず。",
+          "variant": "旧台帳のゲーム掲示板候補。",
+          "evidence_summary": "今回の取得ツールではアクセスできない。旧スニペットを再取得済みとはしない。",
+          "locator": "URL取得エラー。",
+          "identification_relation": "unavailable",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G02-W12-Q01",
+          "query": "\"死なず舞妓\" 怪談",
+          "searched_at_utc": "2026-10-06T05:27:29Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "同名に対応する怪談本文を同定できない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G02-W12-Q02",
+          "query": "\"死なず\" \"舞妓\" 洒落怖",
+          "searched_at_utc": "2026-10-06T05:28:52Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "死なず・舞妓を分けても別小説・歴史等が中心で、割当との対応がない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "ゲーム掲示板候補は割当怪談との対応がなく、今回本文も未取得。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G02-W13",
+      "title": "寿司ノ神国駅",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文の範囲を設定できず。未検証",
+      "old_alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S010",
+          "work_id": "G02-W13",
+          "title": "寿司ノ神国駅",
+          "url": "",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "検索記録（本文出典ではない）",
+          "episode_scope": "検索語：寿司ノ神国駅。二系統の検索エンジンによる候補探索",
+          "variant": "意図された作品版は未確定",
+          "body_verified": "false",
+          "notes": "寿司ノ神国・駅に分けても物語本文の同定根拠を得られない。異界駅一般の筋を代入しない",
+          "record_kind": "search_record",
+          "url_status": "not_identified",
+          "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "完全名の要部・分割語で検索しても対象本文を同定できず、他の異界駅譚へ置き換えない。",
+      "sources": [],
+      "searches": [
+        {
+          "search_id": "G02-W13-Q01",
+          "query": "\"寿司ノ神国\"",
+          "searched_at_utc": "2026-10-06T05:27:29Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "「寿司ノ神国」の名称検索は対応する本文へ到達しない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G02-W13-Q02",
+          "query": "\"寿司\" \"神国駅\"",
+          "searched_at_utc": "2026-10-06T05:28:52Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "寿司・神国駅を分けると観光資料等が出るが、異界駅の物語の同定根拠ではない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "元のリンク先と原投稿が不明で、駅名・作品範囲を確定できない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    },
+    {
+      "work_id": "G02-W16",
+      "title": "つぎはぎ柄の猿みたいなヤツ",
+      "old_status": "unverified",
+      "old_episode_scope": "対象本文の範囲を設定できず。未検証",
+      "old_alias_or_derivative": "別名・独立作品・派生の判定保留",
+      "legacy_source_metadata": [
+        {
+          "source_id": "G02-S011",
+          "work_id": "G02-W16",
+          "title": "つぎはぎ柄の猿みたいなヤツ",
+          "url": "",
+          "accessed_at_utc": "2026-10-04T11:35:04Z",
+          "source_kind": "検索記録（本文出典ではない）",
+          "episode_scope": "検索語：つぎはぎ柄の猿みたいなヤツ。二系統の検索エンジンによる候補探索",
+          "variant": "意図された作品版は未確定",
+          "body_verified": "false",
+          "notes": "つぎはぎ／猿／怖い話などでも同名・同内容本文未同定。既知の別怪談との同一性を推定しない",
+          "record_kind": "search_record",
+          "url_status": "not_identified",
+          "url_missing_reason": "検索で割当本文を同定できず。探索内容はsource_kind・notesを参照。本文出典として使わない。",
+          "access_time_status": "timestamp_utc",
+          "access_time_missing_reason": "",
+          "access_time_status_original": ""
+        }
+      ],
+      "followup_status": "unresolved",
+      "followup_scope": "対象本文の同定に至らず。",
+      "evidence_summary": "名称要素で候補スレは出るが、本文を割当へ対応させる根拠は得られない。ログ全文は今回未読。",
+      "sources": [
+        {
+          "source_id": "G02-W16-F01",
+          "url": "https://kako.5ch.io/test/read.cgi/occult/1030668331/",
+          "source_kind": "public_thread_search_candidate",
+          "retrieval_status": "retrieved",
+          "body_read": false,
+          "accessed_at_utc": "2026-10-06T05:29:17Z",
+          "attempted_at_utc": null,
+          "retrieval_error": null,
+          "confirmed_scope": "ページ内「つぎはぎ」の検索のみ。ログ全体は未読。",
+          "variant": "別スレ「身内に起こった怖い話」。",
+          "evidence_summary": "ページ内検索は一致なし。表記違いや索引範囲の限界があるため、作品の不存在を証明しない。",
+          "locator": "ページ内検索語「つぎはぎ」。",
+          "identification_relation": "candidate_only",
+          "original_post_match_verified": false
+        }
+      ],
+      "searches": [
+        {
+          "search_id": "G02-W16-Q01",
+          "query": "\"つぎはぎ\" \"猿\" 怪談",
+          "searched_at_utc": "2026-10-06T05:27:31Z",
+          "outcome": "no_matching_body",
+          "evidence_summary": "つぎはぎ・猿では鵺の一般説明等が出るが、割当との対応がない。",
+          "result_urls": [],
+          "accessed_at_utc": null,
+          "body_read": false
+        },
+        {
+          "search_id": "G02-W16-Q02",
+          "query": "\"つぎはぎ柄\" 怖い話",
+          "searched_at_utc": "2026-10-06T05:28:52Z",
+          "outcome": "candidate_found",
+          "evidence_summary": "「身内に起こった怖い話」のログが候補に出るが、ページ内「つぎはぎ」検索は一致なし。題材のみで同定しない。",
+          "result_urls": [
+            "https://kako.5ch.io/test/read.cgi/occult/1030668331/"
+          ],
+          "accessed_at_utc": null,
+          "body_read": false
+        }
+      ],
+      "unresolved_reasons": [
+        "猿や鵺の一般論との語の一致は作品同定ではない。",
+        "候補ログのページ内検索が不一致でも、不存在・別表記の不存在とは断定できない。"
+      ],
+      "alias_series_assessment": {
+        "classification": "identity_unresolved",
+        "confirmed_duplicate_of": null,
+        "candidate_work_ids": [],
+        "evidence_source_ids": [],
+        "reason": "割当名から別名・同一作品・系列の独立性を確定できない。",
+        "independent_work_count": null
+      },
+      "next_evidence_needed": "元一覧のリンク先、原投稿URLまたは投稿番号、日付、本文の一致を示す資料。"
+    }
+  ]
+}
