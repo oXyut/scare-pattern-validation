@@ -1,0 +1,32 @@
+{
+  "source_revision": "0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3",
+  "inputs": [
+    "followup/README.md",
+    "followup/classification/v1-boundary-audit.md",
+    "followup/classification/v3-codebook.json",
+    "followup/classification/v3-codebook.md",
+    "followup/classification/validate_codebook.py",
+    "followup/evaluation/README.md",
+    "followup/evaluation/analysis-plan.md",
+    "followup/evaluation/gm-rubric.md",
+    "followup/evaluation/protocol.md",
+    "followup/evaluation/records.md",
+    "followup/evaluation/schema.json",
+    "followup/evaluation/templates/adjudication.json",
+    "followup/evaluation/templates/annotation.json",
+    "followup/evaluation/templates/corpus-candidate.json",
+    "followup/evaluation/templates/decision-report.json",
+    "followup/evaluation/templates/experience-observation.json",
+    "followup/evaluation/templates/gm-evaluation.json",
+    "followup/evaluation/templates/study-plan.json",
+    "followup/evaluation/tests/test_validate.py",
+    "followup/evaluation/validate.py",
+    "followup/index.json",
+    "followup/sources/group_01-02.json",
+    "followup/sources/group_01-02.md",
+    "followup/sources/group_03-05.json",
+    "followup/sources/group_03-05.md",
+    "followup/sources/validate_group_01_02.py",
+    "followup/sources/validate_group_03_05.py"
+  ]
+}

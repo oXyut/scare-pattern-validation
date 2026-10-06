@@ -63,6 +63,87 @@ def public_work_tracking(original):
     return tracking
 
 
+def public_followup_observation(original):
+    """Project the two source ledgers without publishing arbitrary metadata."""
+    state = original.get('retrieval_status')
+    state = {'retrieved': 'success', 'retrieval_failed': 'failed'}.get(state, state)
+    if 'search_id' in original:
+        state = 'search_completed'
+    assert state in {'success', 'failed', 'search_completed'}
+    row = {
+        'source_id': original.get('source_id') or original['search_id'],
+        'url': original.get('url'),
+        'retrieval_status': state,
+        'body_read': original.get('body_read', original.get('body_reviewed', False)),
+        'accessed_at_utc': original.get('accessed_at_utc'),
+        'attempted_at_utc': original.get('attempted_at_utc') or original.get('failed_at_utc'),
+        'searched_at_utc': original.get('searched_at_utc'),
+        'scope': original.get('confirmed_scope') or original.get('reviewed_scope') or '',
+        'variant': original.get('variant', ''),
+        'relation': original.get('identification_relation') or original.get('role') or 'search_only',
+        'evidence_summary': original['evidence_summary'],
+        'failure_reason': original.get('retrieval_error') or original.get('failure_reason') or '',
+        'query': original.get('query', ''),
+        'result_urls': list(original.get('result_urls', [])),
+    }
+    assert isinstance(row['body_read'], bool)
+    assert state == 'success' or not row['body_read']
+    for key, value in row.items():
+        if key not in {'body_read', 'result_urls'}:
+            assert value is None or isinstance(value, str), f'Unexpected followup column: {key}'
+    for value in [row['url'], *row['result_urls']]:
+        if value:
+            url = urlparse(value)
+            assert url.scheme in {'http', 'https'} and url.hostname and not url.username and not url.password
+    return row
+
+
+def build_followup(works):
+    snapshot = json.loads((SOURCE / 'followup-snapshot.json').read_text())
+    assert re.fullmatch(r'[0-9a-f]{40}', snapshot['source_revision'])
+    for relative in snapshot['inputs']:
+        path = Path(relative)
+        assert path.parts[0] == 'followup' and not path.is_absolute() and '..' not in path.parts
+        committed = subprocess.check_output(['git', 'show', f"{snapshot['source_revision']}:{relative}"], cwd=ROOT)
+        assert (ROOT / path).read_bytes() == committed, f'Followup snapshot changed: {relative}'
+    index = json.loads((ROOT / 'followup/index.json').read_text())
+    for artifact in index['artifacts']:
+        assert artifact['path'] in snapshot['inputs']
+        assert hashlib.sha256((ROOT / artifact['path']).read_bytes()).hexdigest() == artifact['sha256']
+    historical = {work['work_id']: work for work in works}
+    public_works = []
+    for relative in index['source_inputs']:
+        assert relative in snapshot['inputs']
+        document = json.loads((ROOT / relative).read_text())
+        for original in document['works']:
+            work_id = original['work_id']
+            assert original['title'] == historical[work_id]['title']
+            assert original['old_status'] == historical[work_id]['body_status']
+            reasons = original.get('unresolved_reasons') or [original['unresolved_reason']]
+            cautions = original.get('alias_or_series_cautions') or [original['alias_series_assessment']['reason']]
+            assert all(isinstance(value, str) for value in reasons + cautions)
+            observations = original.get('source_observations')
+            if observations is None:
+                observations = original['sources'] + original['searches']
+            row = public_fields(original, ['work_id', 'title', 'old_status', 'followup_status', 'evidence_summary'])
+            row.update(scope=original.get('followup_scope') or original['reviewed_scope'],
+                       unresolved_reasons=reasons, cautions=cautions,
+                       report_path=relative.replace('.json', '.md'),
+                       observations=[public_followup_observation(o) for o in observations])
+            public_works.append(row)
+    selected = {work['work_id'] for work in works if work['body_status'] in {'partial', 'unverified'}}
+    assert len(public_works) == len({w['work_id'] for w in public_works}) == 39
+    assert {w['work_id'] for w in public_works} == selected
+    assert Counter(w['followup_status'] for w in public_works) == {'partial': 15, 'unresolved': 24}
+    assert index['source_followup_counts'] == {'entries': 39, 'confirmed': 0, 'partial': 15, 'unresolved': 24}
+    expected_items = [{key: w[key] for key in ['work_id', 'title', 'old_status', 'followup_status']} for w in sorted(public_works, key=lambda w: w['work_id'])]
+    assert expected_items == [{key: w[key] for key in expected_items[0]} for w in index['items']]
+    assert all(d['path'] in snapshot['inputs'] for d in index['documents'])
+    return {'source_revision': snapshot['source_revision'], 'edition_date': index['edition_date'],
+            'counts': index['source_followup_counts'], 'status_note': index['status_note'],
+            'documents': index['documents'], 'works': sorted(public_works, key=lambda w: w['work_id'])}
+
+
 def build_data():
     summary = json.loads((ROOT / 'integration/data/summary.json').read_text())
     snapshot = json.loads((SOURCE / 'research-snapshot.json').read_text())
@@ -134,6 +215,8 @@ def build_data():
         assert all(set(row.get(key, [])) <= type_ids for row in transitions for key in ['from_type_ids', 'to_type_ids'])
         assert all(row['scene_id'] in own_scenes for row in work.get('problem_tracking', []))
     result = {'schema_version': 'public-research-site-2', 'source_revision': snapshot['source_revision'], 'baseline_id': summary['baseline_id'], 'baseline_sha256': summary['baseline_sha256'], 'counts': summary['counts'], 'conclusion': summary['conclusion'], 'groups': groups, 'type_groups': [{'id': key, 'name': name} for key, name in zip('ABCDEF', ['捕捉と侵入', '空間と認識', '他者と関係', '身体と自己', '因果と選択', '人間と世界'])], 'types': types, 'works': works, 'sources': sources}
+    result['schema_version'] = 'public-research-site-3'
+    result['followup'] = build_followup(works)
     serialized = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     # Reject private execution identifiers and paths before writing the public tree.
     assert not re.search(r'/Users/|/home/|/mnt/|sediment://|file://|(?:conversation|thread|library|file)[_-]id|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN .*PRIVATE KEY', serialized, re.I)
@@ -149,10 +232,12 @@ def build():
     markup = (DEST / 'index.html').read_text()
     revision = json.loads((SOURCE / 'research-snapshot.json').read_text())['source_revision']
     markup = re.sub(r'<a data-repo="([^"]+)"', lambda m: f'<a data-repo="{m[1]}" href="https://github.com/oXyut/scare-pattern-validation/blob/{revision}/{m[1]}"', markup)
+    followup_revision = json.loads((SOURCE / 'followup-snapshot.json').read_text())['source_revision']
+    markup = re.sub(r'<a data-followup="([^"]+)"', lambda m: f'<a data-followup="{m[1]}" href="https://github.com/oXyut/scare-pattern-validation/blob/{followup_revision}/{m[1]}"', markup)
     (DEST / 'index.html').write_text(markup)
     (DEST / 'data.json').write_text(serialized)
     (DEST / '.nojekyll').write_text('')
-    print('Built docs/: 131 entries, 258 scene rows (25 placeholders), 166 source rows, 26 fixed-v1 definitions.')
+    print('Built docs/: historical 131 entries, 258 scene rows (25 placeholders), 166 source rows; separate 39-entry followup.')
 
 
 if __name__ == '__main__':

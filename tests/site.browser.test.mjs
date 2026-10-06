@@ -210,3 +210,37 @@ test('mobile keyboard navigation, disclosure state and layout remain usable',asy
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await screenshot(page,'mobile-work-outcomes');
 });
+
+test('supplement displays all selected entries and never upgrades historical scene evidence',async t=>{
+  const page=await open(t,'#followup');
+  assert.match(await page.locator('#followup-counts').textContent(),/39.*全範囲確認0.*限定確認15.*未解決24/);
+  await page.locator('#followup > details > summary').click();
+  assert.equal(await page.locator('#followup-results tbody tr').count(),39);
+  await screenshot(page,'desktop-followup-index');
+  await page.locator('#followup-results a[href="#work=G03-W03"]').click();
+  await checkWork(page,'G03-W03','井戸の足臭女');
+  assert.equal(await page.locator('.work-meta .status').textContent(),'未確認');
+  assert.equal(await page.locator('.fit').first().textContent(),'本文不足');
+  assert.match(await page.locator('.work-followup').textContent(),/関連本文を限定確認/);
+  assert.match(await page.locator('.work-followup').textContent(),/原割当|対象版|未同定|未確定/);
+  const href=await page.locator('.work-followup .reference a').first().getAttribute('href');
+  assert.match(href,/\/blob\/[0-9a-f]{40}\/followup\/sources\/group_03-05.md$/);
+});
+
+test('mobile supplement keeps failed, searched and read evidence distinct',async t=>{
+  const page=await open(t,'#work=G01-W18',{width:390,height:844});
+  await checkWork(page,'G01-W18','猫の忍者(ネットロア)');
+  const supplement=page.locator('.work-followup');
+  assert.match(await supplement.textContent(),/後続.*取得|原スレ/);
+  const failed=supplement.locator('details').filter({hasText:'取得不能'}).first();
+  await failed.locator('summary').click();
+  assert.match(await failed.textContent(),/対象本文の読了なし/);
+  assert.match(await failed.textContent(),/今回の失敗UTC/);
+  assert.doesNotMatch(await failed.textContent(),/今回の取得UTC/);
+  await failed.scrollIntoViewIfNeeded();
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await screenshot(page,'mobile-followup-failure');
+  await page.goto(base+'#followup');
+  await page.locator('#followup > details > summary').click();
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+});

@@ -9,6 +9,8 @@ const filterIds=['query','status','type','fit','group'];
 const keys=['q','status','type','fit','group'];
 const getFilters=()=>Object.fromEntries(keys.map((k,i)=>[k,$(filterIds[i]).value]));
 const repoURL=path=>`https://github.com/oXyut/scare-pattern-validation/blob/${data.source_revision}/${path}`;
+const followupURL=path=>`https://github.com/oXyut/scare-pattern-validation/blob/${data.followup.source_revision}/${path}`;
+const followupLabels={confirmed:'全範囲確認',partial:'関連本文を限定確認',unresolved:'未解決'};
 const tag=id=>`<a class="tag" href="#type-${esc(id)}" title="固定v1の${esc(id)}を読む">${esc(id)}</a>`;
 const status=value=>`<span class="status ${esc(value)}">${esc(statusLabels[value])}</span>`;
 const paragraph=value=>esc(value).replace(/\n/g,'<br>');
@@ -40,6 +42,22 @@ function renderTypes(){
   data.types.forEach(t=>$('type').add(new Option(`${t.id} ${t.name}`,t.id)));
 }
 function field(label,value){return value?`<dt>${esc(label)}</dt><dd>${paragraph(value)}</dd>`:'';}
+function renderFollowup(){
+  const f=data.followup;
+  $('followup-counts').textContent=`全39項目を追跡 · 全範囲確認${f.counts.confirmed} · 関連本文の限定確認${f.counts.partial} · 未解決${f.counts.unresolved}`;
+  $('followup-links').innerHTML=f.documents.map(d=>`<a href="${followupURL(d.path)}">${esc(d.label)}</a>`).join(' · ');
+  $('followup-results').innerHTML=`<table class="followup-table"><caption>旧未確認25・部分確認14の全39割当</caption><thead><tr><th scope="col">作品・割当ID</th><th scope="col">旧v1の状態</th><th scope="col">今回の追補</th></tr></thead><tbody>${f.works.map(w=>`<tr><th scope="row"><a href="#work=${esc(w.work_id)}">${esc(w.title)}</a><small>${esc(w.work_id)}</small></th><td>${esc(statusLabels[w.old_status])}</td><td>${esc(followupLabels[w.followup_status])}</td></tr>`).join('')}</tbody></table>`;
+}
+function workFollowupHTML(w){
+  const f=data.followup.works.find(row=>row.work_id===w.work_id);
+  if(!f)return '';
+  const observations=f.observations.map(s=>{
+    const retrieval={success:'ページ取得成功',failed:'取得不能',search_completed:'検索記録'}[s.retrieval_status];
+    const relation={scope_support:'指定した掲載範囲の根拠',candidate_only:'比較候補のみ',cross_group_comparison:'群間の比較候補',name_only:'名称一覧のみ',bibliography_only:'書誌のみ',unavailable:'本文取得不能',search_only:'検索のみ',target_candidate:'対象に関連する候補。割当・版の同定は別途留保',context_only:'比較資料のみ'}[s.relation]||s.relation;
+    return `<details class="document-details followup-observation"><summary>${esc(s.source_id)} · ${retrieval} · ${s.body_read?'掲載範囲の本文読了':'対象本文の読了なし'}</summary><p>${paragraph(s.evidence_summary)}</p><dl class="scene-analysis">${field('確認した範囲',s.scope)}${field('版',s.variant)}${field('同定との関係',relation)}${field('今回の取得UTC',s.accessed_at_utc)}${field('今回の失敗UTC',s.attempted_at_utc)}${field('今回の検索UTC',s.searched_at_utc)}${field('取得できなかった理由',s.failure_reason)}${field('検索語',s.query)}</dl>${s.url?`<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">記録対象の外部ページ</a></p>`:''}${s.result_urls.length?`<p>検索候補 ${s.result_urls.map((url,i)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">候補${i+1}</a>`).join('・')}。候補URLの発見は本文読了を示しません。</p>`:''}</details>`;
+  }).join('');
+  return `<section class="work-followup" aria-label="2026年10月6日の出典追補"><h2>2026年10月6日の出典追補</h2><p class="followup-state">旧v1：${esc(statusLabels[f.old_status])} / 今回：${esc(followupLabels[f.followup_status])}</p><p class="small-note">今回の関連本文・限定版の確認を、原割当の同定・全範囲確認やv1再判定へ置き換えません。上の旧状態と元の場面判定は保持しています。</p><p>${paragraph(f.evidence_summary)}</p><dl class="scene-analysis">${field('今回確認した範囲',f.scope)}${field('未解決の理由',f.unresolved_reasons.join('\n'))}${field('異名・系列の留保',f.cautions.join('\n'))}</dl>${observations}<p class="reference"><a href="${followupURL(f.report_path)}">担当別の追補報告</a> · <a href="#followup">全39項目と研究追補の案内</a></p></section>`;
+}
 const sceneLink=id=>`<a href="#scene-${esc(id)}">${esc(id)}</a>`;
 const hasWorkTracking=w=>Boolean(w.target_outcomes||w.problem_tracking||w.outcome_tracking);
 function transitionsHTML(rows){
@@ -74,7 +92,7 @@ function renderWork(id){
   const back=`${location.pathname}${location.search}#catalogue`;
   const sourceIds=new Set([...w.source_ids,...w.scenes.flatMap(s=>s.source_ids)]);
   const sources=data.sources.filter(s=>s.work_id===id||sourceIds.has(s.source_id));
-  $('work-detail').innerHTML=`<a class="back-link" href="${esc(back)}">検索結果に戻る</a><header class="work-heading"><p class="section-index">作品別分析 / 固定v1</p><h1 tabindex="-1" id="work-title">${esc(w.title)}</h1><div class="work-meta"><span>${esc(w.work_id)}</span>${status(w.body_status)}<span>群${esc(w.group_id.slice(-2))} · ${w.scenes.length}場面行</span></div></header><div class="work-intro"><p class="small-note">展開・結末のネタバレを含む自作分析です。${w.body_status==='unverified'?'割当本文が未確認のため、保留行を場面証拠や分類の不適合に数えません。':''}${w.body_status==='partial'?'本文範囲や同定に留保があります。':''}</p><dl>${field('確認した本文範囲・同定状態',w.episode_scope)}${field('異名・派生・独立性の留保',w.alias_or_derivative)}${field('作品全体の問題・読み',w.overall_fears)}${field('未説明の残余',w.unexplained_residue)}${field('反例・強制しない対応',w.counterexamples)}${field('改訂の提案',w.change_proposals)}</dl></div>${workTrackingHTML(w)}<h2 class="scenes-heading">場面ごとの記録</h2>${w.scenes.map(s=>sceneHTML(s,w)).join('')}<section class="work-sources"><h2>出典・本文の版と留保</h2><p class="small-note">リンク先は外部サイトです。本文転載、候補、検索記録を区別し、日時欠測を補っていません。リンクの存在は原典との一致を保証しません。</p>${sources.length?sources.map(sourceHTML).join(''):'<p>この項目の本文出典URLは同定されていません。</p>'}<p class="reference">原資料 <a href="${repoURL(`groups/${w.group_id}/data/mappings.json`)}">群別対応表</a>・<a href="${repoURL(`groups/${w.group_id}/reports/report.md`)}">群別報告</a>・<a href="${repoURL(`groups/${w.group_id}/sources/ledger.csv`)}">出典台帳</a></p></section><a class="back-link" href="${esc(back)}">検索結果に戻る</a><p class="small-note">解釈確信度は主観的な見積もりです。恐怖効果や統計的確率は示しません。v3基準による再符号化ではありません。</p>`;
+  $('work-detail').innerHTML=`<a class="back-link" href="${esc(back)}">検索結果に戻る</a><header class="work-heading"><p class="section-index">作品別分析 / 固定v1</p><h1 tabindex="-1" id="work-title">${esc(w.title)}</h1><div class="work-meta"><span>${esc(w.work_id)}</span>${status(w.body_status)}<span>群${esc(w.group_id.slice(-2))} · ${w.scenes.length}場面行</span></div></header><div class="work-intro"><p class="small-note">展開・結末のネタバレを含む自作分析です。${w.body_status==='unverified'?'割当本文が未確認のため、保留行を場面証拠や分類の不適合に数えません。':''}${w.body_status==='partial'?'本文範囲や同定に留保があります。':''}</p><dl>${field('確認した本文範囲・同定状態',w.episode_scope)}${field('異名・派生・独立性の留保',w.alias_or_derivative)}${field('作品全体の問題・読み',w.overall_fears)}${field('未説明の残余',w.unexplained_residue)}${field('反例・強制しない対応',w.counterexamples)}${field('改訂の提案',w.change_proposals)}</dl></div>${workFollowupHTML(w)}${workTrackingHTML(w)}<h2 class="scenes-heading">場面ごとの記録</h2>${w.scenes.map(s=>sceneHTML(s,w)).join('')}<section class="work-sources"><h2>出典・本文の版と留保</h2><p class="small-note">リンク先は外部サイトです。本文転載、候補、検索記録を区別し、日時欠測を補っていません。リンクの存在は原典との一致を保証しません。</p>${sources.length?sources.map(sourceHTML).join(''):'<p>この項目の本文出典URLは同定されていません。</p>'}<p class="reference">原資料 <a href="${repoURL(`groups/${w.group_id}/data/mappings.json`)}">群別対応表</a>・<a href="${repoURL(`groups/${w.group_id}/reports/report.md`)}">群別報告</a>・<a href="${repoURL(`groups/${w.group_id}/sources/ledger.csv`)}">出典台帳</a></p></section><a class="back-link" href="${esc(back)}">検索結果に戻る</a><p class="small-note">解釈確信度は主観的な見積もりです。恐怖効果や統計的確率は示しません。v3基準による再符号化ではありません。</p>`;
   renderedWorkId=id;
 }
 function route(){
@@ -109,8 +127,9 @@ function route(){
 }
 try{
   const response=await fetch('data.json');if(!response.ok)throw new Error('data unavailable');data=await response.json();
-  renderTypes();fillFields();renderResults();
+  renderTypes();fillFields();renderResults();renderFollowup();
   document.querySelectorAll('[data-repo]').forEach(a=>a.href=repoURL(a.dataset.repo));
+  document.querySelectorAll('[data-followup]').forEach(a=>a.href=followupURL(a.dataset.followup));
   $('group-source-links').innerHTML=data.groups.map(g=>`<a href="${repoURL(`groups/${g.group_id}/reports/report.md`)}">群${esc(g.group_id.slice(-2))}の報告</a> <a href="${repoURL(`groups/${g.group_id}/sources/ledger.csv`)}">台帳</a>`).join(' · ');
   $('filters').addEventListener('submit',event=>event.preventDefault());
   $('query').addEventListener('input',updateFilters);['status','type','fit','group'].forEach(id=>$(id).addEventListener('change',updateFilters));
