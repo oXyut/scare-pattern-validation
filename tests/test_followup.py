@@ -63,6 +63,15 @@ class FollowupTests(unittest.TestCase):
             with self.assertRaisesRegex(AssertionError, 'Followup snapshot changed'):
                 builder.build_data()
 
+    def test_document_links_drop_unlisted_metadata(self):
+        row = {'path': 'followup/README.md', 'label': '追補の案内',
+               'unlisted_private_note': {'value': 'do-not-publish'}}
+        self.assertEqual(builder.public_followup_document(row),
+                         {'path': row['path'], 'label': row['label']})
+        row['label'] = {'unexpected': 'nested-object'}
+        with self.assertRaises(AssertionError):
+            builder.public_followup_document(row)
+
     def test_real_condition_ids_fit_the_unmeasured_evaluation_template(self):
         book = json.loads((ROOT / 'followup/classification/v3-codebook.json').read_text())
         record = json.loads((ROOT / 'followup/evaluation/templates/annotation.json').read_text())

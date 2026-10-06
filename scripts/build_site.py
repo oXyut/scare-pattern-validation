@@ -98,6 +98,10 @@ def public_followup_observation(original):
     return row
 
 
+def public_followup_document(original):
+    return public_fields(original, ['path', 'label'])
+
+
 def build_followup(works):
     snapshot = json.loads((SOURCE / 'followup-snapshot.json').read_text())
     assert re.fullmatch(r'[0-9a-f]{40}', snapshot['source_revision'])
@@ -138,10 +142,11 @@ def build_followup(works):
     assert index['source_followup_counts'] == {'entries': 39, 'confirmed': 0, 'partial': 15, 'unresolved': 24}
     expected_items = [{key: w[key] for key in ['work_id', 'title', 'old_status', 'followup_status']} for w in sorted(public_works, key=lambda w: w['work_id'])]
     assert expected_items == [{key: w[key] for key in expected_items[0]} for w in index['items']]
-    assert all(d['path'] in snapshot['inputs'] for d in index['documents'])
+    documents = [public_followup_document(d) for d in index['documents']]
+    assert all(d['path'] in snapshot['inputs'] for d in documents)
     return {'source_revision': snapshot['source_revision'], 'edition_date': index['edition_date'],
             'counts': index['source_followup_counts'], 'status_note': index['status_note'],
-            'documents': index['documents'], 'works': sorted(public_works, key=lambda w: w['work_id'])}
+            'documents': documents, 'works': sorted(public_works, key=lambda w: w['work_id'])}
 
 
 def build_data():
