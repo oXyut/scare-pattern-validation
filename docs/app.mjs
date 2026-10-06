@@ -41,12 +41,13 @@ function renderTypes(){
 }
 function field(label,value){return value?`<dt>${esc(label)}</dt><dd>${paragraph(value)}</dd>`:'';}
 const sceneLink=id=>`<a href="#scene-${esc(id)}">${esc(id)}</a>`;
+const hasWorkTracking=w=>Boolean(w.target_outcomes||w.problem_tracking||w.outcome_tracking);
 function transitionsHTML(rows){
   if(!rows?.length)return '<p class="small-note">場面間の遷移記録はありません。</p>';
   return rows.map(row=>`<div class="transition-record"><p>${sceneLink(row.from_scene)} → ${sceneLink(row.to_scene)}</p><dl class="scene-analysis">${row.from_type_ids?`<dt>前場面の型ラベル</dt><dd><div class="tags">${row.from_type_ids.map(tag).join('')||'型なし'}</div></dd><dt>後場面の型ラベル</dt><dd><div class="tags">${row.to_type_ids.map(tag).join('')||'型なし'}</div></dd>`:''}${field('保持する問題の記録',row.retained_problem)}${field('閉鎖の点検',row.closure_audit)}</dl></div>`).join('');
 }
 function workTrackingHTML(w){
-  if(!w.target_outcomes&&!w.problem_tracking&&!w.outcome_tracking)return '';
+  if(!hasWorkTracking(w))return '';
   let records='';
   if(w.target_outcomes){
     records+=`<h3>対象別の記録（作品全体）</h3>${w.target_outcomes.map(row=>`<div class="tracking-record"><h4>${esc(row.target)}</h4><dl class="scene-analysis">${['Q','D','C','M'].map(k=>field(`${k}の記録`,row[k])).join('')}</dl></div>`).join('')}<h3>場面間の遷移</h3>${transitionsHTML(w.transitions)}`;
@@ -62,7 +63,7 @@ function workTrackingHTML(w){
 }
 function sceneHTML(s,w){
   const sourceLinks=s.source_ids.map(id=>`<a href="#source-${esc(id)}">${esc(id)}</a>`).join('・');
-  const outcomes=s.outcomes||'場面単位の成果欄は未記録です。上の「対象別の成果・問題追跡」に作品全体や対象別の記録があります。';
+  const outcomes=s.outcomes||`場面単位の成果欄は未記録です。${hasWorkTracking(w)?'上の「対象別の成果・問題追跡」に作品全体や対象別の記録があります。':''}`;
   return `<section class="scene" id="scene-${esc(s.scene_id)}" aria-label="場面 ${esc(s.scene_id)}"><div class="scene-header"><strong>${esc(s.scene_id)}</strong><span class="fit" data-fit="${esc(s.fit)}">${esc(s.fit)}</span><div class="tags">${s.type_ids.length?s.type_ids.map(tag).join(''):'型なし'}</div></div><p>${paragraph(s.evidence_summary)}</p><dl class="notation">${['Q','D','C','M'].map(k=>`<div><dt><span>${k}</span>${{Q:'問い',D:'危険',C:'選択',M:'世界モデル'}[k]}</dt><dd>${paragraph(s[k])}</dd></div>`).join('')}</dl><dl class="scene-analysis">${field('発生条件',s.onset_conditions)}${field('閉鎖・決着の条件',s.closure_conditions)}${field('判別根拠・留保',s.discriminators)}${field('説明しきれない残余',s.residue)}</dl><details class="scene-more"><summary>情報の変化・競合型・成果を読む</summary><dl class="scene-analysis">${field('情報状態の変化',s.information_state_change)}${field('競合する型',s.competing_types.join('・')||'記録なし')}${field('局所／広域の記録',s.local_or_global)}${field('成果・未解決対象の記録',outcomes)}${field('場面内の遷移記録',s.transitions?.join('\n'))}${field('解釈確信度',s.confidence===null?'未記録':String(s.confidence))}</dl></details><p class="scene-source-list">出典 ${sourceLinks||'本文出典を同定できていません。'}<br>判定は場面全体へのv1評価です。複合ラベルの個別成功を示しません。</p></section>`;
 }
 function sourceHTML(s){

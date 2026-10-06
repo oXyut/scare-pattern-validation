@@ -26,11 +26,12 @@ before(async () => {
 });
 after(async () => {await browser?.close(); if(server) await new Promise(done=>server.close(done));});
 
-async function open(t, suffix='', viewport={width:1280,height:900}) {
+async function open(t, suffix='', viewport={width:1280,height:900}, fixture) {
   const page = await browser.newPage({viewport, reducedMotion:'reduce'});
   const errors=[];
   page.on('pageerror', error=>errors.push(error.message));
   t.after(async()=>{await page.close(); assert.deepEqual(errors,[]);});
+  if(fixture) await page.route('**/data.json',route=>route.fulfill({json:fixture}));
   await page.goto(base+suffix);
   await page.waitForFunction(()=>!document.getElementById('result-count').textContent.includes('読み込み中'));
   return page;
@@ -55,6 +56,25 @@ async function screenshot(page, name) {
   await mkdir(process.env.SITE_QA_DIR,{recursive:true});
   await page.screenshot({path:resolve(process.env.SITE_QA_DIR,name+'.png')});
 }
+
+test('missing scene outcomes only point to a work tracking section when it exists',async t=>{
+  // Synthetic missing columns exercise the fallback without changing the research snapshot.
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const withoutTracking=fixture.works.filter(w=>['G01-W01','G04-W01'].includes(w.work_id));
+  for(const work of withoutTracking)work.scenes[0].outcomes='';
+  const page=await open(t,'#work=G01-W01',undefined,fixture);
+  for(const work of withoutTracking){
+    await hash(page,'#work='+work.work_id);
+    await checkWork(page,work.work_id,work.title);
+    assert.equal(await page.locator('.work-tracking').count(),0);
+    assert.match(await page.locator('.scene-more').first().textContent(),/場面単位の成果欄は未記録です。/);
+    assert.doesNotMatch(await page.locator('.scene-more').first().textContent(),/対象別の成果・問題追跡/);
+  }
+  await hash(page,'#work=G02-W01');
+  await checkWork(page,'G02-W01','アクロバティックサラサラ');
+  assert.equal(await page.locator('.work-tracking').count(),1);
+  assert.match(await page.locator('.scene-more').first().textContent(),/上の「対象別の成果・問題追跡」/);
+});
 
 test('source history resolves its owner after visiting another work',async t=>{
   const page=await open(t,'#catalogue');
