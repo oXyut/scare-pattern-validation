@@ -1,0 +1,452 @@
+{
+  "schema_version": "research-followup-index-1",
+  "edition_date": "2026-10-06",
+  "analysis_attribution": "AIによる出典追跡・追加監査・実施仕様の提案。独立した人間評価ではない。",
+  "historical_source_revision": "148359afaa05072f95c3b57b374897f381ad093a",
+  "source_followup_counts": {
+    "entries": 39,
+    "confirmed": 0,
+    "partial": 15,
+    "unresolved": 24
+  },
+  "historical_counts_changed": false,
+  "v1_recoding_performed": false,
+  "v3_recoding_performed": false,
+  "human_evaluation_performed": false,
+  "gm_or_player_effect_measured": false,
+  "status_note": "追補のpartialは関連本文・限定版の確認を含み、原割当の同定・全範囲確認とは限らない。過去の92/14/25を置換しない。",
+  "source_inputs": [
+    "followup/sources/group_01-02.json",
+    "followup/sources/group_03-05.json"
+  ],
+  "items": [
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W03",
+      "title": "一本足の妖女",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W04",
+      "title": "エレベーターで異世界に行く方法",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W08",
+      "title": "ギュウギュウ詰めの軽自動車",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W12",
+      "title": "死なず舞妓",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W13",
+      "title": "寿司ノ神国駅",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G02-W16",
+      "title": "つぎはぎ柄の猿みたいなヤツ",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_01-02.json",
+      "report_path": "followup/sources/group_01-02.md"
+    },
+    {
+      "work_id": "G03-W01",
+      "title": "赤福アキちゃん",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W03",
+      "title": "井戸の足臭女",
+      "old_status": "unverified",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W09",
+      "title": "愚乱怒狂魔ちゃん",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W10",
+      "title": "The_Color-Stealing_Man",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W13",
+      "title": "巣くうもの",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W14",
+      "title": "空に浮かぶ「い」",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W16",
+      "title": "透眼",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W19",
+      "title": "一つ目のっぺらぼう",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W21",
+      "title": "漫湖マン",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W22",
+      "title": "みっちり乗った軽自動車",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W24",
+      "title": "友人様",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G03-W25",
+      "title": "妖怪退治の仕事してるけど、何か質問ある?",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W01",
+      "title": "赤いマフラーの女",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W02",
+      "title": "紅い階段",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W09",
+      "title": "校内放送",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W11",
+      "title": "時空のおっさん",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W12",
+      "title": "師匠シリーズ",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W16",
+      "title": "トンネル内の雨音",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G04-W20",
+      "title": "人型の物体",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G05-W04",
+      "title": "女の字の怪",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G05-W19",
+      "title": "ヒサルキ",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G05-W21",
+      "title": "魔翠姫",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G05-W23",
+      "title": "U先生",
+      "old_status": "partial",
+      "followup_status": "partial",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    },
+    {
+      "work_id": "G05-W26",
+      "title": "ヲヲーンワ",
+      "old_status": "unverified",
+      "followup_status": "unresolved",
+      "record_path": "followup/sources/group_03-05.json",
+      "report_path": "followup/sources/group_03-05.md"
+    }
+  ],
+  "documents": [
+    {
+      "path": "followup/README.md",
+      "label": "追補の横断案内"
+    },
+    {
+      "path": "followup/classification/v1-boundary-audit.md",
+      "label": "v1境界の追加監査"
+    },
+    {
+      "path": "followup/classification/v3-codebook.md",
+      "label": "全26型の操作条件案（未検証）"
+    },
+    {
+      "path": "followup/evaluation/protocol.md",
+      "label": "独立評価の実施手順案（未実施）"
+    },
+    {
+      "path": "followup/evaluation/analysis-plan.md",
+      "label": "指標・必要N・判定の計画案"
+    },
+    {
+      "path": "followup/evaluation/gm-rubric.md",
+      "label": "型名に依存しないGM評価基準案"
+    },
+    {
+      "path": "followup/evaluation/records.md",
+      "label": "未記入テンプレートの記録・受入条件"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "followup/README.md",
+      "sha256": "4a81b71befa344eb5d9c995cc7a7f27a482a898149e5d705fc9cdd17c32a7f44"
+    },
+    {
+      "path": "followup/classification/v1-boundary-audit.md",
+      "sha256": "57ac9b69c44838c7c087a232a2782ccb01b427666968d1565591f5afd2b5e87a"
+    },
+    {
+      "path": "followup/classification/v3-codebook.json",
+      "sha256": "69cb2de087940d7e406311a4fc93182a2117a916bd41b8a5f0c16bac3fcc8e05"
+    },
+    {
+      "path": "followup/classification/v3-codebook.md",
+      "sha256": "cf7292041e231f4c803d57a77fd34ccb5a6e526c395b1124be8d03e6b2b07b8a"
+    },
+    {
+      "path": "followup/evaluation/README.md",
+      "sha256": "99a7382c98937a9ca54a909b293385a3c3b4bde816ddb2d15a6b58962e911559"
+    },
+    {
+      "path": "followup/evaluation/analysis-plan.md",
+      "sha256": "a9fb99f4dbd7ccc8c5675ddcd625383d01138b2a9ba91a895a074bb2c4372ecf"
+    },
+    {
+      "path": "followup/evaluation/gm-rubric.md",
+      "sha256": "124311bb556849a2bf1d3d4fe21401e39f9af88adcd612c4b4fd12cca0ee195b"
+    },
+    {
+      "path": "followup/evaluation/protocol.md",
+      "sha256": "700e97bfd31f691f55d61e88c3f55eabd3d125261ea661e8015397a544a42453"
+    },
+    {
+      "path": "followup/evaluation/records.md",
+      "sha256": "f8a68d61d3558360ab1972de239abd8c3ada9b1d5d893e64afbb38dfe421b3fa"
+    },
+    {
+      "path": "followup/evaluation/schema.json",
+      "sha256": "be1875c32354bad02f3a9562a27f2a1817aaabaa69f19ccc357730d4822935b3"
+    },
+    {
+      "path": "followup/evaluation/templates/adjudication.json",
+      "sha256": "214fc8ce6661b3633592269d38a8f6593e0c4756ffc92e352c6a77d6c744d59b"
+    },
+    {
+      "path": "followup/evaluation/templates/annotation.json",
+      "sha256": "85bd5b0cf9fd26090c33939a31aeee33e45ac07e02343afe80e030089cf30a6e"
+    },
+    {
+      "path": "followup/evaluation/templates/corpus-candidate.json",
+      "sha256": "6b27953cd99b8241ca63c422af0925093bddc6b1cad57456a3e7ca7bae3fa756"
+    },
+    {
+      "path": "followup/evaluation/templates/decision-report.json",
+      "sha256": "483c7076a5367cc4cbf4f3173ab8b53ed450daf7755ae24a4df6b8db518227bc"
+    },
+    {
+      "path": "followup/evaluation/templates/experience-observation.json",
+      "sha256": "cc758b99a3b4bcdd1040a9034d9654b9f85a01bed9a9a45f7e123760cf5a807f"
+    },
+    {
+      "path": "followup/evaluation/templates/gm-evaluation.json",
+      "sha256": "1763ba8ffcac699159d0ab695cce49a7303d3b27319e8d72234655585bb39533"
+    },
+    {
+      "path": "followup/evaluation/templates/study-plan.json",
+      "sha256": "41e0c4b23f151137d5c52aa3ff2163328cdf33e7e1e0cfd6386ae890dfd0aea1"
+    },
+    {
+      "path": "followup/sources/group_01-02.json",
+      "sha256": "b75ccb64fd6b129dadfe2dec2d546ecc53bc3496219148c2450323b93938f368"
+    },
+    {
+      "path": "followup/sources/group_01-02.md",
+      "sha256": "993125759e55f9a8131e5bbac35c4fe69ba24484d6a88d4c13cc41d4c983e8c4"
+    },
+    {
+      "path": "followup/sources/group_03-05.json",
+      "sha256": "3f999dffe60270481723fad6e46e52995d431ec86337158bd4159b588d1b82cf"
+    },
+    {
+      "path": "followup/sources/group_03-05.md",
+      "sha256": "13dee3f635690b968691499fb9594b30a46d666e77d034e310f5e0940ff7aa69"
+    }
+  ]
+}

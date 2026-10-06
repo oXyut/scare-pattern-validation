@@ -19,7 +19,19 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 
 `#source-出典ID`と`#scene-場面ID`の直リンク・履歴移動では、公開データから所有作品を解決します。未存在IDと不正なpercent encodingは一覧へ戻れるリンクエラーとして表示します。同一作品内では補足欄の開閉状態を保持します。
 
-公開JSONのschemaは`public-research-site-2`です。群02の`target_outcomes`と`transitions`、群03の`problem_tracking`、群05の`outcome_tracking`を作品レベルの独立した欄に収録します。追跡対象の内部IDは除外し、公開済みの場面IDを参照リンクに使います。場面内の成果・閉鎖条件・v1判定を作品全体の記録へ置き換えません。これら3群の149場面行では成果欄の欠測を保持します。本文不足の行や資料同定の工程記録も含むため、149行全てに物語内の成果があるとは扱いません。
+公開JSONのschemaは`public-research-site-3`です。群02の`target_outcomes`と`transitions`、群03の`problem_tracking`、群05の`outcome_tracking`を作品レベルの独立した欄に収録します。追跡対象の内部IDは除外し、公開済みの場面IDを参照リンクに使います。場面内の成果・閉鎖条件・v1判定を作品全体の記録へ置き換えません。これら3群の149場面行では成果欄の欠測を保持します。本文不足の行や資料同定の工程記録も含むため、149行全てに物語内の成果があるとは扱いません。
+
+`research-snapshot.json`は歴史的v1資料の参照を保持し、`followup-snapshot.json`は追補の別commitと入力一覧を固定します。`followup/index.json`の入力ハッシュ・全39項目と照合してから、公開データの`followup`欄へ許可した要約・留保・出典・UTCだけを抽出します。旧本文状態・場面判定・出典欠測は置換しません。追補文書の更新は先にcommitし、そのcommitへ追補snapshotを更新してから再生成します。人間評価・未知test・GM/プレイ研究は未実施です。
+
+追補の検査も公開更新時に実行します。
+
+```sh
+python3 followup/sources/validate_group_01_02.py
+python3 followup/sources/validate_group_03_05.py --check-protected
+python3 followup/classification/validate_codebook.py
+python3 followup/evaluation/validate.py
+python3 -m unittest discover -s followup/evaluation/tests
+```
 
 ブラウザ回帰テストはPlaywrightとChromiumがある環境で実行します。専用の一時ブラウザプロファイルとlocalhostの空きポートを使い、履歴、直リンク、リンクエラー、検索条件、空結果、mobile、keyboardを確認します。
 
