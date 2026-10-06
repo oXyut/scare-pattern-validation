@@ -337,6 +337,10 @@
 
 ## 検証と引き渡し
 
-構造確認：`python3 followup/sources/validate_group_03_05.py`。旧131割当と群提出の確認：`python3 scripts/validate_repository.py --complete`。構造検証は出典内容の正しさや独立評価を証明するものではない。
+構造確認：`python3 followup/sources/validate_group_03_05.py`。URLはHTTP(S)・ホスト名あり・認証情報なし、日時はUTCの完全なタイムスタンプで未来でないことを検査する。旧台帳の日付精度・欠測はその形式を保持する。
+
+保護確認：`python3 followup/sources/validate_group_03_05.py --check-protected`。baseline・assignments・groups・integrationと`site/research-snapshot.json`は現在のbytesを照合する。`docs/*`とsiteの表示ファイルは40桁SHAの`base_commit`から`git show`で旧bytesを取り出して照合し、統合時に正当に更新される現在の表示とは分けて扱う。現公開表示のbuild/testは統合担当のサイト検証で行う。
+
+旧131割当と群提出の確認：`python3 scripts/validate_repository.py --complete`。構造検証は出典内容の正しさや独立評価を証明するものではない。
 
 この追補の対象24件は全件記録済み。次の段階は統合担当による出典・版・未解決理由のレビュー。元台帳・歴史的集計・サイトの置換は別途判断する。
