@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterWorks,matchingScenes,normalise} from '../site/core.mjs';
+import {filterWorks,matchingScenes,resolveRoute} from '../site/core.mjs';
 const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url)));
 test('public edition retains the complete inventory and separates missing evidence',()=>{
   assert.equal(data.works.length,131);
@@ -46,4 +46,35 @@ test('public output excludes execution details and confidential credential forms
   const text=JSON.stringify(data);
   assert.doesNotMatch(text,/\/Users\/|\/home\/|sediment:\/\/|file:\/\/|(?:conversation|thread|library)[_-]id|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}/i);
   for(const s of data.sources){if(s.url){const url=new URL(s.url);assert.ok(['https:','http:'].includes(url.protocol));assert.equal(url.username,'');assert.equal(url.password,'');}}
+});
+test('all source and scene anchors resolve the correct owner independently of earlier navigation',()=>{
+  for(const source of data.sources){
+    const route=resolveRoute(data,'#source-'+source.source_id);
+    assert.equal(route.kind,'work');assert.equal(route.work.work_id,source.work_id);
+    assert.equal(route.anchor,'source-'+source.source_id);
+  }
+  for(const work of data.works){
+    assert.equal(resolveRoute(data,'#work='+work.work_id).work,work);
+    for(const scene of work.scenes){
+      const route=resolveRoute(data,'#scene-'+scene.scene_id);
+      assert.equal(route.work,work);assert.equal(route.anchor,'scene-'+scene.scene_id);
+    }
+  }
+  assert.equal(resolveRoute(data,'#work=G01%2DW01').work.work_id,'G01-W01');
+});
+test('missing and malformed detail links cannot silently resolve to a prior work',()=>{
+  for(const hash of ['#work=UNKNOWN','#work=','#source-UNKNOWN','#scene-UNKNOWN'])assert.equal(resolveRoute(data,hash).kind,'missing');
+  for(const hash of ['#%ZZ','#%E0%A4%A','#source-%'])assert.equal(resolveRoute(data,hash).kind,'invalid');
+  for(const hash of ['','#catalogue','#type-A1'])assert.equal(resolveRoute(data,hash).kind,'report');
+});
+test('new work tracking text is searchable without changing scene filter semantics',()=>{
+  for(const [q,id] of [['事故後の安否は伝聞と推測が残る','G02-W01'],['その場から退避','G03-W01'],['投稿まで再発なし','G05-W01']])assert.ok(filterWorks(data.works,{q}).some(w=>w.work_id===id));
+  for(const group of ['group_02','group_03','group_05']){
+    const works=data.works.filter(w=>w.group_id===group);
+    assert.equal(works.length,26);
+    assert.ok(works.every(w=>w.target_outcomes||w.problem_tracking||w.outcome_tracking));
+    // These groups track outcomes at work/target level. Do not invent scene-level values.
+    assert.ok(works.every(w=>w.scenes.every(s=>s.outcomes==='')));
+  }
+  assert.doesNotMatch(JSON.stringify(data),/"(?:target_id|subject_id|problem_id)"/);
 });

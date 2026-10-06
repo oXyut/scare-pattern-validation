@@ -24,6 +24,45 @@ def text(value):
     return str(value)
 
 
+def public_fields(row, fields):
+    """Copy only named analysis columns; never recursively publish tracking IDs."""
+    result = {}
+    for key in fields:
+        value = row.get(key)
+        assert value is None or isinstance(value, str), f'Unexpected tracking column shape: {key}'
+        result[key] = value or ''
+    return result
+
+
+def public_transitions(rows):
+    result = []
+    for row in rows:
+        transition = public_fields(row, ['from_scene', 'to_scene', 'retained_problem', 'closure_audit'])
+        for key in ['from_type_ids', 'to_type_ids']:
+            if key in row:
+                assert isinstance(row[key], list) and all(isinstance(value, str) for value in row[key])
+                transition[key] = list(row[key])
+        result.append(transition)
+    return result
+
+
+def public_work_tracking(original):
+    tracking = {}
+    if 'target_outcomes' in original:
+        tracking['target_outcomes'] = [public_fields(row, ['target', 'Q', 'D', 'C', 'M'])
+                                       for row in original['target_outcomes']]
+    if 'transitions' in original:
+        tracking['transitions'] = public_transitions(original['transitions'])
+    if 'problem_tracking' in original:
+        tracking['problem_tracking'] = [public_fields(row, ['scene_id', 'target', 'outcome', 'unresolved', 'transition'])
+                                        for row in original['problem_tracking']]
+    if 'outcome_tracking' in original:
+        row = original['outcome_tracking']
+        tracking['outcome_tracking'] = public_fields(row, ['confirmed_or_reported_outcome', 'unresolved_targets'])
+        tracking['outcome_tracking']['transitions'] = public_transitions(row['transitions'])
+    return tracking
+
+
 def build_data():
     summary = json.loads((ROOT / 'integration/data/summary.json').read_text())
     snapshot = json.loads((SOURCE / 'research-snapshot.json').read_text())
@@ -53,6 +92,7 @@ def build_data():
         for original in group['works']:
             fields = ['work_id', 'title', 'body_status', 'episode_scope', 'alias_or_derivative', 'overall_fears', 'unexplained_residue', 'counterexamples', 'change_proposals']
             work = {k: text(original.get(k)) for k in fields}
+            work.update(public_work_tracking(original))
             work['group_id'] = group['group_id']
             work['source_ids'] = original['source_ids']
             work['scenes'] = []
@@ -62,6 +102,8 @@ def build_data():
                 scene.update({k: original_scene[k] for k in ['source_ids', 'type_ids', 'competing_types']})
                 scene['confidence'] = original_scene.get('confidence')
                 scene['outcomes'] = text(original_scene.get('actual_outcome') or original_scene.get('outcomes_and_unresolved_targets'))
+                scene['transitions'] = list(original_scene.get('transitions', []))
+                assert all(isinstance(value, str) for value in scene['transitions'])
                 work['scenes'].append(scene)
             works.append(work)
         with (path.parent.parent / 'sources/ledger.csv').open(newline='') as handle:
@@ -84,7 +126,14 @@ def build_data():
     assert len(source_ids) == len(sources)
     assert all(set(w['source_ids']) <= source_ids for w in works)
     assert all(set(s['source_ids']) <= source_ids for s in scenes)
-    result = {'schema_version': 'public-research-site-1', 'source_revision': snapshot['source_revision'], 'baseline_id': summary['baseline_id'], 'baseline_sha256': summary['baseline_sha256'], 'counts': summary['counts'], 'conclusion': summary['conclusion'], 'groups': groups, 'type_groups': [{'id': key, 'name': name} for key, name in zip('ABCDEF', ['捕捉と侵入', '空間と認識', '他者と関係', '身体と自己', '因果と選択', '人間と世界'])], 'types': types, 'works': works, 'sources': sources}
+    for work in works:
+        own_scenes = {s['scene_id'] for s in work['scenes']}
+        transitions = work.get('transitions', []) + work.get('outcome_tracking', {}).get('transitions', [])
+        assert all(row['from_scene'] in own_scenes and row['to_scene'] in own_scenes for row in transitions)
+        type_ids = {t['id'] for t in types}
+        assert all(set(row.get(key, [])) <= type_ids for row in transitions for key in ['from_type_ids', 'to_type_ids'])
+        assert all(row['scene_id'] in own_scenes for row in work.get('problem_tracking', []))
+    result = {'schema_version': 'public-research-site-2', 'source_revision': snapshot['source_revision'], 'baseline_id': summary['baseline_id'], 'baseline_sha256': summary['baseline_sha256'], 'counts': summary['counts'], 'conclusion': summary['conclusion'], 'groups': groups, 'type_groups': [{'id': key, 'name': name} for key, name in zip('ABCDEF', ['捕捉と侵入', '空間と認識', '他者と関係', '身体と自己', '因果と選択', '人間と世界'])], 'types': types, 'works': works, 'sources': sources}
     serialized = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     # Reject private execution identifiers and paths before writing the public tree.
     assert not re.search(r'/Users/|/home/|/mnt/|sediment://|file://|(?:conversation|thread|library|file)[_-]id|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN .*PRIVATE KEY', serialized, re.I)
