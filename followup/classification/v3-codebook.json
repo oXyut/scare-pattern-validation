@@ -1,0 +1,2997 @@
+{
+  "schema_version": "classification-codebook-draft-1",
+  "codebook_id": "fear-patterns-v3-codebook-proposed-1",
+  "created_date": "2026-10-06",
+  "status": "unvalidated_proposal",
+  "source_repository_commit": "215734dad5315a19d19cbe9159af32eb315fef0b",
+  "evaluation_freeze_complete": false,
+  "independent_test_performed": false,
+  "human_independent_coding_performed": false,
+  "psychological_effect_test_performed": false,
+  "historical_baseline_id": "fear-patterns-v1-26types",
+  "historical_counts": {
+    "assigned_entries": 131,
+    "verified": 92,
+    "partial_body": 14,
+    "unverified": 25,
+    "scene_rows": 258,
+    "body_insufficient_rows": 25,
+    "judged_scene_rows": 233,
+    "scene_fit": 75,
+    "scene_partial_fit": 141,
+    "scene_not_fit": 17,
+    "independent_works_exact_total": null,
+    "new_candidates": 8,
+    "candidates_adopted": 0
+  },
+  "historical_count_scope": "v1場面全体の歴史集計。v3型別陽性や独立標本数ではない。",
+  "source_documents": [
+    {
+      "path": "baseline/v1-26types/report.md",
+      "sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c"
+    },
+    {
+      "path": "baseline/v1-26types/provenance.json",
+      "sha256": "c3e25ba1e63d22ba775d1c43892ee19cdc311064167158867abc6627c538bfea"
+    },
+    {
+      "path": "baseline/v2-proposed/operational-boundaries.md",
+      "sha256": "41798f9b762448758b37c8147a7809f325fe91229a66d73f5f5f0af5899ce270"
+    },
+    {
+      "path": "baseline/v3-proposed/report.md",
+      "sha256": "0009a428b8d6c96c6e347e823b1eed17a9b80d5fad9b27a49bf5752e01a55ba1"
+    },
+    {
+      "path": "baseline/v3-proposed/revision-notes.md",
+      "sha256": "b1bfbee37d6c9c7c91e59f28774b81d60ed6409ef86544653c737ec3b5dbb39b"
+    },
+    {
+      "path": "methods/v3-evaluation-plan.md",
+      "sha256": "0f2a4384aec618a885ddc86323b6560ac9c2ed9d14528f5109c24455191e365b"
+    },
+    {
+      "path": "integration/reports/robustness.md",
+      "sha256": "b962a46877b4b494358d3f091f2c18bba2517c7bb348790fa4ea30667d6ba46f"
+    },
+    {
+      "path": "integration/data/summary.json",
+      "sha256": "ae6ea4708722807cb7f5123b7b6b097644ab7c9ef3ec9a673df298c473599c08"
+    },
+    {
+      "path": "assignments/groups.json",
+      "sha256": "08e7b656f0de3ef702f2575918d1c6cdc8e72ede648104a1e2a60b6355408fc5"
+    },
+    {
+      "path": "site/research-snapshot.json",
+      "sha256": "4f761c3fba8fdb626ed0e4dfafdcc877d23073ca6d6a70d4e3c284f34c1396c6"
+    },
+    {
+      "path": "groups/group_01/data/mappings.json",
+      "sha256": "57e120dae030d5a8a09cb5d0bda719b557bfd02b3e6d78038e02141d078b7248"
+    },
+    {
+      "path": "groups/group_02/data/mappings.json",
+      "sha256": "256d52c6004521ae0694094f90c29b6613d4991d3a0fcf350efbf494fafe2728"
+    },
+    {
+      "path": "groups/group_03/data/mappings.json",
+      "sha256": "928d5b8d2c13376c0ad1526102f8599e3d81d10f90341c49be65aab49b2c72f3"
+    },
+    {
+      "path": "groups/group_04/data/mappings.json",
+      "sha256": "e67621c685e816d41a446ed0563c6a2f12352b3e737307afa2695edbbce09772"
+    },
+    {
+      "path": "groups/group_05/data/mappings.json",
+      "sha256": "a8885c0b7d25bb6159164bdf840b0cba42465f3a647bd6e6109a06c8de79a49a"
+    },
+    {
+      "path": "groups/group_01/sources/ledger.csv",
+      "sha256": "d59b7199f9e29dcc0e369075ffd415174edfc2543f334daf0894f33a97ccdc34"
+    },
+    {
+      "path": "groups/group_02/sources/ledger.csv",
+      "sha256": "f41543773aadf95130de024d56a605b3b20eb62cc9b18e2a0dff14212691eae9"
+    },
+    {
+      "path": "groups/group_03/sources/ledger.csv",
+      "sha256": "b6cbcdc1cdbb0f4f255ea0134276f64f4433b8ba157386ac1f11334fda7e9765"
+    },
+    {
+      "path": "groups/group_04/sources/ledger.csv",
+      "sha256": "c5a6d6fe95bd5125c903d355647d6e70eff0faad87a48bb549814409e3b96d08"
+    },
+    {
+      "path": "groups/group_05/sources/ledger.csv",
+      "sha256": "a26b8a173e338d5974439755e501b67d32742b89d20c3a8b01b602988a06b72a"
+    },
+    {
+      "path": "groups/group_01/reports/report.md",
+      "sha256": "d470e4d12f94d2bf8c7381d0cc86bcbddf1ed50408f517eb92c4dd83ae1066df"
+    },
+    {
+      "path": "groups/group_02/reports/report.md",
+      "sha256": "d744344117ba5e868babd5fdbbf9fad588a32bfa96acfabb4580bd41a25bf8ac"
+    },
+    {
+      "path": "groups/group_03/reports/report.md",
+      "sha256": "4d70a3798b2ef7e62a14b7fb5a2d5293a3589e85c07389a4c935bc0042df247f"
+    },
+    {
+      "path": "groups/group_04/reports/report.md",
+      "sha256": "5aa062e9320897264f4fcf1683695c771186e7b1464f37d62c02d41b6d9fcf90"
+    },
+    {
+      "path": "groups/group_05/reports/report.md",
+      "sha256": "5f524b06a949c66ff00474cee34a46bf1dd1c47ad4491e1eafe8f799075b836d"
+    }
+  ],
+  "condition_states": [
+    "supported",
+    "explicitly_false",
+    "unknown"
+  ],
+  "evidence_layers": [
+    "observation",
+    "hearsay",
+    "belief",
+    "analyst_inference",
+    "in_story_fiction",
+    "reader_address",
+    "correction"
+  ],
+  "common_required": [
+    {
+      "id": "AE.G1",
+      "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+    },
+    {
+      "id": "AE.G2",
+      "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+    },
+    {
+      "id": "F.G1",
+      "text": "当事者の旧前提を特定する。"
+    },
+    {
+      "id": "F.G2",
+      "text": "変更を促す新証拠と証拠層を特定する。"
+    },
+    {
+      "id": "F.G3",
+      "text": "証拠の及ぶ範囲を示し、世界／人間一般への一般化に本文根拠を要求する。"
+    },
+    {
+      "id": "F.G4",
+      "text": "当事者の受容・脅威認識と旧前提からの変更に本文根拠を要求する。"
+    },
+    {
+      "id": "F.G5",
+      "text": "局所説明では足りない理由に根拠を示す。"
+    },
+    {
+      "id": "F.G6",
+      "text": "個体・設備・記憶・夢・語りの誤り等の代替仮説、その根拠と未解決点を記す。仮説の列挙だけで他の必須条件を満たしたとしない。"
+    }
+  ],
+  "decision_rules": [
+    {
+      "code": "no_fit",
+      "label": "明示的不成立／型別陰性",
+      "rule": "共通条件を含む必須条件の一つ以上に明示的否定根拠がある。不明条件も併記する。"
+    },
+    {
+      "code": "defer",
+      "label": "証拠不明／資料不足・判定保留",
+      "rule": "明示的否定がなく、必須条件の一つ以上が根拠不明。候補役割を付けても非陽性。"
+    },
+    {
+      "code": "fit",
+      "label": "適合",
+      "rule": "全必須条件が支持され矛盾がない。現案では補助との一致を要求しない。閉鎖達成は不要。"
+    },
+    {
+      "code": "partial",
+      "label": "部分適合（現案で使用禁止）",
+      "rule": "将来、testを見る前に型別補助対応を固定した版だけで、全必須成立かつ補助的対応の一部不一致に使える。非陽性。現案は全26型で禁止。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "code": "out_of_domain",
+      "rule": "確認範囲にA〜Eの具体的予期損失がなく、Fの対象となる脅威を伴う前提変更もない。型なしの不気味さ等を残す。欠測だけでは使用しない。"
+    },
+    {
+      "code": "unclassified_problem",
+      "rule": "予期損失と問題は支持されるが、既存型では必要な区別が足りない。必須真偽が不明だけの場面を自動移動しない。"
+    },
+    {
+      "code": "closure_or_past_loss_only",
+      "rule": "新しい予期的問題を示さず、前の問題の局所閉鎖や既発損失を記録する。成果と残余を保持する。"
+    },
+    {
+      "code": "defer",
+      "rule": "本文・版・当事者等が不足して定義域判断自体を保留する。"
+    },
+    {
+      "code": "coded",
+      "rule": "型別記録を持つ。Fのみも許しA〜Eと別集計する。残余を同時に保持できる。"
+    }
+  ],
+  "coding_record_template": {
+    "codebook_id": "fear-patterns-v3-codebook-proposed-1",
+    "codebook_commit": null,
+    "codebook_sha256": null,
+    "work_id": null,
+    "series_id": null,
+    "scene_id": null,
+    "edition": null,
+    "episode_scope": null,
+    "body_status": null,
+    "scene_start": null,
+    "scene_end": null,
+    "segmentation_reason": null,
+    "actor_id": null,
+    "timepoint": null,
+    "world_layer": null,
+    "scope": null,
+    "loss_target_id": null,
+    "Q": {
+      "question": null,
+      "proposed_closure": null,
+      "actual_result": null,
+      "evidence_refs": []
+    },
+    "D": {
+      "anticipated_loss": null,
+      "world_state_evidence": null,
+      "actor_belief_evidence": null,
+      "proposed_closure": null,
+      "actual_result": null,
+      "result_scope": null,
+      "evidence_refs": []
+    },
+    "C": {
+      "available_actions": null,
+      "perceived_actions": null,
+      "actual_action": null,
+      "actual_result": null
+    },
+    "M": {
+      "old_premise": null,
+      "new_evidence": null,
+      "accepted_update": null,
+      "actual_result": null
+    },
+    "scene_disposition": null,
+    "residue": null,
+    "missing_evidence": null,
+    "presentation": null,
+    "emotion": {
+      "intended": null,
+      "observed": null,
+      "measurement_status": "未測定"
+    },
+    "problem_state_records": [
+      {
+        "type_id": null,
+        "role": null,
+        "conditions": [
+          {
+            "condition_id": null,
+            "state": null,
+            "evidence_summary": null,
+            "evidence_layer": null,
+            "source_ids": [],
+            "counterevidence": null
+          }
+        ],
+        "decision": null,
+        "competing_types": [],
+        "auxiliary_conditions": null
+      }
+    ],
+    "world_model_records": [
+      {
+        "type_id": null,
+        "old_premise": null,
+        "new_evidence": null,
+        "evidence_scope": null,
+        "actor_acceptance": null,
+        "threat_recognition": null,
+        "why_local_explanation_insufficient": null,
+        "alternative_hypotheses": [
+          {
+            "hypothesis": null,
+            "support": null,
+            "remaining_uncertainty": null
+          }
+        ],
+        "conditions": [
+          {
+            "condition_id": null,
+            "state": null,
+            "evidence_summary": null,
+            "evidence_layer": null,
+            "source_ids": [],
+            "counterevidence": null
+          }
+        ],
+        "decision": null,
+        "competing_explanations": []
+      }
+    ]
+  },
+  "record_status": "記録様式案。nullは空欄であり、実施済み記録ではない。",
+  "auxiliary_policy": "全26型で未確定。修飾項目・閉鎖未達・推奨行動未使用を補助不一致としてpartialにしない。",
+  "historical_audit": {
+    "not_fit_scene_ids": [
+      "G01-W02-SC01",
+      "G01-W07-SC01",
+      "G01-W09-SC04",
+      "G01-W10-SC02",
+      "G01-W14-SC02",
+      "G02-W14-S01",
+      "G02-W17-S02",
+      "G02-W21-S01",
+      "G02-W21-S02",
+      "G03-W06-SC02",
+      "G03-W22-SC01",
+      "G03-W23-SC02",
+      "G04-W18-S01",
+      "G04-W19-S01",
+      "G05-W09-S03",
+      "G05-W15-S02",
+      "G05-W19-S02"
+    ],
+    "d2_label_scene_ids": [
+      "G01-W17-SC01",
+      "G04-W21-S03",
+      "G05-W08-S01"
+    ],
+    "f_label_scene_ids": [
+      "G03-W13-SC02",
+      "G03-W23-SC02"
+    ],
+    "candidates": [
+      {
+        "candidate_id": "G01-N01",
+        "label": "迫る直接加害",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G01-W22-SC01",
+          "G01-W14-SC01",
+          "G01-W21-SC02"
+        ]
+      },
+      {
+        "candidate_id": "G01-N02",
+        "label": "秘密・脆弱さが公に露見する",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G01-W12-SC01"
+        ]
+      },
+      {
+        "candidate_id": "G02-N01",
+        "label": "順番・手続による直接加害の到来",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G02-W11-S01"
+        ]
+      },
+      {
+        "candidate_id": "G02-N02",
+        "label": "社会的正常性の不透明さ",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G02-W21-S01",
+          "G02-W21-S02"
+        ]
+      },
+      {
+        "candidate_id": "G03-N01",
+        "label": "身体外面への付着・切り離せない",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G03-W23-SC01"
+        ]
+      },
+      {
+        "candidate_id": "G03-N02",
+        "label": "現在接近のない加害者への再加害予期",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G03-W06-SC02"
+        ]
+      },
+      {
+        "candidate_id": "G04-N01",
+        "label": "標的情報を知られている",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G04-W22-S01",
+          "G04-W07-S02"
+        ]
+      },
+      {
+        "candidate_id": "G04-N02",
+        "label": "突然の直接加害への対処",
+        "status": "not_adopted",
+        "evidence_scene_ids": [
+          "G04-W13-S01",
+          "G04-W06-S02"
+        ]
+      }
+    ]
+  },
+  "types": [
+    {
+      "id": "A1",
+      "name": "見つかりそう",
+      "layer": "problem_state",
+      "source_section": "3.1／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "A1.R1",
+          "text": "指定追手は、その時点で当事者の所在をまだ確実に把握していない。所在未捕捉を支持する根拠がある。"
+        },
+        {
+          "id": "A1.R2",
+          "text": "当事者は発見後の捕捉・加害を予期し、所在の感知を避けることが問題になっている。"
+        }
+      ],
+      "exclusion_rules": [
+        "所在が既知で個体識別だけを妨げる場合は現定義を拡張しない。",
+        "隠れる動作、公的な秘密の露見だけでは足りない。"
+      ],
+      "descriptive_fields_only": [
+        "感知経路",
+        "所在／個体識別",
+        "捜索／発見時点"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：感知条件の確認。D：今回の捜索をやり過ごし、対象範囲で捕捉の可能性を下げる",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "追手は当人の位置を把握済みで、当人は顔だけを隠す。個体識別を妨げても所在未捕捉ではない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "所在未捕捉の証拠水準。個体識別型への拡張は未採用。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W07",
+          "title": "危険な好奇心",
+          "scene_id": "G04-W07-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
+          "source_ids": [
+            "G04-S009",
+            "G04-S010",
+            "G04-S011"
+          ],
+          "role": "development_candidate",
+          "review_question": "発見前A1と犬の声の後A2を時間で分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A1",
+            "A2",
+            "C4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W06",
+          "title": "禍垂",
+          "scene_id": "G05-W06-S02",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "掲載されたトンネル遭遇、儀礼、専門家の後の説明までの本編。",
+          "source_ids": [
+            "G05-S06-01"
+          ],
+          "role": "contrast",
+          "review_question": "隠すものは所在か個体識別か。v1部分適合をv3へ移さない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A1",
+            "A4",
+            "E1"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "A2",
+      "name": "追われている",
+      "layer": "problem_state",
+      "source_section": "3.1／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "A2.R1",
+          "text": "追手の移動・接近に、指定した当事者を標的とする方向性がある。"
+        },
+        {
+          "id": "A2.R2",
+          "text": "その接近による接触・捕獲・加害が、当事者にとって予期損失である。"
+        }
+      ],
+      "exclusion_rules": [
+        "目撃・通過・瞬間的暴行だけを追跡にしない。",
+        "不可視でも別根拠で標的接近を確認できる。所在未捕捉は必須でない。"
+      ],
+      "descriptive_fields_only": [
+        "距離",
+        "速度",
+        "経路",
+        "接触前後",
+        "終了観測範囲"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：追跡規則の確認。D：追跡を振り切る、接触不能にする。制限時間付きなら明示",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "異形の人が当事者を通過して別の場所へ去る。異様さだけでは標的接近でない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "接触後の直接加害を包含する拡張は未採用。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W02",
+          "title": "あきちん",
+          "scene_id": "G03-W02-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "単篇。ホラスト掲載版の冒頭〜末尾。動画の続編・3rdは含めない。",
+          "source_ids": [
+            "G03-S002"
+          ],
+          "role": "development_candidate",
+          "review_question": "足音の追随と校門後の停止を対象範囲で分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B4",
+            "A2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W16",
+          "title": "ドライブイン",
+          "scene_id": "G05-W16-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "林道への誤進入、ドライブイン、女子学生との退避、警察の照合と消失まで。",
+          "source_ids": [
+            "G05-S16-01"
+          ],
+          "role": "contrast",
+          "review_question": "通過する女と後続場面の車への加害を混ぜない。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W22",
+          "title": "マイナスドライバー",
+          "scene_id": "G01-W22-SC01",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2000-06-15投稿175の浴室・鍵穴の短編全体。後年の同名創作は除外。",
+          "source_ids": [
+            "G01-S016"
+          ],
+          "role": "contrast",
+          "review_question": "一撃から移動追跡を補作しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A3"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "A3",
+      "name": "安全な場所に入ってこられる",
+      "layer": "problem_state",
+      "source_section": "3.1／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "A3.R1",
+          "text": "当事者が生活・避難領域として安全を期待した場所と境界が指定できる。"
+        },
+        {
+          "id": "A3.R2",
+          "text": "脅威がその境界を越えて領域に侵入する根拠がある。"
+        },
+        {
+          "id": "A3.R3",
+          "text": "侵入が領域内の具体的な加害・安全喪失に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "窓外接近・未遂と侵入成立を分ける。",
+        "通信・私物境界への拡張は未採用。"
+      ],
+      "descriptive_fields_only": [
+        "境界位置",
+        "保護への期待",
+        "物理／通信",
+        "成立／未遂"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：侵入経路の特定。D：排除と再侵入防止、またはその場所を離れる",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "窓外に立つが中へ入らず、電話で名前を呼ぶだけ。物理領域の侵入を確定しない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "侵入時点の区切りと、ロッカー等の私物領域の扱い。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W02",
+          "title": "あきちん",
+          "scene_id": "G03-W02-SC01",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "単篇。ホラスト掲載版の冒頭〜末尾。動画の続編・3rdは含めない。",
+          "source_ids": [
+            "G03-S002"
+          ],
+          "role": "development_candidate",
+          "review_question": "校舎への接近と侵入の記述を分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A2",
+            "A3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W22",
+          "title": "迷惑電話(洒落怖)",
+          "scene_id": "G04-W22-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2014/10/15投稿38の電話の短篇全文。",
+          "source_ids": [
+            "G04-S026"
+          ],
+          "role": "contrast",
+          "review_question": "通信境界の破れを物理侵入へ変換しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W24",
+          "title": "夢の中に現れた窓を覗く女",
+          "scene_id": "G04-W24-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2024/12/22投稿636の夢と2025/01/03投稿680の後日談。夢内・覚醒後の友人説明を分離。",
+          "source_ids": [
+            "G04-S028"
+          ],
+          "role": "contrast",
+          "review_question": "夢内の窓外観測を現実の侵入へ移さない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A2",
+            "A3"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "A4",
+      "name": "囲まれ、じわじわ突破される",
+      "layer": "problem_state",
+      "source_section": "3.1／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "A4.R1",
+          "text": "脅威が防御領域の周囲を占め、当事者が境界を維持する局面である。"
+        },
+        {
+          "id": "A4.R2",
+          "text": "境界・備蓄等を保ちきれなくなる圧力、突破・消耗の根拠がある。"
+        },
+        {
+          "id": "A4.R3",
+          "text": "突破や維持資源の枯渇が当事者の具体的損失に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "有限期間でも包囲・維持競争があれば点検対象。待つことだけでは足りない。",
+        "内側の怪異の封じ込めを外からの包囲へ同一化しない。"
+      ],
+      "descriptive_fields_only": [
+        "脅威の内外",
+        "防衛期間",
+        "消耗資源",
+        "援助条件"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：防衛条件の把握。D：包囲を解く、脱出する、救援まで維持する",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "箱の内側の怪異を焼くため蓋を押さえる。境界維持はあっても外からの包囲ではない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "内側封じ込めとの共通性は比較課題。周囲占有を必須から削らない。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G01-W18",
+          "title": "猫の忍者(ネットロア)",
+          "scene_id": "G01-W18-SC02",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+          "source_ids": [
+            "G01-S013",
+            "G01-S023"
+          ],
+          "role": "development_candidate",
+          "review_question": "家の周囲の猫と境界への圧力。シリーズ全体の安全は不明。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W20",
+          "title": "人型焼き",
+          "scene_id": "G03-W20-SC01",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "ミステリー掲載「人型焼き」全本文。",
+          "source_ids": [
+            "G03-S018"
+          ],
+          "role": "contrast",
+          "review_question": "内側封じ込めへのv1類似適用はv3陽性を示さない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A4",
+            "E5"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "B1",
+      "name": "気がついたら知らない場所にいる",
+      "layer": "problem_state",
+      "source_section": "3.2／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "B1.R1",
+          "text": "現在地・来た経緯・帰路や滞在の安全条件を把握できず、状況定位が問題である。"
+        },
+        {
+          "id": "B1.R2",
+          "text": "その不明さが帰還不能・孤立・環境危険等の具体的予期損失に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "未知への関心・驚きだけでは足りない。",
+        "既知の部屋の出口遮断だけはB2。"
+      ],
+      "descriptive_fields_only": [
+        "定位の不明項目",
+        "経路",
+        "記憶状態",
+        "帰還成果"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：当面の状況と帰路・滞在条件の把握。D：環境の危険は別途対処",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "住所も帰路も分かる自室で扉が固定される。定位不明ではなく離脱障害である。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "定位項目のどの不足が問題か、具体的損失との連結を明記する。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G02-W18",
+          "title": "廃道の向こう側",
+          "scene_id": "G02-W18-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "三人の廃道探索〜無事帰宅と入口の再封鎖",
+          "source_ids": [
+            "G02-S024"
+          ],
+          "role": "development_candidate",
+          "review_question": "未知環境と帰還成果を区別する。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W19",
+          "title": "ばりばり",
+          "scene_id": "G01-W19-SC01",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+          "source_ids": [
+            "G01-S014"
+          ],
+          "role": "contrast",
+          "review_question": "施錠された校門と所在不明は別条件。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A2",
+            "B2"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "B2",
+      "name": "閉じ込められている",
+      "layer": "problem_state",
+      "source_section": "3.2／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "B2.R1",
+          "text": "当事者に外へ離脱したい理由があり、滞在が具体的な損失に結び付く。"
+        },
+        {
+          "id": "B2.R2",
+          "text": "物理・制度・怪異の障壁が実際に離脱を阻む根拠がある。"
+        }
+      ],
+      "exclusion_rules": [
+        "普通の待機や怖くて動けない心理だけでは足りない。",
+        "開扉と安全な外部到達を分ける。"
+      ],
+      "descriptive_fields_only": [
+        "障壁種別",
+        "出口知識",
+        "離脱意図",
+        "外部安全"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：脱出方法の特定。D：安全な外部への到達。単に扉が開くこととは区別",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "出口は使え、当事者が調査のため任意に待つ。滞在時間だけでは閉じ込めでない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "制度的離脱不能と選択的滞在の境界。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W06",
+          "title": "蟹風呂",
+          "scene_id": "G04-W06-S02",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
+          "source_ids": [
+            "G04-S008"
+          ],
+          "role": "development_candidate",
+          "review_question": "拘束を離脱障壁として記す。B1や他者の被害と分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A3",
+            "B1",
+            "B2",
+            "C4",
+            "E4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G02-W17",
+          "title": "なにか",
+          "scene_id": "G02-W17-S02",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "祖父のバイク旅行中の遭遇を伝える選定単話",
+          "source_ids": [
+            "G02-S023"
+          ],
+          "role": "contrast",
+          "review_question": "相手が去り当人も離れる局所閉鎖を新たな拘束にしない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "B3",
+      "name": "道や時間が正常につながらない",
+      "layer": "problem_state",
+      "source_section": "3.2／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "B3.R1",
+          "text": "道・部屋の接続、移動結果、時間差または反復の異常を示す根拠がある。"
+        },
+        {
+          "id": "B3.R2",
+          "text": "異常が帰還不能・消耗等の具体的損失の予期に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "普通の迷子・施錠・異界の噂だけでは足りない。",
+        "世界一般の追加根拠なしにF1にしない。"
+      ],
+      "descriptive_fields_only": [
+        "空間／時間",
+        "反復回数",
+        "記録連続性",
+        "範囲"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：使える規則の把握。D：反復・迷路から脱出する、または安全な滞在を確保",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "出口が校則で施錠され、経路は通常どおりつながる。使いにくい扉を接続異常にしない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "記憶混乱や叙述省略という代替説明との識別。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W11",
+          "title": "時空のおっさん",
+          "scene_id": "G04-W11-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "2009/04/25投稿228・230の小学4年生と自転車の話だけ。呼称で集められる他エピソードは未網羅。",
+          "source_ids": [
+            "G04-S016"
+          ],
+          "role": "development_candidate",
+          "review_question": "局所接続と世界一般の規則を分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B3",
+            "B1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W19",
+          "title": "ばりばり",
+          "scene_id": "G01-W19-SC01",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+          "source_ids": [
+            "G01-S014"
+          ],
+          "role": "contrast",
+          "review_question": "施錠変更は正常な接続のままのB2。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A2",
+            "B2"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "B4",
+      "name": "見聞きしたものを信用できない",
+      "layer": "problem_state",
+      "source_section": "3.2／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "B4.R1",
+          "text": "指定命題について知覚・記録・証言の食い違いがある。"
+        },
+        {
+          "id": "B4.R2",
+          "text": "どの根拠を採用するかが安全判断に影響し、誤判断に具体的損失がある。"
+        }
+      ],
+      "exclusion_rules": [
+        "異様な外見、未知一般、正体不明だけでは足りない。",
+        "本人の確信不足と他者の不受容C3を分ける。"
+      ],
+      "descriptive_fields_only": [
+        "対立命題",
+        "照合経路",
+        "判断期限",
+        "独立性"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：対象命題について独立した根拠を確保。D：不確実性を織り込んで行動する",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "二人で同じ飛行物体を見るが観測は食い違わず、安全判断の損失も示されない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "独立根拠の粒度と噂の一致の扱い。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G02-W10",
+          "title": "怖いよアンガールズ",
+          "scene_id": "G02-W10-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "選定単話全編。パロディ等は対象外",
+          "source_ids": [
+            "G02-S018"
+          ],
+          "role": "development_candidate",
+          "review_question": "直接視認と反射像の対立が接触判断を変えるか。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W22",
+          "title": "みっちり乗った軽自動車",
+          "scene_id": "G03-W22-SC01",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "2011/08/11投稿926（パラノーマル掲載の白いワゴンRとは別投稿）。3文の全文を確認。ただし割当名との同定は留保。",
+          "source_ids": [
+            "G03-S019"
+          ],
+          "role": "contrast",
+          "review_question": "人数の食い違いに誤判断損失があるか。題名同定留保は別軸。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [
+            "B4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "C1",
+      "name": "目の前の人が本人ではないかもしれない",
+      "layer": "problem_state",
+      "source_section": "3.3／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "C1.R1",
+          "text": "疑う特定の既知人物と本人性を判断する対象時点が指定できる。"
+        },
+        {
+          "id": "C1.R2",
+          "text": "外見・声・記憶等の模倣や置換を疑わせる根拠がある。"
+        },
+        {
+          "id": "C1.R3",
+          "text": "危険な代替者を本人と扱い接近を許すことに具体的損失を予期する。"
+        }
+      ],
+      "exclusion_rules": [
+        "未知の人型だけでは足りない。",
+        "本人である敵対者はC2。検査成功は安全証明でない。"
+      ],
+      "descriptive_fields_only": [
+        "同定対象",
+        "検査精度",
+        "疑い／観測",
+        "時点"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：特定人物を、特定時点・精度で同定。D：危険な代替者との接触を防ぐ",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "未知の人型を初めて見る。似せるべき本人が指定されていない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "当事者の模倣疑いの根拠と分析者だけの仮説の区別。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G05-W18",
+          "title": "八尺様",
+          "scene_id": "G05-W18-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "初遭遇、一晩の隔離、村外への搬送、10年後の祖母の電話まで。",
+          "source_ids": [
+            "G05-S18-01"
+          ],
+          "role": "development_candidate",
+          "review_question": "祖父の声の模倣疑いと開扉危険。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "C1",
+            "A4",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W02",
+          "title": "あきちん",
+          "scene_id": "G03-W02-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "単篇。ホラスト掲載版の冒頭〜末尾。動画の続編・3rdは含めない。",
+          "source_ids": [
+            "G03-S002"
+          ],
+          "role": "contrast",
+          "review_question": "明確に別声なら先生の模倣成立とは別。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B4",
+            "A2"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "C2",
+      "name": "味方や共同体が自分を害そうとしている",
+      "layer": "problem_state",
+      "source_section": "3.3／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "C2.R1",
+          "text": "味方・共同体として援助や信頼を期待した他者が対象である。"
+        },
+        {
+          "id": "C2.R2",
+          "text": "その本人に帰属する敵対的な利害・計画の根拠がある。"
+        },
+        {
+          "id": "C2.R3",
+          "text": "本人の利害・計画が当事者への裏切り・拘束・供犠等の予期損失につながる。"
+        }
+      ],
+      "exclusion_rules": [
+        "知識不足・驚きだけを敵意にしない。",
+        "別存在に強制された被害者D3と本人の利害を分ける。"
+      ],
+      "descriptive_fields_only": [
+        "期待関係",
+        "目的",
+        "本人性",
+        "強制有無"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：利害・計画の把握。D：計画から逃れる、阻止する",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "救助者の到来後に負担が消える。救助を敵対計画に読み替えない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "放置・負担転嫁を敵対的利害とみなす根拠水準。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W06",
+          "title": "蟹風呂",
+          "scene_id": "G04-W06-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
+          "source_ids": [
+            "G04-S008"
+          ],
+          "role": "development_candidate",
+          "review_question": "共犯として名を出す脅迫と本人の利害。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "C2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W23",
+          "title": "やまけらし様",
+          "scene_id": "G03-W23-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "ミステリーの単篇全本文。",
+          "source_ids": [
+            "G03-S020"
+          ],
+          "role": "historical_negative",
+          "review_question": "救助の説明とC2の逆方向を保持する。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [
+            "C2",
+            "F3"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "C3",
+      "name": "危険を訴えても信じてもらえない",
+      "layer": "problem_state",
+      "source_section": "3.3／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "C3.R1",
+          "text": "当事者は危険の根拠を持ち、他者へそれを訴えている。"
+        },
+        {
+          "id": "C3.R2",
+          "text": "他者がその訴えを受容しない根拠がある。"
+        },
+        {
+          "id": "C3.R3",
+          "text": "不受容が必要な援助の不成立につながり、孤立による具体的損失を予期する。"
+        }
+      ],
+      "exclusion_rules": [
+        "訴えなかったこと、驚き・冗談だけで援助拒否を補作しない。",
+        "協力確保後も失敗状態を固定しない。"
+      ],
+      "descriptive_fields_only": [
+        "訴え手",
+        "受け手",
+        "必要援助",
+        "拒否理由"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "C：必要な協力を確保、または協力なしで対処できる。相手を説得すること自体は必須ではない",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "目撃談をからかわれるが、必要な援助の要請も不成立も示されない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "からかいと実効的援助拒否の区切り。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G01-W23",
+          "title": "ヤドリギ",
+          "scene_id": "G01-W23-SC01",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+          "source_ids": [
+            "G01-S017"
+          ],
+          "role": "development_candidate",
+          "review_question": "知る警告者と信じない語り手の視点を分ける。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E2",
+            "C3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W15",
+          "title": "ツンバイさん",
+          "scene_id": "G05-W15-S02",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "小5の一輪車と写真、小6の別児童の目撃まで。",
+          "source_ids": [
+            "G05-S15-01"
+          ],
+          "role": "historical_negative",
+          "review_question": "からかいを救助拒否へ変換しない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "C4",
+      "name": "大切な人を失いそう・助けられない",
+      "layer": "problem_state",
+      "source_section": "3.3／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "C4.R1",
+          "text": "当事者に重要な自分以外の対象・関係が指定でき、重要性に根拠がある。"
+        },
+        {
+          "id": "C4.R2",
+          "text": "その対象への将来の喪失・進行中の危険または救助課題がある。"
+        },
+        {
+          "id": "C4.R3",
+          "text": "当事者の介入・救助が難しく、他者の喪失を予期する根拠がある。"
+        }
+      ],
+      "exclusion_rules": [
+        "確定した死への悲嘆だけを将来の救助課題にしない。",
+        "関係が薄い人物の被害を自動的に大切な他者にしない。"
+      ],
+      "descriptive_fields_only": [
+        "関係",
+        "救助可能時点",
+        "対象別成果",
+        "自己生存との競合"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：救助条件の把握。D：指定した対象の救出・保護。死亡確認は損失による終結",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "死亡後に家族の死を聞く。既発損失はあるが、その時点の未来救助課題はない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "重要性の証拠が薄い副型候補を陽性にしない。損失対象タグとの比較は未実施。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W12",
+          "title": "シシノケ",
+          "scene_id": "G03-W12-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "「変なものを見てしまった」2010/04/12〜13の本編スレ転載。本文終結と最後の応答まで。別人の未完「その後」は未採用。",
+          "source_ids": [
+            "G03-S011"
+          ],
+          "role": "development_candidate",
+          "review_question": "犬への援助と後の生存報告。治癒完了とは分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A4",
+            "C4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W06",
+          "title": "家族の奇行の真相",
+          "scene_id": "G03-W06-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "ホラストの単篇全文。",
+          "source_ids": [
+            "G03-S005"
+          ],
+          "role": "historical_negative",
+          "review_question": "家族の死の確認と未捕捉加害者への警戒を分ける。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [
+            "C4",
+            "A2"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "D1",
+      "name": "体内に何か入った・感染したかもしれない",
+      "layer": "problem_state",
+      "source_section": "3.4／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "D1.R1",
+          "text": "指定身体の内部への寄生・感染・異物侵入を支持する接触・症状等の根拠がある。"
+        },
+        {
+          "id": "D1.R2",
+          "text": "侵入・感染から発症・損傷・伝播等を予期する当事者と損失が指定できる。"
+        }
+      ],
+      "exclusion_rules": [
+        "外面付着と内部侵入を同一視しない。",
+        "憑依という呼称だけで内部侵入を認定しない。"
+      ],
+      "descriptive_fields_only": [
+        "内外位置",
+        "接触経路",
+        "侵入物",
+        "症状",
+        "検査"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：感染等の有無・性質の確認。D：除去・治療、または進行を抑えた条件付き安定",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "背に重い存在が付着するが体内侵入はなく動作も保たれる。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "感染疑いの証拠水準と憑在の比喩の扱い。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G02-W15",
+          "title": "チガヤ",
+          "scene_id": "G02-W15-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "転載全編。続編・他作品への接続は未調査",
+          "source_ids": [
+            "G02-S022"
+          ],
+          "role": "development_candidate",
+          "review_question": "侵入物の説明と内部病変の根拠を個別点検する。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "E1",
+            "D1",
+            "D5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W23",
+          "title": "やまけらし様",
+          "scene_id": "G03-W23-SC01",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "ミステリーの単篇全本文。",
+          "source_ids": [
+            "G03-S020"
+          ],
+          "role": "contrast",
+          "review_question": "外部付着のv1部分適合をD1必須条件に救済しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "D1",
+            "A2",
+            "E1"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "D2",
+      "name": "自分の身体が別のものになる",
+      "layer": "problem_state",
+      "source_section": "3.4／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "D2.R1",
+          "text": "損失を受ける指定当事者自身の身体が変形・変質して進む根拠がある。"
+        },
+        {
+          "id": "D2.R2",
+          "text": "変質による機能または自己像の喪失・不可逆な変質の予期に根拠がある。"
+        }
+      ],
+      "exclusion_rules": [
+        "怪物の異形と当事者の変質を区別する。",
+        "外傷・欠損だけでは身体が別のものになる条件を満たさない。"
+      ],
+      "descriptive_fields_only": [
+        "変質主体",
+        "進行",
+        "機能／自己像",
+        "可逆性",
+        "伝聞／観測"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "D：停止・回復。M／C：変化を含めた生き方の決着は別に記録",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "女に4本の手があると目撃するが、目撃者自身は変質していない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "D2ラベル3場面は全てv1場面全体で部分適合。当事者の受容や進行に証拠不足が残る。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G01-W17",
+          "title": "トマトの頭をした男",
+          "scene_id": "G01-W17-SC01",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "洒落怖380の2024-12-21投稿626–627「トマト男」のみ。同頁の旧友の霊の別話を除外。",
+          "source_ids": [
+            "G01-S012"
+          ],
+          "role": "development_candidate",
+          "review_question": "摂食は観測、女性の変質は未確認。怪物の擬態から女性の結果を補作しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "D2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W21",
+          "title": "まるはっちん",
+          "scene_id": "G04-W21-S03",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2002/08/03〜04 Part16の本編と作者の構成説明。冒頭の別話「ミンキーモモ」は除外。",
+          "source_ids": [
+            "G04-S025"
+          ],
+          "role": "development_candidate",
+          "review_question": "周囲から見た顔の異変と当人の機能・自己像・意図を分ける。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "C1",
+            "D3",
+            "D2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W08",
+          "title": "朽縄様",
+          "scene_id": "G05-W08-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "祖父の由来話と孫の一晩の防御・翌朝の説明まで。",
+          "source_ids": [
+            "G05-S08-01"
+          ],
+          "role": "development_candidate",
+          "review_question": "蛇への変化は由来話、現代の指は別証拠。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "D5",
+            "D2",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W15",
+          "title": "ツンバイさん",
+          "scene_id": "G05-W15-S02",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "小5の一輪車と写真、小6の別児童の目撃まで。",
+          "source_ids": [
+            "G05-S15-01"
+          ],
+          "role": "historical_negative",
+          "review_question": "怪物側の異形を当事者の身体変質にしない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "D3",
+      "name": "自分の行動を自分で制御できない",
+      "layer": "problem_state",
+      "source_section": "3.4／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "D3.R1",
+          "text": "指定当事者に意図しない発話・動作・加害が起きる根拠がある。"
+        },
+        {
+          "id": "D3.R2",
+          "text": "当事者がその行為を自分の意図で制御できない根拠がある。"
+        },
+        {
+          "id": "D3.R3",
+          "text": "制御喪失が自他への具体的損失の予期に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "欲求・気分の変化だけを運動制御喪失にしない。",
+        "失神・恐怖の硬直や自発的加害と区別する。"
+      ],
+      "descriptive_fields_only": [
+        "意図",
+        "動作",
+        "欲求介入",
+        "制御回復"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：制御条件の把握。D／C：実行能力の回復、または損失を防ぐ制限",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "強い欲求は生じるが本人が動作を止められない根拠がない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "強制欲求を含める拡張は未採用。意図の根拠が弱い場面は保留する。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W03",
+          "title": "渦人形",
+          "scene_id": "G04-W03-S03",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2011年5月投稿転載の学校合宿から人形破壊・後年の回顧まで。",
+          "source_ids": [
+            "G04-S005"
+          ],
+          "role": "development_candidate",
+          "review_question": "意図しない笑い・涙と制御回復。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "D3",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W12",
+          "title": "邪視",
+          "scene_id": "G05-W12-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "叔父との山小屋での遭遇から退避・小屋の処分まで。",
+          "source_ids": [
+            "G05-S12-01"
+          ],
+          "role": "contrast",
+          "review_question": "絶望・衝動と動作支配を分ける。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "D3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W24",
+          "title": "夢魅",
+          "scene_id": "G05-W24-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "廃寺地下の封じられた珠への接触、Kの夢と自傷、祖父・住職の由来説明、新しい箱への封じと移管まで。",
+          "source_ids": [
+            "G05-S24-01"
+          ],
+          "role": "contrast",
+          "review_question": "自傷を不随意動作やD5へ自動変換しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "D3",
+            "C4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "D4",
+      "name": "自分の記憶・人格・存在が自分のものではない",
+      "layer": "problem_state",
+      "source_section": "3.4／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "D4.R1",
+          "text": "指定当事者の記憶・人格・存在の所有や継続を疑わせる複製・埋込・置換等の根拠がある。"
+        },
+        {
+          "id": "D4.R2",
+          "text": "自己の消失・置換や継続の不確かさが、具体的予期損失として当事者に受容される。"
+        }
+      ],
+      "exclusion_rules": [
+        "記憶欠落や過去の再解釈だけで置換を断定しない。",
+        "個体の自己同一性をFの人間一般に昇格させない。"
+      ],
+      "descriptive_fields_only": [
+        "記憶／人格／存在",
+        "所有疑い",
+        "由来",
+        "継続条件"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：由来・仕組みの解明。M：自己理解の再構成。C：今後の態度の決着。消失危険は別途追跡",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "昔の絵を思い出して意味を考える。想起だけでは記憶埋込みを示さない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "記憶差と植込み・存在置換のどちらを支持するか。本人の疑いと設定証拠を分ける。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G01-W15",
+          "title": "地下の丸穴",
+          "scene_id": "G01-W15-SC02",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+          "source_ids": [
+            "G01-S010"
+          ],
+          "role": "development_candidate",
+          "review_question": "名前・関係・記憶の差異と本人の記憶問題という競合。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B1",
+            "D4",
+            "B4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W19",
+          "title": "ヒサルキ",
+          "scene_id": "G05-W19-S02",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "保育園編の投稿本文を全読了。他の失踪・山・動物等の関連エピソードは網羅していない。",
+          "source_ids": [
+            "G05-S19-01"
+          ],
+          "role": "historical_negative",
+          "review_question": "想起・解釈と人格置換を分ける。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "D5",
+      "name": "身体が内側から壊される",
+      "layer": "problem_state",
+      "source_section": "3.4／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "D5.R1",
+          "text": "指定身体の内部の損傷・痛み・機能低下が進行する根拠がある。"
+        },
+        {
+          "id": "D5.R2",
+          "text": "その進行停止を当事者自身では制御できない根拠がある。"
+        },
+        {
+          "id": "D5.R3",
+          "text": "内的損壊から臓器損傷・機能喪失・死を予期する時点が指定できる。"
+        }
+      ],
+      "exclusion_rules": [
+        "外部切傷・処刑・自傷一般を内的損壊にしない。",
+        "臓器が見える描写だけでは足りない。侵入原因D1は必須でない。"
+      ],
+      "descriptive_fields_only": [
+        "損傷位置",
+        "内的進行／外的加害",
+        "停止制御",
+        "残存損傷"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：原因・進行・対処条件の把握。D：損傷の進行停止と生存の確保。既存の損傷回復は別に記録",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "外部道具で順番に処刑される。臓器描写があっても内側から進む損壊へしない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "外部侵入が内部損壊を起こす場合、D1・D5に別々の根拠を要求する。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G02-W15",
+          "title": "チガヤ",
+          "scene_id": "G02-W15-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "転載全編。続編・他作品への接続は未調査",
+          "source_ids": [
+            "G02-S022"
+          ],
+          "role": "development_candidate",
+          "review_question": "内部病変と変身不在を分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "E1",
+            "D1",
+            "D5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W06",
+          "title": "蟹風呂",
+          "scene_id": "G04-W06-S03",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
+          "source_ids": [
+            "G04-S008"
+          ],
+          "role": "development_candidate",
+          "review_question": "友人の内部損傷と主人公の爪・小指の外傷を分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "D1",
+            "D5",
+            "B2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G02-W11",
+          "title": "猿夢",
+          "scene_id": "G02-W11-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "主分析は2000年表記の三投稿。2007年同名版は異本比較のみ。猿夢＋・コメント体験は未網羅",
+          "source_ids": [
+            "G02-S019"
+          ],
+          "role": "contrast",
+          "review_question": "外部処刑道具を内部起動のD5にしない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "B2"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "E1",
+      "name": "ある条件を満たすと災厄が来る",
+      "layer": "problem_state",
+      "source_section": "3.5／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "E1.R1",
+          "text": "接触・禁忌・契約等の条件と起動する危険を区別して記録できる。"
+        },
+        {
+          "id": "E1.R2",
+          "text": "条件が危険を起動する関係を支持する根拠がある。単発の前後関係だけでは足りない。"
+        },
+        {
+          "id": "E1.R3",
+          "text": "起動関係が当事者の具体的損失の予期・回避判断に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "伝聞や単発相関を必要十分条件へ昇格させない。",
+        "起動条件の裏返しを解除条件として補作しない。"
+      ],
+      "descriptive_fields_only": [
+        "起動／標的選択／進行／停止",
+        "作中真実／信念／分析仮説",
+        "必要性",
+        "十分性"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：規則の把握。D：条件の解除、効果の遮断。期限が来ていないだけでは解決しない",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "異変の前に一度名前を聞くが、比較や機序の根拠はない。順序だけを起動規則にしない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "因果支持の最小証拠水準は定量的に未固定。伝聞一件しかない場合の根拠不明を許す。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W04",
+          "title": "エツ子さん",
+          "scene_id": "G03-W04-SC01",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "エツコさん掲載版の全本文。作中に埋め込まれた古い話は作中伝聞。",
+          "source_ids": [
+            "G03-S003"
+          ],
+          "role": "development_candidate",
+          "review_question": "聴取と出現の順序を因果確定へしない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "A3",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W09",
+          "title": "高校のクラス全員で悪霊と戦った話させてくれ",
+          "scene_id": "G05-W09-S03",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "4部の投稿本文、読者への呪いを主張する追記、それを偽投稿とする後続訂正まで。",
+          "source_ids": [
+            "G05-S09-04"
+          ],
+          "role": "historical_negative",
+          "review_question": "訂正後に読者の災厄起動を認定しない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "E2",
+      "name": "危険が他者や別の場所へ広がる",
+      "layer": "problem_state",
+      "source_section": "3.5／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "E2.R1",
+          "text": "元の危険と別の被害対象・場所の危険を対象IDで区別できる。"
+        },
+        {
+          "id": "E2.R2",
+          "text": "感染・媒介・呪い等によって新対象へ及ぶ経路・連結を支持する根拠がある。"
+        },
+        {
+          "id": "E2.R3",
+          "text": "対象の増加・移転が具体的損失として予期される。"
+        }
+      ],
+      "exclusion_rules": [
+        "怪異の移動・同じ対象の再襲来・噂の流布だけを伝播にしない。",
+        "読者宛て演出を現実の被害にしない。"
+      ],
+      "descriptive_fields_only": [
+        "元対象",
+        "新対象",
+        "媒体",
+        "経路",
+        "本編／追記／訂正"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：伝播規則の把握。D：対象範囲で伝播を止め、既存被害にも対処",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "怪物が別室へ移るが被害対象は増えず、話だけが広まる。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "共通原因と伝播を識別する証拠水準。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W04",
+          "title": "エツ子さん",
+          "scene_id": "G03-W04-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "エツコさん掲載版の全本文。作中に埋め込まれた古い話は作中伝聞。",
+          "source_ids": [
+            "G03-S003"
+          ],
+          "role": "development_candidate",
+          "review_question": "聴衆の異変報告は媒介仮説。因果強度と新対象を別記する。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E2",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W09",
+          "title": "高校のクラス全員で悪霊と戦った話させてくれ",
+          "scene_id": "G05-W09-S03",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "4部の投稿本文、読者への呪いを主張する追記、それを偽投稿とする後続訂正まで。",
+          "source_ids": [
+            "G05-S09-04"
+          ],
+          "role": "historical_negative",
+          "review_question": "撤回された読者伝播主張を本編へ移植しない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "E3",
+      "name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+      "layer": "problem_state",
+      "source_section": "3.5／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "E3.R1",
+          "text": "指定脅威に有効な対処と、その有効性を支持する根拠がある。"
+        },
+        {
+          "id": "E3.R2",
+          "text": "有効な対処に、当事者が重視する損失・他者への加害が必要に伴う根拠がある。"
+        },
+        {
+          "id": "E3.R3",
+          "text": "不作為の損失と実行による重要な代償が選択問題になる。"
+        }
+      ],
+      "exclusion_rules": [
+        "任意費用・偶然の死・加害具作成の犠牲を救済代償一般にしない。",
+        "未実行の案や脅威の要求を有効・不可避と確定しない。"
+      ],
+      "descriptive_fields_only": [
+        "有効対処",
+        "必要な代償",
+        "代替策",
+        "知った時点"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：対処と代償の関係を確認。C：選択と結果を確定。無損失の解決とは限らない",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "菓子を渡すと相手が去る。重大な犠牲の必要性がなく安価な代案がある。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "必要関係を比較できない例は保留。過去の犠牲を現在の選択へ混ぜない。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G02-W22",
+          "title": "みっつの選択",
+          "scene_id": "G02-W22-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "白い部屋〜犠牲選択〜遺影、飲み会の枠物語まで",
+          "source_ids": [
+            "G02-S031"
+          ],
+          "role": "development_candidate",
+          "review_question": "条件提示と実行・開扉の確認。規則全体の不可避性は別点検。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B1",
+            "B2",
+            "E3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G02-W17",
+          "title": "なにか",
+          "scene_id": "G02-W17-S02",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "祖父のバイク旅行中の遭遇を伝える選定単話",
+          "source_ids": [
+            "G02-S023"
+          ],
+          "role": "historical_negative",
+          "review_question": "局所閉鎖に重大な代償を補作しない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W07",
+          "title": "危険な好奇心",
+          "scene_id": "G04-W07-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
+          "source_ids": [
+            "G04-S009",
+            "G04-S010",
+            "G04-S011"
+          ],
+          "role": "contrast",
+          "review_question": "犬の死は選ばれた救済の代価ではない。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "A1",
+            "A2",
+            "C4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "E4",
+      "name": "理解しても、実行できる対処がない",
+      "layer": "problem_state",
+      "source_section": "3.5／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "E4.R1",
+          "text": "当事者は原因・対処規則を理解し、何を実行すれば対処できるかが記録できる。"
+        },
+        {
+          "id": "E4.R2",
+          "text": "能力・設備・時間等の不足がその対処の実行を妨げる根拠がある。"
+        },
+        {
+          "id": "E4.R3",
+          "text": "実行不能が具体的損失の予期に結び付く。"
+        }
+      ],
+      "exclusion_rules": [
+        "原因・方法が未知だけでは足りない。",
+        "専門家の動揺だけを資源不足にしない。援助成立前後を分ける。"
+      ],
+      "descriptive_fields_only": [
+        "理解済み規則",
+        "不足資源",
+        "当事者／協力者",
+        "援助前後"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "C：実行可能な対処を確保。D：可能になった行動で損失を回避。不可能が確定しただけでは安全にならない",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "原因も方法も分からず専門家が驚く。既知の対処を実行できない根拠はない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "理解の粒度と、対処能力修飾子との独立した設計価値。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G01-W21",
+          "title": "蛇神憑きの家系",
+          "scene_id": "G01-W21-SC03",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+          "source_ids": [
+            "G01-S015"
+          ],
+          "role": "development_candidate",
+          "review_question": "封印破綻後の再封印能力不足と過去の管理期間を分ける。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "E5",
+            "E4",
+            "D5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G03-W07",
+          "title": "姦姦蛇螺",
+          "scene_id": "G03-W07-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "夜行列車転載3頁、本編・背景説明・報告終結まで。",
+          "source_ids": [
+            "G03-S007",
+            "G03-S008"
+          ],
+          "role": "contrast",
+          "review_question": "初期の対処不能認識と治療引受後を分ける。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "C4",
+            "E4",
+            "D5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W23",
+          "title": "ヤドリギ",
+          "scene_id": "G01-W23-SC02",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+          "source_ids": [
+            "G01-S017"
+          ],
+          "role": "contrast",
+          "review_question": "規則未知を資源不足へ下げて救済しない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E2",
+            "E4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "E5",
+      "name": "危険を抱え、管理し続けなければならない",
+      "layer": "problem_state",
+      "source_section": "3.5／3.7",
+      "common_required_ids": [
+        "AE.G1",
+        "AE.G2"
+      ],
+      "required_conditions": [
+        {
+          "id": "E5.R1",
+          "text": "危険を当面抑制する方法があり、その有効性を支持する根拠がある。"
+        },
+        {
+          "id": "E5.R2",
+          "text": "保管・監視・手入れ・継承等を継続する必要がある。"
+        },
+        {
+          "id": "E5.R3",
+          "text": "管理の放棄・失敗で自他が害される根拠がある。"
+        },
+        {
+          "id": "E5.R4",
+          "text": "管理責任からの離脱・終了が問題となり、終える条件または終われない理由が記録できる。"
+        }
+      ],
+      "exclusion_rules": [
+        "持続・再発警戒・逃避・有限儀礼だけでは足りない。",
+        "危険を増やす給餌を抑制へしない。",
+        "無知な相手への押付けを安全な移管にしない。"
+      ],
+      "descriptive_fields_only": [
+        "抑制機能",
+        "維持頻度",
+        "放棄結果",
+        "退出条件",
+        "引受人の理解・同意・能力"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "D：条件を満たす管理で当面の被害を回避。継続義務は残る。無害化または安全な責任移管により当事者の管理問題を閉じる。移管後も全体の危険は残り得る",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "一晩待って翌朝に祓いが終わる。長期的に終われない管理義務はない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "管理効力の証言依存。退出条件が不明なら必須根拠不明でありpartialではない。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G05-W24",
+          "title": "夢魅",
+          "scene_id": "G05-W24-S03",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "廃寺地下の封じられた珠への接触、Kの夢と自傷、祖父・住職の由来説明、新しい箱への封じと移管まで。",
+          "source_ids": [
+            "G05-S24-01"
+          ],
+          "role": "development_candidate",
+          "review_question": "移管の同意・能力は作中対応からの推定。全体無害化ではない。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "E5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W18",
+          "title": "八尺様",
+          "scene_id": "G05-W18-S01",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "初遭遇、一晩の隔離、村外への搬送、10年後の祖母の電話まで。",
+          "source_ids": [
+            "G05-S18-01"
+          ],
+          "role": "contrast",
+          "review_question": "有限の一夜を長期管理へしない。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "C1",
+            "A4",
+            "E1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W25",
+          "title": "リゾートバイト",
+          "scene_id": "G05-W25-S03",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "転載版の全文：就労、上階の遭遇、逃走、堂の一晩、祓い、住職の由来説明、旅館の後日の連絡まで。",
+          "source_ids": [
+            "G05-S25-01"
+          ],
+          "role": "contrast",
+          "review_question": "給餌による成長と危険抑制を分ける。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "C4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "F1",
+      "name": "世界の基本規則が、自分たちの理解と違う",
+      "layer": "world_model",
+      "source_section": "3.6–3.8",
+      "common_required_ids": [
+        "F.G1",
+        "F.G2",
+        "F.G3",
+        "F.G4",
+        "F.G5",
+        "F.G6"
+      ],
+      "required_conditions": [
+        {
+          "id": "F1.R1",
+          "text": "因果・時空・生死等の基本規則について旧前提を指定できる。"
+        },
+        {
+          "id": "F1.R2",
+          "text": "その前提を覆す複数の信頼できる新証拠がある。"
+        },
+        {
+          "id": "F1.R3",
+          "text": "安全判断の変更は局所迷路・時空異常だけでは説明できず、世界一般の範囲に根拠がある。"
+        }
+      ],
+      "exclusion_rules": [
+        "一件の超常現象、局所B3、分析者だけの一般化は陽性にしない。"
+      ],
+      "descriptive_fields_only": [
+        "覆る規則",
+        "証拠間の独立性",
+        "一般化範囲"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：局所規則の解明。M：説明の再構成。D：今回の被害への対処",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "局所的に帰れず援助で帰還するが、世界一般の基本規則を覆す根拠はない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "強い適合の受領なし。複数観測者の一件目撃と複数証拠を区別する。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G04-W11",
+          "title": "時空のおっさん",
+          "scene_id": "G04-W11-S01",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "2009/04/25投稿228・230の小学4年生と自転車の話だけ。呼称で集められる他エピソードは未網羅。",
+          "source_ids": [
+            "G04-S016"
+          ],
+          "role": "contrast",
+          "review_question": "局所B3を世界規則へ広げない。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B3",
+            "B1"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W15",
+          "title": "地下の丸穴",
+          "scene_id": "G01-W15-SC02",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+          "source_ids": [
+            "G01-S010"
+          ],
+          "role": "contrast",
+          "review_question": "記憶問題という代替説明が残る。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "B1",
+            "D4",
+            "B4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G02-W14",
+          "title": "空を飛ぶ炎に包まれた真っ黒な人型の物体",
+          "scene_id": "G02-W14-S01",
+          "source_path": "groups/group_02/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "目撃投稿と翌日の補足のみ",
+          "source_ids": [
+            "G02-S021"
+          ],
+          "role": "historical_negative",
+          "review_question": "同時目撃一件だけで基本規則を反証しない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "F2",
+      "name": "人間には、理解・制御できない領域がある",
+      "layer": "world_model",
+      "source_section": "3.6–3.8",
+      "common_required_ids": [
+        "F.G1",
+        "F.G2",
+        "F.G3",
+        "F.G4",
+        "F.G5",
+        "F.G6"
+      ],
+      "required_conditions": [
+        {
+          "id": "F2.R1",
+          "text": "工夫・反復検証が本文根拠を持つ。"
+        },
+        {
+          "id": "F2.R2",
+          "text": "検証後の限界は個人の能力・設備・知識不足へ還元できず、人間一般の認識・能力の構造に関わる根拠がある。"
+        },
+        {
+          "id": "F2.R3",
+          "text": "構造的限界の認識が当事者の旧前提を変え、脅威として受容される。"
+        }
+      ],
+      "exclusion_rules": [
+        "有限回の失敗から永久不能を証明しない。",
+        "専門家一人の失敗・E4の資源不足だけでは足りない。"
+      ],
+      "descriptive_fields_only": [
+        "試行",
+        "構造的制約",
+        "資源不足の代替説明",
+        "主張範囲"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "限界が反証されれば前提回復。残るならMの限定とCの態度の決着",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "最初の専門家は失敗するが後の専門家が治療を引き受ける。人間一般の制御不能を示さない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "強い適合の受領なし。陽性でも永久不能の客観的証明ではない。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W07",
+          "title": "姦姦蛇螺",
+          "scene_id": "G03-W07-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "夜行列車転載3頁、本編・背景説明・報告終結まで。",
+          "source_ids": [
+            "G03-S007",
+            "G03-S008"
+          ],
+          "role": "contrast",
+          "review_question": "初期対処不能の訂正と援助成立。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "C4",
+            "E4",
+            "D5"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W03",
+          "title": "渦人形",
+          "scene_id": "G04-W03-S03",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2011年5月投稿転載の学校合宿から人形破壊・後年の回顧まで。",
+          "source_ids": [
+            "G04-S005"
+          ],
+          "role": "contrast",
+          "review_question": "人形処分後の制御回復を含む局所対処。",
+          "historical_scene_fit": "適合",
+          "historical_type_ids": [
+            "D3",
+            "E1"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "F3",
+      "name": "人間の価値や願いが、世界では重視されていない",
+      "layer": "world_model",
+      "source_section": "3.6–3.8",
+      "common_required_ids": [
+        "F.G1",
+        "F.G2",
+        "F.G3",
+        "F.G4",
+        "F.G5",
+        "F.G6"
+      ],
+      "required_conditions": [
+        {
+          "id": "F3.R1",
+          "text": "人間の善意・正義・尊厳や願いが世界で重視されるという旧前提がある。"
+        },
+        {
+          "id": "F3.R2",
+          "text": "それらが脅威の挙動・秩序に関係しないと判明する根拠があり、一人の敵の残酷さだけでは説明が足りない。"
+        },
+        {
+          "id": "F3.R3",
+          "text": "価値の非中心性を当事者が脅威として受け止め、旧前提が変更される。"
+        }
+      ],
+      "exclusion_rules": [
+        "悲劇的結末、残酷な敵一人、超常救済から世界の無関心を推定しない。"
+      ],
+      "descriptive_fields_only": [
+        "旧価値期待",
+        "脅威挙動",
+        "秩序範囲",
+        "当事者／読者"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "M：人間の価値と世界の挙動を分けて再構成。C：守るものを決める",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "少女の到来で当人の負担が消え、救助だと説明される。世界の無関心を認定しない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "F3ラベルの場面はv1不適合。救助や読者の嫌悪を世界一般の根拠にしない。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W23",
+          "title": "やまけらし様",
+          "scene_id": "G03-W23-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "ミステリーの単篇全本文。",
+          "source_ids": [
+            "G03-S020"
+          ],
+          "role": "historical_negative",
+          "review_question": "v1不適合のF3ラベルを支持数にしない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [
+            "C2",
+            "F3"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G01-W14",
+          "title": "切腹ショー",
+          "scene_id": "G01-W14-SC02",
+          "source_path": "groups/group_01/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+          "source_ids": [
+            "G01-S024",
+            "G01-S025",
+            "G01-S026",
+            "G01-S027"
+          ],
+          "role": "historical_negative",
+          "review_question": "観察者の冷淡さや読者効果を世界の秩序へ広げない。",
+          "historical_scene_fit": "不適合",
+          "historical_type_ids": [],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    },
+    {
+      "id": "F4",
+      "name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+      "layer": "world_model",
+      "source_section": "3.6–3.8",
+      "common_required_ids": [
+        "F.G1",
+        "F.G2",
+        "F.G3",
+        "F.G4",
+        "F.G5",
+        "F.G6"
+      ],
+      "required_conditions": [
+        {
+          "id": "F4.R1",
+          "text": "人間の保護・日常・安全・歴史・存在の成立が他存在の用途に依存する仕組みの根拠がある。"
+        },
+        {
+          "id": "F4.R2",
+          "text": "人間を素材・設備・資源として維持・利用する用途と依存関係を指定できる。"
+        },
+        {
+          "id": "F4.R3",
+          "text": "個体宿主利用や個別陰謀を超える人間の成立条件の前提変更があり、当事者が脅威として受容する。"
+        }
+      ],
+      "exclusion_rules": [
+        "個体の宿主利用、単一家の繁栄装置、敵の規模だけでは足りない。",
+        "利用F4と価値への無関心F3を分ける。"
+      ],
+      "descriptive_fields_only": [
+        "用途",
+        "依存関係",
+        "成立条件",
+        "代替可能性",
+        "範囲"
+      ],
+      "auxiliary_conditions": null,
+      "auxiliary_status": "unfixed",
+      "partial_allowed": false,
+      "auxiliary_reason": "原提案に必須条件から独立した補助的対応の型別指定がない。修飾記録を適合の追加要件にする根拠も未確定。",
+      "closure_proposal_from_v3": "Q：依存関係の理解。D：今回の被害対処。M：立場の再構成。C：依存への態度の決着",
+      "closure_requirement": "設計可能な閉鎖案。本文での達成、安全な結末、推奨行動の実行を適合条件にしない。",
+      "minimal_negative_case": {
+        "kind": "synthetic_boundary_example",
+        "description": "一人の身体を住処にする存在がその個体を守る。人間一般の成立依存を示さない。",
+        "empirical_status": "架空の最小対。実在資料への陰性符号化結果ではない。"
+      },
+      "unresolved": [
+        "巣くうもののv1部分適合は個体利用。一般化の強い支持は受領なし。"
+      ],
+      "development_examples": [
+        {
+          "work_id": "G03-W13",
+          "title": "巣くうもの",
+          "scene_id": "G03-W13-SC02",
+          "source_path": "groups/group_03/data/mappings.json",
+          "body_status": "partial",
+          "episode_scope": "シリーズ第1話「巣くうもの」1〜3頁、本編＋後書き。呪いの部屋等の後続7話は未読。",
+          "source_ids": [
+            "G03-S013",
+            "G03-S014"
+          ],
+          "role": "development_candidate",
+          "review_question": "個体利用・本人の恐怖不成立可能性・シリーズ範囲を保持する。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "D1",
+            "F4"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G04-W26",
+          "title": "ワラズマ",
+          "scene_id": "G04-W26-S03",
+          "source_path": "groups/group_04/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "幼少期の禁じた部屋、大学時代のAとの遭遇、家族・兄の説明、後年の目撃まで。",
+          "source_ids": [
+            "G04-S036"
+          ],
+          "role": "contrast",
+          "review_question": "単一家の繁栄装置を人間一般へ広げない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E5",
+            "E1",
+            "E2",
+            "E3",
+            "C2"
+          ],
+          "v3_decision": null
+        },
+        {
+          "work_id": "G05-W25",
+          "title": "リゾートバイト",
+          "scene_id": "G05-W25-S03",
+          "source_path": "groups/group_05/data/mappings.json",
+          "body_status": "verified",
+          "episode_scope": "転載版の全文：就労、上階の遭遇、逃走、堂の一晩、祓い、住職の由来説明、旅館の後日の連絡まで。",
+          "source_ids": [
+            "G05-S25-01"
+          ],
+          "role": "contrast",
+          "review_question": "亡児を戻す儀礼と別存在の成長を成立依存へしない。",
+          "historical_scene_fit": "部分適合",
+          "historical_type_ids": [
+            "E1",
+            "C4"
+          ],
+          "v3_decision": null
+        }
+      ],
+      "v3_positive_count": null
+    }
+  ],
+  "recording_contract": {
+    "problem_state_ids": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "world_model_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "scope_values": [
+      "local",
+      "within_work",
+      "world_or_human_general"
+    ],
+    "scope_note": "within_workは世界一般を意味しない。一般化にはF共通条件の追加証拠が必要。",
+    "role_values": [
+      "main",
+      "secondary",
+      "candidate"
+    ],
+    "role_note": "主型・副型にも同じ必須条件。候補ラベルだけでは陽性にならない。",
+    "outcome_categories": [
+      "explanation",
+      "observation_ended",
+      "temporary_avoidance",
+      "conditional_suppression",
+      "responsibility_transfer",
+      "neutralization",
+      "loss_termination",
+      "unknown"
+    ],
+    "outcome_note": "成果はQ/Dの対象・時点・精度・世界層・範囲と本文根拠を伴わせる。型別適合を成果へ、成果を適合へ変換しない。"
+  }
+}
