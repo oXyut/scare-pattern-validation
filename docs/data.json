@@ -1,5 +1,5 @@
 {
-  "schema_version": "public-research-site-1",
+  "schema_version": "public-research-site-2",
   "source_revision": "148359afaa05072f95c3b57b374897f381ad093a",
   "baseline_id": "fear-patterns-v1-26types",
   "baseline_sha256": "5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c",
@@ -367,7 +367,10 @@
             "A3"
           ],
           "confidence": "高",
-          "outcomes": "A2の捕捉回避は失敗。後に生存・避難は達成。"
+          "outcomes": "A2の捕捉回避は失敗。後に生存・避難は達成。",
+          "transitions": [
+            "A1候補→A2。正体Qが具体化してもD継続。"
+          ]
         },
         {
           "scene_id": "G01-W01-SC02",
@@ -395,7 +398,8 @@
             "E5"
           ],
           "confidence": "中",
-          "outcomes": "本人の生還成果と犬の喪失を別対象で固定。"
+          "outcomes": "本人の生還成果と犬の喪失を別対象で固定。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W01-SC03",
@@ -425,7 +429,8 @@
             "F4"
           ],
           "confidence": "中",
-          "outcomes": "原因Qの一部更新。人間側の責任と記憶の由来は残る。"
+          "outcomes": "原因Qの一部更新。人間側の責任と記憶の由来は残る。",
+          "transitions": []
         }
       ]
     },
@@ -468,7 +473,8 @@
             "F4"
           ],
           "confidence": "高",
-          "outcomes": "説明による安心方向の更新。保護の由来と対象範囲は未解決。"
+          "outcomes": "説明による安心方向の更新。保護の由来と対象範囲は未解決。",
+          "transitions": []
         }
       ]
     },
@@ -512,7 +518,8 @@
             "B2"
           ],
           "confidence": "中",
-          "outcomes": "少女の事故生存を成果として固定。新たな病院の問題へ持ち越さない。"
+          "outcomes": "少女の事故生存を成果として固定。新たな病院の問題へ持ち越さない。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W03-SC02",
@@ -540,7 +547,10 @@
             "C4"
           ],
           "confidence": "中",
-          "outcomes": "Qの一部推定とDの失敗を別記。"
+          "outcomes": "Qの一部推定とDの失敗を別記。",
+          "transitions": [
+            "回想の事故D閉鎖→病室D新規。事故を生き延びた成果は無効化しない。"
+          ]
         }
       ]
     },
@@ -585,7 +595,8 @@
             "D3"
           ],
           "confidence": "中",
-          "outcomes": "目的理解が行為の責任免除にはならない。"
+          "outcomes": "目的理解が行為の責任免除にはならない。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W04-SC02",
@@ -614,7 +625,10 @@
             "D4"
           ],
           "confidence": "中",
-          "outcomes": "本人の観測改善。Aは損失終結、全体の根絶なし。"
+          "outcomes": "本人の観測改善。Aは損失終結、全体の根絶なし。",
+          "transitions": [
+            "本人Dの局所抑制→AのD新規。E1→E2候補。"
+          ]
         },
         {
           "scene_id": "G01-W04-SC03",
@@ -643,7 +657,8 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "距離を取ることの局所成果。恐怖反応の持続は危険の存続証明ではない。"
+          "outcomes": "距離を取ることの局所成果。恐怖反応の持続は危険の存続証明ではない。",
+          "transitions": []
         }
       ]
     },
@@ -684,7 +699,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -719,7 +735,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -762,7 +779,8 @@
             "F2"
           ],
           "confidence": "高",
-          "outcomes": "共通像の確認のみ達成。"
+          "outcomes": "共通像の確認のみ達成。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W07-SC02",
@@ -788,7 +806,8 @@
             "E1"
           ],
           "confidence": "低",
-          "outcomes": "外側の語り手の危険を開いたとはしない。"
+          "outcomes": "外側の語り手の危険を開いたとはしない。",
+          "transitions": []
         }
       ]
     },
@@ -833,7 +852,8 @@
             "C2"
           ],
           "confidence": "中",
-          "outcomes": "援助を得る以前に本人が退店。説得成功そのものを閉鎖条件にしない。"
+          "outcomes": "援助を得る以前に本人が退店。説得成功そのものを閉鎖条件にしない。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W08-SC02",
@@ -861,7 +881,8 @@
             "A2"
           ],
           "confidence": "中",
-          "outcomes": "祓いの実行と危険根絶の証拠を分離。"
+          "outcomes": "祓いの実行と危険根絶の証拠を分離。",
+          "transitions": []
         }
       ]
     },
@@ -910,7 +931,10 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "兄の損失と弟の再曝露を別対象で追跡。"
+          "outcomes": "兄の損失と弟の再曝露を別対象で追跡。",
+          "transitions": [
+            "未知Q→兄の被害認識→弟の曝露回避→再曝露。"
+          ]
         },
         {
           "scene_id": "G01-W09-SC02",
@@ -938,7 +962,8 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "目前の救援と以後の不明状態を分ける。"
+          "outcomes": "目前の救援と以後の不明状態を分ける。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W09-SC03",
@@ -965,7 +990,8 @@
             "E1"
           ],
           "confidence": "中",
-          "outcomes": "観測者の距離確保だけ。"
+          "outcomes": "観測者の距離確保だけ。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W09-SC04",
@@ -990,7 +1016,8 @@
             "F1"
           ],
           "confidence": "高",
-          "outcomes": "集合名を独立作品の増加数に使わない。"
+          "outcomes": "集合名を独立作品の増加数に使わない。",
+          "transitions": []
         }
       ]
     },
@@ -1036,7 +1063,8 @@
             "F3"
           ],
           "confidence": "中",
-          "outcomes": "犯人の判明が犠牲者を回復させない。"
+          "outcomes": "犯人の判明が犠牲者を回復させない。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W10-SC02",
@@ -1061,7 +1089,8 @@
             "F1"
           ],
           "confidence": "高",
-          "outcomes": "意味の問いの部分解明、危険除去とは無関係。"
+          "outcomes": "意味の問いの部分解明、危険除去とは無関係。",
+          "transitions": []
         }
       ]
     },
@@ -1100,7 +1129,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -1146,7 +1176,8 @@
             "E4"
           ],
           "confidence": "中",
-          "outcomes": "身体的切迫の決着と社会的損失を別IDで保持。"
+          "outcomes": "身体的切迫の決着と社会的損失を別IDで保持。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W12-SC02",
@@ -1172,7 +1203,8 @@
             "D1"
           ],
           "confidence": "中",
-          "outcomes": "非ホラーでも問題状態を符号化できる境界例。"
+          "outcomes": "非ホラーでも問題状態を符号化できる境界例。",
+          "transitions": []
         }
       ]
     },
@@ -1207,7 +1239,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -1259,7 +1292,8 @@
             "E3"
           ],
           "confidence": "中",
-          "outcomes": "演者の死亡は損失による終結。"
+          "outcomes": "演者の死亡は損失による終結。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W14-SC02",
@@ -1287,7 +1321,8 @@
             "C4"
           ],
           "confidence": "高",
-          "outcomes": "読者効果は未測定。"
+          "outcomes": "読者効果は未測定。",
+          "transitions": []
         }
       ]
     },
@@ -1332,7 +1367,10 @@
             "C2"
           ],
           "confidence": "中",
-          "outcomes": "元の捜索から離脱した範囲を固定。"
+          "outcomes": "元の捜索から離脱した範囲を固定。",
+          "transitions": [
+            "A1/B2→B1/D4。離脱先の問題は別対象。"
+          ]
         },
         {
           "scene_id": "G01-W15-SC02",
@@ -1362,7 +1400,8 @@
             "F1"
           ],
           "confidence": "中",
-          "outcomes": "現生活の学習・結婚予定は成果。元世界帰還は別未解決。"
+          "outcomes": "現生活の学習・結婚予定は成果。元世界帰還は別未解決。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W15-SC03",
@@ -1390,7 +1429,8 @@
             "E4"
           ],
           "confidence": "低",
-          "outcomes": "現生活の成果を取り消さず、新たな接触問題を開く。"
+          "outcomes": "現生活の成果を取り消さず、新たな接触問題を開く。",
+          "transitions": []
         }
       ]
     },
@@ -1435,7 +1475,10 @@
             "B2"
           ],
           "confidence": "中",
-          "outcomes": "各回の接触回避は局所成功、反復の原因未解明。"
+          "outcomes": "各回の接触回避は局所成功、反復の原因未解明。",
+          "transitions": [
+            "A2→境界維持→次のA2。"
+          ]
         },
         {
           "scene_id": "G01-W16-SC02",
@@ -1463,7 +1506,8 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "規則Qは閉じたと思った後に再開。"
+          "outcomes": "規則Qは閉じたと思った後に再開。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W16-SC03",
@@ -1490,7 +1534,8 @@
             "F1"
           ],
           "confidence": "中",
-          "outcomes": "一体の停止は成功として保持、新しい対象IDへ。"
+          "outcomes": "一体の停止は成功として保持、新しい対象IDへ。",
+          "transitions": []
         }
       ]
     },
@@ -1536,7 +1581,8 @@
             "C1"
           ],
           "confidence": "中",
-          "outcomes": "認識更新は達成、他者の安全の確認は未達。"
+          "outcomes": "認識更新は達成、他者の安全の確認は未達。",
+          "transitions": []
         }
       ]
     },
@@ -1582,7 +1628,10 @@
             "E1"
           ],
           "confidence": "高",
-          "outcomes": "公園からの回避達成。"
+          "outcomes": "公園からの回避達成。",
+          "transitions": [
+            "A1→A2。発見回避失敗だが接触回避は成功。"
+          ]
         },
         {
           "scene_id": "G01-W18-SC02",
@@ -1610,7 +1659,8 @@
             "E5"
           ],
           "confidence": "高",
-          "outcomes": "転載範囲の一時的境界維持のみ。"
+          "outcomes": "転載範囲の一時的境界維持のみ。",
+          "transitions": []
         }
       ]
     },
@@ -1655,7 +1705,8 @@
             "B3"
           ],
           "confidence": "中",
-          "outcomes": "今回の逃走成功を保持。"
+          "outcomes": "今回の逃走成功を保持。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W19-SC02",
@@ -1684,7 +1735,8 @@
             "D4"
           ],
           "confidence": "中",
-          "outcomes": "現在のD回避と将来のD予期を別対象にする。"
+          "outcomes": "現在のD回避と将来のD予期を別対象にする。",
+          "transitions": []
         }
       ]
     },
@@ -1719,7 +1771,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -1764,7 +1817,8 @@
             "G01-N01"
           ],
           "confidence": "中",
-          "outcomes": "視力回復という成果を固定。"
+          "outcomes": "視力回復という成果を固定。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W21-SC02",
@@ -1792,7 +1846,8 @@
             "D4"
           ],
           "confidence": "中",
-          "outcomes": "祓いの終了と罪責・後悔の持続を別に記録。"
+          "outcomes": "祓いの終了と罪責・後悔の持続を別に記録。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W21-SC03",
@@ -1821,7 +1876,10 @@
             "E2"
           ],
           "confidence": "中",
-          "outcomes": "当面抑制の成果は過去にあるが終止条件は未達。"
+          "outcomes": "当面抑制の成果は過去にあるが終止条件は未達。",
+          "transitions": [
+            "E5の管理破綻→E4→妹のE3。"
+          ]
         },
         {
           "scene_id": "G01-W21-SC04",
@@ -1849,7 +1907,8 @@
             "F3"
           ],
           "confidence": "中",
-          "outcomes": "管理危険の抑制と妹の死は異なる成果・損失。兄の継承は家の役目、同じ悪霊の管理とは未証明。"
+          "outcomes": "管理危険の抑制と妹の死は異なる成果・損失。兄の継承は家の役目、同じ悪霊の管理とは未証明。",
+          "transitions": []
         }
       ]
     },
@@ -1896,7 +1955,8 @@
             "D5"
           ],
           "confidence": "高",
-          "outcomes": "当該一撃は回避成功。主体Qと将来安全Dは未解決。"
+          "outcomes": "当該一撃は回避成功。主体Qと将来安全Dは未解決。",
+          "transitions": []
         }
       ]
     },
@@ -1941,7 +2001,8 @@
             "C2"
           ],
           "confidence": "中",
-          "outcomes": "警告の一部理解。援助へのアクセスは開くが安全未達。"
+          "outcomes": "警告の一部理解。援助へのアクセスは開くが安全未達。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W23-SC02",
@@ -1970,7 +2031,8 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "原因説明を得ても救命・除去は成功していない。"
+          "outcomes": "原因説明を得ても救命・除去は成功していない。",
+          "transitions": []
         }
       ]
     },
@@ -2016,7 +2078,8 @@
             "E2"
           ],
           "confidence": "中",
-          "outcomes": "発声中断は達成。話の警告が有効かは別未解決。"
+          "outcomes": "発声中断は達成。話の警告が有効かは別未解決。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W24-SC02",
@@ -2044,7 +2107,8 @@
             "F2"
           ],
           "confidence": "中",
-          "outcomes": "一つの命題の照合成功が全体の危険判断を閉じない。"
+          "outcomes": "一つの命題の照合成功が全体の危険判断を閉じない。",
+          "transitions": []
         }
       ]
     },
@@ -2090,7 +2154,8 @@
             "A3"
           ],
           "confidence": "高",
-          "outcomes": "孫の生存と家への到達は成果。"
+          "outcomes": "孫の生存と家への到達は成果。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W25-SC02",
@@ -2117,7 +2182,8 @@
             "F3"
           ],
           "confidence": "中",
-          "outcomes": "救助成果と事後の悲嘆を分離。"
+          "outcomes": "救助成果と事後の悲嘆を分離。",
+          "transitions": []
         }
       ]
     },
@@ -2163,7 +2229,8 @@
             "E2"
           ],
           "confidence": "中",
-          "outcomes": "祓いの実行と寿命危険の除去を分離。"
+          "outcomes": "祓いの実行と寿命危険の除去を分離。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W26-SC02",
@@ -2190,7 +2257,8 @@
             "C2"
           ],
           "confidence": "中",
-          "outcomes": "現場からの除去は局所成果、所在不明で全体問題残る。"
+          "outcomes": "現場からの除去は局所成果、所在不明で全体問題残る。",
+          "transitions": []
         },
         {
           "scene_id": "G01-W26-SC03",
@@ -2219,7 +2287,8 @@
             "F4"
           ],
           "confidence": "中",
-          "outcomes": "国家規模の主張を局所被害の根拠で確定しない。"
+          "outcomes": "国家規模の主張を局所被害の根拠で確定しない。",
+          "transitions": []
         }
       ]
     },
@@ -2254,7 +2323,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": "判定不能",
-          "outcomes": "研究工程は終了、本文不足として固定。"
+          "outcomes": "研究工程は終了、本文不足として固定。",
+          "transitions": []
         }
       ]
     },
@@ -2268,6 +2338,30 @@
       "unexplained_residue": "多人数が怪異像を形成する過程、後付け因果と読者への語りかけは型の問題状態だけでは表せない",
       "counterexamples": "似た赤い女の報告を束ねることは、一体の脅威の存在や伝播規則の証明にならない",
       "change_proposals": "A1は当事者の予期と怪異の実際の捕捉状態を分ける\n情報伝播と危険伝播を別列で記録する",
+      "target_outcomes": [
+        {
+          "target": "最初の投稿者",
+          "Q": "由来・規則未解明",
+          "D": "事故後の安否は伝聞と推測が残る",
+          "C": "入院は報告されるが解除行動は不明",
+          "M": "安全前提の回復は確認できない"
+        },
+        {
+          "target": "友人宅へ退避した投稿者",
+          "Q": "対処の普遍性不明",
+          "D": "局所退避は成立、後の音信不通は原因未確定",
+          "C": "避難を実行",
+          "M": "家の安全を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W01-S01",
+          "to_scene": "G02-W01-S02",
+          "retained_problem": "最初の遭遇をやり過ごしたことと後日の危険を別事件として保持",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S001",
@@ -2301,7 +2395,8 @@
             "B4"
           ],
           "confidence": 0.7,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W01-S02",
@@ -2332,7 +2427,8 @@
             "D5"
           ],
           "confidence": 0.74,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2346,6 +2442,16 @@
       "unexplained_residue": "過去の暴力と遺体造形の嫌悪が中心で、当事者の未来損失が明確でない箇所が多い",
       "counterexamples": "由来の説明が得られても、事故と呪物の因果は検証されない",
       "change_proposals": "E1に発動規則の証拠強度を必須付記。呪物一般をE5としない",
+      "target_outcomes": [
+        {
+          "target": "祖父／処分船",
+          "Q": "由来は伝聞に限る",
+          "D": "祖父は乗船していない。沈没原因・遠方作用は未検証",
+          "C": "処分の実行だけ確認",
+          "M": "完全な無害化を信頼できない"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S005"
@@ -2377,7 +2483,8 @@
             "F2"
           ],
           "confidence": 0.65,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2391,6 +2498,16 @@
       "unexplained_residue": "本文不足のため残余も判断不能",
       "counterexamples": "タイトルからの型推定を行わない",
       "change_proposals": "本文・原典の追加提供または作品別URLの同定後に再検証",
+      "target_outcomes": [
+        {
+          "target": "意図された作品",
+          "Q": "未検証",
+          "D": "未検証",
+          "C": "未検証",
+          "M": "未検証"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S006"
@@ -2416,7 +2533,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2430,6 +2548,16 @@
       "unexplained_residue": "手順そのものが物語の主対象。危害の帰結は説明版によって欠落する",
       "counterexamples": "禁止項目があるだけで、違反後の災厄が具体化したとは言えない",
       "change_proposals": "儀式説明／実行体験／後世の創作を別の資料層にする",
+      "target_outcomes": [
+        {
+          "target": "儀式伝承の想定参加者",
+          "Q": "帰還Q未確認",
+          "D": "実被害・脱出とも未検証",
+          "C": "手順の提示と実行済み成果を区別",
+          "M": "局所空間の前提だけ更新候補"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S012",
@@ -2464,7 +2592,8 @@
             "F1"
           ],
           "confidence": 0.45,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2478,6 +2607,30 @@
       "unexplained_residue": "客への応対の形式と脅迫のずれ、罪を負う予期は26型の同一ラベルでは区別できない",
       "counterexamples": "犠牲を求められても、差し出すことが有効な救命条件と確定してはいない",
       "change_proposals": "E3は脅威側の要求・当事者の信念・実証された代償を分ける",
+      "target_outcomes": [
+        {
+          "target": "店員",
+          "Q": "モデルの意味Qは不完全",
+          "D": "店員本人の被害未確認、永久解除は不明",
+          "C": "拒否と返却が行われる",
+          "M": "接客・記録の安全を限定"
+        },
+        {
+          "target": "少年客三人",
+          "Q": "媒介因果は未確定",
+          "D": "一人の死が報告され、残る二人の結果は保留",
+          "C": "本人の選択はほぼ描かれない",
+          "M": "第三者についてのMは観察できない"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W05-S01",
+          "to_scene": "G02-W05-S02",
+          "retained_problem": "拒否の完了を他者保護の成功にしない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S014"
@@ -2510,7 +2663,8 @@
             "A3"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W05-S02",
@@ -2538,7 +2692,8 @@
             "C4"
           ],
           "confidence": 0.72,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2552,6 +2707,30 @@
       "unexplained_residue": "孤独な子の依存と罪悪感、流産後の悲嘆は型だけでは表せない",
       "counterexamples": "誘いを断ってその場に留まる成功は、家族の安全の証明ではない",
       "change_proposals": "E2で同一標的の再襲来と別対象への転向を分ける",
+      "target_outcomes": [
+        {
+          "target": "語り手",
+          "Q": "正体・約束規則未解明",
+          "D": "越境拒否の局所回避は成立。再接触の危険は不明",
+          "C": "誘いを拒否",
+          "M": "友人／家庭の安全を限定"
+        },
+        {
+          "target": "胎児・将来の子",
+          "Q": "原因未確定",
+          "D": "当該胎児の喪失は報告、将来の危険は未解決",
+          "C": "救助条件未発見",
+          "M": "損失後の家族理解が残る"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W06-S01",
+          "to_scene": "G02-W06-S02",
+          "retained_problem": "語り手の局所拒否成功を固定し、別対象のDを開く",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S015"
@@ -2584,7 +2763,8 @@
             "D4"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W06-S02",
@@ -2612,7 +2792,8 @@
             "E3"
           ],
           "confidence": 0.7,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2626,6 +2807,23 @@
       "unexplained_residue": "反復音と長期の期待形成、被害が断言されない終幕",
       "counterexamples": "母の声がすることは母本人の安全や代替者の存在のいずれも証明しない",
       "change_proposals": "C1の疑い／実証を分離。A1は感知条件を既知にしない",
+      "target_outcomes": [
+        {
+          "target": "語り手と家族",
+          "Q": "家族の状態・電話相手未確定",
+          "D": "語り手の局所退避のみ。家族の安否は終幕で未確認",
+          "C": "照合を試すが十分な根拠を得ない",
+          "M": "家庭の安全と声の信頼が限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W07-S01",
+          "to_scene": "G02-W07-S02",
+          "retained_problem": "女の不在や時間経過だけで姉へのDを閉じない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S016"
@@ -2657,7 +2855,8 @@
             "D3"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W07-S02",
@@ -2685,7 +2884,8 @@
             "D4"
           ],
           "confidence": 0.72,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2699,6 +2899,16 @@
       "unexplained_residue": "本文不足のため残余も判断不能",
       "counterexamples": "タイトルからの型推定を行わない",
       "change_proposals": "本文・原典の追加提供または作品別URLの同定後に再検証",
+      "target_outcomes": [
+        {
+          "target": "意図された作品",
+          "Q": "未検証",
+          "D": "未検証",
+          "C": "未検証",
+          "M": "未検証"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S007"
@@ -2724,7 +2934,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2738,6 +2949,30 @@
       "unexplained_residue": "家族への嫌悪と同情が情報で反転する感情過程",
       "counterexamples": "家族の外見が異常でも、替え玉とは限らない。敵意に見えたものが強制された行動でもあり得る",
       "change_proposals": "C2の本人性だけでなく利害の帰属／強制の有無を併記",
+      "target_outcomes": [
+        {
+          "target": "語り手",
+          "Q": "原因は僧侶の説明に依存",
+          "D": "退避し生存。恒久解除は示されない",
+          "C": "同僚への相談が有効",
+          "M": "家族への不信を部分的に再構成"
+        },
+        {
+          "target": "家族",
+          "Q": "憑依説明が得られる",
+          "D": "救助成立、既存の傷は残る",
+          "C": "当面の処置を受ける",
+          "M": "自発的敵意という初期解釈を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W09-S01",
+          "to_scene": "G02-W09-S02",
+          "retained_problem": "C2候補の原因を更新。語り手へのDと家族へのDを別対象にする",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S017"
@@ -2769,7 +3004,8 @@
             "C3"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W09-S02",
@@ -2799,7 +3035,8 @@
             "F2"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2813,6 +3050,23 @@
       "unexplained_residue": "造形、題名による滑稽さとの混在は分類外",
       "counterexamples": "見えなくなった直後の安心は、脅威不存在の証拠ではない",
       "change_proposals": "観測不在／存在しない／接触不能の三状態を別記",
+      "target_outcomes": [
+        {
+          "target": "語り手",
+          "Q": "存在の規則未解明",
+          "D": "局所の消失はあるが再襲来・家庭危険未解決",
+          "C": "援助は確保できていない",
+          "M": "見えることと安全を分離"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W10-S01",
+          "to_scene": "G02-W10-S02",
+          "retained_problem": "知覚照合で安全が得られたとはしない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S018"
@@ -2843,7 +3097,8 @@
             "D1"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W10-S02",
@@ -2872,7 +3127,8 @@
             "E4"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2886,6 +3142,30 @@
       "unexplained_residue": "惨殺への嫌悪と処刑の予告の演出。危険が段階順で迫るが逃走の追手とは違う",
       "counterexamples": "二度覚醒した成果は確定するが、夢の機構を解明したことにも再発防止にもならない",
       "change_proposals": "G02-N01を保留候補：順番・手続で到来する直接加害。まず修飾子で記述し独立型追加しない",
+      "target_outcomes": [
+        {
+          "target": "2000年版語り手",
+          "Q": "処刑順は把握、機構・再発条件不明",
+          "D": "二度の局所回避成立。将来の死は予期で、実死亡未確認",
+          "C": "観察の継続が回避猶予を減らす",
+          "M": "任意覚醒への信頼が限定"
+        },
+        {
+          "target": "2007年版語り手",
+          "Q": "同名異本としてのみ比較",
+          "D": "覚醒とその後の声、不眠が記される。2000年版へ移植しない",
+          "C": "異本の行動経過を主版の証拠に使わない",
+          "M": "同じ制御前提の崩れという比較に限る"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W11-S01",
+          "to_scene": "G02-W11-S02",
+          "retained_problem": "覚醒による局所D閉鎖を固定した上で、再発対象のDを別に開く",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S019",
@@ -2919,7 +3199,8 @@
             "E4"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W11-S02",
@@ -2948,7 +3229,8 @@
             "F1"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -2962,6 +3244,16 @@
       "unexplained_residue": "本文不足のため残余も判断不能",
       "counterexamples": "タイトルからの型推定を行わない",
       "change_proposals": "本文・原典の追加提供または作品別URLの同定後に再検証",
+      "target_outcomes": [
+        {
+          "target": "意図された作品",
+          "Q": "未検証",
+          "D": "未検証",
+          "C": "未検証",
+          "M": "未検証"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S008",
@@ -2989,7 +3281,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3003,6 +3296,16 @@
       "unexplained_residue": "本文不足のため残余も判断不能",
       "counterexamples": "タイトルからの型推定を行わない",
       "change_proposals": "本文・原典の追加提供または作品別URLの同定後に再検証",
+      "target_outcomes": [
+        {
+          "target": "意図された作品",
+          "Q": "未検証",
+          "D": "未検証",
+          "C": "未検証",
+          "M": "未検証"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S010"
@@ -3028,7 +3331,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3042,6 +3346,16 @@
       "unexplained_residue": "損失の予期を伴わない不可解さは、基準の問題状態という定義の外に残る",
       "counterexamples": "非日常の空中物体を見たことだけではB4やF1は成立しない",
       "change_proposals": "26型を恐怖表現全般の分類として扱わない。未知・不気味さを補助記述に置く",
+      "target_outcomes": [
+        {
+          "target": "目撃者二人",
+          "Q": "正体未解明",
+          "D": "具体的D未確認",
+          "C": "情報募集は実行",
+          "M": "旧世界モデルの棄却までは示されない"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S021"
@@ -3071,7 +3385,8 @@
             "A2"
           ],
           "confidence": 0.93,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3085,6 +3400,37 @@
       "unexplained_residue": "被害の分岐、祭祀の歴史説明の真偽、語りの読者巻き込み",
       "counterexamples": "明確な禁忌を実行していない語り手にも災厄が予期される。E1の禁忌を必要十分条件と扱えない",
       "change_proposals": "発動条件・標的選択条件・進行条件を別々に記す\nE5の管理と単なる回避継続を区別",
+      "target_outcomes": [
+        {
+          "target": "草を抜いた友人",
+          "Q": "説明は得られるが対処成功せず",
+          "D": "死亡。Dの損失終結",
+          "C": "処置を受ける",
+          "M": "回復はない"
+        },
+        {
+          "target": "他の参加児童",
+          "Q": "被害差の理由は部分説明",
+          "D": "回復が語られる対象を救助成果として保持",
+          "C": "大人の対処に従う",
+          "M": "祭祀の危険を理解"
+        },
+        {
+          "target": "語り手・村",
+          "Q": "器と縁の説明は証言に依存",
+          "D": "長年の局所遅延、手紙後は未決。村の被害は予期",
+          "C": "離脱、最後に帰郷を予定。予定を成果にしない",
+          "M": "自己と故郷の安全を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W15-S01",
+          "to_scene": "G02-W15-S02",
+          "retained_problem": "友人の死を本人の将来危険と同じIDで扱わない。D1/D5とD4を対象別に分離",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S022"
@@ -3117,7 +3463,8 @@
             "F2"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W15-S02",
@@ -3148,7 +3495,8 @@
             "F4"
           ],
           "confidence": 0.73,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3162,6 +3510,16 @@
       "unexplained_residue": "本文不足のため残余も判断不能",
       "counterexamples": "タイトルからの型推定を行わない",
       "change_proposals": "本文・原典の追加提供または作品別URLの同定後に再検証",
+      "target_outcomes": [
+        {
+          "target": "意図された作品",
+          "Q": "未検証",
+          "D": "未検証",
+          "C": "未検証",
+          "M": "未検証"
+        }
+      ],
+      "transitions": [],
       "group_id": "group_02",
       "source_ids": [
         "G02-S011"
@@ -3187,7 +3545,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3201,6 +3560,23 @@
       "unexplained_residue": "言語・日常物の意味の食い違いと対話による緊張変化",
       "counterexamples": "命を守るためにバイクを差し出す必要があると思うが、実際には別の食べ物で別れられる",
       "change_proposals": "E3に必要性の反証欄を加える。自己申告の代償を規則に昇格させない",
+      "target_outcomes": [
+        {
+          "target": "祖父",
+          "Q": "局所要求は理解、正体未解明",
+          "D": "無傷の離脱成立。回想後の解説は被害の実証ではない",
+          "C": "交渉と代替提供の成果",
+          "M": "交渉不能という初期予期を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W17-S01",
+          "to_scene": "G02-W17-S02",
+          "retained_problem": "中心的Dを一旦閉じる。未知が残るだけで別の罰を追加しない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S023"
@@ -3231,7 +3607,8 @@
             "C2"
           ],
           "confidence": 0.7,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W17-S02",
@@ -3257,7 +3634,8 @@
             "F2"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3271,6 +3649,23 @@
       "unexplained_residue": "耳の物質描写への嫌悪、風景の静けさと尺度の異常",
       "counterexamples": "異常な場所でも来た道を戻る行動が有効。B3やB2を必ず開くわけではない",
       "change_proposals": "B1からB2/B3への自動遷移を止め、移動規則が破れた証拠を求める",
+      "target_outcomes": [
+        {
+          "target": "三人",
+          "Q": "用途・空間の由来未解明",
+          "D": "当該探索からの退出と帰宅成立",
+          "C": "離脱を選んで実行",
+          "M": "日常地形への理解が限定される"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W18-S01",
+          "to_scene": "G02-W18-S02",
+          "retained_problem": "B1のQは残るが当該Dは回避。未解明を遭難に数えない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S024"
@@ -3302,7 +3697,8 @@
             "F1"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W18-S02",
@@ -3330,7 +3726,8 @@
             "E4"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3344,6 +3741,30 @@
       "unexplained_residue": "異常な価値観を訓育する過程、母の選択の隠蔽、すでに失われた関係への悲嘆",
       "counterexamples": "続きは由来と条件を説明するが、被害者を戻す方法は与えない。供養した移設者に被害がないため単純な見るだけ条件にも例外がある",
       "change_proposals": "E1の免除条件と証拠の層を記録\nE5では危険物保存と管理負担の実証を分ける",
+      "target_outcomes": [
+        {
+          "target": "D子と過去のE君",
+          "Q": "作用の説明は後続で得られる",
+          "D": "回復はなく、D子と母の死が伝えられる。E君の最終結果は不明",
+          "C": "救援に頼るが治療未達",
+          "M": "損失・不可逆性が残る"
+        },
+        {
+          "target": "町の管理者",
+          "Q": "条件説明は伝聞、免除の因果は推定",
+          "D": "再侵入対策の当面成果。恒久的無害化なし",
+          "C": "移設・制限を実行",
+          "M": "保存と供養の責任が残る"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W19-S01",
+          "to_scene": "G02-W19-S02",
+          "retained_problem": "本編の未知を説明で埋めても、過去被害を治したことにはしない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S025",
@@ -3378,7 +3799,8 @@
             "C3"
           ],
           "confidence": 0.81,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W19-S02",
@@ -3408,7 +3830,8 @@
             "D4"
           ],
           "confidence": 0.77,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3422,6 +3845,36 @@
       "unexplained_residue": "奇矯な一家の造形、過去被害の反響、安心と不安の反復",
       "counterexamples": "口笛の再現だけで追手と同一とは言えず、無関係な高校生が現れる。正体不明でも帰宅は成立する",
       "change_proposals": "A1↔A2を位置捕捉の証拠で区別し、怖い音だけでA2を付けない",
+      "target_outcomes": [
+        {
+          "target": "二人",
+          "Q": "一家・泣き声・廃車の謎は残る",
+          "D": "拘束・遭難・発見を局所回避し生存帰宅",
+          "C": "選択と協力が有効。荷物は失われる",
+          "M": "安全理解は限定、日常生活は継続"
+        },
+        {
+          "target": "泣き声の女性／運転手",
+          "Q": "声の由来は殺人事件の伝聞に関連付け、因果未確定",
+          "D": "女性の過去被害と運転手の現在の安否を別にする。危険転嫁は立証されない",
+          "C": "女性救助は成立確認できない",
+          "M": "第三者のMを推定しない"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W20-S01",
+          "to_scene": "G02-W20-S02",
+          "retained_problem": "車の拘束からは逃れるが遭難・捜索問題を残す",
+          "closure_audit": ""
+        },
+        {
+          "from_scene": "G02-W20-S02",
+          "to_scene": "G02-W20-S03",
+          "retained_problem": "発見回避の局所成功を保持。正体Qが残るからといって失敗にしない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S027"
@@ -3454,7 +3907,8 @@
             "B3"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W20-S02",
@@ -3481,7 +3935,8 @@
             "C4"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W20-S03",
@@ -3509,7 +3964,8 @@
             "E2"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3523,6 +3979,23 @@
       "unexplained_residue": "明確な未来の危害や侵入・制御損失が描かれない不気味さが主な残余",
       "counterexamples": "人形を人のように扱う場面は、特定の本人を置換するC1とも、家族が客を害するC2とも限らない",
       "change_proposals": "G02-N02を保留候補：社会的正常性の不透明さ。Dなしの不気味さの補助記述を先に試す",
+      "target_outcomes": [
+        {
+          "target": "訪問者二人",
+          "Q": "人形と家族の意図未解明",
+          "D": "具体的加害未確認。離れる選択は可能",
+          "C": "疎遠になる決着",
+          "M": "友人についての理解を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W21-S01",
+          "to_scene": "G02-W21-S02",
+          "retained_problem": "出られたことを、正体の解明やF群の決着にしない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S028",
@@ -3555,7 +4028,8 @@
             "B4"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W21-S02",
@@ -3580,7 +4054,8 @@
             "B4"
           ],
           "confidence": 0.85,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3594,6 +4069,30 @@
       "unexplained_residue": "匿名性で判断が変わる倫理、損失後の罪悪感、枠物語の真偽反転",
       "counterexamples": "出口が開くというD回避と、大切な人の喪失の判明が同時に成立する",
       "change_proposals": "E3の既知の代償／隠された対象を分ける。C4は認識主体と情報時点を明示",
+      "target_outcomes": [
+        {
+          "target": "拘束された主人公",
+          "Q": "手続と対象のQが順に解明",
+          "D": "本人の脱出成立、家族の死という損失終結",
+          "C": "実行の帰結が明らかになるが無損失ではない",
+          "M": "自己の判断について更新"
+        },
+        {
+          "target": "枠物語の聞き手",
+          "Q": "作り話という命題が揺らぐ",
+          "D": "直接の身体危険は未確認",
+          "C": "応答以後は描かれない",
+          "M": "話者への信頼が変わる"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W22-S01",
+          "to_scene": "G02-W22-S02",
+          "retained_problem": "脱出の成果を保持したまま、過去の犠牲対象を遡及同定",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S031"
@@ -3626,7 +4125,8 @@
             "E4"
           ],
           "confidence": 0.93,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W22-S02",
@@ -3653,7 +4153,8 @@
             "F3"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3667,6 +4168,23 @@
       "unexplained_residue": "沈黙と未完食の客の不気味さ、因果未解明",
       "counterexamples": "危険についての詳しい知識がなくても、助けを受けて離脱できる",
       "change_proposals": "未解決Qを自動的なE4へしない。B1閉鎖と禁忌の仮説を別々に評価",
+      "target_outcomes": [
+        {
+          "target": "カップル",
+          "Q": "帰路Q解明、店のQ残存",
+          "D": "帰還成立、後害の報告なし",
+          "C": "案内と退出が有効",
+          "M": "通常の店という解釈を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W23-S01",
+          "to_scene": "G02-W23-S02",
+          "retained_problem": "帰還成功を後から失敗にしない。別の再訪Dを予期として記す",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S032"
@@ -3698,7 +4216,8 @@
             "C2"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W23-S02",
@@ -3725,7 +4244,8 @@
             "F1"
           ],
           "confidence": 0.66,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3739,6 +4259,56 @@
       "unexplained_residue": "罪悪感・責任帰属・選択の倫理、長い喪失後の生活は予期的恐怖だけでは説明できない",
       "counterexamples": "規則を理解し、六人が覚醒しても最後の友人Eは覚醒しない。救済の対象と責任が分岐する",
       "change_proposals": "E2／E3／E5の時間・対象境界を追跡する\nC1を自己／他者の見え方の変換へ無制限拡張しない",
+      "target_outcomes": [
+        {
+          "target": "語り手ほか五人",
+          "Q": "役割の規則解明",
+          "D": "覚醒成立、夢内の体験の反復と罪悪感は残る",
+          "C": "援助を求める。再参加は規則で不能",
+          "M": "他者／自己表示の信頼を再構成"
+        },
+        {
+          "target": "E",
+          "Q": "最後の鬼というQが解明",
+          "D": "長期覚醒不能、後に死。救出ではなく損失終結",
+          "C": "本人に新対象を選ぶ能力は描かれない",
+          "M": "本人の内面は語り手の想像を超えて確定できない"
+        },
+        {
+          "target": "前被害者H／母I",
+          "Q": "工作の由来判明",
+          "D": "Hの覚醒は救助成果。ただしEへ損失が転向",
+          "C": "Iが工作を実行。理解と同意のない移転",
+          "M": "本人の救命と全体の安全を分ける"
+        },
+        {
+          "target": "地域・住職",
+          "Q": "抑制条件が伝聞として示される",
+          "D": "継続が断たれたと語られるが再参加時の帰結は末尾でも不明",
+          "C": "看護・知識管理・禁止を継続",
+          "M": "責任と愛情を巡る態度は対立したまま"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W24-S01",
+          "to_scene": "G02-W24-S02",
+          "retained_problem": "語り手の捕捉→鬼役割への変化は即死ではない。対象を捕らえると覚醒するがEへDが移る",
+          "closure_audit": ""
+        },
+        {
+          "from_scene": "G02-W24-S02",
+          "to_scene": "G02-W24-S03",
+          "retained_problem": "Qの照合成果を保持し、実行不能と犠牲の問題を開く",
+          "closure_audit": ""
+        },
+        {
+          "from_scene": "G02-W24-S03",
+          "to_scene": "G02-W24-S04",
+          "retained_problem": "救命のための危険継承が悪用されるC2を別に追跡",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S033"
@@ -3772,7 +4342,8 @@
             "E4"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W24-S02",
@@ -3802,7 +4373,8 @@
             "D4"
           ],
           "confidence": 0.91,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W24-S03",
@@ -3833,7 +4405,8 @@
             "F3"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W24-S04",
@@ -3863,7 +4436,8 @@
             "F4"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3877,6 +4451,23 @@
       "unexplained_residue": "生存していることが拘束の終結にならない。部屋が保持するという因果は語り手の推測",
       "counterexamples": "住人は一緒に出るよう促す。知識不足や好奇心による取り残しを、住人の敵対陰謀C2と即断できない",
       "change_proposals": "F4に局所的な利用仮説と人間一般の成立条件を分離する注記を追加",
+      "target_outcomes": [
+        {
+          "target": "不動産業者",
+          "Q": "部屋存在のQは部分説明、脱出Qは未解明",
+          "D": "半年の生存は確認されるが離脱不能",
+          "C": "退出の機会を逃し、以後の行動は効かない",
+          "M": "契約・空間と生存の意味を限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W25-S01",
+          "to_scene": "G02-W25-S02",
+          "retained_problem": "説明の獲得と退出を分ける。生活維持という成果は自由の回復ではない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S034"
@@ -3909,7 +4500,8 @@
             "E1"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W25-S02",
@@ -3938,7 +4530,8 @@
             "E4"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -3952,6 +4545,23 @@
       "unexplained_residue": "病状の急変と職探しの脆弱性、気持ちの誘導は型以外の提示・文脈も要る",
       "counterexamples": "帰宅後の回復というDへの成果を、終幕の電話のせいで取り消さない。別の接触問題が残る",
       "change_proposals": "D3に衝動／強制動作／自発的判断を分ける証拠タグを追加",
+      "target_outcomes": [
+        {
+          "target": "応募者",
+          "Q": "記録で敵意の示唆、機構未解明",
+          "D": "身体回復と旅館への到達回避は成立。再接触は未解決",
+          "C": "制止を受け入れた成果、遮断は不十分",
+          "M": "休息・仕事・記録への信頼が限定"
+        }
+      ],
+      "transitions": [
+        {
+          "from_scene": "G02-W26-S01",
+          "to_scene": "G02-W26-S02",
+          "retained_problem": "D5の当面回復を固定。新しい電話接触Dを同じ損傷の継続としない",
+          "closure_audit": ""
+        }
+      ],
       "group_id": "group_02",
       "source_ids": [
         "G02-S035"
@@ -3985,7 +4595,8 @@
             "D1"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G02-W26-S02",
@@ -4014,7 +4625,8 @@
             "F1"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4028,6 +4640,22 @@
       "unexplained_residue": "怪談的目撃と非超常の悲しい由来談の接合は、単一の怪物の設定では説明できない。",
       "counterexamples": "黒い目だけでC1は成立しない。待ち合わせのため去れないことは怪異的B2と違う。",
       "change_proposals": "集合的伝承タグと当事者別符号化を追加。由来の主張を確定歴史にしない。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W01-SC01",
+          "target": "目撃者の接触危険",
+          "outcome": "その場から退避",
+          "unresolved": "正体・再接触",
+          "transition": "近接認識→回避、根絶なし"
+        },
+        {
+          "scene_id": "G03-W01-SC02",
+          "target": "アキちゃんの信頼・生活",
+          "outcome": "欺瞞のQは閉じる",
+          "unresolved": "損失・孤独",
+          "transition": "C2の解明→損失による終結"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S001"
@@ -4058,7 +4686,8 @@
             "B4"
           ],
           "confidence": 0.65,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W01-SC02",
@@ -4085,7 +4714,8 @@
             "C4"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4099,6 +4729,29 @@
       "unexplained_residue": "先生と怪異の関係・その後の接近可能性は未解明。",
       "counterexamples": "隠れるだけでA1ではない。先生が本人か、敵対したか、支配されたかは断定不能。",
       "change_proposals": "A1に所在未把握の証拠欄、C1/C2に代替仮説欄を付ける。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W02-SC01",
+          "target": "児童の接触危険",
+          "outcome": "逃走の必要が開く",
+          "unresolved": "校舎内の所在・教師の安否",
+          "transition": "A3/A2→隠れた状態（A1は留保）"
+        },
+        {
+          "scene_id": "G03-W02-SC02",
+          "target": "合図の信頼",
+          "outcome": "許可を疑い離脱を実行",
+          "unresolved": "人物同定",
+          "transition": "B4→A2回避"
+        },
+        {
+          "scene_id": "G03-W02-SC02",
+          "target": "先生との関係",
+          "outcome": "後日存在確認",
+          "unresolved": "本人性・敵対性",
+          "transition": "未解決Q／Mの限定"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S002"
@@ -4130,7 +4783,8 @@
             "E1"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W02-SC02",
@@ -4158,7 +4812,8 @@
             "C2"
           ],
           "confidence": 0.85,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4172,6 +4827,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W03-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S025"
@@ -4197,7 +4861,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4211,6 +4876,22 @@
       "unexplained_residue": "作中の欠落原話、顔が見えない理由、文字媒体の影響は未確定。",
       "counterexamples": "伝承を知ったこと自体が現実の危険であるとは認めない。二週間程度の収束は恒久遮断と違う。",
       "change_proposals": "E1/E2の情報媒体・語り手／作中聴衆／現実読者を分離する修飾子。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W04-SC01",
+          "target": "語り手の休息・接触",
+          "outcome": "一時退避と後の収束",
+          "unresolved": "再発条件・媒体",
+          "transition": "起動疑い→侵入→観測期間で収束"
+        },
+        {
+          "scene_id": "G03-W04-SC02",
+          "target": "聴衆群",
+          "outcome": "既知の現象の収束報告",
+          "unresolved": "文字による影響・原話",
+          "transition": "E2仮説と局所Dの収束を並記"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S003"
@@ -4242,7 +4923,8 @@
             "B4"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W04-SC02",
@@ -4270,7 +4952,8 @@
             "F2"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4284,6 +4967,29 @@
       "unexplained_residue": "病気・札の喪失・信仰を結ぶ因果は相談者の疑念のまま。",
       "counterexamples": "専門家・兄の悪意は掲示板の仮説でしかない。宗教役割の継承だけでE5は確定しない。",
       "change_proposals": "C2は社会的強制と超常的加害の根拠を分ける。E5は放棄リスクの証拠を要求。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W05-SC01",
+          "target": "長女の将来",
+          "outcome": "離脱と支援先確保",
+          "unresolved": "父の死後の保護",
+          "transition": "C2→保護成果と将来Dを分離"
+        },
+        {
+          "scene_id": "G03-W05-SC02",
+          "target": "父の健康",
+          "outcome": "相談・診療選択の増加",
+          "unresolved": "病因・生存",
+          "transition": "Q仮説追加≠D除去"
+        },
+        {
+          "scene_id": "G03-W05-SC02",
+          "target": "娘の保護継承",
+          "outcome": "理解ある支援者を得る",
+          "unresolved": "実際の保護完了",
+          "transition": "当人の健康Dから家族の将来Dへ包含"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S004"
@@ -4315,7 +5021,8 @@
             "E5"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W05-SC02",
@@ -4346,7 +5053,8 @@
             "E5"
           ],
           "confidence": 0.67,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4360,6 +5068,29 @@
       "unexplained_residue": "遡及的な悲嘆・罪悪感と、追手が現在接近していない状態の危害予期。",
       "counterexamples": "家族死亡の解明はC4救助成功でない。記憶欠落を埋め込み人格D4と同一視しない。",
       "change_proposals": "D4に自己連続性の損失証拠を要求。過去／現在／将来の危険時制を必須化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W06-SC01",
+          "target": "現在地と時間",
+          "outcome": "説明でB1のQ部分閉鎖",
+          "unresolved": "知覚体験の由来",
+          "transition": "B1→B4/D4候補"
+        },
+        {
+          "scene_id": "G03-W06-SC02",
+          "target": "家族の生存",
+          "outcome": "過去の死亡説明",
+          "unresolved": "悲嘆・体験の意味",
+          "transition": "予期Dではなく損失確定"
+        },
+        {
+          "scene_id": "G03-W06-SC02",
+          "target": "未捕捉加害者",
+          "outcome": "危険存在の認識のみ",
+          "unresolved": "現在の標的性・再加害条件",
+          "transition": "未解決D。追跡場面はない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S005"
@@ -4392,7 +5123,8 @@
             "D5"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W06-SC02",
@@ -4420,7 +5152,8 @@
             "E4"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4434,6 +5167,36 @@
       "unexplained_residue": "専門家の診断の改訂、被害者への供犠と後代の責任の非対称。",
       "counterexamples": "全身を見たとの誤認が訂正され対処可能になる。「専門家でも無理」をF2にしない。",
       "change_proposals": "E4の客観的実行不能／知識の暫定判断を別属性化。E5の維持者と危険対象を分離。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W07-SC01",
+          "target": "現場の少年達",
+          "outcome": "退避成功",
+          "unresolved": "Bの身体被害",
+          "transition": "A2回避→別対象の救助D"
+        },
+        {
+          "scene_id": "G03-W07-SC02",
+          "target": "Bの予後",
+          "outcome": "条件の誤認訂正と専門家介入",
+          "unresolved": "直接診察・完治",
+          "transition": "E4認識の解除≠即時D閉鎖"
+        },
+        {
+          "scene_id": "G03-W07-SC03",
+          "target": "封印制度",
+          "outcome": "抑制方法の説明",
+          "unresolved": "無害化・安全継承",
+          "transition": "E1→E5"
+        },
+        {
+          "scene_id": "G03-W07-SC03",
+          "target": "過去の犠牲者",
+          "outcome": "被害確定",
+          "unresolved": "正義・責任",
+          "transition": "損失の倫理評価。現在救助と分離"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S006",
@@ -4469,7 +5232,8 @@
             "B2"
           ],
           "confidence": 0.93,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W07-SC02",
@@ -4501,7 +5265,8 @@
             "D3"
           ],
           "confidence": 0.85,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W07-SC03",
@@ -4530,7 +5295,8 @@
             "F3"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4544,6 +5310,22 @@
       "unexplained_residue": "村の変化の原因・看板の意味は未解明。",
       "counterexamples": "地図照合で位置が同じでも怪異の除去は不要に完了していない。多数の敵だけでA4でない。",
       "change_proposals": "A4に防衛維持競争の証拠欄。B1に既知の座標／未知の状況の区別。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W08-SC01",
+          "target": "語り手の捕捉",
+          "outcome": "国道への回避",
+          "unresolved": "再訪時の危険",
+          "transition": "A2回避。Qは原因不明のまま"
+        },
+        {
+          "scene_id": "G03-W08-SC01",
+          "target": "村の座標",
+          "outcome": "地図で位置確認",
+          "unresolved": "村の変化",
+          "transition": "位置Q閉鎖≠因果Q閉鎖"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S009"
@@ -4576,7 +5358,8 @@
             "C1"
           ],
           "confidence": 0.93,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4590,6 +5373,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W09-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S026"
@@ -4615,7 +5407,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4629,6 +5422,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W10-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S027"
@@ -4654,7 +5456,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4668,6 +5471,22 @@
       "unexplained_residue": "何を相手が恐れたか、死んだ鳥との因果は未解明。",
       "counterexamples": "名前伝播の説明だけでE2の被害拡大を実測したことにならない。",
       "change_proposals": "E1/E2の観測例／土地の証言／分析者推測の三段階を記録。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W11-SC01",
+          "target": "語り手の再接触",
+          "outcome": "牙を埋める選択",
+          "unresolved": "何が効いたか",
+          "transition": "C実行。Dは観測限定"
+        },
+        {
+          "scene_id": "G03-W11-SC02",
+          "target": "名称の危険",
+          "outcome": "仮説取得",
+          "unresolved": "同一伝承・伝播の実在",
+          "transition": "未解決Q/D"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S010"
@@ -4699,7 +5518,8 @@
             "E5"
           ],
           "confidence": 0.73,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W11-SC02",
@@ -4727,7 +5547,8 @@
             "F1"
           ],
           "confidence": 0.6,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4741,6 +5562,29 @@
       "unexplained_residue": "正体・敵意・言葉の意味は複数の証言と解釈のまま。",
       "counterexamples": "音が消えること≠危険除去。返信がないこと≠C3の拒否。犬の負傷をD5や呪いへ自動拡張しない。",
       "change_proposals": "観測条件と閉鎖範囲の必須化。題名と作中同定の確実性を別欄に。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W12-SC01",
+          "target": "本人と犬の接触",
+          "outcome": "支援先へ移動",
+          "unresolved": "追手の再接近",
+          "transition": "A2局所回避→避難所の防衛"
+        },
+        {
+          "scene_id": "G03-W12-SC02",
+          "target": "建物の防衛",
+          "outcome": "夜を越し帰還",
+          "unresolved": "今回の対処が何に効いたか",
+          "transition": "A4閉鎖は一夜に限定"
+        },
+        {
+          "scene_id": "G03-W12-SC02",
+          "target": "犬の生存",
+          "outcome": "生命に別状なしという診療結果",
+          "unresolved": "完治",
+          "transition": "C4局所成果"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S011"
@@ -4773,7 +5617,8 @@
             "C3"
           ],
           "confidence": 0.94,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W12-SC02",
@@ -4802,7 +5647,8 @@
             "D5"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4816,6 +5662,29 @@
       "unexplained_residue": "保護が愛情でなく利用でも、B本人に観測上の不利益がないという立場差。",
       "counterexamples": "危険な保護者を直ちにC2にしない。Bの身体利用だけで人間一般のF4でない。",
       "change_proposals": "F4候補に局所的な宿主利用と人間成立条件の従属のスケール差を明記。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W13-SC01",
+          "target": "一行の生存",
+          "outcome": "退避成功",
+          "unresolved": "井戸の危険自体",
+          "transition": "A2局所閉鎖"
+        },
+        {
+          "scene_id": "G03-W13-SC02",
+          "target": "Bの宿主状態",
+          "outcome": "平穏な後年の報告",
+          "unresolved": "退出時の損失",
+          "transition": "D1状態継続／F4局所類似"
+        },
+        {
+          "scene_id": "G03-W13-SC02",
+          "target": "語り手の理解",
+          "outcome": "利用目的の証言を得る",
+          "unresolved": "証言の確実性",
+          "transition": "M限定、D除去ではない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S012",
@@ -4850,7 +5719,8 @@
             "E1"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W13-SC02",
@@ -4880,7 +5750,8 @@
             "E5"
           ],
           "confidence": 0.77,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4894,6 +5765,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W14-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S028"
@@ -4919,7 +5799,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -4933,6 +5814,29 @@
       "unexplained_residue": "善意の介入が加害条件だったとの疑念は残るが因果は未確定。",
       "counterexamples": "C4の大切な相手と未知の要救助者を区別。女性の外傷自傷をD5としない。",
       "change_proposals": "C4の救助目標の重要性は血縁でなく当事者が重視した証拠で判定。救助者の危険への転換を追跡。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W15-SC01",
+          "target": "女性の救助",
+          "outcome": "救急援助は得られる",
+          "unresolved": "実在・所在・救命",
+          "transition": "Q開放、C実行、D不明"
+        },
+        {
+          "scene_id": "G03-W15-SC02",
+          "target": "父の生存",
+          "outcome": "死亡確認",
+          "unresolved": "喪失への態度",
+          "transition": "C4→損失終結"
+        },
+        {
+          "scene_id": "G03-W15-SC02",
+          "target": "家族の将来安全",
+          "outcome": "雪の日の外出回避",
+          "unresolved": "起動・停止条件",
+          "transition": "E1仮説、D未確認"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S015"
@@ -4964,7 +5868,8 @@
             "C3"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W15-SC02",
@@ -4993,7 +5898,8 @@
             "F3"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5007,6 +5913,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W16-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S029"
@@ -5032,7 +5947,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5046,6 +5962,36 @@
       "unexplained_residue": "夢の死と現実の交通事故の一致は作者の因果的解釈で、実際の仕組みは不明。",
       "counterexamples": "知る友人への移管でも能力確認と全体危険の閉鎖は保証されない。外からの刃傷はD5でない。",
       "change_proposals": "E5の安全移管チェック（理解・同意・能力・情報）は有用。D3の行為主体判定は留保。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W17-SC01",
+          "target": "語り手の身体",
+          "outcome": "視力無事、傷痕は残る",
+          "unresolved": "石の作用",
+          "transition": "損傷への対処と原因Qの分離"
+        },
+        {
+          "scene_id": "G03-W17-SC01",
+          "target": "子供の行為主体",
+          "outcome": "記憶の不一致のみ",
+          "unresolved": "制御原因",
+          "transition": "D3仮説"
+        },
+        {
+          "scene_id": "G03-W17-SC02",
+          "target": "友人の生存",
+          "outcome": "死亡を知る",
+          "unresolved": "死の原因・石の行方",
+          "transition": "移管成果を安全と誤認→損失"
+        },
+        {
+          "scene_id": "G03-W17-SC02",
+          "target": "危険物の管理",
+          "outcome": "当人からの移動だけ成立",
+          "unresolved": "安全保管・全体無害化",
+          "transition": "E5候補、全体Dは閉じない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S016"
@@ -5078,7 +6024,8 @@
             "D2"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W17-SC02",
@@ -5107,7 +6054,8 @@
             "C2"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5121,6 +6069,29 @@
       "unexplained_residue": "音源の正体と接触時の損失は記載されない。",
       "counterexamples": "見えていなくても位置への接近をA2で記述可能。お経が効くから問題全体が閉じたとはいえない。",
       "change_proposals": "E5の管理は保管物に限らず検知＋抑制の反復も含むと例を補う。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W18-SC01",
+          "target": "私室の接触危険",
+          "outcome": "反復的な後退",
+          "unresolved": "再発・管理離脱",
+          "transition": "A2/A3を抑制するE5"
+        },
+        {
+          "scene_id": "G03-W18-SC01",
+          "target": "監視の負担",
+          "outcome": "対処は可能",
+          "unresolved": "日常の集中・休息",
+          "transition": "Q部分解明、C実効あり、継続義務残る"
+        },
+        {
+          "scene_id": "G03-W18-SC02",
+          "target": "今回の近接",
+          "outcome": "近接が判明",
+          "unresolved": "接触後・再抑制",
+          "transition": "E5破綻認識→A2切迫"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S017"
@@ -5153,7 +6124,8 @@
             "B4"
           ],
           "confidence": 0.91,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W18-SC02",
@@ -5181,7 +6153,8 @@
             "D1"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5195,6 +6168,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W19-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S030"
@@ -5220,7 +6202,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5234,6 +6217,29 @@
       "unexplained_residue": "管理側の安全と対象側の自己存続は相反する。語り手の倫理判断は正体説明では消えない。",
       "counterexamples": "炎と身体破壊をD5にしない。怪物の自己主張は人間本人の模倣を証明しない。",
       "change_proposals": "当事者欄に敵・非人間対象も許す。E3は有効性・不可避性の証拠を要求。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W20-SC01",
+          "target": "周囲の安全",
+          "outcome": "対象の動き停止",
+          "unresolved": "再発・対象の同一性",
+          "transition": "管理→破綻危機→不可逆処置"
+        },
+        {
+          "scene_id": "G03-W20-SC02",
+          "target": "対象の自己存続",
+          "outcome": "破壊による終結",
+          "unresolved": "同一性の証言対立",
+          "transition": "D4類似／損失終結"
+        },
+        {
+          "scene_id": "G03-W20-SC02",
+          "target": "目撃者の倫理理解",
+          "outcome": "説明取得",
+          "unresolved": "処分への態度",
+          "transition": "Q取得≠M回復"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S018"
@@ -5265,7 +6271,8 @@
             "E4"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W20-SC02",
@@ -5294,7 +6301,8 @@
             "C4"
           ],
           "confidence": 0.77,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5308,6 +6316,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W21-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S031"
@@ -5333,7 +6350,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5347,6 +6365,15 @@
       "unexplained_residue": "予期する具体的損失と、これが割当作品かという資料同定が不足。",
       "counterexamples": "知覚矛盾だけでB4の誤判断危険を作れない。奇妙さだけでF1でない。",
       "change_proposals": "適合性とは別にタイトル同定確信を記録。損失未記載タグで無理な分類を防ぐ。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W22-SC01",
+          "target": "乗員同定",
+          "outcome": "矛盾を提示",
+          "unresolved": "由来と損失",
+          "transition": "Qのみ開きD成立は未検証"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S019"
@@ -5377,7 +6404,8 @@
             "A2"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5391,6 +6419,22 @@
       "unexplained_residue": "身体外への付着は内部侵入D1に厳密一致せず、接近段階がないA2とも異なる。",
       "counterexamples": "少女の奇妙な動きは加害の証拠でない。贈り物の消失は受領の証明でない。",
       "change_proposals": "G03-N01外部付着を保留候補。まずD1の身体境界の注記で足りるか比較。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W23-SC01",
+          "target": "身体外の付着危険",
+          "outcome": "重さと声の消失",
+          "unresolved": "正体・自力対処",
+          "transition": "G03-N01候補／D局所閉鎖"
+        },
+        {
+          "scene_id": "G03-W23-SC02",
+          "target": "少女への態度",
+          "outcome": "感謝と親しみ",
+          "unresolved": "援助の実態の証明",
+          "transition": "M再構成／新罰を開かない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S020"
@@ -5423,7 +6467,8 @@
             "B2"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W23-SC02",
@@ -5451,7 +6496,8 @@
             "C4"
           ],
           "confidence": 0.89,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5465,6 +6511,15 @@
       "unexplained_residue": "本文不足で残余も判定不能。",
       "counterexamples": "反例判定不能。検索不成立は26型への反例ではない。",
       "change_proposals": "本文確保・題名の同定後に再符号化。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W24-SC01",
+          "target": "資料の同定",
+          "outcome": "探索を実施",
+          "unresolved": "本文と異本の範囲",
+          "transition": "分析開始条件が満たされていない"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S032"
@@ -5490,7 +6545,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": null,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5504,6 +6560,29 @@
       "unexplained_residue": "職業的管理が怖さとして受容されない段階、契約維持と依頼主の期待の不一致。",
       "counterexamples": "定期作業というだけでE5恐怖とは断定しない。各怪異が異なるとする作中分類観を26型の反証と混同しない。",
       "change_proposals": "E5の状態構造と当事者の恐怖受容を別欄。管理の終了不能の根拠を要求。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W25-SC01",
+          "target": "家の生活条件",
+          "outcome": "退去手順を実施",
+          "unresolved": "再侵入の長期成績",
+          "transition": "A3対処、Q完全解明不要"
+        },
+        {
+          "scene_id": "G03-W25-SC02",
+          "target": "山の管理",
+          "outcome": "今回の作業完了",
+          "unresolved": "終了条件・継承",
+          "transition": "E5の当面成果"
+        },
+        {
+          "scene_id": "G03-W25-SC02",
+          "target": "弟子の安全",
+          "outcome": "援助して下山",
+          "unresolved": "恐怖・技能の継承",
+          "transition": "脆弱性の差。喪失が切迫するC4は留保"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S021",
@@ -5537,7 +6616,8 @@
             "F2"
           ],
           "confidence": 0.81,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W25-SC02",
@@ -5566,7 +6646,8 @@
             "C2"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5580,6 +6661,36 @@
       "unexplained_residue": "物を処分する当人の成功と廃棄先の安全の差。",
       "counterexamples": "熱中は行動不能D3ではない。アナグラムが分かっても門の機構は解明されない。",
       "change_proposals": "E5へ機械的分類しない。起動停止・局所回避・全体無害化を別対象で記録。",
+      "problem_tracking": [
+        {
+          "scene_id": "G03-W26-SC01",
+          "target": "現実の起動危険",
+          "outcome": "危険仮説を得る",
+          "unresolved": "必要十分起動条件",
+          "transition": "Q部分更新"
+        },
+        {
+          "scene_id": "G03-W26-SC01",
+          "target": "夢内の捕捉",
+          "outcome": "目覚めで夢場面終了",
+          "unresolved": "現実原因",
+          "transition": "A2場面終結≠現実D閉鎖"
+        },
+        {
+          "scene_id": "G03-W26-SC02",
+          "target": "当人達の怪異",
+          "outcome": "処分後の非再発",
+          "unresolved": "長期の再発",
+          "transition": "今回のD低下を固定"
+        },
+        {
+          "scene_id": "G03-W26-SC02",
+          "target": "物の全体危険",
+          "outcome": "当人から離れただけ",
+          "unresolved": "無害化・他者被害・別個体",
+          "transition": "未解決Q/D、E2は未成立"
+        }
+      ],
       "group_id": "group_03",
       "source_ids": [
         "G03-S024"
@@ -5612,7 +6723,8 @@
             "B4"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G03-W26-SC02",
@@ -5641,7 +6753,8 @@
             "F2"
           ],
           "confidence": 0.94,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -5682,7 +6795,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -5721,7 +6835,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -5767,7 +6882,8 @@
             "D4"
           ],
           "confidence": 0.8,
-          "outcomes": "G04-W03-S01-Dの残留危険は回避。友人の回復と像の由来Qは別途追跡。"
+          "outcomes": "G04-W03-S01-Dの残留危険は回避。友人の回復と像の由来Qは別途追跡。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W03-S02",
@@ -5795,7 +6911,8 @@
             "F2"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W03-S03",
@@ -5823,7 +6940,8 @@
             "D5"
           ],
           "confidence": 0.8,
-          "outcomes": "当面のD3停止と後年の非再発を成果として保持。物の名前判明は起源Q全体の閉鎖ではない。"
+          "outcomes": "当面のD3停止と後年の非再発を成果として保持。物の名前判明は起源Q全体の閉鎖ではない。",
+          "transitions": []
         }
       ]
     },
@@ -5868,7 +6986,8 @@
             "F1"
           ],
           "confidence": 0.7,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -5914,7 +7033,8 @@
             "E1"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W05-S02",
@@ -5942,7 +7062,8 @@
             "E3"
           ],
           "confidence": 0.8,
-          "outcomes": "退職というCへの決着。失った仕事の回復や現象の永久除去は未確認。"
+          "outcomes": "退職というCへの決着。失った仕事の回復や現象の永久除去は未確認。",
+          "transitions": []
         }
       ]
     },
@@ -5986,7 +7107,8 @@
             "E3"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W06-S02",
@@ -6017,7 +7139,8 @@
             "A4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W06-S03",
@@ -6046,7 +7169,8 @@
             "E2"
           ],
           "confidence": 0.8,
-          "outcomes": "自己のDは進行停止・生存という成果。小指欠損と友人の死亡は回復されない。"
+          "outcomes": "自己のDは進行停止・生存という成果。小指欠損と友人の死亡は回復されない。",
+          "transitions": []
         }
       ]
     },
@@ -6096,7 +7220,8 @@
             "E1"
           ],
           "confidence": 0.8,
-          "outcomes": "A1→A2。子どもの逃走成果を保持し、犬の喪失は別Dの損失による終結。"
+          "outcomes": "A1→A2。子どもの逃走成果を保持し、犬の喪失は別Dの損失による終結。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W07-S02",
@@ -6127,7 +7252,8 @@
             "C2"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W07-S03",
@@ -6157,7 +7283,8 @@
             "E4"
           ],
           "confidence": 0.8,
-          "outcomes": "初期の援助不足→支援確保という成果。警察が無力という一般命題を採らない。"
+          "outcomes": "初期の援助不足→支援確保という成果。警察が無力という一般命題を採らない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W07-S04",
@@ -6188,7 +7315,8 @@
             "F2"
           ],
           "confidence": 0.8,
-          "outcomes": "謝罪の受容C→信頼の訂正M。後年の生存・非接触を成果として残す。"
+          "outcomes": "謝罪の受容C→信頼の訂正M。後年の生存・非接触を成果として残す。",
+          "transitions": []
         }
       ]
     },
@@ -6233,7 +7361,8 @@
             "F4"
           ],
           "confidence": 0.65,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6279,7 +7408,8 @@
             "A3"
           ],
           "confidence": 0.6,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W09-S02",
@@ -6307,7 +7437,8 @@
             "E1"
           ],
           "confidence": 0.5,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6352,7 +7483,8 @@
             "F2"
           ],
           "confidence": 0.7,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6397,7 +7529,8 @@
             "F1"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W11-S02",
@@ -6424,7 +7557,8 @@
             "E4"
           ],
           "confidence": 0.8,
-          "outcomes": "B3の局所脱出成果を固定。未知Qの継続を失敗と同一視しない。"
+          "outcomes": "B3の局所脱出成果を固定。未知Qの継続を失敗と同一視しない。",
+          "transitions": []
         }
       ]
     },
@@ -6470,7 +7604,8 @@
             "D4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W12-S02",
@@ -6498,7 +7633,8 @@
             "F2"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W12-S03",
@@ -6528,7 +7664,8 @@
             "F4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6575,7 +7712,8 @@
             "C2"
           ],
           "confidence": 0.8,
-          "outcomes": "自己の逃走成果と他者の喪失を分離。救助不能の理解を救助成功にしない。"
+          "outcomes": "自己の逃走成果と他者の喪失を分離。救助不能の理解を救助成功にしない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W13-S02",
@@ -6604,7 +7742,8 @@
             "A1"
           ],
           "confidence": 0.6,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6649,7 +7788,8 @@
             "B3"
           ],
           "confidence": 0.65,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W14-S02",
@@ -6677,7 +7817,8 @@
             "F1"
           ],
           "confidence": 0.65,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6722,7 +7863,8 @@
             "D4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W15-S02",
@@ -6752,7 +7894,8 @@
             "E5"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W15-S03",
@@ -6780,7 +7923,8 @@
             "C1"
           ],
           "confidence": 0.8,
-          "outcomes": "C4は損失による終結。家族史Qの部分解明と子どもの生活被害を分離。"
+          "outcomes": "C4は損失による終結。家族史Qの部分解明と子どもの生活被害を分離。",
+          "transitions": []
         }
       ]
     },
@@ -6825,7 +7969,8 @@
             "E1"
           ],
           "confidence": 0.55,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6870,7 +8015,8 @@
             "C1"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W17-S02",
@@ -6898,7 +8044,8 @@
             "E1"
           ],
           "confidence": 0.65,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -6941,7 +8088,8 @@
             "F4"
           ],
           "confidence": 0.75,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W18-S02",
@@ -6971,7 +8119,8 @@
             "E5"
           ],
           "confidence": 0.6,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -7014,7 +8163,8 @@
             "F2"
           ],
           "confidence": 0.9,
-          "outcomes": "恐怖型の陰性例。分類対象外は分析失敗を意味しない。"
+          "outcomes": "恐怖型の陰性例。分類対象外は分析失敗を意味しない。",
+          "transitions": []
         }
       ]
     },
@@ -7053,7 +8203,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -7099,7 +8250,8 @@
             "F3"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W21-S02",
@@ -7128,7 +8280,8 @@
             "E3"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W21-S03",
@@ -7156,7 +8309,8 @@
             "D4"
           ],
           "confidence": 0.65,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -7202,7 +8356,8 @@
             "C1"
           ],
           "confidence": 0.8,
-          "outcomes": "一番号の遮断は成果だが、別番号による接触Dは開く。新しい情報と新しい接触行動を分離。"
+          "outcomes": "一番号の遮断は成果だが、別番号による接触Dは開く。新しい情報と新しい接触行動を分離。",
+          "transitions": []
         }
       ]
     },
@@ -7248,7 +8403,8 @@
             "B3"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W23-S02",
@@ -7279,7 +8435,8 @@
             "D5"
           ],
           "confidence": 0.8,
-          "outcomes": "車の離脱Dは閉じたが娘のDは継続。新しい対象IDへ追跡する。"
+          "outcomes": "車の離脱Dは閉じたが娘のDは継続。新しい対象IDへ追跡する。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W23-S03",
@@ -7308,7 +8465,8 @@
             "E3"
           ],
           "confidence": 0.7,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -7353,7 +8511,8 @@
             "A4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W24-S02",
@@ -7382,7 +8541,8 @@
             "F1"
           ],
           "confidence": 0.65,
-          "outcomes": "過去の夢の終了成果を保つ。説明で新たな現実の憑依が発生したとは記されない。"
+          "outcomes": "過去の夢の終了成果を保つ。説明で新たな現実の憑依が発生したとは記されない。",
+          "transitions": []
         }
       ]
     },
@@ -7440,7 +8600,8 @@
             "B4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W25-S02",
@@ -7474,7 +8635,8 @@
             "F2"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W25-S03",
@@ -7508,7 +8670,8 @@
             "E3"
           ],
           "confidence": 0.8,
-          "outcomes": "日常復帰と2年間の非再発を成果として固定。処置の機構Qは未解決。"
+          "outcomes": "日常復帰と2年間の非再発を成果として固定。処置の機構Qは未解決。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W25-S04",
@@ -7545,7 +8708,8 @@
             "D4"
           ],
           "confidence": 0.75,
-          "outcomes": "Mの安心条件が変わる。前場面の生活復帰を取消さない。後の実被害は記されない。"
+          "outcomes": "Mの安心条件が変わる。前場面の生活復帰を取消さない。後の実被害は記されない。",
+          "transitions": []
         }
       ]
     },
@@ -7590,7 +8754,8 @@
             "D4"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W26-S02",
@@ -7619,7 +8784,8 @@
             "E3"
           ],
           "confidence": 0.8,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W26-S03",
@@ -7650,7 +8816,8 @@
             "F4"
           ],
           "confidence": 0.7,
-          "outcomes": "家族分離Cへの決着と、親族の被害D・由来Qを別対象にする。"
+          "outcomes": "家族分離Cへの決着と、親族の被害D・由来Qを別対象にする。",
+          "transitions": []
         },
         {
           "scene_id": "G04-W26-S04",
@@ -7678,7 +8845,8 @@
             "F2"
           ],
           "confidence": 0.7,
-          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。"
+          "outcomes": "本文で示された成果と未解決問題は閉鎖条件欄に分離した。未知の規則を確定せず、危険除去も推定しない。",
+          "transitions": []
         }
       ]
     },
@@ -7692,6 +8860,41 @@
       "unexplained_residue": "人形と女の同一性、指と寺社・交通事故の因果は未確定\n魅力・嫌悪・滑稽な会話は予期的損失の分類だけでは説明しない",
       "counterexamples": "正体を人形と見抜いても逃走は必要。識別Q≠接触Dの除去\n既知の本人を模倣した証拠がないのでC1への全面適合ではない",
       "change_proposals": "C1に「人間らしく見える未知の他者」を自動包含しない注記\n所持品の押し付けとE5の安全管理を分ける",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "今回の追跡・監禁から離脱。投稿まで再発なし。",
+        "unresolved_targets": "指・人形・事故の因果、恒久安全は未確定。",
+        "transitions": [
+          {
+            "from_scene": "G05-W01-S01",
+            "to_scene": "G05-W01-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "A3"
+            ],
+            "to_type_ids": [
+              "A2",
+              "B2",
+              "E1"
+            ]
+          },
+          {
+            "from_scene": "G05-W01-S02",
+            "to_scene": "G05-W01-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "B2",
+              "E1"
+            ],
+            "to_type_ids": [
+              "A2"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S01-01",
@@ -7724,7 +8927,8 @@
             "C2"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W01-S02",
@@ -7753,7 +8957,8 @@
             "C1"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W01-S03",
@@ -7781,7 +8986,8 @@
             "F1"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -7795,6 +9001,26 @@
       "unexplained_residue": "絵が入口・人形が防御という説明は専門家の証言に依存\n一生の義務の不履行で何が起きるか観察されない",
       "counterexamples": "処置後の気分回復という成功を、管理責任が残ることから無効化しない\n笑いと感謝が多くても問題状態はA3/E1として記述できる",
       "change_proposals": "E5に管理規則の証拠水準を必ず付記",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "処置後の改善を本人が報告。",
+        "unresolved_targets": "終身の人形保護義務は証言上残る。",
+        "transitions": [
+          {
+            "from_scene": "G05-W02-S01",
+            "to_scene": "G05-W02-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A3",
+              "E1"
+            ],
+            "to_type_ids": [
+              "E1",
+              "E5"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S02-01"
@@ -7826,7 +9052,8 @@
             "D5"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W02-S02",
@@ -7854,7 +9081,8 @@
             "E4"
           ],
           "confidence": 0.75,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -7868,6 +9096,25 @@
       "unexplained_residue": "振り返った友人が何を見たか不明\n巨大さ・臭い・畏怖は26型だけでは記述しきれない",
       "counterexamples": "振り返り禁止という行動知識はあるが、何が被害を起こすかは説明されない\n大きい未知の存在だけでF2へ適合とはしない",
       "change_proposals": "A1→A2遷移には標的接近の観察を要求する",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "語り手は退避、友人は治療後回復。",
+        "unresolved_targets": "犬は喪失、友人の見たものと後遺反応は残る。",
+        "transitions": [
+          {
+            "from_scene": "G05-W03-S01",
+            "to_scene": "G05-W03-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A1"
+            ],
+            "to_type_ids": [
+              "E1",
+              "C4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S03-01",
@@ -7902,7 +9149,8 @@
             "F2"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W03-S02",
@@ -7932,7 +9180,8 @@
             "E2"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -7946,6 +9195,11 @@
       "unexplained_residue": "題名しか確実な対象情報がない。",
       "counterexamples": "未検証のため類型の反例として使用できない。",
       "change_proposals": "本文入手後に独立抽出から検証する。",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本文不足のため成果を認定しない。",
+        "unresolved_targets": "対象本文と版の確認が必要。",
+        "transitions": []
+      },
       "group_id": "group_05",
       "source_ids": [],
       "scenes": [
@@ -7967,7 +9221,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -7981,6 +9236,24 @@
       "unexplained_residue": "目覚め条件が発動規則なのか、加害者の言葉なのか不明\n後から気づく未遂の危険と現在の逃走は別時点",
       "counterexamples": "過去に刺されたかもしれないという反実仮想を進行中D5にしない",
       "change_proposals": "E1の相関・脅し・実証を分ける",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "車への退避で刺突・追跡を回避。",
+        "unresolved_targets": "女の正体・動機・視覚条件は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W05-S01",
+            "to_scene": "G05-W05-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1"
+            ],
+            "to_type_ids": [
+              "A2"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S05-01"
@@ -8011,7 +9284,8 @@
             "A1"
           ],
           "confidence": 0.72,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W05-S02",
@@ -8038,7 +9312,8 @@
             "F1"
           ],
           "confidence": 0.92,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8052,6 +9327,43 @@
       "unexplained_residue": "禍垂の由来・制御能力は不明\n儀礼の有効性とUの状態は専門家の説明に依存",
       "counterexamples": "元恋人の敵意という初期モデルが、支配され助けようとする死者というモデルへ変わる\n有限の一晩の防御を自動的にE5としない",
       "change_proposals": "A1に所在と個体識別の違いを追記\n儀礼終了と別対象の未救助を分離",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "一晩の防御で本人の接続を切ったと説明。",
+        "unresolved_targets": "Uの救助と禍垂の由来は未解決。",
+        "transitions": [
+          {
+            "from_scene": "G05-W06-S01",
+            "to_scene": "G05-W06-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "A3"
+            ],
+            "to_type_ids": [
+              "A1",
+              "A4",
+              "E1"
+            ]
+          },
+          {
+            "from_scene": "G05-W06-S02",
+            "to_scene": "G05-W06-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A1",
+              "A4",
+              "E1"
+            ],
+            "to_type_ids": [
+              "C4",
+              "E4",
+              "D3"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S06-01"
@@ -8083,7 +9395,8 @@
             "C2"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W06-S02",
@@ -8112,7 +9425,8 @@
             "E4"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W06-S03",
@@ -8141,7 +9455,8 @@
             "F2"
           ],
           "confidence": 0.7,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8155,6 +9470,26 @@
       "unexplained_residue": "実際の加害が明示されず、存在への不気味さが大きい\n片眼の細部一致は独立した報告とは検証されていない",
       "counterexamples": "創作者が嘘と認めても、現在の目撃の正否というQは閉じない\n語られた危険の拡散と本当に被害が伝播したことは違う",
       "change_proposals": "作中創作・伝聞・直接観察の入れ子を修飾子として必須化",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "物語の創作由来Qは解明。",
+        "unresolved_targets": "現在の目撃・細部一致Qは未解決、実害は確認しない。",
+        "transitions": [
+          {
+            "from_scene": "G05-W07-S01",
+            "to_scene": "G05-W07-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B4",
+              "A3",
+              "E2"
+            ],
+            "to_type_ids": [
+              "B4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S07-01"
@@ -8187,7 +9522,8 @@
             "C3"
           ],
           "confidence": 0.7,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W07-S02",
@@ -8214,7 +9550,8 @@
             "E2"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8228,6 +9565,29 @@
       "unexplained_residue": "由来は口承、現代は語り手の体験という異なる証拠水準\n変質と損傷は同じ過去人物に併存する",
       "counterexamples": "骨の喪失は感染の証拠なしでもD5として記述できる\n捜索者が家の場所を知っていても標的の個体識別を妨げる余地がある",
       "change_proposals": "A1の感知対象を所在／本人識別に分ける\nD5→D2の損失変化を明記",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "孫は一晩を生存し執着が離れたと告げられる。",
+        "unresolved_targets": "祖父の既損傷・由来の裏付けは別。",
+        "transitions": [
+          {
+            "from_scene": "G05-W08-S01",
+            "to_scene": "G05-W08-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "D5",
+              "D2",
+              "E1"
+            ],
+            "to_type_ids": [
+              "A1",
+              "A4",
+              "E1",
+              "C4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S08-01"
@@ -8260,7 +9620,8 @@
             "D4"
           ],
           "confidence": 0.79,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W08-S02",
@@ -8291,7 +9652,8 @@
             "C3"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8305,6 +9667,41 @@
       "unexplained_residue": "儀礼後に減ったという寿命は追跡可能な実測ではない\n神・幽霊の説明は祈祷者も仮説として述べる\n読者伝播の追記は訂正されている",
       "counterexamples": "原因を理解しても寿命の代償という選択が残る\n掲載途中の読者呪いだけを抜き出すとE2が過大評価される\n転落の外傷をD5、救助の危険をE3へ自動分類しない",
       "change_proposals": "訂正・なりすまし投稿を版情報と情報信頼性タグへ追加\nE3では未検証の代償と実際の同意を分離",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "再儀礼後に卒業まで安定を報告。",
+        "unresolved_targets": "寿命減少は未検証、読者呪い追記は偽投稿と訂正。",
+        "transitions": [
+          {
+            "from_scene": "G05-W09-S01",
+            "to_scene": "G05-W09-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "A2",
+              "C3",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E3",
+              "C2",
+              "E1"
+            ]
+          },
+          {
+            "from_scene": "G05-W09-S02",
+            "to_scene": "G05-W09-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E3",
+              "C2",
+              "E1"
+            ],
+            "to_type_ids": []
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S09-01",
@@ -8342,7 +9739,8 @@
             "D5"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W09-S02",
@@ -8373,7 +9771,8 @@
             "F3"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W09-S03",
@@ -8399,7 +9798,8 @@
             "B4"
           ],
           "confidence": 0.93,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8413,6 +9813,26 @@
       "unexplained_residue": "歴史の剽窃・怨みの真相は作中資料と語り手の再構成\n終末の影と座長の死が呪いの成就かは確定しない",
       "counterexamples": "失明済みの人なら失明条件を回避できるという案は、次の生命損失の説明で否定される\n技術を持つ座長の回収成功は固定し、後の死を自動的な失敗にしない",
       "change_proposals": "E3の提案された代償と、本当に必要な代償を区別\n閉鎖の誤認は新型でなくQ/D再認識として扱う",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "失明せず回収・安置する処置が成立。",
+        "unresolved_targets": "座長の後の死と影の因果、長期管理は未確定。",
+        "transitions": [
+          {
+            "from_scene": "G05-W10-S01",
+            "to_scene": "G05-W10-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "E4",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E1"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S10-01"
@@ -8445,7 +9865,8 @@
             "D5"
           ],
           "confidence": 0.8,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W10-S02",
@@ -8473,7 +9894,8 @@
             "F4"
           ],
           "confidence": 0.81,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8487,6 +9909,44 @@
       "unexplained_residue": "標的分散が本当に有効かは語り手の予測\n友人の死・精神的不調は後日の伝聞\n記憶条件による呪いは作品内規則で実際の読者危険ではない",
       "counterexamples": "Aの救助処置とCの別の再接触被害を分ける\n説明を読むことでDが増えるとする設定も、解明一般が有害という実証にならない",
       "change_proposals": "E2に物語内の伝播・語り手が意図する伝播・読者宛て演出を区別",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "Aの救助・本人の一時離脱。",
+        "unresolved_targets": "Cの死亡、他者への伝播と語り手の分散策は別対象。",
+        "transitions": [
+          {
+            "from_scene": "G05-W11-S01",
+            "to_scene": "G05-W11-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "D3",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E1",
+              "A1",
+              "E2"
+            ]
+          },
+          {
+            "from_scene": "G05-W11-S02",
+            "to_scene": "G05-W11-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "A1",
+              "E2"
+            ],
+            "to_type_ids": [
+              "E2",
+              "E3",
+              "C2"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S11-01"
@@ -8519,7 +9979,8 @@
             "D4"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W11-S02",
@@ -8549,7 +10010,8 @@
             "F2"
           ],
           "confidence": 0.74,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W11-S03",
@@ -8578,7 +10040,8 @@
             "F3"
           ],
           "confidence": 0.79,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8592,6 +10055,27 @@
       "unexplained_residue": "夢の兄・圏外の電話は救助に働くが仕組み不明\n「邪視」の一般文化的説明を作品の因果と取り替えない",
       "counterexamples": "叔父は規則を知っていても視線への曝露を完全に防げない\n自殺への欲求と、意図しない動作を区別する必要",
       "change_proposals": "D3に意欲への強制／動作制御という修飾子を提案",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "二人は退避、小屋を処分。",
+        "unresolved_targets": "主体・不思議な救助の由来と恒久安全は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W12-S01",
+            "to_scene": "G05-W12-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "D3"
+            ],
+            "to_type_ids": [
+              "A2",
+              "A3",
+              "E1"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S12-01"
@@ -8624,7 +10108,8 @@
             "E4"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W12-S02",
@@ -8653,7 +10138,8 @@
             "F3"
           ],
           "confidence": 0.89,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8667,6 +10153,25 @@
       "unexplained_residue": "警察の意味深な言葉の裏付けはない\n事故は注意散漫・速度誤認でも説明でき、超常の独立証明ではない",
       "counterexamples": "背中を確認してQが閉じた直後でも接触Dは新しく開く\n前を向いている怪人だからといって追跡A2とは限らない",
       "change_proposals": "B4では矛盾命題と損失の接続を明記",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "事故を生存し以降は背を確認しない。",
+        "unresolved_targets": "速度の矛盾、怪人の持続と再加害条件は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W13-S01",
+            "to_scene": "G05-W13-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A3",
+              "E1"
+            ],
+            "to_type_ids": [
+              "B4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S13-01"
@@ -8698,7 +10203,8 @@
             "D2"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W13-S02",
@@ -8726,7 +10232,8 @@
             "F1"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8740,6 +10247,26 @@
       "unexplained_residue": "井戸の由来と軍施設の目的は説明されない\n組織が定期供給で世界を維持しているというF4的拡張は本文にない",
       "counterexamples": "真相が分かるほど本人の離脱が困難になるが、理解したこと自体を全ての原因としない\n未知の組織規模だけでF4へ拡大しない",
       "change_proposals": "組織的な敵対C2とF4の成立依存を厳密に分ける",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本人が組織から離脱して逃亡。",
+        "unresolved_targets": "被害者は救出できず、組織の追跡可能性・井戸は残る。",
+        "transitions": [
+          {
+            "from_scene": "G05-W14-S01",
+            "to_scene": "G05-W14-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "C2",
+              "C4"
+            ],
+            "to_type_ids": [
+              "A1",
+              "C2"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S14-01"
@@ -8772,7 +10299,8 @@
             "F4"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W14-S02",
@@ -8800,7 +10328,8 @@
             "F2"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8814,6 +10343,23 @@
       "unexplained_residue": "怪異から将来の具体的加害がほとんど提示されない\n恐れ・悲しみ・不気味さ中心の場面を危険分類へ強制しない",
       "counterexamples": "4本の手の異形は語り手自身の身体変質D2ではない\n母の隠蔽は保護目的で、味方の加害C2ではない",
       "change_proposals": "予期的損失未指定という保留欄を作り、説明範囲の限界を維持",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "当人は卒業。",
+        "unresolved_targets": "具体的加害・少女との同一性は未確認。",
+        "transitions": [
+          {
+            "from_scene": "G05-W15-S01",
+            "to_scene": "G05-W15-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B4",
+              "A3"
+            ],
+            "to_type_ids": []
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S15-01"
@@ -8845,7 +10391,8 @@
             "D2"
           ],
           "confidence": 0.71,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W15-S02",
@@ -8871,7 +10418,8 @@
             "F1"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8885,6 +10433,40 @@
       "unexplained_residue": "女性たちの敵意・誘導は語り手の疑念であって確定しない\n休憩所に戻れない理由と失踪者の時間は不明",
       "counterexamples": "異形がこちらへ来ても、通り過ぎてトイレへ行く場合は標的追跡A2ではない\n帰路・警察到達の成功と同乗者の消失を分ける",
       "change_proposals": "A2には標的指向性を、B3には地図・探索の範囲を添える",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本人が町へ退避し警察へ相談。",
+        "unresolved_targets": "同乗者の消失、10年の時間差、休憩所の所在は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W16-S01",
+            "to_scene": "G05-W16-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B1"
+            ],
+            "to_type_ids": [
+              "A2",
+              "C4"
+            ]
+          },
+          {
+            "from_scene": "G05-W16-S02",
+            "to_scene": "G05-W16-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "C4"
+            ],
+            "to_type_ids": [
+              "B3",
+              "B4",
+              "C4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S16-01"
@@ -8915,7 +10497,8 @@
             "F1"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W16-S02",
@@ -8943,7 +10526,8 @@
             "E3"
           ],
           "confidence": 0.91,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W16-S03",
@@ -8973,7 +10557,8 @@
             "F1"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -8987,6 +10572,39 @@
       "unexplained_residue": "壁画の正しい読みも当事者の解釈\n焼かれたもの・失われた腕・祖父の関与の因果は不明\n卵の安置は継続抑制の証拠とは限らない",
       "counterexamples": "古い伝承の理解は必ずしも安全規則の理解ではない\n燃やして祖父を救った局所成功を、卵と伝承の残余があるため取り消さない",
       "change_proposals": "B4の根拠を証拠そのものと解釈方向へ分ける\nE5を保管の存在だけで付けない",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "祖父を救い来襲者の接触を止める。",
+        "unresolved_targets": "卵・壁画・欠損腕・祖父の関与は未確定。",
+        "transitions": [
+          {
+            "from_scene": "G05-W17-S01",
+            "to_scene": "G05-W17-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B4",
+              "E1"
+            ],
+            "to_type_ids": [
+              "A3",
+              "C4"
+            ]
+          },
+          {
+            "from_scene": "G05-W17-S02",
+            "to_scene": "G05-W17-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A3",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E1"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S17-01"
@@ -9018,7 +10636,8 @@
             "F1"
           ],
           "confidence": 0.82,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W17-S02",
@@ -9046,7 +10665,8 @@
             "F2"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W17-S03",
@@ -9073,7 +10693,8 @@
             "E2"
           ],
           "confidence": 0.71,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9087,6 +10708,43 @@
       "unexplained_residue": "親族の声の模倣と目撃された姿は裏付けがある\n地蔵の破損は祖母の情報であり再襲撃の直接観察はない",
       "counterexamples": "部屋の一晩と村の長期管理は時間・終了条件が違う\n家族の声と話者の本人性の確認は危険を止める手段になる",
       "change_proposals": "A1に個体識別の偽装を含める候補\nE5の管理者・防御対象・継承条件を明示",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本人が村外へ出て10年間回避。",
+        "unresolved_targets": "封印破損後の村・本人の状態は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W18-S01",
+            "to_scene": "G05-W18-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "C1",
+              "A4",
+              "E1"
+            ],
+            "to_type_ids": [
+              "A2",
+              "A1",
+              "C4"
+            ]
+          },
+          {
+            "from_scene": "G05-W18-S02",
+            "to_scene": "G05-W18-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "A1",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E5",
+              "E1"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S18-01"
@@ -9119,7 +10777,8 @@
             "E5"
           ],
           "confidence": 0.91,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W18-S02",
@@ -9149,7 +10808,8 @@
             "F4"
           ],
           "confidence": 0.88,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W18-S03",
@@ -9177,7 +10837,8 @@
             "F1"
           ],
           "confidence": 0.85,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9191,6 +10852,24 @@
       "unexplained_residue": "他作品の能力をこの保育園の存在に継ぎ足さない\n語り手が子供の移動や絵を思い出しても加害者を同定したわけではない",
       "counterexamples": "被害拡大の時間列と媒介による伝播E2は違う\n子供だけが名前を知ることは共有情報の経路の問いで、親の証言との矛盾そのものではない",
       "change_proposals": "シリーズの作品・話・共通設定という3つの単位を記録",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "大きい動物への加害が停止。",
+        "unresolved_targets": "虫への加害継続、シリーズ全体は未検証。",
+        "transitions": [
+          {
+            "from_scene": "G05-W19-S01",
+            "to_scene": "G05-W19-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A3",
+              "C4",
+              "B4"
+            ],
+            "to_type_ids": []
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S19-01"
@@ -9223,7 +10902,8 @@
             "F2"
           ],
           "confidence": 0.72,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W19-S02",
@@ -9249,7 +10929,8 @@
             "F1"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9263,6 +10944,40 @@
       "unexplained_residue": "夢と覚醒の階層が確定しない\n恨みを減らした後に夢が減るのは相関で呪い規則の実証ではない\n橋への再到達は経路錯誤でも説明できる",
       "counterexamples": "思い出せない他人がいることを人格置換D4に直結しない\n夢の中の追跡と覚醒世界のDを主体・層別に記録",
       "change_proposals": "夢／偽覚醒／現実という観測層タグを追加",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "案内を拒否して戻り、生活変更後は夢が減る。",
+        "unresolved_targets": "夢・現実の階層、旧友、因果規則は未解明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W20-S01",
+            "to_scene": "G05-W20-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B4"
+            ],
+            "to_type_ids": [
+              "A2",
+              "B4",
+              "D3"
+            ]
+          },
+          {
+            "from_scene": "G05-W20-S02",
+            "to_scene": "G05-W20-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "B4",
+              "D3"
+            ],
+            "to_type_ids": [
+              "B1"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S20-01"
@@ -9294,7 +11009,8 @@
             "F1"
           ],
           "confidence": 0.78,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W20-S02",
@@ -9323,7 +11039,8 @@
             "F1"
           ],
           "confidence": 0.75,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W20-S03",
@@ -9351,7 +11068,8 @@
             "E3"
           ],
           "confidence": 0.72,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9365,6 +11083,11 @@
       "unexplained_residue": "正確な作品本文がない。",
       "counterexamples": "未検証を適合・不適合の根拠にはしない。",
       "change_proposals": "出典提供または原典の所在特定後に検証。",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本文不足のため成果を認定しない。",
+        "unresolved_targets": "対象本文と版の確認が必要。",
+        "transitions": []
+      },
       "group_id": "group_05",
       "source_ids": [],
       "scenes": [
@@ -9386,7 +11109,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9400,6 +11124,25 @@
       "unexplained_residue": "子供の正体・何が相手を刺激したか不明\n当人が怖がりでなくなったという後日談は怖さの尺度測定ではない",
       "counterexamples": "静寂は観測の変化で追手が存在しない証明ではない\n位置が既知の家内で隠れることを全てA1にしない",
       "change_proposals": "終了時点と安全確認の証拠を必須化",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "一夜を被害なく過ごす。",
+        "unresolved_targets": "追手の退出・正体・再発条件は不明。",
+        "transitions": [
+          {
+            "from_scene": "G05-W22-S01",
+            "to_scene": "G05-W22-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "A2",
+              "E1"
+            ],
+            "to_type_ids": [
+              "A4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S22-01"
@@ -9431,7 +11174,8 @@
             "C1"
           ],
           "confidence": 0.86,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W22-S02",
@@ -9459,7 +11203,8 @@
             "E5"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9473,6 +11218,26 @@
       "unexplained_residue": "対象項目との対応が不確定なので候補別の分析であり作品全体の確定分類ではない\n候補Bには具体的な将来損失の描写が薄い",
       "counterexamples": "同じ頭文字は作品同一性の根拠にならない\n記録から他人の顔が消えたことを自己の存在置換D4にしない",
       "change_proposals": "対象同定確信度と類型解釈確信度を分離",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "候補ごとの離脱・記録調査まで読了。",
+        "unresolved_targets": "指定項目との同定、二人の同一性は保留。",
+        "transitions": [
+          {
+            "from_scene": "G05-W23-S01",
+            "to_scene": "G05-W23-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "B4",
+              "C2",
+              "E1"
+            ],
+            "to_type_ids": [
+              "B4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S23-01",
@@ -9506,7 +11271,8 @@
             "F1"
           ],
           "confidence": 0.66,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W23-S02",
@@ -9534,7 +11300,8 @@
             "A3"
           ],
           "confidence": 0.64,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9548,6 +11315,42 @@
       "unexplained_residue": "由来と4珠の能力は祖父・住職の説明\nKの心理の内面は友人が推測し、本人の夢と完全には照合できない",
       "counterexamples": "既に内部で何かが感染したという仮説を必要とせずE1とD3で記述できる\n新しい封印・安全な移管は当人の管理問題を閉じても全体の危険を残す",
       "change_proposals": "E5に当面の抑制／当事者の離脱／全体の無害化の3水準を追加\nD3の欲求への介入を境界候補として追試",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "封印更新と専門家移管を実行。",
+        "unresolved_targets": "Kは死亡、他珠と全体の恒久無害化は未解決。",
+        "transitions": [
+          {
+            "from_scene": "G05-W24-S01",
+            "to_scene": "G05-W24-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "D3",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E5",
+              "E2",
+              "E1"
+            ]
+          },
+          {
+            "from_scene": "G05-W24-S02",
+            "to_scene": "G05-W24-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E5",
+              "E2",
+              "E1"
+            ],
+            "to_type_ids": [
+              "E5"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S24-01"
@@ -9582,7 +11385,8 @@
             "F4"
           ],
           "confidence": 0.83,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W24-S02",
@@ -9612,7 +11416,8 @@
             "F4"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W24-S03",
@@ -9639,7 +11444,8 @@
             "E3"
           ],
           "confidence": 0.9,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9653,6 +11459,47 @@
       "unexplained_residue": "住職は複数の事情を仮説として説明\n親切な運転手の知識と意図は不明\n3人の救助後も女将側の存在や旅館の後日状態は不明",
       "counterexamples": "読了範囲を途中の一晩で切ると複数対象の結末を混同する\n供物を与えて成長させる行為は、危険を抑える管理E5と必ずしも同じではない\n死んだ子への悲嘆はC4のこれから失いそうな危険と異なる",
       "change_proposals": "閉鎖条件を本人3人・女将・別存在・旅館の各対象で分離\nC2の加害行為の証拠と動機の推論を分ける",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "3人は祓い後に日常へ復帰。",
+        "unresolved_targets": "女将・別存在・旅館・運転手の状態と意図は未解決。",
+        "transitions": [
+          {
+            "from_scene": "G05-W25-S01",
+            "to_scene": "G05-W25-S02",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "E1",
+              "A2",
+              "C2"
+            ],
+            "to_type_ids": [
+              "C1",
+              "A4",
+              "A1",
+              "E1",
+              "C4"
+            ]
+          },
+          {
+            "from_scene": "G05-W25-S02",
+            "to_scene": "G05-W25-S03",
+            "retained_problem": "",
+            "closure_audit": "型の遷移だけで前場面のDを閉じない。前場面のQ/D/C/Mの記録と閉鎖条件、対象別成果を参照。",
+            "from_type_ids": [
+              "C1",
+              "A4",
+              "A1",
+              "E1",
+              "C4"
+            ],
+            "to_type_ids": [
+              "E1",
+              "C4"
+            ]
+          }
+        ]
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S25-01"
@@ -9686,7 +11533,8 @@
             "F4"
           ],
           "confidence": 0.84,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W25-S02",
@@ -9717,7 +11565,8 @@
             "B4"
           ],
           "confidence": 0.87,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         },
         {
           "scene_id": "G05-W25-S03",
@@ -9746,7 +11595,8 @@
             "E3"
           ],
           "confidence": 0.85,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     },
@@ -9760,6 +11610,11 @@
       "unexplained_residue": "二次資料の「悪魔」という一語以上の確実な対象本文がない。",
       "counterexamples": "名称や悪魔という解説だけではF群その他の型に割り当てられない。",
       "change_proposals": "原投稿番号と本文の所在を確定した後に再検証する。",
+      "outcome_tracking": {
+        "confirmed_or_reported_outcome": "本文不足のため成果を認定しない。",
+        "unresolved_targets": "対象本文と版の確認が必要。",
+        "transitions": []
+      },
       "group_id": "group_05",
       "source_ids": [
         "G05-S26-01",
@@ -9789,7 +11644,8 @@
           "type_ids": [],
           "competing_types": [],
           "confidence": 0,
-          "outcomes": ""
+          "outcomes": "",
+          "transitions": []
         }
       ]
     }
