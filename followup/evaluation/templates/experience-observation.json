@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "experience_observation",
+  "record_status": "template",
+  "observation_id": null,
+  "study_id": null,
+  "table_id": null,
+  "gm_id": null,
+  "participant_id": null,
+  "scene_id": null,
+  "condition_id": null,
+  "experiment_factor": null,
+  "timepoint": null,
+  "measurement_plan_ref": null,
+  "metrics": [
+    {
+      "metric_id": "danger_recognition",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "anticipated_loss",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "perceived_actions",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "agency",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "fear",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "uncanniness",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "disgust",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "surprise",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "grief",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "achievement",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "metric_id": "acceptance",
+      "question_ref": null,
+      "value": null,
+      "scale_min": null,
+      "scale_max": null,
+      "higher_means": null,
+      "missing_reason": "未測定"
+    }
+  ],
+  "ending": null,
+  "completion_status": "not_started",
+  "missing_or_stop_reason": null
+}

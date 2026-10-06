@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "gm_evaluation",
+  "record_status": "template",
+  "evaluation_id": null,
+  "study_id": null,
+  "design_id": null,
+  "design_sha256": null,
+  "gm_id": null,
+  "task_id": null,
+  "rater_id": null,
+  "rubric_ref": null,
+  "condition_blinded": null,
+  "condition_guess": null,
+  "criteria": [
+    {
+      "criterion_id": "required_information",
+      "score": null,
+      "locator": null,
+      "evidence_summary": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "criterion_id": "action_effect",
+      "score": null,
+      "locator": null,
+      "evidence_summary": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "criterion_id": "q_d_separation",
+      "score": null,
+      "locator": null,
+      "evidence_summary": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "criterion_id": "scope",
+      "score": null,
+      "locator": null,
+      "evidence_summary": null,
+      "missing_reason": "未測定"
+    },
+    {
+      "criterion_id": "preserved_outcomes",
+      "score": null,
+      "locator": null,
+      "evidence_summary": null,
+      "missing_reason": "未測定"
+    }
+  ],
+  "active_minutes": null,
+  "elapsed_minutes": null,
+  "interruptions_and_time_scope": null,
+  "completion_status": "not_started",
+  "burden_question_ref": null,
+  "burden_value": null,
+  "burden_missing_reason": null
+}

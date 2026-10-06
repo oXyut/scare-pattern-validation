@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "study_plan",
+  "record_status": "template",
+  "study_id": null,
+  "stage": "design",
+  "frozen_commit": null,
+  "frozen_at": null,
+  "fixed_artifacts": [],
+  "role_assignments": [],
+  "participation_conditions": null,
+  "consent_and_withdrawal": null,
+  "retention_and_access": null,
+  "sampling_frame_and_seed": null,
+  "segmentation_plan": null,
+  "gates": [
+    {
+      "gate_id": "G0",
+      "decision": "pending",
+      "evidence_ref": null,
+      "reason": null
+    },
+    {
+      "gate_id": "G1",
+      "decision": "pending",
+      "evidence_ref": null,
+      "reason": null
+    },
+    {
+      "gate_id": "G2",
+      "decision": "pending",
+      "evidence_ref": null,
+      "reason": null
+    },
+    {
+      "gate_id": "G3",
+      "decision": "pending",
+      "evidence_ref": null,
+      "reason": null
+    }
+  ],
+  "studies": [
+    {
+      "study_kind": "coding_frequency",
+      "planned_unit": null,
+      "planned_n": null,
+      "planned_n_basis": null,
+      "assumptions": null,
+      "primary_metric": null,
+      "analysis_method": null,
+      "success_rule": null,
+      "fail_rule": null,
+      "hold_rule": null,
+      "missing_policy": null,
+      "multiplicity": null,
+      "decisions_agreed": false,
+      "unsettled_items": [
+        "N・尺度・指標・閾値・解析・実施条件の事前合意が未完了"
+      ]
+    },
+    {
+      "study_kind": "coding_challenge",
+      "planned_unit": null,
+      "planned_n": null,
+      "planned_n_basis": null,
+      "assumptions": null,
+      "primary_metric": null,
+      "analysis_method": null,
+      "success_rule": null,
+      "fail_rule": null,
+      "hold_rule": null,
+      "missing_policy": null,
+      "multiplicity": null,
+      "decisions_agreed": false,
+      "unsettled_items": [
+        "N・尺度・指標・閾値・解析・実施条件の事前合意が未完了"
+      ]
+    },
+    {
+      "study_kind": "gm_support",
+      "planned_unit": null,
+      "planned_n": null,
+      "planned_n_basis": null,
+      "assumptions": null,
+      "primary_metric": null,
+      "analysis_method": null,
+      "success_rule": null,
+      "fail_rule": null,
+      "hold_rule": null,
+      "missing_policy": null,
+      "multiplicity": null,
+      "decisions_agreed": false,
+      "unsettled_items": [
+        "N・尺度・指標・閾値・解析・実施条件の事前合意が未完了"
+      ]
+    },
+    {
+      "study_kind": "player_experience",
+      "planned_unit": null,
+      "planned_n": null,
+      "planned_n_basis": null,
+      "assumptions": null,
+      "primary_metric": null,
+      "analysis_method": null,
+      "success_rule": null,
+      "fail_rule": null,
+      "hold_rule": null,
+      "missing_policy": null,
+      "multiplicity": null,
+      "decisions_agreed": false,
+      "unsettled_items": [
+        "N・尺度・指標・閾値・解析・実施条件の事前合意が未完了"
+      ]
+    }
+  ]
+}

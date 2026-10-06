@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "record_kind": "corpus_candidate",
+  "record_status": "template",
+  "candidate_id": null,
+  "study_id": null,
+  "set_kind": null,
+  "challenge_stratum": null,
+  "challenge_intent": null,
+  "title": null,
+  "source_url": null,
+  "version": null,
+  "scope": null,
+  "body_status": "unverified",
+  "source_accessed_at": null,
+  "access_time_missing_reason": "未取得・未記録",
+  "series_cluster_id": null,
+  "sampling_frame_ref": null,
+  "selection_order": null,
+  "selection_probability": null,
+  "selected_after_freeze": null,
+  "freeze_ref": null,
+  "exclusion_checks": [
+    {
+      "check_id": "development_131",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "kotori_bako",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "legacy_examples",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "alias",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "derivative",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "series",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    },
+    {
+      "check_id": "prior_exposure",
+      "result": "unresolved",
+      "comparison_ref": null,
+      "evidence_summary": null
+    }
+  ],
+  "decision": "hold",
+  "decision_reason": null,
+  "reviewer_id": null
+}
