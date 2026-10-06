@@ -68,12 +68,12 @@ test('missing scene outcomes only point to a work tracking section when it exist
     await checkWork(page,work.work_id,work.title);
     assert.equal(await page.locator('.work-tracking').count(),0);
     assert.match(await page.locator('.scene-more').first().textContent(),/場面単位の成果欄は未記録です。/);
-    assert.doesNotMatch(await page.locator('.scene-more').first().textContent(),/対象別の成果・問題追跡/);
+    assert.doesNotMatch(await page.locator('.scene-more').first().textContent(),/作品全体・対象ごとの成果と残る問題/);
   }
   await hash(page,'#work=G02-W01');
   await checkWork(page,'G02-W01','アクロバティックサラサラ');
   assert.equal(await page.locator('.work-tracking').count(),1);
-  assert.match(await page.locator('.scene-more').first().textContent(),/上の「対象別の成果・問題追跡」/);
+  assert.match(await page.locator('.scene-more').first().textContent(),/上の「作品全体・対象ごとの成果と残る問題」/);
 });
 
 test('source history resolves its owner after visiting another work',async t=>{
@@ -178,7 +178,7 @@ test('work tracking keeps outcomes, uncertainty, scene links and closure audits 
   await hash(page,'#work=G03-W03');
   await page.waitForFunction(()=>document.getElementById('work-detail').textContent.includes('探索を実施'));
   assert.match(await page.locator('.work-tracking').textContent(),/探索を実施/);
-  assert.match(await page.locator('.work-tracking').textContent(),/本文不足|資料同定/);
+  assert.match(await page.locator('.work-tracking').textContent(),/本文が不足.*物語の中で得られた成果としては扱いません/);
   assert.equal(await page.locator('.fit').first().textContent(),'本文不足');
 });
 
@@ -235,8 +235,8 @@ test('mobile supplement keeps failed, searched and read evidence distinct',async
   const failed=supplement.locator('details').filter({hasText:'取得不能'}).first();
   await failed.locator('summary').click();
   assert.match(await failed.textContent(),/対象本文の読了なし/);
-  assert.match(await failed.textContent(),/今回の失敗UTC/);
-  assert.doesNotMatch(await failed.textContent(),/今回の取得UTC/);
+  assert.match(await failed.textContent(),/取得を試みた日時（UTC）/);
+  assert.doesNotMatch(await failed.textContent(),/取得した日時（UTC）/);
   await failed.scrollIntoViewIfNeeded();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await screenshot(page,'mobile-followup-failure');

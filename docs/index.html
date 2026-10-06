@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="洒落怖の固定131項目を26型で点検した探索分析。本文確認、場面判定、陰性例と限界、未検証のv3提案を分けて公開する調査報告と作品別資料。">
+  <meta name="description" content="洒落怖の一覧131項目を対象に、当事者が直面する危険や対処を26型と照らし合わせた調査報告。本文を確認できた範囲、場面ごとの判定、分析の限界、未検証の改訂案を掲載しています。">
   <meta name="theme-color" content="#172e35">
   <title>洒落怖の問題状態を読む | 131項目の調査報告</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -15,152 +15,156 @@
 <header class="masthead">
   <a class="wordmark" href="./">洒落怖の問題状態を読む <span>調査報告・資料集</span></a>
   <nav aria-label="主要ナビゲーション">
-    <a href="#findings">結果</a><a href="#catalogue">作品別資料</a><a href="#versions">版の関係</a><a href="#followup">研究追補</a><a href="#sources">出典</a>
+    <a href="#findings">結果</a><a href="#catalogue">作品別資料</a><a href="#versions">基準の改訂</a><a href="#followup">追加調査</a><a href="#sources">出典</a>
   </nav>
 </header>
 <main id="main">
 <div id="report">
   <section class="opening" aria-labelledby="title">
     <div class="opening-copy">
-      <p class="eyebrow">探索型ホラーTRPGの設計語彙を点検する</p>
-      <h1 id="title">怪異の名前から、<br>当事者の問題へ。</h1>
-      <p class="lead">隠れる、逃げる、確かめる、守り続ける。洒落怖の一覧131項目を読み、当事者が何を失いそうで、何をすれば問題が閉じるのかを、固定した26型と照合しました。</p>
-      <p class="opening-note">AI5群と統合担当AIによる探索分析です。恐怖心理の分類や、TRPGでの効果を実証した研究ではありません。</p>
+      <p class="eyebrow">探索型ホラーTRPGの場面づくりに向けた調査</p>
+      <h1 id="title">洒落怖の危険と<br>対処を調べる</h1>
+      <p class="lead">洒落怖の当事者は何を失いそうで、どのような対処を迫られるのでしょうか。一覧131項目を対象に、確認できた本文から場面ごとの問題を読み取り、あらかじめ定めた26型と照らし合わせました。</p>
+      <p class="opening-note">5群を担当するAIと、結果をまとめるAIによる探索的な分析です。人の恐怖心理を分類した研究でも、TRPGでの効果を実証した研究でもありません。</p>
       <a class="primary-link" href="#catalogue">131項目の資料を探す</a>
     </div>
     <aside class="overview" aria-label="調査の要点">
-      <p class="eyebrow">固定v1による記録</p>
+      <p class="eyebrow">調査時の基準v1による記録</p>
       <p class="large-number">131<span>一覧項目</span></p>
       <dl class="overview-numbers">
         <div><dt>本文確認</dt><dd>92</dd></div><div><dt>部分確認</dt><dd>14</dd></div><div><dt>未確認</dt><dd>25</dd></div>
       </dl>
-      <p>独立作品の正確な総数は未確定。シリーズ、異名、未同定項目を含みます。</p>
-      <p class="overview-footer">調査資料 2026年10月4日<br>後続v3は未検証の提案版</p>
+      <p>131は一覧の項目数です。シリーズや別名の項目、作品を特定できていない項目を含むため、独立した作品の正確な総数は分かっていません。</p>
+      <p class="overview-footer">調査資料 2026年10月4日<br>改訂案v3は未検証</p>
     </aside>
   </section>
 
   <div class="report-layout">
     <aside class="contents" aria-label="目次">
       <p>この報告を読む</p>
-      <ol><li><a href="#question">問いと方法</a></li><li><a href="#findings">主要結果</a></li><li><a href="#boundaries">境界と陰性例</a></li><li><a href="#limits">限界</a></li><li><a href="#versions">v1・v2・v3</a></li><li><a href="#followup">10月6日の研究追補</a></li><li><a href="#types">固定26型の目録</a></li><li><a href="#catalogue">作品別資料</a></li><li><a href="#sources">出典とデータ</a></li></ol>
+      <ol><li><a href="#question">調査の目的と方法</a></li><li><a href="#findings">調査の結果</a></li><li><a href="#boundaries">型に当てはめられない例</a></li><li><a href="#limits">限界</a></li><li><a href="#versions">調査の基準と改訂案</a></li><li><a href="#followup">10月6日の追加調査</a></li><li><a href="#types">調査に使った26型</a></li><li><a href="#catalogue">作品別資料</a></li><li><a href="#sources">出典とデータ</a></li></ol>
     </aside>
     <article class="report-body">
       <section id="question">
-        <p class="section-index">01 / 問いと方法</p>
-        <h2>同じ怪異でも、対処する問題は違う。</h2>
-        <p>この調査では、脅威の姿や名前ではなく、当事者が予期する損失と対処の条件を記述しました。幽霊が現れても、追われる場面と、家に侵入される場面とでは必要な情報や行動が異なります。既存の26型でその違いを捉えられるか、無理な対応や説明しきれない残余がないかを点検しました。</p>
-        <p>元の一覧の主対象132項目から、基準形成時に適用済みの「コトリバコ」を除いた131項目を固定しました。5群へ27・26・26・26・26項目を割り当て、対象本文の版と範囲を記録しています。別カテゴリの作品は追加していません。</p>
-        <div class="method-flow" aria-label="調査手順"><span>本文・版を確認</span><span>問題を抽出</span><span>固定v1と照合</span><span>残余・反例を記録</span></div>
-        <p>作品全体と場面を分け、次の四つの記述欄を使いました。分からないことが判明しても、危険が解消したとは限りません。発生条件と閉鎖条件、得られた成果と残る問題を別に追っています。</p>
+        <p class="section-index">01 / 調査の目的と方法</p>
+        <h2>何を調べたのか</h2>
+        <p>この調査で記述したのは、怪異の姿や名前ではなく、当事者が何を失いそうで、どう対処できるかです。同じ幽霊でも、追われる場面と家に侵入される場面では、必要な情報や行動が異なります。既存の26型でその違いを捉えられるか、無理に当てはめた箇所や説明しきれない点がないかを調べました。</p>
+        <p>元の一覧で主な対象となる132項目のうち、基準を作る際に適用した「コトリバコ」を除き、131項目を調査対象としました。5群に27・26・26・26・26項目を割り当て、どの版のどの範囲を読んだかを記録しています。別カテゴリの作品は追加していません。</p>
+        <div class="method-flow" aria-label="調査手順"><span>本文・版を確認</span><span>当事者の問題を記述</span><span>基準v1と比較</span><span>説明できない点を記録</span></div>
+        <p>分析には「問い」「危険」「選択」「世界モデル」の四つの欄を使いました。世界モデルは、安全や因果について当事者が持つ前提を指します。作品全体の記録と、場面ごとの記録は分けています。</p>
+        <p>分からなかったことが判明しても、危険がなくなったとは限りません。そこで、問題が生じる条件と決着する条件、得られた成果と残る問題を別々に記録しました。</p>
         <dl class="notation"><div><dt><span>Q</span>問い</dt><dd>何が分かっていないか。</dd></div><div><dt><span>D</span>危険</dt><dd>何を失いそうか。</dd></div><div><dt><span>C</span>選択</dt><dd>何ができ、何が妨げるか。</dd></div><div><dt><span>M</span>世界モデル</dt><dd>安全や因果への前提がどう変わるか。</dd></div></dl>
-        <p>各担当が本文から問題状態を抽出した後、固定v1の主型候補・副型と対応させました。「独立な抽出」という手順名は、人間の独立評価や、同じ資料を複数人が盲検で符号化したことを意味しません。</p>
-        <p class="reference">根拠 <a data-repo="methods/validation.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/methods/validation.md">検証方法</a>・<a data-repo="assignments/groups.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/assignments/groups.json">固定割当</a></p>
+        <p>各担当は本文から当事者の問題を読み取った後、基準v1で中心となる型の候補と、併せて当てはまる型を記録しました。原資料ではこの読み取りを「独立な抽出」と呼んでいますが、独立した人間による評価を意味しません。同じ資料を複数人が互いの判定を知らずに分類したものでもありません。</p>
+        <p class="reference">根拠 <a data-repo="methods/validation.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/methods/validation.md">検証方法</a>・<a data-repo="assignments/groups.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/assignments/groups.json">調査対象</a></p>
       </section>
 
       <section id="findings">
-        <p class="section-index">02 / 主要結果</p>
-        <h2>記述できた範囲と、残った不足。</h2>
-        <p>問いの解明、局所的な危険の回避、不可逆な損失、前提の更新、選択の決着を分ける用途が報告されています。一方、26型全体の頑健性、網羅性、最小性は実証されていません。新型候補は8件提出されましたが、採用は0件。型の統合・削除も採用していません。</p>
+        <p class="section-index">02 / 調査の結果</p>
+        <h2>何が分かり、何が分からなかったか</h2>
+        <p>問いが解けたこと、その場の危険を避けたこと、取り戻せない損失、前提の変化、選択の決着を分けて記録する用途が、各群から報告されています。一方、26型が資料や分析者の違いに左右されず使えること、対象とする問題を網羅すること、必要最小限の分類であることは実証されていません。</p>
+        <p>新しい型の候補は8件提出されましたが、採用は0件です。既存の型を統合・削除する案も採用していません。</p>
         <figure class="count-figure">
-          <figcaption><strong>本文の確認状態</strong><span>母数は固定した一覧131項目</span></figcaption>
+          <figcaption><strong>本文の確認状態</strong><span>対象は一覧の131項目</span></figcaption>
           <div class="stacked" aria-label="本文確認92、部分確認14、未確認25"><span class="verified" style="flex:92"></span><span class="partial" style="flex:14"></span><span class="unverified" style="flex:25"></span></div>
           <ul class="legend"><li><i class="verified"></i>本文確認 <b>92</b></li><li><i class="partial"></i>部分確認 <b>14</b></li><li><i class="unverified"></i>未確認 <b>25</b></li></ul>
-          <p>本文確認は、担当が固定した範囲を読んだという状態です。原典との完全一致や型への適合を保証しません。</p>
+          <p>「本文確認」は、担当が対象として定めた範囲を読んだという記録です。原典と完全に一致することや、型に当てはまることを保証しません。</p>
         </figure>
         <figure class="count-figure">
-          <figcaption><strong>場面全体の判定</strong><span>v1の233判定行。保留25行を除く</span></figcaption>
+          <figcaption><strong>場面全体の判定</strong><span>基準v1で判定した233行。保留25行を除く</span></figcaption>
           <div class="stacked" aria-label="適合75、部分適合141、不適合17"><span class="verified" style="flex:75"></span><span class="partial" style="flex:141"></span><span class="negative" style="flex:17"></span></div>
           <ul class="legend"><li><i class="verified"></i>適合 <b>75</b></li><li><i class="partial"></i>部分適合 <b>141</b></li><li><i class="negative"></i>不適合 <b>17</b></li></ul>
-          <p>全258場面行のうち25行は本文不足の保留行です。判定は複合ラベルを含む場面全体への評価で、個々の型の成功率、作品数、独立標本数ではありません。</p>
+          <p>全258行の場面記録には、本文不足のため判定を保留した25行が含まれます。残る233行の判定は、複数の型を付けた場合も含め、場面全体に対する評価です。個々の型の成功率や作品数、互いに独立した標本の数を表すものではありません。</p>
         </figure>
-        <div class="table-scroll" tabindex="0" role="region" aria-label="群別件数表"><table><caption>群別の収支</caption><thead><tr><th scope="col">群</th><th scope="col">割当</th><th scope="col">本文確認</th><th scope="col">部分</th><th scope="col">未確認</th><th scope="col">場面行</th></tr></thead><tbody><tr><th scope="row">01</th><td>27</td><td>18</td><td>3</td><td>6</td><td>54</td></tr><tr><th scope="row">02</th><td>26</td><td>20</td><td>1</td><td>5</td><td>47</td></tr><tr><th scope="row">03</th><td>26</td><td>14</td><td>4</td><td>8</td><td>43</td></tr><tr><th scope="row">04</th><td>26</td><td>19</td><td>4</td><td>3</td><td>55</td></tr><tr><th scope="row">05</th><td>26</td><td>21</td><td>2</td><td>3</td><td>59</td></tr></tbody><tfoot><tr><th scope="row">合計</th><td>131</td><td>92</td><td>14</td><td>25</td><td>258</td></tr></tfoot></table></div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="群別件数表"><table><caption>担当群ごとの件数</caption><thead><tr><th scope="col">群</th><th scope="col">対象項目</th><th scope="col">本文確認</th><th scope="col">部分確認</th><th scope="col">未確認</th><th scope="col">場面記録</th></tr></thead><tbody><tr><th scope="row">01</th><td>27</td><td>18</td><td>3</td><td>6</td><td>54</td></tr><tr><th scope="row">02</th><td>26</td><td>20</td><td>1</td><td>5</td><td>47</td></tr><tr><th scope="row">03</th><td>26</td><td>14</td><td>4</td><td>8</td><td>43</td></tr><tr><th scope="row">04</th><td>26</td><td>19</td><td>4</td><td>3</td><td>55</td></tr><tr><th scope="row">05</th><td>26</td><td>21</td><td>2</td><td>3</td><td>59</td></tr></tbody><tfoot><tr><th scope="row">合計</th><td>131</td><td>92</td><td>14</td><td>25</td><td>258</td></tr></tfoot></table></div>
         <p class="reference">根拠 <a data-repo="integration/data/summary.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/data/summary.json">集計データ</a>・<a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">横断レビュー</a></p>
       </section>
 
       <section id="boundaries">
-        <p class="section-index">03 / 境界と陰性例</p>
-        <h2>型を付けない判断も、結果に残す。</h2>
-        <p>単に怪異が現れたことから、将来の危害や世界規則の破綻を補うことはできません。目撃と追跡、体内侵入と外部付着、対処の資源不足と継続管理、伝聞と確認された発動条件を区別する必要がありました。</p>
-        <div class="example-row"><span>G04-W19</span><div><h3><a href="#work=G04-W19">ヒョウタンヘビ</a></h3><p>子どもが未知の蛇を探し、蛇は地中へ退きます。予期的な危害の根拠が薄く、探究や懐かしさを恐怖へ置き換えない陰性例です。</p></div></div>
+        <p class="section-index">03 / 型に当てはめられない例</p>
+        <h2>怪異が現れても、型に当てはまるとは限らない</h2>
+        <p>怪異が現れたというだけでは、将来の危害や世界の規則が崩れたことまで読み取れません。分析では、見かけたことと追われたこと、体内への侵入と体の外への付着、対処に必要な資源の不足と管理を続ける負担を区別する必要がありました。怪異が発動する条件についても、伝聞と本文で確認できた条件を分けています。</p>
+        <div class="example-row"><span>G04-W19</span><div><h3><a href="#work=G04-W19">ヒョウタンヘビ</a></h3><p>子どもが未知の蛇を探し、蛇は地中へ退きます。今後危害を受けると読む根拠は薄く、探究や懐かしさを恐怖へ置き換えない例です。このように型を当てはめない例を「陰性例」として残しています。</p></div></div>
         <div class="example-row"><span>G01-W02</span><div><h3><a href="#work=G01-W02">悪霊食い</a></h3><p>超常存在が保護する展開があります。怪異の存在だけで、当事者への脅威が成立したとは判定できません。</p></div></div>
-        <div class="example-row"><span>G01-W12</span><div><h3><a href="#work=G01-W12">地獄のバス</a></h3><p>滑稽な読みにも閉じ込めや代価の構造が現れます。問題の構造を記述できることと、怖さが生じることは別です。</p></div></div>
-        <p>D2は部分適合のみで、F1・F2には強い適合の受領がありません。F3は適合支持なし、F4は個体の宿主利用にとどまる部分適合です。支持不足から型の不存在や削除を断定しません。</p>
-        <details class="document-details"><summary>新型候補8件は、どう扱ったか</summary><div class="table-scroll" tabindex="0" role="region" aria-label="新型候補の整理"><table><thead><tr><th scope="col">候補のまとまり</th><th scope="col">受領件数</th><th scope="col">横断判断</th></tr></thead><tbody><tr><th scope="row">直接危害</th><td>3</td><td>A2拡張、接触後局面、順序・期限の修飾との比較を保留。</td></tr><tr><th scope="row">公的露見・標的情報の取得</th><td>2</td><td>社会的損失と追手の情報取得を分け、修飾欄を先行。</td></tr><tr><th scope="row">社会的正常性の不透明さ</th><td>1</td><td>具体的予期損失がない場合は、定義域外の提示効果として記述。</td></tr><tr><th scope="row">外部付着</th><td>1</td><td>D1の内部侵入と区別。位置・接触経路等の修飾と比較。</td></tr><tr><th scope="row">追跡のない再加害予期</th><td>1</td><td>一般的な再発予期欄を優先。有効な管理がなければE5に入れない。</td></tr></tbody></table></div><p>採用0。候補の数は、独立した新型が8種類成立したことを意味しません。</p></details>
-        <p class="reference">根拠 <a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">型境界・反例・候補の横断レビュー</a></p>
+        <div class="example-row"><span>G01-W12</span><div><h3><a href="#work=G01-W12">地獄のバス</a></h3><p>滑稽な話として読める場合にも、閉じ込められる問題や対処の代価が現れます。問題の構造を記述できることと、読者が怖さを感じることは別です。</p></div></div>
+        <p>D2「自分の身体が別のものになる」は部分適合のみでした。F1・F2には強く適合する例の報告がなく、F3を適合として支持する例もありません。F4の部分適合は、個体が宿主を利用する範囲にとどまります。支持する例が足りないことを理由に、その型が存在しないと断定したり、削除したりはしません。</p>
+        <details class="document-details"><summary>新型候補8件は、どう扱ったか</summary><div class="table-scroll" tabindex="0" role="region" aria-label="新型候補の整理"><table><thead><tr><th scope="col">候補の内容</th><th scope="col">提出件数</th><th scope="col">全群を通じた判断</th></tr></thead><tbody><tr><th scope="row">直接危害</th><td>3</td><td>A2の範囲を広げる案や、接触後の状況、順序・期限の補足で記述する案との比較を保留。</td></tr><tr><th scope="row">公的露見・標的情報の取得</th><td>2</td><td>社会的な損失と追手が情報を得ることを分け、補足する欄への記録を優先。</td></tr><tr><th scope="row">社会的正常性の不透明さ</th><td>1</td><td>今後の具体的な損失が読み取れない場合は、型の対象範囲に入れず、提示の効果として記述。</td></tr><tr><th scope="row">外部付着</th><td>1</td><td>D1の体内への侵入と区別し、付着する位置や接触経路などの補足で記述する案と比較。</td></tr><tr><th scope="row">追跡のない再加害予期</th><td>1</td><td>再び危害を受ける予期を記す欄を優先。有効な管理を伴わない場合はE5に入れない。</td></tr></tbody></table></div><p>採用は0件です。候補が8件あることは、独立した新しい型が8種類成立したことを意味しません。</p></details>
+        <p class="reference">根拠 <a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">型の使い分け・反例・候補のレビュー</a></p>
       </section>
 
       <section id="limits">
         <p class="section-index">04 / 限界</p>
-        <h2>この調査が、まだ答えていないこと。</h2>
-        <p>131は一覧の項目数です。単篇、シリーズ、集合伝承、選定エピソードの単位が異なり、未同定項目も残っています。群ごとの下限や確認単位を足して、独立作品の総数を作ることはできません。確定した割当重複は0ですが、全項目の独立性は証明されていません。</p>
-        <p>25項目は本文未確認、14項目は部分確認または題名同定の留保があります。候補を読めたことを、割当本文の確認へ移し替えていません。原典との完全一致、シリーズ全体、全異本は保証できず、転載の改変やリンク失効も残る問題です。</p>
+        <h2>この結果だけでは判断できないこと</h2>
+        <p>131は一覧の項目数です。一つの項目が単篇を指す場合もあれば、シリーズ、複数の伝承、選んだエピソードを指す場合もあります。作品を特定できていない項目も残るため、各群が確認した単位や最低件数を足して、独立した作品の総数を出すことはできません。調査対象として重複が確定した項目は0ですが、全項目が互いに独立していることは証明されていません。</p>
+        <p>25項目は本文未確認です。14項目は部分確認で、本文の範囲や題名との対応に確認できていない点があります。候補の本文を読めても、調査対象の本文を確認したことにはしていません。原典との完全一致や、シリーズ全体・全ての異本を読んだことは保証できず、転載時の改変やリンク切れも残る問題です。</p>
         <p>出典台帳は166行。URLがある157行と、URL未同定の検索記録9行を含みます。取得日時はUTC時刻83行、UTC日付のみ36行、未記録47行です。83行には再取得・再読の日時も含まれ、全て初回取得時刻ではありません。</p>
-        <p>AI5群は基準と文脈を共有しており、判断の誤りが相関し得ます。独立した人間による再符号化、分析者間一致、盲検比較は実施していません。怪談の真実性、読者の怖さ、GMの準備への効果、プレイヤー体験差も測定していません。</p>
-        <p>統合担当の原文再閲覧は重点例に限られ、一部は取得できませんでした。構造検査の成功やPRの統合は、原典の一致、分析の正しさ、効果の実証とは別です。</p>
+        <p>5群のAIは同じ基準と文脈を共有しており、同じように判断を誤る可能性があります。独立した人間による分類のやり直し、分析者どうしの判定の一致、互いの判定を知らずに行う比較は実施していません。怪談の真実性、読者が感じる怖さ、ゲームマスター（GM）の準備への効果、プレイヤーの体験の違いも測定していません。</p>
+        <p>結果をまとめる担当が原文を読み直したのは、重点的に確認する例だけで、一部は取得できませんでした。データ構造の検査に合格したことや、PRの変更を取り込んだことは、原典との一致や分析の正しさ、効果の実証を意味しません。</p>
         <p class="reference">根拠 <a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">レビュー手順と限界</a>・<a data-repo="integration/data/summary.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/data/summary.json">欠測・重複候補の記録</a></p>
       </section>
 
       <section id="versions">
-        <p class="section-index">05 / 版の関係</p>
-        <h2>検証に使ったv1と、改訂案のv3を分ける。</h2>
-        <div class="version-line"><div><span>固定v1</span><strong>131項目との照合</strong><p>歴史的な場面全体判定。D5・E5は形成時に導入済み。</p></div><div><span>v2提案 / 未検証</span><strong>境界運用の改訂</strong><p>同じ開発資料を用い、六群・26 IDを維持。</p></div><div><span>v3提案 / 未検証</span><strong>設計語彙と階層の改訂</strong><p>問題状態22項目と世界モデル破綻4項目を別階層へ。</p></div></div>
-        <p>v3では、GMの設計判断を変える操作的語彙として26 IDを整理しています。A〜Eの予期的問題状態、F群の世界モデル破綻、修飾軸、提示演出、情動反応を分けました。恐怖心理の自然分類や、独立した26因子という主張ではありません。</p>
-        <p>131項目は、v2・v3の改訂に用いた開発資料です。v3で同じ本文を再符号化した結果ではなく、独立したtest setでもありません。v1の75・141・17という値を、v3の陽性件数へ読み替えることはできません。</p>
-        <p>次段階の評価計画はありますが、未実施です。v3と手順を固定した後、未知資料を独立した人間評価者が再符号化し、GM設計支援とプレイヤー体験差を別々に調べる計画です。追補では全26型の必須条件案と実施仕様・テンプレートを整理しましたが、補助条件、証拠水準、指標、標本数、採否基準等の実施前固定は未完了です。</p>
+        <p class="section-index">05 / 基準の改訂</p>
+        <h2>調査に使ったv1と、未検証の改訂案</h2>
+        <div class="version-line"><div><span>固定v1</span><strong>131項目との照合</strong><p>この調査の場面判定に使った基準です。D5・E5はv1を作る時点で導入しています。</p></div><div><span>v2提案 / 未検証</span><strong>型の使い分けを改訂</strong><p>同じ開発資料を使った改訂案です。六群と26個のIDを維持しています。</p></div><div><span>v3提案 / 未検証</span><strong>場面設計に使う区分を改訂</strong><p>当事者の問題22項目と、世界モデルの破綻4項目を別の階層に分ける案です。</p></div></div>
+        <p>v3は、GMが場面を設計するときの判断を変えるために、26個のIDを整理した提案です。A〜Eの「当事者が今後の損失を予期する問題」と、F群の「世界モデルの破綻」を分けています。問題に付け加える条件、情報を提示する演出、感情の反応も別に記述します。人の恐怖心理を自然に分けた分類や、互いに独立した26の因子だという主張ではありません。</p>
+        <p>131項目はv2・v3の改訂に用いた開発資料です。v3の基準で同じ本文を分類し直した結果ではなく、開発資料から独立した検証用の資料でもありません。v1で得た適合75・部分適合141・不適合17という値を、v3を支持する件数へ読み替えることはできません。</p>
+        <p>次の評価は計画段階で、まだ実施していません。v3と評価手順を確定させた後、開発に使っていない資料を独立した人間評価者が分類し直す計画です。その上で、GMの設計を助ける効果と、プレイヤーの体験の違いを別々に調べます。</p>
+        <p>追加調査では全26型の必須条件案、実施手順、テンプレートを整理しました。ただし、補助条件、証拠の水準、指標、標本数、採否基準など、実施前に確定させる項目はまだ決まりきっていません。</p>
         <p class="reference"><a data-repo="baseline/v2-proposed/report.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v2-proposed/report.md">v2提案全文</a>・<a data-repo="baseline/v3-proposed/report.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v3-proposed/report.md">v3提案全文</a>・<a data-repo="baseline/v3-proposed/revision-notes.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v3-proposed/revision-notes.md">版の差分</a>・<a data-repo="methods/v3-evaluation-plan.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/methods/v3-evaluation-plan.md">未実施の評価計画</a></p>
       </section>
 
       <section id="followup" aria-labelledby="followup-title">
-        <p class="section-index">2026年10月6日 / 研究追補</p>
-        <h2 id="followup-title">旧記録を残し、追加で分かった範囲を示す。</h2>
-        <p>旧未確認・部分確認の39割当を再探索しました。新しい出典でも原割当の同定やシリーズ全範囲に留保があるため、固定v1の本文確認92・部分確認14・未確認25と場面判定は変更していません。</p>
-        <p id="followup-counts" class="followup-state">追補の件数を読み込み中です。</p>
-        <p>「井戸の足臭女」の関連する二次紹介本文を取得し、限定確認へ進めましたが、原割当・原版は未同定です。他の比較候補、名称一覧、検索断片、取得失敗も保持し、全編読了や同一作品の確定へ置き換えません。</p>
-        <p>分類の追補はD2・F群、歴史的17不適合行と8未採用候補の追加監査です。v3の全26型の必須条件案を整理しましたが、補助条件は全型で未固定のため新規partialは保留します。開発資料の参照と架空の陰性例は、v3評価結果ではありません。</p>
-        <p>独立評価の手順、型名に依存しないGM評価基準、7種類の未記入テンプレートも提案しました。人間評価・GM比較・実プレイの研究実施は0%。人数・必要N・閾値は計画値や仮定で、実測値や合意済み基準ではありません。</p>
-        <p id="followup-links" class="reference"><a data-followup="followup/README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/README.md">追補の横断案内</a>・<a data-followup="followup/classification/v3-codebook.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/classification/v3-codebook.md">操作条件案</a>・<a data-followup="followup/evaluation/README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/evaluation/README.md">未実施の独立評価仕様</a></p>
-        <details class="document-details"><summary>出典追補の全39項目を見る</summary><div id="followup-results" class="table-scroll"></div></details>
-        <p class="reference">追補の正本 <a data-followup="followup/index.json" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/index.json">横断索引JSON</a>・<a data-followup="followup/sources/group_01-02.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/sources/group_01-02.md">群01–02</a>・<a data-followup="followup/sources/group_03-05.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/sources/group_03-05.md">群03–05</a></p>
+        <p class="section-index">2026年10月6日 / 追加調査</p>
+        <h2 id="followup-title">追加調査で確認できたこと</h2>
+        <p>本文未確認・部分確認だった39項目の出典を改めて探しました。新しい出典でも元の調査対象との一致やシリーズ全体を確認しきれていないため、v1の本文確認92・部分確認14・未確認25という件数と、場面ごとの判定は変更していません。</p>
+        <p id="followup-counts" class="followup-state">追加調査の件数を読み込み中です。</p>
+        <p>「井戸の足臭女」では、関連する二次紹介の本文を取得し、その範囲を読めました。ただし、元の調査対象や原版はまだ特定できていません。他の比較候補、名称一覧、検索結果の断片、取得失敗も記録に残しています。それらを全編読了や同一作品の確定としては扱いません。</p>
+        <p>分類については、D2・F群、v1で不適合だった17行、未採用の候補8件を追加で点検しました。v3の全26型の必須条件案も整理しています。ただし、補助条件はどの型でもまだ確定していないため、新たな部分適合（partial）の判定は保留します。開発資料への参照や架空の陰性例は、v3の評価結果ではありません。</p>
+        <p>独立した評価の手順、型名に依存しないGM評価基準、7種類の未記入テンプレートも提案しました。人間による評価、GMの比較、実際のプレイを通じた研究は未実施で、実施率は0%です。人数・必要な標本数・判定のしきい値は計画値や仮定であり、実測値や合意済みの基準ではありません。</p>
+        <p id="followup-links" class="reference"><a data-followup="followup/README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/README.md">追加調査の案内</a>・<a data-followup="followup/classification/v3-codebook.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/classification/v3-codebook.md">型ごとの判定条件案</a>・<a data-followup="followup/evaluation/README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/evaluation/README.md">独立評価の手順案（未実施）</a></p>
+        <details class="document-details"><summary>出典を再調査した39項目を見る</summary><div id="followup-results" class="table-scroll"></div></details>
+        <p class="reference">追加調査の参照資料 <a data-followup="followup/index.json" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/index.json">追加調査の索引JSON</a>・<a data-followup="followup/sources/group_01-02.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/sources/group_01-02.md">群01–02</a>・<a data-followup="followup/sources/group_03-05.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/followup/sources/group_03-05.md">群03–05</a></p>
       </section>
 
       <section id="types">
-        <p class="section-index">06 / 固定26型の目録</p>
-        <h2>判定の基準を読む。</h2>
-        <p>以下は調査で使ったv1の名称・定義です。開くと発生条件、対処、閉鎖条件と、横断レビューで残った境界を確認できます。対応する作品への絞り込みは、適合を保証せず、場面に付いた非排他的なラベルを探します。</p>
-        <div id="type-directory"><p class="loading">基準目録を読み込み中です。</p></div>
-        <p class="reference">根拠 <a data-repo="baseline/v1-26types/report.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/report.md">固定v1全文</a>・<a data-repo="baseline/v1-26types/provenance.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/provenance.json">由来とハッシュ</a></p>
+        <p class="section-index">06 / 調査に使った26型</p>
+        <h2>26型の定義と使い分け</h2>
+        <p>以下は調査に使ったv1の名称と定義です。各項目を開くと、問題が生じる条件、対処、決着する条件、全群のレビューで使い分けを判断しきれなかった点を読めます。作品を絞り込むリンクでは、その型を付けた場面を探します。型を付けたことは適合を保証せず、同じ場面に複数の型が付く場合もあります。</p>
+        <div id="type-directory"><p class="loading">26型の定義を読み込み中です。</p></div>
+        <p class="reference">根拠 <a data-repo="baseline/v1-26types/report.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/report.md">固定v1全文</a>・<a data-repo="baseline/v1-26types/provenance.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/provenance.json">基準の由来と照合用ハッシュ</a></p>
       </section>
     </article>
   </div>
 
   <section id="catalogue" class="catalogue" aria-labelledby="catalogue-title">
     <p class="section-index">07 / 作品別資料</p>
-    <div class="catalogue-heading"><div><h2 id="catalogue-title">131項目の分析を辿る。</h2><p>自作の分析要約には展開・結末のネタバレが含まれます。全て固定v1への対応です。</p></div><span class="total-mark">固定割当 <b>131</b></span></div>
+    <div class="catalogue-heading"><div><h2 id="catalogue-title">作品ごとの分析を探す</h2><p>ここに掲載する自作の分析要約には、展開・結末のネタバレが含まれます。場面の型と判定は全てv1の基準によるものです。</p></div><span class="total-mark">調査対象 <b>131</b></span></div>
     <form id="filters" class="filters" role="search">
-      <label class="search-label">作品名・本文範囲・分析から検索<input type="search" id="query" name="q" placeholder="例：くねくね、継続管理、未同定" autocomplete="off"></label>
+      <label class="search-label">作品名・確認した範囲・分析から検索<input type="search" id="query" name="q" placeholder="例：くねくね、逃げる、未同定" autocomplete="off"></label>
       <div class="selects">
         <label>本文の確認状態<select id="status" name="status"><option value="">全ての状態</option><option value="verified">本文確認</option><option value="partial">部分確認</option><option value="unverified">未確認</option></select></label>
-        <label>場面の型ラベル<select id="type" name="type"><option value="">全ての型・型なし</option><option value="none">型なしの場面あり</option></select></label>
+        <label>場面に付けた型<select id="type" name="type"><option value="">全ての型・型なし</option><option value="none">型なしの場面あり</option></select></label>
         <label>場面全体の判定<select id="fit" name="fit"><option value="">全ての判定</option><option>適合</option><option>部分適合</option><option>不適合</option><option>本文不足</option></select></label>
         <label>担当群<select id="group" name="group"><option value="">全5群</option><option value="group_01">群01</option><option value="group_02">群02</option><option value="group_03">群03</option><option value="group_04">群04</option><option value="group_05">群05</option></select></label>
       </div>
       <div class="filter-footer"><p id="result-count" role="status" aria-live="polite">資料を読み込み中です。</p><button type="reset">条件をリセット</button></div>
     </form>
-    <p class="small-note">複数の条件を同時に使えます。型と判定を選ぶと、同じ場面で両条件に合う項目を表示します。判定は型ごとの評価ではありません。</p>
+    <p class="small-note">検索と絞り込みは組み合わせて使えます。型と判定を両方選ぶと、同じ場面でその型と判定が記録された項目を表示します。判定は場面全体の評価で、型ごとの評価ではありません。</p>
     <div id="results"></div>
     <noscript><p>検索と作品詳細にはJavaScriptが必要です。<a href="https://github.com/oXyut/scare-pattern-validation/tree/148359a/groups">リポジトリの群別資料</a>から全項目を確認できます。</p></noscript>
   </section>
 
   <section id="sources" class="sources" aria-labelledby="sources-title">
     <p class="section-index">08 / 出典とデータ</p>
-    <h2 id="sources-title">原資料へ戻れる研究記録。</h2>
-    <p>このサイトは公開済みの自作分析を編集し、作品本文へのリンクを掲載しています。怪談本文の丸ごと転載はしていません。出典には本文転載だけでなく同定候補や検索記録もあり、確認状態と版の留保は作品詳細に残しています。</p>
-    <dl class="source-list"><div><dt>全体の記録</dt><dd><a data-followup="README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/README.md">研究リポジトリのREADME</a>・<a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">横断レビュー</a>・<a data-repo="integration/data/summary.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/data/summary.json">原集計JSON</a></dd></div><div><dt>本文への対応</dt><dd id="group-source-links"></dd></div><div><dt>サイト用データ</dt><dd><a href="data.json" download>公開用JSON</a>・<a href="https://github.com/oXyut/scare-pattern-validation">実装と変更履歴</a></dd></div><div><dt>版を追跡する</dt><dd>研究資料の参照commit <a href="https://github.com/oXyut/scare-pattern-validation/commit/148359a">148359a</a><br>固定v1のSHA-256 <code class="hash">5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c</code></dd></div></dl>
-    <p class="small-note">固定v1の資料確認・分析は2026年10月4日の記録です。10月6日の出典追補は別欄に掲載しています。全ての怪談本文や外部リンクを再取得したものではありません。データの解釈確信度は分析者の主観的見積もりで、統計的確率や恐怖効果ではありません。</p>
+    <h2 id="sources-title">分析の根拠と出典を確認する</h2>
+    <p>このサイトは公開済みの自作分析を編集し、作品本文へのリンクを掲載しています。怪談本文の丸ごと転載はしていません。出典には本文の転載先のほか、調査対象に当たるか確認中の候補や検索記録も含まれます。どこまで読めたか、版や作品の一致について何が分かっていないかは、作品詳細で確認できます。</p>
+    <dl class="source-list"><div><dt>全体の記録</dt><dd><a data-followup="README.md" href="https://github.com/oXyut/scare-pattern-validation/blob/0ae18c3b5c9b20df8560c2d352a8cdcad2c7e5e3/README.md">研究リポジトリのREADME</a>・<a data-repo="integration/reports/robustness.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/reports/robustness.md">横断レビュー</a>・<a data-repo="integration/data/summary.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/integration/data/summary.json">原集計JSON</a></dd></div><div><dt>群ごとの分析と出典</dt><dd id="group-source-links"></dd></div><div><dt>サイト用データ</dt><dd><a href="data.json" download>公開用JSON</a>・<a href="https://github.com/oXyut/scare-pattern-validation">実装と変更履歴</a></dd></div><div><dt>参照した版</dt><dd>研究資料の参照commit <a href="https://github.com/oXyut/scare-pattern-validation/commit/148359a">148359a</a><br>固定v1のSHA-256 <code class="hash">5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c</code></dd></div></dl>
+    <p class="small-note">v1による本文確認と分析は2026年10月4日の記録です。10月6日の出典の追加調査は別欄に掲載しています。全ての怪談本文や外部リンクを再取得したものではありません。</p>
+    <p class="small-note">「解釈確信度」は、分析者が自分の解釈にどの程度確信を持つかの主観的な見積もりです。統計的な確率や恐怖の効果を示す値ではありません。</p>
   </section>
 </div>
 <article id="work-detail" class="work-detail" hidden aria-label="作品別分析"></article>
 </main>
-<footer><span>洒落怖の問題状態を読む</span><p>固定v1の探索分析と、未検証のv3提案を区別して公開しています。</p><a href="#main">ページ先頭へ</a></footer>
+<footer><span>洒落怖の問題状態を読む</span><p>調査時の基準v1による分析と、未検証の改訂案v3を分けて掲載しています。</p><a href="#main">ページ先頭へ</a></footer>
 </body>
 </html>
