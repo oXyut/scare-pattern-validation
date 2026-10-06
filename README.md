@@ -42,5 +42,10 @@ v3提案では「ホラーTRPGに利用可能な予期的問題状態26型」を
 
 この分類は暫定的な設計目録です。構造の記述適合性を調べる研究であり、読者の怖さやTRPGでの効果を測定する研究ではありません。
 
-検査は `python3 scripts/validate_repository.py`。全5群の最終成果が揃った場合は `python3 scripts/validate_repository.py --complete` を使います。
+## 調査サイト
 
+[GitHub Pagesで調査報告と作品別資料を読む](https://oxyut.github.io/scare-pattern-validation/)。固定v1の検証記録と未検証のv3提案を分け、全131項目を検索・絞り込みできます。本文不足、題名同定の留保、反例と出典台帳の欠測も掲載しています。
+
+サイトの原稿・更新方法は[site/README.md](site/README.md)、公開ファイルは`docs/`です。
+
+検査は `python3 scripts/validate_repository.py`。全5群の最終成果が揃った場合は `python3 scripts/validate_repository.py --complete` を使います。
