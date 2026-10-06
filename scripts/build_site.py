@@ -231,7 +231,7 @@ def build_data():
 def build():
     serialized = build_data()
     DEST.mkdir(exist_ok=True)
-    for name in ['index.html', 'styles.css', 'core.mjs', 'app.mjs', 'favicon.svg']:
+    for name in ['index.html', 'styles.css', 'core.mjs', 'app.mjs', 'favicon.svg', 'corridor-cover.webp']:
         shutil.copyfile(SOURCE / name, DEST / name)
     # Source links also work when JavaScript is unavailable.
     markup = (DEST / 'index.html').read_text()
