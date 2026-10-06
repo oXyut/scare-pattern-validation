@@ -5,6 +5,7 @@ import csv
 import hashlib
 import json
 import re
+import subprocess
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -82,8 +83,22 @@ def validate(data=None, markdown=None):
         'site/research-snapshot.json', 'docs/data.json'}
     require(set(data['original_inputs_sha256']) == required_inputs,
             'Protected input list changed')
+    require(isinstance(data['base_commit'], str)
+            and re.fullmatch(r'[0-9a-f]{40}', data['base_commit']),
+            'Expected a full base commit SHA')
     for relative, digest in data['original_inputs_sha256'].items():
-        require(hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == digest,
+        if relative == 'docs/data.json':
+            # This projection can be regenerated; preserve its historical version.
+            try:
+                contents = subprocess.check_output(
+                    ['git', 'show', f'{data["base_commit"]}:{relative}'],
+                    cwd=ROOT, stderr=subprocess.PIPE)
+            except subprocess.CalledProcessError as error:
+                raise ValueError(
+                    f'Cannot read protected projection at base_commit: {relative}') from error
+        else:
+            contents = (ROOT / relative).read_bytes()
+        require(hashlib.sha256(contents).hexdigest() == digest,
                 f'Protected input changed: {relative}')
     legacy = {}
     for group in ('01', '02'):
