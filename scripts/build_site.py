@@ -8,6 +8,12 @@ import subprocess
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
+try:
+    from scripts.story_narratives import public_narratives
+except ModuleNotFoundError as error:
+    if error.name != 'scripts':
+        raise
+    from story_narratives import public_narratives
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'site'
@@ -220,8 +226,10 @@ def build_data():
         assert all(set(row.get(key, [])) <= type_ids for row in transitions for key in ['from_type_ids', 'to_type_ids'])
         assert all(row['scene_id'] in own_scenes for row in work.get('problem_tracking', []))
     result = {'schema_version': 'public-research-site-2', 'source_revision': snapshot['source_revision'], 'baseline_id': summary['baseline_id'], 'baseline_sha256': summary['baseline_sha256'], 'counts': summary['counts'], 'conclusion': summary['conclusion'], 'groups': groups, 'type_groups': [{'id': key, 'name': name} for key, name in zip('ABCDEF', ['捕捉と侵入', '空間と認識', '他者と関係', '身体と自己', '因果と選択', '人間と世界'])], 'types': types, 'works': works, 'sources': sources}
-    result['schema_version'] = 'public-research-site-3'
+    result['schema_version'] = 'public-research-site-4'
     result['followup'] = build_followup(works)
+    narrative_document = json.loads((SOURCE / 'narratives.json').read_text())
+    result['narratives'] = public_narratives(narrative_document, works, sources, snapshot['source_revision'])
     serialized = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     # Reject private execution identifiers and paths before writing the public tree.
     assert not re.search(r'/Users/|/home/|/mnt/|sediment://|file://|(?:conversation|thread|library|file)[_-]id|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN .*PRIVATE KEY', serialized, re.I)
@@ -243,6 +251,8 @@ def build():
     (DEST / 'data.json').write_text(serialized)
     (DEST / '.nojekyll').write_text('')
     print('Built docs/: historical 131 entries, 258 scene rows (25 placeholders), 166 source rows; separate 39-entry followup.')
+    narratives = json.loads(serialized)['narratives']
+    print(f"Narrative PoC: {len(narratives['review_work_ids'])} entries; {narratives['withheld_draft_count']} prepared drafts withheld pending UI review.")
 
 
 if __name__ == '__main__':
