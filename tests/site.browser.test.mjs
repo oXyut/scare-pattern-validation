@@ -2,7 +2,9 @@
 import test, {before, after} from 'node:test';
 import assert from 'node:assert/strict';
 import {createServer} from 'node:http';
-import {readFile, mkdir} from 'node:fs/promises';
+import {readFile, mkdir, mkdtemp, rm} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {tmpdir} from 'node:os';
 import {resolve, extname} from 'node:path';
 import {pathToFileURL, fileURLToPath} from 'node:url';
 
@@ -22,7 +24,9 @@ before(async () => {
   });
   await new Promise(done => server.listen(0, '127.0.0.1', done));
   base = `http://127.0.0.1:${server.address().port}/`;
-  browser = await playwright.chromium.launch({headless:true, channel:process.env.SITE_BROWSER_CHANNEL || 'chromium'});
+  browser = await playwright.chromium.launch({headless:true,
+    ...(process.env.SITE_BROWSER_EXECUTABLE ? {executablePath:process.env.SITE_BROWSER_EXECUTABLE}
+      : {channel:process.env.SITE_BROWSER_CHANNEL || 'chromium'})});
 });
 after(async () => {await browser?.close(); if(server) await new Promise(done=>server.close(done));});
 
@@ -243,4 +247,87 @@ test('mobile supplement keeps failed, searched and read evidence distinct',async
   await page.goto(base+'#followup');
   await page.locator('#followup > details > summary').click();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+});
+
+test('spoiler summary leads the detail; chronology, interpretation and v1 backlinks stay distinct',async t=>{
+  const page=await open(t,'#work=G01-W01');
+  await checkWork(page,'G01-W01','赤い仏像');
+  assert.match(await page.locator('.narrative-heading').textContent(),/ネタバレあり/);
+  assert.equal(await page.locator('.story-summary > p').count(),3);
+  assert.equal(await page.locator('.timeline-thread').count(),2);
+  assert.equal(await page.locator('.timeline-thread').last().locator('.fact-kind').textContent(),'作中で見た映像');
+  assert.equal(await page.evaluate(()=>Boolean(document.querySelector('.work-narrative').compareDocumentPosition(document.querySelector('.work-original-analysis'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
+  assert.equal(await page.locator('.work-original-analysis').getAttribute('open'),null);
+  assert.equal(await page.locator('.timeline-arrow').count(),3);
+  assert.match(await page.locator('.timeline-heading').textContent(),/v3の再分類・検証でもありません/);
+  await page.locator('.narrative-notes > summary').click();
+  assert.match(await page.locator('.narrative-notes').textContent(),/v1の取得日時とは別/);
+  const scene=page.locator('.timeline-scene a').first();
+  const sceneId=(await scene.getAttribute('href')).slice(7);
+  await scene.click();
+  await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
+  assert.equal(await page.locator('.narrative-notes').getAttribute('open'),'');
+  await page.locator('.timeline-type[href="#type-A2"]').first().click();
+  await page.waitForFunction(()=>!document.getElementById('report').hidden && document.getElementById('type-A2').open);
+  await page.goBack();
+  await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
+});
+
+test('PoC exposes only four stories; paused and unconfirmed works keep reasons and source jumps',async t=>{
+  const page=await open(t,'#catalogue');
+  assert.equal(await page.locator('#poc-links a').count(),4);
+  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  await checkWork(page,'G02-W11','猿夢');
+  assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),'ready');
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  for(const reason of ['not_rechecked','identity_or_scope_pending','body_unavailable','poc_review_pending']){
+    const n=fixture.narratives.works.find(w=>w.reason_codes.includes(reason));
+    const w=fixture.works.find(w=>w.work_id===n.work_id);
+    await hash(page,'#work='+w.work_id);
+    await checkWork(page,w.work_id,w.title);
+    assert.equal(await page.locator('.story-summary').count(),0);
+    assert.equal(await page.locator('.story-timeline').count(),0);
+    assert.match(await page.locator('.narrative-pending').textContent(),/保留/);
+    await page.locator('.narrative-jump').click();
+    await checkWork(page,w.work_id,w.title,'work-sources-'+w.work_id);
+  }
+});
+
+test('vertical flow remains legible without horizontal overflow at narrow mobile widths',async t=>{
+  const page=await open(t,'#work=G05-W18',{width:390,height:844});
+  for(const width of [390,320]){
+    await page.setViewportSize({width,height:844});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    const positions=await page.locator('.timeline-card').evaluateAll(cards=>cards.map(c=>({top:c.getBoundingClientRect().top,width:c.getBoundingClientRect().width})));
+    assert.ok(positions.every((p,i)=>p.width>=210 && (!i||p.top>positions[i-1].top)));
+    await page.locator('.story-summary').evaluate(el=>el.scrollIntoView({block:'start'}));
+    await screenshot(page,'narrative-mobile-'+width);
+    await page.locator('.timeline-card').first().evaluate(el=>el.scrollIntoView({block:'start'}));
+    await screenshot(page,'timeline-mobile-'+width);
+  }
+});
+
+test('one-file PoC allows switching stories without any extra resource or data request',async t=>{
+  const folder=await mkdtemp(resolve(tmpdir(),'scare-preview-'));
+  t.after(()=>rm(folder,{recursive:true,force:true}));
+  const file=resolve(folder,'preview.html');
+  execFileSync('python3',[resolve(docs,'../scripts/build_site_preview.py'),file]);
+  const page=await browser.newPage({viewport:{width:390,height:844}});
+  t.after(()=>page.close());
+  const errors=[],requests=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('request',r=>requests.push(r.url()));
+  const previewBody=await readFile(file,'utf8');
+  await page.route(base+'offline-preview.html',route=>route.fulfill({contentType:'text/html',body:previewBody}));
+  await page.goto(base+'offline-preview.html');
+  await page.waitForFunction(()=>document.querySelectorAll('#poc-links a').length===4);
+  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  await page.waitForFunction(()=>document.querySelector('.story-summary'));
+  await checkWork(page,'G02-W11','猿夢');
+  await page.locator('.poc-switch > summary').click();
+  await page.locator('.poc-switch a[href="#work=G05-W18"]').click();
+  await checkWork(page,'G05-W18','八尺様');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  assert.deepEqual(errors,[]);
+  assert.equal(requests.length,1);
 });

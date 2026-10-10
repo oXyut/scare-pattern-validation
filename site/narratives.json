@@ -1,0 +1,5166 @@
+{
+  "schema_version": "story-narratives-1",
+  "research_revision": "148359afaa05072f95c3b57b374897f381ad093a",
+  "edition_date": "2026-10-10",
+  "editorial_note": "UIレビュー用の4作品PoC。自作のあらすじと時系列の恐怖の対応は既存v1を参照する編集上の解釈で、v1の再判定やv3の検証ではない。他の作成済み下書きはレビューまで表示しない。",
+  "works": [
+    {
+      "work_id": "G01-W01",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2009-05-04投稿322–390。本編322–384、同一投稿者の補足386/388を区別。『人型焼き』等別作を含めない。",
+      "limitations": [
+        "逃走中の映像の由来と年代は不明。人間の口封じという結論は語り手の推測。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "郷土史で知った赤い仏像を見に、青年が山村の寺を訪れる。",
+        "development": "仏像の近くで一夜を過ごすと獣に追われ、犬が襲われる。青年は負傷して助けられる。",
+        "ending": "老婆の説明と逃走中に見た映像から、青年は供犠が村内の口封じにも使われたと考え、村を去る。"
+      },
+      "chronology_note": "現代の訪問を主線にし、年代不明の過去映像は別の流れに分けています。",
+      "narrative_note": "過去の映像は逃走中に見たとされますが、内容は終盤で初めて説明されます。",
+      "source_reviews": [
+        {
+          "review_id": "G01-W01-R1",
+          "source_id": "G01-S001",
+          "url": "https://llike.net/2ch/fear/akaibutuzo/",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "Part1の訪問・老婆の伝承・テントでの獣との遭遇。"
+        },
+        {
+          "review_id": "G01-W01-R2",
+          "source_id": "G01-S021",
+          "url": "https://llike.net/2ch/fear/akaibutuzo/2.htm",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "Part2の逃走・介抱・身代わりの説明・終盤の映像と帰路。投稿者の補足で犬の目的を照合。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G01-W01-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "訪問後の夕方",
+              "title": "寺で一夜を過ごす",
+              "event": "老婆の話に興味を持ち、仏像の近くにテントを張る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W01-R1",
+                "G01-W01-R2"
+              ],
+              "fears": [],
+              "step_id": "G01-W01-T1-1"
+            },
+            {
+              "time": "深夜",
+              "title": "獣から逃げる",
+              "event": "外の異臭と唸り声を確かめた後、異様な獣に追われる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W01-R1",
+                "G01-W01-R2"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W01-SC01",
+                  "type_ids": [
+                    "A2"
+                  ],
+                  "fear": "捕まれば襲われる切迫感",
+                  "basis": "移動して逃れる追跡場面。所在の不明だけでA1を強く支持しない。"
+                }
+              ],
+              "step_id": "G01-W01-T1-2"
+            },
+            {
+              "time": "逃走中",
+              "title": "犬が犠牲になる",
+              "event": "犬が獣と対峙して襲われ、青年も倒され意識を失う。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W01-R1",
+                "G01-W01-R2"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W01-SC02",
+                  "type_ids": [
+                    "E3"
+                  ],
+                  "fear": "助かる裏側の犠牲",
+                  "basis": "後で老婆が身代わり用の犬と説明する。青年がその場で犠牲を選んだわけではない。"
+                }
+              ],
+              "step_id": "G01-W01-T1-3"
+            },
+            {
+              "time": "翌朝から帰路",
+              "title": "説明と映像を結び付ける",
+              "event": "介抱された青年は、祭儀が村人の口封じにも使われたと推測する。",
+              "fact_kind": "inference",
+              "narrative_position": "終盤で過去の映像を説明する",
+              "source_review_ids": [
+                "G01-W01-R1",
+                "G01-W01-R2"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W01-SC03",
+                  "type_ids": [
+                    "C2",
+                    "D4"
+                  ],
+                  "fear": "人間の悪意と記憶の由来への疑い",
+                  "basis": "口封じは語り手の解釈。映像が前世か他人の体験かは未決着で、D4は弱い候補。"
+                }
+              ],
+              "step_id": "G01-W01-T1-4"
+            }
+          ]
+        },
+        {
+          "flow_id": "G01-W01-T2",
+          "label": "年代不明の過去映像",
+          "note": "現代の出来事との年代関係・映像の由来は未確定。",
+          "steps": [
+            {
+              "time": "過去らしい時代・年代不明",
+              "title": "子供が口封じに遭う映像",
+              "event": "殺人を見た子供が長に追われ、首を絞められる映像が語られる。",
+              "fact_kind": "vision",
+              "narrative_position": "逃走の後、終盤の回想として提示",
+              "source_review_ids": [
+                "G01-W01-R1",
+                "G01-W01-R2"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W01-SC03",
+                  "type_ids": [
+                    "C2",
+                    "A2"
+                  ],
+                  "fear": "目撃者を消そうとする人間の暴力",
+                  "basis": "過去の映像内の追跡と加害に対応。青年自身の確定した幼少期とは扱わない。"
+                }
+              ],
+              "step_id": "G01-W01-T2-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W02",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "『悪霊食い』短編転載の本文全体。原スレ照合未実施。",
+      "limitations": [
+        "全体が友人経由の伝聞。寺の説明を実証された怪異の仕組みとは扱わない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "怪異の場所へ行っても平気な知人について、語り手が友人から話を聞く。",
+        "development": "寺へ相談すると、その知人に付く巨大な塊が周囲の悪霊を飲み込むと説明される。",
+        "ending": "知人は塊がいる限り安全だとされるが、周囲の友人には異変が起こる。語り手はその違いを疑問に思う。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G01-W02-R1",
+          "source_id": "G01-S002",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G01-W02-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "寺への相談以前",
+              "title": "知人だけ平気でいる",
+              "event": "危険とされる場所でも知人は平気で、同行者は頭痛などを訴えるという。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W02-T1-1"
+            },
+            {
+              "time": "寺に相談した時",
+              "title": "塊の正体を説明される",
+              "event": "寺の人は、知人に付く巨大な塊が悪霊を吸い込むと話す。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W02-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W02-SC01",
+                  "type_ids": [],
+                  "fear": "守る存在の仕組みが理解できない",
+                  "basis": "v1は不適合。知人の喪失や塊の害は描かれず、既存の恐怖型を追加しない。"
+                }
+              ],
+              "step_id": "G01-W02-T1-2"
+            },
+            {
+              "time": "説明を聞いた後",
+              "title": "保護の範囲に疑問が残る",
+              "event": "知人の安全という説明と同行者の不調が両立する理由を、語り手は疑問に思う。",
+              "fact_kind": "inference",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W02-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W03",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "『事件に関する重要な記録』録音・事件記録部分全体。IZUMO事故を含む短編。",
+      "limitations": [
+        "転載見出しの別名\n事件に関する重要な記録\nIZUMO事故、生存少女、叔母、録音記録の固有要素が一致。別名を別作品に加算しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W04",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2007-03-14投稿763–786の本編。後続コメントは物語の根拠にしない。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W05",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "割当本文は未同定。『着物の少女』および2010-07-26投稿932–934は比較候補のみ。",
+      "limitations": [
+        "未同定\n顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W06",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文未同定",
+      "limitations": [
+        "未同定\n名称のX言及のみ。対象の物語本文は未同定。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W07",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "洒落怖371、2022-10-10投稿1013–1014。本編全体、コメント除外。",
+      "limitations": [
+        "検索で見つからないというのは作中の出来事。現在の検索結果に置き換えない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "就職先の寮で、語り手は地元だけの噂と思っていた怪物の話をする。",
+        "development": "別の地域出身の同僚たちも特徴を知っているが、誰も噂の出所を説明できない。",
+        "ending": "皆で検索しても情報は見つからず、なぜ共有されているのか分からないまま疑問が残る。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G01-W07-R1",
+          "source_id": "G01-S005",
+          "url": "https://nazolog.com/blog-entry-11958.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "洒落怖371の投稿1013〜1014の短篇全体。読者コメントを除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G01-W07-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "就職前",
+              "title": "地元で噂を聞く",
+              "event": "黒い小さな怪物が音を立てて追う、という噂を先輩から聞いていた。",
+              "fact_kind": "embedded_story",
+              "narrative_position": "寮での会話の中で説明される",
+              "source_review_ids": [
+                "G01-W07-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W07-SC02",
+                  "type_ids": [
+                    "A2"
+                  ],
+                  "fear": "噂の中の追跡",
+                  "basis": "伝説内の追跡にだけ対応。語り手が実際に襲われた出来事ではない。"
+                }
+              ],
+              "step_id": "G01-W07-T1-1"
+            },
+            {
+              "time": "就職後の寮",
+              "title": "同僚にも通じる",
+              "event": "違う地域から来た同僚たちも、同じ名前と細かい特徴を知っている。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W07-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W07-SC01",
+                  "type_ids": [],
+                  "fear": "出所の分からない共有知識の不気味さ",
+                  "basis": "v1では型の付与なし。誤判断の損失や世界規則の反証を補わない。"
+                }
+              ],
+              "step_id": "G01-W07-T1-2"
+            },
+            {
+              "time": "その晩から投稿まで",
+              "title": "由来が見つからない",
+              "event": "一同はネットで調べるが情報を見つけられず、語り手は疑問を投稿する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W07-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W07-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W08",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "タクシー運転手の語りと翌日の店訪問・後日談まで。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W09",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "転載「くねくねまとめ」の第1–7話およびオマケを読了。起源・ネット上の全異本は未網羅。",
+      "limitations": [
+        "ネットロア集合／異本群\n第1–7話＋オマケを読了したがネット上の全体未網羅。第6話は操り型、第7話は同定推測。オマケはパロディとして本篇と分離。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W10",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "禁称・儀礼説明から過去の迫害譚、固芥の字形まで。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W11",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "『坂の上の女』本文全体を比較候補として読了。割当名との同一性は未確認。",
+      "limitations": [
+        "未同定\n同名テレビ作品と「坂の上の女」のネット短編が競合。改題・同一話という根拠がなく置き換えない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W12",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "修学旅行のバスでの排便と嘔吐の連鎖まで。笑える怪談カテゴリの単話。",
+      "limitations": [
+        "非超常・笑い話\n転載は「笑える怪談」カテゴリ。割当を削除しない。怖さ・笑いの効果測定ではない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W13",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文未同定",
+      "limitations": [
+        "未同定\n名称リストとX言及は本文の代用にならない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W14",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2005-11-24投稿545–552相当、転載4ページ全体。投稿番号547/548の明示は見えないが本文は接続する。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W15",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "探索から異なる生活への適応、17年後の手紙と記録を残す結末まで。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W16",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "犬を持つ男との追跡、仮説検討、トラック事故、多数の犬連れの結末まで。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W17",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "洒落怖380の2024-12-21投稿626–627「トマト男」のみ。同頁の旧友の霊の別話を除外。",
+      "limitations": [
+        "本文で明示される別名\nトマト男\n同頁の旧友の霊の話は別作品として不採用。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W18",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "2008-03-21実況スレ151投稿121–134の転載部分。後続専用スレ2本・画像動画・現地報告は本文未取得。",
+      "limitations": [
+        "実況型ネットロア／シリーズ\n冒頭だけのコピペと、投稿121–134の本文を区別。TRPG・小説・漫画の派生は分析に含めない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W19",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "学校の夢、逃走、覚醒後のノートと次回への不安まで。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W20",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文未同定",
+      "limitations": [
+        "未同定\n名称リストと無関係小説は本文の代用にならない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W21",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "2008年「蛇憑きの話」、2011年「蛇が憑いた」および補足、2015年「去年亡くなった妹の話。」の3篇。2015年本文が前2篇を参照。割当名との関係は推定。無関係投稿908を除外。",
+      "limitations": [
+        "シリーズ候補／本文内の自己参照あり\n転載見出しは蛇憑きの話、蛇が憑いた、去年亡くなった妹の話。2015年が前2篇を具体的に参照するが、割当の総称・投稿者の同一性は未確証。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W22",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2000-06-15投稿175の浴室・鍵穴の短編全体。後年の同名創作は除外。",
+      "limitations": [
+        "誰が何の目的で工具を動かしたかは本文にない。実際の負傷は描かれていない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "幼い語り手が母と銭湯に行き、浴槽脇の扉の鍵穴を覗く。",
+        "development": "一度は暗く、再び覗くと機械が見える。ふいに身を引いた直後、工具の先が鍵穴から突き出される。",
+        "ending": "語り手はその場を離れ、恐ろしくて母にも話せない。相手の正体は示されない。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G01-W22-R1",
+          "source_id": "G01-S016",
+          "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "2000/06/15の投稿175の全文。後年の同名創作を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G01-W22-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "幼少期・入浴中",
+              "title": "扉の向こうを覗く",
+              "event": "遊びに飽きた子供が、浴槽脇の鍵穴の先にある機械を覗いている。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W22-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W22-T1-1"
+            },
+            {
+              "time": "直後",
+              "title": "小さな穴から工具が出る",
+              "event": "突然身を引くと、鍵穴からドライバーの先端が激しく動いて出てくる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W22-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W22-SC01",
+                  "type_ids": [
+                    "A3"
+                  ],
+                  "fear": "覗いていた場所が攻撃の入口になる",
+                  "basis": "安全の境界を鍵穴まで広げた部分候補。一撃のみで、追跡や身体内損傷を補わない。"
+                }
+              ],
+              "step_id": "G01-W22-T1-2"
+            },
+            {
+              "time": "その後",
+              "title": "母にも話せない",
+              "event": "子供は息を呑んでその場を離れ、母に事情を話せないまま終わる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W22-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W22-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W23",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "洒落怖161投稿199–209の本編全体。転載コメント欄の交渉・譲渡案を設定に混ぜない。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W24",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "Uが語る「ゆき」の怪談、発声の変化、帰郷後の葬儀まで。",
+      "limitations": [
+        "複合見出し／同一篇\nゆき\n富士の影\n地理の言及と怪談「ゆき」を含む単一本文を1項目として扱う。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W25",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "祖父の山での遭遇・逃走、死後の祖母の説明まで。",
+      "limitations": [
+        "祖父の死と怪異の因果は祖母の説明であり、契約・死因は確定していない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "猟師の祖父に連れられて山に入った子供が、祖父の異様な動揺を目にする。",
+        "development": "祖父は赤い猿のような存在に撃ちながら逃げ、孫を抱いて家まで走る。祖母が塩と酒をかける。",
+        "ending": "祖父の死後、祖母は孫の身代わりになったと説明する。語り手は成人して生きている。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G01-W25-R1",
+          "source_id": "G01-S019",
+          "url": "https://the-mystery.org/strange_experience/post-2764/",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G01-W25-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "山での猟の途中",
+              "title": "祖父が動揺する",
+              "event": "茂みの物音に猟師の祖父が固まり、発砲して孫を抱え逃げる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W25-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W25-T1-1"
+            },
+            {
+              "time": "山から家まで",
+              "title": "発砲しても追われる",
+              "event": "赤い猿のような存在が追い、祖父は繰り返し撃ちながら孫を連れて家へ帰る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W25-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W25-SC01",
+                  "type_ids": [
+                    "A2",
+                    "C4",
+                    "E4"
+                  ],
+                  "fear": "逃走と、孫を守る手段の頼りなさ",
+                  "basis": "追跡と他者保護に対応。今回の銃撃の不奏功を一般的な無効法則とはしない。"
+                }
+              ],
+              "step_id": "G01-W25-T1-2"
+            },
+            {
+              "time": "帰宅後",
+              "title": "塩と酒の処置",
+              "event": "祖母が二人に塩と酒をかけるが、しばらく由来を話さない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W25-R1"
+              ],
+              "fears": [],
+              "step_id": "G01-W25-T1-3"
+            },
+            {
+              "time": "祖父の死後から成人後",
+              "title": "身代わりという説明",
+              "event": "祖母は山の神だったと説明し、祖父が孫に代わって死んだと語る。孫は生き延びている。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G01-W25-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G01-W25-SC02",
+                  "type_ids": [
+                    "E3"
+                  ],
+                  "fear": "生存に犠牲が結び付けられる",
+                  "basis": "身代わりは祖母の説明。明示された契約や不可避の代償はなく、E3は弱い候補。"
+                }
+              ],
+              "step_id": "G01-W25-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W26",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "洒落怖109投稿452–515本編と電話説明。別投稿者476/477の漫画解釈は根拠にしない。",
+      "limitations": [
+        "独立短編候補\n割当内の重複は確認されない。初出の完全照合は未実施。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G01-W27",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文未同定",
+      "limitations": [
+        "未同定\n検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W01",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "編集転載1〜4頁のスレッド物語。初出スレッド全レス・漫画等の全派生は未網羅",
+      "limitations": [
+        "アクサラ／悪皿、転載題「ヤヴァイ奴に遭遇したかもしれん」。八尺様や漫画のキャラクターと同一話として集計しない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W02",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "転載の単話。参照先リョウメンスクナ本編は本割当の追加作品にしない",
+      "limitations": [
+        "祖父の出来事は伯父経由の伝聞。教団の実在、遺体の力、災害や事故との因果を外部事実として扱わない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "ネットの怪談を見た伯父が、似た形の遺体を祖父が扱った話を語り始める。",
+        "development": "戦後、祖父は整地で出た加工されたミイラを買い取る。伯父は、それを教団が呪具として作ったと説明する。",
+        "ending": "海へ捨てようと積んだ船が沈んだという。伯父は後年の地震や船の事故との関係を想像するが、原因は確定しない。"
+      },
+      "chronology_note": "祖父の遺体の引き取りと処分を先に置き、伯父が現在語る推測へ進めます。",
+      "narrative_note": "本文は伯父とネットの怪談を読む現在から始まり、祖父の過去を伝聞で説明します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W02-R1",
+          "source_id": "G02-S005",
+          "url": "https://nazolog.com/blog-entry-992.html",
+          "accessed_at_utc": "2026-10-10T10:03:39Z",
+          "method": "web_reader",
+          "scope": "2006/05/12投稿106〜110の本文。参照作品リョウメンスクナとコメント欄を対象に含めない。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W02-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "戦後・詳しい年不明",
+              "title": "木箱からミイラが出る",
+              "event": "整地で発見された加工された遺体を、祖父が引き取り、伯父は教団の呪具だと説明する。",
+              "fact_kind": "reported",
+              "narrative_position": "伯父が中盤で語る祖父の過去",
+              "source_review_ids": [
+                "G02-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W02-T1-1"
+            },
+            {
+              "time": "引き取りの後",
+              "title": "処分する船が沈む",
+              "event": "祖父の依頼でミイラを積んだ漁船が沈んだと伯父は語る。祖父は乗っていなかったという。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W02-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W02-S01",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "扱ったものを処分しても危険が残る",
+                  "basis": "扱った後の沈没を参照するが、呪具との因果や沈没の原因は未確定。"
+                }
+              ],
+              "step_id": "G02-W02-T1-2"
+            },
+            {
+              "time": "投稿の前年頃から現在",
+              "title": "別の被害との関係を想像する",
+              "event": "伯父は後年の地震や高速船の事故と沈没場所の関係を想像し、語り手と話す。",
+              "fact_kind": "inference",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W02-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W03",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文の範囲を設定できず。未検証",
+      "limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W04",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "伝承される操作手順の二次説明を比較。原投稿の全文・各実況シリーズは未確認",
+      "limitations": [
+        "異世界エレベーターという儀式型伝承。単一作品の同定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W05",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "店舗での遭遇・針金模型・再来店までの単話",
+      "limitations": [
+        "再来店と首・体の目撃は先輩の伝聞。細工と事故の因果、少年の同一性は断定しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "コンビニの夜勤で、目を合わせるなと言われていた客が現れる。",
+        "development": "客は命を要求し、針金細工を残す。それが動きを弱めた頃、近くで少年が事故死する。",
+        "ending": "再来店時に細工は返される。同僚は客が少年の首を持っていたと語り、正体や因果は解明されない。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W05-R1",
+          "source_id": "G02-S014",
+          "url": "https://the-mystery.org/scary_story/post-5003/",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W05-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "夜勤",
+              "title": "警告された客が来る",
+              "event": "店員は監視映像に見えない客に対応し、命の要求を断る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W05-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W05-S01",
+                  "type_ids": [
+                    "B4",
+                    "E1"
+                  ],
+                  "fear": "映像と目の前の客の不一致、要求の不安",
+                  "basis": "情報の不一致と接触後の条件的な危険の候補。犠牲が有効な取引とは確認できない。"
+                }
+              ],
+              "step_id": "G02-W05-T1-1"
+            },
+            {
+              "time": "数日間",
+              "title": "細工が動く",
+              "event": "残された三つの針金細工が夜に動き、一つが弱まった日に近所で少年が事故死する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W05-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W05-S02",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "持ち込まれた物と事故の結び付き",
+                  "basis": "作中で時期が対応するが、細工が事故を起こす法則として確定しない。"
+                }
+              ],
+              "step_id": "G02-W05-T1-2"
+            },
+            {
+              "time": "事故の翌夜・後から聞く",
+              "title": "返却と目撃談",
+              "event": "店長らが細工を返す。先輩は客の持つ首と、映像に見える首のない体を語る。",
+              "fact_kind": "reported",
+              "narrative_position": "語り手が出勤していない夜の出来事を後から説明",
+              "source_review_ids": [
+                "G02-W05-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W05-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W06",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "幼少期の交友、帰省後の再会、妊娠中の妻についての結末",
+      "limitations": [
+        "流産と少女の発言の因果は未確定。鏡内への移動や現実の幽閉は実行されていない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "孤独な子供が古い鏡に映る少女と親しくなり、鏡の世界へ誘われる。",
+        "development": "不安から約束を破り、成長後に忘れていた少女と鏡や車のミラーで再会する。",
+        "ending": "家族を理由に誘いを断ると、少女は生まれる子供と遊ぶと言って消える。二日後に妻が流産したと語られる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W06-R1",
+          "source_id": "G02-S015",
+          "url": "https://horror2ch.com/archives/80020901.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W06-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "幼少期",
+              "title": "鏡の友人が誘う",
+              "event": "鏡にだけ映る少女と話すが、秘密にして向こうで遊ぶ約束を不安になって破る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W06-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W06-T1-1"
+            },
+            {
+              "time": "結婚後の帰省",
+              "title": "日常の鏡で再会する",
+              "event": "鏡の中と実際の廊下が異なり、少女の顔を見た後の記憶が途切れる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W06-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W06-S01",
+                  "type_ids": [
+                    "B4",
+                    "C2"
+                  ],
+                  "fear": "反射の不一致と親しい相手への不安",
+                  "basis": "B4は鏡の不一致。C2は信頼した友人への警戒の候補で、別人の姿を借りた存在とはしない。"
+                }
+              ],
+              "step_id": "G02-W06-T1-2"
+            },
+            {
+              "time": "翌日から二日後",
+              "title": "子供へ誘いが向く",
+              "event": "自宅の車のミラーで誘いを断ると少女は子供に言及して消え、その二日後に妻が流産する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W06-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W06-S02",
+                  "type_ids": [
+                    "C4",
+                    "E2"
+                  ],
+                  "fear": "自分の拒否後に家族へ危険が向く不安",
+                  "basis": "言葉と後の喪失が対応するが、原因や伝播法則が実証されたわけではない。"
+                }
+              ],
+              "step_id": "G02-W06-T1-3"
+            },
+            {
+              "time": "投稿時",
+              "title": "弟へ話すか迷う",
+              "event": "少女は再び現れず、夫婦は子供をつくらない。語り手は弟へ話すべきか迷っている。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W06-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W06-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W07",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "本編一話のみ。後日談・全シリーズ未網羅",
+      "limitations": [
+        "表記「カンカン」等。本編と後日談は別エピソード"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W08",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文の範囲を設定できず。未検証",
+      "limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W09",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "家庭事件、同僚・僧侶の救援、番外の原因説明",
+      "limitations": [
+        "ヒッチハイクの一家を動画等が狂った家族と呼ぶ場合があっても、この転載とは別話"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W10",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "選定単話全編。パロディ等は対象外",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W11",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "主分析は2000年表記の三投稿。2007年同名版は異本比較のみ。猿夢＋・コメント体験は未網羅",
+      "limitations": [
+        "夢と現実の連続は語り手の証言。投稿後の死や再発は描かれていない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "夢だと自覚した語り手が、怖さを試そうと小さな列車に乗る。",
+        "development": "乗客が後ろから順に殺され、自分の番が迫る。目覚めようと念じ、寸前で逃れる。",
+        "ending": "四年後に同じ夢が再開。再び目覚めても次回を告げる声が聞こえ、語り手は再発を恐れる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W11-R1",
+          "source_id": "G02-S019",
+          "url": "https://nazolog.com/blog-entry-1164.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "2000/08/02の投稿9・12・13の本文。コメント欄の別体験と猿夢＋を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W11-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "最初の夢",
+              "title": "警告を聞いて乗る",
+              "event": "危険を告げる放送を聞いても、目覚められると思って列車に乗る。",
+              "fact_kind": "dream",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W11-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W11-T1-1"
+            },
+            {
+              "time": "同じ夢の車内",
+              "title": "順番が近づく",
+              "event": "後ろの乗客が襲われ、自分の処刑を予告する放送が流れる。",
+              "fact_kind": "dream",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W11-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W11-S01",
+                  "type_ids": [
+                    "E1",
+                    "B2"
+                  ],
+                  "fear": "危険が自分の番になるまで進む",
+                  "basis": "乗車後に逃れにくい状況が生じる。外部の道具による加害をD5にしない。"
+                }
+              ],
+              "step_id": "G02-W11-T1-2"
+            },
+            {
+              "time": "最初の覚醒",
+              "title": "寸前で逃れる",
+              "event": "念じ続けて目覚め、友人に話すが夢として面白がられる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W11-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W11-T1-3"
+            },
+            {
+              "time": "四年後",
+              "title": "夢が再開し声が残る",
+              "event": "同じ夢から逃れて自室で目覚めた際にも、次回を予告する声を聞いたと語る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W11-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W11-S02",
+                  "type_ids": [
+                    "E1",
+                    "B4"
+                  ],
+                  "fear": "夢だから安全という判断が揺らぐ",
+                  "basis": "声が覚醒後にも届いたという語りが安全の判断を崩す。日常時間のループとは断定しない。"
+                }
+              ],
+              "step_id": "G02-W11-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W12",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文の範囲を設定できず。未検証",
+      "limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W13",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文の範囲を設定できず。未検証",
+      "limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W14",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "目撃投稿と翌日の補足のみ",
+      "limitations": [
+        "物体の正体と炎の性質は不明。加害や追跡は描かれていない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "語り手は友人と、晴れた夕方の空を飛ぶ黒い人型の物体を目撃する。",
+        "development": "物体の周囲は炎のように見え、航空機に近い速度だったと説明する。",
+        "ending": "十五年ほど後にも正体が分からず、掲示板で情報を求め、翌日の補足で条件を詳しく述べる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文は過去の目撃を回想し、現在の問い合わせ、翌日の補足へ進みます。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W14-R1",
+          "source_id": "G02-S021",
+          "url": "https://enigma2.ahoseek.com/thread/part61/1858/",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W14-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "投稿の約十五年前",
+              "title": "友人と空を見上げる",
+              "event": "黒い人型に見える飛行物体を二人で目撃する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W14-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W14-T1-1"
+            },
+            {
+              "time": "同じ目撃中",
+              "title": "炎のような輪郭を見る",
+              "event": "周囲が橙色の炎に包まれて見え、飛行機に似た速度で動いていたと語る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W14-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W14-S01",
+                  "type_ids": [],
+                  "fear": "説明できない目撃が気に掛かる",
+                  "basis": "v1で型の付与なし。加害・接近・知覚の対立を作らず、世界規則の破綻ともしない。"
+                }
+              ],
+              "step_id": "G02-W14-T1-2"
+            },
+            {
+              "time": "投稿と翌日の補足",
+              "title": "正体を問い合わせる",
+              "event": "情報を得られないまま、天候や大きさなどを補足して心当たりを求める。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W14-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W14-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W15",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "転載全編。続編・他作品への接続は未調査",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W16",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文の範囲を設定できず。未検証",
+      "limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W17",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "祖父のバイク旅行中の遭遇を伝える選定単話",
+      "limitations": [
+        "全体が祖父の話の伝聞。祖父の祖父による「断れば食われた」という説明は、実際に起きた加害とは区別する。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "祖父が若い頃、バイクで山へ入り野宿すると、細長い異形が近づいてくる。",
+        "development": "相手はバイクを馬だと思って欲しがる。祖父は危害を恐れて譲ると言うが、燃料や口のないことを説明すると相手は諦める。",
+        "ending": "代わりに菓子を渡すと相手は去る。翌朝、祖父は下山し、以来バイクで山へ行かなくなったという。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W17-R1",
+          "source_id": "G02-S023",
+          "url": "https://sharekowa.biz/archives/%E3%80%90%E6%B4%92%E8%90%BD%E6%80%96%E3%80%91%E3%81%AA%E3%81%AB%E3%81%8B.html",
+          "accessed_at_utc": "2026-10-10T10:02:00Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W17-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "山で野宿中",
+              "title": "異形が近づく",
+              "event": "たき火の前に細長い存在が現れ、祖父は身構える。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W17-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W17-S01",
+                  "type_ids": [
+                    "A2"
+                  ],
+                  "fear": "接近した相手の加害を恐れる",
+                  "basis": "自分から近づく異形を恐れるが、継続する追跡・逃走は起きていないため部分適合。"
+                }
+              ],
+              "step_id": "G02-W17-T1-1"
+            },
+            {
+              "time": "対話の最中",
+              "title": "バイクを欲しがられる",
+              "event": "相手がバイクを馬と考えて求めるため、祖父は燃料と口のないことを説明する。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W17-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W17-T1-2"
+            },
+            {
+              "time": "対話の後から翌朝",
+              "title": "菓子を渡して下山する",
+              "event": "菓子を受け取った相手は去り、祖父は夜明けに山を下りる。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W17-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W17-S02",
+                  "type_ids": [],
+                  "fear": "対話でやり過ごすが恐怖が残る",
+                  "basis": "v1は不適合。この結末を追跡や強制的な犠牲の型へ追加で当てはめない。"
+                }
+              ],
+              "step_id": "G02-W17-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W18",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "三人の廃道探索〜無事帰宅と入口の再封鎖",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W19",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "本編＋続き。映像ドラマ・創作解説は除外。シリーズの全派生未網羅",
+      "limitations": [
+        "「パンドラ」「禁后」は本編と続きの題名関係。割当内の二項目に増やさない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W20",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "旅の開始、一家の車、森林逃走、トイレ、町への移動と廃車、帰宅後まで",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W21",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "友人宅への訪問と疎遠になる後日、十四年後の回想。三頁全編",
+      "limitations": [
+        "掲載題「マネキンのいる家」と本文題「マネキン」を内容から対応。同定は高確信、原一覧リンクの直接照合は未実施"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W22",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "白い部屋〜犠牲選択〜遺影、飲み会の枠物語まで",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W23",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "カップルの迷い〜帰路の回復と地元説明",
+      "limitations": [
+        "店の性質は地元の人の伝聞。女性店員に接触した場合の結果は本文にない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "夜の山道で迷った二人が、灯りのついたラーメン店に入る。",
+        "development": "車のない駐車場に反して店内は満員で、客は湯気の立つ料理を前に動かず静かにしている。二人は怖くなって店を出る。",
+        "ending": "夜明け近くに会った地元の人が、よそ者だけ見つける店で、女性店員に会わずよかったと話す。後日の再訪では店が見つからない。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W23-R1",
+          "source_id": "G02-S032",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8225",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W23-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "夜の山道",
+              "title": "店を見つける",
+              "event": "道に迷い、広い駐車場が空のラーメン店へ入る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W23-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W23-T1-1"
+            },
+            {
+              "time": "入店後",
+              "title": "客の様子に違和感を持つ",
+              "event": "満員なのに客が会話も食事もしておらず、二人は退店する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W23-S01",
+                  "type_ids": [
+                    "B1"
+                  ],
+                  "fear": "通常の飲食店の見え方が変わる",
+                  "basis": "人の多さと静止した店内の不自然さ。世界全体の隔離や異世界への移動は断定しない。"
+                }
+              ],
+              "step_id": "G02-W23-T1-2"
+            },
+            {
+              "time": "夜明け近く",
+              "title": "店について警告を聞く",
+              "event": "道を案内する人は、女性店員との接触を避けられたのは幸運だと話す。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W23-S02",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "入店が危険の入口だったと知る",
+                  "basis": "危険の具体的内容は教えられず、不可逆な結果の実例は確認できない。"
+                }
+              ],
+              "step_id": "G02-W23-T1-3"
+            },
+            {
+              "time": "後日の訪問",
+              "title": "店が見つからない",
+              "event": "同じ辺りを探しても店を再び見つけられない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W23-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W23-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W24",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "全収録転載の長編本文と末尾補足。原投稿掲載先・初出版との一致、全派生は未確認",
+      "limitations": [
+        "割当内の他項目との同一話は確認されない"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G02-W25",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "404号室の契約〜主人公が取り残される結末",
+      "limitations": [
+        "食料などが続くことは語り手の記述。部屋の目的と原理は語り手の推測。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "不動産会社の社員が、存在しない404号室を借りたい客の希望を、家主の了承で契約する。",
+        "development": "建物に404号室が現れる。退去日に室内へ入った社員は、客の忠告を聞かず残り、出口と窓が開かなくなる。",
+        "ending": "六か月後も室内から投稿している。食料などが尽きない理由を、部屋が住人を必要とするためだと推測する。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W25-R1",
+          "source_id": "G02-S034",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=44",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W25-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "賃貸契約から一週間後",
+              "title": "ないはずの部屋が増える",
+              "event": "以前はないと確かめた404号室が現れ、周囲の住人は以前からあるように扱う。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W25-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W25-S01",
+                  "type_ids": [
+                    "B3",
+                    "B4"
+                  ],
+                  "fear": "建物と他人の認識が変わる",
+                  "basis": "部屋の有無が変化したという語りと周囲の平静。社員の記憶の改変自体は描かれていない。"
+                }
+              ],
+              "step_id": "G02-W25-T1-1"
+            },
+            {
+              "time": "契約の一か月後",
+              "title": "客の警告を聞かず残る",
+              "event": "退去の引き渡しで入室し、部屋が消えるという警告を受けても客と一緒に出ない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W25-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W25-T1-2"
+            },
+            {
+              "time": "客が出た後",
+              "title": "出口が閉じる",
+              "event": "暗くなった室内で扉や窓が開かず、外は何も見えなくなる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W25-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W25-S02",
+                  "type_ids": [
+                    "B2"
+                  ],
+                  "fear": "室外へ出る手段を失う",
+                  "basis": "退去後に室内から出られない描写に対応。客が故意に閉じ込めたとは断定しない。"
+                }
+              ],
+              "step_id": "G02-W25-T1-3"
+            },
+            {
+              "time": "六か月後",
+              "title": "室内で生活が続く",
+              "event": "食料・水・電気が保たれる中、部屋が存在のために住人を留めていると社員は考える。",
+              "fact_kind": "inference",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W25-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W25-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W26",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "単話の全編。別話リゾートバイト等を代用しない",
+      "limitations": [
+        "老女の説明や火災の記事は作中の情報。電話の後の被害や怪異の原理は未描写。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "生活費に困る学生が、住み込みの旅館の求人を見つけて電話し、翌日の勤務を案内される。",
+        "development": "電話後に身体が弱り、列車で向かう途中、老女の警告で引き返す。帰宅すると身体が回復し、通話記録には多数の声が残っている。",
+        "ending": "求人紙は火災で多数が死亡した旅館の古い記事だった。電話の電源を抜いても着信音が続き、語りはそこで終わる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G02-W26-R1",
+          "source_id": "G02-S035",
+          "url": "https://xn--u9jv84l7ea468b.com/kaidan/26wa.html",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G02-W26-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "求人への応募",
+              "title": "電話で勤務を決める",
+              "event": "住み込みの条件に惹かれて電話し、録音らしい案内で翌日から来るよう伝えられる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W26-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W26-T1-1"
+            },
+            {
+              "time": "その夜から出発",
+              "title": "身体が衰える",
+              "event": "出血や急な老化のような異変が起こる中、指定の場所へ列車で向かう。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W26-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W26-S01",
+                  "type_ids": [
+                    "D5",
+                    "E1",
+                    "C2"
+                  ],
+                  "fear": "身体の変化と誘いに従う危険",
+                  "basis": "身体の異変が応募後に進み、仕事という利益が誘いになる。応募先の正体はまだ分からない。"
+                }
+              ],
+              "step_id": "G02-W26-T1-2"
+            },
+            {
+              "time": "列車での忠告と帰宅",
+              "title": "引き返して録音を聞く",
+              "event": "老女に止められて帰宅すると回復する。録音には電話中に聞かなかった複数の声がある。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W26-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G02-W26-S02",
+                  "type_ids": [
+                    "B4",
+                    "E1"
+                  ],
+                  "fear": "自分が聞いた通話の意味が崩れる",
+                  "basis": "記憶していた案内と録音の食い違いが、応募先への危険の認識を変える。"
+                }
+              ],
+              "step_id": "G02-W26-T1-3"
+            },
+            {
+              "time": "古い求人紙を調べた後",
+              "title": "電源を抜いても音が続く",
+              "event": "旅館の火災の記事を見つけ、電話を切り離しても鳴る音を聞く。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G02-W26-R1"
+              ],
+              "fears": [],
+              "step_id": "G02-W26-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W01",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "泉の広場・赤い服の女 Part2。投稿29（転載元169）と204〜238のアキちゃん由来談を中心に同頁の投稿群を確認。Part1・Part3未網羅。",
+      "limitations": [
+        "赤福／泉の広場の赤い女／アキちゃんは集合的な別称。同頁の語り手自身も由来談を幽霊と無関係と断る。あきちんとの同一性根拠なし。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W02",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "単篇。ホラスト掲載版の冒頭〜末尾。動画の続編・3rdは含めない。",
+      "limitations": [
+        "先生と男の関係、先生が退職した理由は語られない。声の主も未確定。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "校門で毎日踊る男に慣れていた児童が、休日の学校で男と目を合わせる。",
+        "development": "男が校舎へ走り込む。児童を守りに行った先生が見えなくなり、別の声が児童を呼び出す。",
+        "ending": "逃げた児童は、教室の窓に先生と男が並ぶのを見る。先生は後に退職し、男も現れなくなるが理由は分からない。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W02-R1",
+          "source_id": "G03-S002",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8062",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W02-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "日常から休日の来校",
+              "title": "見慣れた男と目が合う",
+              "event": "忘れ物を取りに来た児童が、いつもの校門ではなく校庭にいる男の異様な顔を見る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W02-T1-1"
+            },
+            {
+              "time": "直後",
+              "title": "男が校舎へ駆け込む",
+              "event": "男が開いた玄関へ向かい、先生は児童を隠して対応しに下りる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W02-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W02-SC01",
+                  "type_ids": [
+                    "A2",
+                    "A3"
+                  ],
+                  "fear": "追跡が校内まで及ぶ",
+                  "basis": "向かって来る男と、児童のいる校舎へ入る動きに対応する。"
+                }
+              ],
+              "step_id": "G03-W02-T1-2"
+            },
+            {
+              "time": "数分後",
+              "title": "先生と違う声に呼ばれる",
+              "event": "先生が見えなくなり、別の声に出るよう促される。走り出すと足音が追って来る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W02-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W02-SC02",
+                  "type_ids": [
+                    "B4",
+                    "A2"
+                  ],
+                  "fear": "保護される期待が崩れて逃げる",
+                  "basis": "先生の保護という判断が揺らぎ、追う足音が生じる。先生の声の模倣とは書かれていない。"
+                }
+              ],
+              "step_id": "G03-W02-T1-3"
+            },
+            {
+              "time": "脱出後から一週間後",
+              "title": "二人が同じ窓にいる",
+              "event": "校門まで逃げ、教室の窓に先生と男を見る。先生は退職し、男も見なくなる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W02-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W02-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W03",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W04",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "エツコさん掲載版の全本文。作中に埋め込まれた古い話は作中伝聞。",
+      "limitations": [
+        "割当の「エツ子さん」と「エツコさん」を表記異本候補として対応。原典の同定確信は中程度。別の新耳袋の同名人物談を除外。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W05",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2011/07/27〜28の投稿259〜315。fumibako掲載の単一相談スレ本文。",
+      "limitations": [
+        "オンドウサマ／オンドウ様表記。2013年の別話「オンドウ様」は除外。後世コメントの死亡報告を続編確定にしない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W06",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "ホラストの単篇全文。",
+      "limitations": [
+        "叔父の説明と語り手の意識体験を区別。弟の介入や手形の超常的因果は確定しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "少年は年明けから、無表情な家族や悪夢、痛みを伴う異常を経験したと語る。",
+        "development": "弟に背中を叩かれると景色が変わり、負傷したまま叔父の家で記憶が戻る。",
+        "ending": "叔父によれば、元日に放火と暴行を受け、家族を失った後の二か月が欠けていた。犯人は捕まらず、背には弟の手形のような無傷の跡が残った。"
+      },
+      "chronology_note": "事件の説明を先に置きます。家族と過ごした意識体験の客観的な時間は確定できず、事件後の体験として分けています。",
+      "narrative_note": "本文は異常な家族生活から始まり、終盤で元日の事件と二か月の記憶欠落が明かされます。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W06-R1",
+          "source_id": "G03-S005",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1930",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W06-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "元日・後から知らされる",
+              "title": "放火と暴行",
+              "event": "叔父によれば家が焼け、家族が死亡。外出中だった少年も犯人らしい人物に襲われた。",
+              "fact_kind": "reported",
+              "narrative_position": "終盤で叔父の説明として示される",
+              "source_review_ids": [
+                "G03-W06-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W06-T1-1"
+            },
+            {
+              "time": "事件後の意識体験",
+              "title": "家族の異常と悪夢",
+              "event": "少年は家族の奇行や殴られる夢、身体の痛みを経験したと語る。",
+              "fact_kind": "vision",
+              "narrative_position": "本文の冒頭から先に語られる",
+              "source_review_ids": [
+                "G03-W06-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W06-SC01",
+                  "type_ids": [
+                    "B1",
+                    "B4",
+                    "D4"
+                  ],
+                  "fear": "現在いる場所や記憶のつながりが分からない",
+                  "basis": "後の説明と意識体験が食い違う。人格の置換や家族の模倣は証明されていない。"
+                }
+              ],
+              "step_id": "G03-W06-T1-2"
+            },
+            {
+              "time": "三月",
+              "title": "叔父の家で記憶が戻る",
+              "event": "弟に背を叩かれた感覚を境に、負傷した自分と事件の説明を認識する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W06-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W06-SC02",
+                  "type_ids": [
+                    "C4",
+                    "A2"
+                  ],
+                  "fear": "家族の喪失と未逮捕の加害者への恐れ",
+                  "basis": "v1ではこの場面は不適合。既発生の死は将来の救助課題と異なり、新たな追跡も描かれない。"
+                }
+              ],
+              "step_id": "G03-W06-T1-3"
+            },
+            {
+              "time": "その後から五年後",
+              "title": "手形と未解決の事件",
+              "event": "背に弟の手形のような跡を認め、あざとともに消えたと語る。犯人は未逮捕とされる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W06-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W06-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W07",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "夜行列車転載3頁、本編・背景説明・報告終結まで。",
+      "limitations": [
+        "姦姦蛇螺。由来の歴史は作品内伝説であり外部史実ではない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W08",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "SpookyLib「あらすじ」内に掲載された一人称短篇全体のみ。後続考察を物語事実にしない。",
+      "limitations": [
+        "看板の表記の由来と人型の正体は未確定。記事の別次元説を物語の事実には採用しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "以前もてなされた山村へ、語り手が車で再訪する。",
+        "development": "道の看板が巨頭オと変わり、村は荒れている。異常に大きな頭の人型が多数現れ、車へ迫る。",
+        "ending": "車を降りずに後退して国道へ逃げる。帰宅後に地図で場所を確かめるが、再訪する気はなくなる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W08-R1",
+          "source_id": "G03-S009",
+          "url": "https://spookylib.com/bigheadman-2917",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "記事の「あらすじ」内の一人称本文のみ。記事の要約・別次元説などの考察を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W08-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "数年前",
+              "title": "村を訪れてもてなされる",
+              "event": "一人旅で小さな旅館のある村に立ち寄り、印象に残るもてなしを受ける。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W08-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W08-T1-1"
+            },
+            {
+              "time": "連休の再訪",
+              "title": "村の様子が変わっている",
+              "event": "看板の文字が変わり、建物が草に覆われた村へ車で入る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W08-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W08-T1-2"
+            },
+            {
+              "time": "車を降りる前",
+              "title": "人型が群れで迫る",
+              "event": "大きな頭の人型が周囲から現れ、頭を振りながら追って来るため、車を後退させる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W08-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W08-SC01",
+                  "type_ids": [
+                    "A2"
+                  ],
+                  "fear": "異様な集団に追われる",
+                  "basis": "接近・追跡と車での逃走に対応。正体や村が変わった原因は未説明。"
+                }
+              ],
+              "step_id": "G03-W08-T1-3"
+            },
+            {
+              "time": "帰宅後",
+              "title": "場所を確かめる",
+              "event": "地図では以前の村と今回の場所が一致しているが、もう行かないと決める。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W08-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W08-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W09",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W10",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W11",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "nazologの2009/01/16〜20投稿群665等〜788。本編、応答、語り手の終結。",
+      "limitations": [
+        "サンヌキカノ。応答者のサノキ伝承との同一性は未確定。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W12",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "「変なものを見てしまった」2010/04/12〜13の本編スレ転載。本文終結と最後の応答まで。別人の未完「その後」は未採用。",
+      "limitations": [
+        "シシノケはスレ参加者の同定候補。語り手が現地名候補を否定し、老人は複数名を留保する。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W13",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "シリーズ第1話「巣くうもの」1〜3頁、本編＋後書き。呪いの部屋等の後続7話は未読。",
+      "limitations": [
+        "シリーズ全体と第1話を同一範囲扱いしない。後書きは初出との同一投稿者確認なし。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W14",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W15",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "ホラスト「血雪」冒頭〜末尾。",
+      "limitations": [
+        "最初の遭遇は父の話。父の死の過程と女の関与は未確定。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "雪の朝、父が橋で自分を傷つける女を見て救急車を呼ぶが、息子と戻ると姿も血の跡もない。",
+        "development": "警察で説明をした父の帰宅が遅れる。その間、息子も窓の外に女を見て、橋へ父を捜しに出る。",
+        "ending": "父は橋の下で死亡しており、対岸の女も姿を消す。以後、息子と母は雪の日に外出しなくなる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W15-R1",
+          "source_id": "G03-S015",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21492",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W15-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "雪の早朝",
+              "title": "橋で女を助けようとする",
+              "event": "父は女から刃物を取り上げて川へ捨て、自宅で救急車を呼び、息子と現場へ戻る。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W15-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W15-T1-1"
+            },
+            {
+              "time": "救急隊が来る頃",
+              "title": "現場の痕跡がない",
+              "event": "父の足跡以外に女の姿や血の跡が見当たらず、父は警察へ説明に行く。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W15-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W15-SC01",
+                  "type_ids": [
+                    "B4",
+                    "C4"
+                  ],
+                  "fear": "父の説明と現場が食い違う",
+                  "basis": "父の見たことを確かめられない場面。危険を案じる家族の視点を分けている。"
+                }
+              ],
+              "step_id": "G03-W15-T1-2"
+            },
+            {
+              "time": "父の不在中",
+              "title": "息子にも女が見える",
+              "event": "窓の外の女は消え、父は警察を出たと聞いても帰らないため、息子が橋へ捜しに行く。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W15-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W15-SC02",
+                  "type_ids": [
+                    "C4",
+                    "E1",
+                    "A3"
+                  ],
+                  "fear": "家族の行方と身近へ戻る女",
+                  "basis": "父の失踪と女の再出現に対応。女が父を殺した場面は描かれない。"
+                }
+              ],
+              "step_id": "G03-W15-T1-3"
+            },
+            {
+              "time": "橋での捜索とその後",
+              "title": "父の死を知る",
+              "event": "父の足跡が途絶える橋の下で遺体を見つける。対岸の女も消え、家族は雪の日の外出を避ける。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W15-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W15-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W16",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W17",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "ミステリー掲載「ナール・ナーシュ」全本文。",
+      "limitations": [
+        "夢の襲撃と実際の交通事故を同一の出来事にしない。石の性質は相談相手の説明、死との因果は語り手の疑念。",
+        "本文の経過年数には揺れがあるため、正確な年数を時系列に採用しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "安価な石をネットで買った語り手が、握って眠ると森で縛られた自分を見る夢を繰り返す。",
+        "development": "右目に異変が生じ、家族の子供を傷つけたと語る。相談相手は石を御神体だと解釈し、預かる。",
+        "ending": "引き渡した夜、相談相手が襲われる夢を見る。後日その人の事故死を聞き、語り手は石との関係を疑い続ける。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W17-R1",
+          "source_id": "G03-S016",
+          "url": "https://the-mystery.org/scary_story/labradorite/",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W17-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "購入後の夜",
+              "title": "拘束された夢を見る",
+              "event": "石を握って眠ると、森で子供に囲まれ、動けない夢を繰り返す。",
+              "fact_kind": "dream",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W17-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W17-SC01",
+                  "type_ids": [
+                    "E1",
+                    "D3"
+                  ],
+                  "fear": "石との接触後、自分を制御できない",
+                  "basis": "接触と夢・身体異変の連続が語られる。石の力や作用を事実として確定しない。"
+                }
+              ],
+              "step_id": "G03-W17-T1-1"
+            },
+            {
+              "time": "夢が続く時期",
+              "title": "身体と行動に異変が出る",
+              "event": "右目が赤くなり、家族の子供を刃物で傷つけたと語る。家族の説明とは食い違いが残る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W17-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W17-T1-2"
+            },
+            {
+              "time": "相談した後",
+              "title": "石を預ける",
+              "event": "相談相手は外国の信仰の御神体だと説明し、正しく置くとして石を引き取る。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W17-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W17-SC02",
+                  "type_ids": [
+                    "E2",
+                    "E5",
+                    "C4"
+                  ],
+                  "fear": "対処を他人へ渡す不安",
+                  "basis": "v1の他者への移行・維持の候補を参照するが、説明の正しさと維持の実行は未確認。"
+                }
+              ],
+              "step_id": "G03-W17-T1-3"
+            },
+            {
+              "time": "引き渡した夜と数日後",
+              "title": "夢と死亡の知らせが重なる",
+              "event": "相手が蛇に襲われる夢を見た後、交通事故死を聞き、石が原因ではと自責する。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W17-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W17-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W18",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "「女性の低い声で鼻歌が聴こえてきます」単篇全本文。",
+      "limitations": [
+        "語り手が示す対処の経験までを要約。声の正体、侵入の仕組み、解決は未説明。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "安全だと思っていた自宅で、女性らしい低い鼻歌が近づくようになる。",
+        "development": "気付いて経文を唱えると遠ざかるが、放置すれば部屋まで入ると語り手はいう。",
+        "ending": "音楽に夢中になってヘッドフォンを外した時、声は耳元にあった。解決は描かれない。"
+      },
+      "chronology_note": "最初の二段階は繰り返す現象と対処で、最後は具体的な一回の出来事です。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W18-R1",
+          "source_id": "G03-S017",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=2590",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W18-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "最近・繰り返す現象",
+              "title": "遠くから鼻歌が来る",
+              "event": "自宅のリビングで昼夜を問わず、鼻歌が次第に近づく。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W18-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W18-SC01",
+                  "type_ids": [
+                    "A2",
+                    "A3",
+                    "E5"
+                  ],
+                  "fear": "家の内側に迫る声と対応を続ける負担",
+                  "basis": "気付いて唱えると遠ざかるという対処が語られる。声だけから幻聴や実体を断定しない。"
+                }
+              ],
+              "step_id": "G03-W18-T1-1"
+            },
+            {
+              "time": "その都度",
+              "title": "唱えて遠ざける",
+              "event": "声に気付くたび経文を唱えるが、現象の発生時刻は不定期のまま。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W18-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W18-T1-2"
+            },
+            {
+              "time": "新しい音楽を聴いた日",
+              "title": "耳元で聞こえる",
+              "event": "ヘッドフォンを外すと鼻歌が耳元で響いていた。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W18-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W18-SC02",
+                  "type_ids": [
+                    "A2",
+                    "E5"
+                  ],
+                  "fear": "気付くのが遅れた時の距離の喪失",
+                  "basis": "注意を向け続ける対策から外れた場面。耳元の音を体内侵入とは扱わない。"
+                }
+              ],
+              "step_id": "G03-W18-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W19",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W20",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "ミステリー掲載「人型焼き」全本文。",
+      "limitations": [
+        "家族の事故と人形の由来は神主の伝聞。人形の説明を外部の事実とは扱わない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "人形の多い神社を訪れた青年が、特別な焼却儀式に立ち会う。",
+        "development": "燃える箱から家族のもとへ帰りたいと訴える声がし、神職は人形だと否定して処置を続ける。",
+        "ending": "箱は静まり、青年は祓いを受ける。神主は、大切にされた人形が人間と思い込んだのだと説明する。"
+      },
+      "chronology_note": "結末の由来説明を先頭に置き、参拝当日の出来事へ進めています。由来の年月は不明です。",
+      "narrative_note": "本文は参拝から始まり、早朝の事故を中盤、家族と人形の由来を儀式後に説明します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W20-R1",
+          "source_id": "G03-S018",
+          "url": "https://the-mystery.org/scary_story/hitogata_yaki/",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W20-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "儀式以前・時期不明",
+              "title": "家族に大切にされる",
+              "event": "神主によれば、娘と孫の事故死後、祖母が遺された人形を神社へ持ち込んだ。",
+              "fact_kind": "reported",
+              "narrative_position": "儀式後、結末の神主の説明で明かされる",
+              "source_review_ids": [
+                "G03-W20-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W20-T1-1"
+            },
+            {
+              "time": "当日の早朝",
+              "title": "人形の移動と転落",
+              "event": "老人は、人形が屋根で発見され、下ろす人が噛まれたと訴え転落したと説明する。",
+              "fact_kind": "reported",
+              "narrative_position": "青年の参拝後、儀式前の会話で明かされる",
+              "source_review_ids": [
+                "G03-W20-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W20-T1-2"
+            },
+            {
+              "time": "青年の参拝後",
+              "title": "焼却で箱が暴れる",
+              "event": "警告を振り切って見学すると、燃える箱が暴れ、神職が処置を続ける。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W20-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W20-SC01",
+                  "type_ids": [
+                    "A4",
+                    "E5"
+                  ],
+                  "fear": "封じる処置が破られそうになる",
+                  "basis": "境界を保とうとする側の競争としての対応。参拝者の閉じ込めではない。"
+                }
+              ],
+              "step_id": "G03-W20-T1-3"
+            },
+            {
+              "time": "儀式中から終了後",
+              "title": "自己主張が否定される",
+              "event": "箱の中は家族への帰還を訴えるが、神職は否定して焼却を終え、青年を祓う。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W20-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W20-SC02",
+                  "type_ids": [
+                    "D4",
+                    "E3"
+                  ],
+                  "fear": "自己認識の否定と処置の犠牲",
+                  "basis": "D4は対象側の自己理解の候補。焼却以外に手段がないという不可避性は確認できない。"
+                }
+              ],
+              "step_id": "G03-W20-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W21",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W22",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "2011/08/11投稿926（パラノーマル掲載の白いワゴンRとは別投稿）。3文の全文を確認。ただし割当名との同定は留保。",
+      "limitations": [
+        "無題投稿926を「みっちり乗った軽自動車」の候補とする。平野の白いワゴンR本篇と混ぜない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W23",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "ミステリーの単篇全本文。",
+      "limitations": [
+        "少女の正体・救助の目的は祖母の説明と語り手の理解。供えた靴の行方は不明。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "夕暮れの山道を自転車で帰る学生が、背に何か重いものが乗ったと感じる。",
+        "development": "峠の少女が足を軽く叩いて消えた後、背の重みと声が消える。祖母は少女が悪いものを払ったと説明する。",
+        "ending": "学生は靴を少しずつ供え、再び会いたいと思って山道を通うようになる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G03-W23-R1",
+          "source_id": "G03-S020",
+          "url": "https://the-mystery.org/strange_experience/yamakerashi_sama/",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G03-W23-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "夕暮れの帰路",
+              "title": "背に重みが落ちる",
+              "event": "山道で声と重みを感じ、振り向かず自転車を漕ぎ続ける。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W23-SC01",
+                  "type_ids": [
+                    "D1",
+                    "A2",
+                    "E1"
+                  ],
+                  "fear": "正体不明のものを背負ってしまう不安",
+                  "basis": "身体の外への付着。体内侵入はなく、D1は部分候補。行動を自分で制御できている。"
+                }
+              ],
+              "step_id": "G03-W23-T1-1"
+            },
+            {
+              "time": "峠",
+              "title": "少女の接触後に軽くなる",
+              "event": "少女が太ももを叩いて崖の向こうへ消え、その後、重みと声もなくなる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G03-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G03-W23-SC02",
+                  "type_ids": [
+                    "C2",
+                    "F3"
+                  ],
+                  "fear": "異様な存在が助けたという理解",
+                  "basis": "v1ではこの場面は不適合。保護の出来事を味方の加害や人間への無関心とみなさない。"
+                }
+              ],
+              "step_id": "G03-W23-T1-2"
+            },
+            {
+              "time": "帰宅後から通学",
+              "title": "説明を聞いて靴を供える",
+              "event": "祖母は山の神の子の救助と説明。学生は子供用の靴を供え、山越えをするようになる。",
+              "fact_kind": "reported",
+              "narrative_position": "祖母の説明は救助の後に示される",
+              "source_review_ids": [
+                "G03-W23-R1"
+              ],
+              "fears": [],
+              "step_id": "G03-W23-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G03-W24",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "原話未同定・対象エピソード未固定。",
+      "limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W25",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "16話の索引中「太平洋側の島の話」1〜2頁と「禁山」全文の2エピソード。ほか14話・スレの全Q&A未網羅。",
+      "limitations": [
+        "妖怪退治の仕事シリーズ。題名の職業説明を全話の敵対戦闘としない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G03-W26",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2006/05/13投稿183〜207のRINFONE I〜VIII。2025年記事の本文転載欄のみ採用。",
+      "limitations": [
+        "リンフォン／RINFONE。後世の星座解釈や二つ目の実在説は本文設定にしない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W01",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "割当作品の本文未確定",
+      "limitations": [
+        "同名・近似名候補があり同定未完了。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W02",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "割当作品の本文未確定",
+      "limitations": [
+        "同名・近似名候補があり同定未完了。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W03",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2011年5月投稿転載の学校合宿から人形破壊・後年の回顧まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W04",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2025/01/29投稿897・899と応答898。後世コメントの自然現象説は除外。",
+      "limitations": [
+        "男の出来事は記憶が曖昧だという伝承。被害の原因と若い女の笑い声の正体は不明。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "山に囲まれた村では、霧の日に別の山が重なって見えると語られ、出現日は登山を禁じられている。",
+        "development": "語り手は、その禁忌を信じず登った大男が帰らず、後に傷ついた姿で見つかったという昔話を聞いている。",
+        "ending": "語り手は村を離れ、今は山が見えないだろうと考える。移住先にも伝承を知る人がおり、ほかの証言を求める。"
+      },
+      "chronology_note": "年代不明の古い伝承を先に置き、語り手の幼少期と転居後へ進めています。",
+      "narrative_note": "本文は幼少期の山の説明から始まり、返答への補足で古い伝承を明かします。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W04-R1",
+          "source_id": "G04-S006",
+          "url": "https://nazolog.com/blog-entry-12105.html",
+          "accessed_at_utc": "2026-10-10T10:03:39Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W04-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "村で伝わる昔・年月不明",
+              "title": "禁忌を破った男の話",
+              "event": "出現日に登った男が帰らず、晴れた日に村人が傷ついた姿を見つけ、女の笑い声を聞いたという。",
+              "fact_kind": "reported",
+              "narrative_position": "幼少期の説明の後、応答への補足で語られる",
+              "source_review_ids": [
+                "G04-W04-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W04-T1-1"
+            },
+            {
+              "time": "語り手の幼少期",
+              "title": "重なる山を見て禁忌を守る",
+              "event": "村人が同じ山を認め、出現した日は登らないという決まりの中で過ごす。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W04-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W04-S01",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "登ると戻れないかもしれない",
+                  "basis": "作中の禁忌と由来の伝聞を参照するが、語り手自身の登山や不可逆な被害は描かれない。"
+                }
+              ],
+              "step_id": "G04-W04-T1-2"
+            },
+            {
+              "time": "転居後の現在",
+              "title": "伝承を知る人を探す",
+              "event": "村を離れた語り手は、転居先にも山の話を知る人がいることに驚き、ほかの人の話を求める。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W04-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W04-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W05",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2010/07/29投稿転載。注文客と職場の出来事から退職まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W06",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "冒頭の印刷会社の逸話から拉致・拷問・解放まで。2023年掲載転載。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W07",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "「危険な好奇心」1〜3全篇。投稿番号801以降の転載。後年の改作は除外。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W08",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "幼少期の山での交流、別れ、病気、後年の回顧まで。",
+      "limitations": [
+        "高熱中の経過と社の発見は伝聞。少女の正体や付着は語り手の推測で、本人は懐かしさを述べる。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "幼い語り手が山で着物の少女に止められ、以後、祖母宅を訪れるたびに一緒に遊ぶ。",
+        "development": "三年目に少女が別れを告げ、帰宅した語り手は五日間の高熱を出す。回復後、遊んだ場所は造成され、少女には会えなくなる。",
+        "ending": "後年、付いているものを指摘され、親戚の子が少女を思わせるお手玉をする。語り手は少女とのつながりを疑うが、懐かしく感じている。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W08-R1",
+          "source_id": "G04-S012",
+          "url": "https://kaiki-catharsis.com/girl-in-kimono/",
+          "accessed_at_utc": "2026-10-10T10:02:00Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W08-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "就学前の夏から三年間",
+              "title": "山の少女と遊ぶ",
+              "event": "危険だから山奥へ行くなという少女と遊ぶようになり、名前を他人に教えない約束をする。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W08-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W08-T1-1"
+            },
+            {
+              "time": "小学二年の夏",
+              "title": "別れの後に高熱を出す",
+              "event": "少女はもう来ないよう告げる。帰宅後に高熱が続き、回復後には山の造成が始まっている。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W08-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W08-S01",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "交流の終わりと身体の異変",
+                  "basis": "別れに続く発熱だが、病気の原因や契約の成立は確認できず、後に回復する。"
+                }
+              ],
+              "step_id": "G04-W08-T1-2"
+            },
+            {
+              "time": "数年後から成人後",
+              "title": "つながりを疑う",
+              "event": "社があったという話、他人の指摘、親戚の子のお手玉から、少女が自分に付いているのかと考える。",
+              "fact_kind": "inference",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W08-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W08-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W09",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "候補A：2009年Part223、843・845・847の旧校舎の少女。候補B：「謎の校内放送」の呼び出し。双方読了だが割当との同定未完了。",
+      "limitations": [
+        "候補AとBは内容の異なる話。同一の割当作品に確定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W10",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2003/02/03「オキ」投稿578〜582のみ。同ページの「ミシマ沖」は別作品で除外。",
+      "limitations": [
+        "父から聞いた話。船の下の巨大な存在は父の判断で、姿は確認されない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "イカ釣りに出た父が、船の灯りへ寄る見慣れない魚を網ですくう。",
+        "development": "魚が叫ぶように鳴いて父をにらみ、船が大きく傾く。魚を海へ戻すと、周囲の小魚がいなくなり海面が暗い。",
+        "ending": "父は船より大きい何かが下にいると判断し、同行者を落ち着かせて待つ。小魚が戻った後、早めに帰港して家族へ話す。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文は帰港した父の様子から始まり、父が沖での出来事を説明します。時系列は出航後から帰港までです。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W10-R1",
+          "source_id": "G04-S015",
+          "url": "https://sanblo.com/ksaisakan/",
+          "accessed_at_utc": "2026-10-10T10:02:00Z",
+          "method": "web_reader",
+          "scope": "2003/02/03「オキ」投稿578〜582。別の投稿者の「ミシマ沖の魚」は対象外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W10-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "夏の夕方から夜",
+              "title": "異様な魚を捕まえる",
+              "event": "釣り船の灯りに寄る四匹のうち一匹を、父が網で船上へ上げる。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W10-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W10-T1-1"
+            },
+            {
+              "time": "捕獲の直後",
+              "title": "鳴き声と横波に驚く",
+              "event": "魚が父をにらんだという直後に船が傾き、父は魚を海へ放す。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W10-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W10-S01",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "捕まえた後に危険を感じる",
+                  "basis": "捕獲と異変の連続に対応。波が魚によるものか、捕獲が不可逆な条件かは未確定。"
+                }
+              ],
+              "step_id": "G04-W10-T1-2"
+            },
+            {
+              "time": "魚を放してから帰港",
+              "title": "船の下の存在を疑い待つ",
+              "event": "暗い海面から巨大な何かを疑い、同行者を船の中央へ呼んで待つ。小魚が戻ると早めに帰る。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W10-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W10-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W11",
+      "status": "scoped",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2009/04/25の投稿228・230の「小学四年生と自転車」の一話のみ。",
+      "limitations": [
+        "同名で集められた他の話・シリーズ全体は未確認。投稿236など後続の容姿補足を本要約の範囲に加えない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "小学四年生が公園へ自転車を走らせると、人も音もない道で前へ進めなくなる。",
+        "development": "電話らしいものを使う男性が現れ、子供の頭に触れると通常の街へ戻る。",
+        "ending": "公園で友人に会うが、経過時間は普段の移動より短く、何が起きたのか疑問が残る。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W11-R1",
+          "source_id": "G04-S016",
+          "url": "https://sanblo.com/jikuunoossan/",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "掲載頁の投稿228・230のみ。本文の回復と公園での時計確認まで。他の話や後続補足は要約対象外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W11-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "放課後",
+              "title": "いつもの道で進めない",
+              "event": "同じ道に戻り、遠くの信号へどれだけ漕いでも近づけず、人気と音もない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W11-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W11-S01",
+                  "type_ids": [
+                    "B3",
+                    "B1"
+                  ],
+                  "fear": "熟知した道で移動の手掛かりが崩れる",
+                  "basis": "普段の接続が保たれない局所体験。世界全体に異常を一般化しない。"
+                }
+              ],
+              "step_id": "G04-W11-T1-1"
+            },
+            {
+              "time": "疲れて泣いた後",
+              "title": "男性に触れられ街が戻る",
+              "event": "男性が電話をしながら現れ、頭を撫でると車や騒音が戻る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W11-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W11-S02",
+                  "type_ids": [
+                    "B3"
+                  ],
+                  "fear": "元の場所へ戻る条件が分からない",
+                  "basis": "援助で通常の環境へ戻るが、仕組みは理解されない。男性の敵意を作らない。"
+                }
+              ],
+              "step_id": "G04-W11-T1-2"
+            },
+            {
+              "time": "公園に到着後",
+              "title": "時計と友人の話が合わない",
+              "event": "友人と時計を確かめると、学校からの所要時間が普段より短く、二人で首をかしげる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W11-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W11-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W12",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "対象は「降霊実験」「壷」の2話のみ。掲載ページの紹介件数と目次に揺れがあり総話数を確定しない。シリーズ全体未網羅。",
+      "limitations": [
+        "集合項目。分析単位は2エピソード。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W13",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2004/07/14の本編と投稿後の応答・変化を含む転載。別投稿者の消息説明は裏付けなし。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W14",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "怪談の前置きに関する回顧、田所君の「蓋」の語りと失踪、後の疑問まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W15",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "祖母の人形、妹の死、介護、祖母の窒息死、親族の説明まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W16",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "「Cだけは青ざめていた」というトンネルの雨音の短篇。割当表題との同一性は未確定。",
+      "limitations": [
+        "内容の合う別表題候補。同一話の別名か未確定。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W17",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "異様な大柄の人物の目撃、友人たちの経験、東京転居後の類似報告まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W18",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2007/02/08投稿359〜371の護符・叔母の伝承・語り手の由来推論。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W19",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "短篇の子どもたちの探索・発見・後年の回顧全文。コメントの生物学説は除外。",
+      "limitations": [
+        "目撃談としての要約。コメント欄の生物学的説明やツチノコとの同定を採用しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "地元でひょうたん形の蛇の伝説を聞いた子供たちが、山で地面を掘って探す。",
+        "development": "帰る頃、穴から顔を出した蛇を見つけ、ひょうたん形の体が横穴へ逃げるのを見る。捕まえることはできない。",
+        "ending": "その後も見つからず、大人になった語り手は掘る探索をやめるが、山を散歩し、目撃の記憶を思い返す。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W19-R1",
+          "source_id": "G04-S024",
+          "url": "https://nazolog.com/blog-entry-12146.html",
+          "accessed_at_utc": "2026-10-10T10:03:39Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W19-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "子供の頃",
+              "title": "伝説を確かめに山へ行く",
+              "event": "友人と地面を掘り、伝説の蛇を探す。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W19-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W19-T1-1"
+            },
+            {
+              "time": "同日の夕方",
+              "title": "蛇を見つけるが捕まえられない",
+              "event": "穴に見えた蛇へ近づくと、特徴的な体が地中へ逃げ、手が届かない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W19-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W19-S01",
+                  "type_ids": [],
+                  "fear": "不思議な目撃が価値観を変える",
+                  "basis": "v1は不適合。追われるのは人ではなく蛇で、人への加害や継続する危険は描かれない。"
+                }
+              ],
+              "step_id": "G04-W19-T1-2"
+            },
+            {
+              "time": "繰り返しの探索から成人後",
+              "title": "発見の記憶を残す",
+              "event": "再び見つけることはできず、掘る探索をやめて山の散歩を続ける。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W19-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W19-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W20",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "割当作品の本文未確定",
+      "limitations": [
+        "同名・近似名候補があり同定未完了。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W21",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2002/08/03〜04 Part16の本編と作者の構成説明。冒頭の別話「ミンキーモモ」は除外。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W22",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2014/10/15投稿38の電話の短篇全文。",
+      "limitations": [
+        "名前は原文でも仮名。相手の正体や名前を知った方法は示されない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "知らない相手から別人の名を尋ねる電話が来て、語り手は自分の名を教えず切る。",
+        "development": "同じ声の着信を拒否しても別番号から繰り返され、再び注意しようと応答する。",
+        "ending": "相手は低い声に変わって語り手の本名を知っていると告げ、電話が切れる。以後、着信を恐れる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W22-R1",
+          "source_id": "G04-S026",
+          "url": "https://share-kowa.com/meiwaku-denwa.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "2014/10/15の投稿38の短篇全体。名前の仮名表記を要約では省略。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W22-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "最初の電話",
+              "title": "名を教えず断る",
+              "event": "見知らぬ相手が違う名を尋ね、語り手は失礼さを指摘して自分の名を伏せる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W22-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W22-T1-1"
+            },
+            {
+              "time": "数日後から一週間後",
+              "title": "拒否しても電話が来る",
+              "event": "同じ声を着信拒否すると、別番号から同様の電話が来る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W22-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W22-T1-2"
+            },
+            {
+              "time": "最後の通話とその後",
+              "title": "本名を知られている",
+              "event": "注意すると相手は声を変えて本名に言及し、語り手はその後の着信にも怯える。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W22-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W22-S01",
+                  "type_ids": [
+                    "A3"
+                  ],
+                  "fear": "通信を断っても個人に届く不安",
+                  "basis": "通信の境界への侵入としての拡張解釈。本人への追跡や声の模倣を補わない。"
+                }
+              ],
+              "step_id": "G04-W22-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W23",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2007/02/05投稿167〜169。車内遭遇、寺での処置、1週間後の未回復まで。",
+      "limitations": [
+        "憑依の規則と49日という期限は住職の説明。一週間後までの話で、回復や期限後を作らない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "父親が娘を連れて山の脇道へ入り、車が動かなくなって夜を過ごす。",
+        "development": "異様な存在が娘の側の窓に現れる。父が叫ぶと姿は消えるが、娘の言葉と顔つきが変わる。",
+        "ending": "寺で憑依と期限を説明され、娘を預ける。母との接触も止められ、一週間後も娘は回復していない。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W23-R1",
+          "source_id": "G04-S027",
+          "url": "https://sanblo.com/yamanoke/",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "2007/02/05の投稿167〜169。車中遭遇・寺の説明・一週間後の未回復まで。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W23-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "ドライブの夕方",
+              "title": "山道で車が止まる",
+              "event": "父が娘を怖がらせようと脇道へ入り、エンジン停止で車中泊する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W23-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W23-T1-1"
+            },
+            {
+              "time": "深夜",
+              "title": "怪異が窓に来る",
+              "event": "声が近づき白いものが通り過ぎた後、娘の側の窓に現れる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W23-S01",
+                  "type_ids": [
+                    "A2",
+                    "A3",
+                    "B2"
+                  ],
+                  "fear": "車が動かず、娘のすぐそばに迫られる",
+                  "basis": "移動と車の境界への接近。エンジン停止を空間の接続異常とは扱わない。"
+                }
+              ],
+              "step_id": "G04-W23-T1-2"
+            },
+            {
+              "time": "直後から寺へ",
+              "title": "娘が変わる",
+              "event": "父の声で姿は消えるが娘が異様な言葉を繰り返し、父は車で寺へ駆け込む。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W23-S02",
+                  "type_ids": [
+                    "D3",
+                    "C4",
+                    "E1"
+                  ],
+                  "fear": "娘の行動が変わり、救済の期限を告げられる",
+                  "basis": "娘の発話変化と住職の説明に対応。期限後の人格消失は予測で、実現した結末ではない。"
+                }
+              ],
+              "step_id": "G04-W23-T1-3"
+            },
+            {
+              "time": "一週間後",
+              "title": "治療中でも戻らない",
+              "event": "住職が娘を預かる。母との接触は禁じられ、父は未回復の娘を毎日見に行く。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W23-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W23-S03",
+                  "type_ids": [
+                    "E2",
+                    "E5",
+                    "C4"
+                  ],
+                  "fear": "家族への移行の警告と未回復",
+                  "basis": "移行は住職の説明。継続処置の有効な抑制は本文で示されず、E5には留保がある。"
+                }
+              ],
+              "step_id": "G04-W23-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W24",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "2024/12/22投稿636の夢と2025/01/03投稿680の後日談。夢内・覚醒後の友人説明を分離。",
+      "limitations": [
+        "夢と後年の友人の説明を分離。女性の経歴や他人の夢への移動・憑依は友人の解釈で、被害の実例は描かれない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "幼い頃の夢で、語り手は家族とテレビを見ながら近隣の犯罪者の警報を聞く。",
+        "development": "女が家々の窓を順にのぞき、自宅も見て去る。母に外出を頼まれたところで目覚める。",
+        "ending": "成人後に話した友人は、女が母に化けて夢の家から誘い出そうとしたと解釈する。語り手は助かったと聞いて安心するが、説明の真偽は未確定。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G04-W24-R1",
+          "source_id": "G04-S028",
+          "url": "https://nazolog.com/blog-entry-12100.html",
+          "accessed_at_utc": "2026-10-10T10:03:39Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G04-W24-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "幼少期の夢",
+              "title": "警報に続いて女が現れる",
+              "event": "家族と過ごす家で、女が近隣の窓を順にのぞいて近づく。",
+              "fact_kind": "dream",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W24-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W24-S01",
+                  "type_ids": [
+                    "A2",
+                    "A3"
+                  ],
+                  "fear": "自分の家へ順番が回る",
+                  "basis": "窓までの接近を参照。継続する追跡や室内への侵入は描かれない。"
+                }
+              ],
+              "step_id": "G04-W24-T1-1"
+            },
+            {
+              "time": "同じ夢の終わり",
+              "title": "外へ頼まれたところで覚醒する",
+              "event": "女が自宅をのぞいて去った後、母に買い物へ行くよう頼まれ、そこで目が覚める。",
+              "fact_kind": "dream",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W24-R1"
+              ],
+              "fears": [],
+              "step_id": "G04-W24-T1-2"
+            },
+            {
+              "time": "夢を書き残した後",
+              "title": "友人が誘導だったと説明する",
+              "event": "友人は母の頼みを女の変装による誘いと解釈し、目覚めて外へ出なかったため助かったと説明する。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G04-W24-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G04-W24-S02",
+                  "type_ids": [
+                    "C1",
+                    "E1",
+                    "D1"
+                  ],
+                  "fear": "家族への信頼と夢の安全が揺らぐ",
+                  "basis": "身内の模倣と夢の領域外への誘導は友人の説明で、夢の描写自体から確定しない。"
+                }
+              ],
+              "step_id": "G04-W24-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W25",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "全7頁：儀式・自宅での遭遇・援助探索・尼僧Sの処置・2年後の手紙・語り手の訂正まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G04-W26",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "幼少期の禁じた部屋、大学時代のAとの遭遇、家族・兄の説明、後年の目撃まで。",
+      "limitations": [
+        "割当内の同一話重複は確認されていない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W01",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "電車遭遇の前段と本編・最終報告。各転載ページの投稿本文を対象とし読者コメント・後世の漫画は除外。",
+      "limitations": [
+        "前段と本編は連続する人物の話として1作品。独立した2作品とは数えない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W02",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "2006年投稿群の絵購入から霊能者の処置・最終の謝辞まで。派生ヒーロー怪談は除外。",
+      "limitations": [
+        "同名転載は同一投稿群。ヒーローが救う喜劇的な語りを含むが非ホラー断定はしない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W03",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "転載3頁のドライブ旅行本編と友人・犬の後日談。関連する別作品群は対象外。",
+      "limitations": [
+        "「海からやってくるもの」等の表記揺れは同一本文候補。題名が似た別話は加算しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W04",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文を同定・取得できず。",
+      "limitations": [
+        "別名・派生・独立性は未判定。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W05",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "砂風呂の遭遇から同行者への報告までの単話。",
+      "limitations": [
+        "人物の正体や行為の動機は不明。v1の「刃物を持った追跡」は今回の本文に手持ちの刃物が明示されず、接近の描写までを採用。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "砂風呂で眠りかけた語り手が、見知らぬ女性の不穏な声を聞く。",
+        "development": "砂から出た後、いたように見せた砂山を残して遊ぶ。傘を取りに戻ると、砂山に傘や剃刀が刺さっていた。",
+        "ending": "自分の傘を抜くと遠くの人物が叫びながら走って来る。語り手は友人を車に乗せて逃げる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W05-R1",
+          "source_id": "G05-S05-01",
+          "url": "https://horror2ch.com/archives/post-2226.html",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W05-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "海で砂風呂中",
+              "title": "声をやり過ごす",
+              "event": "砂に埋まって眠りかけていると、起きていたら危害を加えるような声がする。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W05-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W05-S01",
+                  "type_ids": [
+                    "E1"
+                  ],
+                  "fear": "覚醒と危害を結ぶ不穏な言葉",
+                  "basis": "発言だけで厳密な発動規則とはしない。実際に身体を傷付けられた場面ではない。"
+                }
+              ],
+              "step_id": "G05-W05-T1-1"
+            },
+            {
+              "time": "海で遊んだ後",
+              "title": "砂山の刃物に気付く",
+              "event": "友人への悪戯で残した砂山に傘や剃刀が刺さっており、自分の傘を回収する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W05-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W05-T1-2"
+            },
+            {
+              "time": "直後",
+              "title": "走って来る人物から逃げる",
+              "event": "笑って叫びながら走って来る人物を見て、友人と車で逃げる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W05-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W05-S02",
+                  "type_ids": [
+                    "A2"
+                  ],
+                  "fear": "発見されて追われる切迫感",
+                  "basis": "相手が走って接近する追跡。超常的な正体や本文にない手持ちの武器を補わない。"
+                }
+              ],
+              "step_id": "G05-W05-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W06",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "掲載されたトンネル遭遇、儀礼、専門家の後の説明までの本編。",
+      "limitations": [
+        "Uという人物はW23のU先生とは別。名の共通で統合しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W07",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "作り話の提示、流布した体験談、話の創作者への確認までの単話。",
+      "limitations": [
+        "語りの中に創作された「きじまさん」怪談が入る。流布中の各体験談を独立作品として加算しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W08",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "祖父の由来話と孫の一晩の防御・翌朝の説明まで。",
+      "limitations": [
+        "由来の過去譚と現代の同一作品。別エピソードとして水増ししない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W09",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "4部の投稿本文、読者への呪いを主張する追記、それを偽投稿とする後続訂正まで。",
+      "limitations": [
+        "2016年の投稿群。第三者の偽追記を作者本編の規則と混同しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W10",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "神楽復元、封じられた面の回収、由来説明と座長の死まで。後世の再話は除外。",
+      "limitations": [
+        "過去の出来事を子孫が伝聞と想像で再構成すると明記する版。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W11",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "封じられた家の写真に触れる少年たちの事件、後日談、語り手の読者への伝達まで。",
+      "limitations": [
+        "同名の別呪い文は含めない。掲載は作品内で読者を巻き込む語りを持つ。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W12",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "叔父との山小屋での遭遇から退避・小屋の処分まで。",
+      "limitations": [
+        "叔父の海外体験は別の人物についての伝聞で、山の存在の同一性を確定しない。",
+        "v1の場面説明にある小屋への接近・遮蔽物の破損を、今回確認した山中の対決へ書き足さない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "叔父の別荘に滞在する少年が、望遠鏡で山の一つ目の存在を見て、強い絶望に襲われる。",
+        "development": "同じものを見た叔父も苦しむ。二人はサングラスなどを用意して山で迎え撃つが、相手の顔を見て再び動けなくなる。",
+        "ending": "叔父が尿や身体を見せて相手を退かせ、二人は別荘へ戻る。叔父の過去の体験を聞いた後、山を下り、別荘も売ることにする。"
+      },
+      "chronology_note": "少年と叔父の別荘での出来事を主線にし、海外での年代不明の過去は別の流れに分けます。",
+      "narrative_note": "本文は別荘への訪問から対決へ進み、対決後に叔父の海外での体験を語ります。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W12-R1",
+          "source_id": "G05-S12-01",
+          "url": "https://fumibako.com/kowai/story/1/12.html",
+          "accessed_at_utc": "2026-10-10T10:02:00Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W12-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "滞在の翌日",
+              "title": "視線が合って絶望する",
+              "event": "望遠鏡越しの顔を見て死にたい感情に襲われ、叔父も観察後に同様の状態になる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W12-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W12-S01",
+                  "type_ids": [
+                    "E1",
+                    "D3"
+                  ],
+                  "fear": "接触後に感情と行動の制御を失う",
+                  "basis": "視線の接触と極端な感情の連続。一般的な邪視の実在を主張する記録ではない。"
+                }
+              ],
+              "step_id": "G05-W12-T1-1"
+            },
+            {
+              "time": "その日の午後",
+              "title": "山で待ち受ける",
+              "event": "相手がこちらへ向かうと判断し、二人は視線を避ける準備をして別荘の外へ出る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W12-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W12-T1-2"
+            },
+            {
+              "time": "夕方",
+              "title": "顔を見て対策が崩れる",
+              "event": "接近した相手が照明の位置に顔を入れ、二人は再び絶望する。叔父が対処して退かせる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W12-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W12-S02",
+                  "type_ids": [
+                    "A2",
+                    "A3",
+                    "E1"
+                  ],
+                  "fear": "接近と再接触で危険が戻る",
+                  "basis": "追って来る相手との再接触を参照。今回の掲載本文の対決は山中で、別荘内への侵入場面はない。"
+                }
+              ],
+              "step_id": "G05-W12-T1-3"
+            },
+            {
+              "time": "別荘へ戻った後",
+              "title": "由来を聞いて撤退する",
+              "event": "叔父は海外で似た視線を受けた過去を説明する。二人は目覚めや電話にも疑問を持ちつつ山を下りる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W12-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W12-T1-4"
+            }
+          ]
+        },
+        {
+          "flow_id": "G05-W12-T2",
+          "label": "叔父の過去の体験",
+          "note": "本筋より以前。場所と人物が異なり、年月は不明。",
+          "steps": [
+            {
+              "time": "海外滞在中・年代不明",
+              "title": "別の人物の視線を体験する",
+              "event": "叔父は紹介された人物の視線で強い絶望に襲われたことと、その人物が後に死亡したと聞いたことを説明する。",
+              "fact_kind": "reported",
+              "narrative_position": "山の対決後の説明として登場",
+              "source_review_ids": [
+                "G05-W12-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W12-T2-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W13",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "背中を確かめる運転、車内出現、事故、警察の説明と5年の後日談。",
+      "limitations": [
+        "同名転載を同一単話として扱う。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W14",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "花配達から組織の地下搬送、井戸の目撃、逃亡と投稿の結末まで。",
+      "limitations": [
+        "実話と称する語りでも組織・軍施設・犠牲の記述は作品内設定。派生のチェーンソー作品は除外。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W15",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "小5の一輪車と写真、小6の別児童の目撃まで。",
+      "limitations": [
+        "女と亡くなった生徒の同一性は語り手の解釈。v1のSC02にある「4本の手」は今回の掲載本文に明示を確認できず、この時系列では採用しない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "小学生の兄弟が放課後の学校で、無人の体育館とトイレから一輪車らしい物音を聞く。",
+        "development": "兄が撮った写真の一部を母が捨てており、回収すると通気孔から覗く女が写っていた。",
+        "ending": "後に母から亡くなった女子生徒の話を聞く。翌学年には別の子の目撃が噂になり、女の呼び名が定着する。"
+      },
+      "chronology_note": "小五から小六へ進みます。母への再質問は「ずっと後」とされ、正確な時期は不明です。",
+      "narrative_note": "本文は母への後年の質問を説明してから、小六の目撃談へ戻ります。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W15-R1",
+          "source_id": "G05-S15-01",
+          "url": "https://the-mystery.org/psychic/tsunbai_san/",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W15-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "小五・放課後",
+              "title": "一輪車と物音",
+              "event": "無人の体育館の一輪車を見て退避し、トイレの個室の大きな音に驚いて帰る。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W15-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W15-T1-1"
+            },
+            {
+              "time": "翌日以降",
+              "title": "隠された写真を見つける",
+              "event": "一輪車はトイレにあったと聞く。撮影した写真を母が捨てていて、回収すると覗く女が写っている。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W15-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W15-S01",
+                  "type_ids": [
+                    "B4",
+                    "A3"
+                  ],
+                  "fear": "説明と記録から隠れていた存在",
+                  "basis": "B4は写真の選別の境界例。具体的な侵入や加害は確認できず、A3も候補に留まる。"
+                }
+              ],
+              "step_id": "G05-W15-T1-2"
+            },
+            {
+              "time": "小六・六月頃",
+              "title": "別児童の目撃が広まる",
+              "event": "同級生が四つん這いで走る女を見たといい、卒業までに呼び名が広まる。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W15-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W15-S02",
+                  "type_ids": [],
+                  "fear": "噂と亡くなった少女の由来が結び付く",
+                  "basis": "v1で型の付与なし。自分の身体変質や必要な救援の拒否ではない。"
+                }
+              ],
+              "step_id": "G05-W15-T1-3"
+            },
+            {
+              "time": "ずっと後・時期不明",
+              "title": "母から由来を聞く",
+              "event": "母は事故で脚が不自由になり亡くなった少女の話をする。語り手は女との関係を考える。",
+              "fact_kind": "reported",
+              "narrative_position": "本文では小六の後日談を語る前に提示",
+              "source_review_ids": [
+                "G05-W15-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W15-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W16",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "林道への誤進入、ドライブイン、女子学生との退避、警察の照合と消失まで。",
+      "limitations": [
+        "同名の異なるドライブイン怪談と混ぜず、この林道・失踪学生版を固定。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W17",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "本編と同じ掲載ページの後日談。絵の読み直しと卵の処分・安置まで。",
+      "limitations": [
+        "掲載版はホラーテラー投稿を掲げる。2chを直接の初出と断定しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W18",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "初遭遇、一晩の隔離、村外への搬送、10年後の祖母の電話まで。",
+      "limitations": [
+        "地蔵の封印や村の協定は作中の伝聞。十年後の再襲撃は未描写。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "祖父母宅で少年が異常に背の高い女を見て、土地の怪異に狙われたと告げられる。",
+        "development": "一室に隔離され、祖父に似た声の誘いに耐える。翌朝は親族に囲まれた車で追跡をかわして村外へ逃れる。",
+        "ending": "十年後、村境の地蔵が壊れたと祖母から電話があり、離れて暮らす少年の安全にも不安が戻る。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "冒頭は十年以上訪問できない現在から始まり、春休みの事件へ戻ります。主線は事件から十年後までの順です。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W18-R1",
+          "source_id": "G05-S18-01",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "accessed_at_utc": "2026-10-10T09:49:56Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W18-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "春休みの昼",
+              "title": "庭先で目撃する",
+              "event": "祖父母の家で高い女と奇妙な声を認め、祖父母が対策を手配する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W18-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W18-T1-1"
+            },
+            {
+              "time": "その夜",
+              "title": "家族の声に応じない",
+              "event": "護符などで守られた部屋で祖父に似た声に誘われるが、朝まで扉を開けない。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W18-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W18-S01",
+                  "type_ids": [
+                    "C1",
+                    "A4",
+                    "E1"
+                  ],
+                  "fear": "身内への信頼を誘いに使われる",
+                  "basis": "特定家族の声の模倣と部屋の防御。侵入は未遂で、一夜の対策をE5としない。"
+                }
+              ],
+              "step_id": "G05-W18-T1-2"
+            },
+            {
+              "time": "翌朝",
+              "title": "車で村境を越える",
+              "event": "親族に囲まれて村外へ搬送され、車に沿って来る女をやり過ごして帰宅する。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W18-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W18-S02",
+                  "type_ids": [
+                    "A2",
+                    "C4"
+                  ],
+                  "fear": "逃げる当人と守る家族の危険",
+                  "basis": "車への追跡に対応。祖父や父の身代わりの覚悟は後の説明で、犠牲は実行されていない。"
+                }
+              ],
+              "step_id": "G05-W18-T1-3"
+            },
+            {
+              "time": "十年後",
+              "title": "封印の破損を聞く",
+              "event": "祖母の電話で自宅へ通じる道の地蔵の破損を知り、再接近を心配する。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W18-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W18-S03",
+                  "type_ids": [
+                    "E5",
+                    "E1"
+                  ],
+                  "fear": "維持されていた安全の条件が崩れる",
+                  "basis": "地蔵という設備の破損と再発の予期。実際の再襲撃は本文では起きていない。"
+                }
+              ],
+              "step_id": "G05-W18-T1-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W19",
+      "status": "scoped",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "保育園編の単篇のみ。ヒサルキの他の失踪・山・動物の関連話は未確認。",
+      "limitations": [
+        "全体が伝聞。シリーズ内の他話と同じ存在・因果だとは確定しない。過去の絵と転居の詳細は未確認。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "寺の保育園で、墓の柵に虫や小動物が刺さっていると保育士の友人から聞く。",
+        "development": "飼育ウサギまで被害に遭い、園児はヒサルキという名を知るが、大人は正体を知らない。",
+        "ending": "同名の絵を描いた子の突然の転居が語られる。大きな動物の被害は途絶えても虫の被害は続き、正体は不明のまま。"
+      },
+      "chronology_note": "保母から聞いた園の出来事を主線にし、後で語られる以前の園児の話は別の流れに分けています。",
+      "narrative_note": "全体は保育士の友人から聞いた話。過去の絵と転居は騒動の途中で回想されます。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W19-R1",
+          "source_id": "G05-S19-01",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=152",
+          "accessed_at_utc": "2026-10-10T09:53:09Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W19-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "保育園で続く出来事",
+              "title": "動物の被害が増える",
+              "event": "柵の杭に虫や小動物が刺さり、猫や飼育ウサギも被害に遭う。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W19-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W19-S01",
+                  "type_ids": [
+                    "A3",
+                    "C4",
+                    "B4"
+                  ],
+                  "fear": "子供のいる場所の被害と説明の食い違い",
+                  "basis": "安全領域の被害としてA3の候補だが侵入経路は不明。名前を知ることが危害を増す法則はない。"
+                }
+              ],
+              "step_id": "G05-W19-T1-1"
+            },
+            {
+              "time": "ウサギの発見後",
+              "title": "子供だけが名前を知る",
+              "event": "園児は同じ名を知るが姿を説明できず、保護者もその呼び名を知らない。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W19-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W19-T1-2"
+            },
+            {
+              "time": "鶏の被害の後",
+              "title": "正体不明のまま続く",
+              "event": "大きな動物の被害は終わるが虫は刺さったままで、犯人も正体も判明しない。",
+              "fact_kind": "reported",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W19-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W19-T1-4"
+            }
+          ]
+        },
+        {
+          "flow_id": "G05-W19-T2",
+          "label": "保母が思い出した過去",
+          "note": "本筋以前だが詳しい年月や関連性は不明。",
+          "steps": [
+            {
+              "time": "後で語られる過去",
+              "title": "絵と転居を思い出す",
+              "event": "保育士の一人が以前の同名の絵と、描いた子の急な転居を思い出す。",
+              "fact_kind": "reported",
+              "narrative_position": "騒動の途中の会話で、過去の記憶として挿入",
+              "source_review_ids": [
+                "G05-W19-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W19-S02",
+                  "type_ids": [],
+                  "fear": "絵を描いた子の事情を確かめられない",
+                  "basis": "v1で型の付与なし。回想を記憶の置換とせず、眼帯の理由も作らない。"
+                }
+              ],
+              "step_id": "G05-W19-T2-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W20",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "恨み・夢・旧友の記憶から転職後の後日談までの掲載投稿群。",
+      "limitations": [
+        "「人を恨み続けていたら幼少の頃の友人を思い出す」は末尾「話」を省く同一本文の表題。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W21",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "対象本文を同定・取得できず。",
+      "limitations": [
+        "同音名・カード名等の検索結果は別物で、置き換えない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W22",
+      "status": "ready",
+      "reason_codes": [],
+      "reason": "",
+      "scope": "屋上の望遠観察から逃走・一晩の待機・後日談までの単話。",
+      "limitations": [
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "summary": {
+        "opening": "夜の屋上から双眼鏡をのぞいた語り手が、遠くでこちらを向く裸の子供を見る。",
+        "development": "子供が猛速で近づき、逃げ込んだ家の屋上と階段に足音が迫る。部屋の扉が激しく叩かれる。",
+        "ending": "音は突然止むが、語り手は朝まで武器代わりの鉄の棒を持つ。それ以来、双眼鏡で夜景を見なくなる。"
+      },
+      "chronology_note": "確認した掲載本文の出来事を古い順に並べています。",
+      "narrative_note": "本文の語りの順序と出来事の順序は、この要約範囲では一致します。",
+      "source_reviews": [
+        {
+          "review_id": "G05-W22-R1",
+          "source_id": "G05-S22-01",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21301",
+          "accessed_at_utc": "2026-10-10T10:00:07Z",
+          "method": "web_reader",
+          "scope": "既存台帳の掲載範囲のうち、あらすじに記した発端・展開・結末を本文で再確認。コメントと関連記事を除外。"
+        }
+      ],
+      "threads": [
+        {
+          "flow_id": "G05-W22-T1",
+          "label": "主な出来事",
+          "note": "確認した物語内の時間の流れ",
+          "steps": [
+            {
+              "time": "夜の屋上",
+              "title": "遠くから近づいてくる",
+              "event": "双眼鏡越しの子供がこちらへ走り出し、家に入って戸締まりする。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W22-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W22-S01",
+                  "type_ids": [
+                    "A2",
+                    "E1"
+                  ],
+                  "fear": "観察した相手に距離を詰められる",
+                  "basis": "注目した後に追跡が始まるという順序。見ることが必要条件とは確定しない。"
+                }
+              ],
+              "step_id": "G05-W22-T1-1"
+            },
+            {
+              "time": "家に逃げた直後",
+              "title": "部屋の戸が叩かれる",
+              "event": "屋上と階段の足音に続き、部屋の扉が叩かれ、外から声が聞こえる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W22-R1"
+              ],
+              "fears": [
+                {
+                  "scene_id": "G05-W22-S02",
+                  "type_ids": [
+                    "A4"
+                  ],
+                  "fear": "閉じた扉の向こうまで迫られる",
+                  "basis": "戸締まりした境界への接近と打撃。室内への侵入の成功は描かれない。"
+                }
+              ],
+              "step_id": "G05-W22-T1-2"
+            },
+            {
+              "time": "音が止んでから翌朝",
+              "title": "警戒したまま夜を越す",
+              "event": "急に静かになっても眠れず、朝を待つ。以後は双眼鏡で夜景を見なくなる。",
+              "fact_kind": "narrated",
+              "narrative_position": "本文の進行と同じ順序",
+              "source_review_ids": [
+                "G05-W22-R1"
+              ],
+              "fears": [],
+              "step_id": "G05-W22-T1-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "work_id": "G05-W23",
+      "status": "pending",
+      "reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "reason": "v1では作品の同定またはシリーズ・掲載範囲に留保があります。今回のあらすじ用の本文照合は未完了です。",
+      "scope": "「光の誓い」の幼稚園のU先生と「幽霊が出る部屋」の小学校教師Uを各々読了。指定項目がどちらを指すか未確定。",
+      "limitations": [
+        "二人の呼称一致以外に同一人物・同じ作品群とする根拠なし。候補本文を勝手にシリーズ化せず、一覧項目は1件のまま。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W24",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "廃寺地下の封じられた珠への接触、Kの夢と自傷、祖父・住職の由来説明、新しい箱への封じと移管まで。",
+      "limitations": [
+        "歴史の4珠と現代の珠を区別。他の夢の怪談を設定として混ぜない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W25",
+      "status": "pending",
+      "reason_codes": [
+        "not_rechecked"
+      ],
+      "reason": "v1には本文確認の記録がありますが、今回のあらすじ用に出典本文と発端・結末・順序を照合する作業は未完了です。",
+      "scope": "転載版の全文：就労、上階の遭遇、逃走、堂の一晩、祓い、住職の由来説明、旅館の後日の連絡まで。",
+      "limitations": [
+        "2009年ホラーテラー投稿を掲げる版。映画・改変再話・別の続編は含めない。関連する犠牲者数を独立作品数へ加算しない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    },
+    {
+      "work_id": "G05-W26",
+      "status": "pending",
+      "reason_codes": [
+        "body_unavailable"
+      ],
+      "reason": "v1では対象本文が未確認です。候補本文や追補を対象作品の確定に読み替えず、あらすじの作成を保留しています。",
+      "scope": "名前の説明から指されたスレッド380の公開ログを検索したが対象本文を同定できず。",
+      "limitations": [
+        "別掲示板の犬の鳴き声としての同じ文字列は別資料で、作品へ置き換えない。"
+      ],
+      "summary": null,
+      "chronology_note": "物語の時系列を未確定のまま表示しません。",
+      "narrative_note": "既存の場面記録の配列順を物語の時系列とは扱いません。",
+      "source_reviews": [],
+      "threads": []
+    }
+  ],
+  "release_stage": "poc",
+  "review_work_ids": [
+    "G01-W01",
+    "G02-W11",
+    "G05-W18",
+    "G03-W20"
+  ]
+}

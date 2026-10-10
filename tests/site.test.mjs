@@ -55,12 +55,20 @@ test('all source and scene anchors resolve the correct owner independently of ea
   }
   for(const work of data.works){
     assert.equal(resolveRoute(data,'#work='+work.work_id).work,work);
+    assert.equal(resolveRoute(data,'#work-sources-'+work.work_id).work,work);
+    assert.equal(resolveRoute(data,'#work-sources-'+work.work_id).anchor,'work-sources-'+work.work_id);
     for(const scene of work.scenes){
       const route=resolveRoute(data,'#scene-'+scene.scene_id);
       assert.equal(route.work,work);assert.equal(route.anchor,'scene-'+scene.scene_id);
     }
   }
   assert.equal(resolveRoute(data,'#work=G01%2DW01').work.work_id,'G01-W01');
+});
+test('synopsis prose participates in search without changing the historical filters',()=>{
+  const works=data.works.map(w=>({...w,narrative:data.narratives.works.find(n=>n.work_id===w.work_id)}));
+  assert.ok(filterWorks(works,{q:'神職は否定して焼却を終え'}).some(w=>w.work_id==='G03-W20'));
+  assert.equal(filterWorks(works,{status:'unverified'}).length,25);
+  assert.equal(filterWorks(works,{q:'神職は否定して焼却を終え',status:'unverified'}).length,0);
 });
 test('missing and malformed detail links cannot silently resolve to a prior work',()=>{
   for(const hash of ['#work=UNKNOWN','#work=','#source-UNKNOWN','#scene-UNKNOWN'])assert.equal(resolveRoute(data,hash).kind,'missing');
