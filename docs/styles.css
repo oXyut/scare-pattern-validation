@@ -55,8 +55,8 @@ main{max-width:1240px;padding:0 48px;margin:auto}
 .method-flow span:before{content:counter(steps,decimal-leading-zero);display:block;font:1.1rem Georgia,serif;color:var(--accent);margin-bottom:3px}
 .notation{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;background:var(--light);border-left:2px solid var(--blood);padding:24px 26px;margin:24px 0}
 .notation dt{font-weight:600;font-size:.9rem}
-.notation dt span{display:inline-block;color:var(--accent);width:26px;font:600 1.2rem Georgia,serif}
-.notation dd{margin:4px 0 0 26px;font-size:.875rem}
+.notation dt{color:var(--accent)}
+.notation dd{margin:4px 0 0;font-size:.875rem}
 .count-figure{padding:22px 0;margin-top:20px}
 .count-figure figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.9rem}
 .count-figure figcaption>span{font-size:.875rem;color:var(--muted)}
@@ -94,11 +94,10 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .type-group>h3{font-family:inherit;font-size:1rem;letter-spacing:.04em;padding-bottom:10px;border-bottom:2px solid var(--ink)}
 .type-entry{border-bottom:1px solid var(--line);padding:0}
 .type-entry summary{cursor:pointer;font-size:.9375rem;min-height:44px;padding:12px 0}
-.type-id{display:inline-block;font:600 .9rem/1.5 ui-monospace,monospace;width:34px;color:var(--accent)}
-.type-entry dl{margin:15px 0 20px 34px;font-size:.875rem}
+.type-entry dl{margin:15px 0 20px;font-size:.875rem}
 .type-entry dt{font-weight:600;margin-top:16px}
 .type-entry dd{margin:3px 0 0}
-.type-entry .type-search{display:inline-block;font-size:.875rem;margin-left:34px}
+.type-entry .type-search{display:inline-block;font-size:.875rem;margin-bottom:14px}
 .catalogue{padding:60px 0 64px;border-bottom:1px solid var(--line)}
 .catalogue-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:24px}
 .catalogue-heading p{font-size:.875rem;color:var(--muted)}
@@ -113,7 +112,18 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .filter-footer button,.empty button{font-size:.875rem;border:1px solid var(--control-line);background:transparent;color:var(--ink);padding:8px 14px}
 .small-note{font-size:.875rem;color:var(--muted);margin-top:15px}
 .results-table{margin-top:26px}
-.results-table .work-col{width:42%}
+.results-table{table-layout:fixed}
+.results-table .work-col{width:44%}
+.results-table thead th{white-space:normal}
+.results-table th:nth-child(2){width:13%}
+.results-table th:nth-child(3){width:27%}
+.results-table th:nth-child(4){width:16%}
+.results-table .work-link{font-family:var(--serif);font-size:1.08rem;font-weight:600}
+.catalogue-synopsis{margin:12px 0 8px;font-size:.875rem;line-height:1.9;max-width:40em;font-weight:400;overflow-wrap:anywhere}
+.results-table .synopsis-link{display:inline-block;margin-top:4px;font-size:.8125rem;line-height:1.8}
+.results-table .narrative-catalogue-state{display:inline-block;margin-top:9px;font-size:.75rem;color:var(--verified);border-left:2px solid currentColor;padding-left:8px}
+.results-table .narrative-catalogue-state.scoped{color:var(--partial)}
+.results-table .narrative-catalogue-state.pending,.synopsis-pending{color:var(--muted)}
 .results-table small{display:block;color:var(--muted);font-size:.8125rem}
 .results-table th[scope=row]{font-weight:500}
 .results-table a{font-size:.94rem}
@@ -122,7 +132,7 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .status.partial{color:#e2c38e;background:#30261c;border-color:#9b8157}
 .status.unverified{color:#c5c9c9;background:#252728;border-color:#73797b}
 .tags{display:flex;flex-wrap:wrap;gap:4px}
-.tag{font:.8125rem/1.7 ui-monospace,monospace;padding:1px 7px;border:1px solid var(--line);background:var(--light);color:var(--ink);text-decoration:none}
+.tag{font:.75rem/1.7 var(--sans);padding:3px 7px;border:1px solid var(--line);background:var(--light);color:var(--ink);text-decoration:none;max-width:100%;overflow-wrap:anywhere}
 .scene-count{color:var(--muted);font-size:.8rem}
 .empty{padding:44px 20px;text-align:center;border-bottom:1px solid var(--line)}
 .empty h3{font-family:inherit}
@@ -245,7 +255,6 @@ footer p{margin:0}
 .tracking-record .small-note{margin-top:6px}
 .work-tracking .tags .tag{background:var(--paper)}
 @media(min-width:1000px){.contents ol{position:sticky;top:25px}
-.results-table td:last-child{min-width:185px}
 }
 @media(max-width:900px){main{padding:0 28px}
 .masthead{padding:20px 28px;gap:20px}
@@ -301,7 +310,8 @@ main{padding:0 20px}
 .results-table,.results-table tbody,.results-table tr,.results-table th,.results-table td{display:block}
 .results-table tr{border-bottom:1px solid var(--line);padding:18px 0;position:relative}
 .results-table td,.results-table th{border:0;padding:3px 0}
-.results-table .work-col{width:auto;padding-right:100px}
+.results-table .work-col{width:auto;padding-right:0}
+.results-table .work-link{display:block;padding-right:100px}
 .results-table td:nth-child(2){position:absolute;right:0;top:18px}
 .results-table td:last-child{font-size:.8rem}
 .results-table th small{margin-top:4px}
@@ -382,8 +392,7 @@ a{color:inherit}
 .method-flow span+span{border-left:1px solid var(--line)}
 .method-flow span::before{font:400 1.8rem/1.2 Georgia,serif;color:var(--accent);margin-bottom:12px}
 .notation{background:var(--light);border:1px solid var(--line);border-left:3px solid var(--accent);padding:26px 28px;gap:22px 30px}
-.notation dt span{font-size:1.6rem;width:32px}
-.notation dd{margin-left:32px}
+.notation dd{margin-left:0}
 .count-figure{border-block:1px solid var(--line);padding:22px 0 20px;margin-top:28px}
 .stacked{height:10px;gap:4px;margin:18px 0}
 .count-figure figcaption strong{font-family:var(--serif);font-size:1.1rem}
@@ -480,7 +489,7 @@ footer{border-top:2px solid var(--blood);font-family:var(--sans);background:#0d0
 .selects{grid-template-columns:1fr;gap:18px}
 .filter-footer{flex-wrap:wrap;gap:14px}
 .filter-footer button{min-height:44px}
-.results-table .work-col{padding-right:100px}
+.results-table .work-col{padding-right:0}
 .work-heading{padding:22px 20px 24px}
 .work-heading h1{font-size:1.9rem;letter-spacing:.06em}
 .scene .notation{padding:22px 18px}

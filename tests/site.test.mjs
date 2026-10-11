@@ -1,8 +1,50 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterWorks,matchingScenes,resolveRoute} from '../site/core.mjs';
+import {createHash} from 'node:crypto';
+import {axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute} from '../site/core.mjs';
 const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url)));
+test('UI changes preserve every published research and narrative fact byte for byte',()=>{
+  const digest=createHash('sha256').update(readFileSync(new URL('../docs/data.json',import.meta.url))).digest('hex');
+  assert.equal(digest,'a7bf52568a350bed322d4ab9c24bd0add9be0b658ee43f6a0fb32b524bdfb1f4');
+});
+test('analytical prose uses the original axis and type meanings without changing person initials',()=>{
+  assert.deepEqual(Object.keys(axisLabels),['Q','D','C','M']);
+  assert.match(axisLabels.C,/選べる行動と条件/);
+  assert.match(axisLabels.M,/安全・自己・因果/);
+  assert.equal(readerText('原因Qを知ってもD継続。Cの決着とMの変化を分ける。',data),'原因問いを知っても危険継続。選択の決着と世界モデルの変化を分ける。');
+  assert.equal(readerText('A2からB2へ。F群との区別。',data),'「追われている」から「閉じ込められている」へ。「人間と世界」の分類との区別。');
+  assert.equal(readerText('D2「自分の身体が別のものになる」',data),'「自分の身体が別のものになる」');
+  assert.equal(readerText('Q:音源は何で、Cは何を認識したか。',data),'問い:音源は何で、Cは何を認識したか。');
+  assert.equal(readerText('死亡はCの損失による終結、他者には危険Dが残る。',data),'死亡はCの損失による終結、他者には危険が残る。');
+  assert.equal(readerText('当事者D子の意図は不明。Dの回避を区別する。',data),'当事者D子の意図は不明。危険の回避を区別する。');
+});
+test('catalogue synopses excerpt all three existing parts and leave every pending story blank',()=>{
+  for(const n of data.narratives.works){
+    const text=shortSynopsis(n);
+    if(n.status==='pending'){assert.equal(text,'');continue;}
+    assert.ok(text.length>=40&&text.length<=200,n.work_id+' '+text.length);
+    if(['G01-W09','G03-W25','G04-W09','G04-W12','G05-W23'].includes(n.work_id)){
+      assert.equal(n.status,'scoped');
+      if(n.work_id!=='G05-W23'){assert.match(text,/二つ|第15話|二篇/);continue;}
+      assert.match(text,/独立した二つの候補/);assert.match(text,/光の誓い/);assert.match(text,/幽霊が出る部屋/);continue;
+    }
+    for(const part of ['opening','development','ending']){
+      const sentence=n.summary[part].split('。')[0];assert.ok(text.includes(sentence),n.work_id+' '+part);
+    }
+  }
+});
+test('search by a displayed type or classification name retains every matching work',()=>{
+  const works=data.works.map(w=>{
+    const ids=new Set(w.scenes.flatMap(s=>s.type_ids));
+    return {...w,type_names:data.types.filter(t=>ids.has(t.id)).map(t=>t.name),type_group_names:data.type_groups.filter(g=>Array.from(ids).some(id=>id[0]===g.id)).map(g=>g.name)};
+  });
+  for(const t of data.types){
+    const found=new Set(filterWorks(works,{q:t.name}).map(w=>w.work_id));
+    for(const w of filterWorks(works,{type:t.id}))assert.ok(found.has(w.work_id),t.name+' '+w.work_id);
+  }
+  for(const g of data.type_groups)assert.ok(filterWorks(works,{q:g.name}).length>0,g.name);
+});
 test('public edition retains the complete inventory and separates missing evidence',()=>{
   assert.equal(data.works.length,131);
   assert.equal(new Set(data.works.map(w=>w.work_id)).size,131);

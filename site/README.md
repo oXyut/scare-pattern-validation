@@ -1,5 +1,16 @@
 # GitHub Pagesの公開版
 
+表示改善の最新レビューは[UIレビュー](review/ui/README.md)です。分類IDと四つの分析欄の内部キーを保持し、画面では分類名・型名・日本語の説明を使います。定義は`baseline/v1-26types/report.md`の「発生と解決を分解する」に従います。人物のイニシャルCやD子は概念の略号と区別します。
+
+一覧の短いあらすじは、`site/core.mjs`の`shortSynopsis`が既存の発端・展開・結末から完全な文を抜粋します。独立候補や一部の複数篇には、同じ確認済み要約を基にした表示用の短文を用います。原資料・`site/narratives.json`・公開JSONは変更しません。検索には型名・分類名も加えますが、既存の型IDフィルタと判定の意味は保持します。
+
+最新のオフラインプレビューを更新する場合：
+
+```sh
+python3 scripts/build_site.py
+python3 scripts/build_site_preview.py site/review/ui/scare-pattern-ui-review.zip --instructions site/review/ui/preview-instructions.txt
+```
+
 公開先は `https://oxyut.github.io/scare-pattern-validation/`。依存パッケージなしの静的サイトです。Pagesはmainの`/docs`から公開します。独自ドメインは設定しません。
 
 `site/`が画面の原稿と実装、`docs/`が生成済みの公開ファイルです。`scripts/build_site.py`は研究資料から必要な分析欄だけを抽出します。怪談本文は収録せず、場面要約・判定・留保と出典リンクを掲載します。出典台帳のURL未同定行と取得日時の欠測も保持します。
