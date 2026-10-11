@@ -3,6 +3,7 @@ import argparse
 import json
 from pathlib import Path
 from v3_research import ROOT, build, dump
+from v3_r2_site_projection import outputs as r2_outputs
 
 
 def outputs():
@@ -17,8 +18,9 @@ def outputs():
     detail = dict(schema_version='v3-work-records-1', version=data['version'],
                   works={w['work_id']: w for w in data['works']})
     result['docs/v3/works.json'] = json.dumps(detail, ensure_ascii=False, separators=(',', ':')) + '\n'
-    for name in ('v3.html', 'v3.mjs', 'v3.css'):
+    for name in ('v3.html', 'v3.mjs', 'v3-r2.mjs', 'v3.css'):
         result[f'docs/{name}'] = (ROOT / 'site' / name).read_text()
+    result.update(r2_outputs())
     return result
 
 
@@ -34,7 +36,7 @@ def main():
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content)
-    print('Independent v3 output checked: 131 works; existing v1 output unchanged')
+    print('Independent r1/r2 output checked: 131 works each; existing v1 and r1 data unchanged')
 
 
 if __name__ == '__main__':

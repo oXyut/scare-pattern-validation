@@ -24,7 +24,8 @@ async function page(t,suffix='',viewport={width:1280,height:900},intercept){
   const p=await browser.newPage({viewport});const errors=[];p.on('pageerror',e=>errors.push(e.message));
   t.after(async()=>{await p.close();assert.deepEqual(errors,[]);});
   if(intercept)await intercept(p);
-  await p.goto(base+suffix);await p.waitForFunction(()=>!document.getElementById('result-count').textContent.includes('読み込み中'));
+  const url=new URL(base+suffix); if(!url.searchParams.has('edition'))url.searchParams.set('edition','r1');
+  await p.goto(url.href);await p.waitForFunction(()=>!document.getElementById('result-count').textContent.includes('読み込み中'));
   return p;
 }
 async function ready(p,title){await p.waitForFunction(title=>document.getElementById('work-title')?.textContent===title,title);}
@@ -43,9 +44,9 @@ test('version switch keeps old scene labels and new condition judgments separate
   assert.match(await p.locator('.v3-panel [data-type="C1"] summary').textContent(),/成立条件の根拠あり/);
   assert.match(await p.locator('.v3-panel [data-type="A3"] summary').textContent(),/選定場面で不成立/);
   assert.match(await p.locator('#detail').textContent(),/作品全体の削除・適合率の差を示しません/);
-  await p.locator('#version').selectOption('v1');assert.equal(await p.locator('.v3-panel').count(),0);
+  await p.locator('#version').selectOption('v1');await ready(p,'八尺様');assert.equal(await p.locator('.v3-panel').count(),0);
   await p.reload();await ready(p,'八尺様');assert.equal(await p.locator('#version').inputValue(),'v1');
-  await p.locator('#version').selectOption('v3');assert.equal(await p.locator('.v1-panel').count(),0);assert.equal(await p.locator('.v3-panel').count(),1);
+  await p.locator('#version').selectOption('v3');await ready(p,'八尺様');assert.equal(await p.locator('.v1-panel').count(),0);assert.equal(await p.locator('.v3-panel').count(),1);
   await p.evaluate(()=>{location.hash='G04-W03';});await ready(p,'渦人形');
   await p.locator('.record > details').first().locator('summary').click();
   assert.match(await p.locator('.record').textContent(),/偶発.*以前の要約/s);
@@ -56,7 +57,7 @@ test('evidence links resolve their owner on reload and reject another work evide
   await p.reload();await ready(p,'八尺様');assert.equal(await p.locator('#evidence-G05-W18-T1-2').isVisible(),true);
   await p.evaluate(()=>{location.hash='G05-W18/evidence-G02-W11-T1-2';});
   await p.waitForFunction(()=>document.querySelector('#detail [role=alert]'));
-  assert.match(await p.locator('#detail').textContent(),/この作品の根拠が見つかりません/);
+  assert.match(await p.locator('#detail').textContent(),/この版・作品の根拠が見つかりません/);
   assert.equal(await p.locator('#work-title').count(),0);
   await p.locator('#detail a').click();assert.equal(await p.locator('#works li').count(),131);
 });
