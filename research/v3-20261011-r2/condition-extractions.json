@@ -4803,6 +4803,937 @@
         ],
         "limitation": "旧前提・新証拠・受容を具体的に抽出。一般化と局所説明の不足は未確認で、F全体は保留。"
       }
+    },
+    {
+      "work_id": "G01-W17",
+      "record_id": "G01-W17-V3-R2-R01",
+      "actor": "目撃後にトマトを避ける語り手",
+      "time_scope": "収穫イベントの目撃から、その後の食品回避と投稿まで。女性の主観と変身の結果は未確認。",
+      "world_layer": "narrated_and_belief",
+      "selection_reason": "目撃した語り手の信念と回避を点検する。女性の摂食を語り手自身の接触・変質に置換しない。",
+      "anticipated_loss": "自分が食べることで人間から変質するという伝承を信じた食品回避。",
+      "recognition_basis": "存在を信じた日から今でもトマト系を避け、女性の残りの食品は加熱してほしいと願う。",
+      "closure_observed": "自身の食品回避は記述される。女性のその後・伝承の変身と加熱の効力は未確認。",
+      "limitation": "語り手の目撃後の一つの選定範囲。女性の変質の成立や、彼女が危険を認識した問題状態を作らない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W17-R2-E-a",
+          "source_review_id": "G01-W17-R2-S1",
+          "url": "https://black-one-neck.blog.jp/archives/1084897179.html",
+          "range": "30〜34行",
+          "layer": "reported",
+          "summary": "擬態した実を食べると人も変わるという地方の伝承。"
+        },
+        {
+          "evidence_id": "G01-W17-R2-E-b",
+          "source_review_id": "G01-W17-R2-S1",
+          "url": "https://black-one-neck.blog.jp/archives/1084897179.html",
+          "range": "36〜37行",
+          "layer": "narrated_and_belief",
+          "summary": "信じなかった語り手が遠方の小人の擬態と女性の摂食を見たと語る。女性の結果は不明。"
+        },
+        {
+          "evidence_id": "G01-W17-R2-E-c",
+          "source_review_id": "G01-W17-R2-S1",
+          "url": "https://black-one-neck.blog.jp/archives/1084897179.html",
+          "range": "39〜41行",
+          "layer": "narrated_reported_and_belief",
+          "summary": "語り手はトマトを避け、加熱すれば死ぬという伝承を頼みに調理を願う。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "食べると自分も変わるという危険を信じた語り手が、その後トマトを避ける継続中の回避課題。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "見た日から存在を信じ、今でもトマト系を受け付けず、加熱調理を願う本人の記述。",
+          "evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "語り手は以前はトマト男を信じていなかったと明記する。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "遠くの小人らしい存在がトマトへ擬態し、女性が食べたという一回の直接目撃の叙述。",
+          "evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "地域の一種の妖怪と収穫イベントの一回の経験。世界や人間一般の規則への一般化は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "存在しないという旧理解を変え、存在を信じて食品を避ける局所的な危険受容。",
+          "evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "一種の擬態する妖怪という局所説明では足りない理由は本文にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "遠方の単一観察であることと女性の結果の不明を根拠に、誤認・叙述の誤りの分析仮説を排除未完了として記録する。本人がそれらを考えたとはしない。",
+          "evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "観測した存在が語り手を捜索していた根拠はなく、指定追手の所在未捕捉を点検できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "食品を避ける行動と、追手への所在の感知を避ける行動は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "苗の小人の動きと擬態は観察されるが、語り手を標的に接近・追随する方向性は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "摂食による変質の危険を、追手の移動接近による捕捉の予期へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "採取場所と食品の危険はあるが、生活・避難領域の安全境界を期待する局面は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "食べる条件の伝承を、物理的な生活領域への侵入へ拡張しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "食品の危険への受容と、生活領域への侵入が安全喪失へ結び付くことは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "遠方の一体の目撃だけでは、防御領域の周囲を占める脅威と境界維持を支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "擬態と摂食に、境界突破・備蓄の消耗を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "本人が防御境界の破綻や維持資源の枯渇による損失を予期する記述は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "収穫イベントの場所は把握するが、安全条件の不明が状況定位の問題として開くかは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "食品回避の理由は示すが、未知の現在地による帰還不能・孤立の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "語り手がその場から外へ出たい理由と、滞在による具体的損失は特定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "摂食の伝承と目撃は、語り手の離脱を阻む実際の障壁ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "小人がトマトになる描写は、道・部屋の接続や時間反復の異常とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "擬態の観察から、接続異常による帰還不能や消耗を予期する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "以前は伝承を信じなかったことと新しい一回の目撃はあるが、同じ命題の知覚・証言の食い違いとしては未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "目撃から食品を避けるが、競合する証拠のどれを採るかによる誤判断の損失は明記されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "目撃する小人と女性はいずれも特定の既知人物の本人性を判断する対象として示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "トマトへの擬態の伝承は、特定の身内の姿や声の模倣・置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "代替者を身内本人と認めて接近を許す具体的損失の予期は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "小人や収穫した女性に対し、味方や共同体としての援助期待は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "擬態はあるが、人間を害する意図・本人の敵対利害や計画は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "食品への不安と、味方本人の利害による裏切り・供犠の予期を区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "語り手が女性や周囲に危険を訴えたという記述はない。後の調理への願いと別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "危険の訴えに対する他者の不受容のやりとりは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "訴えの不受容で援助が成立せず孤立するという損失予期は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "知らない女性を案じるが、重要な対象・関係としての重要性の根拠水準は未固定。心配だけで自動成立にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "女性が擬態した実を食べ、その結果は不明としつつ残りを加熱してほしいと願う。進行中の危険候補を伝承を信じた視点で支持。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "結果が分からないことと、本人が介入・救助の難しさから女性の喪失を予期したことは別で未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "食べたのは別の女性。語り手自身への内部侵入・感染の接触や症状は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "食品を避ける理由は変身の伝承だが、自身の体内侵入・感染後の発症を予期する記述とは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "本人の身体変化は観察されない。女性の変身も結果不明で、どちらにも実際の進行変質を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "supported",
+          "reason": "食べると人でなくなるという望ましくない自己変質を信じ、本人はトマトを避ける。実際に変質した証明ではない。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "目撃時に呆気に取られるが、本人の意に反する発話・動作・加害の発生は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "思考が停止したという驚きの表現と、意に反する行為を制御できない問題は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "身体変質への不安を、自己の不随意な行為による損失予期に変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "人の身体が変わる伝承はあるが、記憶・人格・存在の所有や置換・複製の仕組みは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "トマトを避けることが自己の存在の置換を具体的に受容した根拠か、身体変化の回避かは区別が必要。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "本人の身体内部の痛み・損傷・機能低下の進行は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "止められない内的損壊の対象は未特定。食品を避ける課題とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "内的損壊からの臓器損傷・死を予期する本人の時点は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "擬態したトマトを食べる条件と、食べた人が同じものになるという危険を伝承として区別できる。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "擬態と摂食は目撃するが女性の結果は不明。摂食が変身を起動する因果は伝承以上に確認されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "本人はトマトを避け、加熱を願う。伝承の条件と具体的な変質の回避判断が結び付く。",
+          "evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "元の危険の担い手である擬態した小人と、食べた女性という新対象を区別できる。新対象の危険は信じた伝承の層。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "摂食という連結の説明はあるが、新対象の変身・危険の結果が不明で、媒介経路の成立は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "女性の調理を願うことだけで、さらに別の対象への危険増加・移転の予期を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "加熱で死ぬという説明は伝承。実行された対処の効力を支持する追加根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "食品を避ける代わりに当事者が重視する損失や他者への加害が必要とは示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "重要な犠牲を払って助かるか不作為の損失かという選択問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "本人は摂食の危険と加熱という対処規則を伝承として理解する。客観的効力の確認とは別。",
+          "evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "本人は食品を避けるが、加熱や回避を能力・設備・時間不足が妨げる根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "女性の結果不明を、自分が理解した対処を実行不能なための損失予期へ置換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "加熱による無害化の伝承はあるが、当面の危険を抑える継続管理方法の効力は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "食品回避が続くことと、保管・手入れ・継承を担う責任は別。後者の記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "食品を再び食べる危険と、管理の放棄・失敗による自他の害を区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "管理責任を終える条件・終われない理由を本人が問題にする記述は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "ある妖怪を信じないという旧前提は、世界の因果・時空・生死の基本規則の前提まで示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "観察は一回で、伝承の人間の変身は未観測。複数の信頼できる反証の条件は満たしたと認定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "一種の妖怪と食物回避の説明を超える世界一般の安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "遠方を注視しているが、工夫と反復検証を行った記録ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "女性の後の結果を知らないことは観察範囲の不足で、人間一般の認識・能力の構造的限界ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "存在への信念変更はあるが、人間一般の構造的限界を脅威として受容する旧前提変更は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "妖怪の存在を信じないことから、人間の善意・正義・願いが世界で重視される前提を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "一種の擬態の危険から、世界秩序一般で人間の価値が無関係と判明したとは言えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-b",
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "食品への不安を、人間の価値の非中心性の受容として扱う本文根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "個体の摂食と変身の伝承は、人間の安全・歴史・存在が他存在の用途に依存する仕組みではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "妖怪の擬態はあるが、人間を素材・設備・資源として維持する用途は特定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-a",
+            "G01-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "個別の食品の危険への理解を、人間一般の成立条件の前提変更に広げる根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "トマト男を信じていなかったという特定の存在についての旧信念。",
+        "new_evidence": "遠方の小人らしい姿がトマトへ擬態する一回の目撃の叙述。女性の摂食は目撃、変身は未観測。",
+        "evidence_scope": "一つの地方の伝承と一回の収穫イベントの経験。世界・人間一般を検証した記録ではない。",
+        "acceptance_and_threat": "存在を信じて今もトマトを避ける。局所的な存在の理解と食品の危険への受容。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。一種の擬態する妖怪という局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "遠方の姿や擬態の誤認",
+            "basis": "遠くの苗を注視したという単一の目撃。分析上の未排除仮説で、本人の主張ではない。",
+            "status": "analyst_hypothesis_unresolved"
+          },
+          {
+            "hypothesis": "伝承の因果と観察結果のずれ",
+            "basis": "女性の摂食後の結果が分からないと明記される。",
+            "status": "outcome_unobserved"
+          },
+          {
+            "hypothesis": "掲載・叙述の誤り",
+            "basis": "初出原投稿との一致や他者の観察は未確認。分析上の代替仮説。",
+            "status": "analyst_hypothesis_unresolved"
+          }
+        ],
+        "limitation": "特定の妖怪への局所的な前提変更を実記入。一般化の根拠を補わず、女性の未観測結果を不成立や成立のどちらにも捏造しない。"
+      }
     }
   ],
   "work_progress": {
@@ -4904,9 +5835,9 @@
     },
     "G01-W17": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "語り手の目撃後の食品回避の一つの範囲。女性の主観・変質結果は不明。"
     },
     "G01-W18": {
       "inherited_narrative_status": "scoped",
