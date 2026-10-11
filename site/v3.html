@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>v3 条件点検 | 洒落怖恐怖分類</title>
+  <link rel="stylesheet" href="v3.css">
+  <script type="module" src="v3.mjs"></script>
+</head>
+<body>
+  <header><a href="./">現行 v1 サイトへ</a><span>研究用比較ビュー</span></header>
+  <main>
+    <h1>v3 の必須条件を点検する</h1>
+    <p class="notice">開発用コーパスの単一AIによる暫定記録です。全131件の欄を用意し、110件の選定場面と21件の本文保留を記録しています。独立評価・一致度測定は未実施です。</p>
+    <p>本文確認の範囲は指定本文92件・限定範囲18件・保留21件のままです。ここでの「根拠あり」は必須条件を満たす選定場面を表し、作品全体の網羅や実証済みの効果を示しません。</p>
+    <div class="controls">
+      <label>版の表示<select id="version"><option value="v3">v3 条件点検</option><option value="v1">v1 歴史的記録</option><option value="compare">v1 / v3 比較</option></select></label>
+      <label>作品を探す<input id="search" type="search" placeholder="題名・割当ID"></label>
+      <label>本文範囲<select id="coverage"><option value="all">すべて</option><option value="ready">指定本文</option><option value="scoped">限定範囲</option><option value="pending">本文保留</option></select></label>
+    </div>
+    <p id="result-count" role="status">読み込み中…</p>
+    <section id="catalogue" aria-label="作品一覧"><ul id="works"></ul></section>
+    <section id="detail" hidden aria-label="作品の条件点検"></section>
+    <noscript><p>条件点検を読むにはJavaScriptを有効にしてください。<a href="https://github.com/oXyut/scare-pattern-validation/tree/research/v3-condition-audit-20261011/research/v3-20261011">調査資料</a>でも確認できます。</p></noscript>
+  </main>
+</body>
+</html>

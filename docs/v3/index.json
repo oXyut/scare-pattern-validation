@@ -1,0 +1,3766 @@
+{
+  "schema_version": "v3-development-review-1",
+  "version": "v3-development-review-r1",
+  "input_base_commit": "09876cfaba2fb421ac28a5f805bc47c08cf21427",
+  "codebook_id": "fear-patterns-v3-codebook-proposed-1",
+  "corpus_role": "development",
+  "method": "single_ai_unblinded_existing_evidence_review_with_targeted_rereading",
+  "independent_human_coding_performed": false,
+  "independent_test_performed": false,
+  "targeted_body_reread_works": 8,
+  "agreement": null,
+  "gm_effect": null,
+  "player_effect": null,
+  "partial_allowed": false,
+  "narrative_counts": {
+    "ready": 92,
+    "scoped": 18,
+    "pending": 21
+  },
+  "v1_counts": {
+    "assigned_entries": 131,
+    "verified": 92,
+    "partial": 14,
+    "unverified": 25
+  },
+  "counts": {
+    "records": 110,
+    "assigned_entries": 131,
+    "selected_scene_review": 110,
+    "source_hold": 21,
+    "works_with_supported_selected_problem": 35
+  },
+  "type_judgment_counts": {
+    "A1": {
+      "pending": 130,
+      "fit": 1
+    },
+    "A2": {
+      "fit": 15,
+      "pending": 115,
+      "not_fit": 1
+    },
+    "A3": {
+      "pending": 128,
+      "not_fit": 2,
+      "fit": 1
+    },
+    "A4": {
+      "pending": 128,
+      "fit": 2,
+      "not_fit": 1
+    },
+    "B1": {
+      "pending": 129,
+      "fit": 2
+    },
+    "B2": {
+      "pending": 123,
+      "fit": 7,
+      "not_fit": 1
+    },
+    "B3": {
+      "pending": 129,
+      "not_fit": 1,
+      "fit": 1
+    },
+    "B4": {
+      "pending": 131
+    },
+    "C1": {
+      "pending": 129,
+      "fit": 2
+    },
+    "C2": {
+      "pending": 131
+    },
+    "C3": {
+      "pending": 130,
+      "fit": 1
+    },
+    "C4": {
+      "pending": 123,
+      "fit": 7,
+      "not_fit": 1
+    },
+    "D1": {
+      "pending": 130,
+      "not_fit": 1
+    },
+    "D2": {
+      "pending": 131
+    },
+    "D3": {
+      "pending": 128,
+      "fit": 1,
+      "not_fit": 2
+    },
+    "D4": {
+      "pending": 130,
+      "fit": 1
+    },
+    "D5": {
+      "pending": 126,
+      "not_fit": 5
+    },
+    "E1": {
+      "pending": 131
+    },
+    "E2": {
+      "pending": 131
+    },
+    "E3": {
+      "pending": 130,
+      "not_fit": 1
+    },
+    "E4": {
+      "pending": 131
+    },
+    "E5": {
+      "pending": 126,
+      "not_fit": 5
+    },
+    "F1": {
+      "pending": 131
+    },
+    "F2": {
+      "pending": 131
+    },
+    "F3": {
+      "pending": 131
+    },
+    "F4": {
+      "pending": 131
+    }
+  },
+  "count_unit": "選定された当事者×時点×型の記録。本文保留作品は一組の欠測記録。独立標本・作品頻度ではない。",
+  "types": [
+    {
+      "id": "A1",
+      "name": "見つかりそう",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "A1.R1",
+          "text": "指定追手は、その時点で当事者の所在をまだ確実に把握していない。所在未捕捉を支持する根拠がある。"
+        },
+        {
+          "id": "A1.R2",
+          "text": "当事者は発見後の捕捉・加害を予期し、所在の感知を避けることが問題になっている。"
+        }
+      ],
+      "closure_design": "Q：感知条件の確認。D：今回の捜索をやり過ごし、対象範囲で捕捉の可能性を下げる"
+    },
+    {
+      "id": "A2",
+      "name": "追われている",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "A2.R1",
+          "text": "追手の移動・接近に、指定した当事者を標的とする方向性がある。"
+        },
+        {
+          "id": "A2.R2",
+          "text": "その接近による接触・捕獲・加害が、当事者にとって予期損失である。"
+        }
+      ],
+      "closure_design": "Q：追跡規則の確認。D：追跡を振り切る、接触不能にする。制限時間付きなら明示"
+    },
+    {
+      "id": "A3",
+      "name": "安全な場所に入ってこられる",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "A3.R1",
+          "text": "当事者が生活・避難領域として安全を期待した場所と境界が指定できる。"
+        },
+        {
+          "id": "A3.R2",
+          "text": "脅威がその境界を越えて領域に侵入する根拠がある。"
+        },
+        {
+          "id": "A3.R3",
+          "text": "侵入が領域内の具体的な加害・安全喪失に結び付く。"
+        }
+      ],
+      "closure_design": "Q：侵入経路の特定。D：排除と再侵入防止、またはその場所を離れる"
+    },
+    {
+      "id": "A4",
+      "name": "囲まれ、じわじわ突破される",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "A4.R1",
+          "text": "脅威が防御領域の周囲を占め、当事者が境界を維持する局面である。"
+        },
+        {
+          "id": "A4.R2",
+          "text": "境界・備蓄等を保ちきれなくなる圧力、突破・消耗の根拠がある。"
+        },
+        {
+          "id": "A4.R3",
+          "text": "突破や維持資源の枯渇が当事者の具体的損失に結び付く。"
+        }
+      ],
+      "closure_design": "Q：防衛条件の把握。D：包囲を解く、脱出する、救援まで維持する"
+    },
+    {
+      "id": "B1",
+      "name": "気がついたら知らない場所にいる",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "B1.R1",
+          "text": "現在地・来た経緯・帰路や滞在の安全条件を把握できず、状況定位が問題である。"
+        },
+        {
+          "id": "B1.R2",
+          "text": "その不明さが帰還不能・孤立・環境危険等の具体的予期損失に結び付く。"
+        }
+      ],
+      "closure_design": "Q：当面の状況と帰路・滞在条件の把握。D：環境の危険は別途対処"
+    },
+    {
+      "id": "B2",
+      "name": "閉じ込められている",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "B2.R1",
+          "text": "当事者に外へ離脱したい理由があり、滞在が具体的な損失に結び付く。"
+        },
+        {
+          "id": "B2.R2",
+          "text": "物理・制度・怪異の障壁が実際に離脱を阻む根拠がある。"
+        }
+      ],
+      "closure_design": "Q：脱出方法の特定。D：安全な外部への到達。単に扉が開くこととは区別"
+    },
+    {
+      "id": "B3",
+      "name": "道や時間が正常につながらない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "B3.R1",
+          "text": "道・部屋の接続、移動結果、時間差または反復の異常を示す根拠がある。"
+        },
+        {
+          "id": "B3.R2",
+          "text": "異常が帰還不能・消耗等の具体的損失の予期に結び付く。"
+        }
+      ],
+      "closure_design": "Q：使える規則の把握。D：反復・迷路から脱出する、または安全な滞在を確保"
+    },
+    {
+      "id": "B4",
+      "name": "見聞きしたものを信用できない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "B4.R1",
+          "text": "指定命題について知覚・記録・証言の食い違いがある。"
+        },
+        {
+          "id": "B4.R2",
+          "text": "どの根拠を採用するかが安全判断に影響し、誤判断に具体的損失がある。"
+        }
+      ],
+      "closure_design": "Q：対象命題について独立した根拠を確保。D：不確実性を織り込んで行動する"
+    },
+    {
+      "id": "C1",
+      "name": "目の前の人が本人ではないかもしれない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "C1.R1",
+          "text": "疑う特定の既知人物と本人性を判断する対象時点が指定できる。"
+        },
+        {
+          "id": "C1.R2",
+          "text": "外見・声・記憶等の模倣や置換を疑わせる根拠がある。"
+        },
+        {
+          "id": "C1.R3",
+          "text": "危険な代替者を本人と扱い接近を許すことに具体的損失を予期する。"
+        }
+      ],
+      "closure_design": "Q：特定人物を、特定時点・精度で同定。D：危険な代替者との接触を防ぐ"
+    },
+    {
+      "id": "C2",
+      "name": "味方や共同体が自分を害そうとしている",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "C2.R1",
+          "text": "味方・共同体として援助や信頼を期待した他者が対象である。"
+        },
+        {
+          "id": "C2.R2",
+          "text": "その本人に帰属する敵対的な利害・計画の根拠がある。"
+        },
+        {
+          "id": "C2.R3",
+          "text": "本人の利害・計画が当事者への裏切り・拘束・供犠等の予期損失につながる。"
+        }
+      ],
+      "closure_design": "Q：利害・計画の把握。D：計画から逃れる、阻止する"
+    },
+    {
+      "id": "C3",
+      "name": "危険を訴えても信じてもらえない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "C3.R1",
+          "text": "当事者は危険の根拠を持ち、他者へそれを訴えている。"
+        },
+        {
+          "id": "C3.R2",
+          "text": "他者がその訴えを受容しない根拠がある。"
+        },
+        {
+          "id": "C3.R3",
+          "text": "不受容が必要な援助の不成立につながり、孤立による具体的損失を予期する。"
+        }
+      ],
+      "closure_design": "C：必要な協力を確保、または協力なしで対処できる。相手を説得すること自体は必須ではない"
+    },
+    {
+      "id": "C4",
+      "name": "大切な人を失いそう・助けられない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "C4.R1",
+          "text": "当事者に重要な自分以外の対象・関係が指定でき、重要性に根拠がある。"
+        },
+        {
+          "id": "C4.R2",
+          "text": "その対象への将来の喪失・進行中の危険または救助課題がある。"
+        },
+        {
+          "id": "C4.R3",
+          "text": "当事者の介入・救助が難しく、他者の喪失を予期する根拠がある。"
+        }
+      ],
+      "closure_design": "Q：救助条件の把握。D：指定した対象の救出・保護。死亡確認は損失による終結"
+    },
+    {
+      "id": "D1",
+      "name": "体内に何か入った・感染したかもしれない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "D1.R1",
+          "text": "指定身体の内部への寄生・感染・異物侵入を支持する接触・症状等の根拠がある。"
+        },
+        {
+          "id": "D1.R2",
+          "text": "侵入・感染から発症・損傷・伝播等を予期する当事者と損失が指定できる。"
+        }
+      ],
+      "closure_design": "Q：感染等の有無・性質の確認。D：除去・治療、または進行を抑えた条件付き安定"
+    },
+    {
+      "id": "D2",
+      "name": "自分の身体が別のものになる",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "D2.R1",
+          "text": "損失を受ける指定当事者自身の身体が変形・変質して進む根拠がある。"
+        },
+        {
+          "id": "D2.R2",
+          "text": "変質による機能または自己像の喪失・不可逆な変質の予期に根拠がある。"
+        }
+      ],
+      "closure_design": "D：停止・回復。M／C：変化を含めた生き方の決着は別に記録"
+    },
+    {
+      "id": "D3",
+      "name": "自分の行動を自分で制御できない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "D3.R1",
+          "text": "指定当事者に意図しない発話・動作・加害が起きる根拠がある。"
+        },
+        {
+          "id": "D3.R2",
+          "text": "当事者がその行為を自分の意図で制御できない根拠がある。"
+        },
+        {
+          "id": "D3.R3",
+          "text": "制御喪失が自他への具体的損失の予期に結び付く。"
+        }
+      ],
+      "closure_design": "Q：制御条件の把握。D／C：実行能力の回復、または損失を防ぐ制限"
+    },
+    {
+      "id": "D4",
+      "name": "自分の記憶・人格・存在が自分のものではない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "D4.R1",
+          "text": "指定当事者の記憶・人格・存在の所有や継続を疑わせる複製・埋込・置換等の根拠がある。"
+        },
+        {
+          "id": "D4.R2",
+          "text": "自己の消失・置換や継続の不確かさが、具体的予期損失として当事者に受容される。"
+        }
+      ],
+      "closure_design": "Q：由来・仕組みの解明。M：自己理解の再構成。C：今後の態度の決着。消失危険は別途追跡"
+    },
+    {
+      "id": "D5",
+      "name": "身体が内側から壊される",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "D5.R1",
+          "text": "指定身体の内部の損傷・痛み・機能低下が進行する根拠がある。"
+        },
+        {
+          "id": "D5.R2",
+          "text": "その進行停止を当事者自身では制御できない根拠がある。"
+        },
+        {
+          "id": "D5.R3",
+          "text": "内的損壊から臓器損傷・機能喪失・死を予期する時点が指定できる。"
+        }
+      ],
+      "closure_design": "Q：原因・進行・対処条件の把握。D：損傷の進行停止と生存の確保。既存の損傷回復は別に記録"
+    },
+    {
+      "id": "E1",
+      "name": "ある条件を満たすと災厄が来る",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "E1.R1",
+          "text": "接触・禁忌・契約等の条件と起動する危険を区別して記録できる。"
+        },
+        {
+          "id": "E1.R2",
+          "text": "条件が危険を起動する関係を支持する根拠がある。単発の前後関係だけでは足りない。"
+        },
+        {
+          "id": "E1.R3",
+          "text": "起動関係が当事者の具体的損失の予期・回避判断に結び付く。"
+        }
+      ],
+      "closure_design": "Q：規則の把握。D：条件の解除、効果の遮断。期限が来ていないだけでは解決しない"
+    },
+    {
+      "id": "E2",
+      "name": "危険が他者や別の場所へ広がる",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "E2.R1",
+          "text": "元の危険と別の被害対象・場所の危険を対象IDで区別できる。"
+        },
+        {
+          "id": "E2.R2",
+          "text": "感染・媒介・呪い等によって新対象へ及ぶ経路・連結を支持する根拠がある。"
+        },
+        {
+          "id": "E2.R3",
+          "text": "対象の増加・移転が具体的損失として予期される。"
+        }
+      ],
+      "closure_design": "Q：伝播規則の把握。D：対象範囲で伝播を止め、既存被害にも対処"
+    },
+    {
+      "id": "E3",
+      "name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "E3.R1",
+          "text": "指定脅威に有効な対処と、その有効性を支持する根拠がある。"
+        },
+        {
+          "id": "E3.R2",
+          "text": "有効な対処に、当事者が重視する損失・他者への加害が必要に伴う根拠がある。"
+        },
+        {
+          "id": "E3.R3",
+          "text": "不作為の損失と実行による重要な代償が選択問題になる。"
+        }
+      ],
+      "closure_design": "Q：対処と代償の関係を確認。C：選択と結果を確定。無損失の解決とは限らない"
+    },
+    {
+      "id": "E4",
+      "name": "理解しても、実行できる対処がない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "E4.R1",
+          "text": "当事者は原因・対処規則を理解し、何を実行すれば対処できるかが記録できる。"
+        },
+        {
+          "id": "E4.R2",
+          "text": "能力・設備・時間等の不足がその対処の実行を妨げる根拠がある。"
+        },
+        {
+          "id": "E4.R3",
+          "text": "実行不能が具体的損失の予期に結び付く。"
+        }
+      ],
+      "closure_design": "C：実行可能な対処を確保。D：可能になった行動で損失を回避。不可能が確定しただけでは安全にならない"
+    },
+    {
+      "id": "E5",
+      "name": "危険を抱え、管理し続けなければならない",
+      "layer": "problem_state",
+      "required_conditions": [
+        {
+          "id": "AE.G1",
+          "text": "当事者・時点・対象・具体的な望ましくない帰結と根拠を指定する。既発損失だけでなく、その時点の予期または進行中の回避・確認・受容課題がある。"
+        },
+        {
+          "id": "AE.G2",
+          "text": "当事者がその帰結を予期し問題として受け止める本文根拠がある。読者や分析者だけの怖さを当事者の危険認識に移さない。設定上と認識上の危険を別記する。"
+        },
+        {
+          "id": "E5.R1",
+          "text": "危険を当面抑制する方法があり、その有効性を支持する根拠がある。"
+        },
+        {
+          "id": "E5.R2",
+          "text": "保管・監視・手入れ・継承等を継続する必要がある。"
+        },
+        {
+          "id": "E5.R3",
+          "text": "管理の放棄・失敗で自他が害される根拠がある。"
+        },
+        {
+          "id": "E5.R4",
+          "text": "管理責任からの離脱・終了が問題となり、終える条件または終われない理由が記録できる。"
+        }
+      ],
+      "closure_design": "D：条件を満たす管理で当面の被害を回避。継続義務は残る。無害化または安全な責任移管により当事者の管理問題を閉じる。移管後も全体の危険は残り得る"
+    },
+    {
+      "id": "F1",
+      "name": "世界の基本規則が、自分たちの理解と違う",
+      "layer": "world_model",
+      "required_conditions": [
+        {
+          "id": "F.G1",
+          "text": "当事者の旧前提を特定する。"
+        },
+        {
+          "id": "F.G2",
+          "text": "変更を促す新証拠と証拠層を特定する。"
+        },
+        {
+          "id": "F.G3",
+          "text": "証拠の及ぶ範囲を示し、世界／人間一般への一般化に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G4",
+          "text": "当事者の受容・脅威認識と旧前提からの変更に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G5",
+          "text": "局所説明では足りない理由に根拠を示す。"
+        },
+        {
+          "id": "F.G6",
+          "text": "個体・設備・記憶・夢・語りの誤り等の代替仮説、その根拠と未解決点を記す。仮説の列挙だけで他の必須条件を満たしたとしない。"
+        },
+        {
+          "id": "F1.R1",
+          "text": "因果・時空・生死等の基本規則について旧前提を指定できる。"
+        },
+        {
+          "id": "F1.R2",
+          "text": "その前提を覆す複数の信頼できる新証拠がある。"
+        },
+        {
+          "id": "F1.R3",
+          "text": "安全判断の変更は局所迷路・時空異常だけでは説明できず、世界一般の範囲に根拠がある。"
+        }
+      ],
+      "closure_design": "Q：局所規則の解明。M：説明の再構成。D：今回の被害への対処"
+    },
+    {
+      "id": "F2",
+      "name": "人間には、理解・制御できない領域がある",
+      "layer": "world_model",
+      "required_conditions": [
+        {
+          "id": "F.G1",
+          "text": "当事者の旧前提を特定する。"
+        },
+        {
+          "id": "F.G2",
+          "text": "変更を促す新証拠と証拠層を特定する。"
+        },
+        {
+          "id": "F.G3",
+          "text": "証拠の及ぶ範囲を示し、世界／人間一般への一般化に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G4",
+          "text": "当事者の受容・脅威認識と旧前提からの変更に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G5",
+          "text": "局所説明では足りない理由に根拠を示す。"
+        },
+        {
+          "id": "F.G6",
+          "text": "個体・設備・記憶・夢・語りの誤り等の代替仮説、その根拠と未解決点を記す。仮説の列挙だけで他の必須条件を満たしたとしない。"
+        },
+        {
+          "id": "F2.R1",
+          "text": "工夫・反復検証が本文根拠を持つ。"
+        },
+        {
+          "id": "F2.R2",
+          "text": "検証後の限界は個人の能力・設備・知識不足へ還元できず、人間一般の認識・能力の構造に関わる根拠がある。"
+        },
+        {
+          "id": "F2.R3",
+          "text": "構造的限界の認識が当事者の旧前提を変え、脅威として受容される。"
+        }
+      ],
+      "closure_design": "限界が反証されれば前提回復。残るならMの限定とCの態度の決着"
+    },
+    {
+      "id": "F3",
+      "name": "人間の価値や願いが、世界では重視されていない",
+      "layer": "world_model",
+      "required_conditions": [
+        {
+          "id": "F.G1",
+          "text": "当事者の旧前提を特定する。"
+        },
+        {
+          "id": "F.G2",
+          "text": "変更を促す新証拠と証拠層を特定する。"
+        },
+        {
+          "id": "F.G3",
+          "text": "証拠の及ぶ範囲を示し、世界／人間一般への一般化に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G4",
+          "text": "当事者の受容・脅威認識と旧前提からの変更に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G5",
+          "text": "局所説明では足りない理由に根拠を示す。"
+        },
+        {
+          "id": "F.G6",
+          "text": "個体・設備・記憶・夢・語りの誤り等の代替仮説、その根拠と未解決点を記す。仮説の列挙だけで他の必須条件を満たしたとしない。"
+        },
+        {
+          "id": "F3.R1",
+          "text": "人間の善意・正義・尊厳や願いが世界で重視されるという旧前提がある。"
+        },
+        {
+          "id": "F3.R2",
+          "text": "それらが脅威の挙動・秩序に関係しないと判明する根拠があり、一人の敵の残酷さだけでは説明が足りない。"
+        },
+        {
+          "id": "F3.R3",
+          "text": "価値の非中心性を当事者が脅威として受け止め、旧前提が変更される。"
+        }
+      ],
+      "closure_design": "M：人間の価値と世界の挙動を分けて再構成。C：守るものを決める"
+    },
+    {
+      "id": "F4",
+      "name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+      "layer": "world_model",
+      "required_conditions": [
+        {
+          "id": "F.G1",
+          "text": "当事者の旧前提を特定する。"
+        },
+        {
+          "id": "F.G2",
+          "text": "変更を促す新証拠と証拠層を特定する。"
+        },
+        {
+          "id": "F.G3",
+          "text": "証拠の及ぶ範囲を示し、世界／人間一般への一般化に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G4",
+          "text": "当事者の受容・脅威認識と旧前提からの変更に本文根拠を要求する。"
+        },
+        {
+          "id": "F.G5",
+          "text": "局所説明では足りない理由に根拠を示す。"
+        },
+        {
+          "id": "F.G6",
+          "text": "個体・設備・記憶・夢・語りの誤り等の代替仮説、その根拠と未解決点を記す。仮説の列挙だけで他の必須条件を満たしたとしない。"
+        },
+        {
+          "id": "F4.R1",
+          "text": "人間の保護・日常・安全・歴史・存在の成立が他存在の用途に依存する仕組みの根拠がある。"
+        },
+        {
+          "id": "F4.R2",
+          "text": "人間を素材・設備・資源として維持・利用する用途と依存関係を指定できる。"
+        },
+        {
+          "id": "F4.R3",
+          "text": "個体宿主利用や個別陰謀を超える人間の成立条件の前提変更があり、当事者が脅威として受容する。"
+        }
+      ],
+      "closure_design": "Q：依存関係の理解。D：今回の被害対処。M：立場の再構成。C：依存への態度の決着"
+    }
+  ],
+  "works": [
+    {
+      "work_id": "G01-W01",
+      "title": "赤い仏像",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "C2",
+          "D4",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "C2",
+          "D4",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W02",
+      "title": "悪霊食い",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W03",
+      "title": "IZUMO社航空機墜落事故の生存者",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W04",
+      "title": "裏S区",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C2",
+          "C3",
+          "D3",
+          "E1",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C2",
+          "C3",
+          "D3",
+          "E1",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W07",
+      "title": "ガンギギ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W08",
+      "title": "気持ち悪いスナック",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C3",
+          "E1",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C3",
+          "E1",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C4",
+          "D3",
+          "D4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "D3",
+          "D4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W10",
+      "title": "コッケさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C2",
+          "C4",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "C4",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W12",
+      "title": "地獄のバス",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B2",
+          "D3",
+          "E2",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B2",
+          "D3",
+          "E2",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W14",
+      "title": "切腹ショー",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C2",
+          "D5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "D5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W15",
+      "title": "地下の丸穴",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "B1",
+          "B2",
+          "B4",
+          "D4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "B1",
+          "B2",
+          "B4",
+          "D4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W16",
+      "title": "つんつるてん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "B4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W17",
+      "title": "トマトの頭をした男",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "D2",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "D2",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "A4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W19",
+      "title": "ばりばり",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "B2",
+          "B4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "C2",
+          "C4",
+          "D3",
+          "D5",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "D3"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "C2",
+          "C4",
+          "D5",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W22",
+      "title": "マイナスドライバー",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W23",
+      "title": "ヤドリギ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C3",
+          "E2",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C3",
+          "E2",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W24",
+      "title": "ゆき・富士の影",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W25",
+      "title": "ヨウコウ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C4",
+          "E3",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2",
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "E3",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W26",
+      "title": "両面宿儺(リョウメンスクナ)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B2",
+          "C2",
+          "D5",
+          "E1",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B2",
+          "C2",
+          "D5",
+          "E1",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W01",
+      "title": "アクロバティックサラサラ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W02",
+      "title": "アシュラさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W03",
+      "title": "一本足の妖女",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W04",
+      "title": "エレベーターで異世界に行く方法",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B1",
+          "B3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B1",
+          "B3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W05",
+      "title": "おおいさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W06",
+      "title": "鏡の中のナナちゃん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C2",
+          "C4",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C2",
+          "C4",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W07",
+      "title": "カン、カン",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W08",
+      "title": "ギュウギュウ詰めの軽自動車",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [
+          "A2",
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W09",
+      "title": "狂った家族",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "C2",
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "C2",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W10",
+      "title": "怖いよアンガールズ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "B4",
+          "C3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "A3",
+          "B4",
+          "C3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W11",
+      "title": "猿夢",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B2",
+          "B4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B2",
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W12",
+      "title": "死なず舞妓",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W13",
+      "title": "寿司ノ神国駅",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W14",
+      "title": "空を飛ぶ炎に包まれた真っ黒な人型の物体",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W15",
+      "title": "チガヤ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "D1",
+          "D4",
+          "D5",
+          "E1",
+          "E2",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "D4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "D1",
+          "D5",
+          "E1",
+          "E2",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W16",
+      "title": "つぎはぎ柄の猿みたいなヤツ",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W17",
+      "title": "なにか",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W18",
+      "title": "廃道の向こう側",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B1",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B1",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W19",
+      "title": "禁后",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C2",
+          "C4",
+          "D3",
+          "E1",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "D3",
+          "E1",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W20",
+      "title": "ヒッチハイク",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "B1",
+          "B2",
+          "B4",
+          "C2"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A1"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "B1",
+          "B2",
+          "B4",
+          "C2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W21",
+      "title": "マネキンのいる家",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W22",
+      "title": "みっつの選択",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B1",
+          "B2",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B1",
+          "B2",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W23",
+      "title": "山奥のラーメン屋",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B1",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B1",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W24",
+      "title": "夢鬼",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "B2",
+          "B4",
+          "C2",
+          "C4",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2",
+          "B4",
+          "C2",
+          "C4",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W25",
+      "title": "404号室",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B2",
+          "B3",
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "B3",
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G02-W26",
+      "title": "旅館の求人",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C2",
+          "D5",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C2",
+          "D5",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W01",
+      "title": "赤福アキちゃん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "C2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W02",
+      "title": "あきちん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W03",
+      "title": "井戸の足臭女",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W04",
+      "title": "エツ子さん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "E1",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "E1",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W05",
+      "title": "オンドウサマ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C2",
+          "C4",
+          "D5",
+          "E1",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "D5",
+          "E1",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W06",
+      "title": "家族の奇行の真相",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "B1",
+          "B4",
+          "C4",
+          "D4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "B1",
+          "B4",
+          "C4",
+          "D4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W07",
+      "title": "姦姦蛇螺",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C2",
+          "C4",
+          "D5",
+          "E1",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "C4",
+          "D5",
+          "E1",
+          "E3",
+          "E4",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W08",
+      "title": "巨頭オ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W09",
+      "title": "愚乱怒狂魔ちゃん",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W10",
+      "title": "The_Color-Stealing_Man",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W11",
+      "title": "サンヌキカノ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "E1",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "E1",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W12",
+      "title": "シシノケ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "A4",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2",
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "A4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W13",
+      "title": "巣くうもの",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C4",
+          "D1",
+          "F4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "C4",
+          "D1",
+          "F4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W14",
+      "title": "空に浮かぶ「い」",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W15",
+      "title": "血雪",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W16",
+      "title": "透眼",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W17",
+      "title": "ナールナーシュ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W18",
+      "title": "鼻歌・んー",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "A3",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W19",
+      "title": "一つ目のっぺらぼう",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W20",
+      "title": "人型焼き",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A4",
+          "D4",
+          "E3",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A4",
+          "D4",
+          "E3",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W21",
+      "title": "漫湖マン",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W22",
+      "title": "みっちり乗った軽自動車",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W23",
+      "title": "やまけらし様",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C2",
+          "D1",
+          "E1",
+          "F3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "C2",
+          "D1",
+          "E1",
+          "F3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W24",
+      "title": "友人様",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W25",
+      "title": "妖怪退治の仕事してるけど、何か質問ある?",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G03-W26",
+      "title": "リンフォン",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W01",
+      "title": "赤いマフラーの女",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W02",
+      "title": "紅い階段",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W03",
+      "title": "渦人形",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B2",
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B2",
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W04",
+      "title": "朧の山",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W05",
+      "title": "オムライス",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C2",
+          "C3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C2",
+          "C3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W06",
+      "title": "蟹風呂",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B1",
+          "B2",
+          "C2",
+          "C4",
+          "D1",
+          "D5",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B1",
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "C2",
+          "C4",
+          "D1",
+          "D5",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W07",
+      "title": "危険な好奇心",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "C2",
+          "C3",
+          "C4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2",
+          "A3",
+          "C2",
+          "C3",
+          "C4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W08",
+      "title": "着物の少女",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W09",
+      "title": "校内放送",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W10",
+      "title": "最初で最後の魚",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W11",
+      "title": "時空のおっさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B1",
+          "B3"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B1",
+          "B3"
+        ],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W12",
+      "title": "師匠シリーズ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B2",
+          "B4",
+          "C2",
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C2",
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W13",
+      "title": "須磨海岸にて",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B2",
+          "B4",
+          "C3",
+          "C4",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B2",
+          "B4",
+          "C3",
+          "C4",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W14",
+      "title": "田所君(洒落怖)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W15",
+      "title": "千寿江(洒落怖)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C2",
+          "C3",
+          "C4",
+          "D1",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C2",
+          "C3",
+          "C4",
+          "D1",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W16",
+      "title": "トンネル内の雨音",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W17",
+      "title": "謎の人物(洒落怖)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C4",
+          "E1",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "E1",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W18",
+      "title": "ハカソヤ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C2",
+          "D5",
+          "E1",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C2",
+          "D5",
+          "E1",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W19",
+      "title": "ヒョウタンヘビ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W20",
+      "title": "人型の物体",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W21",
+      "title": "まるはっちん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "D2",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "D2",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W22",
+      "title": "迷惑電話(洒落怖)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W23",
+      "title": "ヤマノケ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "B2",
+          "C4",
+          "D1",
+          "D3",
+          "D4",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C4"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "A3",
+          "B2",
+          "D1",
+          "D3",
+          "D4",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W24",
+      "title": "夢の中に現れた窓を覗く女",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "C1",
+          "D1",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "A3",
+          "C1",
+          "D1",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W25",
+      "title": "リアル",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C2",
+          "C3",
+          "C4",
+          "E1",
+          "E4",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C3"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C2",
+          "C4",
+          "E1",
+          "E4",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G04-W26",
+      "title": "ワラズマ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "B3",
+          "B4",
+          "C2",
+          "C4",
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "B3",
+          "B4",
+          "C2",
+          "C4",
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W01",
+      "title": "アケミちゃん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "B2",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B2",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W02",
+      "title": "ありがとう、ウルトラマン",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "E1",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "E1",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W03",
+      "title": "海からやってくるモノ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "C4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "C4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W04",
+      "title": "女の字の怪",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W05",
+      "title": "オキテル",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W06",
+      "title": "禍垂",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "C4",
+          "D3",
+          "E1",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "C4",
+          "D3",
+          "E1",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W07",
+      "title": "きじまさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "E2"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "E2"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W08",
+      "title": "朽縄様",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A4",
+          "C4",
+          "D2",
+          "D5",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A4",
+          "C4",
+          "D2",
+          "D5",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W09",
+      "title": "高校のクラス全員で悪霊と戦った話させてくれ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "C2",
+          "C3",
+          "C4",
+          "E1",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "C2",
+          "C3",
+          "C4",
+          "E1",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W10",
+      "title": "逆さの樵面",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C4",
+          "E1",
+          "E4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "E1",
+          "E4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W11",
+      "title": "自己責任(洒落怖)",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "C2",
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "C2",
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W12",
+      "title": "邪視",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A3",
+          "D3",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "D3",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W13",
+      "title": "背無し",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W14",
+      "title": "地下の井戸",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "C2",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "C2",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W15",
+      "title": "ツンバイさん",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W16",
+      "title": "ドライブイン",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "B1",
+          "B3",
+          "B4",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "B1",
+          "B3",
+          "B4",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W17",
+      "title": "人間をついばむカラスはすぐ殺せ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A3"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W18",
+      "title": "八尺様",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "A4",
+          "C1",
+          "C4",
+          "E1",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [
+          "C1"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2",
+          "A4",
+          "C4",
+          "E1",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W19",
+      "title": "ヒサルキ",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A3",
+          "B4",
+          "C4"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "A3",
+          "B4",
+          "C4"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W20",
+      "title": "人を恨み続けていたら幼少の頃の友人を思い出す話",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "B1",
+          "B4",
+          "D3"
+        ],
+        "v3_supported_problem_type_ids": [
+          "B2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A2",
+          "B1",
+          "B4",
+          "D3"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W21",
+      "title": "魔翠姫",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W22",
+      "title": "猛スピード",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A2",
+          "A4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A2"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W23",
+      "title": "U先生",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "scoped",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "B4",
+          "C2",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "B4",
+          "C2",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W24",
+      "title": "夢魅",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [
+          "C4",
+          "D3",
+          "E1",
+          "E2",
+          "E5"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W25",
+      "title": "リゾートバイト",
+      "coverage_status": "selected_scene_review",
+      "inherited_narrative_status": "ready",
+      "comparison": {
+        "historical_candidate_type_ids": [
+          "A1",
+          "A2",
+          "A4",
+          "C1",
+          "C2",
+          "C4",
+          "E1"
+        ],
+        "v3_supported_problem_type_ids": [
+          "A4",
+          "C1"
+        ],
+        "historical_labels_not_supported_in_selected_records": [
+          "A1",
+          "A2",
+          "C2",
+          "C4",
+          "E1"
+        ],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    },
+    {
+      "work_id": "G05-W26",
+      "title": "ヲヲーンワ",
+      "coverage_status": "source_hold",
+      "inherited_narrative_status": "pending",
+      "comparison": {
+        "historical_candidate_type_ids": [],
+        "v3_supported_problem_type_ids": [],
+        "historical_labels_not_supported_in_selected_records": [],
+        "caution": "旧候補の不支持は選定範囲の保留・不成立を含む。削除・退化・成功率の差ではない。"
+      }
+    }
+  ],
+  "v1_baseline_id": "fear-patterns-v1-26types",
+  "v1_types": [
+    {
+      "id": "A1",
+      "name": "見つかりそう",
+      "onset": "自分の所在を追手がまだ確実には把握していない。Q：何が感知されるか。D：発見後の捕捉・加害",
+      "choices": "隠れる、音を止める、囮を使う、移動する",
+      "closure": "Q：感知条件の確認。D：今回の捜索をやり過ごし、対象範囲で捕捉の可能性を下げる",
+      "connection": "隠れ場所への信頼が条件付きになる。発見されればA2へ",
+      "review": "隠れた所在の発見回避は記述可能。標的の個体識別だけが未知なら定義拡張を要する"
+    },
+    {
+      "id": "A2",
+      "name": "追われている",
+      "onset": "追手が自分を標的として接近する。Q：速度、経路、障害物への反応。D：接触・捕獲",
+      "choices": "逃げる、足止めする、経路を変える、交渉する",
+      "closure": "Q：追跡規則の確認。D：追跡を振り切る、接触不能にする。制限時間付きなら明示",
+      "connection": "距離の意味が変わる。視線を切って捜索状態になればA1へ",
+      "review": "標的への方向性ある接近に有用。単なる目撃、通過、瞬間的殴打は強制しない"
+    },
+    {
+      "id": "A3",
+      "name": "安全な場所に入ってこられる",
+      "onset": "守られていると思っていた領域に脅威が侵入する。Q：どこから入り、何が境界を守るか。D：生活・避難領域での加害",
+      "choices": "出入口を塞ぐ、退避する、侵入者を排除する",
+      "closure": "Q：侵入経路の特定。D：排除と再侵入防止、またはその場所を離れる",
+      "connection": "「家・避難所は安全」が限定される。A4やC2へ",
+      "review": "校舎・居室への侵入は記述可能。窓外への接近、電話による情報露出は境界"
+    },
+    {
+      "id": "A4",
+      "name": "囲まれ、じわじわ突破される",
+      "onset": "脅威が周囲を占め、境界や資源が保たなくなる。Q：どこがいつ破られるか。D：突破・消耗",
+      "choices": "補強する、救援を呼ぶ、突破する、資源を配分する",
+      "closure": "Q：防衛条件の把握。D：包囲を解く、脱出する、救援まで維持する",
+      "connection": "防御・備蓄への信頼が試される。突破後はA2、退路喪失はB2へ",
+      "review": "境界防衛と資源消耗を説明。有限の待機や内側のものを封じる場合は別条件"
+    },
+    {
+      "id": "B1",
+      "name": "気がついたら知らない場所にいる",
+      "onset": "現在地、来た経緯、周囲の安全条件を把握できない。Q：ここはどこか、どう戻るか。D：未知の環境での損失を予期",
+      "choices": "周囲を調べる、記憶を確認する、移動する、人を探す",
+      "closure": "Q：当面の状況と帰路・滞在条件の把握。D：環境の危険は別途対処",
+      "connection": "日常の連続性が揺らぐ。出口がないと分かればB2、空間が変わればB3へ",
+      "review": "所在・帰路の不明を記述。知っている部屋から出られないB2と分離"
+    },
+    {
+      "id": "B2",
+      "name": "閉じ込められている",
+      "onset": "外へ出たいが、物理的・制度的・怪異的な障壁がある。Q：脱出条件。D：滞在中の加害・窒息等",
+      "choices": "解錠する、別経路を探す、協力する、障壁を壊す",
+      "closure": "Q：脱出方法の特定。D：安全な外部への到達。単に扉が開くこととは区別",
+      "connection": "「望めば離脱できる」が崩れる。脱出時にA2やA4へ",
+      "review": "拘束・出口遮断を説明。普通の待機や恐怖で去れない状況は同一でない"
+    },
+    {
+      "id": "B3",
+      "name": "道や時間が正常につながらない",
+      "onset": "同じ場所へ戻る、部屋の接続が変わる、時間が反復する。Q：移動・反復の規則。D：帰還不能や消耗",
+      "choices": "印を付ける、記録する、条件を変えて試す",
+      "closure": "Q：使える規則の把握。D：反復・迷路から脱出する、または安全な滞在を確保",
+      "connection": "座標・順序への前提が限定される。証拠が広く一般化できるときだけF1候補",
+      "review": "接続・時間差の証拠がある範囲で使える。迷子や異界の噂だけでは不足"
+    },
+    {
+      "id": "B4",
+      "name": "見聞きしたものを信用できない",
+      "onset": "知覚、記録、証言に食い違いがあり、判断を誤ると損失が出る。Q：何を根拠に採用するか。D：誤判断",
+      "choices": "別の感覚・人物・記録で照合する、判断を保留する",
+      "closure": "Q：対象命題について独立した根拠を確保。D：不確実性を織り込んで行動する",
+      "connection": "認識の信頼条件が変わる。原因が記憶改変ならD4、能力限界の証拠ならF2へ",
+      "review": "矛盾する情報が安全判断を変える場合を説明。異様な外見のみでは成立しない"
+    },
+    {
+      "id": "C1",
+      "name": "目の前の人が本人ではないかもしれない",
+      "onset": "外見・声・記憶を似せる存在がいる。Q：誰が本人か。D：接近を許した脅威からの加害",
+      "choices": "検査する、隔離する、合言葉を使う、距離を置く",
+      "closure": "Q：特定人物を、特定時点・精度で同定。D：危険な代替者との接触を防ぐ",
+      "connection": "外見と人格の対応が揺らぐ。検査で露見すればA2やD1へ",
+      "review": "特定の既知人物の声・姿の模倣に限定した支持。未知の人型怪物ではない"
+    },
+    {
+      "id": "C2",
+      "name": "味方や共同体が自分を害そうとしている",
+      "onset": "本人である他者の利害が敵対している。Q：誰の目的は何か。D：裏切り、拘束、供犠",
+      "choices": "目的を調べる、交渉する、離脱する、別の支援を得る",
+      "closure": "Q：利害・計画の把握。D：計画から逃れる、阻止する",
+      "connection": "援助・権威への信頼が変わる。B2やA4へ",
+      "review": "利害・欺瞞を記述可能。強制された被害者D3、援助者の知識不足を裏切りにしない"
+    },
+    {
+      "id": "C3",
+      "name": "危険を訴えても信じてもらえない",
+      "onset": "当事者が根拠を持っていても他者が受容せず、援助が得られない。Q：何なら伝わるか。D：孤立による被害",
+      "choices": "証拠を見せる、別の支援先を探す、自力で対処する",
+      "closure": "C：必要な協力を確保、または協力なしで対処できる。相手を説得すること自体は必須ではない",
+      "connection": "社会的な安全網への信頼が限定される。救援なしのA4へ",
+      "review": "必要な援助の拒否と損失の連結を確認する。訴えなかっただけでは不足"
+    },
+    {
+      "id": "C4",
+      "name": "大切な人を失いそう・助けられない",
+      "onset": "自分以外の重要な対象が危険にあり、介入が難しい。Q：所在、被害、救助条件。D：他者の喪失",
+      "choices": "救出する、代替支援を頼む、危険を引き受ける",
+      "closure": "Q：救助条件の把握。D：指定した対象の救出・保護。死亡確認は損失による終結",
+      "connection": "他者を守れるという前提が試される。救助の代償が分かればE3へ",
+      "review": "未来の救助課題には有用。既発生の死・悲嘆、関係の薄い人物の危害は別欄"
+    },
+    {
+      "id": "D1",
+      "name": "体内に何か入った・感染したかもしれない",
+      "onset": "寄生・感染・異物の侵入を示す接触や症状がある。Q：何が入り、どう進むか。D：発症、身体損傷、他者への伝播",
+      "choices": "検査する、治療する、隔離する、摘出する",
+      "closure": "Q：感染等の有無・性質の確認。D：除去・治療、または進行を抑えた条件付き安定",
+      "connection": "身体の境界への信頼が揺らぐ。D2やE2へ",
+      "review": "体内への侵入証拠に有用。背への外部付着、曖昧な憑依は部分候補"
+    },
+    {
+      "id": "D2",
+      "name": "自分の身体が別のものになる",
+      "onset": "変形・変質が進み、機能や自己像が失われる。Q：進行・可逆性。D：機能喪失や不可逆な変質",
+      "choices": "進行を止める、戻す方法を探す、適応を試す",
+      "closure": "D：停止・回復。M／C：変化を含めた生き方の決着は別に記録",
+      "connection": "「この身体は今後も自分の身体」が揺らぐ。D4へ",
+      "review": "今回は部分適合のみ。怪物の形状と当事者の身体変化を分ける証拠が不足"
+    },
+    {
+      "id": "D3",
+      "name": "自分の行動を自分で制御できない",
+      "onset": "意図しない発話・動作・加害が起きる。Q：発動条件、制御主体。D：自他への損失",
+      "choices": "条件を避ける、拘束を頼む、干渉源を遮断する",
+      "closure": "Q：制御条件の把握。D／C：実行能力の回復、または損失を防ぐ制限",
+      "connection": "意図と行動の対応が崩れる。C4やE3へ",
+      "review": "当事者が抗えない動作に有用。強制欲求・欲望の変容は運動制御と別条件"
+    },
+    {
+      "id": "D4",
+      "name": "自分の記憶・人格・存在が自分のものではない",
+      "onset": "複製、記憶の埋め込み、置換などの証拠がある。Q：自分の由来と継続条件。D：人格の消失・置換やその予期",
+      "choices": "記録を検証する、処置を選ぶ、他者との関係を決める",
+      "closure": "Q：由来・仕組みの解明。M：自己理解の再構成。C：今後の態度の決着。消失危険は別途追跡",
+      "connection": "自己の連続性が揺らぐ。一般的な人間理解まで変わればF群候補",
+      "review": "記憶の変化を追う用途あり。記憶欠落だけで存在置換を断定しない"
+    },
+    {
+      "id": "D5",
+      "name": "身体が内側から壊される",
+      "onset": "内部の損傷・痛み・機能低下が進行し、その停止を自分で制御できない。Q：何が起き、どこまで進むか。D：臓器損傷・機能喪失・死",
+      "choices": "原因を調べる、進行を止める、治療を受ける、救助を求める",
+      "closure": "Q：原因・進行・対処条件の把握。D：損傷の進行停止と生存の確保。既存の損傷回復は別に記録",
+      "connection": "「外傷が見えなければ身体は安全」という前提が限定され得る。侵入原因が分かればD1と併記。重篤化すればC4やE4へ",
+      "review": "進行する内的身体被害に支持。外部からの処刑・切傷・自傷一般は別"
+    },
+    {
+      "id": "E1",
+      "name": "ある条件を満たすと災厄が来る",
+      "onset": "接触・禁忌・契約等で危険が起動する。Q：発動条件と停止条件。D：遅れて到来する損失",
+      "choices": "条件を避ける、解除する、猶予を得る、退避する",
+      "closure": "Q：規則の把握。D：条件の解除、効果の遮断。期限が来ていないだけでは解決しない",
+      "connection": "行為と安全の結び付きが変わる。具体的な追手ならA2へ",
+      "review": "起動仮説と対処選択を記述。最頻の境界は単発相関・作中伝聞を必要十分条件へ昇格させること"
+    },
+    {
+      "id": "E2",
+      "name": "危険が他者や別の場所へ広がる",
+      "onset": "感染、媒介、呪い等が新しい対象へ及ぶ。Q：伝播経路。D：被害対象の増加",
+      "choices": "媒介を断つ、隔離する、警告する、伝播先を守る",
+      "closure": "Q：伝播規則の把握。D：対象範囲で伝播を止め、既存被害にも対処",
+      "connection": "「自分が助かれば終わる」が限定される。C4やE3へ",
+      "review": "別被害者への連結がある範囲で有用。同じ怪異の移動、噂の流布のみでは不足"
+    },
+    {
+      "id": "E3",
+      "name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+      "onset": "有効な対処に、重視する損失・加害が伴う。Q：代償は不可避か。D：不作為と実行それぞれの損失",
+      "choices": "代替策を探す、代償を引き受ける、拒否する、分配する",
+      "closure": "Q：対処と代償の関係を確認。C：選択と結果を確定。無損失の解決とは限らない",
+      "connection": "価値と責任が問題になる。態度の決着で終幕にもできる",
+      "review": "有効な対処と重要な犠牲の必要関係を要する。任意の費用、偶然の死、加害具作成の犠牲とは区別"
+    },
+    {
+      "id": "E4",
+      "name": "理解しても、実行できる対処がない",
+      "onset": "原因・規則は分かるが、能力・設備・時間が不足する。Q：何が不足するか。D：回避不能と予期する損失",
+      "choices": "資源を得る、協力する、目標を縮小する、避難を優先する",
+      "closure": "C：実行可能な対処を確保。D：可能になった行動で損失を回避。不可能が確定しただけでは安全にならない",
+      "connection": "局所的な制御能力の限界。人間一般への証拠なしにF2とはしない",
+      "review": "資源・能力不足を記述。原因不明や援助を実際に受けた場面とは分ける"
+    },
+    {
+      "id": "E5",
+      "name": "危険を抱え、管理し続けなければならない",
+      "onset": "危険を当面抑える方法はあるが、継続的な保管・監視・手入れ・継承が必要で、放棄や失敗が自他を害する。Q：安全条件と管理を終える条件。D：管理破綻による被害。C：離脱の困難と責任",
+      "choices": "管理を続ける、協力者を確保する、無害化を探す、情報と能力を備えた相手へ責任を移す",
+      "closure": "D：条件を満たす管理で当面の被害を回避。継続義務は残る。無害化または安全な責任移管により当事者の管理問題を閉じる。移管後も全体の危険は残り得る",
+      "connection": "「知れば距離を置ける」「自分が去れば終わる」が限定され得る。負担逃れで他者を危険にさらせばC2、破綻時はE1・E2・C4へ",
+      "review": "有効抑制と維持負担・放棄リスクがそろえば説明力あり。持続、回避、有限儀礼、危険を育てる給餌だけでは不足"
+    },
+    {
+      "id": "F1",
+      "name": "世界の基本規則が、自分たちの理解と違う",
+      "onset": "複数の信頼できる証拠が、因果・時空・生死などの前提を覆し、安全判断も変える",
+      "choices": "新しい規則を調べる、局所条件で対処する、関与を避ける",
+      "closure": "Q：局所規則の解明。M：説明の再構成。D：今回の被害への対処",
+      "connection": "一つの迷路の規則だけならB3。超常現象が出ただけでは不十分",
+      "review": "強い適合の受領なし。局所接続異常や超常現象だけから世界一般へ飛躍しない"
+    },
+    {
+      "id": "F2",
+      "name": "人間には、理解・制御できない領域がある",
+      "onset": "工夫や反復検証を経ても、人間の認識・能力の構造的限界を示す証拠がある",
+      "choices": "扱う範囲を限定する、道具・協力を試す、撤退する",
+      "closure": "限界が反証されれば前提回復。残るならMの限定とCの態度の決着",
+      "connection": "手帳が読めない、武器がない、といった今回の障害はE4やB4",
+      "review": "強い適合の受領なし。今回の専門家の失敗はE4等で記述可能"
+    },
+    {
+      "id": "F3",
+      "name": "人間の価値や願いが、世界では重視されていない",
+      "onset": "善意・正義・尊厳が、脅威の挙動や秩序に関係しないと判明し、人間の立場が揺らぐ",
+      "choices": "人間同士の価値を守る、救済への期待を改める、退避する",
+      "closure": "M：人間の価値と世界の挙動を分けて再構成。C：守るものを決める",
+      "connection": "残酷な一人の敵だけならC2。価値の非中心性に関する理解が必要",
+      "review": "適合支持なし。やまけらし様は不適合ラベルとして登場し、救済例を冷淡な宇宙と解釈しない"
+    },
+    {
+      "id": "F4",
+      "name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+      "onset": "保護や日常の成立が、人間を素材・設備・資源として利用する仕組みだと示される",
+      "choices": "依存を断つ、代替を作る、条件付きで利用する、抵抗する",
+      "closure": "Q：依存関係の理解。D：今回の被害対処。M：立場の再構成。C：依存への態度の決着",
+      "connection": "C2の陰謀より広い、人間の成立条件に関する前提変更を対象にする",
+      "review": "巣くうものは個体の宿主利用にとどまる部分適合。人間一般の安全・成立への拡張は未検証"
+    }
+  ]
+}
