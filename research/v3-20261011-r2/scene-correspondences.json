@@ -159,6 +159,36 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "覚醒後のノートと次の夢への不安は本文を再読したが、この覚醒後の78条件記録は未抽出。夢内の型判定をそのまま移さない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼少期の語り手の部屋の場面。本文再読済みだが現在の四男の条件抽出とは別。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "大学期の語り手の襲撃と救済。四男本人の現在の課題へ移さない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S03",
+      "record_ids": [
+        "G04-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面は一族の過去の部屋管理と現在の四男の連絡制限を束ねる。新記録は後者のみで、過去の管理者・当事者とは対応しない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の語り手の形・指の発見は未抽出。四男の現在の条件と混ぜない。"
     }
   ]
 }

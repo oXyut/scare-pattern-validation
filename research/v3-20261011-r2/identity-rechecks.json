@@ -3,7 +3,7 @@
   "stage": "in_progress",
   "inherited_pending_entries": 21,
   "inherited_scoped_entries": 18,
-  "scope_note": "保留21件と限定範囲18件の同定再点検の進捗。未点検、検索点検、限定本文再読を分ける。解消件数0。名前が検索に出ることを本文確認としない。",
+  "scope_note": "保留21件と限定範囲18件の同定再点検の進捗。検索点検4、限定本文再読3、未点検32。解消0件。名前やリンクの掲載を原作品全体の確認としない。",
   "search_batches": [
     {
       "batch_id": "R2-IDENTITY-SEARCH-01",
@@ -84,7 +84,12 @@
       ],
       "r2_identity_review_status": "not_rechecked",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "status": "specified_published_body_reread_unresolved",
+      "source_review_ids": [
+        "G01-W09-R2-S1"
+      ],
+      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。"
     },
     {
       "work_id": "G01-W11",
@@ -146,7 +151,12 @@
       ],
       "r2_identity_review_status": "not_rechecked",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "status": "specified_published_body_reread_unresolved",
+      "source_review_ids": [
+        "G01-W18-R2-S1"
+      ],
+      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。"
     },
     {
       "work_id": "G01-W20",

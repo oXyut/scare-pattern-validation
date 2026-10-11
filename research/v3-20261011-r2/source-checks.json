@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T07:13:10Z",
+  "observed_after_at_utc": "2026-10-11T07:31:50Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 17,
+  "fully_rechecked_published_bodies": 20,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -201,8 +201,38 @@
           "method": "web_reader"
         }
       ]
+    },
+    {
+      "work_id": "G01-W04",
+      "url": "https://llike.net/2ch/fear/sku/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文32〜390行、投稿763〜786。797の別投稿・注釈は同じ語り手の本文としない。",
+      "original_post_identity": "unconfirmed",
+      "note": "語り手の偏見を事実へ変換せず、Bの由来・規則・転移説明とAの手紙の主観を区別。除霊後の異常の因果・原投稿一致は未確認。",
+      "review_id": "G01-W04-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:31:50Z"
+    },
+    {
+      "work_id": "G01-W09",
+      "url": "https://www.fumibako.com/kowai/story/1/118.html",
+      "status": "full_published_body_reread",
+      "range": "継承指定範囲: 第2話52〜119行、第3話126〜176行。",
+      "original_post_identity": "unconfirmed",
+      "note": "第1話や後続話が同じページにあっても継承指定範囲を広げない。まとめ・シリーズ全体の同定は未完了。",
+      "review_id": "G01-W09-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:31:50Z"
+    },
+    {
+      "work_id": "G01-W18",
+      "url": "https://saberismywife.seesaa.net/article/464810575.html",
+      "status": "full_published_body_reread",
+      "range": "継承指定範囲: 投稿121〜134、掲載本文19〜232行。",
+      "original_post_identity": "unconfirmed",
+      "note": "掲載記事234行以降の編集者による続編紹介を本文に混ぜず、未確認の猫忍シリーズ全体を完了扱いにしない。初出スレッドのリンクは見つかったが、その本文は未取得。",
+      "review_id": "G01-W18-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:31:50Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 16,
-  "remaining_of_r1_inherited_102": 86
+  "fully_rechecked_of_r1_inherited_102": 19,
+  "remaining_of_r1_inherited_102": 83
 }

@@ -10567,6 +10567,915 @@
         ],
         "limitation": "夢内の危険をその層の問題として記録し、ノートの存在だけで世界一般の規則の反証としない。"
       }
+    },
+    {
+      "work_id": "G04-W26",
+      "record_id": "G04-W26-V3-R2-R01",
+      "actor": "家族への連絡を避け、親戚へ生活援助を求めた四男",
+      "time_scope": "語り手が四男と会い、現在の連絡制限と援助を聞く時点。部屋の過去の管理者・幼少期の語り手は別。",
+      "world_layer": "reported_character_state",
+      "selection_reason": "現在の四男自身の危険認識と継続行動を点検し、過去の一族の管理を現在の本人の管理義務にしない。",
+      "anticipated_loss": "家族と連絡を取ることで禍がつながり連鎖するという本人の信念に基づく危険回避。",
+      "recognition_basis": "禍を分散するため離散し今も連絡を断つという本人の説明。",
+      "closure_observed": "家族への連絡断絶は続き、生活援助は非血縁の親戚から得る。連鎖抑制の効力、家族のその後、危険全体の解消は不明。",
+      "limitation": "四男の現在の一選定範囲。伝承の因果と事故の原因を確定せず、本人の旧世界前提や過去の管理責任を補わない。",
+      "evidence": [
+        {
+          "evidence_id": "G04-W26-R2-E-a",
+          "source_review_id": "G04-W26-R2-S1",
+          "url": "https://kaidanstorys.com/long-storys-90/",
+          "range": "243〜273行",
+          "layer": "narrated_and_reported",
+          "summary": "母の事業・バブルの説明と、語り手が会う四男の人工の怨霊の材料の説明。四男は全てを知らない。"
+        },
+        {
+          "evidence_id": "G04-W26-R2-E-b",
+          "source_review_id": "G04-W26-R2-S1",
+          "url": "https://kaidanstorys.com/long-storys-90/",
+          "range": "278〜314行",
+          "layer": "reported",
+          "summary": "四男が普通の部屋の規則と特殊な一族の部屋を説明し、以前から寿命だったかもしれないと述べる。"
+        },
+        {
+          "evidence_id": "G04-W26-R2-E-c",
+          "source_review_id": "G04-W26-R2-S1",
+          "url": "https://kaidanstorys.com/long-storys-90/",
+          "range": "315〜327行",
+          "layer": "reported_character_state",
+          "summary": "四男が禍の分散のための離散と、電話・手紙を避ける現在を説明する。仕事中の事故の欠損と非血縁の親戚への援助要請。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "四男自身が家族との連絡で禍が連鎖すると考え、連絡を断ち続ける現在の回避課題。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "禍を分散するための離散と、今も電話・手紙を避ける本人の説明が危険認識を支持。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "unknown",
+          "reason": "四男は由来と規則を説明するが、以前の自分の世界前提と変更前の確信は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "特殊な部屋の破綻と家族の離散、四男の欠損と連絡制限という本人経由の説明。事故の原因は別。",
+          "evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一族と人工の部屋の局所的な話。人間一般への一般化は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "現在の連絡回避はあるが、未特定の旧前提から変わったことを四男自身が脅威として受容する過程は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "一族の局所的な呪い・事業失敗・事故の説明で足りない理由は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "母の経営・バブルの説明と、四男の仕事中の事故の説明、情報を全て知らない留保を代替仮説として実記入。",
+          "evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "家族との連絡回避に、四男を捜す追手の所在未捕捉は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "電話・手紙の回避を、追手への所在の感知回避にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "家族への禍の連鎖の説明に、四男を標的として移動接近する追手の観察はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "仕事中の事故と連絡による害の不安は、追手の接近による捕捉の予期とは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "過去の屋敷と部屋の説明はあるが、現在の四男が安全を期待する生活・避難境界は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "部屋開封の過去の説明を、現在の四男の生活領域への境界侵犯へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "四男の現在の害を、未指定の避難領域への侵入に結び付ける根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "部屋の内側の封じ込めの説明は、現在の四男への外からの包囲ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "家族の連絡断絶に、防御境界・備蓄の維持への圧力は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "禍の分散という目的を、防衛資源の枯渇による損失へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "家族の居場所やその後が不明でも、四男本人の現在地・帰路・滞在条件の定位とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "家族の情報不足と、自己の未知環境での帰還不能・孤立の予期を区別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "四男に生活場所から外へ離脱したい理由と滞在の損失は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "身体欠損や親戚への援助要請だけで、指定領域外への離脱障壁を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "四方が壁の部屋は過去の説明。四男自身の現在の道・時間接続の異常はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "連絡断絶による不明を、接続異常による帰還不能・消耗にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "母のバブルの説明と四男の禍の説明は語り手が照合する情報。四男自身が競合証拠を得たとは不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "語り手の原因の迷いを、四男が証拠を選んで安全判断する問題へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "連絡を断つ家族の本人性を四男が疑う対象・時点は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "血のつながりと接触の制限に、既知人物の模倣・置換の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "四男が偽の家族を本人として扱う予期損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "血のつながらない親戚へ助けを求め援助を得る関係がある。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "家族や親戚本人の敵対的利害・計画は示されない。作成材料の伝承は過去の別人物。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "四男が親戚の裏切り・拘束・供犠を予期する記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "欠損後に自分だけではどうにもならず親戚へ助けを求める。怪異の訴えの詳細は不明。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "explicitly_false",
+          "reason": "四男の援助要請は親戚に受け入れられ、語り手がそのつながりで見つける。指定した現在の援助は不受容の状態ではない。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "家族への連絡制限と、訴えの不受容による必要援助の不成立を区別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "自分の兄弟・家族を禍の分散と連絡制限の対象にする近親関係がある。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "電話や手紙でも禍が連鎖すると説明し避ける。家族への将来の危険を本人の信念として記録。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "家族のその後を知らないが、救えず喪失しそうと四男が受け止める発言・救助課題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "事故の欠損は体内への寄生・感染・異物侵入の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "連絡による禍の予期を、自己の体内侵入後の発症・伝播にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "既発の両足・左腕の欠損は、身体が別のものへ変質して進む根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "事故後の生活援助と、自己変質による機能・自己像の喪失の予期は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "四男に意図しない発話・動作・加害が起きる描写はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "援助が必要な身体状態を、自分の動作が意に反して制御不能なことにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "連絡回避は本人の行動選択で、不随意行為が自他を害する予期ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "四男が伝承の全情報を知らないことは、記憶・人格・存在の置換ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "家族の断絶と自身の存在の消失・継続の不確かさの受容を区別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "事故の欠損は既発の外的損失。現在の身体内部の痛み・損傷の進行は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "生活援助の必要を、内的損壊の進行停止を制御できないことにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "現在の四男が内的損壊から機能喪失・死を予期する時点はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "電話・手紙による家族の連結という条件と、禍の連鎖という危険を区別できる。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "連結で連鎖するという四男の説明はあるが、接触の有無と害を比較する観測はない。事故・バブルの別原因も残る。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "今も家族と連絡を取らない本人の回避判断が、説明された起動条件に結び付く。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "四男自身と他の兄弟・家族という別の危険対象を区別できる。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "手紙・電話の連結という媒介仮説はあるが、新対象への害の実際の連鎖・比較は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "supported",
+          "reason": "禍を分散し家族への連鎖を避けるという目的と現在の連絡回避がある。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "離散・連絡断絶は実行されるが、禍を抑える効力を支持する観測は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "家族の断絶という負担はあるが、有効対処に必要な重要な犠牲という関係は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "回避行動はあるが、不作為の損失と不可避の代償を四男が選択問題として認識する詳細は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "四男は連絡しないという回避規則を説明し実行する。客観的効力の確認とは別。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "指定した家族との連絡回避は現在も実行される。必要資源の不足でその実行が不能な状態ではない。",
+          "evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "事故後の生活援助の不足と、既知の連絡回避を実行できない問題は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "部屋の効力は過去の一族の説明。現在の連絡回避が危険を抑制する管理方法として有効かは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "連絡を断ち続ける逃避・伝播回避と、四男に残る保管・監視・手入れ・継承の管理義務を区別。後者は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "連絡による害の仮説だけで、管理を放棄・失敗したための害を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "四男自身が管理責任からの離脱・終了を問題にし、終了条件を求める記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "一族の部屋の規則の説明から、四男の世界基本規則の旧前提は特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "事故・事業失敗・離散の因果は未確認で、旧基本規則を覆す複数の信頼できる反証とはしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "一族の局所的な呪い以上の、世界一般の安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "四男は全て知らず伝承を説明する。本人の工夫・反復検証の記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "情報不足と事故後の身体・援助の不足は、人間一般の認識・能力の構造的限界ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "四男が人間一般の構造的限界を旧前提から変更して脅威と受容する反応は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "富をもたらす部屋の説明は、人間の善意・正義・願いが世界で重視されるという四男の旧前提ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "人工の怨霊による一族の害と、世界秩序で人間の価値が無関係という一般化は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "人の恨みの怖さを語ることは、人間の価値の非中心性の受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "一族の富と人工の部屋の関係は説明されるが、人間一般の安全・歴史・存在が他存在の用途に依存する仕組みは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-b",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "怨霊を人間の材料で作る伝承はあるが、人間が他存在の用途として維持される仕組みと同一ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "一族の危険への理解を、人間一般の成立条件の前提変更に広げる根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W26-R2-E-a",
+            "G04-W26-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "四男自身の変更前の世界前提は未記録。現在知る由来・規則と母のバブルの説明はあるが、四男の旧理解と同一視しない。",
+        "new_evidence": "四男による部屋の破綻、一族の離散、現在の連絡制限の説明。事故の欠損も語るが因果は不明。",
+        "evidence_scope": "一族の特殊な人工の部屋と四男の現在。世界・人間一般への根拠はない。",
+        "acceptance_and_threat": "禍を分散し連絡を断つ本人の危険認識はある。未記録の旧前提からの変更の過程は不明。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。局所的な呪い、経営とバブル、仕事中の事故の説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "経営の問題とバブルによる事業失敗",
+            "basis": "母が調べて元から危うい経営と説明する。",
+            "status": "reported_competing_explanation"
+          },
+          {
+            "hypothesis": "仕事中の事故の独立した原因",
+            "basis": "四男の欠損は仕事中の事故とされ、連絡や部屋との因果の検証はない。",
+            "status": "causal_relation_unconfirmed"
+          },
+          {
+            "hypothesis": "伝承と四男の知識範囲の誤り",
+            "basis": "四男は全てを教わっておらず、部屋の中身・作り方を知らない。",
+            "status": "reported_information_limit"
+          }
+        ],
+        "limitation": "人工の材料の話を人間一般の利用の世界モデルへ拡張せず、終わらない連絡回避を管理責任の終了問題に自動変換しない。"
+      }
     }
   ],
   "work_progress": {
@@ -11196,9 +12105,9 @@
     },
     "G04-W26": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "四男の現在の一選定範囲。伝承の因果と事故の原因を確定せず、本人の旧世界前提や過去の管理責任を補わない。"
     },
     "G05-W01": {
       "inherited_narrative_status": "ready",
