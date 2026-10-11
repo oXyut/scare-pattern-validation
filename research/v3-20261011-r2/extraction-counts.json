@@ -1,21 +1,21 @@
 {
   "assigned_entries": 131,
-  "fully_rechecked_published_bodies": 54,
-  "fully_rechecked_of_r1_inherited_102": 52,
-  "remaining_of_r1_inherited_102": 50,
-  "condition_extraction_complete_works": 54,
-  "selected_records": 57,
+  "fully_rechecked_published_bodies": 58,
+  "fully_rechecked_of_r1_inherited_102": 55,
+  "remaining_of_r1_inherited_102": 47,
+  "condition_extraction_complete_works": 58,
+  "selected_records": 61,
   "distinct_conditions_per_record": 78,
-  "explicitly_inspected_condition_judgments": 4446,
+  "explicitly_inspected_condition_judgments": 4758,
   "condition_states": {
-    "explicitly_false": 79,
-    "supported": 634,
-    "unknown": 3733
+    "explicitly_false": 80,
+    "supported": 666,
+    "unknown": 4012
   },
   "type_record_states": {
-    "fit": 46,
-    "not_fit": 75,
-    "pending": 1361
+    "fit": 49,
+    "not_fit": 76,
+    "pending": 1461
   },
   "inherited_narrative_counts": {
     "ready": 92,

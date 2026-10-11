@@ -46133,11 +46133,9 @@
         },
         {
           "condition_id": "C3.R1",
-          "state": "supported",
-          "reason": "危険な状態の本人は救援を得る。",
-          "evidence_ids": [
-            "G01-W01-R2-E-body"
-          ],
+          "state": "unknown",
+          "reason": "青年は失神後に助けられるが、その時点で危険を他者へ訴えたか、その訴えが信じられず支援を失ったかは不明。救助を受けることを訴えへの応答に転用しない。",
+          "evidence_ids": [],
           "inspected_evidence_ids": [
             "G01-W01-R2-E-body"
           ],
@@ -46145,11 +46143,9 @@
         },
         {
           "condition_id": "C3.R2",
-          "state": "explicitly_false",
-          "reason": "老婆らは現代の青年の危険を受け入れ実際に救援する。不受容ではない。",
-          "evidence_ids": [
-            "G01-W01-R2-E-body"
-          ],
+          "state": "unknown",
+          "reason": "青年は失神後に助けられるが、その時点で危険を他者へ訴えたか、その訴えが信じられず支援を失ったかは不明。救助を受けることを訴えへの応答に転用しない。",
+          "evidence_ids": [],
           "inspected_evidence_ids": [
             "G01-W01-R2-E-body"
           ],
@@ -46158,7 +46154,7 @@
         {
           "condition_id": "C3.R3",
           "state": "unknown",
-          "reason": "犬の叫びと喪失はあるが、指定範囲で現代の青年が介入困難な将来喪失を先に問題として受け止めた根拠は限定的。既発の犬の死だけで成立にしない。",
+          "reason": "青年は失神後に助けられるが、その時点で危険を他者へ訴えたか、その訴えが信じられず支援を失ったかは不明。救助を受けることを訴えへの応答に転用しない。",
           "evidence_ids": [],
           "inspected_evidence_ids": [
             "G01-W01-R2-E-body"
@@ -46723,27 +46719,6 @@
         },
         {
           "condition_ids": [
-            "C3.R1"
-          ],
-          "state": "supported",
-          "inspected_evidence_ids": [
-            "G01-W01-R2-E-body"
-          ],
-          "reason": "危険な状態の本人は救援を得る。"
-        },
-        {
-          "condition_ids": [
-            "C3.R2"
-          ],
-          "state": "explicitly_false",
-          "inspected_evidence_ids": [
-            "G01-W01-R2-E-body"
-          ],
-          "reason": "老婆らは現代の青年の危険を受け入れ実際に救援する。不受容ではない。"
-        },
-        {
-          "condition_ids": [
-            "C3.R3",
             "C4.R1",
             "C4.R2",
             "C4.R3"
@@ -46856,6 +46831,18 @@
             "G01-W01-R2-E-body"
           ],
           "reason": "現代の青年自身の継続管理・責任終了はない。祖先の由来を世界基本規則の反証や人間一般の構造・価値・他存在用途の成立依存へ一般化しない。"
+        },
+        {
+          "state": "unknown",
+          "reason": "青年は失神後に助けられるが、その時点で危険を他者へ訴えたか、その訴えが信じられず支援を失ったかは不明。救助を受けることを訴えへの応答に転用しない。",
+          "inspected_evidence_ids": [
+            "G01-W01-R2-E-body"
+          ],
+          "condition_ids": [
+            "C3.R1",
+            "C3.R2",
+            "C3.R3"
+          ]
         }
       ]
     },
@@ -62714,6 +62701,4090 @@
           "reason": "一晩の防衛を継続管理の責任終了にしない。神という伝聞も世界規則の複数反証・人間一般の構造や価値・用途依存を支えない。"
         }
       ]
+    },
+    {
+      "work_id": "G04-W14",
+      "record_id": "G04-W14-V3-R2-R01",
+      "actor": "言葉と怪談の危険を聞く小学五年の語り手",
+      "time_scope": "田所の創作ではない一つ目の説明を聞き、ブームが収束するまで",
+      "world_layer": "narrated_child_listening_to_explanation",
+      "selection_reason": "怪談の危険を聞く語り手と内側の人形・蓋の人物を分ける。",
+      "anticipated_loss": "怖がった創作が本物になり、自分の人形が来て害されること",
+      "recognition_basis": "作り話と思って笑ったが、話に力を与えると言われ震え上がる。",
+      "closure_observed": "学校のブームは収束。言葉による災厄が実際に起きた検証はない。",
+      "limitation": "蓋の夢内の小学生・田所の失踪・後年の仲間の結論は別時点。田所の説明の正しさを確定しない。",
+      "evidence": [
+        {
+          "evidence_id": "G04-W14-R2-E-body",
+          "source_review_id": "G04-W14-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8674",
+          "range": "64〜527行（選定130〜254）",
+          "layer": "narrated_child_listening_to_explanation",
+          "summary": "怪談の危険を聞く語り手と内側の人形・蓋の人物を分ける。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "自宅の人形が来る可能性を示され、怖がると実際に起きると受け止め震え上がる。対象の加害は説明中の人形の害。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "自宅の人形が来る可能性を示され、怖がると実際に起きると受け止め震え上がる。対象の加害は説明中の人形の害。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "supported",
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "田所の一説明で局所の創作や誤りを排除する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "強く怖がる・実話と思う条件と話の災厄の起動を分け、本人は怖がると起きるという回避問題として受け止める。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "強く怖がる・実話と思う条件と話の災厄の起動を分け、本人は怖がると起きるという回避問題として受け止める。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "田所の説明のみで実際の起動の比較・機序の観測はない。後の失踪の解釈をこの時点の実証にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "supported",
+          "reason": "言葉では人を殺せないという基本因果の旧前提を本人が述べる。",
+          "evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "一般的説明はあるが、その前提を覆す信頼できる複数の新観測はない。局所の創作の代替を超える世界規則の証拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "一般的説明はあるが、その前提を覆す信頼できる複数の新観測はない。局所の創作の代替を超える世界規則の証拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "言葉では人を殺せない、作り話は本物ではない。",
+        "new_evidence": "田所による強い思いと言葉・怪談が本物になる説明。",
+        "evidence_scope": "同級生が教室で聞いた一般的な因果の説明。",
+        "acceptance_and_threat": "怖がると本物になると受け止め震え上がる。",
+        "why_local_explanation_insufficient": "未確認。説明そのものが創作という代替を本文は後年に挙げる。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "田所の創作・仲間の反応、後年の記憶の誤り。",
+            "basis": "同級生が教室で聞いた一般的な因果の説明。",
+            "status": "unresolved"
+          }
+        ],
+        "limitation": "本人の一般化を記録しても実際の世界規則の複数反証にしない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "自宅の人形が来る可能性を示され、怖がると実際に起きると受け止め震え上がる。対象の加害は説明中の人形の害。"
+        },
+        {
+          "condition_ids": [
+            "F.G1",
+            "F.G2",
+            "F.G3",
+            "F.G4",
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "言葉で殺せるわけがないと笑った旧前提から、強い思いで話が本物になる一般説明を聞き恐れる。説明の創作・仲間の反応・後年の記憶の誤りを残す。"
+        },
+        {
+          "condition_ids": [
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "田所の一説明で局所の創作や誤りを排除する根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2",
+            "A2.R1",
+            "A2.R2",
+            "A3.R1",
+            "A3.R2",
+            "A3.R3",
+            "A4.R1",
+            "A4.R2",
+            "A4.R3",
+            "B1.R1",
+            "B1.R2",
+            "B2.R1",
+            "B2.R2",
+            "B3.R1",
+            "B3.R2",
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "人形が来るという内側の話・仮定を現代の本人への捜索・接近・侵入・包囲にしない。定位・離脱障壁・接続異常・競合する根拠の安全採用も未確認。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3",
+            "C2.R1",
+            "C2.R2",
+            "C2.R3",
+            "C3.R1",
+            "C3.R2",
+            "C3.R3",
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "田所は説明をするが本人性の模倣・本人に帰属する敵対計画、不受容で必要援助を失う訴えや重要者の救助課題はない。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2",
+            "D2.R1",
+            "D2.R2",
+            "D3.R1",
+            "D3.R2",
+            "D3.R3",
+            "D4.R1",
+            "D4.R2",
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "内側の人形の窒息被害や蓋の人物の没頭・身体を、聞き手本人の侵入・変質・不随意動作・自己置換・内的損壊にしない。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "強く怖がる・実話と思う条件と話の災厄の起動を分け、本人は怖がると起きるという回避問題として受け止める。"
+        },
+        {
+          "condition_ids": [
+            "E1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "田所の説明のみで実際の起動の比較・機序の観測はない。後の失踪の解釈をこの時点の実証にしない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3",
+            "E3.R1",
+            "E3.R2",
+            "E3.R3",
+            "E4.R1",
+            "E4.R2",
+            "E4.R3",
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "話が広がることを危険の伝播機序にしない。本人の有効な重要犠牲対処・理解した規則の実行不能・継続管理責任の終了も未指定。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "言葉では人を殺せないという基本因果の旧前提を本人が述べる。"
+        },
+        {
+          "condition_ids": [
+            "F1.R2",
+            "F1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "一般的説明はあるが、その前提を覆す信頼できる複数の新観測はない。局所の創作の代替を超える世界規則の証拠は未確認。"
+        },
+        {
+          "condition_ids": [
+            "F2.R1",
+            "F2.R2",
+            "F2.R3",
+            "F3.R1",
+            "F3.R2",
+            "F3.R3",
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W14-R2-E-body"
+          ],
+          "reason": "仲間の説明への反応は人間一般の能力構造の反復検証・価値中心の旧前提変更・他存在用途への成立依存ではない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W15",
+      "record_id": "G04-W15-V3-R2-R01",
+      "actor": "祖母の人形摂取を見て世話する中学生の語り手",
+      "time_scope": "祖母が人形を食べる目撃、父母への相談、保護と自室の隠し場所まで",
+      "world_layer": "narrated_grandmother_care_with_prior_hearsay",
+      "selection_reason": "介護する本人、祖母の身体、妹の既発の死と因果推測を分ける。",
+      "anticipated_loss": "祖母の身体が危険になること、介護で学校へ行けなくなること",
+      "recognition_basis": "急いで吐き出させ病院へと父に頼み、世話を引き受け不登校となる。",
+      "closure_observed": "人形を隠しても祖母は探し、後に祖母は亡くなる。原因と呪いは未確定。",
+      "limitation": "自分の供え物の不履行が妹の死の原因というのは本人の罪悪感と推測。祖母・妹・叔母の身体を本人へ移さない。",
+      "evidence": [
+        {
+          "evidence_id": "G04-W15-R2-E-body",
+          "source_review_id": "G04-W15-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=22968",
+          "range": "64〜294行（選定179〜237）",
+          "layer": "narrated_grandmother_care_with_prior_hearsay",
+          "summary": "介護する本人、祖母の身体、妹の既発の死と因果推測を分ける。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "supported",
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "人形を隠せば祖母の扱いを止められるという局所期待と、翌日再び持つこと、自室の隠し場所の変化を見た。祖母の探索、物忘れ・記憶や伝聞の誤りを残す。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "人形を隠せば祖母の扱いを止められるという局所期待と、翌日再び持つこと、自室の隠し場所の変化を見た。祖母の探索、物忘れ・記憶や伝聞の誤りを残す。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "人形を隠せば祖母の扱いを止められるという局所期待と、翌日再び持つこと、自室の隠し場所の変化を見た。祖母の探索、物忘れ・記憶や伝聞の誤りを残す。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一家庭の介護と人形の配置、本人の罪悪感。世界一般への確定した変更と局所説明不足は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "一家庭の介護と人形の配置、本人の罪悪感。世界一般への確定した変更と局所説明不足は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "一家庭の介護と人形の配置、本人の罪悪感。世界一般への確定した変更と局所説明不足は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "祖母の異変を父母に相談し父へ病院を求める。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "母は知らない、父は忙しく連れていけないと述べる。危険の真偽を信じない不受容か、関与拒否・資源不足か区別できずC3の不受容による援助不成立を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "母は知らない、父は忙しく連れていけないと述べる。危険の真偽を信じない不受容か、関与拒否・資源不足か区別できずC3の不受容による援助不成立を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "御神酒を供えない条件と妹の死の仮説を分け、本人は罪悪感から介護を引き受ける。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "御神酒を供えない条件と妹の死の仮説を分け、本人は罪悪感から介護を引き受ける。",
+          "evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "供えない期間の後に妹が死ぬ一回の前後関係と本人の推測のみ。供えの因果起動を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "人形を隠せば祖母が扱うのを止められるという局所期待。",
+        "new_evidence": "隠した人形を祖母が見つけ、自室のクローゼットも開いている。",
+        "evidence_scope": "一家庭の本人の知覚と祖母・父母の行動。",
+        "acceptance_and_threat": "怖がり、家族の不幸は自分のせいかと推測する。",
+        "why_local_explanation_insufficient": "未確認。祖母の探索・記憶と罪悪感の局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "祖母の探索、物忘れや記憶、本人の罪悪感と語りの誤り。",
+            "basis": "一家庭の本人の知覚と祖母・父母の行動。",
+            "status": "unresolved"
+          }
+        ],
+        "limitation": "祖母の身体の危険と呪いの因果を別にする。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2",
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "祖母の人形摂取を危険と見て急ぎ止め、病院を求める。本人は家族として世話し、親が応じず一人で保護が難しく学校にも行けなくなる。"
+        },
+        {
+          "condition_ids": [
+            "F.G1",
+            "F.G2",
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "人形を隠せば祖母の扱いを止められるという局所期待と、翌日再び持つこと、自室の隠し場所の変化を見た。祖母の探索、物忘れ・記憶や伝聞の誤りを残す。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G4",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "一家庭の介護と人形の配置、本人の罪悪感。世界一般への確定した変更と局所説明不足は未確認。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2",
+            "A2.R1",
+            "A2.R2",
+            "A3.R1",
+            "A3.R2",
+            "A3.R3",
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "人形への怖さと部屋の声で、本人を捜索・移動追跡・生活境界横断・外から包囲する怪異を確定しない。声の主と移動は未確認。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2",
+            "B2.R1",
+            "B2.R2",
+            "B3.R1",
+            "B3.R2",
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "既知の家で介護する。責任で学校を休むことは物理・制度・怪異の実際の離脱障壁とは未確認。定位・接続異常・同一命題の根拠競合の安全採用も未確認。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3",
+            "C2.R1",
+            "C2.R2",
+            "C2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "祖母の探索や父母の介護拒否は既知人物の置換・本人に帰属する敵対計画の根拠ではない。"
+        },
+        {
+          "condition_ids": [
+            "C3.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "祖母の異変を父母に相談し父へ病院を求める。"
+        },
+        {
+          "condition_ids": [
+            "C3.R2",
+            "C3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "母は知らない、父は忙しく連れていけないと述べる。危険の真偽を信じない不受容か、関与拒否・資源不足か区別できずC3の不受容による援助不成立を確定しない。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2",
+            "D2.R1",
+            "D2.R2",
+            "D3.R1",
+            "D3.R2",
+            "D3.R3",
+            "D4.R1",
+            "D4.R2",
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "祖母の摂取と後の窒息、妹の熱は別当事者。本人の身体侵入・変質・不随意動作・自己置換・内的損壊進行にしない。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "御神酒を供えない条件と妹の死の仮説を分け、本人は罪悪感から介護を引き受ける。"
+        },
+        {
+          "condition_ids": [
+            "E1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "供えない期間の後に妹が死ぬ一回の前後関係と本人の推測のみ。供えの因果起動を確定しない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3",
+            "E3.R1",
+            "E3.R2",
+            "E3.R3",
+            "E4.R1",
+            "E4.R2",
+            "E4.R3",
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "家族の不幸の並びを伝播経路にしない。人形を隠す・介護の脅威抑制の有効性は未確認。重要犠牲の不可避対処、理解済み対処の不足資源、放棄害と管理責任終了を確定しない。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3",
+            "F2.R1",
+            "F2.R2",
+            "F2.R3",
+            "F3.R1",
+            "F3.R2",
+            "F3.R3",
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W15-R2-E-body"
+          ],
+          "reason": "家庭の探索・介護と因果推測だけで世界基本規則の複数反証や人間一般の構造・価値・他存在用途の成立依存は未確認。"
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W16",
+      "record_id": "G04-W16-V3-R2-R01",
+      "actor": "トンネルで震えるC",
+      "time_scope": "肝試しの誘いからトンネルを出ても青ざめるまで",
+      "world_layer": "third_person_tunnel_story",
+      "selection_reason": "Cの反応と掲載者の雨音の推測を分ける。",
+      "anticipated_loss": null,
+      "recognition_basis": "Cは気持ち悪いと震えるが、何を認識し何を失うと予期したか本文に記されない。",
+      "closure_observed": "車はトンネルを出るがCの恐れの理由は不明。",
+      "limitation": "87〜95行は掲載者の解説・仮説。Cが怪異を見た・連れ帰った事実としない。",
+      "evidence": [
+        {
+          "evidence_id": "G04-W16-R2-E-body",
+          "source_review_id": "G04-W16-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=15870",
+          "range": "本篇64〜86行、解説87〜95行を別層にする",
+          "layer": "third_person_tunnel_story",
+          "summary": "Cの反応と掲載者の雨音の推測を分ける。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "unknown",
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "Cが外に出たい理由と滞在による具体的損失は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "車はトンネルから出られる。",
+          "evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "未記載。Cは霊感があり行く気が進まない。",
+        "new_evidence": "トンネルで震えるが本人の知った内容は語られない。",
+        "evidence_scope": "短い第三者の話。雨音とCの反応のみ。",
+        "acceptance_and_threat": "青ざめ続ける理由と具体的害は未指定。",
+        "why_local_explanation_insufficient": "未確認。音の正体・Cの個別反応の局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "雨に似た別の音、Cの個人的反応、掲載者の解説の誤り。",
+            "basis": "短い第三者の話。雨音とCの反応のみ。",
+            "status": "unresolved"
+          }
+        ],
+        "limitation": "解説の連れ帰りの可能性を出来事にしない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2",
+            "F.G1",
+            "F.G2",
+            "F.G3",
+            "F.G4",
+            "F.G5",
+            "F.G6"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "Cは気持ち悪いと震えるだけで、本人の具体的予期損失・旧前提・新証拠の内容・一般化・受容変更と局所説明不足は不明。雨音の正体・付着は掲載者の仮説。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2",
+            "A2.R1",
+            "A2.R2",
+            "A3.R1",
+            "A3.R2",
+            "A3.R3",
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "本篇は雨のような音とCの反応のみ。捜索・本人への標的移動・安全境界侵入・包囲維持の証拠はない。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2",
+            "B3.R1",
+            "B3.R2",
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "トンネル内へ自分で入る。場所定位・接続異常・同一命題の競合根拠を安全判断で採用する具体的損失は未確認。"
+        },
+        {
+          "condition_ids": [
+            "B2.R1"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "Cが外に出たい理由と滞在による具体的損失は未指定。"
+        },
+        {
+          "condition_ids": [
+            "B2.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "車はトンネルから出られる。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3",
+            "C2.R1",
+            "C2.R2",
+            "C2.R3",
+            "C3.R1",
+            "C3.R2",
+            "C3.R3",
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "友人の強い誘いとからかいは本人性置換・本人に帰属する敵対計画や危険の訴え不受容による必要援助不成立の根拠ではない。重要者の将来救助課題もない。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2",
+            "D2.R1",
+            "D2.R2",
+            "D3.R1",
+            "D3.R2",
+            "D3.R3",
+            "D4.R1",
+            "D4.R2",
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "震える反応のみで意図に反する発話・動作の支配を確定しない。体内侵入・変質・自己置換・内的損壊進行も未確認。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R2",
+            "E1.R3",
+            "E2.R1",
+            "E2.R2",
+            "E2.R3",
+            "E3.R1",
+            "E3.R2",
+            "E3.R3",
+            "E4.R1",
+            "E4.R2",
+            "E4.R3",
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "入ることと反応の前後関係だけで因果起動・伝播を確定しない。重要犠牲の必要な有効対処・理解した規則の実行不能・継続管理責任終了は未指定。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3",
+            "F2.R1",
+            "F2.R2",
+            "F2.R3",
+            "F3.R1",
+            "F3.R2",
+            "F3.R3",
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W16-R2-E-body"
+          ],
+          "reason": "掲載者の雨音の異常・付着説をC本人の世界規則・能力構造・価値秩序・用途依存の一般的前提変更にしない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G04-W17",
+      "record_id": "G04-W17-V3-R2-R01",
+      "actor": "異様な人物の近くで頭痛と視界異常を受け逃げる高校生",
+      "time_scope": "初回の通学路での接近、頭痛の進行、視界変化、逃走と翌日の回復まで",
+      "world_layer": "narrated_first_encounter_body_perception",
+      "selection_reason": "本人が近づいて受ける症状と、人物が追うという後の仮説を分ける。",
+      "anticipated_loss": "頭痛と視界異常で自転車を漕げずその場から逃げられなくなること",
+      "recognition_basis": "痛みと不明瞭な視界で止まり、ヤバいと判断して必死で逃げる。",
+      "closure_observed": "視界と頭痛は4〜5分で戻り、倦怠・気分不良は翌日の登校頃まで残る。",
+      "limitation": "人物の移動追跡はこの初回では観測されない。後の友人目撃・三年の追跡説は別の記録と時点。",
+      "evidence": [
+        {
+          "evidence_id": "G04-W17-R2-E-body",
+          "source_review_id": "G04-W17-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=9409",
+          "range": "64〜269行（選定75〜142）",
+          "layer": "narrated_first_encounter_body_perception",
+          "summary": "本人が近づいて受ける症状と、人物が追うという後の仮説を分ける。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "supported",
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "supported",
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "supported",
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "普通のランニングや散歩の人と思ったが異形と身体症状を見る。暗闇の誤認・症状の別原因と語りの誤りを留保する。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "普通のランニングや散歩の人と思ったが異形と身体症状を見る。暗闇の誤認・症状の別原因と語りの誤りを留保する。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "普通のランニングや散歩の人と思ったが異形と身体症状を見る。暗闇の誤認・症状の別原因と語りの誤りを留保する。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "普通のランニングや散歩の人と思ったが異形と身体症状を見る。暗闇の誤認・症状の別原因と語りの誤りを留保する。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一人物への接近の体験で、世界一般・局所説明不足の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "一人物への接近の体験で、世界一般・局所説明不足の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "人物への距離の縮小で症状が出て、目が合うと強まり、離れると視界と頭痛は戻る対比がある。条件と危険を分け本人は避ける。単なる出来事一つの前後ではなく同一場面の段階・離隔との対比を根拠とするが対照実験とは主張しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "supported",
+          "reason": "人物への距離の縮小で症状が出て、目が合うと強まり、離れると視界と頭痛は戻る対比がある。条件と危険を分け本人は避ける。単なる出来事一つの前後ではなく同一場面の段階・離隔との対比を根拠とするが対照実験とは主張しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "人物への距離の縮小で症状が出て、目が合うと強まり、離れると視界と頭痛は戻る対比がある。条件と危険を分け本人は避ける。単なる出来事一つの前後ではなく同一場面の段階・離隔との対比を根拠とするが対照実験とは主張しない。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "接近を避けるが正体・原因と完全な対処規則を理解した根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "接近を避けるが正体・原因と完全な対処規則を理解した根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "自転車で離れ視界・頭痛が改善する対処は実行できる。",
+          "evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "普通の散歩・ランニングの人と思った。",
+        "new_evidence": "異様な人物、接近で進む頭痛・視界異常と離れた後の改善。",
+        "evidence_scope": "初回の一人物への接近と本人の身体知覚。",
+        "acceptance_and_threat": "具体的な移動機能の低下を問題とし逃げる。",
+        "why_local_explanation_insufficient": "未確認。人物の誤認と身体症状の別原因が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "暗闇の人物の誤認、症状の別原因と記憶・語りの誤り。",
+            "basis": "初回の一人物への接近と本人の身体知覚。",
+            "status": "unresolved"
+          }
+        ],
+        "limitation": "三年後の追跡説・友人の体験を初回の知識に戻さない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2",
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "本人の頭痛は接近でズキズキから刺す痛みへ進み、視界の機能低下と漕げない状態を伴う。自分の意図で止められず、逃げられないほどの機能喪失を恐れて逃走する。臓器損傷や死は補作しない。"
+        },
+        {
+          "condition_ids": [
+            "F.G1",
+            "F.G2",
+            "F.G4",
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "普通のランニングや散歩の人と思ったが異形と身体症状を見る。暗闇の誤認・症状の別原因と語りの誤りを留保する。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "一人物への接近の体験で、世界一般・局所説明不足の根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2",
+            "A2.R1",
+            "A2.R2",
+            "A3.R1",
+            "A3.R2",
+            "A3.R3",
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "自転車の本人が人物へ近づく。人物の指定標的への移動・所在捜索・安全場所の侵入・包囲はこの範囲では未確認。後の追跡仮説を借りない。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2",
+            "B2.R1",
+            "B2.R2",
+            "B3.R1",
+            "B3.R2",
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "通学路は既知。症状で動きにくいことを離脱障壁・時空接続にしない。同一命題の競合根拠の採用による安全問題も未確認。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3",
+            "C2.R1",
+            "C2.R2",
+            "C2.R3",
+            "C3.R1",
+            "C3.R2",
+            "C3.R3",
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "相手は未知の人物。友人に話す前の範囲で、不受容による必要援助不成立・味方本人の敵対計画・重要者の救助課題はない。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2",
+            "D2.R1",
+            "D2.R2",
+            "D3.R1",
+            "D3.R2",
+            "D3.R3",
+            "D4.R1",
+            "D4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "症状はあるが体内侵入・進行変質・意図しない発話動作・自己の複製埋込置換の根拠ではない。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R2",
+            "E1.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "人物への距離の縮小で症状が出て、目が合うと強まり、離れると視界と頭痛は戻る対比がある。条件と危険を分け本人は避ける。単なる出来事一つの前後ではなく同一場面の段階・離隔との対比を根拠とするが対照実験とは主張しない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3",
+            "E3.R1",
+            "E3.R2",
+            "E3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "後の他者の報告を初回の本人の伝播認識にしない。重要犠牲を必要とする有効対処もない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R1",
+            "E4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "接近を避けるが正体・原因と完全な対処規則を理解した根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "自転車で離れ視界・頭痛が改善する対処は実行できる。"
+        },
+        {
+          "condition_ids": [
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4",
+            "F1.R1",
+            "F1.R2",
+            "F1.R3",
+            "F2.R1",
+            "F2.R2",
+            "F2.R3",
+            "F3.R1",
+            "F3.R2",
+            "F3.R3",
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G04-W17-R2-E-body"
+          ],
+          "reason": "初回の接近症状を継続管理の責任終了・世界基本規則の複数反証・人間一般の構造・価値・用途依存にしない。"
+        }
+      ]
     }
   ],
   "work_progress": {
@@ -63271,27 +67342,27 @@
     },
     "G04-W14": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "蓋の夢内の小学生・田所の失踪・後年の仲間の結論は別時点。田所の説明の正しさを確定しない。"
     },
     "G04-W15": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "自分の供え物の不履行が妹の死の原因というのは本人の罪悪感と推測。祖母・妹・叔母の身体を本人へ移さない。"
     },
     "G04-W16": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "87〜95行は掲載者の解説・仮説。Cが怪異を見た・連れ帰った事実としない。"
     },
     "G04-W17": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "人物の移動追跡はこの初回では観測されない。後の友人目撃・三年の追跡説は別の記録と時点。"
     },
     "G04-W18": {
       "inherited_narrative_status": "ready",

@@ -906,6 +906,70 @@
       ],
       "relation": "overlapping_scope",
       "reason": "バンガローの玄関防衛と朝まで。犬の後の診療はその当事者・時点の78条件を未抽出。"
+    },
+    {
+      "work_id": "G04-W14",
+      "scene_id": "G04-W14-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "入れ子の蓋の少年は本文を再読したが78条件未抽出。選定は外側の説明を聞く第五学年の本人。"
+    },
+    {
+      "work_id": "G04-W14",
+      "scene_id": "G04-W14-S02",
+      "record_ids": [
+        "G04-W14-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "外側の説明を聞く時点が重なる。田所の失踪を後から知る時点と別にし、実在の証明にしない。"
+    },
+    {
+      "work_id": "G04-W15",
+      "scene_id": "G04-W15-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "小二の人形の材料と妹の死は前史として再読。選定は祖母の介護を担う後年。"
+    },
+    {
+      "work_id": "G04-W15",
+      "scene_id": "G04-W15-S02",
+      "record_ids": [
+        "G04-W15-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "子供の介護範囲が重なる。医療拒絶は単純に全家族が危険を信じないと扱わず、父の事情と母の否認を分ける。"
+    },
+    {
+      "work_id": "G04-W15",
+      "scene_id": "G04-W15-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖母の窒息と祖母自身の過去の加害の問題は未抽出。介護時の本人の条件へ移さない。"
+    },
+    {
+      "work_id": "G04-W16",
+      "scene_id": "G04-W16-S01",
+      "record_ids": [
+        "G04-W16-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "Cの反応を選定。雨音から死を知ったという末尾の解説はC自身の発言ではなく不明として保持。"
+    },
+    {
+      "work_id": "G04-W17",
+      "scene_id": "G04-W17-S01",
+      "record_ids": [
+        "G04-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "初回高校時の症状と退避。人物の移動は本文ではなく本人の接近であり、旧要約を条件根拠にしない。"
+    },
+    {
+      "work_id": "G04-W17",
+      "scene_id": "G04-W17-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "友人の別体験と三年後の報告は再読したが別当事者・時点の条件未抽出。"
     }
   ]
 }
