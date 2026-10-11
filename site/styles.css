@@ -189,6 +189,11 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .timeline-evidence{font-size:.75rem}
 .timeline-evidence p{font-size:.8125rem;margin-top:8px}
 .timeline-reading{font-size:.8125rem;margin-top:12px}
+.narrative-investigation{margin-top:20px;padding-top:14px;border-top:1px solid var(--line)}
+.narrative-investigation>summary{cursor:pointer;min-height:40px;padding:8px 0}
+.narrative-investigation ol{padding-left:1.4em}
+.narrative-investigation li+li{margin-top:18px}
+.narrative-investigation p{overflow-wrap:anywhere}
 .work-original-analysis{margin-top:24px}
 #narrative-coverage{margin-bottom:20px}
 @media(max-width:600px){

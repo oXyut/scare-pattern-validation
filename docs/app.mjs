@@ -17,7 +17,7 @@ const tag=id=>`<a class="tag" href="#type-${esc(id)}" title="固定v1の${esc(id
 const status=value=>`<span class="status ${esc(value)}">${esc(statusLabels[value])}</span>`;
 const paragraph=value=>esc(value).replace(/\n/g,'<br>');
 const narrativeLabels={ready:'あらすじ・時系列あり',scoped:'確認した範囲のみ',pending:'あらすじ作成を保留'};
-const narrativeLabel=n=>n.reason_codes.includes('poc_review_pending')?'PoCレビュー後に表示':narrativeLabels[n.status];
+const narrativeLabel=n=>narrativeLabels[n.status];
 const pocLinksHTML=current=>data.narratives.review_work_ids.map(id=>{
   const w=data.works.find(w=>w.work_id===id);
   const purpose={'G01-W01':'現代と年代不明の映像','G02-W11':'夢と覚醒の境目','G05-W18':'防御・逃走・後日談','G03-W20':'結末で明かされる由来'}[id];
@@ -28,16 +28,19 @@ function narrativeHTML(w){
   const n=w.narrative;
   if(!n)return '';
   const sources=n.source_reviews;
-  const scope=`<details class="narrative-notes"><summary>確認範囲・未確認部分と出典</summary><p>${paragraph(n.scope)}</p>${n.limitations.length?`<ul>${n.limitations.map(v=>`<li>${paragraph(v)}</li>`).join('')}</ul>`:''}${sources.map(r=>`<div class="narrative-source" id="review-${esc(r.review_id)}"><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">今回再確認した本文 · ${esc(r.source_id)}</a><p>${paragraph(r.scope)}</p><p class="small-note">今回の再確認日時（UTC）：${esc(r.accessed_at_utc)}。v1の取得日時とは別の記録です。<a href="#source-${esc(r.source_id)}">既存の出典台帳を見る</a></p></div>`).join('')}</details>`;
+  const sourceLabel=r=>r.source_id||'今回追加した参照本文';
+  const investigation=`<details class="narrative-investigation"><summary>この作品の調査記録 · ${n.investigation.length}件</summary><ol>${n.investigation.map(a=>`<li><p>${paragraph(a.note)}</p><p class="small-note">${esc(a.checked_at_utc)}（UTC）${a.url?` · <a href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">確認を試みたページ</a>`:''}${a.query?` · 検索語：${esc(a.query)}`:''}</p></li>`).join('')}</ol></details>`;
+  const scope=`<details class="narrative-notes"><summary>確認範囲・未確認部分と出典</summary><p>${paragraph(n.scope)}</p>${n.historical_note?`<p class="small-note">${paragraph(n.historical_note)}</p>`:''}${n.limitations.length?`<ul>${n.limitations.map(v=>`<li>${paragraph(v)}</li>`).join('')}</ul>`:''}${sources.map(r=>`<div class="narrative-source" id="review-${esc(r.review_id)}"><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">確認した本文 · ${esc(sourceLabel(r))}</a><p>${paragraph(r.scope)}</p><p class="small-note">照合の根拠：${paragraph(r.identity_basis)}</p><p class="small-note">本文を確認した日時（UTC）：${esc(r.accessed_at_utc)}。v1の取得日時とは別の記録です。${r.source_id?`<a href="#source-${esc(r.source_id)}">既存の出典台帳を見る</a>`:'今回追加したURLです。既存の出典台帳は書き換えていません。'}</p></div>`).join('')}${investigation}</details>`;
   if(n.status==='pending')return `<section class="work-narrative narrative-pending" aria-labelledby="narrative-title" data-narrative-status="pending"><p class="section-index">あらすじ・出来事の流れ</p><h2 id="narrative-title">あらすじ作成を保留しています</h2><p>${paragraph(n.reason)}</p><p class="small-note">この状態は今回のあらすじ作成についてのものです。上に示したv1の本文状態と、以下の調査記録はそのまま参照できます。</p>${scope}<a class="narrative-jump" href="#work-sources-${esc(w.work_id)}">出典と未確定の点を読む</a></section>`;
   const typeLabel=id=>`<a class="timeline-type" href="#type-${esc(id)}">${esc(id)} ${esc(data.types.find(t=>t.id===id).name)}</a>`;
   const fearHTML=f=>{
     const scene=w.scenes.find(s=>s.scene_id===f.scene_id);
+    const isV1=f.classification_basis==='v1_scene';
     return `<div class="timeline-fear">
       <h5>ここで生じる恐怖・解釈</h5><p class="timeline-fear-text">${paragraph(f.fear)}</p>
-      <p class="timeline-label">固定v1の候補</p><div class="timeline-types">${f.type_ids.length?f.type_ids.map(typeLabel).join(''):'<span class="small-note">v1で型の付与なし</span>'}</div>
-      <details class="timeline-analysis"><summary>分類の根拠・留保 <span class="timeline-fit">場面全体：${esc(scene.fit)}</span></summary>
-        <p class="timeline-basis">${paragraph(f.basis)}</p><p class="timeline-scene"><a href="#scene-${esc(f.scene_id)}">v1の場面記録 ${esc(f.scene_id)}</a></p>
+      <p class="timeline-label">${isV1?'固定v1の候補':'今回確認した本文の解釈'}</p><div class="timeline-types">${f.type_ids.length?f.type_ids.map(typeLabel).join(''):`<span class="small-note">${isV1?'v1で型の付与なし':'未分類（今回確認した本文）'}</span>`}</div>
+      <details class="timeline-analysis"><summary>分類の根拠・留保 ${isV1?`<span class="timeline-fit">場面全体：${esc(scene.fit)}</span>`:''}</summary>
+        <p class="timeline-basis">${paragraph(f.basis)}</p>${isV1?`<p class="timeline-scene"><a href="#scene-${esc(f.scene_id)}">v1の場面記録 ${esc(f.scene_id)}</a></p>`:'<p class="small-note">対応するv1場面記録・分類ラベルは追加していません。</p>'}
       </details>
     </div>`;
   };
@@ -49,7 +52,7 @@ function narrativeHTML(w){
       <p class="timeline-event">${paragraph(step.event)}</p>
       ${step.fears.length?`<div class="timeline-fears">${step.fears.map(fearHTML).join('')}</div>`:'<p class="timeline-context">経緯・背景の段階。ここでは型を付けていません。</p>'}
       <div class="timeline-card-footer"><details class="timeline-evidence"><summary>語られる位置・本文の根拠</summary><p>${paragraph(step.narrative_position)}</p><p>${step.source_review_ids.map(id=>{
-        const r=sources.find(s=>s.review_id===id);return `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">確認した本文 ${esc(r.source_id)}</a>`;
+        const r=sources.find(s=>s.review_id===id);return `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">確認した本文 ${esc(sourceLabel(r))}</a>`;
       }).join(' · ')}</p></details></div>
     </article>
   </li>`;
@@ -134,7 +137,7 @@ function renderWork(id){
   const back=`${location.pathname}${location.search}#catalogue`;
   const sourceIds=new Set([...w.source_ids,...w.scenes.flatMap(s=>s.source_ids)]);
   const sources=data.sources.filter(s=>s.work_id===id||sourceIds.has(s.source_id));
-  $('work-detail').innerHTML=`<a class="back-link" href="${esc(back)}">検索結果に戻る</a><details class="poc-switch"><summary>PoCの4作品を切り替える</summary><nav class="poc-links" aria-label="PoCの他の作品">${pocLinksHTML(id)}</nav></details><header class="work-heading"><p class="section-index">作品別分析 / 調査時の基準v1</p><h1 tabindex="-1" id="work-title">${esc(w.title)}</h1><div class="work-meta"><span>${esc(w.work_id)}</span>${status(w.body_status)}<span>群${esc(w.group_id.slice(-2))} · ${w.scenes.length}行の場面記録</span></div></header>${narrativeHTML(w)}<details class="document-details work-original-analysis"><summary>作品全体のv1分析・範囲・留保を読む</summary><div class="work-intro"><p class="small-note">展開・結末のネタバレを含む自作の分析です。${w.body_status==='unverified'?'調査対象の本文は未確認です。判定を保留した記録を、場面の証拠や型に当てはまらない例には数えません。':''}${w.body_status==='partial'?'確認できた本文の範囲や、調査対象との一致に未確定の点があります。':''}</p><dl>${field('確認した本文の範囲と作品の一致',w.episode_scope)}${field('別名・派生作品・独立性について未確定の点',w.alias_or_derivative)}${field('作品全体で当事者が直面する問題と解釈',w.overall_fears)}${field('説明できていない点',w.unexplained_residue)}${field('型に当てはまらない例・無理に当てはめない箇所',w.counterexamples)}${field('改訂の提案',w.change_proposals)}</dl></div></details>${workFollowupHTML(w)}${workTrackingHTML(w)}<h2 class="scenes-heading">場面ごとの記録</h2>${w.scenes.map(s=>sceneHTML(s,w)).join('')}<section class="work-sources" id="work-sources-${esc(w.work_id)}"><h2>出典・本文の版・未確定の点</h2><p class="small-note">リンク先は外部サイトです。本文の転載先、調査対象の候補、検索記録を分けて掲載しています。記録がない取得日時は補っていません。リンクがあることは、原典との一致を保証しません。</p>${sources.length?sources.map(sourceHTML).join(''):'<p>この項目の本文の出典URLは特定できていません。</p>'}<p class="reference">原資料 <a href="${repoURL(`groups/${w.group_id}/data/mappings.json`)}">群別対応表</a>・<a href="${repoURL(`groups/${w.group_id}/reports/report.md`)}">群別報告</a>・<a href="${repoURL(`groups/${w.group_id}/sources/ledger.csv`)}">出典台帳</a></p></section><a class="back-link" href="${esc(back)}">検索結果に戻る</a><p class="small-note">「解釈確信度」は、分析者が自分の解釈にどの程度確信を持つかの主観的な見積もりです。恐怖の効果や統計的な確率を示す値ではありません。この分析をv3の基準で分類し直したものでもありません。</p>`;
+  $('work-detail').innerHTML=`<a class="back-link" href="${esc(back)}">検索結果に戻る</a><details class="poc-switch"><summary>代表的な4作品を切り替える</summary><nav class="poc-links" aria-label="代表的な他の作品">${pocLinksHTML(id)}</nav></details><header class="work-heading"><p class="section-index">作品別分析 / 調査時の基準v1</p><h1 tabindex="-1" id="work-title">${esc(w.title)}</h1><div class="work-meta"><span>${esc(w.work_id)}</span>${status(w.body_status)}<span>群${esc(w.group_id.slice(-2))} · ${w.scenes.length}行の場面記録</span></div></header>${narrativeHTML(w)}<details class="document-details work-original-analysis"><summary>作品全体のv1分析・範囲・留保を読む</summary><div class="work-intro"><p class="small-note">展開・結末のネタバレを含む自作の分析です。${w.body_status==='unverified'?'調査対象の本文は未確認です。判定を保留した記録を、場面の証拠や型に当てはまらない例には数えません。':''}${w.body_status==='partial'?'確認できた本文の範囲や、調査対象との一致に未確定の点があります。':''}</p><dl>${field('確認した本文の範囲と作品の一致',w.episode_scope)}${field('別名・派生作品・独立性について未確定の点',w.alias_or_derivative)}${field('作品全体で当事者が直面する問題と解釈',w.overall_fears)}${field('説明できていない点',w.unexplained_residue)}${field('型に当てはまらない例・無理に当てはめない箇所',w.counterexamples)}${field('改訂の提案',w.change_proposals)}</dl></div></details>${workFollowupHTML(w)}${workTrackingHTML(w)}<h2 class="scenes-heading">場面ごとの記録</h2>${w.scenes.map(s=>sceneHTML(s,w)).join('')}<section class="work-sources" id="work-sources-${esc(w.work_id)}"><h2>出典・本文の版・未確定の点</h2><p class="small-note">リンク先は外部サイトです。本文の転載先、調査対象の候補、検索記録を分けて掲載しています。記録がない取得日時は補っていません。リンクがあることは、原典との一致を保証しません。</p>${sources.length?sources.map(sourceHTML).join(''):'<p>この項目の本文の出典URLは特定できていません。</p>'}<p class="reference">原資料 <a href="${repoURL(`groups/${w.group_id}/data/mappings.json`)}">群別対応表</a>・<a href="${repoURL(`groups/${w.group_id}/reports/report.md`)}">群別報告</a>・<a href="${repoURL(`groups/${w.group_id}/sources/ledger.csv`)}">出典台帳</a></p></section><a class="back-link" href="${esc(back)}">検索結果に戻る</a><p class="small-note">「解釈確信度」は、分析者が自分の解釈にどの程度確信を持つかの主観的な見積もりです。恐怖の効果や統計的な確率を示す値ではありません。この分析をv3の基準で分類し直したものでもありません。</p>`;
   renderedWorkId=id;
 }
 function route(){
@@ -172,7 +175,8 @@ try{
   const narratives=new Map(data.narratives.works.map(n=>[n.work_id,n]));
   data.works.forEach(w=>w.narrative=narratives.get(w.work_id));
   $('poc-links').innerHTML=pocLinksHTML();
-  $('narrative-coverage').textContent='あらすじ・時系列はUIレビュー用の4作品PoCです。他作品への展開はレビュー後に進めます。131項目の既存資料・検索・確認状態は引き続き閲覧できます。';
+  const nc=data.narratives.counts;
+  $('narrative-coverage').textContent=`全${data.narratives.investigated_count}項目を個別調査。あらすじ・時系列${nc.ready+nc.scoped}件（指定本文${nc.ready}件・限定範囲${nc.scoped}件）、作成保留${nc.pending}件。v1の本文状態と今回の確認範囲は別々に表示します。`;
   renderTypes();fillFields();renderResults();renderFollowup();
   document.querySelectorAll('[data-repo]').forEach(a=>a.href=repoURL(a.dataset.repo));
   document.querySelectorAll('[data-followup]').forEach(a=>a.href=followupURL(a.dataset.followup));

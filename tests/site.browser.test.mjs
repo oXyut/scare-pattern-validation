@@ -279,14 +279,15 @@ test('spoiler summary leads the detail; chronology, interpretation and v1 backli
   await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
 });
 
-test('PoC exposes only four stories; paused and unconfirmed works keep reasons and source jumps',async t=>{
+test('all works are individually investigated; unconfirmed works keep reasons and source jumps',async t=>{
   const page=await open(t,'#catalogue');
   assert.equal(await page.locator('#poc-links a').count(),4);
   await page.locator('#poc-links a[href="#work=G02-W11"]').click();
   await checkWork(page,'G02-W11','猿夢');
   assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),'ready');
   const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
-  for(const reason of ['not_rechecked','identity_or_scope_pending','body_unavailable','poc_review_pending']){
+  assert.match(await page.locator('#narrative-coverage').textContent(),/131.*110.*92.*18.*21/);
+  for(const reason of ['identity_or_scope_pending','body_unavailable','retrieval_failed']){
     const n=fixture.narratives.works.find(w=>w.reason_codes.includes(reason));
     const w=fixture.works.find(w=>w.work_id===n.work_id);
     await hash(page,'#work='+w.work_id);
@@ -294,6 +295,9 @@ test('PoC exposes only four stories; paused and unconfirmed works keep reasons a
     assert.equal(await page.locator('.story-summary').count(),0);
     assert.equal(await page.locator('.story-timeline').count(),0);
     assert.match(await page.locator('.narrative-pending').textContent(),/保留/);
+    await page.locator('.narrative-notes > summary').click();
+    await page.locator('.narrative-investigation > summary').click();
+    assert.equal(await page.locator('.narrative-investigation li').count(),n.investigation.length);
     await page.locator('.narrative-jump').click();
     await checkWork(page,w.work_id,w.title,'work-sources-'+w.work_id);
   }
@@ -313,7 +317,7 @@ test('vertical flow remains legible without horizontal overflow at narrow mobile
   }
 });
 
-test('one-file PoC allows switching stories without any extra resource or data request',async t=>{
+test('one-file review allows switching stories without any extra resource or data request',async t=>{
   const folder=await mkdtemp(resolve(tmpdir(),'scare-preview-'));
   t.after(()=>rm(folder,{recursive:true,force:true}));
   const file=resolve(folder,'preview.html');
@@ -359,7 +363,7 @@ async function checkRail(page){
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
 }
 
-test('every PoC keeps chronological DOM order and continuous aligned rails on PC and mobile',async t=>{
+test('representative stories keep chronological DOM order and continuous aligned rails on PC and mobile',async t=>{
   const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
   const page=await open(t,'#work=G01-W01');
   for(const id of fixture.narratives.review_work_ids){
@@ -374,6 +378,28 @@ test('every PoC keeps chronological DOM order and continuous aligned rails on PC
       await page.locator('.timeline-evidence').first().locator('summary').click();
       await checkRail(page);
     }
+  }
+});
+
+test('all 131 works render their complete narrative state and every new reference safely',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const page=await open(t,'#catalogue',{width:320,height:900});
+  for(const n of fixture.narratives.works){
+    const work=fixture.works.find(w=>w.work_id===n.work_id);
+    await hash(page,'#work='+n.work_id);await checkWork(page,n.work_id,work.title);
+    assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),n.status);
+    assert.equal(await page.locator('.timeline-card').count(),n.threads.reduce((sum,f)=>sum+f.steps.length,0));
+    assert.equal(await page.locator('.story-summary').count(),n.status==='pending'?0:1);
+    await page.locator('.narrative-notes > summary').click();
+    assert.equal(await page.locator('.narrative-source').count(),n.source_reviews.length);
+    assert.equal(await page.locator('a[href="#source-"]').count(),0);
+    assert.equal(await page.locator('a[href="#scene-"]').count(),0);
+    if(n.historical_note)assert.ok((await page.locator('.narrative-notes').textContent()).includes(n.historical_note));
+    if(n.source_reviews.some(r=>r.provenance==='new_source'))assert.match(await page.locator('.narrative-notes').textContent(),/今回追加したURL/);
+    if(n.threads.some(f=>f.steps.some(s=>s.fears.some(a=>a.classification_basis==='unclassified_new_evidence')))){
+      assert.match(await page.locator('.timeline-fears').first().textContent(),/未分類（今回確認した本文）/);
+    }
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,n.work_id);
   }
 });
 

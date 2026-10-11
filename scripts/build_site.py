@@ -252,7 +252,7 @@ def build():
     (DEST / '.nojekyll').write_text('')
     print('Built docs/: historical 131 entries, 258 scene rows (25 placeholders), 166 source rows; separate 39-entry followup.')
     narratives = json.loads(serialized)['narratives']
-    print(f"Narrative PoC: {len(narratives['review_work_ids'])} entries; {narratives['withheld_draft_count']} prepared drafts withheld pending UI review.")
+    print(f"Narratives: {narratives['investigated_count']} individually investigated; {narratives['counts']}.")
 
 
 if __name__ == '__main__':

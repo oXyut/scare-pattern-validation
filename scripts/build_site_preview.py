@@ -1,4 +1,4 @@
-"""Export the built PoC as one offline HTML file for UI review."""
+"""Export the built site as one offline HTML file for review."""
 import argparse
 import base64
 import json
@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def preview_html():
     docs = ROOT / 'docs'
     data = json.loads((docs / 'data.json').read_text())
-    assert data['narratives']['release_stage'] == 'poc'
+    assert data['narratives']['release_stage'] == 'full_review'
     html = (docs / 'index.html').read_text()
     css = (docs / 'styles.css').read_text()
     cover = base64.b64encode((docs / 'corridor-cover.webp').read_bytes()).decode('ascii')
@@ -40,11 +40,11 @@ if __name__ == '__main__':
     markup = preview_html()
     if args.output.suffix == '.zip':
         with zipfile.ZipFile(args.output, 'w') as bundle:
-            for name, body in [('preview.html', markup), ('README.txt', (ROOT / 'site/review/poc/preview-instructions.txt').read_text())]:
-                info = zipfile.ZipInfo(name, (2026, 10, 10, 0, 0, 0))
+            for name, body in [('preview.html', markup), ('README.txt', (ROOT / 'site/review/full/preview-instructions.txt').read_text())]:
+                info = zipfile.ZipInfo(name, (2026, 10, 11, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o100644 << 16
                 bundle.writestr(info, body)
     else:
         args.output.write_text(markup)
-    print(f'Wrote offline PoC: {args.output}')
+    print(f'Wrote offline review: {args.output}')

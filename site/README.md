@@ -42,17 +42,19 @@ node --test tests/site.browser.test.mjs
 Playwrightが通常のmodule検索パスにない環境では`PLAYWRIGHT_MODULE_PATH`にその`index.mjs`を指定できます。既存Chromeをテストに使う場合は`SITE_BROWSER_CHANNEL=chrome`、スクリーンショットを保存する場合は`SITE_QA_DIR`に出力先を指定します。画像は公開treeへ自動コピーしません。
 
 
-今回のあらすじ・時系列は、[UIレビュー用PoC](review/poc/README.md)です。赤い仏像・猿夢・八尺様・人型焼きの4作品のみ表示します。`narratives.json`の`release_stage: poc`と`review_work_ids`で表示対象を固定し、作成済みの他32作品の下書きは保存しますが、公開JSONにはあらすじ・時系列を投影しません。レビュー前に対象を拡大しません。
+今回のあらすじ・時系列は[全件レビュー版](review/full/README.md)です。承認済みの4作品PoCから全131件を個別調査し、110件を作成（指定本文92件、範囲限定18件）、21件を作成保留としています。代表4作品のリンクは閲覧開始用のショートカットです。検索から全作品を開けます。
 
-`story-narratives-1`は歴史的v1と別の編集データです。作品ごとの発端・展開・結末、本文確認の範囲とUTC、出来事と語られる位置、伝聞・夢・映像・推測の区別を保持します。各段階の恐怖は既存場面IDを参照し、型はその場面のv1候補から選びます。背景段階には型を強制せず、型なし・部分適合・不適合の留保も保持します。元の場面配列を物語の時系列へ自動変換しません。
+`story-narratives-2`の`release_stage: full_review`は歴史的v1と別の編集データです。発端・展開・結末、本文確認の範囲とUTC、出来事と語られる位置、伝聞・夢・映像・推測を保持します。恐怖の解釈は既存場面IDとその場面のv1候補型を参照します。今回の候補本文に対応する旧場面がない場合は`unclassified_new_evidence`として、場面ID・型なしで表示します。背景に型を強制せず、v1の分類やv3の検証状態も変更しません。
 
-状態は`ready`（指定した掲載本文の範囲）、`scoped`（シリーズ等の限定範囲）、`pending`です。保留理由は今回未照合・v1本文未確認・同定／範囲の留保・取得不能・PoCレビュー待ちを区別します。保留作品にも1行の明示的状態を必須とし、あらすじや時系列を作りません。作成済み下書きのPoC表示保留は本文未確認とは別です。`scripts/story_narratives.py`が全131項目の網羅、出典URLと所有者、UTC、場面所有者と既存候補型を検査し、許可したフィールドだけを公開します。v1の状態やv3案の検証状況は変更しません。
+`ready`は指定した掲載本文の範囲、`scoped`はシリーズ等の限定範囲、`pending`は本文不足・同定／範囲の留保・取得失敗による作成保留です。保留作品にも個別の`investigation`（URLまたは検索語・UTC・結果・理由）を必須とし、あらすじや時系列を作りません。本文が今回見つかっても歴史的v1の未確認状態はそのままです。旧台帳と一致する参照は`v1_ledger`、新しいURLは`new_source`として同定根拠を付け、旧出典IDを流用しません。
+
+`scripts/story_narratives.py`は全131項目の網羅、全件の個別調査、UTC、参照本文の照合記録、出典・場面所有者、旧候補型と新規本文の未分類を検査します。許可した編集フィールドだけを公開します。`tests/test_story_narratives.py`はあらすじ以外の全公開データが承認済みPoCの投影と一致するSHA-256も検査します。
 
 手元で確認できる1ファイルのプレビューは、ビルド後に生成できます。
 
 ```sh
-python3 scripts/build_site_preview.py /tmp/scare-poc/preview.html
-python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/scare-poc
+python3 scripts/build_site_preview.py /tmp/scare-review/preview.html
+python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/scare-review
 ```
 
 ブラウザで `http://127.0.0.1:8765/preview.html#work=G02-W11` を開きます。HTML内にCSS・JS・公開データを含み、追加のリソース取得を行いません。原文・リポジトリへの外部リンクはクリック時だけ開きます。Cloudブラウザでは`file://`が管理設定で拒否されたため、localhost経由で確認しました。
