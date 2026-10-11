@@ -1,0 +1,14 @@
+{
+  "schema_version": "v3-r2-source-review-progress-1",
+  "stage": "in_progress",
+  "observed_after_at_utc": "2026-10-11T06:04:57Z",
+  "r1_explicit_condition_judgments": 355,
+  "fully_rechecked_published_bodies": 1,
+  "condition_extraction_complete_works": 0,
+  "reviews": [
+    {"work_id":"G03-W17","url":"https://the-mystery.org/scary_story/labradorite/","status":"full_published_body_reread","range":"掲載本文11〜421行","original_post_identity":"unconfirmed","note":"掲載者の編集・更新表示があり、初出原文確認とは数えない。"},
+    {"work_id":"G04-W26","url":"https://kaidanstorys.com/long-storys-90/","status":"targeted_reread","range":"50〜378行","original_post_identity":"unconfirmed"},
+    {"work_id":"G05-W09","url":"https://llike.net/2ch/fear/akuryo/4.htm","status":"targeted_reread","range":"Part4の86〜250行","original_post_identity":"unconfirmed"},
+    {"work_id":"G05-W25","url":"https://syarekowa-mania.hateblo.jp/entry/resort-arbeit/","status":"targeted_reread","range":"1174〜1290行","original_post_identity":"unconfirmed"}
+  ]
+}
