@@ -156,7 +156,16 @@
       "source_review_ids": [
         "G01-W18-R2-S1"
       ],
-      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。"
+      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。",
+      "original_source_attempts": [
+        {
+          "url": "https://hobby10.5ch.net/test/read.cgi/occult/1205653191/",
+          "method": "web_reader",
+          "outcome": "fetch_failed",
+          "observed_after_at_utc": "2026-10-11T07:41:16Z",
+          "note": "掲載者の初出リンクを開いたがInternal Error。原投稿取得・シリーズ範囲の解消とはしない。"
+        }
+      ]
     },
     {
       "work_id": "G01-W20",

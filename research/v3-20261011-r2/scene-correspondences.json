@@ -189,6 +189,70 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "後の語り手の形・指の発見は未抽出。四男の現在の条件と混ぜない。"
+    },
+    {
+      "work_id": "G01-W18",
+      "scene_id": "G01-W18-SC01",
+      "record_ids": [
+        "G01-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面の発見前・発見後を束ねない。新記録は発見後の追跡のみ。発見前のA1は未抽出。"
+    },
+    {
+      "work_id": "G01-W18",
+      "scene_id": "G01-W18-SC02",
+      "record_ids": [
+        "G01-W18-V3-R2-R02"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "初回引用の後日の家の境界維持。未確認の専用スレッド・結末は含めない。"
+    },
+    {
+      "work_id": "G01-W09",
+      "scene_id": "G01-W09-SC01",
+      "record_ids": [
+        "G01-W09-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面は第1・第2話を束ねる。新記録は第2話の弟の問題だけ。兄自身の内的状態は同じ記録にしない。"
+    },
+    {
+      "work_id": "G01-W09",
+      "scene_id": "G01-W09-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "第3話は再読済みだが条件未抽出。第5・第7話は継承指定範囲外で、判断を流用しない。"
+    },
+    {
+      "work_id": "G01-W09",
+      "scene_id": "G01-W09-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "他話・ネットロア全体の範囲は今回の第2・第3話と別。"
+    },
+    {
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC01",
+      "record_ids": [
+        "G01-W04-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "学校での反復暴力と教師との面談。不受容と敵対意図はそれぞれの必要条件を点検する。"
+    },
+    {
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の祓いとAの手紙は本文再読済み、条件未抽出。学校の記録に流用しない。"
+    },
+    {
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後のBの発話の変化は別当事者・時点。本文再読と条件抽出を分ける。"
     }
   ]
 }

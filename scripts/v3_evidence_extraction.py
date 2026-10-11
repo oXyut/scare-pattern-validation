@@ -74,6 +74,19 @@ def validate(data, reviews, narratives, codebook):
         cs = rec['conditions']
         if {c['condition_id'] for c in cs} != condition_ids or len(cs) != len(condition_ids):
             raise ValueError('Every one of the 78 conditions must be authored exactly once')
+        if rec.get('authorship_format') == 'explicit_condition_groups':
+            authored = {}
+            for group in rec.get('condition_review_groups', []):
+                for cid in group['condition_ids']:
+                    if cid in authored:
+                        raise ValueError('Authored condition groups duplicate a condition')
+                    authored[cid] = group
+            if set(authored) != condition_ids:
+                raise ValueError('Authored condition groups must explicitly name all 78 conditions')
+            for c in cs:
+                g = authored[c['condition_id']]
+                if any(g[k] != c[k] for k in ('state', 'reason', 'inspected_evidence_ids')):
+                    raise ValueError('Expanded condition differs from its authored condition group')
         for c in cs:
             if c['state'] not in STATES or not c['reason'].strip():
                 raise ValueError('Invalid condition state or missing reason')

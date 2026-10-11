@@ -41,6 +41,17 @@ class EvidenceExtractionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Automatic expansion'):
             self.check()
 
+    def test_grouped_authorship_requires_explicit_conditions_and_consistent_expansion(self):
+        rec = next(r for r in self.data['records'] if r.get('authorship_format') == 'explicit_condition_groups')
+        saved = copy.deepcopy(rec['condition_review_groups'])
+        rec['condition_review_groups'][0]['condition_ids'].pop()
+        with self.assertRaisesRegex(ValueError, 'explicitly name all 78'):
+            self.check()
+        rec['condition_review_groups'] = saved
+        rec['condition_review_groups'][0]['reason'] += ' altered'
+        with self.assertRaisesRegex(ValueError, 'differs from its authored'):
+            self.check()
+
     def test_foreign_evidence_review_and_url_are_rejected(self):
         saved = copy.deepcopy(self.data)
         self.data['records'][0]['conditions'][0]['inspected_evidence_ids'] = ['G03-W17-R2-E-a']

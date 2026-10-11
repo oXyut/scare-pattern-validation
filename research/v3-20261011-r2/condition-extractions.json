@@ -11476,6 +11476,5435 @@
         ],
         "limitation": "人工の材料の話を人間一般の利用の世界モデルへ拡張せず、終わらない連絡回避を管理責任の終了問題に自動変換しない。"
       }
+    },
+    {
+      "work_id": "G01-W18",
+      "record_id": "G01-W18-V3-R2-R01",
+      "actor": "初回の深夜の公園にいた語り手",
+      "time_scope": "投稿121〜122で相手が本人に気付いた後、武器を向けられて砂をかけ帰宅するまで。発見前の静止は前史で未抽出、数日後の家の夜は別。",
+      "world_layer": "narrated_experience",
+      "selection_reason": "実際の追跡・逃走を、後の家の周囲の滞留と分離する。",
+      "anticipated_loss": "武器で刺される・飛びかかる猫に接触されること。",
+      "recognition_basis": "刺されると思って走り、砂で相手を止める。",
+      "closure_observed": "公園から帰宅する。夢と思おうとするが、現象全体の正体は不明。",
+      "limitation": "初回の公園の一場面のみ。以後の家の夜、未取得の専用スレッド・二ノ巻は混ぜない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W18-R2-E-np1",
+          "source_review_id": "G01-W18-R2-S1",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "range": "19〜56行",
+          "layer": "narrated_experience",
+          "summary": "深夜の小さな人影の集まりを見てじっとするが、気付かれて相手が近付く。"
+        },
+        {
+          "evidence_id": "G01-W18-R2-E-np2",
+          "source_review_id": "G01-W18-R2-S1",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "range": "75〜106行",
+          "layer": "narrated_experience_and_inference",
+          "summary": "武器を避け走り、別の猫へ砂をかけ帰宅。夢・見間違いと思い込もうとする。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "刀様の武器で狙われ、走って公園を離れる本人。接触・刺傷の回避課題と認識がある。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "刀様の武器で狙われ、走って公園を離れる本人。接触・刺傷の回避課題と認識がある。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "unknown",
+          "reason": "公園でじっとするまでの世界一般についての旧確信はない。直後の夢・見間違い説を事前の世界前提にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "小さな人影の集まりと、本人に近付き狙う武器の知覚を新しい局所証拠として記録。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "公園の夜の知覚の異常。世界・人間一般へ及ぶ根拠や、夢・見間違い・特殊な個体の局所説明で足りない理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "公園の夜の知覚の異常。世界・人間一般へ及ぶ根拠や、夢・見間違い・特殊な個体の局所説明で足りない理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "逃走と怖さはあるが、帰宅後は夢と思い込もうとする。未指定の旧世界前提を変更して受容したとは不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "帰宅後に本人が夢・見間違い・フラッシュバックを候補にする。現場の暗さと短い観察も留保。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "explicitly_false",
+          "reason": "本人はじっとして発見を避けるが、選定した武器接近段階は相手が気付いてこちらへ来た後。所在未捕捉ではない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np1"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "発見後の武器の接触回避はあるが、相手が家や本人の所在を感知することを避ける課題は未確認。発見前の静止を指定時点の成立根拠にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "supported",
+          "reason": "相手が本人へ近付き武器を向け、逃げた本人に別の猫が飛びかかる。本人は接触を避けて逃走する。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "相手が本人へ近付き武器を向け、逃げた本人に別の猫が飛びかかる。本人は接触を避けて逃走する。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "公園を生活・避難領域として安全と期待した境界は未指定。帰宅するまでで、家への侵入は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "公園を生活・避難領域として安全と期待した境界は未指定。帰宅するまでで、家への侵入は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "公園を生活・避難領域として安全と期待した境界は未指定。帰宅するまでで、家への侵入は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "相手の集まりは見えるが、防御領域を囲まれ境界を維持する局面ではない。包囲突破・備蓄消耗の予期は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "相手の集まりは見えるが、防御領域を囲まれ境界を維持する局面ではない。包囲突破・備蓄消耗の予期は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "相手の集まりは見えるが、防御領域を囲まれ境界を維持する局面ではない。包囲突破・備蓄消耗の予期は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "帰路を走り帰宅するが、公園の現在地・経緯・安全条件の不明が定位課題となる記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "帰路を走り帰宅するが、公園の現在地・経緯・安全条件の不明が定位課題となる記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "刺されないため公園を離れたい理由があり、走って出る。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "砂をかけ相手の動きを止め、本人は帰宅する。指定した公園からの離脱が実際に阻まれた状態ではない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "公園から家まで移動する。道・時間の異常な接続と、それによる帰還不能・消耗はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "公園から家まで移動する。道・時間の異常な接続と、それによる帰還不能・消耗はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "その場で競合する記録・証言はない。帰宅後の夢説は推測で、指定命題の証拠の食い違いと安全判断を確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "その場で競合する記録・証言はない。帰宅後の夢説は推測で、指定命題の証拠の食い違いと安全判断を確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "小さい人影や猫は未知の対象。特定の既知人物の本人性・模倣・危険な代替者として扱う問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "小さい人影や猫は未知の対象。特定の既知人物の本人性・模倣・危険な代替者として扱う問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "小さい人影や猫は未知の対象。特定の既知人物の本人性・模倣・危険な代替者として扱う問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "未知の公園の相手を味方と期待した根拠がない。共同体の敵対利害・計画と裏切りの予期を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "未知の公園の相手を味方と期待した根拠がない。共同体の敵対利害・計画と裏切りの予期を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "未知の公園の相手を味方と期待した根拠がない。共同体の敵対利害・計画と裏切りの予期を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "逃走中に他者へ援助を求めて拒まれる場面はない。後の投稿への応答を当時の不受容にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "逃走中に他者へ援助を求めて拒まれる場面はない。後の投稿への応答を当時の不受容にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "逃走中に他者へ援助を求めて拒まれる場面はない。後の投稿への応答を当時の不受容にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "公園で危険を受ける対象は本人。大切な別人の重要性・危険・救助不能は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "公園で危険を受ける対象は本人。大切な別人の重要性・危険・救助不能は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "公園で危険を受ける対象は本人。大切な別人の重要性・危険・救助不能は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "武器や猫による外からの接触危険。本人への内部寄生・感染・異物侵入とその後の発症を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "武器や猫による外からの接触危険。本人への内部寄生・感染・異物侵入とその後の発症を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "猫の姿の解釈を本人の身体変質へ移さない。本人の変形進行・機能や自己像の喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "猫の姿の解釈を本人の身体変質へ移さない。本人の変形進行・機能や自己像の喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "本人は意図して走り、砂で止める。無意図の行為・その制御不能・それによる自他の損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "本人は意図して走り、砂で止める。無意図の行為・その制御不能・それによる自他の損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "本人は意図して走り、砂で止める。無意図の行為・その制御不能・それによる自他の損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "夢や見間違いという自己疑問はあるが、本人の記憶・人格・存在の置換や消失を支持する事実ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "夢や見間違いという自己疑問はあるが、本人の記憶・人格・存在の置換や消失を支持する事実ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "武器による将来の外傷の恐れ。本人の内的損傷の進行・停止不能・それによる機能喪失や死は未観察。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "武器による将来の外傷の恐れ。本人の内的損傷の進行・停止不能・それによる機能喪失や死は未観察。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "武器による将来の外傷の恐れ。本人の内的損傷の進行・停止不能・それによる機能喪失や死は未観察。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "相手に気付かれると近付くが、公園に入る等の独立した起動条件と災厄の比較はない。追跡を禁忌規則にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "相手に気付かれると近付くが、公園に入る等の独立した起動条件と災厄の比較はない。追跡を禁忌規則にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "相手に気付かれると近付くが、公園に入る等の独立した起動条件と災厄の比較はない。追跡を禁忌規則にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "複数の猫から逃げるが、本人から別人・場所へ危険が媒介される対象と経路・移転の予期は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "複数の猫から逃げるが、本人から別人・場所へ危険が媒介される対象と経路・移転の予期は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "複数の猫から逃げるが、本人から別人・場所へ危険が媒介される対象と経路・移転の予期は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "supported",
+          "reason": "砂をかけると相手の動きが止まり、本人は逃げ帰る。その場の離脱手段に効力の記述がある。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "砂と逃走の対処に本人が重視する犠牲が必要との根拠はない。重要な代償と不作為の二者択一は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "砂と逃走の対処に本人が重視する犠牲が必要との根拠はない。重要な代償と不作為の二者択一は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "砂で相手を止め公園から離脱するという、その場の対処を本人が実行する。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "本人は砂をかけ走って帰宅できる。指定対処が能力・設備・時間不足で実行不能ではない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "刺傷回避の損失はあるが、実行不能による予期ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "supported",
+          "reason": "砂で止め離脱する、その場の一時抑制の効力は叙述される。",
+          "evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "砂をかける一回の離脱。保管・監視・手入れの継続義務、放棄時の害、本人の管理責任の終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "砂をかける一回の離脱。保管・監視・手入れの継続義務、放棄時の害、本人の管理責任の終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "砂をかける一回の離脱。保管・監視・手入れの継続義務、放棄時の害、本人の管理責任の終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "未知の猫の武器・動作の一場面。因果・時空・生死の旧基本規則、複数の信頼できる反証、局所を超える安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "未知の猫の武器・動作の一場面。因果・時空・生死の旧基本規則、複数の信頼できる反証、局所を超える安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "未知の猫の武器・動作の一場面。因果・時空・生死の旧基本規則、複数の信頼できる反証、局所を超える安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "本人は逃走する。工夫した砂による成功はあるが反復検証はなく、人間一般の構造的限界や旧前提変更の受容にはならない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "本人は逃走する。工夫した砂による成功はあるが反復検証はなく、人間一般の構造的限界や旧前提変更の受容にはならない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "本人は逃走する。工夫した砂による成功はあるが反復検証はなく、人間一般の構造的限界や旧前提変更の受容にはならない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "本人の善意・正義が世界で重視されるという旧前提はない。相手の攻撃だけで価値の非中心性やその受容を証明しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "本人の善意・正義が世界で重視されるという旧前提はない。相手の攻撃だけで価値の非中心性やその受容を証明しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "本人の善意・正義が世界で重視されるという旧前提はない。相手の攻撃だけで価値の非中心性やその受容を証明しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "公園の襲撃者の目的は不明。人間の成立を他存在が維持・利用する用途、依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "公園の襲撃者の目的は不明。人間の成立を他存在が維持・利用する用途、依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "公園の襲撃者の目的は不明。人間の成立を他存在が維持・利用する用途、依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "事前の世界一般の前提は未記録。帰宅後には夢・見間違いと思おうとする。",
+        "new_evidence": "小さな人影が本人へ近付き、武器を向け、別の猫が飛びかかる知覚。",
+        "evidence_scope": "初回の公園での短時間の本人の体験。",
+        "acceptance_and_threat": "刺される恐れから逃げるが、帰宅後の超常解釈の受容は不確か。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。暗い公園での見間違い・夢・特殊な個体の説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "夢・見間違い・フラッシュバック",
+            "basis": "本人が帰宅後にそう思おうとする。",
+            "status": "narrator_proposed_unresolved"
+          }
+        ],
+        "limitation": "後の再来を初回時点に知っていた反証としない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "刀様の武器で狙われ、走って公園を離れる本人。接触・刺傷の回避課題と認識がある。"
+        },
+        {
+          "condition_ids": [
+            "F.G1"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園でじっとするまでの世界一般についての旧確信はない。直後の夢・見間違い説を事前の世界前提にしない。"
+        },
+        {
+          "condition_ids": [
+            "F.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "小さな人影の集まりと、本人に近付き狙う武器の知覚を新しい局所証拠として記録。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園の夜の知覚の異常。世界・人間一般へ及ぶ根拠や、夢・見間違い・特殊な個体の局所説明で足りない理由はない。"
+        },
+        {
+          "condition_ids": [
+            "F.G4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "逃走と怖さはあるが、帰宅後は夢と思い込もうとする。未指定の旧世界前提を変更して受容したとは不明。"
+        },
+        {
+          "condition_ids": [
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "帰宅後に本人が夢・見間違い・フラッシュバックを候補にする。現場の暗さと短い観察も留保。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1"
+          ],
+          "reason": "本人はじっとして発見を避けるが、選定した武器接近段階は相手が気付いてこちらへ来た後。所在未捕捉ではない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "発見後の武器の接触回避はあるが、相手が家や本人の所在を感知することを避ける課題は未確認。発見前の静止を指定時点の成立根拠にしない。"
+        },
+        {
+          "condition_ids": [
+            "A2.R1",
+            "A2.R2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "相手が本人へ近付き武器を向け、逃げた本人に別の猫が飛びかかる。本人は接触を避けて逃走する。"
+        },
+        {
+          "condition_ids": [
+            "A3.R1",
+            "A3.R2",
+            "A3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園を生活・避難領域として安全と期待した境界は未指定。帰宅するまでで、家への侵入は別時点。"
+        },
+        {
+          "condition_ids": [
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "相手の集まりは見えるが、防御領域を囲まれ境界を維持する局面ではない。包囲突破・備蓄消耗の予期は不明。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "帰路を走り帰宅するが、公園の現在地・経緯・安全条件の不明が定位課題となる記述はない。"
+        },
+        {
+          "condition_ids": [
+            "B2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "刺されないため公園を離れたい理由があり、走って出る。"
+        },
+        {
+          "condition_ids": [
+            "B2.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂をかけ相手の動きを止め、本人は帰宅する。指定した公園からの離脱が実際に阻まれた状態ではない。"
+        },
+        {
+          "condition_ids": [
+            "B3.R1",
+            "B3.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園から家まで移動する。道・時間の異常な接続と、それによる帰還不能・消耗はない。"
+        },
+        {
+          "condition_ids": [
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "その場で競合する記録・証言はない。帰宅後の夢説は推測で、指定命題の証拠の食い違いと安全判断を確認できない。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "小さい人影や猫は未知の対象。特定の既知人物の本人性・模倣・危険な代替者として扱う問題はない。"
+        },
+        {
+          "condition_ids": [
+            "C2.R1",
+            "C2.R2",
+            "C2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "未知の公園の相手を味方と期待した根拠がない。共同体の敵対利害・計画と裏切りの予期を補わない。"
+        },
+        {
+          "condition_ids": [
+            "C3.R1",
+            "C3.R2",
+            "C3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "逃走中に他者へ援助を求めて拒まれる場面はない。後の投稿への応答を当時の不受容にしない。"
+        },
+        {
+          "condition_ids": [
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園で危険を受ける対象は本人。大切な別人の重要性・危険・救助不能は未指定。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "武器や猫による外からの接触危険。本人への内部寄生・感染・異物侵入とその後の発症を示す根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "D2.R1",
+            "D2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "猫の姿の解釈を本人の身体変質へ移さない。本人の変形進行・機能や自己像の喪失はない。"
+        },
+        {
+          "condition_ids": [
+            "D3.R1",
+            "D3.R2",
+            "D3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "本人は意図して走り、砂で止める。無意図の行為・その制御不能・それによる自他の損失は未確認。"
+        },
+        {
+          "condition_ids": [
+            "D4.R1",
+            "D4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "夢や見間違いという自己疑問はあるが、本人の記憶・人格・存在の置換や消失を支持する事実ではない。"
+        },
+        {
+          "condition_ids": [
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "武器による将来の外傷の恐れ。本人の内的損傷の進行・停止不能・それによる機能喪失や死は未観察。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R2",
+            "E1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "相手に気付かれると近付くが、公園に入る等の独立した起動条件と災厄の比較はない。追跡を禁忌規則にしない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "複数の猫から逃げるが、本人から別人・場所へ危険が媒介される対象と経路・移転の予期は未指定。"
+        },
+        {
+          "condition_ids": [
+            "E3.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂をかけると相手の動きが止まり、本人は逃げ帰る。その場の離脱手段に効力の記述がある。"
+        },
+        {
+          "condition_ids": [
+            "E3.R2",
+            "E3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂と逃走の対処に本人が重視する犠牲が必要との根拠はない。重要な代償と不作為の二者択一は不明。"
+        },
+        {
+          "condition_ids": [
+            "E4.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂で相手を止め公園から離脱するという、その場の対処を本人が実行する。"
+        },
+        {
+          "condition_ids": [
+            "E4.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "本人は砂をかけ走って帰宅できる。指定対処が能力・設備・時間不足で実行不能ではない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "刺傷回避の損失はあるが、実行不能による予期ではない。"
+        },
+        {
+          "condition_ids": [
+            "E5.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂で止め離脱する、その場の一時抑制の効力は叙述される。"
+        },
+        {
+          "condition_ids": [
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "砂をかける一回の離脱。保管・監視・手入れの継続義務、放棄時の害、本人の管理責任の終了課題はない。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "未知の猫の武器・動作の一場面。因果・時空・生死の旧基本規則、複数の信頼できる反証、局所を超える安全判断の変更は未確認。"
+        },
+        {
+          "condition_ids": [
+            "F2.R1",
+            "F2.R2",
+            "F2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "本人は逃走する。工夫した砂による成功はあるが反復検証はなく、人間一般の構造的限界や旧前提変更の受容にはならない。"
+        },
+        {
+          "condition_ids": [
+            "F3.R1",
+            "F3.R2",
+            "F3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "本人の善意・正義が世界で重視されるという旧前提はない。相手の攻撃だけで価値の非中心性やその受容を証明しない。"
+        },
+        {
+          "condition_ids": [
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-np1",
+            "G01-W18-R2-E-np2"
+          ],
+          "reason": "公園の襲撃者の目的は不明。人間の成立を他存在が維持・利用する用途、依存関係、一般的前提変更はない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W18",
+      "record_id": "G01-W18-V3-R2-R02",
+      "actor": "自宅にいる語り手",
+      "time_scope": "初回公園の数日後、投稿130〜134の夜の再来。帰宅先の家の内側。",
+      "world_layer": "narrated_experience",
+      "selection_reason": "家の外の圧力と境界維持を初回の追跡から分け、未侵入と睡眠損失を記録する。",
+      "anticipated_loss": "窓を開けた場合の接触・侵入と、夜の圧力による睡眠喪失。",
+      "recognition_basis": "窓を開ける危険を考え布団をかぶり、また来ると予期する。",
+      "closure_observed": "4時まで外から作用するが家の内で本人への加害は起きない。投稿時も再来を心配する。",
+      "limitation": "初回引用の終端まで。専用スレッド・二ノ巻の結末は未確認。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W18-R2-E-nh1",
+          "source_review_id": "G01-W18-R2-S1",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "range": "124〜148行",
+          "layer": "narrated_experience_and_inference",
+          "summary": "猫に引っかかれ怖がるが、普通の猫と説明し餌をやる。"
+        },
+        {
+          "evidence_id": "G01-W18-R2-E-nh2",
+          "source_review_id": "G01-W18-R2-S1",
+          "url": "https://saberismywife.seesaa.net/article/464810575.html",
+          "range": "179〜232行",
+          "layer": "narrated_experience",
+          "summary": "家の周囲の猫、翌晩以降の窓・戸・壁への接触。開けず布団で守るが眠れず、また来ると予期する。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "窓・戸を開ければ危険と受け止め、布団をかぶる本人。毎夜の壁の攻撃で眠れず、侵入・接触と睡眠喪失を避ける。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "窓・戸を開ければ危険と受け止め、布団をかぶる本人。毎夜の壁の攻撃で眠れず、侵入・接触と睡眠喪失を避ける。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "一度は普通の猫を怖がったと思い、餌をやった経験もある。猫の無害な局所理解を旧前提にする。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh1"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "家の周りの異様な声、戸・窓・壁への接触が繰り返され、本人は危険と認め保護して眠れない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "家の周りの異様な声、戸・窓・壁への接触が繰り返され、本人は危険と認め保護して眠れない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "特定の猫と一軒の家の夜。世界・人間一般への拡張や、特殊な猫・知覚・語りの局所説明が不足する理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "特定の猫と一軒の家の夜。世界・人間一般への拡張や、特殊な猫・知覚・語りの局所説明が不足する理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "普通の猫という本人の直前の説明と、見間違い・夢の留保。夜の体験に独立した確認者はない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "explicitly_false",
+          "reason": "相手は本人の家の窓・戸・壁まで来る。家の所在を未捕捉ではない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "布団で接触を避けるが、家の所在感知を避ける動機・方法は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "外から壁・戸に圧力を加える。家の内の本人へ移動追跡して接近する路程は描かれない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "外から壁・戸に圧力を加える。家の内の本人へ移動追跡して接近する路程は描かれない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "家の内にいて窓・戸を閉め布団をかぶれば大丈夫と、安全を期待する境界が指定できる。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "explicitly_false",
+          "reason": "猫は外から窓・壁に作用し、本人は開けず守られている。指定期間に家の内へ越えた侵入はない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "開けた場合の危険はあるが、実際の領域内侵入による加害・安全喪失は未観察。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "supported",
+          "reason": "家の周りの猫と窓の打音・ドアノブ・壁への接触。本人は開口を避け布団で守り、開ければ危険と判断し睡眠も失う。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "supported",
+          "reason": "家の周りの猫と窓の打音・ドアノブ・壁への接触。本人は開口を避け布団で守り、開ければ危険と判断し睡眠も失う。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "supported",
+          "reason": "家の周りの猫と窓の打音・ドアノブ・壁への接触。本人は開口を避け布団で守り、開ければ危険と判断し睡眠も失う。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "自宅の夜であり、現在地・帰路・滞在の安全条件が分からず定位する問題は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "自宅の夜であり、現在地・帰路・滞在の安全条件が分からず定位する問題は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "怖く眠れないが、家の外へ出たい課題と離脱を阻む障壁は記録されない。出ないことを閉じ込めにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "怖く眠れないが、家の外へ出たい課題と離脱を阻む障壁は記録されない。出ないことを閉じ込めにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "夜ごとの再来は、道・部屋・時間の異常な接続や、その異常による帰還不能ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "夜ごとの再来は、道・部屋・時間の異常な接続や、その異常による帰還不能ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "普通の猫との説明は以前の推測であり、家の夜の同じ命題に競合する知覚・記録・証言は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "普通の猫との説明は以前の推測であり、家の夜の同じ命題に競合する知覚・記録・証言は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "特定の既知人物の本人性や模倣・置換を疑い、危険な代替者として受け入れる問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "特定の既知人物の本人性や模倣・置換を疑い、危険な代替者として受け入れる問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "特定の既知人物の本人性や模倣・置換を疑い、危険な代替者として受け入れる問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "普通の猫に餌をやったことだけでは援助を期待する味方関係ではない。敵対利害による裏切り計画も不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "普通の猫に餌をやったことだけでは援助を期待する味方関係ではない。敵対利害による裏切り計画も不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "普通の猫に餌をやったことだけでは援助を期待する味方関係ではない。敵対利害による裏切り計画も不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "投稿には恐れを書いているが、必要な援助の具体的訴えと他者の拒否、拒否による孤立損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "投稿には恐れを書いているが、必要な援助の具体的訴えと他者の拒否、拒否による孤立損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "投稿には恐れを書いているが、必要な援助の具体的訴えと他者の拒否、拒否による孤立損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "守る対象は本人。大切な他者の重要性・進行中の危険・救助困難は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "守る対象は本人。大切な他者の重要性・進行中の危険・救助困難は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "守る対象は本人。大切な他者の重要性・進行中の危険・救助困難は未指定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "猫は家の外。本人の身体内部への侵入・感染と発症・伝播を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "猫は家の外。本人の身体内部への侵入・感染と発症・伝播を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "本人の身体変質の進行と、その機能・自己像喪失の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "本人の身体変質の進行と、その機能・自己像喪失の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "布団をかぶるのは本人の選択。不随意の発話・動作・加害や制御不能とその害は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "布団をかぶるのは本人の選択。不随意の発話・動作・加害や制御不能とその害は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "布団をかぶるのは本人の選択。不随意の発話・動作・加害や制御不能とその害は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "繰り返しの夜の体験に、自己の記憶・人格・存在の複製・置換・消失の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "繰り返しの夜の体験に、自己の記憶・人格・存在の複製・置換・消失の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "睡眠不足はあるが、身体内部の損傷・痛みの進行と停止不能、その機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "睡眠不足はあるが、身体内部の損傷・痛みの進行と停止不能、その機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "睡眠不足はあるが、身体内部の損傷・痛みの進行と停止不能、その機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "猫は再来するが、独立した起動条件とその有無による害の関係、条件回避の規則はない。開口の接触を禁忌の起動にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "猫は再来するが、独立した起動条件とその有無による害の関係、条件回避の規則はない。開口の接触を禁忌の起動にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "猫は再来するが、独立した起動条件とその有無による害の関係、条件回避の規則はない。開口の接触を禁忌の起動にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "公園から家へ来た可能性はあるが、追跡者の移動と別対象へ危険が媒介される経路は別。新対象への移転の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "公園から家へ来た可能性はあるが、追跡者の移動と別対象へ危険が媒介される経路は別。新対象への移転の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "公園から家へ来た可能性はあるが、追跡者の移動と別対象へ危険が媒介される経路は別。新対象への移転の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "布団と閉戸で無事だが、対処の因果的効力と必要な重要な代償、不作為との選択問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "布団と閉戸で無事だが、対処の因果的効力と必要な重要な代償、不作為との選択問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "布団と閉戸で無事だが、対処の因果的効力と必要な重要な代償、不作為との選択問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "本人は窓を開けず布団をかぶれば大丈夫と考え、接触を防ぐ行動を実行する。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "指定した閉戸・布団の行動は実行できる。時間・設備不足で実行不能な状態ではない。",
+          "evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "眠れない損失はあるが、指定対処が実行不能なことからの損失ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "閉戸・布団の因果的効力は未確認。数晩避け続けることを保管・手入れ等の管理義務にしない。管理放棄の害・本人の管理終了課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "閉戸・布団の因果的効力は未確認。数晩避け続けることを保管・手入れ等の管理義務にしない。管理放棄の害・本人の管理終了課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "閉戸・布団の因果的効力は未確認。数晩避け続けることを保管・手入れ等の管理義務にしない。管理放棄の害・本人の管理終了課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "閉戸・布団の因果的効力は未確認。数晩避け続けることを保管・手入れ等の管理義務にしない。管理放棄の害・本人の管理終了課題もない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "普通の猫との局所理解はあるが、因果・時空・生死の旧基本規則、信頼できる複数の反証、世界一般の安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "普通の猫との局所理解はあるが、因果・時空・生死の旧基本規則、信頼できる複数の反証、世界一般の安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "普通の猫との局所理解はあるが、因果・時空・生死の旧基本規則、信頼できる複数の反証、世界一般の安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "防御と夜の観察はあるが反復検証の設計はない。本人の不眠・知識不足を人間一般の構造的制御限界にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "防御と夜の観察はあるが反復検証の設計はない。本人の不眠・知識不足を人間一般の構造的制御限界にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "防御と夜の観察はあるが反復検証の設計はない。本人の不眠・知識不足を人間一般の構造的制御限界にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "善意・正義・願いが世界で重視されるという旧前提はない。猫の攻撃だけで価値の非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "善意・正義・願いが世界で重視されるという旧前提はない。猫の攻撃だけで価値の非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "善意・正義・願いが世界で重視されるという旧前提はない。猫の攻撃だけで価値の非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "猫の目的は不明。人間の成立を他存在が維持・利用する用途と依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "猫の目的は不明。人間の成立を他存在が維持・利用する用途と依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "猫の目的は不明。人間の成立を他存在が維持・利用する用途と依存関係、一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "猫を怖がっただけで普通の猫だったと思う局所的な理解。",
+        "new_evidence": "家の周囲の声と姿、数晩の窓・戸・壁への作用。",
+        "evidence_scope": "一軒の家と特定の猫、本人の夜の知覚。",
+        "acceptance_and_threat": "また来ると予期し窓を閉め布団で守り、眠れなくなる。",
+        "why_local_explanation_insufficient": "不足理由は未確認。特定の猫や知覚・語りの誤りの局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "普通の猫への過剰な恐れ",
+            "basis": "数日前に本人がそう説明していた。",
+            "status": "earlier_narrator_explanation"
+          },
+          {
+            "hypothesis": "夜の知覚・記憶の誤り",
+            "basis": "独立した確認者はなく、初回を夢と思おうとしていた。",
+            "status": "not_excluded"
+          }
+        ],
+        "limitation": "繰り返しを人間一般の反証や管理責任の終了問題へ拡張しない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "窓・戸を開ければ危険と受け止め、布団をかぶる本人。毎夜の壁の攻撃で眠れず、侵入・接触と睡眠喪失を避ける。"
+        },
+        {
+          "condition_ids": [
+            "F.G1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1"
+          ],
+          "reason": "一度は普通の猫を怖がったと思い、餌をやった経験もある。猫の無害な局所理解を旧前提にする。"
+        },
+        {
+          "condition_ids": [
+            "F.G2",
+            "F.G4"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "家の周りの異様な声、戸・窓・壁への接触が繰り返され、本人は危険と認め保護して眠れない。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "特定の猫と一軒の家の夜。世界・人間一般への拡張や、特殊な猫・知覚・語りの局所説明が不足する理由はない。"
+        },
+        {
+          "condition_ids": [
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "普通の猫という本人の直前の説明と、見間違い・夢の留保。夜の体験に独立した確認者はない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "相手は本人の家の窓・戸・壁まで来る。家の所在を未捕捉ではない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "布団で接触を避けるが、家の所在感知を避ける動機・方法は未記録。"
+        },
+        {
+          "condition_ids": [
+            "A2.R1",
+            "A2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "外から壁・戸に圧力を加える。家の内の本人へ移動追跡して接近する路程は描かれない。"
+        },
+        {
+          "condition_ids": [
+            "A3.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "家の内にいて窓・戸を閉め布団をかぶれば大丈夫と、安全を期待する境界が指定できる。"
+        },
+        {
+          "condition_ids": [
+            "A3.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "猫は外から窓・壁に作用し、本人は開けず守られている。指定期間に家の内へ越えた侵入はない。"
+        },
+        {
+          "condition_ids": [
+            "A3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "開けた場合の危険はあるが、実際の領域内侵入による加害・安全喪失は未観察。"
+        },
+        {
+          "condition_ids": [
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "家の周りの猫と窓の打音・ドアノブ・壁への接触。本人は開口を避け布団で守り、開ければ危険と判断し睡眠も失う。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "自宅の夜であり、現在地・帰路・滞在の安全条件が分からず定位する問題は未記録。"
+        },
+        {
+          "condition_ids": [
+            "B2.R1",
+            "B2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "怖く眠れないが、家の外へ出たい課題と離脱を阻む障壁は記録されない。出ないことを閉じ込めにしない。"
+        },
+        {
+          "condition_ids": [
+            "B3.R1",
+            "B3.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "夜ごとの再来は、道・部屋・時間の異常な接続や、その異常による帰還不能ではない。"
+        },
+        {
+          "condition_ids": [
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "普通の猫との説明は以前の推測であり、家の夜の同じ命題に競合する知覚・記録・証言は未確認。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "特定の既知人物の本人性や模倣・置換を疑い、危険な代替者として受け入れる問題はない。"
+        },
+        {
+          "condition_ids": [
+            "C2.R1",
+            "C2.R2",
+            "C2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "普通の猫に餌をやったことだけでは援助を期待する味方関係ではない。敵対利害による裏切り計画も不明。"
+        },
+        {
+          "condition_ids": [
+            "C3.R1",
+            "C3.R2",
+            "C3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "投稿には恐れを書いているが、必要な援助の具体的訴えと他者の拒否、拒否による孤立損失はない。"
+        },
+        {
+          "condition_ids": [
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "守る対象は本人。大切な他者の重要性・進行中の危険・救助困難は未指定。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "猫は家の外。本人の身体内部への侵入・感染と発症・伝播を示す根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "D2.R1",
+            "D2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "本人の身体変質の進行と、その機能・自己像喪失の予期はない。"
+        },
+        {
+          "condition_ids": [
+            "D3.R1",
+            "D3.R2",
+            "D3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "布団をかぶるのは本人の選択。不随意の発話・動作・加害や制御不能とその害は未確認。"
+        },
+        {
+          "condition_ids": [
+            "D4.R1",
+            "D4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "繰り返しの夜の体験に、自己の記憶・人格・存在の複製・置換・消失の受容はない。"
+        },
+        {
+          "condition_ids": [
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "睡眠不足はあるが、身体内部の損傷・痛みの進行と停止不能、その機能喪失や死の予期は未記録。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R2",
+            "E1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "猫は再来するが、独立した起動条件とその有無による害の関係、条件回避の規則はない。開口の接触を禁忌の起動にしない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "公園から家へ来た可能性はあるが、追跡者の移動と別対象へ危険が媒介される経路は別。新対象への移転の予期はない。"
+        },
+        {
+          "condition_ids": [
+            "E3.R1",
+            "E3.R2",
+            "E3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "布団と閉戸で無事だが、対処の因果的効力と必要な重要な代償、不作為との選択問題は未確認。"
+        },
+        {
+          "condition_ids": [
+            "E4.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "本人は窓を開けず布団をかぶれば大丈夫と考え、接触を防ぐ行動を実行する。"
+        },
+        {
+          "condition_ids": [
+            "E4.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "指定した閉戸・布団の行動は実行できる。時間・設備不足で実行不能な状態ではない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "眠れない損失はあるが、指定対処が実行不能なことからの損失ではない。"
+        },
+        {
+          "condition_ids": [
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "閉戸・布団の因果的効力は未確認。数晩避け続けることを保管・手入れ等の管理義務にしない。管理放棄の害・本人の管理終了課題もない。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "普通の猫との局所理解はあるが、因果・時空・生死の旧基本規則、信頼できる複数の反証、世界一般の安全判断変更はない。"
+        },
+        {
+          "condition_ids": [
+            "F2.R1",
+            "F2.R2",
+            "F2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "防御と夜の観察はあるが反復検証の設計はない。本人の不眠・知識不足を人間一般の構造的制御限界にしない。"
+        },
+        {
+          "condition_ids": [
+            "F3.R1",
+            "F3.R2",
+            "F3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh1",
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "善意・正義・願いが世界で重視されるという旧前提はない。猫の攻撃だけで価値の非中心性と受容を示さない。"
+        },
+        {
+          "condition_ids": [
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W18-R2-E-nh2"
+          ],
+          "reason": "猫の目的は不明。人間の成立を他存在が維持・利用する用途と依存関係、一般的前提変更はない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W09",
+      "record_id": "G01-W09-V3-R2-R01",
+      "actor": "第2話の弟である語り手",
+      "time_scope": "兄の観察後に祖父が警告し、変わった兄を残して帰路で再び見るまで。第3話は別。",
+      "world_layer": "narrated_experience",
+      "selection_reason": "弟の兄の回復・関係の課題と自分の曝露回避を記録し、兄の身体・行動の型を弟へ移さない。",
+      "anticipated_loss": "兄との以前の関係・回復を失うことと、自分も見ることで変化する危険。",
+      "recognition_basis": "兄を元に戻したいと泣き、見てはいけないと分かったうえで末尾に見てしまう。",
+      "closure_observed": "弟は実家を離れるが末尾に白いものを近くで見る。本人の転帰と兄の後の回復は不明。",
+      "limitation": "継承指定の第2話の弟のみ。第1・第3話や他異本を同じ当事者・規則として束ねない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W09-R2-E-k2a",
+          "source_review_id": "G01-W09-R2-S1",
+          "url": "https://www.fumibako.com/kowai/story/1/118.html",
+          "range": "52〜76行",
+          "layer": "narrated_experience_and_inference",
+          "summary": "風で動く案山子という弟の説明、風停止後の動作、兄の双眼鏡観察後の変化。"
+        },
+        {
+          "evidence_id": "G01-W09-R2-E-k2b",
+          "source_review_id": "G01-W09-R2-S1",
+          "url": "https://www.fumibako.com/kowai/story/1/118.html",
+          "range": "77〜99行",
+          "layer": "narrated_experience_and_reported_warning",
+          "summary": "兄の声の変化、祖父の警告と保護、家で兄の乱舞を見る弟。"
+        },
+        {
+          "evidence_id": "G01-W09-R2-E-k2c",
+          "source_review_id": "G01-W09-R2-S1",
+          "url": "https://www.fumibako.com/kowai/story/1/118.html",
+          "range": "100〜119行",
+          "layer": "narrated_experience_and_reported_plan",
+          "summary": "兄を残す祖母の案、弟の関係喪失と回復への思い、帰路での再曝露。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "兄を元に戻したいが離れて暮らすことになり泣く弟。自分も白いものを見れば危険と知る継続した回避・回復課題。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "兄を元に戻したいが離れて暮らすことになり泣く弟。自分も白いものを見れば危険と知る継続した回避・回復課題。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "風で動く新型案山子だという弟の旧局所説明が明記される。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2a"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "風が止んでも動く、兄の声・行動の変化、祖父の警告から、弟は見る危険を受け止める。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "風が止んでも動く、兄の声・行動の変化、祖父の警告から、弟は見る危険を受け止める。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "特定の白いものと兄弟の帰省。世界一般への根拠や、特殊な対象・知覚・語りの局所説明が不足する理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "特定の白いものと兄弟の帰省。世界一般への根拠や、特殊な対象・知覚・語りの局所説明が不足する理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "案山子説は風停止で揺らぐが、自律動作する個物も残る。兄の病状の医学的原因、弟の末尾の転帰は不明。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "白いものが弟を捜す所在未捕捉の追手とは示されない。見る回避を所在感知回避にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "白いものが弟を捜す所在未捕捉の追手とは示されない。見る回避を所在感知回避にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "白いものの動きに弟を標的とした移動接近はない。末尾で近く見たことだけでは追跡ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "白いものの動きに弟を標的とした移動接近はない。末尾で近く見たことだけでは追跡ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "家は出入りするが、白いものが安全領域の境界を越えた根拠と領域内加害はない。兄の帰宅を脅威の侵入にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "家は出入りするが、白いものが安全領域の境界を越えた根拠と領域内加害はない。兄の帰宅を脅威の侵入にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "家は出入りするが、白いものが安全領域の境界を越えた根拠と領域内加害はない。兄の帰宅を脅威の侵入にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "家や車の周囲の包囲、境界維持への圧力、突破・枯渇による損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "家や車の周囲の包囲、境界維持への圧力、突破・枯渇による損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "家や車の周囲の包囲、境界維持への圧力、突破・枯渇による損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "祖父の家から車で帰る。現在地・経緯・帰路の不明による定位と帰還不能の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "祖父の家から車で帰る。現在地・経緯・帰路の不明による定位と帰還不能の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "弟は見る危険を警告され、現場から家へ戻され後に実家を離れる。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "祖父が連れ帰り、車で実家から離脱できる。指定範囲から外へ出る障壁は実際にない。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "田と家と帰路の移動に接続・時間差・反復の異常や、それによる帰還損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "田と家と帰路の移動に接続・時間差・反復の異常や、それによる帰還損失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "風停止で案山子仮説は変わるが、同じ命題の知覚・記録・証言の競合はない。推測の修正を証拠の食い違いとしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "風停止で案山子仮説は変わるが、同じ命題の知覚・記録・証言の競合はない。推測の修正を証拠の食い違いとしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "supported",
+          "reason": "変わった兄という既知人物を指定できる。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "声や行動は変わるが、模倣する代替者・本人置換の証拠と、代替者を本人として接近させる予期損失は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "声や行動は変わるが、模倣する代替者・本人置換の証拠と、代替者を本人として接近させる予期損失は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "祖父母に保護され、兄と仲良く遊んでいた家族関係がある。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "兄を後で田へ放すとの祖母の提案はあるが、弟自身を裏切り・拘束・供犠にする家族の敵対計画はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "兄を後で田へ放すとの祖母の提案はあるが、弟自身を裏切り・拘束・供犠にする家族の敵対計画はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "弟は祖父の警告を受ける側。本人の援助要請が拒否され必要援助を失う場面はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "弟は祖父の警告を受ける側。本人の援助要請が拒否され必要援助を失う場面はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "弟は祖父の警告を受ける側。本人の援助要請が拒否され必要援助を失う場面はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "仲良く遊んだ兄を元に戻したい弟。兄を残して離れるしかなく、来年会っても前の兄ではないと泣き、回復と関係の喪失を受け止める。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "仲良く遊んだ兄を元に戻したい弟。兄を残して離れるしかなく、来年会っても前の兄ではないと泣き、回復と関係の喪失を受け止める。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "supported",
+          "reason": "仲良く遊んだ兄を元に戻したい弟。兄を残して離れるしかなく、来年会っても前の兄ではないと泣き、回復と関係の喪失を受け止める。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "弟の身体内部の寄生・感染・異物侵入や発症はない。兄の状態を弟へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "弟の身体内部の寄生・感染・異物侵入や発症はない。兄の状態を弟へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "弟自身の身体の進行する変形・変質と機能・自己像喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "弟自身の身体の進行する変形・変質と機能・自己像喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "弟の見る・泣く行動について無意図・制御不能・具体的な害の予期は不明。兄の乱舞は別当事者。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "弟の見る・泣く行動について無意図・制御不能・具体的な害の予期は不明。兄の乱舞は別当事者。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "弟の見る・泣く行動について無意図・制御不能・具体的な害の予期は不明。兄の乱舞は別当事者。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "弟自身の記憶・人格・存在の置換や消失の根拠と受容はない。兄を前の兄ではないと思うことは別対象。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "弟自身の記憶・人格・存在の置換や消失の根拠と受容はない。兄を前の兄ではないと思うことは別対象。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "弟の内的痛み・損傷の進行、停止不能、機能喪失・死の予期はない。末尾の観察後の症状は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "弟の内的痛み・損傷の進行、停止不能、機能喪失・死の予期はない。末尾の観察後の症状は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "弟の内的痛み・損傷の進行、停止不能、機能喪失・死の予期はない。末尾の観察後の症状は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "近くで白いものを見る条件と、兄の変化から同様の危険を区別。弟は警告を受け、見てはいけないと認識する。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "近くで白いものを見る条件と、兄の変化から同様の危険を区別。弟は警告を受け、見てはいけないと認識する。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "兄の観察後の変化と祖父の警告はあるが、条件の有無と害を照合する十分な因果根拠は未確認。弟の末尾の転帰はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "兄と弟を別の対象として区別でき、弟も末尾に再曝露する。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "兄から弟へ媒介・伝播する経路は示されない。同じ白いものを各々見ることと、対象間の移転の予期は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "兄から弟へ媒介・伝播する経路は示されない。同じ白いものを各々見ることと、対象間の移転の予期は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "兄を祖父母宅へ残す提案の効力と不可避の代償は未確認。田へ放す将来案を有効な救済・弟の二者択一にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "兄を祖父母宅へ残す提案の効力と不可避の代償は未確認。田へ放す将来案を有効な救済・弟の二者択一にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "兄を祖父母宅へ残す提案の効力と不可避の代償は未確認。田へ放す将来案を有効な救済・弟の二者択一にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "弟は近くで見ないという祖父の警告を理解している。",
+          "evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "末尾に見てしまうが、能力・設備・時間不足で見ないことを実行できなかった根拠はない。転帰も未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "末尾に見てしまうが、能力・設備・時間不足で見ないことを実行できなかった根拠はない。転帰も未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "見る回避と家族の将来の保護案。弟本人に効力のある保管・監視の継続責任、放棄の害・責任終了の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "見る回避と家族の将来の保護案。弟本人に効力のある保管・監視の継続責任、放棄の害・責任終了の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "見る回避と家族の将来の保護案。弟本人に効力のある保管・監視の継続責任、放棄の害・責任終了の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "見る回避と家族の将来の保護案。弟本人に効力のある保管・監視の継続責任、放棄の害・責任終了の課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "案山子の動力という個物の仮説。世界基本規則の旧前提、複数の信頼できる一般的反証と安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "案山子の動力という個物の仮説。世界基本規則の旧前提、複数の信頼できる一般的反証と安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "案山子の動力という個物の仮説。世界基本規則の旧前提、複数の信頼できる一般的反証と安全判断変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "弟は正体を見ようとして止められる。工夫・反復検証を終えた人間一般の構造的限界と受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "弟は正体を見ようとして止められる。工夫・反復検証を終えた人間一般の構造的限界と受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "弟は正体を見ようとして止められる。工夫・反復検証を終えた人間一般の構造的限界と受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "兄の回復を願うが、願いが世界で重視される旧確信はない。一件の兄の状態だけで世界の価値非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "兄の回復を願うが、願いが世界で重視される旧確信はない。一件の兄の状態だけで世界の価値非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "兄の回復を願うが、願いが世界で重視される旧確信はない。一件の兄の状態だけで世界の価値非中心性と受容を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "田へ放すという将来案はあるが、人間を他存在の用途として維持する依存の機構と、一般的な成立前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "田へ放すという将来案はあるが、人間を他存在の用途として維持する依存の機構と、一般的な成立前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "田へ放すという将来案はあるが、人間を他存在の用途として維持する依存の機構と、一般的な成立前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "白いものは風で動く新型案山子だという個物の説明。",
+        "new_evidence": "風が止んでも動き、兄の声と行動が変化し、祖父が見る危険を警告する。",
+        "evidence_scope": "第2話の一回の帰省と兄弟、祖父母の説明。",
+        "acceptance_and_threat": "弟は兄との関係喪失に泣き、見ることの危険を認識する。",
+        "why_local_explanation_insufficient": "不足理由は未確認。特殊な白いもの、兄の病状、知覚・語りの誤りの局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "風による案山子の動作",
+            "basis": "弟の旧説明だが風停止後の動作で揺らぐ。",
+            "status": "earlier_explanation_challenged"
+          },
+          {
+            "hypothesis": "兄の状態の別の医学的・知覚的原因",
+            "basis": "医学的診断や独立した因果確認はなく、弟の末尾の転帰も不明。",
+            "status": "not_excluded"
+          }
+        ],
+        "limitation": "見る・精細に見る・理解するを同じ確定した起動条件にしない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄を元に戻したいが離れて暮らすことになり泣く弟。自分も白いものを見れば危険と知る継続した回避・回復課題。"
+        },
+        {
+          "condition_ids": [
+            "F.G1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a"
+          ],
+          "reason": "風で動く新型案山子だという弟の旧局所説明が明記される。"
+        },
+        {
+          "condition_ids": [
+            "F.G2",
+            "F.G4"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "風が止んでも動く、兄の声・行動の変化、祖父の警告から、弟は見る危険を受け止める。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "特定の白いものと兄弟の帰省。世界一般への根拠や、特殊な対象・知覚・語りの局所説明が不足する理由はない。"
+        },
+        {
+          "condition_ids": [
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "案山子説は風停止で揺らぐが、自律動作する個物も残る。兄の病状の医学的原因、弟の末尾の転帰は不明。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "白いものが弟を捜す所在未捕捉の追手とは示されない。見る回避を所在感知回避にしない。"
+        },
+        {
+          "condition_ids": [
+            "A2.R1",
+            "A2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "白いものの動きに弟を標的とした移動接近はない。末尾で近く見たことだけでは追跡ではない。"
+        },
+        {
+          "condition_ids": [
+            "A3.R1",
+            "A3.R2",
+            "A3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "家は出入りするが、白いものが安全領域の境界を越えた根拠と領域内加害はない。兄の帰宅を脅威の侵入にしない。"
+        },
+        {
+          "condition_ids": [
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "家や車の周囲の包囲、境界維持への圧力、突破・枯渇による損失はない。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "祖父の家から車で帰る。現在地・経緯・帰路の不明による定位と帰還不能の課題はない。"
+        },
+        {
+          "condition_ids": [
+            "B2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟は見る危険を警告され、現場から家へ戻され後に実家を離れる。"
+        },
+        {
+          "condition_ids": [
+            "B2.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "祖父が連れ帰り、車で実家から離脱できる。指定範囲から外へ出る障壁は実際にない。"
+        },
+        {
+          "condition_ids": [
+            "B3.R1",
+            "B3.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "田と家と帰路の移動に接続・時間差・反復の異常や、それによる帰還損失はない。"
+        },
+        {
+          "condition_ids": [
+            "B4.R1",
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b"
+          ],
+          "reason": "風停止で案山子仮説は変わるが、同じ命題の知覚・記録・証言の競合はない。推測の修正を証拠の食い違いとしない。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "変わった兄という既知人物を指定できる。"
+        },
+        {
+          "condition_ids": [
+            "C1.R2",
+            "C1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "声や行動は変わるが、模倣する代替者・本人置換の証拠と、代替者を本人として接近させる予期損失は不明。"
+        },
+        {
+          "condition_ids": [
+            "C2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "祖父母に保護され、兄と仲良く遊んでいた家族関係がある。"
+        },
+        {
+          "condition_ids": [
+            "C2.R2",
+            "C2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄を後で田へ放すとの祖母の提案はあるが、弟自身を裏切り・拘束・供犠にする家族の敵対計画はない。"
+        },
+        {
+          "condition_ids": [
+            "C3.R1",
+            "C3.R2",
+            "C3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟は祖父の警告を受ける側。本人の援助要請が拒否され必要援助を失う場面はない。"
+        },
+        {
+          "condition_ids": [
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "仲良く遊んだ兄を元に戻したい弟。兄を残して離れるしかなく、来年会っても前の兄ではないと泣き、回復と関係の喪失を受け止める。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟の身体内部の寄生・感染・異物侵入や発症はない。兄の状態を弟へ移さない。"
+        },
+        {
+          "condition_ids": [
+            "D2.R1",
+            "D2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟自身の身体の進行する変形・変質と機能・自己像喪失はない。"
+        },
+        {
+          "condition_ids": [
+            "D3.R1",
+            "D3.R2",
+            "D3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟の見る・泣く行動について無意図・制御不能・具体的な害の予期は不明。兄の乱舞は別当事者。"
+        },
+        {
+          "condition_ids": [
+            "D4.R1",
+            "D4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟自身の記憶・人格・存在の置換や消失の根拠と受容はない。兄を前の兄ではないと思うことは別対象。"
+        },
+        {
+          "condition_ids": [
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟の内的痛み・損傷の進行、停止不能、機能喪失・死の予期はない。末尾の観察後の症状は未記録。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "近くで白いものを見る条件と、兄の変化から同様の危険を区別。弟は警告を受け、見てはいけないと認識する。"
+        },
+        {
+          "condition_ids": [
+            "E1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄の観察後の変化と祖父の警告はあるが、条件の有無と害を照合する十分な因果根拠は未確認。弟の末尾の転帰はない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄と弟を別の対象として区別でき、弟も末尾に再曝露する。"
+        },
+        {
+          "condition_ids": [
+            "E2.R2",
+            "E2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄から弟へ媒介・伝播する経路は示されない。同じ白いものを各々見ることと、対象間の移転の予期は別。"
+        },
+        {
+          "condition_ids": [
+            "E3.R1",
+            "E3.R2",
+            "E3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄を祖父母宅へ残す提案の効力と不可避の代償は未確認。田へ放す将来案を有効な救済・弟の二者択一にしない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟は近くで見ないという祖父の警告を理解している。"
+        },
+        {
+          "condition_ids": [
+            "E4.R2",
+            "E4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "末尾に見てしまうが、能力・設備・時間不足で見ないことを実行できなかった根拠はない。転帰も未記録。"
+        },
+        {
+          "condition_ids": [
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "見る回避と家族の将来の保護案。弟本人に効力のある保管・監視の継続責任、放棄の害・責任終了の課題はない。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2a",
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "案山子の動力という個物の仮説。世界基本規則の旧前提、複数の信頼できる一般的反証と安全判断変更はない。"
+        },
+        {
+          "condition_ids": [
+            "F2.R1",
+            "F2.R2",
+            "F2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2b",
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "弟は正体を見ようとして止められる。工夫・反復検証を終えた人間一般の構造的限界と受容はない。"
+        },
+        {
+          "condition_ids": [
+            "F3.R1",
+            "F3.R2",
+            "F3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "兄の回復を願うが、願いが世界で重視される旧確信はない。一件の兄の状態だけで世界の価値非中心性と受容を示さない。"
+        },
+        {
+          "condition_ids": [
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W09-R2-E-k2c"
+          ],
+          "reason": "田へ放すという将来案はあるが、人間を他存在の用途として維持する依存の機構と、一般的な成立前提変更はない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W04",
+      "record_id": "G01-W04-V3-R2-R01",
+      "actor": "高校でAの暴力を受けた語り手",
+      "time_scope": "Aによる反復暴力から教師との面談、翌日からの不登校まで。転落死の目撃以降は別。",
+      "world_layer": "narrated_experience_with_later_reported_context",
+      "selection_reason": "危険の訴えと不受容を区別し、後の祓い説明を読んでもAの敵対目的や教師の拒絶を補わない。",
+      "anticipated_loss": "反復暴力と孤立したまま学校に戻ること。",
+      "recognition_basis": "停止を懇願し、Aを怖いと言い、学校に行っても一人だからと休む。",
+      "closure_observed": "Aが休み暴力の場面は一旦止まるが、本人は学校を休む。訴えへの教師の最終認定・援助は不明。",
+      "limitation": "初期の学校の本人だけ。以後の取り憑き・Aの手紙・Bの口調変化は当時の事実や意図へ移さない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W04-R2-E-ub1",
+          "source_review_id": "G01-W04-R2-S1",
+          "url": "https://llike.net/2ch/fear/sku/",
+          "range": "43〜53行",
+          "layer": "narrated_experience",
+          "summary": "仲良かったAの反復暴力、停止の懇願と周囲の非介入、A不登校後も続く孤立。"
+        },
+        {
+          "evidence_id": "G01-W04-R2-E-ub2",
+          "source_review_id": "G01-W04-R2-S1",
+          "url": "https://llike.net/2ch/fear/sku/",
+          "range": "54〜91行",
+          "layer": "narrated_experience_and_reported_testimony",
+          "summary": "教師の逆の疑い、本人の被害の訴え、Aの怖いという説明。本人は排除と受け止め翌日から休む。"
+        },
+        {
+          "evidence_id": "G01-W04-R2-E-ub3",
+          "source_review_id": "G01-W04-R2-S1",
+          "url": "https://llike.net/2ch/fear/sku/",
+          "range": "224〜262行",
+          "layer": "later_reported_explanation",
+          "summary": "親族はAの暴力を祓いの見様見真似と説明し、行き過ぎとも認める。動機の独立確認ではない。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "繰り返す暴力を止めるため懇願し、孤立と再登校の困難を受け止める高校生の本人。読者だけの怖さではない。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "繰り返す暴力を止めるため懇願し、孤立と再登校の困難を受け止める高校生の本人。読者だけの怖さではない。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "いじめは多人数対一人と思っていたという旧理解。ただし社会的な個別イメージ。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "一人の友人の反復暴力と教師の逆の疑いから、自分一人が排除されると受け止め登校をやめる。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "一人の友人の反復暴力と教師の逆の疑いから、自分一人が排除されると受け止め登校をやめる。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一校の人間関係。世界・人間一般へ一般化する根拠や局所的な暴力・伝達誤りで足りない理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "一校の人間関係。世界・人間一般へ一般化する根拠や局所的な暴力・伝達誤りで足りない理由はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "Aの怖いという訴えと本人の暴力体験の食い違い。後の祓い目的の説明は伝聞で、当時の教師・Aの意図は独立確認されない。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2",
+            "G01-W04-R2-E-ub3"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2",
+            "G01-W04-R2-E-ub3"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "学校で暴力を受けるが所在未捕捉の追手と感知回避はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "学校で暴力を受けるが所在未捕捉の追手と感知回避はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "毎日の暴力はあるが、本人を追い移動接近する路程と接近中の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "毎日の暴力はあるが、本人を追い移動接近する路程と接近中の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "学校を安全領域として指定する境界・侵入の根拠はない。友人の暴力だけを境界侵犯にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "学校を安全領域として指定する境界・侵入の根拠はない。友人の暴力だけを境界侵犯にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "学校を安全領域として指定する境界・侵入の根拠はない。友人の暴力だけを境界侵犯にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "周囲の無援助は防御領域の包囲・境界消耗ではない。突破と維持資源による損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "周囲の無援助は防御領域の包囲・境界消耗ではない。突破と維持資源による損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "周囲の無援助は防御領域の包囲・境界消耗ではない。突破と維持資源による損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "学校と帰宅先は既知。現在地・経緯・帰路・滞在の定位不明による帰還不能はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "学校と帰宅先は既知。現在地・経緯・帰路・滞在の定位不明による帰還不能はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "孤立する学校へ行きたくない理由があり、自宅に帰り翌日から休む。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "面談後に解放され帰宅し、学校を休める。指定範囲で学校外への離脱は実行できる。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "学校から帰宅する道・時間の接続異常と、それによる帰還不能・消耗はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "学校から帰宅する道・時間の接続異常と、それによる帰還不能・消耗はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "supported",
+          "reason": "誰がいじめているかで本人の体験と、教師がAから聞いた説明が食い違う。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "本人は自分が暴力被害者と知る。どちらの根拠を採用するか本人の安全判断が迷う課題とは未確認。教師の判断は別当事者。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "Aの態度は急変するが、別の模倣者・置換者の本人性を疑い接近を許す問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "Aの態度は急変するが、別の模倣者・置換者の本人性を疑い接近を許す問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "Aの態度は急変するが、別の模倣者・置換者の本人性を疑い接近を許す問題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "前年まで仲の良かった友人Aという信頼関係が明記される。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "反復暴力は直接の実害だが、A本人の敵対的利害・目的は語られない。後の親族は祓いの失敗と説明するので無条件に敵対計画を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub3"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "supported",
+          "reason": "本人は友人と教師による排除と受け止め、殴られることと孤立を危険としている。意図の事実認定とは別。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "やめてと懇願し、教師へ皆の前で殴られたと自分の体験を訴える。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "教師は逆の疑いから質問するが、最後は分かったと言う。被害の訴えを拒否したのか、何を信じたかは未確定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "教師の訴え不受容によって必要援助が成立しなかったとは未確認。周囲の非介入とAへの懇願は別の他者関係で、教師への訴えの条件に接合しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "本人は被害を受ける側。大切な別人への将来の危険・救助不能はない。後のAの死を当時に予期していない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "本人は被害を受ける側。大切な別人への将来の危険・救助不能はない。後のAの死を当時に予期していない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "本人は被害を受ける側。大切な別人への将来の危険・救助不能はない。後のAの死を当時に予期していない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "暴力は外的接触。身体内部への侵入・感染とその発症・伝播の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "暴力は外的接触。身体内部への侵入・感染とその発症・伝播の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "本人の身体が別の物へ変質する進行と機能・自己像喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "本人の身体が別の物へ変質する進行と機能・自己像喪失はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "explicitly_false",
+          "reason": "最初は喧嘩と思って殴り合ったと本人が叙述する。指定した本人の加害は意図した応戦であり、意図しない行為ではない。後の殺意も本気の思いと記す。",
+          "evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "意図した殴り合いや殺意を制御不能の行為にしない。具体的な不随意行為とそれによる害はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "意図した殴り合いや殺意を制御不能の行為にしない。具体的な不随意行為とそれによる害はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "孤立と怒りに、自分の記憶・人格・存在の複製・埋込・置換の根拠と喪失の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "孤立と怒りに、自分の記憶・人格・存在の複製・埋込・置換の根拠と喪失の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "暴力と精神的苦痛はあるが、身体内的損傷の進行・停止不能・それによる機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "暴力と精神的苦痛はあるが、身体内的損傷の進行・停止不能・それによる機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "暴力と精神的苦痛はあるが、身体内的損傷の進行・停止不能・それによる機能喪失や死の予期は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "本人に暴力が始まる独立した禁忌・接触の起動条件、その比較根拠と条件回避判断はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "本人に暴力が始まる独立した禁忌・接触の起動条件、その比較根拠と条件回避判断はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "本人に暴力が始まる独立した禁忌・接触の起動条件、その比較根拠と条件回避判断はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "いじめの孤立はあるが、危険が媒介され新対象へ移る対象ID・経路・将来予期はない。後のAの手紙は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "いじめの孤立はあるが、危険が媒介され新対象へ移る対象ID・経路・将来予期はない。後のAの手紙は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "いじめの孤立はあるが、危険が媒介され新対象へ移る対象ID・経路・将来予期はない。後のAの手紙は別時点。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "学校を休むが、脅威への有効な対処と必要な重要な代償、不可避な選択の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "学校を休むが、脅威への有効な対処と必要な重要な代償、不可避な選択の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "学校を休むが、脅威への有効な対処と必要な重要な代償、不可避な選択の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "やめるよう懇願するが、本人が原因・対処規則を理解しその実行を資源不足で阻まれる問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "やめるよう懇願するが、本人が原因・対処規則を理解しその実行を資源不足で阻まれる問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "やめるよう懇願するが、本人が原因・対処規則を理解しその実行を資源不足で阻まれる問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "登校回避は危険物の保管・監視・継承ではない。効力・継続管理義務・放棄の害・管理終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "登校回避は危険物の保管・監視・継承ではない。効力・継続管理義務・放棄の害・管理終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "登校回避は危険物の保管・監視・継承ではない。効力・継続管理義務・放棄の害・管理終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "登校回避は危険物の保管・監視・継承ではない。効力・継続管理義務・放棄の害・管理終了課題はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "いじめの旧イメージは因果・時空・生死の基本規則ではない。一般的反証と世界の安全判断変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "いじめの旧イメージは因果・時空・生死の基本規則ではない。一般的反証と世界の安全判断変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "いじめの旧イメージは因果・時空・生死の基本規則ではない。一般的反証と世界の安全判断変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "懇願・面談はあるが反復検証後の人間一般の認識・能力の構造的限界と、その旧前提変更の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "懇願・面談はあるが反復検証後の人間一般の認識・能力の構造的限界と、その旧前提変更の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "懇願・面談はあるが反復検証後の人間一般の認識・能力の構造的限界と、その旧前提変更の受容はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "友人・教師への期待はあるが、正義が世界で重視される旧確信はない。一校の不当な扱いを超える価値非中心性は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "友人・教師への期待はあるが、正義が世界で重視される旧確信はない。一校の不当な扱いを超える価値非中心性は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "友人・教師への期待はあるが、正義が世界で重視される旧確信はない。一校の不当な扱いを超える価値非中心性は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "本人への暴力と孤立。人間を他存在の資源として維持する用途・成立依存・一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "本人への暴力と孤立。人間を他存在の資源として維持する用途・成立依存・一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "本人への暴力と孤立。人間を他存在の資源として維持する用途・成立依存・一般的前提変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "いじめは多人数で一人を害するものという、中学時代の経験によるイメージ。",
+        "new_evidence": "一人の友人の反復暴力と周囲の非介入、教師の逆の疑い。",
+        "evidence_scope": "一つの学校と本人・A・教師。後の祓い説明は別時点の伝聞。",
+        "acceptance_and_threat": "本人は一人だけ排除されると受け止め、殺意と登校回避に至る。",
+        "why_local_explanation_insufficient": "不足理由は未確認。学校の暴力、周囲の非介入、伝達の誤り、Aの未確認の動機で局所的に説明できる。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "友人によるいじめと教師への情報の誤伝達",
+            "basis": "本人の暴力体験と教師が聞いた怖いという説明。",
+            "status": "locally_plausible"
+          },
+          {
+            "hypothesis": "Aの不完全な祓い",
+            "basis": "後に親族が説明するがA本人の動機は直接記録されない。",
+            "status": "later_hearsay_unconfirmed"
+          }
+        ],
+        "limitation": "地域の現実的性質や人間一般の世界前提へ語り手の偏見を拡張しない。"
+      },
+      "authorship_format": "explicit_condition_groups",
+      "condition_review_groups": [
+        {
+          "condition_ids": [
+            "AE.G1",
+            "AE.G2"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "繰り返す暴力を止めるため懇願し、孤立と再登校の困難を受け止める高校生の本人。読者だけの怖さではない。"
+        },
+        {
+          "condition_ids": [
+            "F.G1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "いじめは多人数対一人と思っていたという旧理解。ただし社会的な個別イメージ。"
+        },
+        {
+          "condition_ids": [
+            "F.G2",
+            "F.G4"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "一人の友人の反復暴力と教師の逆の疑いから、自分一人が排除されると受け止め登校をやめる。"
+        },
+        {
+          "condition_ids": [
+            "F.G3",
+            "F.G5"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "一校の人間関係。世界・人間一般へ一般化する根拠や局所的な暴力・伝達誤りで足りない理由はない。"
+        },
+        {
+          "condition_ids": [
+            "F.G6"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2",
+            "G01-W04-R2-E-ub3"
+          ],
+          "reason": "Aの怖いという訴えと本人の暴力体験の食い違い。後の祓い目的の説明は伝聞で、当時の教師・Aの意図は独立確認されない。"
+        },
+        {
+          "condition_ids": [
+            "A1.R1",
+            "A1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "学校で暴力を受けるが所在未捕捉の追手と感知回避はない。"
+        },
+        {
+          "condition_ids": [
+            "A2.R1",
+            "A2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "reason": "毎日の暴力はあるが、本人を追い移動接近する路程と接近中の予期は未記録。"
+        },
+        {
+          "condition_ids": [
+            "A3.R1",
+            "A3.R2",
+            "A3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "学校を安全領域として指定する境界・侵入の根拠はない。友人の暴力だけを境界侵犯にしない。"
+        },
+        {
+          "condition_ids": [
+            "A4.R1",
+            "A4.R2",
+            "A4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "周囲の無援助は防御領域の包囲・境界消耗ではない。突破と維持資源による損失は未確認。"
+        },
+        {
+          "condition_ids": [
+            "B1.R1",
+            "B1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "学校と帰宅先は既知。現在地・経緯・帰路・滞在の定位不明による帰還不能はない。"
+        },
+        {
+          "condition_ids": [
+            "B2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "孤立する学校へ行きたくない理由があり、自宅に帰り翌日から休む。"
+        },
+        {
+          "condition_ids": [
+            "B2.R2"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "面談後に解放され帰宅し、学校を休める。指定範囲で学校外への離脱は実行できる。"
+        },
+        {
+          "condition_ids": [
+            "B3.R1",
+            "B3.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "学校から帰宅する道・時間の接続異常と、それによる帰還不能・消耗はない。"
+        },
+        {
+          "condition_ids": [
+            "B4.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "誰がいじめているかで本人の体験と、教師がAから聞いた説明が食い違う。"
+        },
+        {
+          "condition_ids": [
+            "B4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人は自分が暴力被害者と知る。どちらの根拠を採用するか本人の安全判断が迷う課題とは未確認。教師の判断は別当事者。"
+        },
+        {
+          "condition_ids": [
+            "C1.R1",
+            "C1.R2",
+            "C1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "Aの態度は急変するが、別の模倣者・置換者の本人性を疑い接近を許す問題はない。"
+        },
+        {
+          "condition_ids": [
+            "C2.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1"
+          ],
+          "reason": "前年まで仲の良かった友人Aという信頼関係が明記される。"
+        },
+        {
+          "condition_ids": [
+            "C2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub3"
+          ],
+          "reason": "反復暴力は直接の実害だが、A本人の敵対的利害・目的は語られない。後の親族は祓いの失敗と説明するので無条件に敵対計画を確定しない。"
+        },
+        {
+          "condition_ids": [
+            "C2.R3"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人は友人と教師による排除と受け止め、殴られることと孤立を危険としている。意図の事実認定とは別。"
+        },
+        {
+          "condition_ids": [
+            "C3.R1"
+          ],
+          "state": "supported",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "やめてと懇願し、教師へ皆の前で殴られたと自分の体験を訴える。"
+        },
+        {
+          "condition_ids": [
+            "C3.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "教師は逆の疑いから質問するが、最後は分かったと言う。被害の訴えを拒否したのか、何を信じたかは未確定。"
+        },
+        {
+          "condition_ids": [
+            "C3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "教師の訴え不受容によって必要援助が成立しなかったとは未確認。周囲の非介入とAへの懇願は別の他者関係で、教師への訴えの条件に接合しない。"
+        },
+        {
+          "condition_ids": [
+            "C4.R1",
+            "C4.R2",
+            "C4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人は被害を受ける側。大切な別人への将来の危険・救助不能はない。後のAの死を当時に予期していない。"
+        },
+        {
+          "condition_ids": [
+            "D1.R1",
+            "D1.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "暴力は外的接触。身体内部への侵入・感染とその発症・伝播の根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "D2.R1",
+            "D2.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人の身体が別の物へ変質する進行と機能・自己像喪失はない。"
+        },
+        {
+          "condition_ids": [
+            "D3.R1"
+          ],
+          "state": "explicitly_false",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "最初は喧嘩と思って殴り合ったと本人が叙述する。指定した本人の加害は意図した応戦であり、意図しない行為ではない。後の殺意も本気の思いと記す。"
+        },
+        {
+          "condition_ids": [
+            "D3.R2",
+            "D3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "意図した殴り合いや殺意を制御不能の行為にしない。具体的な不随意行為とそれによる害はない。"
+        },
+        {
+          "condition_ids": [
+            "D4.R1",
+            "D4.R2"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "孤立と怒りに、自分の記憶・人格・存在の複製・埋込・置換の根拠と喪失の受容はない。"
+        },
+        {
+          "condition_ids": [
+            "D5.R1",
+            "D5.R2",
+            "D5.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "暴力と精神的苦痛はあるが、身体内的損傷の進行・停止不能・それによる機能喪失や死の予期は未記録。"
+        },
+        {
+          "condition_ids": [
+            "E1.R1",
+            "E1.R2",
+            "E1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人に暴力が始まる独立した禁忌・接触の起動条件、その比較根拠と条件回避判断はない。"
+        },
+        {
+          "condition_ids": [
+            "E2.R1",
+            "E2.R2",
+            "E2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "いじめの孤立はあるが、危険が媒介され新対象へ移る対象ID・経路・将来予期はない。後のAの手紙は別時点。"
+        },
+        {
+          "condition_ids": [
+            "E3.R1",
+            "E3.R2",
+            "E3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "学校を休むが、脅威への有効な対処と必要な重要な代償、不可避な選択の根拠はない。"
+        },
+        {
+          "condition_ids": [
+            "E4.R1",
+            "E4.R2",
+            "E4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "やめるよう懇願するが、本人が原因・対処規則を理解しその実行を資源不足で阻まれる問題は未特定。"
+        },
+        {
+          "condition_ids": [
+            "E5.R1",
+            "E5.R2",
+            "E5.R3",
+            "E5.R4"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "登校回避は危険物の保管・監視・継承ではない。効力・継続管理義務・放棄の害・管理終了課題はない。"
+        },
+        {
+          "condition_ids": [
+            "F1.R1",
+            "F1.R2",
+            "F1.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "いじめの旧イメージは因果・時空・生死の基本規則ではない。一般的反証と世界の安全判断変更は未確認。"
+        },
+        {
+          "condition_ids": [
+            "F2.R1",
+            "F2.R2",
+            "F2.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "懇願・面談はあるが反復検証後の人間一般の認識・能力の構造的限界と、その旧前提変更の受容はない。"
+        },
+        {
+          "condition_ids": [
+            "F3.R1",
+            "F3.R2",
+            "F3.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "友人・教師への期待はあるが、正義が世界で重視される旧確信はない。一校の不当な扱いを超える価値非中心性は未確認。"
+        },
+        {
+          "condition_ids": [
+            "F4.R1",
+            "F4.R2",
+            "F4.R3"
+          ],
+          "state": "unknown",
+          "inspected_evidence_ids": [
+            "G01-W04-R2-E-ub1",
+            "G01-W04-R2-E-ub2"
+          ],
+          "reason": "本人への暴力と孤立。人間を他存在の資源として維持する用途・成立依存・一般的前提変更はない。"
+        }
+      ]
     }
   ],
   "work_progress": {
@@ -11499,9 +16928,9 @@
     },
     "G01-W04": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "初期の学校の本人だけ。以後の取り憑き・Aの手紙・Bの口調変化は当時の事実や意図へ移さない。"
     },
     "G01-W05": {
       "inherited_narrative_status": "pending",
@@ -11529,9 +16958,9 @@
     },
     "G01-W09": {
       "inherited_narrative_status": "scoped",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "継承指定の第2話の弟のみ。第1・第3話や他異本を同じ当事者・規則として束ねない。"
     },
     "G01-W10": {
       "inherited_narrative_status": "ready",
@@ -11583,9 +17012,9 @@
     },
     "G01-W18": {
       "inherited_narrative_status": "scoped",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 2,
+      "limitation": "初回引用の終端まで。専用スレッド・二ノ巻の結末は未確認。"
     },
     "G01-W19": {
       "inherited_narrative_status": "ready",

@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T07:31:50Z",
+  "observed_after_at_utc": "2026-10-11T07:41:16Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 20,
+  "fully_rechecked_published_bodies": 23,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -231,8 +231,38 @@
       "note": "掲載記事234行以降の編集者による続編紹介を本文に混ぜず、未確認の猫忍シリーズ全体を完了扱いにしない。初出スレッドのリンクは見つかったが、その本文は未取得。",
       "review_id": "G01-W18-R2-S1",
       "observed_after_at_utc": "2026-10-11T07:31:50Z"
+    },
+    {
+      "work_id": "G01-W24",
+      "url": "https://www.episodex.org/story/20180225001/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文35〜199行、サークル旅行から祖父の通夜での主観的な声の解釈まで。",
+      "original_post_identity": "unconfirmed",
+      "note": "富士の影の地理的説明はUの親の説明、死者の声という判断は後年の本人の推論。声・主体の変化とU本人の当時の予期・意図を混ぜない。",
+      "review_id": "G01-W24-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:41:16Z"
+    },
+    {
+      "work_id": "G01-W26",
+      "url": "https://225.jpn.org/yomi/2005/09/21/ryoumen_sukuna/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文39〜126行と158〜289行、投稿452〜515の本人の体験と電話報告。128〜157行の他投稿者の漫画情報を分離。",
+      "original_post_identity": "unconfirmed",
+      "note": "元住職・息子の説明は伝聞、災害の関連は両者とも偶然の可能性を認める。開封者と語り手・過去の監禁被害者・管理者の当事者を分ける。",
+      "review_id": "G01-W26-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:41:16Z"
+    },
+    {
+      "work_id": "G01-W16",
+      "url": "https://kaiitan.com/article/367467385.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文5〜289行、2007-03-29投稿826。コメント除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "黒い上着仮説は白い上着での襲撃に反証され、解剖臭仮説には解剖なしの日の観察比較がある。最後の死臭説・友人の死の因果は本人にも未確定。犬を投げ込まれる家への侵犯と、追手本体の侵入は区別。",
+      "review_id": "G01-W16-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:41:16Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 19,
-  "remaining_of_r1_inherited_102": 83
+  "fully_rechecked_of_r1_inherited_102": 22,
+  "remaining_of_r1_inherited_102": 80
 }
