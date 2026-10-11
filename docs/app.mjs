@@ -31,13 +31,30 @@ function narrativeHTML(w){
   const scope=`<details class="narrative-notes"><summary>確認範囲・未確認部分と出典</summary><p>${paragraph(n.scope)}</p>${n.limitations.length?`<ul>${n.limitations.map(v=>`<li>${paragraph(v)}</li>`).join('')}</ul>`:''}${sources.map(r=>`<div class="narrative-source" id="review-${esc(r.review_id)}"><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">今回再確認した本文 · ${esc(r.source_id)}</a><p>${paragraph(r.scope)}</p><p class="small-note">今回の再確認日時（UTC）：${esc(r.accessed_at_utc)}。v1の取得日時とは別の記録です。<a href="#source-${esc(r.source_id)}">既存の出典台帳を見る</a></p></div>`).join('')}</details>`;
   if(n.status==='pending')return `<section class="work-narrative narrative-pending" aria-labelledby="narrative-title" data-narrative-status="pending"><p class="section-index">あらすじ・出来事の流れ</p><h2 id="narrative-title">あらすじ作成を保留しています</h2><p>${paragraph(n.reason)}</p><p class="small-note">この状態は今回のあらすじ作成についてのものです。上に示したv1の本文状態と、以下の調査記録はそのまま参照できます。</p>${scope}<a class="narrative-jump" href="#work-sources-${esc(w.work_id)}">出典と未確定の点を読む</a></section>`;
   const typeLabel=id=>`<a class="timeline-type" href="#type-${esc(id)}">${esc(id)} ${esc(data.types.find(t=>t.id===id).name)}</a>`;
-  const threads=n.threads.map(thread=>`<section class="timeline-thread" aria-label="${esc(thread.label)}"><h3>${esc(thread.label)}</h3><p class="small-note">${paragraph(thread.note)}</p><ol class="story-timeline">${thread.steps.map((step,i)=>`<li class="timeline-step"><span class="timeline-number" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><article class="timeline-card"><p class="timeline-time">${esc(step.time)} <span class="fact-kind">${esc(factLabels[step.fact_kind])}</span></p><h4>${esc(step.title)}</h4><p class="timeline-event">${paragraph(step.event)}</p>${step.fears.length?`<div class="timeline-fears">${step.fears.map(f=>{
+  const fearHTML=f=>{
     const scene=w.scenes.find(s=>s.scene_id===f.scene_id);
-    return `<div class="timeline-fear"><h5>ここで生じる恐怖・解釈</h5><p>${paragraph(f.fear)}</p><div class="timeline-types">${f.type_ids.length?f.type_ids.map(typeLabel).join(''):'<span class="small-note">v1で型の付与なし</span>'}</div><p class="timeline-basis"><strong>対応の根拠・留保</strong> ${paragraph(f.basis)}</p><p class="timeline-scene"><a href="#scene-${esc(f.scene_id)}">v1の場面記録 ${esc(f.scene_id)}</a> · 場面全体の判定：${esc(scene.fit)}</p></div>`;
-  }).join('')}</div>`:'<p class="timeline-context">経緯・背景の段階。ここでは型を付けていません。</p>'}<details class="timeline-evidence"><summary>語られる位置・本文の根拠</summary><p>${paragraph(step.narrative_position)}</p><p>${step.source_review_ids.map(id=>{
-    const r=sources.find(s=>s.review_id===id);return `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">確認した本文 ${esc(r.source_id)}</a>`;
-  }).join(' · ')}</p></details></article>${i<thread.steps.length-1?'<span class="timeline-arrow" aria-hidden="true">↓</span>':''}</li>`).join('')}</ol></section>`).join('');
-  return `<section class="work-narrative" aria-labelledby="narrative-title" data-narrative-status="${esc(n.status)}"><div class="narrative-heading"><p class="section-index">あらすじ / ネタバレあり</p><span class="narrative-state">${esc(narrativeLabels[n.status])}</span></div><h2 id="narrative-title">発端から結末まで</h2><div class="story-summary"><p>${paragraph(n.summary.opening)}</p><p>${paragraph(n.summary.development)}</p><p>${paragraph(n.summary.ending)}</p></div>${scope}<div class="timeline-heading"><h2>出来事と恐怖の流れ</h2><p>${paragraph(n.chronology_note)}</p><p class="narrative-order"><strong>語りの順序</strong> ${paragraph(n.narrative_note)}</p><details class="timeline-reading"><summary>矢印と恐怖の対応の読み方</summary><p class="small-note">矢印は各流れの中で時間が進む方向を示します。恐怖の対応は既存v1を参照した編集上の解釈です。場面全体の判定は各型の確定評価ではなく、v3の再分類・検証でもありません。</p></details></div>${threads}</section>`;
+    return `<div class="timeline-fear">
+      <h5>ここで生じる恐怖・解釈</h5><p class="timeline-fear-text">${paragraph(f.fear)}</p>
+      <p class="timeline-label">固定v1の候補</p><div class="timeline-types">${f.type_ids.length?f.type_ids.map(typeLabel).join(''):'<span class="small-note">v1で型の付与なし</span>'}</div>
+      <details class="timeline-analysis"><summary>分類の根拠・留保 <span class="timeline-fit">場面全体：${esc(scene.fit)}</span></summary>
+        <p class="timeline-basis">${paragraph(f.basis)}</p><p class="timeline-scene"><a href="#scene-${esc(f.scene_id)}">v1の場面記録 ${esc(f.scene_id)}</a></p>
+      </details>
+    </div>`;
+  };
+  const stepHTML=(step,i)=>`<li class="timeline-step${step.fears.length?' has-fear':''}">
+    <div class="timeline-milestone"><span class="timeline-position" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><p class="timeline-time">${esc(step.time)}</p></div>
+    <span class="timeline-node" aria-hidden="true"></span>
+    <article class="timeline-card" aria-labelledby="timeline-title-${esc(step.step_id)}">
+      <header class="timeline-card-heading"><p class="fact-kind">${esc(factLabels[step.fact_kind])}</p><h4 id="timeline-title-${esc(step.step_id)}">${esc(step.title)}</h4></header>
+      <p class="timeline-event">${paragraph(step.event)}</p>
+      ${step.fears.length?`<div class="timeline-fears">${step.fears.map(fearHTML).join('')}</div>`:'<p class="timeline-context">経緯・背景の段階。ここでは型を付けていません。</p>'}
+      <div class="timeline-card-footer"><details class="timeline-evidence"><summary>語られる位置・本文の根拠</summary><p>${paragraph(step.narrative_position)}</p><p>${step.source_review_ids.map(id=>{
+        const r=sources.find(s=>s.review_id===id);return `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">確認した本文 ${esc(r.source_id)}</a>`;
+      }).join(' · ')}</p></details></div>
+    </article>
+  </li>`;
+  const threads=n.threads.map(thread=>`<section class="timeline-thread" aria-label="${esc(thread.label)}"><h3>${esc(thread.label)}</h3><p class="small-note">${paragraph(thread.note)}</p><ol class="story-timeline" role="list">${thread.steps.map(stepHTML).join('')}</ol></section>`).join('');
+  return `<section class="work-narrative" aria-labelledby="narrative-title" data-narrative-status="${esc(n.status)}"><div class="narrative-heading"><p class="section-index">あらすじ / ネタバレあり</p><span class="narrative-state">${esc(narrativeLabels[n.status])}</span></div><h2 id="narrative-title">発端から結末まで</h2><div class="story-summary"><p>${paragraph(n.summary.opening)}</p><p>${paragraph(n.summary.development)}</p><p>${paragraph(n.summary.ending)}</p></div>${scope}<div class="timeline-heading"><h2>出来事と恐怖の流れ</h2><p>${paragraph(n.chronology_note)}</p><p class="narrative-order"><strong>語りの順序</strong> ${paragraph(n.narrative_note)}</p><details class="timeline-reading"><summary>時系列と恐怖の対応の読み方</summary><p class="small-note">各流れは上から下へ、確認した出来事の順に読みます。恐怖の対応は既存v1を参照した編集上の解釈です。場面全体の判定は各型の確定評価ではなく、v3の再分類・検証でもありません。</p></details></div>${threads}</section>`;
 }
 function fillFields(){
   const params=new URLSearchParams(location.search);

@@ -258,15 +258,21 @@ test('spoiler summary leads the detail; chronology, interpretation and v1 backli
   assert.equal(await page.locator('.timeline-thread').last().locator('.fact-kind').textContent(),'作中で見た映像');
   assert.equal(await page.evaluate(()=>Boolean(document.querySelector('.work-narrative').compareDocumentPosition(document.querySelector('.work-original-analysis'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
   assert.equal(await page.locator('.work-original-analysis').getAttribute('open'),null);
-  assert.equal(await page.locator('.timeline-arrow').count(),3);
+  assert.equal(await page.locator('.timeline-arrow').count(),0);
+  assert.equal(await page.locator('.timeline-node').count(),5);
   assert.match(await page.locator('.timeline-heading').textContent(),/v3の再分類・検証でもありません/);
   await page.locator('.narrative-notes > summary').click();
   assert.match(await page.locator('.narrative-notes').textContent(),/v1の取得日時とは別/);
+  const analysis=page.locator('.timeline-analysis').first();
+  await analysis.locator('summary').focus();
+  await page.keyboard.press('Enter');
+  assert.equal(await analysis.getAttribute('open'),'');
   const scene=page.locator('.timeline-scene a').first();
   const sceneId=(await scene.getAttribute('href')).slice(7);
   await scene.click();
   await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
   assert.equal(await page.locator('.narrative-notes').getAttribute('open'),'');
+  assert.equal(await page.locator('.timeline-analysis').first().getAttribute('open'),'');
   await page.locator('.timeline-type[href="#type-A2"]').first().click();
   await page.waitForFunction(()=>!document.getElementById('report').hidden && document.getElementById('type-A2').open);
   await page.goBack();
@@ -330,4 +336,61 @@ test('one-file PoC allows switching stories without any extra resource or data r
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   assert.deepEqual(errors,[]);
   assert.equal(requests.length,1);
+});
+
+async function checkRail(page){
+  const rails=await page.locator('.story-timeline').evaluateAll(lists=>lists.map(list=>Array.from(list.children).map(li=>{
+    const r=li.getBoundingClientRect(),node=li.querySelector('.timeline-node').getBoundingClientRect(),card=li.querySelector('.timeline-card').getBoundingClientRect(),line=getComputedStyle(li,'::before');
+    return {nodeX:node.x+node.width/2,nodeY:node.y+node.height/2,cardLeft:card.left,cardRight:card.right,cardTop:card.top,lineX:r.x+parseFloat(line.left)+parseFloat(line.width)/2,lineEnd:r.y+parseFloat(line.top)+parseFloat(line.height),content:line.content};
+  })));
+  for(const steps of rails){
+    for(let i=0;i<steps.length;i++){
+      const s=steps[i];
+      assert.ok(Math.abs(s.nodeX-steps[0].nodeX)<1,'nodes align on one axis');
+      assert.ok(Math.abs(s.cardLeft-steps[0].cardLeft)<1,'cards share one edge');
+      assert.ok(s.nodeX<s.cardLeft && s.cardRight<=await page.evaluate(()=>innerWidth),'axis stays beside the card');
+      if(i<steps.length-1){
+        assert.ok(Math.abs(s.lineX-s.nodeX)<1,'rail crosses node centers');
+        assert.ok(Math.abs(s.lineEnd-steps[i+1].nodeY)<1,'rail connects the following node');
+        assert.ok(s.cardTop<steps[i+1].cardTop,'reading order remains top to bottom');
+      }else assert.equal(s.content,'none','rail stops at the final node');
+    }
+  }
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+}
+
+test('every PoC keeps chronological DOM order and continuous aligned rails on PC and mobile',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const page=await open(t,'#work=G01-W01');
+  for(const id of fixture.narratives.review_work_ids){
+    const work=fixture.works.find(w=>w.work_id===id),n=fixture.narratives.works.find(w=>w.work_id===id);
+    await hash(page,'#work='+id);await checkWork(page,id,work.title);
+    assert.deepEqual(await page.locator('.timeline-card h4').allTextContents(),n.threads.flatMap(f=>f.steps.map(s=>s.title)));
+    assert.deepEqual(await page.locator('.timeline-time').allTextContents(),n.threads.flatMap(f=>f.steps.map(s=>s.time)));
+    for(const width of [1280,390,320]){
+      await page.setViewportSize({width,height:900});
+      await checkRail(page);
+      await page.locator('.timeline-analysis').first().locator('summary').click();
+      await page.locator('.timeline-evidence').first().locator('summary').click();
+      await checkRail(page);
+    }
+  }
+});
+
+test('long synthetic event, date and label wrap without shifting the rail or obscuring keyboard links',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const step=fixture.narratives.works.find(w=>w.work_id==='G02-W11').threads[0].steps[1];
+  step.event='長文折返し検証用。'.repeat(70)+'UnbrokenLongText'.repeat(30);
+  step.time='時刻ラベルの折返しを確認する合成入力'.repeat(3);
+  fixture.types.find(t=>t.id==='E1').name='分類ラベルの長文折返し検証用'.repeat(6);
+  const page=await open(t,'#work=G02-W11',{width:320,height:844},fixture);
+  await checkRail(page);
+  assert.ok(await page.locator('.timeline-step').nth(1).evaluate(e=>e.getBoundingClientRect().height)>700);
+  const analysis=page.locator('.timeline-analysis').first();
+  await analysis.locator('summary').focus();await page.keyboard.press('Enter');
+  assert.equal(await analysis.getAttribute('open'),'');
+  await checkRail(page);
+  await analysis.locator('.timeline-scene a').focus();await page.keyboard.press('Enter');
+  await checkWork(page,'G02-W11','猿夢','scene-'+step.fears[0].scene_id);
+  assert.equal(await analysis.getAttribute('open'),'');
 });

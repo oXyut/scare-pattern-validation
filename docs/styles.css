@@ -157,33 +157,41 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .timeline-thread{margin-top:28px}
 .timeline-thread h3{font-family:var(--sans);font-size:1.02rem}
 .timeline-thread>.small-note{margin-top:4px}
-.story-timeline{list-style:none;padding:0;margin-top:18px}
-.timeline-step{position:relative;padding-left:48px}
-.timeline-number{position:absolute;left:0;top:18px;font:1.05rem/1.8 Georgia,serif;color:var(--accent)}
-.timeline-card{padding:20px 24px;background:var(--light);border:1px solid var(--line);border-top:2px solid var(--control-line);min-width:0}
-.timeline-time{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;font-size:.8125rem;color:var(--muted)}
-.fact-kind{color:var(--ink);border-bottom:1px dotted var(--control-line)}
-.timeline-card h4{font-family:var(--serif);font-size:1.15rem;margin:8px 0 10px}
-.timeline-card p{font-size:.94rem}
-.timeline-card .timeline-time{font-size:.8125rem}
-.timeline-event{max-width:40em}
-.timeline-fears{border-left:2px solid var(--accent);margin-top:20px;padding-left:18px}
-.timeline-fear+.timeline-fear{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
-.timeline-fear h5{font-size:.8125rem;color:var(--accent);margin:0 0 4px}
-.timeline-types{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
-.timeline-type{border:1px solid var(--control-line);padding:4px 9px;text-decoration:none;font-size:.8125rem;color:var(--ink);line-height:1.8}
-.timeline-card .timeline-basis,.timeline-card .timeline-scene,.timeline-card .timeline-context{font-size:.8125rem;color:var(--muted);margin-top:10px}
-.timeline-evidence{font-size:.8125rem;margin-top:14px}
+/* A single reading order: date, node, then card. The rail connects adjacent nodes. */
+.story-timeline{--axis-left:144px;--node-center:28px;list-style:none;padding:0;margin-top:24px}
+.timeline-step{position:relative;display:grid;grid-template-columns:120px minmax(0,1fr);column-gap:48px;align-items:start;padding:0 0 28px}
+.timeline-step:last-child{padding-bottom:0}
+.timeline-step:not(:last-child)::before{content:"";position:absolute;left:var(--axis-left);top:var(--node-center);bottom:calc(-1 * var(--node-center));width:1px;background:#79575d}
+.timeline-milestone{grid-column:1;min-width:0;padding-top:17px;text-align:right}
+.timeline-position{display:block;font:500 .7rem/1.4 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:.12em;color:var(--muted);margin-bottom:7px}
+.timeline-milestone .timeline-time{font-size:.8125rem;line-height:1.7;color:var(--ink);margin:0;overflow-wrap:anywhere}
+.timeline-node{position:absolute;z-index:1;left:calc(var(--axis-left) - 6px);top:calc(var(--node-center) - 6px);width:13px;height:13px;border:2px solid #b78a90;border-radius:50%;background:var(--paper)}
+.has-fear>.timeline-node{background:var(--accent);border-color:var(--accent)}
+.timeline-card{grid-column:2;min-width:0;padding:24px 26px 18px;background:#1c181a;border:1px solid #4b363b;border-radius:10px}
+.timeline-card-heading .fact-kind{display:inline-block;margin:0 0 9px;font-size:.75rem;line-height:1.6;color:#c8b8ba;letter-spacing:.02em}
+.timeline-card h4{font:650 1.15rem/1.6 var(--sans);letter-spacing:.015em;margin:0 0 12px;color:var(--ink)}
+.timeline-card p{font-size:1rem;line-height:1.95}
+.timeline-card .timeline-event{max-width:38em;margin:0;color:var(--ink)}
+.timeline-fears{margin-top:20px;padding-top:18px;border-top:1px solid #493138}
+.timeline-fear+.timeline-fear{margin-top:18px;padding-top:18px;border-top:1px solid #493138}
+.timeline-fear h5{font:600 .75rem/1.7 var(--sans);letter-spacing:.04em;color:var(--accent);margin:0 0 6px}
+.timeline-card .timeline-fear-text{font-size:.94rem;font-weight:500;line-height:1.85;margin:0}
+.timeline-card .timeline-label{font-size:.6875rem;line-height:1.6;color:var(--muted);margin:14px 0 6px}
+.timeline-types{display:flex;gap:6px;flex-wrap:wrap}
+.timeline-type{display:block;min-width:0;max-width:100%;border:1px solid #72565c;border-radius:5px;background:#251d20;padding:5px 9px;text-decoration:none;font-size:.75rem;color:var(--ink);line-height:1.6;overflow-wrap:anywhere}
+.timeline-type:hover{background:#35262c;border-color:var(--accent)}
+.timeline-analysis{margin-top:13px;font-size:.8125rem}
+.timeline-analysis summary,.timeline-evidence summary,.timeline-reading summary{cursor:pointer;color:#d6c5c7;line-height:1.8;min-height:32px;padding:5px 0}
+.timeline-fit{display:inline-block;font-size:.6875rem;color:var(--muted);margin-inline-start:8px}
+.timeline-card .timeline-basis,.timeline-card .timeline-scene{font-size:.8125rem;color:#c3b0b3;line-height:1.9;margin-top:10px}
+.timeline-card .timeline-context{font-size:.8125rem;line-height:1.8;color:var(--muted);margin-top:14px}
+.timeline-card-footer{margin-top:18px;padding-top:10px;border-top:1px solid #3c2e33}
+.timeline-evidence{font-size:.75rem}
 .timeline-evidence p{font-size:.8125rem;margin-top:8px}
-.timeline-arrow{display:block;width:30px;text-align:center;font-size:1.5rem;color:var(--accent);margin:8px 0 8px -48px;line-height:1.4}
+.timeline-reading{font-size:.8125rem;margin-top:12px}
 .work-original-analysis{margin-top:24px}
 #narrative-coverage{margin-bottom:20px}
 @media(max-width:600px){
-  .timeline-step{padding-left:28px}
-  .timeline-number{font-size:.85rem}
-  .timeline-card{padding:16px 14px}
-  .timeline-fears{padding-left:12px}
-  .timeline-arrow{width:22px;margin-left:-28px}
   .story-summary{font-size:1rem}
   .narrative-notes{padding:12px 14px}
   .narrative-pending{padding:18px 16px}
@@ -513,3 +521,23 @@ footer{border-top:2px solid var(--blood);font-family:var(--sans);background:#0d0
 
 .poc-switch { margin: 10px 0 20px; font-size: .875rem; }
 .poc-switch .poc-links { margin-top: 12px; }
+
+@media(max-width:700px){
+  .story-timeline{--axis-left:7px;--node-center:15px;margin-top:22px}
+  .timeline-step{grid-template-columns:26px minmax(0,1fr);column-gap:0;row-gap:10px;padding-bottom:24px}
+  .timeline-milestone{grid-column:2;text-align:left;padding-top:3px;display:flex;align-items:baseline;gap:10px}
+  .timeline-position{font-size:.6875rem;margin:0;flex-shrink:0}
+  .timeline-milestone .timeline-time{font-size:.8125rem}
+  .timeline-card{padding:18px 18px 12px;border-radius:8px}
+  .timeline-card h4{font-size:1.0625rem;line-height:1.6}
+  .timeline-card p{font-size:.9375rem}
+  .timeline-card .timeline-fear-text{font-size:.9375rem}
+  .timeline-fears{margin-top:17px;padding-top:15px}
+  .timeline-types{gap:6px}
+  .timeline-type{font-size:.75rem;padding:5px 8px}
+  .timeline-analysis summary{padding:8px 0;min-height:40px}
+  .timeline-card-footer{margin-top:15px}
+  .timeline-evidence summary{padding:7px 0;min-height:36px}
+}
+@media(max-width:360px){.timeline-card{padding-inline:15px}.timeline-fit{display:block;margin:3px 0 0 16px}}
+@media print{.timeline-card{break-inside:avoid;background:white;color:var(--ink)}}
