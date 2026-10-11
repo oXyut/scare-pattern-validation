@@ -1,0 +1,3722 @@
+{
+  "schema_version": "v3-r2-authored-condition-extractions-1",
+  "version": "v3-development-review-r2",
+  "codebook_id": "fear-patterns-v3-codebook-proposed-1",
+  "method": "single_ai_unblinded_body_reread_and_explicit_condition_extraction",
+  "independent_human_coding_performed": false,
+  "independent_test_performed": false,
+  "agreement": null,
+  "partial_allowed": false,
+  "count_unit": "同一作品の選定された当事者・時点の記録。独立作品・独立評価者の標本数ではない。",
+  "records": [
+    {
+      "work_id": "G05-W18",
+      "record_id": "G05-W18-V3-R2-R01",
+      "actor": "夜の防護室にいる少年",
+      "time_scope": "二階の部屋で朝七時まで待つ一夜。後日の祖父の否定は照合資料として別記。",
+      "world_layer": "narrated",
+      "selection_reason": "中心問題が夜の声の識別から移動中の追跡へ変わるため別記録にする。全場面の抽出ではない。",
+      "anticipated_loss": "身内の声を信じて出て怪異に捕らえられる。",
+      "recognition_basis": "事前の指示を思い出し、違和感を受け止め、札を握って祈る。",
+      "closure_observed": "朝七時過ぎに自分で扉を開けて生存。翌朝の搬送は別記録。",
+      "limitation": "単一AIが掲載本文の指定範囲を再読した条件点検。原投稿との一致と世界一般への一般化は未確認。後の説明を当時知っていた情報に補作しない。",
+      "evidence": [
+        {
+          "evidence_id": "G05-W18-R2-E-a",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "31〜42行",
+          "layer": "narrated_and_belief",
+          "summary": "初見では普通の背の高い人と解釈した。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-b",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "45〜81行",
+          "layer": "reported",
+          "summary": "祖母の怪異の説明と、祖父・Kからの夜の安全手順。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-c",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "82〜109行",
+          "layer": "narrated_and_belief",
+          "summary": "呼び声を疑って応じず、札を握り祈る夜。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-d",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "105〜114行",
+          "layer": "narrated",
+          "summary": "朝に扉を自分で開け、援助者と車へ向かう。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-e",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "159〜169行",
+          "layer": "reported_and_belief",
+          "summary": "後の祖父の声の否定と、十年後の別の設備破損の知らせ。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "少年は取り殺されるとの説明を受け、夜の誘いに応じず保護室での捕捉を避ける課題にある。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "祖父に似た声を疑い、扉を開けず助けを祈る行動が、本人の危険受容を示す。",
+          "evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "初見では背の高い人や履物で説明したという語り手の旧局所前提を特定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "家族の危険説明と夜の声・窓の音・塩の変色は、新しい説明を促す伝聞と直接経験の叙述。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "証拠の範囲はこの少年と村の怪異。世界や人間一般の基本規則への一般化は語られない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "初見の普通の人という理解から夜の身の危険の受容へ移り、祈って応じない。局所的変更の支持に限る。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "個別の八尺様という局所説明では足りない理由は、この夜間の経験から確定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "初見の人・履物説、窓の音の風説、祖父本人の声という可能性と後の本人の否定を分けて記録する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "誘いの声と窓への接近はあるが、追手が少年の所在を確実に未捕捉という根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "扉を開けないことは支持されるが、所在を感知される前に隠すための行為かは不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "窓と扉外への働きかけはある。移動しながら少年へ追随する根拠はこの夜の記録にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "外へ出れば取り殺される危険を受け止めており、窓外の存在との接触を避ける。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "目張り・札・盛塩を備えた二階の一室と扉・窓を、少年が避難している領域として指定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "explicitly_false",
+          "reason": "声と打音は外から来る。少年は応じず、朝に自ら扉を開けて出るまで境界を保持したこの夜の侵入局面は成立していない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "外からの接触を恐れているが、侵入後の領域内の加害はこの場面で確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "扉の誘いと窓の音はあるが、脅威の周囲占有を示す配置は特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "塩の変色と軽い打音はある。境界が壊れる圧力や維持資源の枯渇を確定する記述は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "supported",
+          "reason": "部屋から出ない指示と祈りが、守りを失えば捕らえられるという少年の予期を支持する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "本人は現在地・移動の目的を把握している。ただし条件は滞在の安全条件の不明も含むため、所在既知だけを明示的否定にしない。この場面の状況定位の問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "危険の説明はあるが、現在地の不明さから帰還不能や孤立を予期する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "怖がっているが、外へ離脱したい理由と室内滞在そのものの損失は未確認。身内の声への接近を安全離脱の意図にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "出るなという安全指示はある。扉の施錠・怪異の離脱障壁は確認できず、朝は自分で開ける。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "窓や声の異常はあるが、道・部屋の接続や時間の反復異常はこの記録にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "一夜を長く感じたことだけを、接続・時間異常による帰還不能の予期へ変換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "supported",
+          "reason": "祖父は呼ばないと説明したのに祖父そっくりの呼び声がする。本人かという命題で指示と知覚が対立する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "supported",
+          "reason": "声を祖父と扱って扉を開けるかが安全に関わり、少年は事前指示を思い出して応じない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "supported",
+          "reason": "深夜の呼び声が既知の祖父本人かどうかを判断する少年と時点が指定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "supported",
+          "reason": "祖父に酷似した声、呼ばない事前指示、少年の違和感が当時の疑いを支持。後の祖父の否定は別時点の照合。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "supported",
+          "reason": "声を信じて出ることが危険だと少年は受け止め、ドアへの接近を止める。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "祖父は援助を期待する身内である。しかし疑わしい声の本人性とは別に記録する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "声の模倣を疑っている。祖父本人に帰属する敵対利害・計画の根拠はなく、後に本人も呼び声を否定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "祖父本人の裏切りによる損失は未確認。危険な模倣者への接近とは区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "目撃を祖父母に話している。後の夜の訴えではなく、保護に至る前の申告として支持。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "explicitly_false",
+          "reason": "祖父母は説明を受け止め、Kを呼び保護と搬送を用意する。不受容の場面ではない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "explicitly_false",
+          "reason": "この少年には祖父母・K・翌朝の同行者の援助が実際にあり、不受容による援助不成立ではない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "祖父母は普段から少年を迎える身内として記述され、重要な関係を指定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "夜の選定範囲では祖父母への将来の危険や救助課題は記述されない。翌朝の身代わりの覚悟をこの夜の予期に移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "少年がこの夜に他者の喪失を予期し、その救助の難しさを問題とする根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "声・窓の音・塩の変色は身体内部への侵入や感染を支持しない。内部症状の点検根拠が不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "少年の危険受容はあるが、体内侵入からの発症・伝播という損失の受容は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "恐怖や鳥肌は描かれるが、本人の身体の進行する変形・変質を支持する記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "自己像や身体機能が変質によって失われる予期はこの夜の語りから特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "声に思わず接近した後、自分で止まって祈る。一時的な反射動作だけで意に反する行為の問題を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "自分で接近を止めた根拠はあるが、意に反する発話・加害の制御不能を点検できる行為は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "身内の声を誤認する危険はある。自己の行為の制御喪失による自他への損失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "祖父の声の本人性は問題だが、少年自身の記憶・人格・存在の置換の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "自己の消失や置換を少年が具体的損失として受容する発言・行動はこの場面にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "鳥肌と恐怖は描写されるが、内部損傷・機能低下の進行を示す根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "身体内部の損壊を止められないという問題は特定できない。外の怪異への対処不足と混同しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "死の予告は怪異の捕捉について。身体内部の進行損壊からの死を予期する時点は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "魅入られるという条件と取り殺されるという危険の説明、扉を開けないという回避条件を区別できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "村の被害の説明と今回の体験はあるが、起動条件の比較・因果支持の水準は未固定。夜の音だけで規則を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "少年は指示を思い出して扉を開けず、条件に従うことを死の危険回避に結び付ける。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "以前の被害者の説明はあるが、この少年から別の対象へ危険が移ったとは確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "声の模倣は伝播経路ではない。この夜の危険から新対象への媒介の根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "少年が新しい被害対象の増加や移転を予期する記述は、この夜の確認範囲ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "一夜の保護と朝の生存は記録できるが、対処の有効性をどこまで支持するかの追加根拠が不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "この夜の保護に重要な犠牲が必要だとは説明されない。翌朝の祖父らの覚悟を必要な代償としてコピーしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "少年の夜の選択は声に応じるか。重要な犠牲を払う選択との比較はこの時点にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "呼び声に応じず札を持ち祈るという当面の対処手順を教わり、少年は実行する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "少年は指示を守って夜を越える。指定した扉を開けない対処を能力・設備不足が妨げる局面ではない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "別の方法を知らないことと、理解した対処が実行不能なための予期損失は別。後者は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "札・塩と一夜の生存はあるが、どの要素が有効な継続抑制方法かは本文から確定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "explicitly_false",
+          "reason": "少年に課された部屋の防護は朝七時までで終了する一夜の有限処置。村の地蔵の長期管理とは別。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "扉を開ける危険は教わるが、継続管理の放棄・失敗による害をこの少年の責任として確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "supported",
+          "reason": "部屋にいる課題を終える時刻は朝七時と示され、自分で出るよう指示される。長期管理の終了を意味しない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "普通の人という初見の理解は局所前提であり、因果・時空・生死の基本規則の旧前提とは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "夜の経験と後の祖父の否定はあるが、世界一般の前提を覆す複数の信頼できる証拠と認定する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c",
+            "G05-W18-R2-E-e"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "個別の怪異と部屋の安全判断を超えた世界一般の規則変更は記録できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "指示に従った保護はあるが、少年による工夫・反復検証の記録ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "祈る以外の方法を知らないことは少年の知識範囲。人間一般の能力構造の限界を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "脅威受容はあるが、人間一般の構造的限界への旧前提変更としての受容は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "初見の自然的説明から、人間の正義や願いが世界で重視されるという旧前提を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "怪異の襲撃と誘いだけでは、一つの怪異を超える価値の非中心性を支持できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "少年は死を恐れるが、価値が世界で重視されないと認識して前提を変える記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "村の封印という局所の保護説明はあるが、人間の成立が他存在の用途に依存する仕組みは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "村同士の協定は伝聞。人を素材・設備として維持する他存在の用途はこの夜の証拠から特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "少年の個別の危険受容を、人間一般の成立条件への前提変更へ拡張する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "初見では背の高い人の履物等で説明した。世界一般の基本規則や善意についての旧前提は未特定。",
+        "new_evidence": "祖母の村の怪異・死の説明、夜の祖父に似た声、窓の音と塩の変色。祖父の否定は後の照合。",
+        "evidence_scope": "少年の初見から一晩の防護室。祖父の否定は後日の伝聞。村の外を含む世界一般の証拠ではない。",
+        "acceptance_and_threat": "普通の人という初見解釈から、応じれば死ぬ危険を受容して祈り、夜の声には従わない局所的変化。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。村の一つの怪異という局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "背の高い人と履物",
+            "basis": "初見の本人の解釈。後の体験との関係は局所の解釈変更。",
+            "status": "initial_belief_revised_locally"
+          },
+          {
+            "hypothesis": "風による窓の音",
+            "basis": "少年がその場で考えたが判別できない。",
+            "status": "unresolved"
+          },
+          {
+            "hypothesis": "祖父本人の呼び声",
+            "basis": "事前指示と当時の違和感。後に祖父が否定したという照合。",
+            "status": "later_reported_denial"
+          }
+        ],
+        "limitation": "旧前提・新証拠・脅威受容は具体的に抽出できる。局所変更であり、FのG3・G5が不明なため全体は保留。"
+      }
+    },
+    {
+      "work_id": "G05-W18",
+      "record_id": "G05-W18-V3-R2-R02",
+      "actor": "翌朝に車で搬送される少年",
+      "time_scope": "村内から村外へ抜け、父の車に移る一回の搬送。身代わりの覚悟は後で聞く。",
+      "world_layer": "narrated",
+      "selection_reason": "中心問題が夜の声の識別から移動中の追跡へ変わるため別記録にする。全場面の抽出ではない。",
+      "anticipated_loss": "車外から追随する怪異に捕捉・加害される。",
+      "recognition_basis": "外を見て怯え、注意後に目を閉じ札を握って指示に従う。",
+      "closure_observed": "村を抜けると音と声が止み、父の車に移って帰宅。全体の無害化ではない。",
+      "limitation": "単一AIが掲載本文の指定範囲を再読した条件点検。原投稿との一致と世界一般への一般化は未確認。後の説明を当時知っていた情報に補作しない。",
+      "evidence": [
+        {
+          "evidence_id": "G05-W18-R2-E-a",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "31〜42行",
+          "layer": "narrated_and_belief",
+          "summary": "初見では普通の背の高い人と解釈した。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-b",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "45〜81行",
+          "layer": "reported",
+          "summary": "祖母の怪異の説明と、祖父・Kからの夜の安全手順。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-f",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "115〜127行",
+          "layer": "narrated_and_reported",
+          "summary": "親族に囲まれ、閉眼と札の手順を教わり車列で出る。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-g",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "128〜143行",
+          "layer": "narrated",
+          "summary": "怪異が車に追随し窓へ接近する。少年は注意後に目を閉じ、やがて音が止む。"
+        },
+        {
+          "evidence_id": "G05-W18-R2-E-h",
+          "source_review_id": "G05-W18-R2-S1",
+          "url": "https://nazolog.com/blog-entry-1020.html",
+          "range": "144〜158行",
+          "layer": "narrated_and_reported",
+          "summary": "村外で父の車へ移り、後から親族の配置と身代わりの覚悟を聞く。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "搬送中の少年は近づく怪異に捕らえられる危険を避ける局面にある。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "再び声を聞き、姿に怯えて札を握り目を閉じる行動が少年の危険受容を支持する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "初見の普通の人という旧解釈と、搬送前にはすでに怪異の危険を受容していたことを分けられる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "車に合わせた怪異の移動、窓への接近・打音が新しい直接経験の叙述。周囲の人が聞く音は少年の観察として記録。",
+          "evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "車列と村の範囲での現象。村境の規則も伝聞で、世界・人間一般へ及ぶ証拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "搬送前から怪異の危険を信じている。今回の追随だけで別の世界一般の旧前提が変更されたとは確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "八尺様の局所的追随という説明では足りない理由は、車移動の記述にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "普通の人という初見解釈、血縁者で目を欺くという父の説明、少年だけの姿の知覚と他者の打音への反応を区別する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "車の所在は追手に把握される。血縁者で目を欺く説明は個体識別の話で、少年の所在未捕捉を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "目を閉じ血縁者に囲まれる対処はあるが、所在の感知を避ける課題か、個体識別を避ける課題かは区別が必要。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "supported",
+          "reason": "白い服の存在が車と同じ速度で動き、車内を覗こうとする。少年を含む車への追随の方向性を支持。",
+          "evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "少年は追随する存在との接触を恐れ、札と閉眼の指示に従って捕捉を避ける。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "同行者が囲み、札を持って移動する車内を少年の保護領域として指定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "explicitly_false",
+          "reason": "この移動では外から覗く動作とガラスへの打音が続き、音が止んだ後に無事車を移る。確認した境界は突破されていない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "車外の怪異の接触危険はあるが、車内への侵入による領域内加害は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "車の八方を囲むのは援助者。脅威は車外に追随する一体で、周囲占有の根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "ガラスへの打音はあるが、破壊・資源枯渇・境界維持競争の圧力は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "supported",
+          "reason": "少年は車外の怪異との接触を恐れ、保護を失って捕捉される危険を受け止めている。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "本人は現在地・移動の目的を把握している。ただし条件は滞在の安全条件の不明も含むため、所在既知だけを明示的否定にしない。この場面の状況定位の問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "危険は車外の追随で、所在不明から帰還不能・孤立を予期する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "車外は危険で、少年が車から離脱したい理由と車内滞在による損失は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "八方を囲む援助者と閉眼指示はあるが、望む離脱を妨げる実際の障壁は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "車列は通常の道を移動して父の車へ到達する。道の反復・接続異常を支持する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "接続・時間の異常による帰還不能の予期は未確認。ゆっくり走ることを時空異常にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "少年と同行者の知覚範囲が違うと説明されるが、安全判断の対象命題について対立する証言・記録は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "見ない指示を守る必要はあるが、競合する証拠のどちらを採るかの安全選択は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "車外の存在は既に八尺様として恐れている。特定の既知の身内の本人性を判断する対象ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "車外の服と声の観察はあるが、翌朝の車移動では身内の声や姿の模倣を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "外の存在との接触は危険だが、本人と扱って接近を許す損失の予期とは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "同行の血縁者・K・父と祖父は援助を期待する対象として指定できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "援助者の敵対利害・計画の根拠はない。父と祖父の身代わりの覚悟は後で聞く支援の説明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "援助者本人の裏切り・拘束・供犠として少年が損失を予期する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "目撃の申告が搬送に至る経緯として記録される。車内の新しい援助拒絶の申告ではない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "explicitly_false",
+          "reason": "実際に家族とKと同行者が危険を受け止め、車列で助けている。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "explicitly_false",
+          "reason": "不受容による援助不成立ではなく、集まった援助者による搬送が行われる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "祖父と父は身内として重要な関係。少年を迎える背景と父の帰宅援助がある。",
+          "evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "父と祖父の身代わりの覚悟は後からの伝聞。車内の少年がその危険を知って救助課題にしたとは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "少年がこの搬送時に身内の喪失と救助不能を予期する記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "車外の姿・声・窓の音は少年の身体内部への侵入や感染の証拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "捕捉の恐怖はあるが、体内侵入後の発症・損傷・伝播を予期する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "少年自身の身体の変形・変質が進む描写はない。怪異の体格を少年へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "少年の身体変質による機能や自己像の喪失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "supported",
+          "reason": "車外を見て思わず短い声を出したことは、本人の意図しない発話として記録できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "一度声が漏れた後、少年は目を閉じ札を握る。発話・動作を自分の意図で制御できない問題かは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "見るなという安全指示はあるが、一瞬の発声による制御喪失からの損失の予期は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "血縁者に囲まれるのは追手の識別を欺く説明。少年自身の記憶・人格・存在の置換ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "自己の消失・置換を少年が予期損失として受け止める記述は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "捕捉の恐怖は描かれるが、少年の身体内部の痛み・機能低下の進行は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "自ら止められない内的損壊の対象が未特定。車外の怪異を止められないことと分ける。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "取り殺される危険の受容はあるが、身体内部の損壊の進行からの死を予期する時点は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "魅入られる危険と、見ない・札を持つという搬送中の回避条件を区別して記録できる。",
+          "evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "過去の被害伝聞と今回の追随・離脱だけでは、何が危険を起動する因果条件か確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "少年は目を開けた後に注意され、閉眼と札の保持を自分の危険回避へ結び付ける。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "父や祖父の身代わりは後で聞く未実行の覚悟。元と新対象の実際の危険移転は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "親族が囲む搬送と身代わりの覚悟だけでは、感染・媒介による新対象への経路を支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "少年が搬送中に新対象への危険増加・移転を具体的損失と予期した根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "車列の搬送成功はあるが、各保護要素や身代わりという対処の有効性の根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "祖父か父の身代わりの覚悟は実行されていない。搬送にその犠牲が必要だったことを支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "車内の少年が不作為の死と身内の代償を比較して選んだという根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "目を閉じ下を向き、札を持つという当面の対処を教わり実行する。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "少年は注意後に目を閉じ、札を握り、搬送を終える。指定した対処の実行を能力・設備不足が妨げない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "理解した対処が実行不能なための予期損失は未確認。見てしまった一瞬を恒常的実行不能にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "搬送の成功はあるが、車内での手順を有効な継続管理方法として確定する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "explicitly_false",
+          "reason": "この車内保護は村から搬出して車を移るまでの有限対処。村の地蔵の維持は少年とは別の責任。",
+          "evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "札を持つ指示はあるが、継続管理の放棄・失敗による害を少年の管理責任として記録できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "supported",
+          "reason": "村を抜けて父の車に移ることで車内の課題は終了。新しい札はしばらく保持する指示で、全管理終了の確認ではない。",
+          "evidence_ids": [
+            "G05-W18-R2-E-h"
+          ],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "初見の普通の人という解釈は特定できるが、世界の因果・時空・生死の基本規則に関する旧前提は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "追随の観察と同行者の音への反応はあるが、世界一般の前提を覆す複数の信頼できる証拠という水準は未固定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "村の局所的な怪異と保護手順を超える世界一般の規則変更は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "援助者の搬送はあるが、少年による工夫・反復検証の本文根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "他人には姿が見えないとの説明はあるが、人間一般が理解・制御できない構造的限界を示す検証ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "少年は追随を脅威として受容するが、人間一般の構造的限界への前提変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "普通の人という旧解釈や家族への援助期待から、人間の価値が世界で重視される前提を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-a",
+            "G05-W18-R2-E-f"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "怪異が追うという個別の挙動は、世界一般で価値や願いが重視されないという証拠に不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "搬送後の安心はあるが、価値の非中心性を脅威として受容した記述ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "村の封印と一族の援助は局所の安全対処。他存在の用途が人間の成立条件を支える仕組みは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-f",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "村の協定と血縁者の目隠しを、人を素材・設備として維持する他存在の用途へ読み替えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-b",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "個別の少年の保護・追随の説明を超える、人間一般の成立依存への前提変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G05-W18-R2-E-g",
+            "G05-W18-R2-E-h"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "初見の普通の人という理解は過去の前提。搬送開始時にはすでに危険を受容し、教わった手順に従っている。",
+        "new_evidence": "車の動きへの追随、外から窓を覗く動作、少年の視認と他者の打音への反応、村を抜けた後の停止。",
+        "evidence_scope": "村から外へ出る一回の車列の移動。家族の説明は伝聞。",
+        "acceptance_and_threat": "少年は追随する存在を恐れ、指示に従う。搬送前からの危険受容と別の世界一般の前提変更は確認できない。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。八尺様とこの車列への局所的追随という説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "姿の知覚と音の知覚の範囲差",
+            "basis": "少年の視認、周囲の人の短い反応、事前の説明。世界一般の構造的不能を意味しない。",
+            "status": "local_scope_difference"
+          },
+          {
+            "hypothesis": "血縁者に囲むことで怪異の識別を欺く",
+            "basis": "父から後で聞いた説明で、各要素の因果は個別に検証していない。",
+            "status": "reported_unverified"
+          }
+        ],
+        "limitation": "夜間記録と初見の根拠を共有する。同じ旧前提を独立した世界モデル変更として二重集計しない。"
+      }
+    },
+    {
+      "work_id": "G03-W17",
+      "record_id": "G03-W17-V3-R2-R01",
+      "actor": "傷の後に石をYへ預ける語り手",
+      "time_scope": "子の行為と傷の後、Yへの相談から石を渡すまで。夢内の拘束と後の死亡の知らせは別時点の参照資料。",
+      "world_layer": "narrated_and_reported",
+      "selection_reason": "覚醒中の原因の疑いと対処選択を点検する。夢内で拘束される本人、夢内のY、後の事故伝聞をこの問題状態へ混ぜない。",
+      "anticipated_loss": "反復する悪夢・眼症状と石への恐怖から離れたいという進行中の回避課題。",
+      "recognition_basis": "石が原因だと考え持ち歩きをやめ、Yの引取りを受け、これから安心して眠れると考える。",
+      "closure_observed": "石の引渡しは完了。適切な保管先への引渡しと管理の実行は未確認。その後も本人の夢は続く。",
+      "limitation": "一つの相談・対処選択の全78条件を抽出。夢内の全問題、子やY自身の問題状態を網羅した抽出ではない。掲載者の編集・更新があり初出原文一致は未確認。",
+      "evidence": [
+        {
+          "evidence_id": "G03-W17-R2-E-a",
+          "source_review_id": "G03-W17-R2-S1",
+          "url": "https://the-mystery.org/scary_story/labradorite/",
+          "range": "13〜51行",
+          "layer": "narrated_and_belief",
+          "summary": "石の収集理由は美しさ。届いた石を握って眠る。"
+        },
+        {
+          "evidence_id": "G03-W17-R2-E-b",
+          "source_review_id": "G03-W17-R2-S1",
+          "url": "https://the-mystery.org/scary_story/labradorite/",
+          "range": "55〜219行",
+          "layer": "dream_narrated_reported_and_inference",
+          "summary": "夢と充血が反復する。子の異変と顔の傷は語り手の認識で、周囲は事故と扱う。"
+        },
+        {
+          "evidence_id": "G03-W17-R2-E-c",
+          "source_review_id": "G03-W17-R2-S1",
+          "url": "https://the-mystery.org/scary_story/labradorite/",
+          "range": "215〜336行",
+          "layer": "narrated_reported_and_belief",
+          "summary": "石を疑ってYへ相談し、保管の申し出を受けて渡す。Yの御神体解釈は不確か。"
+        },
+        {
+          "evidence_id": "G03-W17-R2-E-d",
+          "source_review_id": "G03-W17-R2-S1",
+          "url": "https://the-mystery.org/scary_story/labradorite/",
+          "range": "340〜421行",
+          "layer": "dream_reported_and_inference",
+          "summary": "引渡し後の夢と後の死亡の知らせ・眼の機能喪失は別時点。因果は語り手の疑念。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "繰り返す悪夢と眼の異変、顔の傷を経て、原因と疑う石から離れる進行中の回避課題にある。",
+          "evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "石への恐怖を明記し、手放したいと相談して引渡しを選ぶ本人の行動がある。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "収集は美しさのためで不思議な効力を期待せず、Yの霊感も半信半疑だったという旧前提。",
+          "evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "反復する夢と充血、子の異変と傷、Yの眼・子の説明は、新しい直接経験・夢・伝聞の根拠候補。",
+          "evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "根拠の範囲はこの石と接触した少数の人物。世界や人間一般の規則へ及ぶ本文根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "石が原因だと信じ、以前の美しい収集物という理解を変えて、恐怖から手放す。局所的変更として支持。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "石に個別の影響があるという局所説明を超える必要は、この相談場面の本文から確定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "夢だったとの安堵、顔の傷を事故とする周囲の説明、子の記憶欠落、Y自身の不確かな御神体解釈を区別する。",
+          "evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "Yは語り手の周りの子を説明するが、所在を探す指定追手と未捕捉の時点は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "石を手放す行為はあるが、追手への所在の感知を避ける課題かは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "子が周りにいるというYの説明だけでは、覚醒中の語り手を標的にした移動・追随を支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "石への恐怖は明示されるが、指定追手の接近による接触・捕獲の予期はこの相談場面で不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "相談は自宅の居間だが、安全な避難領域として境界を期待した局面かは記述不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "家にYを招いたことや子が周りにいるとの説明を、物理境界を越えた脅威の侵入にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "先行する切傷と現在の相談を分ける。領域侵入による加害・安全喪失の因果は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "子が周りにいるとの伝聞はあるが、防御領域を脅威が囲み、境界維持する配置は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "封鎖された防御境界の突破・維持資源の消耗を示す記述は相談場面にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "石への恐怖から、境界突破や資源枯渇による具体的損失を補作しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "本人は現在地・移動の目的を把握している。ただし条件は滞在の安全条件の不明も含むため、所在既知だけを明示的否定にしない。この場面の状況定位の問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "現在地や帰路の不明からの帰還不能・孤立の予期は、この覚醒中の場面でない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "離れたいのは石の影響。家の外へ離脱したい理由と滞在による損失の予期は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "夢内では拘束されるが、覚醒中の相談と石の引渡しに物理・制度・怪異の離脱障壁は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "相談・来訪・引渡しの経路について空間接続や時間反復の異常は記述されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "夢の反復は道や時間の接続異常による帰還不能の予期をそのまま支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "supported",
+          "reason": "語り手は子に切られたと認識し、周囲は転倒事故と扱う。傷の原因について食い違う根拠がある。",
+          "evidence_ids": [
+            "G03-W17-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "傷の解釈と石の危険判断は関係するが、どの証拠を採用するとどんな再被害を予期するかの明示は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "既知のKの様子は記録できるが、本人性を疑って判断する対象時点は未確認。健康や記憶への疑いを本人性の疑いに変換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "子の虚ろな顔と記憶欠落はあるが、模倣・置換された本人かという疑いは語り手が示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "子を責めず石を疑っており、代替者を本人と扱い接近を許す損失予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "Yは友人で、語り手が助けを求めて相談し、引取りを有難いと受け止める援助期待の対象。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "Yは自ら引取りを申し出る。Y本人に敵対利害や計画がある根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "友人の申し出を受け止める場面で、本人の裏切り・拘束・供犠の損失予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "石に何かおかしいと考え、Yへ連絡して石を見てほしいと訴える。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "explicitly_false",
+          "reason": "Yは訪問し、石を調べ、保管する相手へ運ぶことを申し出る。語り手の訴えを退けた場面ではない。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "explicitly_false",
+          "reason": "相談と引取りの援助が実際にある。危険の不受容による援助不成立ではない。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "Yは霊体験を以前から聞く友人で、語り手は来訪の負担を気にし、申し出を有難いと受け止める。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "Yの危険や死を語り手が相談中に予期したとは未確認。後の夢・事故の知らせを当時へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "相談時にはYの救助不能を示す記述がない。後の後悔と区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "右目の充血は記録できるが、感染・寄生・内部への異物侵入の根拠までは確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "石の影響を恐れているが、内部侵入や感染からの発症・伝播を予期する本人の記述は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "反復する充血と外的な顔の傷はあるが、自身の身体が別のものへ進行変質する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "この時点では眼球は無事で視力問題なしとの説明。将来の変質による機能・自己像喪失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "常に石を持ち歩いたことはあるが、相談する本人の意に反する発話・動作・加害は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "ただ捨てる気にはなれないが、持ち歩きをやめ相談して渡せる。意思と別の行為の制御不能かは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "子の行為を語り手自身の制御喪失へ移さない。本人の行為からの次の損失予期は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "夢と身体症状はあるが、語り手自身の記憶・人格・存在の所有や継続の置換を支持しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "石の影響への恐怖は、自己の消失・置換を予期損失として受容した記述とは区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "充血は反復するが内部損壊の進行は未確認。顔の傷は外的刃物の問題で、後年の白内障を混ぜない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "充血と夢の関係はあるが、進行する内部損傷を自分で止められないという問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "相談時に機能喪失や死を内的損壊から予期する根拠は不足。後の視力喪失を当時の予期に移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "supported",
+          "reason": "石の購入・接触という起動候補と、夢・眼症状・子の異変という危険候補を区別できる。",
+          "evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "反復はあるが接触有無の比較ではない。引渡し後にも夢が続く。石の継続所有を必要条件にせず、因果支持は保留。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "supported",
+          "reason": "石が原因だと考えて持ち歩きをやめ、友人に預ける判断に結び付ける。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "子の異変はあるが、子の危険と語り手の切傷を分ける必要がある。別対象の被害が増えたとはこの時点で確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "石に触らせた後の子の異変を語り手が結び付けるが、媒介・感染の経路として独立に確認していない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "Yが預かることを受けるが、Yへ危険が広がるとこの時点の語り手が具体的に予期した根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "適切な場所への保管をYは提案するが、実行された管理と効力は相談時には未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "引取りがYへの重要な犠牲を必要に伴うとは示されない。後の死亡を必要な代償にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "友人に負担をかける気遣いはあるが、不作為の死と重要な犠牲を比較する選択問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "Yは御神体かもしれないと述べるだけで、語り手が理解した原因・具体的な保管規則は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "この語り手は石を渡すという選んだ行動を実際に実行できる。能力・設備不足がその実行を阻む局面ではない。",
+          "evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "原因や保管方法の不明さと、理解した対処が実行不能であることは別。後者の損失予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "Yの適切な保管の申し出は伝聞。具体的な実行と抑制の効力は不明で、引渡し後の夢も続く。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "保管の提案はあるが、継続的な手入れ・監視・継承をこの語り手に要求する記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "管理の放棄や失敗が害を起こしたと確認できない。Yの死亡と石の因果は後の推論。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c",
+            "G03-W17-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "石を手放したいという回避課題はあるが、有効な継続管理の責任を終える条件・終われない理由としては未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "美しい石に効力を期待しないという旧前提は具体的だが、世界の因果・時空・生死の基本規則の前提とは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "複数の夢・症状とYの説明はあるが、世界一般の前提を覆す複数の信頼できる証拠と認定する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "石の個別の影響という局所説明を超える世界一般の範囲は本文に確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "相談と引渡しの工夫はあるが、反復して条件を検証した記録ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "Yがよく分からないと述べる知識不足を、人間一般の能力構造の限界へ変換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "語り手は石の危険を受容するが、人間一般の構造的限界を認識して旧前提を変えたとは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "美しい収集物という前提は、人間の善意・正義・願いが世界で重視されるという前提を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-a",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "個別の石・子の異変から、世界秩序が人間の価値と無関係と判明したとは確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-b",
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "石への恐怖と、人間の価値の非中心性を脅威として受容する変更は別。後者の根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "外国の御神体かもしれないというYの説明は、人間の保護・存在が他存在の用途に依存する仕組みを示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "語り手の周りの子の説明だけで、人間を素材・設備・資源として維持する用途を補作しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "石に影響される個人の理解を、人間一般の成立条件の前提変更へ拡張する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G03-W17-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "石には不思議な効力を期待せず、美しさで収集。Yの霊感は半信半疑。",
+        "new_evidence": "反復する夢と眼の充血、Kの異変と顔の傷、Yの右目・子の説明。直接叙述・夢・伝聞・因果推論を別層として抽出。",
+        "evidence_scope": "語り手と石、親戚の子と友人Yをめぐる個別の経験。一般的な世界規則の検証ではない。",
+        "acceptance_and_threat": "石が原因だと信じて恐怖を感じ、手放す。後の夢・事故の因果疑念と後悔は相談時とは別の変更。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。個別の石の影響という局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "ただの夢",
+            "basis": "覚醒後に本人が夢だったと安堵。反復後には単純に片付けられないと考える。",
+            "status": "belief_revised_locally"
+          },
+          {
+            "hypothesis": "転倒時の刃物による事故",
+            "basis": "周囲は現場を見ておらずこの説明を採用。語り手の認識とは食い違う。",
+            "status": "unresolved"
+          },
+          {
+            "hypothesis": "外国の御神体",
+            "basis": "Y自身がよく分からないと限定した説明。",
+            "status": "reported_hypothesis"
+          }
+        ],
+        "limitation": "局所的な旧前提・証拠・受容は抽出できる。Fの世界／人間一般への範囲と局所説明の不足は証拠不明。"
+      }
+    }
+  ],
+  "work_progress": {
+    "G01-W01": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W02": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W03": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W04": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W05": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳の一方のURLは「着物の少女」という別内容、もう一方のまとめ記事には特徴語が見つからない。追加検索も別作の人形話のみで、割当作品を同定できない。"
+    },
+    "G01-W06": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳に本文URLがなく、完全一致と怪談語を加えた検索でも対象作品の本文を見つけられなかった。人物アカウント・別の投稿スレッドは同定根拠にならない。"
+    },
+    "G01-W07": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W08": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W09": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W10": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W11": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W12": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W13": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "題名へのSNS言及や百科事典への言及は見つかったが、作品本文・初出投稿・結末へたどれず、同定できない。台帳に本文URLもない。"
+    },
+    "G01-W14": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W15": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W16": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W17": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W18": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W19": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W20": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "完全一致と怪談語を加えた検索は、別作品の考察や無関係な結果のみ。台帳に本文URLがなく本文未取得。"
+    },
+    "G01-W21": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W22": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W23": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W24": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W25": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W26": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G01-W27": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "完全一致検索は該当なし。怪談語を加えた検索でも対象本文は見つからず、台帳に本文URLがない。"
+    },
+    "G02-W01": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W02": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W03": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "同名の本文は見つからず、検索結果は別作品や幽霊の一般解説。"
+    },
+    "G02-W04": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W05": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W06": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W07": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W08": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W09": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W10": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W11": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W12": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "同名はゲーム攻略掲示板への言及で、怪談の掲載本文を確認できない。"
+    },
+    "G02-W13": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "作品名の一覧への言及だけで、異界駅の物語本文は見つからない。"
+    },
+    "G02-W14": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W15": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W16": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "完全一致では結果なし。短縮表記でも対応する本文を確認できない。"
+    },
+    "G02-W17": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W18": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W19": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W20": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W21": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W22": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W23": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W24": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W25": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G02-W26": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W01": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W02": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W03": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W04": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W05": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W06": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W07": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W08": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W09": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "題名一致の本文は検索で得られない。Xの本文を取得できない。"
+    },
+    "G03-W10": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "題名一致の本文は得られない。Fandomの本文を取得できない。"
+    },
+    "G03-W11": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W12": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W13": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W14": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "関連しない検索結果のみで作品を同定できない。台帳に本文URLがない。"
+    },
+    "G03-W15": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W16": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "題名一致の本文を得られない。台帳に本文URLがない。"
+    },
+    "G03-W17": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "Yへ相談して石を渡す一つの選定場面。夢内・子・Yの全場面抽出は未完了。"
+    },
+    "G03-W18": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W19": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "鬼などの候補はあるが台帳との同一作品根拠が不足。動画の取得がthrottledとなり本文・字幕を得られない。"
+    },
+    "G03-W20": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W21": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "観光情報などが返り本文を同定できない。台帳に本文URLがない。"
+    },
+    "G03-W22": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W23": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W24": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "類似名のみで台帳の作品へ結末を帰属させない。「友神様」の本文は読めたが「友人様」との別名関係は確認できない。"
+    },
+    "G03-W25": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G03-W26": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W01": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W02": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳URLと同名候補を試したが本文を取得できず、題名だけでは同一作品を確定できない。"
+    },
+    "G04-W03": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W04": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W05": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W06": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W07": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W08": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W09": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W10": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W11": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W12": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W13": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W14": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W15": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W16": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W17": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W18": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W19": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W20": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳URLがタイムアウト・502で読めず、検索にも同じ掲載の抜粋しかない。本文と結末を未確認。"
+    },
+    "G04-W21": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W22": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W23": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W24": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W25": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G04-W26": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W01": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W02": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W03": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W04": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳に本文URLがなく、題名と表記を変えた検索でも対象の掲載本文を同定できない。"
+    },
+    "G05-W05": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W06": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W07": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W08": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W09": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W10": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W11": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W12": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W13": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W14": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W15": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W16": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W17": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W18": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 2,
+      "limitation": "夜と搬送の二つの選定記録。作品の全場面・村の長期管理は未抽出。"
+    },
+    "G05-W19": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W20": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W21": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "台帳に本文URLがなく、検索で題名一覧は出るが本文と結末を確認できない。"
+    },
+    "G05-W22": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W23": {
+      "inherited_narrative_status": "scoped",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W24": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W25": {
+      "inherited_narrative_status": "ready",
+      "condition_extraction_status": "unextracted",
+      "completed_records": 0,
+      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+    },
+    "G05-W26": {
+      "inherited_narrative_status": "pending",
+      "condition_extraction_status": "source_hold",
+      "completed_records": 0,
+      "limitation": "用語集には名称があるが物語本文はなく、参照スレとキャッシュの対象投稿を取得・同定できない。名称だけからあらすじを作らない。"
+    }
+  }
+}

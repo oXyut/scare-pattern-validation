@@ -1,0 +1,23 @@
+{
+  "assigned_entries": 131,
+  "fully_rechecked_published_bodies": 4,
+  "condition_extraction_complete_works": 2,
+  "selected_records": 3,
+  "distinct_conditions_per_record": 78,
+  "explicitly_inspected_condition_judgments": 234,
+  "condition_states": {
+    "explicitly_false": 13,
+    "supported": 50,
+    "unknown": 171
+  },
+  "type_record_states": {
+    "fit": 3,
+    "not_fit": 10,
+    "pending": 65
+  },
+  "inherited_narrative_counts": {
+    "ready": 92,
+    "pending": 21,
+    "scoped": 18
+  }
+}
