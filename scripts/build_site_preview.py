@@ -18,7 +18,7 @@ def preview_html():
     css = css.replace("url('corridor-cover.webp')", "url('data:image/webp;base64," + cover + "')")
     core = (docs / 'core.mjs').read_text().replace('export ', '')
     app = (docs / 'app.mjs').read_text()
-    app = app.replace("import {statusLabels,filterWorks,matchingScenes,resolveRoute} from './core.mjs';\n", '')
+    app = app.replace("import {statusLabels,axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute} from './core.mjs';\n", '')
     # Inline the already-validated public projection. No file:// fetch or imports.
     loader = "const response=await fetch('data.json');if(!response.ok)throw new Error('data unavailable');data=await response.json();"
     assert loader in app
@@ -35,12 +35,13 @@ def preview_html():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('output', type=Path)
+    parser.add_argument('--instructions', type=Path, default=ROOT / 'site/review/full/preview-instructions.txt')
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     markup = preview_html()
     if args.output.suffix == '.zip':
         with zipfile.ZipFile(args.output, 'w') as bundle:
-            for name, body in [('preview.html', markup), ('README.txt', (ROOT / 'site/review/full/preview-instructions.txt').read_text())]:
+            for name, body in [('preview.html', markup), ('README.txt', args.instructions.read_text())]:
                 info = zipfile.ZipInfo(name, (2026, 10, 11, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o100644 << 16

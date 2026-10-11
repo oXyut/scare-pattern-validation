@@ -82,12 +82,12 @@ test('missing scene outcomes only point to a work tracking section when it exist
 
 test('source history resolves its owner after visiting another work',async t=>{
   const page=await open(t,'#catalogue');
-  await page.locator('#results a[href="#work=G01-W01"]').click();
+  await page.locator('#results .work-link[href="#work=G01-W01"]').click();
   await checkWork(page,'G01-W01','赤い仏像');
   await page.locator('.scene-source-list a[href="#source-G01-S001"]').first().click();
   await checkWork(page,'G01-W01','赤い仏像','source-G01-S001');
   await page.locator('.back-link').first().click();
-  await page.locator('#results a[href="#work=G01-W02"]').click();
+  await page.locator('#results .work-link[href="#work=G01-W02"]').click();
   await checkWork(page,'G01-W02','悪霊食い');
   await page.goBack();
   await page.waitForFunction(()=>!document.getElementById('report').hidden);
@@ -140,7 +140,7 @@ test('unknown work/source/scene and malformed hash show recoverable link errors'
 test('query, all filters, empty results and URL history keep their selected values',async t=>{
   const page=await open(t,'?q=赤い仏像&status=verified&type=A2&fit=部分適合&group=group_01#catalogue');
   assert.equal(await page.locator('#results tbody tr').count(),1);
-  await page.locator('#results a[href="#work=G01-W01"]').click();
+  await page.locator('#results .work-link[href="#work=G01-W01"]').click();
   await checkWork(page,'G01-W01','赤い仏像');
   await page.locator('.back-link').first().click();
   await page.waitForFunction(()=>!document.getElementById('report').hidden);
@@ -157,7 +157,7 @@ test('query, all filters, empty results and URL history keep their selected valu
   assert.equal(await page.locator('#results tbody tr').count(),131);
   assert.equal(new URL(page.url()).search,'');
   await page.goto(base+'?type=none&fit=不適合#catalogue');
-  assert.equal(await page.locator('#results a[href="#work=G04-W19"]').count(),1);
+  assert.equal(await page.locator('#results .work-link[href="#work=G04-W19"]').count(),1);
   await screenshot(page,'desktop-negative-filter');
 });
 
@@ -180,8 +180,8 @@ test('work tracking keeps outcomes, uncertainty, scene links and closure audits 
   await page.locator('.work-tracking').evaluate(el=>el.scrollIntoView({block:'start'}));
   await screenshot(page,'desktop-work-outcomes');
   await hash(page,'#work=G03-W03');
-  await page.waitForFunction(()=>document.getElementById('work-detail').textContent.includes('探索を実施'));
-  assert.match(await page.locator('.work-tracking').textContent(),/探索を実施/);
+  await page.waitForFunction(()=>document.getElementById('work-detail').textContent.includes('成果と残る問題は未確認'));
+  assert.doesNotMatch(await page.locator('.work-tracking').textContent(),/探索を実施/);
   assert.match(await page.locator('.work-tracking').textContent(),/本文が不足.*物語の中で得られた成果としては扱いません/);
   assert.equal(await page.locator('.fit').first().textContent(),'本文不足');
 });
@@ -190,7 +190,7 @@ test('mobile keyboard navigation, disclosure state and layout remain usable',asy
   const page=await open(t,'?q=赤い仏像#catalogue',{width:390,height:844});
   await page.keyboard.press('Tab');
   assert.equal(await page.locator('#query').evaluate(el=>el===document.activeElement),true);
-  const link=page.locator('#results a[href="#work=G01-W01"]');
+  const link=page.locator('#results .work-link[href="#work=G01-W01"]');
   await link.focus(); await page.keyboard.press('Enter');
   await checkWork(page,'G01-W01','赤い仏像');
   await page.waitForFunction(()=>document.activeElement.id==='work-title');
@@ -235,6 +235,7 @@ test('mobile supplement keeps failed, searched and read evidence distinct',async
   const page=await open(t,'#work=G01-W18',{width:390,height:844});
   await checkWork(page,'G01-W18','猫の忍者(ネットロア)');
   const supplement=page.locator('.work-followup');
+  await supplement.locator(':scope > summary').click();
   assert.match(await supplement.textContent(),/後続.*取得|原スレ/);
   const failed=supplement.locator('details').filter({hasText:'取得不能'}).first();
   await failed.locator('summary').click();
@@ -260,9 +261,9 @@ test('spoiler summary leads the detail; chronology, interpretation and v1 backli
   assert.equal(await page.locator('.work-original-analysis').getAttribute('open'),null);
   assert.equal(await page.locator('.timeline-arrow').count(),0);
   assert.equal(await page.locator('.timeline-node').count(),5);
-  assert.match(await page.locator('.timeline-heading').textContent(),/v3の再分類・検証でもありません/);
+  assert.match(await page.locator('.timeline-heading').textContent(),/未検証の改訂案を支持する結果でもありません/);
   await page.locator('.narrative-notes > summary').click();
-  assert.match(await page.locator('.narrative-notes').textContent(),/v1の取得日時とは別/);
+  assert.match(await page.locator('.narrative-notes').textContent(),/本文を確認した日時（UTC）/);
   const analysis=page.locator('.timeline-analysis').first();
   await analysis.locator('summary').focus();
   await page.keyboard.press('Enter');
@@ -294,7 +295,7 @@ test('all works are individually investigated; unconfirmed works keep reasons an
     await checkWork(page,w.work_id,w.title);
     assert.equal(await page.locator('.story-summary').count(),0);
     assert.equal(await page.locator('.story-timeline').count(),0);
-    assert.match(await page.locator('.narrative-pending').textContent(),/保留/);
+    assert.match(await page.locator('.narrative-pending').textContent(),/未確認/);
     await page.locator('.narrative-notes > summary').click();
     await page.locator('.narrative-investigation > summary').click();
     assert.equal(await page.locator('.narrative-investigation li').count(),n.investigation.length);
@@ -390,17 +391,83 @@ test('all 131 works render their complete narrative state and every new referenc
     assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),n.status);
     assert.equal(await page.locator('.timeline-card').count(),n.threads.reduce((sum,f)=>sum+f.steps.length,0));
     assert.equal(await page.locator('.story-summary').count(),n.status==='pending'?0:1);
+    assert.deepEqual(await page.locator('.timeline-type').allTextContents(),n.threads.flatMap(f=>f.steps.flatMap(s=>s.fears.flatMap(a=>a.type_ids.map(id=>fixture.types.find(t=>t.id===id).name)))));
+    assert.doesNotMatch(await page.locator('.scene .notation').allTextContents().then(x=>x.join(' ')),/[QDM](?:問い|危険|選択|世界モデル)|[A-F][1-5]/);
     await page.locator('.narrative-notes > summary').click();
     assert.equal(await page.locator('.narrative-source').count(),n.source_reviews.length);
     assert.equal(await page.locator('a[href="#source-"]').count(),0);
     assert.equal(await page.locator('a[href="#scene-"]').count(),0);
-    if(n.historical_note)assert.ok((await page.locator('.narrative-notes').textContent()).includes(n.historical_note));
-    if(n.source_reviews.some(r=>r.provenance==='new_source'))assert.match(await page.locator('.narrative-notes').textContent(),/今回追加したURL/);
+    if(n.historical_note)assert.match(await page.locator('.narrative-notes').textContent(),/分類の本文確認.*あらすじの参照範囲とは別/);
+    if(n.source_reviews.some(r=>r.provenance==='new_source'))assert.match(await page.locator('.narrative-notes').textContent(),/分類資料の出典台帳とは別の参照本文/);
     if(n.threads.some(f=>f.steps.some(s=>s.fears.some(a=>a.classification_basis==='unclassified_new_evidence')))){
-      assert.match(await page.locator('.timeline-fears').first().textContent(),/未分類（今回確認した本文）/);
+      assert.match(await page.locator('.timeline-fears').first().textContent(),/未分類（参照本文からの解釈）/);
     }
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,n.work_id);
   }
+});
+
+test('catalogue exposes spoiler excerpts and limited or pending states at desktop and mobile widths',async t=>{
+  const page=await open(t,'#catalogue');
+  assert.equal(await page.locator('.catalogue-synopsis:not(.synopsis-pending)').count(),110);
+  assert.equal(await page.locator('.synopsis-pending').count(),21);
+  assert.equal(await page.locator('.narrative-catalogue-state.scoped').count(),18);
+  assert.equal(await page.locator('.synopsis-link').count(),131);
+  assert.match(await page.locator('.results-table thead').textContent(),/ネタバレあり/);
+  assert.match(await page.locator('#results tr').filter({has:page.locator('.work-link[href="#work=G04-W09"]')}).locator('.catalogue-synopsis').textContent(),/独立した二つの候補.*別の話/);
+  assert.match(await page.locator('#results tr').filter({has:page.locator('.work-link[href="#work=G04-W12"]')}).locator('.catalogue-synopsis').textContent(),/降霊実験.*壷.*シリーズ全体の結末は未確認/);
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  assert.deepEqual(await page.locator('#type optgroup').evaluateAll(groups=>groups.map(g=>g.label)),fixture.type_groups.map(g=>g.name));
+  for(const type of fixture.types)assert.equal(await page.locator(`#type option[value="${type.id}"]`).textContent(),type.name);
+  for(const width of [1280,768,390,320]){
+    await page.setViewportSize({width,height:900});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,String(width));
+    const readable=await page.locator('.catalogue-synopsis').evaluateAll(rows=>rows.every(r=>r.getBoundingClientRect().width>=200));
+    assert.equal(readable,true,String(width));
+  }
+  await page.locator('#results .synopsis-link[href="#work=G05-W23"]').click();
+  await checkWork(page,'G05-W23','U先生');
+  assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),'scoped');
+  await page.locator('.back-link').first().click();
+  await page.locator('#results .synopsis-link[href="#work=G01-W05"]').click();
+  assert.equal(await page.locator('.narrative-pending').count(),1);
+  assert.equal(await page.locator('.story-summary').count(),0);
+});
+
+test('natural names are consistent in the dictionary, filters, scene tags and timeline links',async t=>{
+  const page=await open(t,'?type=A2#catalogue');
+  assert.equal(await page.locator('#type').inputValue(),'A2');
+  assert.equal(await page.locator('#type option:checked').textContent(),'追われている');
+  await page.locator('#query').fill('捕捉と侵入');
+  assert.ok(await page.locator('#results tbody tr').count()>0);
+  await page.locator('#results .work-link[href="#work=G01-W01"]').first().click();
+  await checkWork(page,'G01-W01','赤い仏像');
+  const typeLink=page.locator('.timeline-type[href="#type-A2"]').first();
+  assert.equal(await typeLink.textContent(),'追われている');
+  assert.equal(await page.locator('.scene .tag[href="#type-A2"]').first().textContent(),'追われている');
+  await typeLink.click();
+  assert.equal(await page.locator('#type-A2').getAttribute('open'),'');
+  assert.equal(await page.locator('#type-A2 > summary').textContent(),'追われている');
+  assert.doesNotMatch(await page.locator('#type-A2').textContent(),/A2|A1|Q：|D：|C：|M：/);
+  assert.match(await page.locator('#type-A2').textContent(),/問い|危険|見つかりそう/);
+  await page.locator('#type-A2 .type-search').click();
+  await page.waitForSelector('#results tbody tr');
+  assert.equal(new URL(page.url()).searchParams.get('type'),'A2');
+  assert.ok(await page.locator('#results tbody tr').count()>0);
+});
+
+test('reader pages contain results and evidence instead of expansion history',async t=>{
+  const page=await open(t,'#catalogue');
+  assert.doesNotMatch(await page.locator('#report').textContent(),/追加調査|今回追加|全作品の個別調査|整備状況|次の評価は計画段階|実施率は0%|D5・E5/);
+  await hash(page,'#work=G02-W08');
+  await checkWork(page,'G02-W08','ギュウギュウ詰めの軽自動車');
+  await page.locator('.narrative-notes > summary').click();
+  assert.match(await page.locator('.narrative-notes').textContent(),/分類の本文確認.*未確認/);
+  assert.doesNotMatch(await page.locator('#work-detail').textContent(),/今回追加|旧v1|今回の本文照合|追加調査/);
+  assert.match(await page.locator('.narrative-notes').textContent(),/確認した本文|照合の根拠|本文を確認した日時/);
+  await hash(page,'#work=G02-W19');
+  await checkWork(page,'G02-W19','禁后');
+  assert.match(await page.locator('.scene-analysis').allTextContents().then(x=>x.join(' ')),/D子/);
+  assert.doesNotMatch(await page.locator('#work-detail').textContent(),/危険子/);
 });
 
 test('long synthetic event, date and label wrap without shifting the rail or obscuring keyboard links',async t=>{
