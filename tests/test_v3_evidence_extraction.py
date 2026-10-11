@@ -74,6 +74,31 @@ class EvidenceExtractionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Source reading progress'):
             self.check()
 
+    def test_repeated_r1_work_cannot_increase_remaining_102_progress(self):
+        self.reviews['fully_rechecked_of_r1_inherited_102'] += 1
+        self.reviews['remaining_of_r1_inherited_102'] -= 1
+        with self.assertRaisesRegex(ValueError, 'overlap cannot be counted twice'):
+            self.check()
+
+    def test_identity_reread_preserves_inherited_scope_and_one_status(self):
+        identity = r2.read('research/v3-20261011-r2/identity-rechecks.json')
+        r2.validate_identity(identity, self.narratives, self.reviews)
+        record = next(w for w in identity['works'] if w['r2_identity_review_status'] == 'specified_published_body_reread_unresolved')
+        record['status'] = 'specified_published_body_reread_unresolved'
+        with self.assertRaisesRegex(ValueError, 'one status field'):
+            r2.validate_identity(identity, self.narratives, self.reviews)
+        del record['status']
+        record['inherited_scope'] = 'whole series'
+        with self.assertRaisesRegex(ValueError, 'alter inherited coverage'):
+            r2.validate_identity(identity, self.narratives, self.reviews)
+
+    def test_identity_reread_cannot_borrow_another_work_source(self):
+        identity = r2.read('research/v3-20261011-r2/identity-rechecks.json')
+        record = next(w for w in identity['works'] if w['r2_identity_review_status'] == 'specified_published_body_reread_unresolved')
+        record['source_review_ids'] = ['G03-W17-R2-S1']
+        with self.assertRaisesRegex(ValueError, 'own fully read'):
+            r2.validate_identity(identity, self.narratives, self.reviews)
+
     def test_world_model_empty_template_cannot_claim_extraction(self):
         self.data['records'][0]['world_model_evidence']['old_premise'] = None
         with self.assertRaisesRegex(ValueError, 'F needs actual'):

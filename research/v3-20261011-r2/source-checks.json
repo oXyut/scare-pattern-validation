@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T07:41:16Z",
+  "observed_after_at_utc": "2026-10-11T08:00:24Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 23,
+  "fully_rechecked_published_bodies": 36,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -261,8 +261,143 @@
       "note": "黒い上着仮説は白い上着での襲撃に反証され、解剖臭仮説には解剖なしの日の観察比較がある。最後の死臭説・友人の死の因果は本人にも未確定。犬を投げ込まれる家への侵犯と、追手本体の侵入は区別。",
       "review_id": "G01-W16-R2-S1",
       "observed_after_at_utc": "2026-10-11T07:41:16Z"
+    },
+    {
+      "work_id": "G01-W15",
+      "url": "https://uneco-occult.hatenablog.com/entry/chikanomaruana",
+      "status": "full_published_body_reread",
+      "range": "掲載本文21〜467行。17年前の侵入から現在の手紙・面会前の結末まで。",
+      "original_post_identity": "unconfirmed",
+      "note": "冒頭で記憶欠落と会話の補足・修正を認める。病院での記憶障害説明と別世界解釈を区別。新家族の援助と危険の訴えへの不受容は別。最後の手紙の差出人・面会結果は未確定。",
+      "review_id": "G01-W15-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:44:20Z"
+    },
+    {
+      "work_id": "G01-W14",
+      "url": "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/",
+      "status": "full_published_body_reread",
+      "range": "掲載された全4ページの本文。ページ1:13〜46、2:13〜43、3:13〜42、4:13〜23行。関連作・コメント除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "他の体験への言及は未取得。演者の負傷・発話と観客の興奮を別当事者にする。参加経緯・強制の全機序・演者の旧理解は不明。",
+      "review_id": "G01-W14-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:44:20Z",
+      "additional_urls": [
+        "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/2/",
+        "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/3/",
+        "https://irasutoyan.com/2017/07/18/%e5%88%87%e8%85%b9%e3%82%b7%e3%83%a7%e3%83%bc/4/"
+      ]
+    },
+    {
+      "work_id": "G01-W21",
+      "url": "https://sanblo.com/hebituki/",
+      "status": "full_published_body_reread",
+      "range": "継承指定の2008年篇78〜139、2011年篇143〜269の本人と応答（他者の投稿は分離）、2015年篇288〜398行。270〜280の別投稿者の体験を除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "2015年の兄が過去2投稿との続柄を述べるが、実在・同一性は独立確認しない。23歳／20歳の終了予告の違いを均さない。妹の直接体験、祖父の管理、兄の結界と救助、父の効力説明を分ける。",
+      "review_id": "G01-W21-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:52:21Z"
+    },
+    {
+      "work_id": "G02-W02",
+      "url": "https://nazolog.com/blog-entry-992.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文8〜104行、投稿106〜110。コメントとリンク先のリョウメンスクナは含めない。",
+      "original_post_identity": "unconfirmed",
+      "note": "祖父の過去は伯父経由の伝聞。災害・高速船との関連は伯父自身が推測と断る。作中人物の出自・国家への説明を現実の属性や因果へ一般化しない。",
+      "review_id": "G02-W02-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:52:21Z"
+    },
+    {
+      "work_id": "G02-W05",
+      "url": "https://the-mystery.org/scary_story/post-5003/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜82行。",
+      "original_post_identity": "unconfirmed",
+      "note": "命の要求と細工の動きは本人の体験。交通事故・首を持った来訪・カメラの食い違いはニュース・先輩の証言。夜のみの反復と、特定の犠牲を差し出す必要性・効力は別。掲載者の編集・更新表示あり。",
+      "review_id": "G02-W05-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:52:21Z"
+    },
+    {
+      "work_id": "G02-W06",
+      "url": "https://horror2ch.com/archives/80020901.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文6〜133行、投稿914〜924の幼少期・成人後・現在の迷い。",
+      "original_post_identity": "unconfirmed",
+      "note": "鏡と実物の食い違い、鏡の中からの勧誘と現実の侵入を区別。子に遊ぶと言われた時には意味を理解できなかったと書く。二日後の流産の因果・将来の弟への危険は確定せず、当時の予期を後知恵で足さない。",
+      "review_id": "G02-W06-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:52:21Z"
+    },
+    {
+      "work_id": "G02-W07",
+      "url": "https://xn--u9jv84l7ea468b.com/kaidan/761wa.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文5〜166行。幼少期、受験期、最後の公衆電話まで。",
+      "original_post_identity": "unconfirmed",
+      "note": "姉に何が起きたかは本人の推論。夜の記憶と朝の家族の証言を分け、最後の電話の母の本人性は疑いとして記録。夢・不明の記憶と家族の実際の転帰を埋めない。",
+      "review_id": "G02-W07-R2-S1",
+      "observed_after_at_utc": "2026-10-11T07:52:21Z"
+    },
+    {
+      "work_id": "G02-W08",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1533",
+      "status": "full_published_body_reread",
+      "range": "掲載の別題「軽自動車」64〜138行。",
+      "original_post_identity": "unconfirmed",
+      "note": "先行して車内を見た友人A、遅れて見る運転者、普通の車との事故と、後の相手車の不在証言を分ける。原投稿・割当との完全同定は未解消。",
+      "review_id": "G02-W08-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W10",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=20645",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜173行。",
+      "original_post_identity": "unconfirmed",
+      "note": "実際に見る物・反射だけに見える物と、友人の笑い、神社の老女の発言を区別。老女への援助要請・明示的拒否は補わない。",
+      "review_id": "G02-W10-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W14",
+      "url": "https://enigma2.ahoseek.com/thread/part61/1858/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文20〜42行。27〜29の描画リンクの画像は未取得。",
+      "original_post_identity": "unconfirmed",
+      "note": "二人で見た一件の飛行物体。質問する好奇心を具体的な予期損失へ補作しない。画像の形状は本文以外に確認していない。",
+      "review_id": "G02-W14-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W25",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=44",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜185行。",
+      "original_post_identity": "unconfirmed",
+      "note": "契約・部屋発生の前史と、扉が開かなくなって6か月の本人を分離。食物補充・部屋の用途の解釈は個体と部屋の局所仮説で、人間一般の依存へ拡張しない。",
+      "review_id": "G02-W25-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W23",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8225",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜109行。",
+      "original_post_identity": "unconfirmed",
+      "note": "迷った本人と恋人の行動、案内したバイクの人の過去の救助・女店員・二回目の説明を分ける。条件効力は伝聞以上に確定しない。",
+      "review_id": "G02-W23-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W26",
+      "url": "https://xn--u9jv84l7ea468b.com/kaidan/26wa.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文5〜175行。",
+      "original_post_identity": "unconfirmed",
+      "note": "旅行中の進行症状、戻ると回復した観測、老女の解釈、電話・募集画像の記憶と録音の食い違いを区別。一回の往復で因果・変身・旅館の全機序は確定しない。",
+      "review_id": "G02-W26-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:00:24Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 22,
-  "remaining_of_r1_inherited_102": 80
+  "fully_rechecked_of_r1_inherited_102": 35,
+  "remaining_of_r1_inherited_102": 67
 }

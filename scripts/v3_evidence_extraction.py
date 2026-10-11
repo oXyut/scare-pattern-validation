@@ -49,6 +49,13 @@ def validate(data, reviews, narratives, codebook):
                              if r['status'] == 'full_published_body_reread'}
     if len(complete_source_works) != reviews['fully_rechecked_published_bodies']:
         raise ValueError('Source reading progress disagrees with distinct work count')
+    r1_targeted = {r['work_id'] for r in read('research/v3-20261011/source-rechecks.json')['records']}
+    remaining_pool = {wid for wid, w in works.items() if w['status'] != 'pending'} - r1_targeted
+    newly_reread = complete_source_works & remaining_pool
+    if (len(remaining_pool) != 102 or
+            reviews['fully_rechecked_of_r1_inherited_102'] != len(newly_reread) or
+            reviews['remaining_of_r1_inherited_102'] != len(remaining_pool - newly_reread)):
+        raise ValueError('R1 overlap cannot be counted twice in the 102-work reread progress')
     if set(source_reviews[r]['work_id'] for r in source_reviews) - works.keys():
         raise ValueError('Unknown work in source review')
     for rec in data['records']:
@@ -127,11 +134,38 @@ def validate(data, reviews, narratives, codebook):
         if works[wid]['status'] == 'pending' and p['condition_extraction_status'] != 'source_hold':
             raise ValueError('Source hold must be kept distinct')
     return dict(assigned_entries=len(works), fully_rechecked_published_bodies=len(complete_source_works),
+                fully_rechecked_of_r1_inherited_102=len(newly_reread),
+                remaining_of_r1_inherited_102=len(remaining_pool - newly_reread),
                 condition_extraction_complete_works=len(completed), selected_records=sum(records_by_work.values()),
                 distinct_conditions_per_record=len(condition_ids), explicitly_inspected_condition_judgments=sum(judgments[s] for s in STATES),
                 condition_states={s: judgments[s] for s in sorted(STATES)},
                 type_record_states={s: judgments['type_' + s] for s in ('fit', 'not_fit', 'pending')},
                 inherited_narrative_counts=dict(Counter(w['status'] for w in works.values())))
+
+
+def validate_identity(rechecks, narratives, reviews):
+    expected = {w['work_id']: w for w in narratives['works'] if w['status'] in ('scoped', 'pending')}
+    actual = {w['work_id']: w for w in rechecks['works']}
+    if len(actual) != len(rechecks['works']) or actual.keys() != expected.keys():
+        raise ValueError('Identity rechecks must preserve the 18 scoped and 21 held entries')
+    sources = {r['review_id']: r for r in reviews['reviews']}
+    statuses = {'not_rechecked', 'batch_search_inspected_unresolved', 'specified_published_body_reread_unresolved'}
+    for wid, record in actual.items():
+        inherited = expected[wid]
+        for field, original in [('inherited_status', 'status'), ('inherited_scope', 'scope'),
+                                ('inherited_limitations', 'limitations')]:
+            if record[field] != inherited[original]:
+                raise ValueError('Identity recheck cannot alter inherited coverage or limitations')
+        status = record['r2_identity_review_status']
+        if status not in statuses or 'status' in record or record['resolution'] != 'unchanged':
+            raise ValueError('Identity progress uses one status field and does not invent resolution')
+        if status == 'specified_published_body_reread_unresolved':
+            if not record.get('source_review_ids') or not record.get('note'):
+                raise ValueError('Scoped reread needs a source and remaining identity limitation')
+            for rid in record['source_review_ids']:
+                if rid not in sources or sources[rid]['work_id'] != wid or sources[rid]['status'] != 'full_published_body_reread':
+                    raise ValueError('Identity reread needs its own fully read specified source')
+    return Counter(w['r2_identity_review_status'] for w in actual.values())
 
 
 def results(data, reviews, narratives, codebook, correspondence):
@@ -219,6 +253,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
+    validate_identity(read('research/v3-20261011-r2/identity-rechecks.json'),
+                      read('site/narratives.json'), read('research/v3-20261011-r2/source-checks.json'))
     result = results(read('research/v3-20261011-r2/condition-extractions.json'),
                      read('research/v3-20261011-r2/source-checks.json'), read('site/narratives.json'),
                      read('followup/classification/v3-codebook.json'), read('research/v3-20261011-r2/scene-correspondences.json'))

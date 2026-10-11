@@ -253,6 +253,147 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "後のBの発話の変化は別当事者・時点。本文再読と条件抽出を分ける。"
+    },
+    {
+      "work_id": "G01-W15",
+      "scene_id": "G01-W15-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "地下の足音と輪の場面は本文再読のみ。病院・順応期の新記録に接合しない。"
+    },
+    {
+      "work_id": "G01-W15",
+      "scene_id": "G01-W15-SC02",
+      "record_ids": [
+        "G01-W15-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "病院覚醒から初期の自己・世界の照合と順応。記憶障害の代替説明を保存。"
+    },
+    {
+      "work_id": "G01-W15",
+      "scene_id": "G01-W15-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "17年後の手紙は未抽出。旧名・差出人の同定を病院時点の判断に使わない。"
+    },
+    {
+      "work_id": "G01-W16",
+      "scene_id": "G01-W16-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "追跡・便所・喫茶店の境界場面は新記録の前史で、その時点の全条件は未抽出。"
+    },
+    {
+      "work_id": "G01-W16",
+      "scene_id": "G01-W16-SC02",
+      "record_ids": [
+        "G01-W16-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面は死臭説まで束ねる。新記録は臭いを検証する本人、友人の死を知る前の条件判断だけ。"
+    },
+    {
+      "work_id": "G01-W16",
+      "scene_id": "G01-W16-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "家への投げ込み・スクーター追跡・最後の犬連れは本文再読のみ。検証日と別。"
+    },
+    {
+      "work_id": "G01-W11",
+      "scene_id": "G01-W11-SC01",
+      "record_ids": [
+        "G01-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "指定掲載の一遭遇。女の未観測の移動と具体的損失の不足を、見た追跡や家への侵入へ補わない。"
+    },
+    {
+      "work_id": "G02-W14",
+      "scene_id": "G02-W14-S01",
+      "record_ids": [
+        "G02-W14-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "飛行物体の目撃・正体の質問。旧の場面全体不適合と新しい78条件の証拠不明を別に残す。"
+    },
+    {
+      "work_id": "G02-W08",
+      "scene_id": "G02-W08-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "旧行は本文不足で当事者・時点が指定されない。別題「軽自動車」の駐車場の新記録を旧行と同一の場面・原作品だと同定しない。"
+    },
+    {
+      "work_id": "G02-W10",
+      "scene_id": "G02-W10-S01",
+      "record_ids": [
+        "G02-W10-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "反射と直視の照合を新記録で条件別に点検。初回の血の男は前史で、後の自宅まで含む新範囲と区別。"
+    },
+    {
+      "work_id": "G02-W10",
+      "scene_id": "G02-W10-S02",
+      "record_ids": [
+        "G02-W10-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の家の反射・接近を点検するが、物理的侵入と必要援助の不受容による不成立は未確認で、旧A3・C3候補をコピーしない。"
+    },
+    {
+      "work_id": "G02-W23",
+      "scene_id": "G02-W23-S01",
+      "record_ids": [
+        "G02-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の道迷い・店の退出・案内の範囲を含む。新記録は後の忠告も分離した証拠層で記入する。"
+    },
+    {
+      "work_id": "G02-W23",
+      "scene_id": "G02-W23-S02",
+      "record_ids": [
+        "G02-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "再訪・女店員の条件は案内人の伝聞。具体的な害は知らされず、部分適合を新設しない。"
+    },
+    {
+      "work_id": "G02-W25",
+      "scene_id": "G02-W25-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "契約・部屋発生の前史は再読したが、その時点の本人の78条件は未抽出。半年の監禁へ時点を接合しない。"
+    },
+    {
+      "work_id": "G02-W25",
+      "scene_id": "G02-W25-S02",
+      "record_ids": [
+        "G02-W25-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "退出不能と物資供給の本人。F4の個体用途・部屋依存の推定と人間一般の成立依存の不足を分ける。"
+    },
+    {
+      "work_id": "G02-W26",
+      "scene_id": "G02-W26-S01",
+      "record_ids": [
+        "G02-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "新記録は老女の突進前の進行症状と本人の予期。帰宅回復は成果として分離し、電話の起動因果・味方の害意をコピーしない。"
+    },
+    {
+      "work_id": "G02-W26",
+      "scene_id": "G02-W26-S02",
+      "record_ids": [
+        "G02-W26-V3-R2-R02"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "身体回復後の録音・紙面の照合と電話の継続。通信を物理侵入にしない。"
     }
   ]
 }
