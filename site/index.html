@@ -20,24 +20,18 @@
 </header>
 <main id="main">
 <div id="report">
-  <section class="poc-review" aria-label="代表的な作品のあらすじと時系列">
-    <p class="section-index">あらすじと恐怖の流れ</p>
-    <p>作品の発端・展開・結末と、各場面で生じる恐怖を縦の流れで読めます。代表例からもご覧いただけます。</p>
-    <nav class="poc-links" id="poc-links" aria-label="代表的な4作品"></nav>
-  </section>
   <section class="opening" aria-labelledby="title">
     <div class="opening-copy">
       <p class="eyebrow">探索型ホラーTRPGの場面づくりに向けた調査</p>
       <h1 id="title">洒落怖の危険と<br>対処を調べる</h1>
       <p class="lead">洒落怖の当事者は何を失いそうで、どのような対処を迫られるのでしょうか。一覧131項目を対象に、確認できた本文から場面ごとの問題を読み取り、あらかじめ定めた26型と照らし合わせました。</p>
-      <p class="opening-note">5群を担当するAIと、結果をまとめるAIによる探索的な分析です。人の恐怖心理を分類した研究でも、TRPGでの効果を実証した研究でもありません。</p>
-      <a class="primary-link" href="#catalogue">131項目の資料を探す</a>
+      <a class="primary-link" href="#catalogue">作品を探して、あらすじ・分類を読む</a>
     </div>
     <aside class="overview" aria-label="調査の要点">
       <p class="eyebrow">調査時の基準v1による記録</p>
       <p class="large-number">131<span>一覧項目</span></p>
       <dl class="overview-numbers">
-        <div><dt>本文確認</dt><dd>92</dd></div><div><dt>部分確認</dt><dd>14</dd></div><div><dt>未確認</dt><dd>25</dd></div>
+        <div><dt>○ 指定範囲を確認</dt><dd>92</dd></div><div><dt>△ 範囲・一致に留保</dt><dd>14</dd></div><div><dt>× 対象本文に未到達</dt><dd>25</dd></div>
       </dl>
       <p>131は一覧の項目数です。シリーズや別名の項目、作品を特定できていない項目を含むため、独立した作品の正確な総数は分かっていません。</p>
       <p class="overview-footer">調査資料 2026年10月4日<br>改訂案v3は未検証</p>
@@ -55,32 +49,34 @@
         <h2>何を調べたのか</h2>
         <p>この調査で記述したのは、怪異の姿や名前ではなく、当事者が何を失いそうで、どう対処できるかです。同じ幽霊でも、追われる場面と家に侵入される場面では、必要な情報や行動が異なります。既存の26型でその違いを捉えられるか、無理に当てはめた箇所や説明しきれない点がないかを調べました。</p>
         <p>元の一覧で主な対象となる132項目のうち、基準を作る際に適用した「コトリバコ」を除き、131項目を調査対象としました。どの版のどの範囲を読んだかを各作品に記録しています。</p>
+        <details class="document-details"><summary>分析方法と読み方</summary>
+        <p>AIによる探索的な分析です。人の恐怖心理を分類した研究でも、TRPGでの効果を実証した研究でもありません。</p>
         <div class="method-flow" aria-label="調査手順"><span>本文・版を確認</span><span>当事者の問題を記述</span><span>基準v1と比較</span><span>説明できない点を記録</span></div>
         <p>分析には「問い」「危険」「選択」「世界モデル」の四つの欄を使いました。世界モデルは、安全・自己・他者・因果・人間の立場について当事者が持つ前提を指します。作品全体の記録と、場面ごとの記録は分けています。</p>
         <p>分からなかったことが判明しても、危険がなくなったとは限りません。そこで、問題が生じる条件と決着する条件、得られた成果と残る問題を別々に記録しました。</p>
         <dl class="notation"><div><dt>問い（分かっていないこと）</dt><dd>何が分かっていないか。</dd></div><div><dt>危険（予期される損失）</dt><dd>何を失いそうか。</dd></div><div><dt>選択（選べる行動と条件）</dt><dd>何ができ、何が妨げるか。</dd></div><div><dt>世界モデル（安全・自己・因果などへの前提）</dt><dd>安全や因果への前提がどう変わるか。</dd></div></dl>
         <p>各担当は本文から当事者の問題を読み取った後、基準v1で中心となる型の候補と、併せて当てはまる型を記録しました。原資料ではこの読み取りを「独立な抽出」と呼んでいますが、独立した人間による評価を意味しません。同じ資料を複数人が互いの判定を知らずに分類したものでもありません。</p>
         <p class="reference">根拠 <a data-repo="methods/validation.md">検証方法</a>・<a data-repo="assignments/groups.json">調査対象</a></p>
+        </details>
       </section>
 
       <section id="findings">
         <p class="section-index">02 / 調査の結果</p>
         <h2>何が分かり、何が分からなかったか</h2>
-        <p>問いが解けたこと、その場の危険を避けたこと、取り戻せない損失、前提の変化、選択の決着を分けて記録する用途が、各群から報告されています。一方、26型が資料や分析者の違いに左右されず使えること、対象とする問題を網羅すること、必要最小限の分類であることは実証されていません。</p>
+        <p>問いが解けたこと、その場の危険を避けたこと、取り戻せない損失、前提の変化、選択の決着を分けて記録する用途が、分析記録で報告されています。一方、26型が資料や分析者の違いに左右されず使えること、対象とする問題を網羅すること、必要最小限の分類であることは実証されていません。</p>
         <p>新しい型の候補は8件提出されましたが、採用は0件です。既存の型を統合・削除する案も採用していません。</p>
         <figure class="count-figure">
-          <figcaption><strong>本文の確認状態</strong><span>対象は一覧の131項目</span></figcaption>
-          <div class="stacked" aria-label="本文確認92、部分確認14、未確認25"><span class="verified" style="flex:92"></span><span class="partial" style="flex:14"></span><span class="unverified" style="flex:25"></span></div>
-          <ul class="legend"><li><i class="verified"></i>本文確認 <b>92</b></li><li><i class="partial"></i>部分確認 <b>14</b></li><li><i class="unverified"></i>未確認 <b>25</b></li></ul>
-          <p>「本文確認」は、担当が対象として定めた範囲を読んだという記録です。原典と完全に一致することや、型に当てはまることを保証しません。</p>
+          <figcaption><strong>分類用本文の確認結果（v1）</strong><span>対象は一覧の131項目</span></figcaption>
+          <div class="stacked" aria-label="指定範囲を確認92、範囲・作品一致に留保14、対象本文に未到達25"><span class="verified" style="flex:92"></span><span class="partial" style="flex:14"></span><span class="unverified" style="flex:25"></span></div>
+          <ul class="legend"><li><i class="verified"></i>○ 指定範囲を確認 <b>92</b></li><li><i class="partial"></i>△ 範囲・作品一致に留保 <b>14</b></li><li><i class="unverified"></i>× 対象本文に未到達 <b>25</b></li></ul>
+          <p>○は対象として定めた掲載範囲を読んだ記録、△は一部範囲や作品一致に留保がある結果、×は検索・取得などを試みても対象本文に到達できなかった結果です。原典と完全に一致することや、型に当てはまることを保証しません。</p>
         </figure>
         <figure class="count-figure">
           <figcaption><strong>場面全体の判定</strong><span>基準v1で判定した233行。保留25行を除く</span></figcaption>
           <div class="stacked" aria-label="適合75、部分適合141、不適合17"><span class="verified" style="flex:75"></span><span class="partial" style="flex:141"></span><span class="negative" style="flex:17"></span></div>
           <ul class="legend"><li><i class="verified"></i>適合 <b>75</b></li><li><i class="partial"></i>部分適合 <b>141</b></li><li><i class="negative"></i>不適合 <b>17</b></li></ul>
-          <p>全258行の場面記録には、本文不足のため判定を保留した25行が含まれます。残る233行の判定は、複数の型を付けた場合も含め、場面全体に対する評価です。個々の型の成功率や作品数、互いに独立した標本の数を表すものではありません。</p>
+          <p>記録は計258行です。本文からの場面記録233行と、本文不足のため判定を保留した25行を分けて数えます。残る233行の判定は、複数の型を付けた場合も含め、場面全体に対する評価です。個々の型の成功率や作品数、互いに独立した標本の数を表すものではありません。</p>
         </figure>
-        <div class="table-scroll" tabindex="0" role="region" aria-label="群別件数表"><table><caption>担当群ごとの件数</caption><thead><tr><th scope="col">群</th><th scope="col">対象項目</th><th scope="col">本文確認</th><th scope="col">部分確認</th><th scope="col">未確認</th><th scope="col">場面記録</th></tr></thead><tbody><tr><th scope="row">01</th><td>27</td><td>18</td><td>3</td><td>6</td><td>54</td></tr><tr><th scope="row">02</th><td>26</td><td>20</td><td>1</td><td>5</td><td>47</td></tr><tr><th scope="row">03</th><td>26</td><td>14</td><td>4</td><td>8</td><td>43</td></tr><tr><th scope="row">04</th><td>26</td><td>19</td><td>4</td><td>3</td><td>55</td></tr><tr><th scope="row">05</th><td>26</td><td>21</td><td>2</td><td>3</td><td>59</td></tr></tbody><tfoot><tr><th scope="row">合計</th><td>131</td><td>92</td><td>14</td><td>25</td><td>258</td></tr></tfoot></table></div>
         <p class="reference">根拠 <a data-repo="integration/data/summary.json">集計データ</a>・<a data-repo="integration/reports/robustness.md">横断レビュー</a></p>
       </section>
 
@@ -88,21 +84,21 @@
         <p class="section-index">03 / 型に当てはめられない例</p>
         <h2>怪異が現れても、型に当てはまるとは限らない</h2>
         <p>怪異が現れたというだけでは、将来の危害や世界の規則が崩れたことまで読み取れません。分析では、見かけたことと追われたこと、体内への侵入と体の外への付着、対処に必要な資源の不足と管理を続ける負担を区別する必要がありました。怪異が発動する条件についても、伝聞と本文で確認できた条件を分けています。</p>
-        <div class="example-row"><span>G04-W19</span><div><h3><a href="#work=G04-W19">ヒョウタンヘビ</a></h3><p>子どもが未知の蛇を探し、蛇は地中へ退きます。今後危害を受けると読む根拠は薄く、探究や懐かしさを恐怖へ置き換えない例です。このように型を当てはめない例を「陰性例」として残しています。</p></div></div>
-        <div class="example-row"><span>G01-W02</span><div><h3><a href="#work=G01-W02">悪霊食い</a></h3><p>超常存在が保護する展開があります。怪異の存在だけで、当事者への脅威が成立したとは判定できません。</p></div></div>
-        <div class="example-row"><span>G01-W12</span><div><h3><a href="#work=G01-W12">地獄のバス</a></h3><p>滑稽な話として読める場合にも、閉じ込められる問題や対処の代価が現れます。問題の構造を記述できることと、読者が怖さを感じることは別です。</p></div></div>
+        <div class="example-row"><div><h3><a href="#work=G04-W19">ヒョウタンヘビ</a></h3><p>子どもが未知の蛇を探し、蛇は地中へ退きます。今後危害を受けると読む根拠は薄く、探究や懐かしさを恐怖へ置き換えない例です。このように型を当てはめない例を「陰性例」として残しています。</p></div></div>
+        <div class="example-row"><div><h3><a href="#work=G01-W02">悪霊食い</a></h3><p>超常存在が保護する展開があります。怪異の存在だけで、当事者への脅威が成立したとは判定できません。</p></div></div>
+        <div class="example-row"><div><h3><a href="#work=G01-W12">地獄のバス</a></h3><p>滑稽な話として読める場合にも、閉じ込められる問題や対処の代価が現れます。問題の構造を記述できることと、読者が怖さを感じることは別です。</p></div></div>
         <p>「自分の身体が別のものになる」は部分適合のみでした。「世界の基本規則が、自分たちの理解と違う」・「人間には、理解・制御できない領域がある」には強く適合する例の報告がなく、「人間の価値や願いが、世界では重視されていない」を適合として支持する例もありません。「人間の安全・歴史・存在が、別の存在の用途に従属している」の部分適合は、個体が宿主を利用する範囲にとどまります。支持する例が足りないことを理由に、その型が存在しないと断定したり、削除したりはしません。</p>
-        <details class="document-details"><summary>新型候補8件は、どう扱ったか</summary><div class="table-scroll" tabindex="0" role="region" aria-label="新型候補の整理"><table><thead><tr><th scope="col">候補の内容</th><th scope="col">提出件数</th><th scope="col">全群を通じた判断</th></tr></thead><tbody><tr><th scope="row">直接危害</th><td>3</td><td>「追われている」の範囲を広げる案や、接触後の状況、順序・期限の補足で記述する案との比較を保留。</td></tr><tr><th scope="row">公的露見・標的情報の取得</th><td>2</td><td>社会的な損失と追手が情報を得ることを分け、補足する欄への記録を優先。</td></tr><tr><th scope="row">社会的正常性の不透明さ</th><td>1</td><td>今後の具体的な損失が読み取れない場合は、型の対象範囲に入れず、提示の効果として記述。</td></tr><tr><th scope="row">外部付着</th><td>1</td><td>「体内に何か入った・感染したかもしれない」の体内への侵入と区別し、付着する位置や接触経路などの補足で記述する案と比較。</td></tr><tr><th scope="row">追跡のない再加害予期</th><td>1</td><td>再び危害を受ける予期を記す欄を優先。有効な管理を伴わない場合は「危険を抱え、管理し続けなければならない」に入れない。</td></tr></tbody></table></div><p>採用は0件です。候補が8件あることは、独立した新しい型が8種類成立したことを意味しません。</p></details>
+        <details class="document-details"><summary>新型候補8件は、どう扱ったか</summary><div class="table-scroll" tabindex="0" role="region" aria-label="新型候補の整理"><table><thead><tr><th scope="col">候補の内容</th><th scope="col">提出件数</th><th scope="col">記録全体での判断</th></tr></thead><tbody><tr><th scope="row">直接危害</th><td>3</td><td>「追われている」の範囲を広げる案や、接触後の状況、順序・期限の補足で記述する案との比較を保留。</td></tr><tr><th scope="row">公的露見・標的情報の取得</th><td>2</td><td>社会的な損失と追手が情報を得ることを分け、補足する欄への記録を優先。</td></tr><tr><th scope="row">社会的正常性の不透明さ</th><td>1</td><td>今後の具体的な損失が読み取れない場合は、型の対象範囲に入れず、提示の効果として記述。</td></tr><tr><th scope="row">外部付着</th><td>1</td><td>「体内に何か入った・感染したかもしれない」の体内への侵入と区別し、付着する位置や接触経路などの補足で記述する案と比較。</td></tr><tr><th scope="row">追跡のない再加害予期</th><td>1</td><td>再び危害を受ける予期を記す欄を優先。有効な管理を伴わない場合は「危険を抱え、管理し続けなければならない」に入れない。</td></tr></tbody></table></div><p>採用は0件です。候補が8件あることは、独立した新しい型が8種類成立したことを意味しません。</p></details>
         <p class="reference">根拠 <a data-repo="integration/reports/robustness.md">型の使い分け・反例・候補のレビュー</a></p>
       </section>
 
       <section id="limits">
         <p class="section-index">04 / 限界</p>
         <h2>この結果だけでは判断できないこと</h2>
-        <p>131は一覧の項目数です。一つの項目が単篇を指す場合もあれば、シリーズ、複数の伝承、選んだエピソードを指す場合もあります。作品を特定できていない項目も残るため、各群が確認した単位や最低件数を足して、独立した作品の総数を出すことはできません。調査対象として重複が確定した項目は0ですが、全項目が互いに独立していることは証明されていません。</p>
-        <p>25項目は本文未確認です。14項目は部分確認で、本文の範囲や題名との対応に確認できていない点があります。候補の本文を読めても、調査対象の本文を確認したことにはしていません。原典との完全一致や、シリーズ全体・全ての異本を読んだことは保証できず、転載時の改変やリンク切れも残る問題です。</p>
+        <p>131は一覧の項目数です。一つの項目が単篇を指す場合もあれば、シリーズ、複数の伝承、選んだエピソードを指す場合もあります。作品を特定できていない項目も残るため、確認した単位や最低件数を足して、独立した作品の総数を出すことはできません。調査対象として重複が確定した項目は0ですが、全項目が互いに独立していることは証明されていません。</p>
+        <p>25項目は検索・取得などの調査を行っても対象本文に未到達でした。14項目には、本文の範囲や題名との対応に確認できていない点があります。候補の本文を読めても、調査対象の本文を確認したことにはしていません。原典との完全一致や、シリーズ全体・全ての異本を読んだことは保証できず、転載時の改変やリンク切れも残る問題です。</p>
         <p>出典台帳は166行。URLがある157行と、URL未同定の検索記録9行を含みます。取得日時はUTC時刻83行、UTC日付のみ36行、未記録47行です。83行には再取得・再読の日時も含まれ、全て初回取得時刻ではありません。</p>
-        <p>5群のAIは同じ基準と文脈を共有しており、同じように判断を誤る可能性があります。独立した人間による分類のやり直し、分析者どうしの判定の一致、互いの判定を知らずに行う比較は実施していません。怪談の真実性、読者が感じる怖さ、ゲームマスター（GM）の準備への効果、プレイヤーの体験の違いも測定していません。</p>
+        <p>分析を担当したAIは同じ基準と文脈を共有しており、同じように判断を誤る可能性があります。独立した人間による分類のやり直し、分析者どうしの判定の一致、互いの判定を知らずに行う比較は実施していません。怪談の真実性、読者が感じる怖さ、ゲームマスター（GM）の準備への効果、プレイヤーの体験の違いも測定していません。</p>
         <p>原典との完全一致や分析の正しさは、データ構造の検査だけでは保証できません。参照した本文の範囲と、作品・版の同定に関する留保を各詳細に示しています。</p>
         <p class="reference">根拠 <a data-repo="integration/reports/robustness.md">レビュー手順と限界</a>・<a data-repo="integration/data/summary.json">欠測・重複候補の記録</a></p>
       </section>
@@ -123,7 +119,7 @@
         <p>「井戸の足臭女」は関連する二次紹介の掲載範囲を確認していますが、分類資料の対象作品や原版は未同定です。比較候補、名称一覧、検索結果の断片、取得失敗は、全編読了や同一作品の確定として扱いません。</p>
         <p id="followup-links" class="reference"><a data-followup="followup/README.md">本文確認の根拠資料</a></p>
         <details class="document-details"><summary>関連本文を参照する39項目を見る</summary><div id="followup-results" class="table-scroll"></div></details>
-        <p class="reference">確認根拠 <a data-followup="followup/index.json">索引JSON</a>・<a data-followup="followup/sources/group_01-02.md">群01–02</a>・<a data-followup="followup/sources/group_03-05.md">群03–05</a></p>
+        <p class="reference">確認根拠 <a data-followup="followup/index.json">索引JSON</a>・<a data-followup="followup/sources/group_01-02.md">本文照合記録（1）</a>・<a data-followup="followup/sources/group_03-05.md">本文照合記録（2）</a></p>
       </section>
 
       <section id="types">
@@ -144,23 +140,25 @@
     <form id="filters" class="filters" role="search">
       <label class="search-label">作品名・あらすじ・型名・分析から検索<input type="search" id="query" name="q" placeholder="例：くねくね、逃げる、未同定" autocomplete="off"></label>
       <div class="selects">
-        <label>分類資料の本文確認<select id="status" name="status"><option value="">全ての状態</option><option value="verified">本文確認</option><option value="partial">部分確認</option><option value="unverified">未確認</option></select></label>
+        <label>分類用本文の確認結果（v1）<select id="status" name="status"><option value="">全ての結果</option><option value="verified">○ 指定範囲を確認</option><option value="partial">△ 範囲・作品一致に留保</option><option value="unverified">× 対象本文に未到達</option></select></label>
         <label>恐怖の型<select id="type" name="type" aria-describedby="type-context"><option value="">全ての型・型なし</option><option value="none">型なしの場面あり</option></select><span id="type-context" class="type-context"></span></label>
         <label>場面全体の判定<select id="fit" name="fit"><option value="">全ての判定</option><option>適合</option><option>部分適合</option><option>不適合</option><option>本文不足</option></select></label>
-        <label>担当群<select id="group" name="group"><option value="">全5群</option><option value="group_01">群01</option><option value="group_02">群02</option><option value="group_03">群03</option><option value="group_04">群04</option><option value="group_05">群05</option></select></label>
+        <label>並び順<select id="sort" name="sort" aria-describedby="sort-note"><option value="">本文確認の到達順</option><option value="title">題名順</option><option value="original">元の一覧順</option></select></label>
       </div>
       <div class="filter-footer"><p id="result-count" role="status" aria-live="polite">資料を読み込み中です。</p><button type="reset">条件をリセット</button></div>
     </form>
+    <p id="sort-note" class="small-note">初期順：○指定範囲を確認 → △範囲・作品一致に留保 → ×対象本文に未到達。同じ結果では題名順です。v1の確認結果を基準にしており、後発のあらすじの有無、怖さ、型の適合度は順序に含めません。□は結果の記録が不足する場合に表示します。</p>
+    <details class="document-details result-key"><summary>結果の記号・件数の読み方</summary><p>確認結果、調査を試みた履歴、場面記録の行数を別々に示します。旧v1の未到達25件には全て調査履歴があります。現在の実施中・停止中を判断できる記録はありません。×の詳しい理由と範囲は各作品に掲載しています。</p><p>あらすじは後発の参照本文による記録です。○掲載範囲を確認92件、△一部範囲・候補を確認18件、×作品・範囲を特定できず21件。分類用本文の92・14・25件とは対象範囲が異なります。</p></details>
     <p class="small-note">検索と絞り込みは組み合わせて使えます。型と判定を両方選ぶと、同じ場面でその型と判定が記録された項目を表示します。判定は場面全体の評価で、型ごとの評価ではありません。</p>
     <div id="results"></div>
-    <noscript><p>検索と作品詳細にはJavaScriptが必要です。<a href="https://github.com/oXyut/scare-pattern-validation/tree/148359a/groups">リポジトリの群別資料</a>から全項目を確認できます。</p></noscript>
+    <noscript><p>検索と作品詳細にはJavaScriptが必要です。<a href="https://github.com/oXyut/scare-pattern-validation/tree/148359a/groups">リポジトリの調査資料</a>から全項目を確認できます。</p></noscript>
   </section>
 
   <section id="sources" class="sources" aria-labelledby="sources-title">
     <p class="section-index">08 / 出典とデータ</p>
     <h2 id="sources-title">分析の根拠と出典を確認する</h2>
     <p>このサイトは公開済みの自作分析を編集し、作品本文へのリンクを掲載しています。怪談本文の丸ごと転載はしていません。出典には本文の転載先のほか、調査対象に当たるか確認中の候補や検索記録も含まれます。どこまで読めたか、版や作品の一致について何が分かっていないかは、作品詳細で確認できます。</p>
-    <dl class="source-list"><div><dt>全体の記録</dt><dd><a data-followup="README.md">研究リポジトリのREADME</a>・<a data-repo="integration/reports/robustness.md">横断レビュー</a>・<a data-repo="integration/data/summary.json">原集計JSON</a></dd></div><div><dt>群ごとの分析と出典</dt><dd id="group-source-links"></dd></div><div><dt>サイト用データ</dt><dd><a href="data.json" download>公開用JSON</a>・<a href="https://github.com/oXyut/scare-pattern-validation">実装と変更履歴</a></dd></div><div><dt>参照した版</dt><dd>研究資料の参照commit <a href="https://github.com/oXyut/scare-pattern-validation/commit/148359a">148359a</a><br>固定v1のSHA-256 <code class="hash">5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c</code></dd></div></dl>
+    <dl class="source-list"><div><dt>全体の記録</dt><dd><a data-followup="README.md">研究リポジトリのREADME</a>・<a data-repo="integration/reports/robustness.md">横断レビュー</a>・<a data-repo="integration/data/summary.json">原集計JSON</a></dd></div><div><dt>作品の分析と出典</dt><dd><a href="#catalogue">作品別資料</a>の詳細に分析記録・報告・台帳を掲載しています。</dd></div><div><dt>サイト用データ</dt><dd><a href="data.json" download>公開用JSON</a>・<a href="https://github.com/oXyut/scare-pattern-validation">実装と変更履歴</a></dd></div><div><dt>参照した版</dt><dd>研究資料の参照commit <a href="https://github.com/oXyut/scare-pattern-validation/commit/148359a">148359a</a><br>固定v1のSHA-256 <code class="hash">5ce8e81bd0c99482b72257b085889eea371224c5fa945de9eebe2d0cc5ffad0c</code></dd></div></dl>
     <p class="small-note">v1による本文確認と分析は2026年10月4日の記録です。関連本文の確認範囲は作品詳細に掲載しています。全ての怪談本文や外部リンクを再取得したものではありません。</p>
     <p class="small-note">「解釈確信度」は、分析者が自分の解釈にどの程度確信を持つかの主観的な見積もりです。統計的な確率や恐怖の効果を示す値ではありません。</p>
   </section>
