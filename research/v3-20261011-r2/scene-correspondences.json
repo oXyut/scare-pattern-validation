@@ -127,6 +127,38 @@
       ],
       "relation": "same_actor_time_scope",
       "reason": "旧行と同じ幼少期の子ども・鍵穴の瞬間的危険と離脱を対象とする。A2の移動追跡の不足と、母に訴えていない事実を条件ごとに記録する。"
+    },
+    {
+      "work_id": "G01-W25",
+      "scene_id": "G01-W25-SC01",
+      "record_ids": [
+        "G01-W25-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は祖父と孫の追跡・射撃・救助を束ねる。追加記録は抱えられる子どもの時点と認識。祖父の救助選択や子どもから見た救助不能は別に点検する。"
+    },
+    {
+      "work_id": "G01-W25",
+      "scene_id": "G01-W25-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖父の死後の身代わり説明は全篇で再読したが、この後の本人の時点や祖父の選択の78条件記録は未抽出。追跡時の子どもの選択に移さない。"
+    },
+    {
+      "work_id": "G01-W19",
+      "scene_id": "G01-W19-SC01",
+      "record_ids": [
+        "G01-W19-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は音の探索から少女の加害、校門の施錠と脱出までを束ねる。追加記録は危険認識後の夢内の逃走と校門の時点。先の覗く行為の意図・制御の条件は別。"
+    },
+    {
+      "work_id": "G01-W19",
+      "scene_id": "G01-W19-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "覚醒後のノートと次の夢への不安は本文を再読したが、この覚醒後の78条件記録は未抽出。夢内の型判定をそのまま移さない。"
     }
   ]
 }

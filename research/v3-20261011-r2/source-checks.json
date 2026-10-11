@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T07:04:02Z",
+  "observed_after_at_utc": "2026-10-11T07:13:10Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 14,
+  "fully_rechecked_published_bodies": 17,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -156,8 +156,53 @@
       "original_post_identity": "unconfirmed",
       "observed_after_at_utc": "2026-10-11T07:04:02Z",
       "note": "継承状態scopedの限定範囲として維持。「坂道の女」という割当との全同定・原投稿一致は未解消。女性の瞬間的な位置変化と移動追跡、ポケットの髪と住居侵入を区別。"
+    },
+    {
+      "review_id": "G01-W19-R2-S1",
+      "work_id": "G01-W19",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜123行。二度の夢の回想、覚醒後のノート、次の夢への懸念まで。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:13:10Z",
+      "note": "夢内と覚醒後を分離。校門の施錠は本文中でも通常の学校規則の変更で、道の接続異常ではない。"
+    },
+    {
+      "review_id": "G01-W23-R2-S1",
+      "work_id": "G01-W23",
+      "url": "https://nazolog.com/blog-entry-1041.html",
+      "status": "full_published_body_reread",
+      "range": "投稿199〜209／掲載本文8〜141行。他投稿者の多数のコメントは除く。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:13:10Z",
+      "note": "警告者、本人、援助者むっさんを分ける。むっさんの推測、相方の別の死因説明、本人の不可視と休職を区別。"
+    },
+    {
+      "review_id": "G01-W01-R2-S1",
+      "work_id": "G01-W01",
+      "url": "https://llike.net/2ch/fear/akaibutuzo/2.htm",
+      "status": "full_published_body_reread",
+      "range": "Part1掲載本文31〜345行、Part2 31〜316行。原投稿者の本編322〜384と補足386・388を区別。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:13:10Z",
+      "note": "Part2は最初Internal Error、再取得後に本文末・補足まで読めた。犬の身代わりは後の説明で、逃走中の本人の選択ではない。過去映像の子どもと現代の語り手を分ける。",
+      "additional_urls": [
+        "https://llike.net/2ch/fear/akaibutuzo/"
+      ],
+      "retrieval_attempts": [
+        {
+          "url": "https://llike.net/2ch/fear/akaibutuzo/2.htm",
+          "outcome": "internal_error",
+          "method": "web_reader"
+        },
+        {
+          "url": "https://llike.net/2ch/fear/akaibutuzo/2.htm",
+          "outcome": "body_available_on_retry",
+          "method": "web_reader"
+        }
+      ]
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 13,
-  "remaining_of_r1_inherited_102": 89
+  "fully_rechecked_of_r1_inherited_102": 16,
+  "remaining_of_r1_inherited_102": 86
 }

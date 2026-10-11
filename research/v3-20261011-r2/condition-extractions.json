@@ -7922,11 +7922,9 @@
         },
         {
           "condition_id": "B2.R1",
-          "state": "supported",
-          "reason": "怖がってその場を離れる動作が、そこに留まる接触・加害を避けたい意思を支持する。",
-          "evidence_ids": [
-            "G01-W22-R2-E-c"
-          ],
+          "state": "unknown",
+          "reason": "本人は鍵穴のあるその場を離れるが、浴場等の領域の外へ離脱したい意思・滞在による損失を特定した記録ではない。局所から距離を取る行動と区別する。",
+          "evidence_ids": [],
           "inspected_evidence_ids": [
             "G01-W22-R2-E-c"
           ],
@@ -7934,11 +7932,9 @@
         },
         {
           "condition_id": "B2.R2",
-          "state": "explicitly_false",
-          "reason": "本文で子どもはそこを離れる。指定した瞬間の局所離脱を阻む実際の障壁は成立していない。",
-          "evidence_ids": [
-            "G01-W22-R2-E-c"
-          ],
+          "state": "unknown",
+          "reason": "その場を離れたことは浴場等の安全な外部へ到達した確認ではない。領域外への離脱を阻む障壁の有無は本文では未特定。",
+          "evidence_ids": [],
           "inspected_evidence_ids": [
             "G01-W22-R2-E-c"
           ],
@@ -8575,6 +8571,2002 @@
         ],
         "limitation": "危険認識は支持するが、好奇心を旧世界モデルの安全前提と自動的に扱わない。"
       }
+    },
+    {
+      "work_id": "G01-W25",
+      "record_id": "G01-W25-V3-R2-R01",
+      "actor": "山で祖父に抱えられ逃げる子どもである語り手",
+      "time_scope": "いつもの猟へ同行し、赤い動物に追われ、家へ逃げ込むまで。後の身代わり説明は当時の本人の知識ではない。",
+      "world_layer": "narrated_childhood_recollection_and_later_report",
+      "selection_reason": "追跡中の本人の問題状態と、その後の祖母の説明を分ける。祖父自身の祈りと選択を子どもの犠牲の選択にしない。",
+      "anticipated_loss": "追って来る動物による本人への接触・加害。",
+      "recognition_basis": "怖くて泣きそうになり、振り返れないと語る本人の反応。",
+      "closure_observed": "子どもは家へ到達し成人後の生存も記す。祖父の死は後の既発損失で、身代わりの因果は祖母の説明。",
+      "limitation": "子どもの一選定範囲。祖父の射撃・塩酒・身代わりの効力と必要性を確定せず、祖父の独立した選択記録も未抽出。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W25-R2-E-a",
+          "source_review_id": "G01-W25-R2-S1",
+          "url": "https://the-mystery.org/strange_experience/post-2764/",
+          "range": "11〜40行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "いつもの猟へついて行く子どもが、茂みの物を猪か狸かと尋ねる。"
+        },
+        {
+          "evidence_id": "G01-W25-R2-E-b",
+          "source_review_id": "G01-W25-R2-S1",
+          "url": "https://the-mystery.org/strange_experience/post-2764/",
+          "range": "42〜64行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "祖父が射撃して本人を抱え逃げる。振り返ると赤い動物がこちらへ走り、本人は怖がる。"
+        },
+        {
+          "evidence_id": "G01-W25-R2-E-c",
+          "source_review_id": "G01-W25-R2-S1",
+          "url": "https://the-mystery.org/strange_experience/post-2764/",
+          "range": "66〜85行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "祖父がこの子だけでもと祈り、山を降り家へ走る。祖母が塩と酒をかける。"
+        },
+        {
+          "evidence_id": "G01-W25-R2-E-d",
+          "source_review_id": "G01-W25-R2-S1",
+          "url": "https://the-mystery.org/strange_experience/post-2764/",
+          "range": "87〜98行",
+          "layer": "reported_and_later_narration",
+          "summary": "祖父の死後、祖母が山の神と身代わりを説明する。成人した本人は生きている。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "祖父に抱えられ逃げる子どもが、後方から来る赤い動物との接触・加害を避ける進行中の課題を持つ。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "本人は怖くて泣きそうになり、振り返ることもできないと語る。祖父だけの危険認識へ限定しない。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "茂みの物を猪か狸かと尋ね、いつもの猟と捉えていた子どもの局所的な旧理解。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "赤い猿らしいものの追随、祖父の反復射撃と祈り、祖母による後の山の神の説明。目撃と伝聞を分ける。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一つの村の山と一回の遭遇。世界や人間一般の規則への一般化は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "いつもの猟の動物の理解から、抱えられて逃げ、振り返れない脅威の理解へ変わる局所的受容。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "危険な動物や局所的な山の神の説明で足りない理由は本文にない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "幼少期の一回の目撃と後の伝聞。動物の誤認、発砲や死の別原因、記憶・叙述の誤りを分析上の未排除仮説として記す。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "追っている動物は見えるが、その時点で子どもの所在が未捕捉という根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "祖父の後ろへ回り逃げるが、指定した追手への所在の感知を避ける問題だったかは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "supported",
+          "reason": "子どもが振り返ると動物がこちらへ走る。逃げる二人への標的接近・追随の方向がある。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "抱えられて逃げる本人は怖くて泣きそうで振り返れない。接触・加害を避ける危険受容の根拠。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "山から祖父の家へ逃げ込む行動が家を避難先として選ぶ根拠となる。",
+          "evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "動物が家の境界を越えた記述はない。家で祖母が塩酒をかけることから侵入を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "家への未確認の侵入による安全喪失を、後に知られる祖父の死で成立させない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "後ろから一体が追うが、防御領域の周囲を占める包囲ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "祖父の装填と射撃はあるが、境界・備蓄を守りきれなくなる消耗競争としては未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "子どもが防御境界の突破や維持資源の枯渇による損失を予期する記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "祖父について山を歩き家へ帰るが、子どもの状況定位の不明が具体的問題として示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "何が起きたか分からないことを、現在地・帰路の不明による帰還不能や孤立へ置換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "山での接触・加害を避け、祖父に抱えられ外へ逃げる課題は記録される。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "二人は山を降り切り家へ到達する。指定した逃走の範囲で山からの離脱を実際に阻む障壁は成立していない。",
+          "evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "山を降り家へ走る経路に、道・部屋の接続や時間差・反復の異常はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "危険から走って逃げる課題を、接続異常による帰還不能・消耗の予期へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "普通の動物と思って尋ねたことと後の神の説明はあるが、同じ時点の知覚・記録・証言の競合は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "怖くて逃げるが、競合証拠のどれを採るかが安全判断の損失を変える問題は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "一緒にいる祖父・祖母の本人性を疑うという対象・時点はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "動物の異様な姿は既知人物の外見・声・記憶の模倣を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "危険な代替者を祖父本人として扱う予期損失は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "いつも猟へ連れて行く祖父が、危険を告げ抱えて逃がす援助関係がある。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "explicitly_false",
+          "reason": "指定範囲の祖父は子どもを抱え、射撃し、この子だけでも助けてと祈って逃がす。本人の行為は救助で、子どもを害する敵対計画ではない。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "子どもが祖父の裏切りや供犠の計画を予期する根拠はない。祖母の後の身代わり説明は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "子どもは動物の種類を尋ねるが、救助のために危険の根拠を訴えた記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "explicitly_false",
+          "reason": "祖父は本人を隠し抱えて走り、祖母も逃げ込んだ二人に対応する。必要な危険への援助を拒む局面ではない。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "子どもが不受容のため孤立し必要援助を失うという予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "猟へ連れて行く祖父と、家で迎える祖母という近親と継続した関係がある。",
+          "evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "祖父自身も子どもを抱えながら動物に追われ射撃・祈りを続ける、同時の進行中の危険がある。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "抱えられる子どもが祖父を救えず失いそうと予期する反応は未確認。後の死亡と身代わり説明を当時の認識へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "動物の追随と塩酒の処置は、子どもの体内への寄生・感染・異物侵入の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "本人の怖さは接触・加害への反応。体内侵入後の発症・損傷・伝播の認識は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "毛のない赤い猿らしい姿は追手側で、子ども自身の変形・変質ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "子どもが自己の変質による機能・自己像の喪失を予期する記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "発砲で耳が響くが、意に反する子どもの発話・動作・加害は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "抱えられ逃げ、怖くて振り返れないことは、自分の意図に反する運動の制御喪失とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "子どもの不随意行為による自他への具体的損失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "幼少期の回想と後の理解の変化に、子どもの記憶・人格・存在の複製・埋込・置換の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "逃走中の恐怖を、自己の継続の不確かさや置換の認識へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "銃声で耳が響き音が遠く聞こえる描写はあるが、身体内部の損傷が進行する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "耳の一時的な聴感変化から、内的損壊の進行を本人が止められないと認定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "本人が内部の損傷から機能喪失・臓器損傷・死を予期する時点はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "茂みでの遭遇と発砲はあるが、災厄を起動する禁忌・接触・契約の規則は指定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "一回の遭遇・追跡・後の死という順序だけで、ある条件の災厄起動の因果を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "本人は逃げるが、既知の起動条件の解除や回避を判断した記録ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "子どもと祖父の二対象の危険、後の子どもの生存と祖父の死を区別できる。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "追跡される二人と後の身代わり説明があっても、危険が本人から祖父へ移転した経路・媒介は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "その時の子どもが危険の対象増加・移転を予期する言葉はない。後の身代わり説明と分ける。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "supported",
+          "reason": "祖父に抱えられ山から家へ逃げ込み、本人はその場の接触を避ける局所回避がある。射撃や塩酒の独自効力は未確認。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "祖父の死と身代わりという祖母の説明はあるが、逃走の有効性に必要な犠牲だったかは確認されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "子どもは何が起きているか分からず怖がる。重大な代償を知って選ぶ問題は、その時点では未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "祖父に抱えられ逃げる行動を本人は理解し、追手からの局所回避が行われる。原因の解明とは別。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "祖父の援助で山から家へ逃げる対処が実行される。指定範囲で回避の実行が資源不足により不能な状態ではない。",
+          "evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "子どもの怖さと、既知の対処を実行できないことによる損失予期は区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "家での塩酒と一時的な逃走はあるが、危険を継続的に抑える管理方法の効力は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "帰宅後に子どもが保管・監視・手入れ・継承を続ける必要は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "後の祖父の死を、子どもの管理の放棄・失敗による害にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "本人が管理責任を終えたい、終えられないと問題にした記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "いつもの猟の動物を想定する旧理解は、因果・時空・生死の世界基本規則の前提を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "一回の目撃と祖母の後の説明はあり、独立した複数の信頼できる反証としては未確定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "一つの山の神の局所説明を超える、世界一般の安全判断の変更はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "祖父の反復射撃はあるが、子ども自身による工夫と仮説検証の反復ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "祖父の逃走や死の伝聞は、人間一般の認識・能力に構造的限界がある根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-c",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "子どもの恐怖や後の山の神の理解を、人間一般の構造的限界の脅威受容にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "祖父といつもの猟へ行く期待に、人間の善意・正義・願いが世界で重視される前提は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "善い神ではないという一つの存在の説明は、世界秩序全体で人間の価値が無関係という根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "局所的な危険と身代わりの理解を、人間の価値の非中心性を受容した前提変更へ拡張しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "本人の生存と祖父の死に、人間一般の成立が別存在の用途に依存する仕組みは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-a",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "身代わりという説明を、人間を素材・設備・資源として維持する用途にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "ある山の神への理解を、人間一般の成立条件の前提変更へ広げる根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W25-R2-E-b",
+            "G01-W25-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "いつもの猟の猪・狸などを考えて尋ねる子どもの、局所的な対象理解。",
+        "new_evidence": "赤い動物の追随を見て、祖父に抱えられ逃げる経験。山の神・身代わりの説明は後の祖母の伝聞。",
+        "evidence_scope": "一つの村の山での一回の経験と近親者の説明。世界・人間一般の規則の検証ではない。",
+        "acceptance_and_threat": "動物の種類への関心から、本人が怖がって振り返れない危険認識へ変わる。後に神だったかもしれないと語る。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。危険な動物や局所的な山の神の説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "幼少期の動物の誤認や記憶の誤り",
+            "basis": "遠目の一回の目撃で、元の対象はよく見えない。",
+            "status": "analyst_hypothesis_unresolved"
+          },
+          {
+            "hypothesis": "祖父の死の別原因",
+            "basis": "死後に身代わりと説明されるが、死因・必要な犠牲の機序・比較は未記録。",
+            "status": "causal_relation_unconfirmed"
+          },
+          {
+            "hypothesis": "局所的な山の神",
+            "basis": "祖母による説明は一つの村の存在に限る。",
+            "status": "reported_local_model"
+          }
+        ],
+        "limitation": "追跡の目撃と身代わりの伝聞を混同せず、射撃の失敗を人間一般の制御不能へ広げない。"
+      }
+    },
+    {
+      "work_id": "G01-W19",
+      "record_id": "G01-W19-V3-R2-R01",
+      "actor": "二度目の夢の中で校門から逃げようとする語り手",
+      "time_scope": "少女の加害を見て逃げ、予定した校門の施錠に遭遇し、別門を越えて覚醒するまで。覚醒後の次の夢への不安は別問題。",
+      "world_layer": "dream_narration",
+      "selection_reason": "既知の校内と施錠の障害、夢内の追跡と局所脱出を点検する。通常の施錠を接続異常へ、夢内の殺意を現実の死亡へ移さない。",
+      "anticipated_loss": "夢内で少女に捕まり殺されること。予定した出口が施錠されているため、別の脱出経路を探す。",
+      "recognition_basis": "殺される、逃げなければと考え走る本人の叙述。校外へ出れば覚醒するという前の夢の理解。",
+      "closure_observed": "低い門を越え、少女は学校側で固まり、本人が覚醒する局所脱出。次の夢での長期安全は不明。",
+      "limitation": "二度目の夢内の一選定範囲。先の覗く行為の意図・制御、覚醒後のノートと再発の独立した条件記録は未抽出。B2の障害は最初の出口時点で、脱出成果と矛盾させない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W19-R2-E-a",
+          "source_review_id": "G01-W19-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+          "range": "64〜85行",
+          "layer": "dream_narration",
+          "summary": "夢だと認識して母校を歩く。トイレに入り紙と物音を確かめ、少女を覗く。"
+        },
+        {
+          "evidence_id": "G01-W19-R2-E-b",
+          "source_review_id": "G01-W19-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+          "range": "86〜105行",
+          "layer": "dream_narration",
+          "summary": "殺されると逃げ、校内地理を把握して校庭へ。前に覚醒した外への門が今回は施錠され、少女と目が合う。"
+        },
+        {
+          "evidence_id": "G01-W19-R2-E-c",
+          "source_review_id": "G01-W19-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+          "range": "106〜116行",
+          "layer": "dream_narration",
+          "summary": "別の低い門を思い出して越え、学校側の目前で固まる少女と殺意の発話を確認して覚醒する。"
+        },
+        {
+          "evidence_id": "G01-W19-R2-E-d",
+          "source_review_id": "G01-W19-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=1789",
+          "range": "117〜123行",
+          "layer": "awake_narration_and_belief",
+          "summary": "覚醒後に既存ノートを見つけ、次の夢で逃げきれず死ぬかもしれないと案じる。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "二度目の夢内で殺されると考え、校門の施錠で予定した出口を使えず、別の門へ逃げる課題を指定する。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "本人は殺されると叫び、逃げなければと走る。夢内の本人の危険認識で、現実の死亡を確定しない。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "前の夢でフェンスの扉を出れば覚醒し、同じ経路で助かると思う局所的な旧理解。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "今回はその門が施錠され、少女と目が合い、別の門へ逃げて目前まで追いつかれる夢の叙述。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "同じ学校の二度の夢と覚醒後のノート。世界や人間一般の規則を検証する範囲ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "予定した出口で助かるという理解が破れ、別の低い門を探して越える安全判断への局所的変更。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "本文自身が施錠を通常の学校規則の変化と説明する。記憶や夢の変化という局所説明では足りない理由は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "既知の校内経路と通常の施錠規則、夢と回想・ノートの記述を根拠に、夢・記憶・叙述の誤りの代替仮説を未排除として記録する。",
+          "evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "explicitly_false",
+          "reason": "少女と校庭で目が合うと明記される。指定した門での時点は当事者の所在未捕捉ではない。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "少女から離れる逃走はあるが、発見後の所在感知を避ける課題としては記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "supported",
+          "reason": "少女との対面後、速い追随の感覚と出口で目前の少女を確認し、殺すつもりだったという発話がある。夢内の標的接近の根拠。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "本人は殺されると予期し、追いつかれないよう走って門を越える。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "学校の外へ出れば助かり覚醒すると期待する、指定した夢内の避難先がある。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "explicitly_false",
+          "reason": "門の外へ出た後、少女は学校側で固まり、本人が覚醒する。指定した外側の避難領域への侵入は成立しない。",
+          "evidence_ids": [
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "外へ届かない目前の手の描写はあるが、避難領域内へ侵入して具体的加害を行う結び付きは未成立。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "少女一人から逃げる記述で、本人が守る領域の周囲を脅威が占める包囲は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "校門の施錠は学校の通常規則。外からの圧力・備蓄の消耗で境界を保てなくなる根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "逃走中に、防衛資源の枯渇や防御境界の突破による損失の予期は特定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "校内の地理は完璧で施錠の理由と別門を思い出す。選定範囲の主問題は既知出口の障害だが、夢の滞在安全条件の不明が別の状況定位の問題を開くかは未特定。地理の把握だけで全ての定位項目の不明を否定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "施錠で困ることは、現在地の不明による帰還不能・孤立とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "少女に殺されると予期し学校の外へ出たい。予定した出口を使えず別の門へ逃げる必要がある。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "supported",
+          "reason": "前の夢で使った外への門に錠前があり、その経路の離脱を実際に阻む。後に低い門を越える成果と、障害発生時の問題を分ける。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "explicitly_false",
+          "reason": "施錠は通常の学校規則の変更と本人が説明し、校内の経路は既知のまま別門へ到達する。選定範囲は道・部屋の接続や時間反復の異常ではない。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "学校の施錠による逃走困難を、接続異常による帰還不能・消耗にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "前の夢と今回の門の状態は異なる時点の変化。同一命題の知覚・記録・証言が競合する状況とは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "出口を変更するが、競合する証拠のどれを採るかで危険を判断する問題は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "少女は夢の中の相手だが、特定の既知人物の本人性を疑う対象は指定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "花子さんのような外見という表現を、特定人物の模倣・置換の根拠にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "本人の死の予期はあるが、偽人物を本人と認めることによる接近・加害の問題ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "少女や下駄箱の存在に、味方や共同体としての信頼・援助を期待した関係はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "supported",
+          "reason": "少女の頭を掴もうとする動作と殺せると思ったという発話は敵対意図を支持する。味方本人である根拠とは別。",
+          "evidence_ids": [
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "少女の敵対接近を、信頼していた味方の裏切り・拘束・供犠として扱う根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "本人は独りで走る。危険の根拠を他者へ訴えて援助を求める記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "下駄箱の存在が襲わないことは、本人の訴えを受容せず援助を拒む証拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "援助の不受容による孤立と具体的損失の予期は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "選定した夢内の逃走に、本人が重要視する自分以外の救助対象は指定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "少女が食べる首は先の場面。選定時点で本人が救おうとする他者の将来損失・進行中の課題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "自己の逃走の困難を、他者の介入・救助が困難で喪失を予期することへ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "少女の手は本人へ伸びるが、本人の体内への侵入・感染を示す接触・症状は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "殺されるという予期はあるが、体内侵入後の発症・損傷・伝播と結び付けていない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "本人の身体が変形・変質して進む描写はない。下駄箱の別存在の異形は移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "殺害される不安を、自己の変質による機能・自己像の喪失にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "恐怖の身体反応と必死の逃走はあるが、本人の意図しない発話・動作・加害とは未確認。先の覗く行為は別局面。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "走り、別の門を思い出し、越える本人の行為に、意図で制御できない動作の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "恐怖と殺害の予期は少女からの加害。自己の制御喪失が自他を害するという問題と別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "前の夢を思い出すことや既存ノートを見つけることは、記憶・人格・存在の複製・埋込・置換を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "本人は次の夢の死を案じるが、自己の置換・継続の不確かさを受容する問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "寒気や汗、覚醒後のめまいはあるが、夢内の本人の内部損傷が進行する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "少女から逃げる課題を、自己の身体内部の損壊の停止を制御できない問題へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "頭蓋を掴まれ殺されそうという外的加害の予期と、内部進行による機能喪失・死は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "再び夢を見ることは怖がるが、禁忌・契約等の特定条件による危険起動規則は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "二度の夢の類似やノートの存在だけで、特定条件が殺害を起動する因果は確定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "夢から逃げる出口の判断はあるが、危険を起動する条件の回避判断とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "同じ本人の再度の夢と危険はあるが、別の被害対象・場所へ増加・移転する対象IDは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "同じ本人の再襲来や夢の続きは、新対象へ危険が及ぶ媒介・伝播の経路とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "次の夢での自己の死の予期を、他者への危険の増加・移転の予期にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "supported",
+          "reason": "前の夢の出口と、今回は別の低い門を越え覚醒するという二つの局所的な脱出経験がある。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "門を越える有効な対処に、重視する損失や他人への加害が必要に伴う根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "逃げるか殺されるかの問題を、重要な代償を払う救済選択にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "本人は外の門を出れば覚醒すると前の経験から理解し、別門を越える回避を実行する。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "一つの門の錠前は障害だが、別の低い門を思い出し越える能力はある。理解済み対処を資源不足が実行不能にする範囲は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "supported",
+          "reason": "出口を使えず、少女に殺される前に別の門を越えようとする、離脱困難と具体的損失の結び付きはある。資源不足の認定とは別。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "学校の外へ出て覚醒する局所回避はあるが、抱えた危険を抑制する管理方法ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "再発への警戒とノートの記録は、保管・監視・手入れ・継承の継続義務を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "次の夢の不安と、危険管理の放棄・失敗による害の関係は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "本人が管理責任を終えたい、終えられないと問題にする記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "前の夢の出口の期待は局所的な離脱規則で、世界一般の因果・時空・生死の旧基本規則ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "同じ本人の二夢とノートはあり、記憶の説明も残る。世界基本規則を覆す複数の信頼できる反証とは未確定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "夢の中の学校の危険から、世界一般の安全判断を変更した本文根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "supported",
+          "reason": "前の出口を確かめ、施錠後に別門を思い出して越える、夢内の離脱方法の工夫と反復がある。",
+          "evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "施錠は学校の局所規則、次の夢への不安は経験不足で、人間一般の認識・能力の構造的限界は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "逃げられる自信が下がることは、個人の将来への不安。人間一般の構造的限界の受容ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "母校の記憶と出口の期待に、人間の善意・正義・願いが世界で重視される旧前提はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "少女の殺意は一つの敵対者の危険で、世界秩序全体で人間の価値が無関係と判明する根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "次の夢で死ぬかもしれないという予期を、人間の価値の非中心性を受容した前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "夢の中で追われる本人と、人間一般の安全・歴史・存在が別存在の用途に依存する仕組みは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-b",
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "頭を食べる少女の加害を、人間を素材・設備・資源として維持する用途へ広げない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-a",
+            "G01-W19-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "局所的な夢の危険に、人間一般の成立条件の前提変更の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W19-R2-E-c",
+            "G01-W19-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "前の夢と同じ学校の出口を通れば助かって覚醒するという、本人の局所的な離脱規則の期待。",
+        "new_evidence": "その門が今回は施錠され、少女が見つめるという夢内の経験。別門を越えて覚醒する。",
+        "evidence_scope": "同じ本人の二夢の回想と、覚醒後のノートの叙述。世界・人間一般を検証する資料ではない。",
+        "acceptance_and_threat": "前の経路が使えないことに恐怖を受け、別門を思い出して越える。次の夢への不安は後の別時点。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。本文は施錠を学校の通常規則の変化で説明し、夢と記憶の局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "通常の学校規則が夢に反映される",
+            "basis": "本人が防犯のため門を閉める規則への変更を説明する。",
+            "status": "narrated_local_explanation"
+          },
+          {
+            "hypothesis": "前の夢やノートの記憶・叙述の誤り",
+            "basis": "最初の夢はほとんど記憶になく、ノートは後に見つける。",
+            "status": "analyst_hypothesis_unresolved"
+          }
+        ],
+        "limitation": "夢内の危険をその層の問題として記録し、ノートの存在だけで世界一般の規則の反証としない。"
+      }
     }
   ],
   "work_progress": {
@@ -8688,9 +10680,9 @@
     },
     "G01-W19": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "二度目の夢内の一選定範囲。先の覗く行為の意図・制御、覚醒後のノートと再発の独立した条件記録は未抽出。B2の障害は最初の出口時点で、脱出成果と矛盾させない。"
     },
     "G01-W20": {
       "inherited_narrative_status": "pending",
@@ -8724,9 +10716,9 @@
     },
     "G01-W25": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "子どもの一選定範囲。祖父の射撃・塩酒・身代わりの効力と必要性を確定せず、祖父の独立した選択記録も未抽出。"
     },
     "G01-W26": {
       "inherited_narrative_status": "ready",
