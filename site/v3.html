@@ -8,20 +8,24 @@
   <script type="module" src="v3.mjs"></script>
 </head>
 <body>
-  <header><a href="./">現行 v1 サイトへ</a><span>研究用比較ビュー</span></header>
-  <main>
+  <a class="skip" href="#main">本文へ</a>
+  <header><a href="./">現行 v1 サイトへ</a><span>洒落怖 · 版と条件の比較</span></header>
+  <main id="main">
     <h1>v3 の必須条件を点検する</h1>
-    <p class="notice">開発用コーパスの単一AIによる暫定記録です。全131件の欄を用意し、110件の選定場面と21件の本文保留を記録しています。独立評価・一致度測定は未実施です。</p>
-    <p>本文確認の範囲は指定本文92件・限定範囲18件・保留21件のままです。ここでの「根拠あり」は必須条件を満たす選定場面を表し、作品全体の網羅や実証済みの効果を示しません。</p>
+    <p id="review-note" class="notice">追加調査 r2 を読み込み中…</p>
+    <p>引き継いだあらすじの範囲は指定本文92件・限定範囲18件・保留21件のままです。v1の本文確認状態・旧判定とは区別します。ここでの「根拠あり」は必須条件を満たす選定場面を表し、作品全体の網羅や実証済みの効果を示しません。</p>
     <div class="controls">
+      <label>v3の調査版<select id="edition"><option value="r2">追加調査 r2 · 本文条件の再点検</option><option value="r1">初回 r1 · 保存した暫定記録</option></select></label>
       <label>版の表示<select id="version"><option value="v3">v3 条件点検</option><option value="v1">v1 歴史的記録</option><option value="compare">v1 / v3 比較</option></select></label>
       <label>作品を探す<input id="search" type="search" placeholder="題名・割当ID"></label>
       <label>本文範囲<select id="coverage"><option value="all">すべて</option><option value="ready">指定本文</option><option value="scoped">限定範囲</option><option value="pending">本文保留</option></select></label>
     </div>
+    <p id="edition-info" class="muted"></p>
+    <details class="method-note"><summary>判定基準・調査結果と留保を読む</summary><p>「根拠あり」「明示的不成立」「証拠不明」を条件ごとに分けます。型の全必須条件の根拠が揃う場合だけ成立とし、部分適合や主型・副型の順位は付けません。</p><p><a href="https://github.com/oXyut/scare-pattern-validation/blob/5298470d71c900842d8fe1965b48f0e6638bb64d/followup/classification/v3-codebook.md" target="_blank" rel="noopener noreferrer">v3の基準案</a> / <a id="research-link" href="https://github.com/oXyut/scare-pattern-validation/blob/5298470d71c900842d8fe1965b48f0e6638bb64d/research/v3-20261011-r2/report.md" target="_blank" rel="noopener noreferrer">調査結果と保留理由</a></p></details>
     <p id="result-count" role="status">読み込み中…</p>
     <section id="catalogue" aria-label="作品一覧"><ul id="works"></ul></section>
     <section id="detail" hidden aria-label="作品の条件点検"></section>
-    <noscript><p>条件点検を読むにはJavaScriptを有効にしてください。<a href="https://github.com/oXyut/scare-pattern-validation/tree/research/v3-condition-audit-20261011/research/v3-20261011">調査資料</a>でも確認できます。</p></noscript>
+    <noscript><p>条件点検を読むにはJavaScriptを有効にしてください。<a href="https://github.com/oXyut/scare-pattern-validation/tree/main/research/v3-20261011-r2">追加調査 r2 の資料</a>でも確認できます。</p></noscript>
   </main>
 </body>
 </html>
