@@ -100,6 +100,11 @@ function updateFilters(){
   const params=new URLSearchParams();Object.entries(getFilters()).forEach(([k,v])=>{if(v)params.set(k,v);});
   history.replaceState(null,'',`${location.pathname}${params.size?'?'+params:''}${location.hash}`);
   renderResults();
+  syncEditionLink(resolveRoute(data,location.hash));
+}
+function syncEditionLink(state){
+  const query=new URLSearchParams(location.search).get('q');
+  $('v3-edition-link').href=`v3-reader.html${query?'?'+new URLSearchParams({q:query}):''}${state.kind==='work'?'#work='+state.work.work_id:''}`;
 }
 function resetFilters(){filterIds.forEach(id=>$(id).value='');updateFilters();}
 function renderTypes(){
@@ -173,6 +178,7 @@ function route(){
   routedURL=location.href;
   cancelAnimationFrame(scrollFrame);
   const state=resolveRoute(data,location.hash);
+  syncEditionLink(state);
   const detail=state.kind!=='report';
   fillFields();renderResults();
   $('report').hidden=detail;$('work-detail').hidden=!detail;

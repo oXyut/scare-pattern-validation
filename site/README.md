@@ -1,5 +1,23 @@
 # GitHub Pagesの公開版
 
+v1の作品閲覧は `index.html`、独立したv3の作品閲覧は `v3-reader.html` です。
+上部の版切替で選択作品と検索語を引き継ぎます。型と判定の意味が異なるため、分類フィルタは版をまたいでコピーしません。
+従来の `v3.html` はr1/r2と歴史的v1の条件比較用に保持し、トップからの入口は設けません。
+新しいv3閲覧の確認画像・検証は[Issue #29のレビュー](review/v3-reader/README.md)にまとめています。
+
+`scripts/v3_reader_site_projection.py` は承認済みr2の結果から検索用の型別記録を生成します。
+独立した新規判定ではありません。詳細は既存の `v3/r2/works/` を作品ごとに読み、
+あらすじと時系列は凍結した `data.json` の編集記録を必要時に読み込みます。
+条件未抽出の既存場面を不成立・証拠不明へ変換しません。通常の問題状態と世界モデルの前提変更を別の階層で表示します。
+
+```sh
+python3 scripts/build_site.py
+python3 scripts/build_v3_site.py
+python3 scripts/build_v3_site.py --check
+node --test tests/site.test.mjs tests/v3-r2.test.mjs tests/v3-reader.test.mjs
+node --test tests/site.browser.test.mjs tests/v3.browser.test.mjs tests/v3-r2.browser.test.mjs tests/v3-reader.browser.test.mjs
+```
+
 上位6分類の表示改善は[分類グループのUIレビュー](review/classification-groups/README.md)です。名称は公開JSONの`type_groups`を参照し、所属は既存型IDから解決します。一覧・型辞典・場面・時系列・場面間の変化を共通の色と日本語見出しで整理し、型フィルタには選択中の上位分類名を表示します。色だけに頼らず、名称・通常文字のコントラスト・forced-colorsを確認します。v3比較ビューと研究データは変更しません。
 
 表示改善の最新レビューは[UIレビュー](review/ui/README.md)です。分類IDと四つの分析欄の内部キーを保持し、画面では分類名・型名・日本語の説明を使います。定義は`baseline/v1-26types/report.md`の「発生と解決を分解する」に従います。人物のイニシャルCやD子は概念の略号と区別します。

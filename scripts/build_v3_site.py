@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from v3_research import ROOT, build, dump
 from v3_r2_site_projection import outputs as r2_outputs
+from v3_reader_site_projection import outputs as reader_outputs
 
 
 def outputs():
@@ -20,7 +21,9 @@ def outputs():
     result['docs/v3/works.json'] = json.dumps(detail, ensure_ascii=False, separators=(',', ':')) + '\n'
     for name in ('v3.html', 'v3.mjs', 'v3-r2.mjs', 'v3.css'):
         result[f'docs/{name}'] = (ROOT / 'site' / name).read_text()
-    result.update(r2_outputs())
+    projection = r2_outputs()
+    result.update(projection)
+    result.update(reader_outputs(projection))
     return result
 
 
