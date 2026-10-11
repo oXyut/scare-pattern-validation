@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T08:50:14Z",
+  "observed_after_at_utc": "2026-10-11T08:58:28Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 46,
+  "fully_rechecked_published_bodies": 54,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -496,8 +496,88 @@
       "status": "full_published_body_reread",
       "original_post_identity": "unconfirmed",
       "observed_after_at_utc": "2026-10-11T08:50:14Z"
+    },
+    {
+      "work_id": "G03-W15",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21492",
+      "range": "64〜266行",
+      "note": "父の前史は伝聞、窓外・捜索は本人。死亡機序と女の因果は不明。",
+      "review_id": "G03-W15-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:54:26Z"
+    },
+    {
+      "work_id": "G03-W18",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=2590",
+      "range": "64〜68行",
+      "note": "音の接近と唱経の反復対比、部屋への物理侵入と管理責任終了は別。",
+      "review_id": "G03-W18-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:54:26Z"
+    },
+    {
+      "work_id": "G03-W20",
+      "url": "https://the-mystery.org/scary_story/hitogata_yaki/",
+      "range": "11〜363行",
+      "note": "観客・箱内話者・神主を分離。人形一般の神主の説明と信頼できる世界規則反証を分ける。",
+      "review_id": "G03-W20-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:54:26Z"
+    },
+    {
+      "work_id": "G03-W26",
+      "url": "https://goldennews.blog.jp/archives/52288988.html",
+      "range": "2006年再掲本文26〜185行、2025年コメント除外。",
+      "note": "異常電話は彼女の伝聞、谷の追跡は夢、地獄の門は占い師の説明。アナグラムは偶然留保。",
+      "review_id": "G03-W26-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:54:26Z"
+    },
+    {
+      "work_id": "G03-W03",
+      "url": "https://mnsatlas.com/?p=60261",
+      "range": "妖怪由来記事53〜57行",
+      "note": "最初はreader取得不可、正式掲載URLの検索結果から開くと全由来記事を読めた。洒落怖原投稿は未同定。",
+      "review_id": "G03-W03-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:58:28Z"
+    },
+    {
+      "work_id": "G03-W05",
+      "url": "https://fumibako.com/kowai/story/5/4391.html",
+      "range": "投稿259〜315相当15〜287行",
+      "note": "娘の将来、病気、呪いの疑いと本人の代替説明を区別。陰謀の指摘は他投稿者で本人は限定する。",
+      "review_id": "G03-W05-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:58:28Z"
+    },
+    {
+      "work_id": "G03-W11",
+      "url": "https://nazolog.com/blog-entry-1965.html",
+      "range": "本編投稿665〜788の9〜100行",
+      "note": "猿・婆と歯の投稿、サンノキの伝承は別投稿者。ブログコメントや関連話除外。",
+      "review_id": "G03-W11-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:58:28Z"
+    },
+    {
+      "work_id": "G03-W12",
+      "url": "https://share-kowa.com/shishinoke.html",
+      "range": "本篇25〜804行。リンク先の別人による後日談除外。",
+      "note": "初回25〜386、中間270〜672、末尾650〜804を実際に読む。本人の体験、管理人の伝聞、他投稿者の神・無害説を分ける。後日談リンクは別人・未完と掲載者が注意。",
+      "review_id": "G03-W12-R2-S1",
+      "status": "full_published_body_reread",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T08:58:28Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 44,
-  "remaining_of_r1_inherited_102": 58
+  "fully_rechecked_of_r1_inherited_102": 52,
+  "remaining_of_r1_inherited_102": 50
 }

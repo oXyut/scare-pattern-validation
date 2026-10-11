@@ -779,6 +779,133 @@
       ],
       "relation": "same_actor_time_scope",
       "reason": "再掲本文の車での追跡回避。記事の別次元・死後の村の説は除外。"
+    },
+    {
+      "work_id": "G03-W15",
+      "scene_id": "G03-W15-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "父の救急要請と最初の捜索は再読のみ。本人の家での目撃・父の不帰宅以後を選定。"
+    },
+    {
+      "work_id": "G03-W15",
+      "scene_id": "G03-W15-SC02",
+      "record_ids": [
+        "G03-W15-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "帰らない父の捜索と既発の死の確認を区別。雪との因果は未確認。"
+    },
+    {
+      "work_id": "G03-W18",
+      "scene_id": "G03-W18-SC01",
+      "record_ids": [
+        "G03-W18-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "本人が繰り返し述べる接近と唱経の対比。物理侵入と管理責任終了は別。"
+    },
+    {
+      "work_id": "G03-W18",
+      "scene_id": "G03-W18-SC02",
+      "record_ids": [
+        "G03-W18-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "耳元の声は同じ本人の対処を聞き逃した例。体内侵入にしない。"
+    },
+    {
+      "work_id": "G03-W20",
+      "scene_id": "G03-W20-SC01",
+      "record_ids": [
+        "G03-W20-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "観客の知覚だけ抽出。神主自身の防衛や内側の封じ込めの問題は未抽出。"
+    },
+    {
+      "work_id": "G03-W20",
+      "scene_id": "G03-W20-SC02",
+      "record_ids": [
+        "G03-W20-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "観客が聞く声と神主の説明。箱内話者の自己・家族への問題は別主体で未抽出。"
+    },
+    {
+      "work_id": "G03-W26",
+      "scene_id": "G03-W26-SC01",
+      "record_ids": [
+        "G03-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の処分の判断と前史の参照。彼女の電話と谷の夢は別当事者・層。"
+    },
+    {
+      "work_id": "G03-W26",
+      "scene_id": "G03-W26-SC02",
+      "record_ids": [
+        "G03-W26-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "処分とその後の限定的収束・残る懸念。地獄の実在を確定しない。"
+    },
+    {
+      "work_id": "G03-W03",
+      "scene_id": "G03-W03-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "旧行は本文不足で場面を作らなかった。新しいATLAS由来記事の女性記録は洒落怖原投稿との対応が未同定で、旧行の評価に転用しない。"
+    },
+    {
+      "work_id": "G03-W05",
+      "scene_id": "G03-W05-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "別居・離婚時点の選択は前史で未抽出。現在の父の余命と娘の将来に遡及しない。"
+    },
+    {
+      "work_id": "G03-W05",
+      "scene_id": "G03-W05-SC02",
+      "record_ids": [
+        "G03-W05-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "父の現在の娘の将来・病気への相談。病気と呪いの因果は本人が留保する。"
+    },
+    {
+      "work_id": "G03-W11",
+      "scene_id": "G03-W11-SC01",
+      "record_ids": [
+        "G03-W11-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "訪問と歯の対処。作者IDと別投稿者の伝承・他話を別にする。"
+    },
+    {
+      "work_id": "G03-W11",
+      "scene_id": "G03-W11-SC02",
+      "record_ids": [
+        "G03-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "名前の危険は町内の伝聞。具体的起動・伝播の実証を補わない。"
+    },
+    {
+      "work_id": "G03-W12",
+      "scene_id": "G03-W12-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "テントと道での追跡・犬への救助は再読のみ。新記録はバンガロー再出現。"
+    },
+    {
+      "work_id": "G03-W12",
+      "scene_id": "G03-W12-SC02",
+      "record_ids": [
+        "G03-W12-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "バンガローの玄関防衛と朝まで。犬の後の診療はその当事者・時点の78条件を未抽出。"
     }
   ]
 }

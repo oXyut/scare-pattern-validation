@@ -973,9 +973,20 @@
         "台帳の題名と掲載URLは一致するが、記事は妖怪の由来説明。洒落怖原投稿を確認したとは扱わない。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [
+        {
+          "source_review_id": "G03-W03-R2-S1",
+          "observed_after_at_utc": "2026-10-11T08:58:28Z",
+          "method": "specified_published_body_reread",
+          "note": "ATLASの正式由来記事を53〜57行末まで再読。妖怪由来記事であり洒落怖原投稿との同一性は未確認。全シリーズの同定や限定範囲の解消とは数えない。"
+        }
+      ],
+      "source_review_ids": [
+        "G03-W03-R2-S1"
+      ],
+      "note": "ATLASの正式妖怪由来記事を再読した。洒落怖原投稿との同一性は未確認で限定範囲を解消しない。"
     },
     {
       "work_id": "G03-W09",
