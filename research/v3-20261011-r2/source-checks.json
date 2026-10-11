@@ -1,14 +1,54 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T06:04:57Z",
+  "observed_after_at_utc": "2026-10-11T06:16:33Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 1,
+  "fully_rechecked_published_bodies": 4,
   "condition_extraction_complete_works": 0,
   "reviews": [
-    {"work_id":"G03-W17","url":"https://the-mystery.org/scary_story/labradorite/","status":"full_published_body_reread","range":"掲載本文11〜421行","original_post_identity":"unconfirmed","note":"掲載者の編集・更新表示があり、初出原文確認とは数えない。"},
-    {"work_id":"G04-W26","url":"https://kaidanstorys.com/long-storys-90/","status":"targeted_reread","range":"50〜378行","original_post_identity":"unconfirmed"},
-    {"work_id":"G05-W09","url":"https://llike.net/2ch/fear/akuryo/4.htm","status":"targeted_reread","range":"Part4の86〜250行","original_post_identity":"unconfirmed"},
-    {"work_id":"G05-W25","url":"https://syarekowa-mania.hateblo.jp/entry/resort-arbeit/","status":"targeted_reread","range":"1174〜1290行","original_post_identity":"unconfirmed"}
-  ]
+    {
+      "work_id": "G03-W17",
+      "url": "https://the-mystery.org/scary_story/labradorite/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜421行",
+      "original_post_identity": "unconfirmed",
+      "note": "掲載者の編集・更新表示があり、初出原文確認とは数えない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "url": "https://kaidanstorys.com/long-storys-90/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文27〜378行",
+      "original_post_identity": "unconfirmed"
+    },
+    {
+      "work_id": "G05-W09",
+      "url": "https://llike.net/2ch/fear/akuryo/4.htm",
+      "status": "full_published_body_reread",
+      "range": "Part1 35〜250、Part2 31〜246、Part3 31〜274、Part4 31〜251行。本人の投稿を再読し、他者レス・偽投稿・本人の訂正を区別。",
+      "original_post_identity": "unconfirmed",
+      "additional_urls": [
+        "https://llike.net/2ch/fear/akuryo/",
+        "https://llike.net/2ch/fear/akuryo/2.htm",
+        "https://llike.net/2ch/fear/akuryo/3.htm"
+      ]
+    },
+    {
+      "work_id": "G05-W25",
+      "url": "https://syarekowa-mania.hateblo.jp/entry/resort-arbeit/",
+      "status": "targeted_reread",
+      "range": "1174〜1290行",
+      "original_post_identity": "unconfirmed"
+    },
+    {
+      "work_id": "G05-W18",
+      "url": "https://nazolog.com/blog-entry-1020.html",
+      "status": "full_published_body_reread",
+      "range": "投稿908〜916／掲載本文8〜169行。コメント・関連話は対象外。",
+      "original_post_identity": "unconfirmed",
+      "note": "初回の対象箇所再読8件に含まれる。今回の新規102件の進捗とは重複集計しない。"
+    }
+  ],
+  "fully_rechecked_of_r1_inherited_102": 3,
+  "remaining_of_r1_inherited_102": 99
 }
