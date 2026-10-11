@@ -2,7 +2,9 @@
 import test, {before, after} from 'node:test';
 import assert from 'node:assert/strict';
 import {createServer} from 'node:http';
-import {readFile, mkdir} from 'node:fs/promises';
+import {readFile, mkdir, mkdtemp, rm} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {tmpdir} from 'node:os';
 import {resolve, extname} from 'node:path';
 import {pathToFileURL, fileURLToPath} from 'node:url';
 
@@ -22,7 +24,9 @@ before(async () => {
   });
   await new Promise(done => server.listen(0, '127.0.0.1', done));
   base = `http://127.0.0.1:${server.address().port}/`;
-  browser = await playwright.chromium.launch({headless:true, channel:process.env.SITE_BROWSER_CHANNEL || 'chromium'});
+  browser = await playwright.chromium.launch({headless:true,
+    ...(process.env.SITE_BROWSER_EXECUTABLE ? {executablePath:process.env.SITE_BROWSER_EXECUTABLE}
+      : {channel:process.env.SITE_BROWSER_CHANNEL || 'chromium'})});
 });
 after(async () => {await browser?.close(); if(server) await new Promise(done=>server.close(done));});
 
@@ -243,4 +247,176 @@ test('mobile supplement keeps failed, searched and read evidence distinct',async
   await page.goto(base+'#followup');
   await page.locator('#followup > details > summary').click();
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+});
+
+test('spoiler summary leads the detail; chronology, interpretation and v1 backlinks stay distinct',async t=>{
+  const page=await open(t,'#work=G01-W01');
+  await checkWork(page,'G01-W01','赤い仏像');
+  assert.match(await page.locator('.narrative-heading').textContent(),/ネタバレあり/);
+  assert.equal(await page.locator('.story-summary > p').count(),3);
+  assert.equal(await page.locator('.timeline-thread').count(),2);
+  assert.equal(await page.locator('.timeline-thread').last().locator('.fact-kind').textContent(),'作中で見た映像');
+  assert.equal(await page.evaluate(()=>Boolean(document.querySelector('.work-narrative').compareDocumentPosition(document.querySelector('.work-original-analysis'))&Node.DOCUMENT_POSITION_FOLLOWING)),true);
+  assert.equal(await page.locator('.work-original-analysis').getAttribute('open'),null);
+  assert.equal(await page.locator('.timeline-arrow').count(),0);
+  assert.equal(await page.locator('.timeline-node').count(),5);
+  assert.match(await page.locator('.timeline-heading').textContent(),/v3の再分類・検証でもありません/);
+  await page.locator('.narrative-notes > summary').click();
+  assert.match(await page.locator('.narrative-notes').textContent(),/v1の取得日時とは別/);
+  const analysis=page.locator('.timeline-analysis').first();
+  await analysis.locator('summary').focus();
+  await page.keyboard.press('Enter');
+  assert.equal(await analysis.getAttribute('open'),'');
+  const scene=page.locator('.timeline-scene a').first();
+  const sceneId=(await scene.getAttribute('href')).slice(7);
+  await scene.click();
+  await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
+  assert.equal(await page.locator('.narrative-notes').getAttribute('open'),'');
+  assert.equal(await page.locator('.timeline-analysis').first().getAttribute('open'),'');
+  await page.locator('.timeline-type[href="#type-A2"]').first().click();
+  await page.waitForFunction(()=>!document.getElementById('report').hidden && document.getElementById('type-A2').open);
+  await page.goBack();
+  await checkWork(page,'G01-W01','赤い仏像','scene-'+sceneId);
+});
+
+test('all works are individually investigated; unconfirmed works keep reasons and source jumps',async t=>{
+  const page=await open(t,'#catalogue');
+  assert.equal(await page.locator('#poc-links a').count(),4);
+  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  await checkWork(page,'G02-W11','猿夢');
+  assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),'ready');
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  assert.match(await page.locator('#narrative-coverage').textContent(),/131.*110.*92.*18.*21/);
+  for(const reason of ['identity_or_scope_pending','body_unavailable','retrieval_failed']){
+    const n=fixture.narratives.works.find(w=>w.reason_codes.includes(reason));
+    const w=fixture.works.find(w=>w.work_id===n.work_id);
+    await hash(page,'#work='+w.work_id);
+    await checkWork(page,w.work_id,w.title);
+    assert.equal(await page.locator('.story-summary').count(),0);
+    assert.equal(await page.locator('.story-timeline').count(),0);
+    assert.match(await page.locator('.narrative-pending').textContent(),/保留/);
+    await page.locator('.narrative-notes > summary').click();
+    await page.locator('.narrative-investigation > summary').click();
+    assert.equal(await page.locator('.narrative-investigation li').count(),n.investigation.length);
+    await page.locator('.narrative-jump').click();
+    await checkWork(page,w.work_id,w.title,'work-sources-'+w.work_id);
+  }
+});
+
+test('vertical flow remains legible without horizontal overflow at narrow mobile widths',async t=>{
+  const page=await open(t,'#work=G05-W18',{width:390,height:844});
+  for(const width of [390,320]){
+    await page.setViewportSize({width,height:844});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    const positions=await page.locator('.timeline-card').evaluateAll(cards=>cards.map(c=>({top:c.getBoundingClientRect().top,width:c.getBoundingClientRect().width})));
+    assert.ok(positions.every((p,i)=>p.width>=210 && (!i||p.top>positions[i-1].top)));
+    await page.locator('.story-summary').evaluate(el=>el.scrollIntoView({block:'start'}));
+    await screenshot(page,'narrative-mobile-'+width);
+    await page.locator('.timeline-card').first().evaluate(el=>el.scrollIntoView({block:'start'}));
+    await screenshot(page,'timeline-mobile-'+width);
+  }
+});
+
+test('one-file review allows switching stories without any extra resource or data request',async t=>{
+  const folder=await mkdtemp(resolve(tmpdir(),'scare-preview-'));
+  t.after(()=>rm(folder,{recursive:true,force:true}));
+  const file=resolve(folder,'preview.html');
+  execFileSync('python3',[resolve(docs,'../scripts/build_site_preview.py'),file]);
+  const page=await browser.newPage({viewport:{width:390,height:844}});
+  t.after(()=>page.close());
+  const errors=[],requests=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  page.on('request',r=>requests.push(r.url()));
+  const previewBody=await readFile(file,'utf8');
+  await page.route(base+'offline-preview.html',route=>route.fulfill({contentType:'text/html',body:previewBody}));
+  await page.goto(base+'offline-preview.html');
+  await page.waitForFunction(()=>document.querySelectorAll('#poc-links a').length===4);
+  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  await page.waitForFunction(()=>document.querySelector('.story-summary'));
+  await checkWork(page,'G02-W11','猿夢');
+  await page.locator('.poc-switch > summary').click();
+  await page.locator('.poc-switch a[href="#work=G05-W18"]').click();
+  await checkWork(page,'G05-W18','八尺様');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  assert.deepEqual(errors,[]);
+  assert.equal(requests.length,1);
+});
+
+async function checkRail(page){
+  const rails=await page.locator('.story-timeline').evaluateAll(lists=>lists.map(list=>Array.from(list.children).map(li=>{
+    const r=li.getBoundingClientRect(),node=li.querySelector('.timeline-node').getBoundingClientRect(),card=li.querySelector('.timeline-card').getBoundingClientRect(),line=getComputedStyle(li,'::before');
+    return {nodeX:node.x+node.width/2,nodeY:node.y+node.height/2,cardLeft:card.left,cardRight:card.right,cardTop:card.top,lineX:r.x+parseFloat(line.left)+parseFloat(line.width)/2,lineEnd:r.y+parseFloat(line.top)+parseFloat(line.height),content:line.content};
+  })));
+  for(const steps of rails){
+    for(let i=0;i<steps.length;i++){
+      const s=steps[i];
+      assert.ok(Math.abs(s.nodeX-steps[0].nodeX)<1,'nodes align on one axis');
+      assert.ok(Math.abs(s.cardLeft-steps[0].cardLeft)<1,'cards share one edge');
+      assert.ok(s.nodeX<s.cardLeft && s.cardRight<=await page.evaluate(()=>innerWidth),'axis stays beside the card');
+      if(i<steps.length-1){
+        assert.ok(Math.abs(s.lineX-s.nodeX)<1,'rail crosses node centers');
+        assert.ok(Math.abs(s.lineEnd-steps[i+1].nodeY)<1,'rail connects the following node');
+        assert.ok(s.cardTop<steps[i+1].cardTop,'reading order remains top to bottom');
+      }else assert.equal(s.content,'none','rail stops at the final node');
+    }
+  }
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+}
+
+test('representative stories keep chronological DOM order and continuous aligned rails on PC and mobile',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const page=await open(t,'#work=G01-W01');
+  for(const id of fixture.narratives.review_work_ids){
+    const work=fixture.works.find(w=>w.work_id===id),n=fixture.narratives.works.find(w=>w.work_id===id);
+    await hash(page,'#work='+id);await checkWork(page,id,work.title);
+    assert.deepEqual(await page.locator('.timeline-card h4').allTextContents(),n.threads.flatMap(f=>f.steps.map(s=>s.title)));
+    assert.deepEqual(await page.locator('.timeline-time').allTextContents(),n.threads.flatMap(f=>f.steps.map(s=>s.time)));
+    for(const width of [1280,390,320]){
+      await page.setViewportSize({width,height:900});
+      await checkRail(page);
+      await page.locator('.timeline-analysis').first().locator('summary').click();
+      await page.locator('.timeline-evidence').first().locator('summary').click();
+      await checkRail(page);
+    }
+  }
+});
+
+test('all 131 works render their complete narrative state and every new reference safely',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const page=await open(t,'#catalogue',{width:320,height:900});
+  for(const n of fixture.narratives.works){
+    const work=fixture.works.find(w=>w.work_id===n.work_id);
+    await hash(page,'#work='+n.work_id);await checkWork(page,n.work_id,work.title);
+    assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),n.status);
+    assert.equal(await page.locator('.timeline-card').count(),n.threads.reduce((sum,f)=>sum+f.steps.length,0));
+    assert.equal(await page.locator('.story-summary').count(),n.status==='pending'?0:1);
+    await page.locator('.narrative-notes > summary').click();
+    assert.equal(await page.locator('.narrative-source').count(),n.source_reviews.length);
+    assert.equal(await page.locator('a[href="#source-"]').count(),0);
+    assert.equal(await page.locator('a[href="#scene-"]').count(),0);
+    if(n.historical_note)assert.ok((await page.locator('.narrative-notes').textContent()).includes(n.historical_note));
+    if(n.source_reviews.some(r=>r.provenance==='new_source'))assert.match(await page.locator('.narrative-notes').textContent(),/今回追加したURL/);
+    if(n.threads.some(f=>f.steps.some(s=>s.fears.some(a=>a.classification_basis==='unclassified_new_evidence')))){
+      assert.match(await page.locator('.timeline-fears').first().textContent(),/未分類（今回確認した本文）/);
+    }
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,n.work_id);
+  }
+});
+
+test('long synthetic event, date and label wrap without shifting the rail or obscuring keyboard links',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const step=fixture.narratives.works.find(w=>w.work_id==='G02-W11').threads[0].steps[1];
+  step.event='長文折返し検証用。'.repeat(70)+'UnbrokenLongText'.repeat(30);
+  step.time='時刻ラベルの折返しを確認する合成入力'.repeat(3);
+  fixture.types.find(t=>t.id==='E1').name='分類ラベルの長文折返し検証用'.repeat(6);
+  const page=await open(t,'#work=G02-W11',{width:320,height:844},fixture);
+  await checkRail(page);
+  assert.ok(await page.locator('.timeline-step').nth(1).evaluate(e=>e.getBoundingClientRect().height)>700);
+  const analysis=page.locator('.timeline-analysis').first();
+  await analysis.locator('summary').focus();await page.keyboard.press('Enter');
+  assert.equal(await analysis.getAttribute('open'),'');
+  await checkRail(page);
+  await analysis.locator('.timeline-scene a').focus();await page.keyboard.press('Enter');
+  await checkWork(page,'G02-W11','猿夢','scene-'+step.fears[0].scene_id);
+  assert.equal(await analysis.getAttribute('open'),'');
 });

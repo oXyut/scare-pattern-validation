@@ -7,7 +7,9 @@ const trackingText = work => [
   ...[...(work.transitions || []),...(work.outcome_tracking?.transitions || [])].flatMap(row=>[row.retained_problem,row.closure_audit])
 ];
 export function searchText(work) {
-  return normalise([work.title,work.work_id,work.episode_scope,work.alias_or_derivative,work.overall_fears,work.unexplained_residue,work.counterexamples,...trackingText(work),...work.scenes.flatMap(s=>[s.evidence_summary,s.Q,s.D,s.C,s.M,s.discriminators,s.residue,s.outcomes,...(s.transitions||[])])].join(' '));
+  const n=work.narrative;
+  const narrativeText=n?[n.scope,n.reason,...Object.values(n.summary||{}),...n.threads.flatMap(t=>t.steps.flatMap(s=>[s.title,s.event,...s.fears.flatMap(f=>[f.fear,f.basis])]))]:[];
+  return normalise([work.title,work.work_id,work.episode_scope,work.alias_or_derivative,work.overall_fears,work.unexplained_residue,work.counterexamples,...trackingText(work),...narrativeText,...work.scenes.flatMap(s=>[s.evidence_summary,s.Q,s.D,s.C,s.M,s.discriminators,s.residue,s.outcomes,...(s.transitions||[])])].join(' '));
 }
 export function matchingScenes(work, filters) {
   return work.scenes.filter(s=>(!filters.type || (filters.type==='none'?s.type_ids.length===0:s.type_ids.includes(filters.type))) && (!filters.fit || s.fit===filters.fit));
@@ -22,10 +24,10 @@ export function resolveRoute(data, fragment) {
   let anchor;
   try {anchor=decodeURIComponent(fragment.replace(/^#/,''));}
   catch {return {kind:'invalid'};}
-  const match=/^(work=|source-|scene-)(.*)$/su.exec(anchor);
+  const match=/^(work=|work-sources-|source-|scene-)(.*)$/su.exec(anchor);
   if (!match) return {kind:'report',anchor};
   const [,prefix,id]=match;
-  const resource={ 'work=':'work', 'source-':'source', 'scene-':'scene' }[prefix];
+  const resource={ 'work=':'work', 'work-sources-':'work', 'source-':'source', 'scene-':'scene' }[prefix];
   let work;
   if(resource==='work') work=data.works.find(w=>w.work_id===id);
   if(resource==='scene') work=data.works.find(w=>w.scenes.some(s=>s.scene_id===id));
@@ -33,5 +35,5 @@ export function resolveRoute(data, fragment) {
     const source=data.sources.find(s=>s.source_id===id);
     if(source) work=data.works.find(w=>w.work_id===source.work_id);
   }
-  return work ? {kind:'work',work,anchor:resource==='work'?'work-title':anchor} : {kind:'missing',resource};
+  return work ? {kind:'work',work,anchor:prefix==='work='?'work-title':anchor} : {kind:'missing',resource};
 }
