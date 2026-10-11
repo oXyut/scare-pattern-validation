@@ -3,7 +3,7 @@
   "stage": "in_progress",
   "inherited_pending_entries": 21,
   "inherited_scoped_entries": 18,
-  "scope_note": "保留21件と限定範囲18件の同定再点検。検索点検4、指定掲載本文再読5、未点検30。解消0件。原投稿や全系列の同定を掲載本文の再読で置換しない。",
+  "scope_note": "保留21件と限定範囲18件の同定再点検。検索点検4、指定掲載本文再読6、未点検29。解消0件。原投稿や全系列の同定を掲載本文の再読で置換しない。",
   "search_batches": [
     {
       "batch_id": "R2-IDENTITY-SEARCH-01",
@@ -270,9 +270,13 @@
       "inherited_limitations": [
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G02-W04-R2-S1"
+      ],
+      "note": "2017年の未体験の二次解説を再読。未確認の初出伝承・異本・帰還結果を解消せず、2022年の別記事を混ぜない。"
     },
     {
       "work_id": "G02-W08",

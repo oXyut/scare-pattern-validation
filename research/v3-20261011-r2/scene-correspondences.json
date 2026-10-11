@@ -394,6 +394,99 @@
       ],
       "relation": "same_actor_time_scope",
       "reason": "身体回復後の録音・紙面の照合と電話の継続。通信を物理侵入にしない。"
+    },
+    {
+      "work_id": "G02-W04",
+      "scene_id": "G02-W04-S01",
+      "record_ids": [
+        "G02-W04-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は手順中の匿名参加者。新記録は未体験の解説者の帰還不能予期。仮想手順を本人の実際の移動にしない。"
+    },
+    {
+      "work_id": "G02-W17",
+      "scene_id": "G02-W17-S01",
+      "record_ids": [
+        "G02-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "祖父の死の恐れと未実行の愛車提供案を含む。後に実行する菓子の対処までで必要性を別点検する。"
+    },
+    {
+      "work_id": "G02-W17",
+      "scene_id": "G02-W17-S02",
+      "record_ids": [
+        "G02-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "菓子で去り愛車が残る対処を含む。祖父と孫の伝聞・曾々祖父の後の解釈を区別。"
+    },
+    {
+      "work_id": "G02-W22",
+      "scene_id": "G02-W22-S01",
+      "record_ids": [
+        "G02-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "内側の人物が死か他者加害を比較し進む。選択時には寝袋の相手を家族と知らない。"
+    },
+    {
+      "work_id": "G02-W22",
+      "scene_id": "G02-W22-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "家族の遺影と枠への戻りは再読済みだが、その時点の本人の全条件は未抽出。先の選択へ家族の同定を遡及しない。"
+    },
+    {
+      "work_id": "G02-W18",
+      "scene_id": "G02-W18-S01",
+      "record_ids": [
+        "G02-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "探索から帰還まで含むが、痕跡から本人の具体的な被害予期は未確認。建物の用途を補作しない。"
+    },
+    {
+      "work_id": "G02-W18",
+      "scene_id": "G02-W18-S02",
+      "record_ids": [
+        "G02-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "三人の照合と帰還。異常な空を一般的世界規則の反証にしない。"
+    },
+    {
+      "work_id": "G02-W09",
+      "scene_id": "G02-W09-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "前夜の本人への死の要求は再読のみ。翌朝の家族救助の記録に父母本人の敵対利害を確定しない。"
+    },
+    {
+      "work_id": "G02-W09",
+      "scene_id": "G02-W09-S02",
+      "record_ids": [
+        "G02-W09-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "翌朝の語り手の家族救助。家族自身の動作制御・後の御守りの管理は未抽出で、同じ当事者の問題にしない。"
+    },
+    {
+      "work_id": "G02-W11",
+      "scene_id": "G02-W11-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "最初の夢は前史の照合。四年後の予期・声を初回の知識へ遡及しない。"
+    },
+    {
+      "work_id": "G02-W11",
+      "scene_id": "G02-W11-S02",
+      "record_ids": [
+        "G02-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "四年後の夢からの離脱困難と本人が覚醒後と断言する声、現在の次回の恐れ。異本・コメントの別人を混ぜない。"
     }
   ]
 }

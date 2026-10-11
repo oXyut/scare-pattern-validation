@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T08:00:24Z",
+  "observed_after_at_utc": "2026-10-11T08:18:26Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 36,
+  "fully_rechecked_published_bodies": 42,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -396,8 +396,68 @@
       "note": "旅行中の進行症状、戻ると回復した観測、老女の解釈、電話・募集画像の記憶と録音の食い違いを区別。一回の往復で因果・変身・旅館の全機序は確定しない。",
       "review_id": "G02-W26-R2-S1",
       "observed_after_at_utc": "2026-10-11T08:00:24Z"
+    },
+    {
+      "work_id": "G02-W04",
+      "url": "https://toshidensetsu-ikki.com/horror/elevator-different-world",
+      "status": "full_published_body_reread",
+      "range": "2017年記事11〜177行。コメント・2022年の別記事は除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "未体験と明示する解説者の帰還不能予期と、匿名の仮想参加者の手順を分ける。実際に階が逆になった観測は作らない。",
+      "review_id": "G02-W04-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:13:48Z"
+    },
+    {
+      "work_id": "G02-W22",
+      "url": "https://horror2ch.com/archives/2271532.html",
+      "status": "full_published_body_reread",
+      "range": "投稿179〜186、6〜144行の枠と内側の話。",
+      "original_post_identity": "unconfirmed",
+      "note": "内側の人物が選択時に寝袋の相手を家族と知ったとは扱わない。匿名他者への加害の選択と、出口で知る既発の家族死を分ける。内側の出来事を実在確認へしない。",
+      "review_id": "G02-W22-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:13:48Z"
+    },
+    {
+      "work_id": "G02-W17",
+      "url": "https://sharekowa.biz/archives/%E3%80%90%E6%B4%92%E8%90%BD%E6%80%96%E3%80%91%E3%81%AA%E3%81%AB%E3%81%8B.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文17〜249行。コメント除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "祖父の昔話としての伝聞。バイクを差し出す案は未実行で、実際は菓子で相手が去る。命を失う恐れと、重大犠牲が不可避・有効な条件であることを分ける。",
+      "review_id": "G02-W17-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:13:48Z"
+    },
+    {
+      "work_id": "G02-W18",
+      "url": "https://nwknews.jp/archives/6134066.html",
+      "status": "full_published_body_reread",
+      "range": "掲載本文19〜195行、投稿212〜221の1/9〜9/9。コメント除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "日差しのない空・柱・音のない広野の本人の観測と、具体的な予期損失の不足を分ける。実際は元の道へ帰り、後の霊障を本人が否定する。建物の用途と痕跡の由来は不明。",
+      "review_id": "G02-W18-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:18:26Z"
+    },
+    {
+      "work_id": "G02-W09",
+      "url": "https://the-mystery.org/strange_experience/post-3374/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜199行、本編と番外編。",
+      "original_post_identity": "unconfirmed",
+      "note": "家族の加害言動・危険行為は本人の直接観測、先祖の呪い・乗移り・前世の説明は住職の伝聞。本人の問題と家族の動作制御の問題を分ける。味方本人の敵対利害を憑依の仮説から補わない。",
+      "review_id": "G02-W09-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:18:26Z"
+    },
+    {
+      "work_id": "G02-W11",
+      "url": "https://nazolog.com/blog-entry-1164.html",
+      "status": "full_published_body_reread",
+      "range": "2000年の投稿9・12・13、8〜92行。猿夢＋・他のコメント体験除外。",
+      "original_post_identity": "unconfirmed",
+      "note": "自由に覚められた旧理解、夢内の切迫、四年後の再発と覚醒後の声を分ける。2007年版・他人の繰り返しの夢を一つの同一体験にしない。初回調査との再読重複を新規102件へ加算しない。",
+      "review_id": "G02-W11-R2-S1",
+      "observed_after_at_utc": "2026-10-11T08:18:26Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 35,
-  "remaining_of_r1_inherited_102": 67
+  "fully_rechecked_of_r1_inherited_102": 40,
+  "remaining_of_r1_inherited_102": 62
 }
