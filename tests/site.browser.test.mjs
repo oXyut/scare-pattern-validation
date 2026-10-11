@@ -61,34 +61,32 @@ async function screenshot(page, name) {
   await page.screenshot({path:resolve(process.env.SITE_QA_DIR,name+'.png')});
 }
 
-test('home comparison entry opens r2 compare and returns to the search-first v1 page on PC and mobile',async t=>{
+test('home edition entry opens the independent v3 reader and returns to the search-first v1 page on PC and mobile',async t=>{
   for(const width of [1280,390,320]){
     const page=await open(t,'',{width,height:900});
-    const entry=page.getByRole('navigation',{name:'主要ナビゲーション'}).getByRole('link',{name:'v1／v3を比較する',exact:true});
-    assert.equal(await entry.getAttribute('href'),'v3.html?edition=r2&version=compare');
+    const entry=page.getByRole('navigation',{name:'主要ナビゲーション'}).getByRole('link',{name:'v3版で読む',exact:true});
+    assert.equal(await entry.getAttribute('href'),'v3-reader.html');
+    assert.equal(await page.locator('a[href*="v3.html"]').count(),0);
     assert.equal(await entry.isVisible(),true);
     const bounds=await entry.boundingBox();
     assert.ok(bounds.x>=0&&bounds.x+bounds.width<=width);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     assert.equal(await page.locator('.primary-link').getAttribute('href'),'#catalogue');
     assert.match(await page.locator('.primary-link').textContent(),/作品を探して、あらすじ・分類を読む/);
-    await screenshot(page,`comparison-entry-${width}`);
+    await screenshot(page,`edition-entry-${width}`);
     if(width===1280){await entry.focus();await page.keyboard.press('Enter');}
     else await entry.click();
-    await page.waitForFunction(()=>document.querySelectorAll('#works li').length===131);
-    assert.equal(new URL(page.url()).pathname,'/v3.html');
-    assert.equal(new URL(page.url()).searchParams.get('edition'),'r2');
-    assert.equal(new URL(page.url()).searchParams.get('version'),'compare');
-    assert.equal(await page.locator('#edition').inputValue(),'r2');
-    assert.equal(await page.locator('#version').inputValue(),'compare');
-    await page.locator('#works a[href="#G05-W18"]').click();
+    await page.waitForFunction(()=>document.querySelectorAll('.reader-row').length===131);
+    assert.equal(new URL(page.url()).pathname,'/v3-reader.html');
+    await page.locator('#results .work-link[href="#work=G05-W18"]').click();
     await page.waitForFunction(()=>document.getElementById('work-title')?.textContent==='八尺様');
-    assert.equal(await page.locator('.v1-panel').count(),1);
-    assert.equal(await page.locator('.v3-panel .record').count(),2);
-    await page.getByRole('link',{name:'現行 v1 サイトへ',exact:true}).click();
-    await page.waitForFunction(()=>document.querySelectorAll('#results tbody tr').length===131);
+    assert.equal(await page.locator('.reader-record').count(),2);
+    assert.equal(await page.locator('.v1-panel').count(),0);
+    await page.getByRole('navigation',{name:'主要ナビゲーション'}).getByRole('link',{name:'v1版で読む',exact:true}).click();
+    await checkWork(page,'G05-W18','八尺様');
     assert.equal(await entry.isVisible(),true);
-    await page.locator('.primary-link').click();
+    await page.locator('.back-link').first().click();
+    await page.waitForFunction(()=>!document.getElementById('report').hidden);
     await page.waitForFunction(()=>document.activeElement.id==='catalogue-title');
     assert.equal(await page.locator('#query').isVisible(),true);
   }
