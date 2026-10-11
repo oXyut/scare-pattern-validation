@@ -9,19 +9,19 @@
     "fully_rechecked_published_bodies": 42,
     "fully_rechecked_of_r1_inherited_102": 40,
     "remaining_of_r1_inherited_102": 62,
-    "condition_extraction_complete_works": 29,
-    "selected_records": 32,
+    "condition_extraction_complete_works": 34,
+    "selected_records": 37,
     "distinct_conditions_per_record": 78,
-    "explicitly_inspected_condition_judgments": 2496,
+    "explicitly_inspected_condition_judgments": 2886,
     "condition_states": {
-      "explicitly_false": 57,
-      "supported": 411,
-      "unknown": 2028
+      "explicitly_false": 58,
+      "supported": 442,
+      "unknown": 2386
     },
     "type_record_states": {
       "fit": 28,
-      "not_fit": 53,
-      "pending": 751
+      "not_fit": 54,
+      "pending": 880
     },
     "inherited_narrative_counts": {
       "ready": 92,
@@ -3282,9 +3282,9 @@
       "inherited_narrative_status": "ready",
       "progress": {
         "inherited_narrative_status": "ready",
-        "condition_extraction_status": "unextracted",
-        "completed_records": 0,
-        "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+        "condition_extraction_status": "selected_records_complete",
+        "completed_records": 1,
+        "limitation": "指定掲載の語り手と女性の会話。昔の親子関係の噂や魂の入替の解釈を確定事実にしない。"
       },
       "inherited_scope": "掲載本文の全体。過去の由来は知人の伝聞として区別。",
       "inherited_limitations": [
@@ -3303,7 +3303,583 @@
           "note": "現在の会話、姪からの伝承、伝承内の村人による解釈を区別。掲載者の2026年5月18日更新と編集表示があり、原投稿との一致確認ではない。"
         }
       ],
-      "selected_records": [],
+      "selected_records": [
+        {
+          "record_id": "G01-W10-V3-R2-R01",
+          "actor": "指副担の姪へコッケさんの由来を質問する現代の語り手",
+          "time_scope": "現在の家の食事中の聞き取りと固芥の文字の照合。幼い学校時代と明治の村は別の前史・伝聞。",
+          "world_layer": "narrated_conversation_and_historical_hearsay",
+          "selection_reason": "昔の村の加害・親子の問題を現代の聞き手の問題状態へ移さない。",
+          "anticipated_loss": null,
+          "recognition_basis": "由来をひどいと感じ偽善との解釈に同意するが、本人の具体的な予期損失は未指定。",
+          "type_records": [
+            {
+              "type_id": "A1",
+              "type_name": "見つかりそう",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ]
+            },
+            {
+              "type_id": "A2",
+              "type_name": "追われている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ]
+            },
+            {
+              "type_id": "A3",
+              "type_name": "安全な場所に入ってこられる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ]
+            },
+            {
+              "type_id": "A4",
+              "type_name": "囲まれ、じわじわ突破される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ]
+            },
+            {
+              "type_id": "B1",
+              "type_name": "気がついたら知らない場所にいる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ]
+            },
+            {
+              "type_id": "B2",
+              "type_name": "閉じ込められている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ]
+            },
+            {
+              "type_id": "B3",
+              "type_name": "道や時間が正常につながらない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ]
+            },
+            {
+              "type_id": "B4",
+              "type_name": "見聞きしたものを信用できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ]
+            },
+            {
+              "type_id": "C1",
+              "type_name": "目の前の人が本人ではないかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ]
+            },
+            {
+              "type_id": "C2",
+              "type_name": "味方や共同体が自分を害そうとしている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ]
+            },
+            {
+              "type_id": "C3",
+              "type_name": "危険を訴えても信じてもらえない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ]
+            },
+            {
+              "type_id": "C4",
+              "type_name": "大切な人を失いそう・助けられない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ]
+            },
+            {
+              "type_id": "D1",
+              "type_name": "体内に何か入った・感染したかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ]
+            },
+            {
+              "type_id": "D2",
+              "type_name": "自分の身体が別のものになる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ]
+            },
+            {
+              "type_id": "D3",
+              "type_name": "自分の行動を自分で制御できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ]
+            },
+            {
+              "type_id": "D4",
+              "type_name": "自分の記憶・人格・存在が自分のものではない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ]
+            },
+            {
+              "type_id": "D5",
+              "type_name": "身体が内側から壊される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ]
+            },
+            {
+              "type_id": "E1",
+              "type_name": "ある条件を満たすと災厄が来る",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ]
+            },
+            {
+              "type_id": "E2",
+              "type_name": "危険が他者や別の場所へ広がる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ]
+            },
+            {
+              "type_id": "E3",
+              "type_name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ]
+            },
+            {
+              "type_id": "E4",
+              "type_name": "理解しても、実行できる対処がない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ]
+            },
+            {
+              "type_id": "E5",
+              "type_name": "危険を抱え、管理し続けなければならない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ]
+            },
+            {
+              "type_id": "F1",
+              "type_name": "世界の基本規則が、自分たちの理解と違う",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ]
+            },
+            {
+              "type_id": "F2",
+              "type_name": "人間には、理解・制御できない領域がある",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ]
+            },
+            {
+              "type_id": "F3",
+              "type_name": "人間の価値や願いが、世界では重視されていない",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ]
+            },
+            {
+              "type_id": "F4",
+              "type_name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ]
+            }
+          ],
+          "world_model_evidence": {
+            "old_premise": "伝統だから守る行事という説明で由来が分からなかった局所理解。",
+            "new_evidence": "女性の村の加害の由来話と、踊り・固芥の文字の解釈。",
+            "evidence_scope": "一村の伝承・儀礼の現在の聞き取り。",
+            "acceptance_and_threat": "由来をひどい・偽善と受け止める。本人の具体的損失や世界一般の脅威受容は未指定。",
+            "why_local_explanation_insufficient": "未確認。個別の村の伝承・語り・図像解釈で足りない根拠はない。",
+            "alternative_hypotheses": [
+              {
+                "hypothesis": "伝承の誤り・村の過去の解釈・文字の複数解釈",
+                "basis": "親子の噂の真偽は本文も留保し、魂の入替は当時の解釈。現代の二人も文字を異なって読む。",
+                "status": "unresolved"
+              }
+            ],
+            "limitation": "残酷な由来・偽善の反応を、世界一般の価値非中心性の成立へしない。"
+          },
+          "closure_observed": "由来・儀礼・文字の解釈を聞く。歴史的な事実・犠牲の効力は未確認。",
+          "limitation": "指定掲載の語り手と女性の会話。昔の親子関係の噂や魂の入替の解釈を確定事実にしない。",
+          "condition_evidence_location": "condition-extractions.json#G01-W10-V3-R2-R01"
+        }
+      ],
       "v1_comparisons": [
         {
           "scene_id": "G01-W10-SC01",
@@ -3313,17 +3889,19 @@
             "E3"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
+          "relation": "not_reviewed_in_r2",
           "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "reason": "村人・守り手の過去は再読したが本人たちの78条件は未抽出。現代の聞き手の認識へ危険を移さない。"
         },
         {
           "scene_id": "G01-W10-SC02",
           "historical_type_ids": [],
           "historical_scene_fit": "不適合",
-          "relation": "not_mapped_for_comparison",
-          "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "relation": "same_actor_time_scope",
+          "record_ids": [
+            "G01-W10-V3-R2-R01"
+          ],
+          "reason": "現代の語り手が話を尋ねて知る範囲。理解と本人の具体的予期損失を分ける。"
         }
       ]
     },
@@ -8295,9 +8873,9 @@
       "inherited_narrative_status": "ready",
       "progress": {
         "inherited_narrative_status": "ready",
-        "condition_extraction_status": "unextracted",
-        "completed_records": 0,
-        "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+        "condition_extraction_status": "selected_records_complete",
+        "completed_records": 1,
+        "limitation": "声の知覚とその後の説明・解釈。U自身の意図を知らないため不随意発話を確定しない。"
       },
       "inherited_scope": "台帳題名「ゆき・富士の影」を本文の固有名と末尾で照合。",
       "inherited_limitations": [
@@ -8316,7 +8894,579 @@
           "observed_after_at_utc": "2026-10-11T07:41:16Z"
         }
       ],
-      "selected_records": [],
+      "selected_records": [
+        {
+          "record_id": "G01-W24-V3-R2-R01",
+          "actor": "宿でUの声の異変を聞き、後に意味を尋ねる語り手",
+          "time_scope": "ゆきの話の開始から声の変化、Uを揺する対応、半紙の確認と翌朝の質問まで。祖父の通夜の解釈は後年として分離。",
+          "world_layer": "narrated_party_perception_and_historical_story",
+          "selection_reason": "語り手の恐怖反応・Uの発話・昔のゆきの死、後年の死者の声の解釈を分ける。",
+          "anticipated_loss": null,
+          "recognition_basis": "恐れて半泣きになるが、誰にどんな害を受けるかの具体的予期は未指定。",
+          "type_records": [
+            {
+              "type_id": "A1",
+              "type_name": "見つかりそう",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ]
+            },
+            {
+              "type_id": "A2",
+              "type_name": "追われている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ]
+            },
+            {
+              "type_id": "A3",
+              "type_name": "安全な場所に入ってこられる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ]
+            },
+            {
+              "type_id": "A4",
+              "type_name": "囲まれ、じわじわ突破される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ]
+            },
+            {
+              "type_id": "B1",
+              "type_name": "気がついたら知らない場所にいる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ]
+            },
+            {
+              "type_id": "B2",
+              "type_name": "閉じ込められている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ]
+            },
+            {
+              "type_id": "B3",
+              "type_name": "道や時間が正常につながらない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ]
+            },
+            {
+              "type_id": "B4",
+              "type_name": "見聞きしたものを信用できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ]
+            },
+            {
+              "type_id": "C1",
+              "type_name": "目の前の人が本人ではないかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R2",
+                "C1.R3"
+              ]
+            },
+            {
+              "type_id": "C2",
+              "type_name": "味方や共同体が自分を害そうとしている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R2",
+                "C2.R3"
+              ]
+            },
+            {
+              "type_id": "C3",
+              "type_name": "危険を訴えても信じてもらえない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ]
+            },
+            {
+              "type_id": "C4",
+              "type_name": "大切な人を失いそう・助けられない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ]
+            },
+            {
+              "type_id": "D1",
+              "type_name": "体内に何か入った・感染したかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ]
+            },
+            {
+              "type_id": "D2",
+              "type_name": "自分の身体が別のものになる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ]
+            },
+            {
+              "type_id": "D3",
+              "type_name": "自分の行動を自分で制御できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ]
+            },
+            {
+              "type_id": "D4",
+              "type_name": "自分の記憶・人格・存在が自分のものではない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ]
+            },
+            {
+              "type_id": "D5",
+              "type_name": "身体が内側から壊される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ]
+            },
+            {
+              "type_id": "E1",
+              "type_name": "ある条件を満たすと災厄が来る",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R2",
+                "E1.R3"
+              ]
+            },
+            {
+              "type_id": "E2",
+              "type_name": "危険が他者や別の場所へ広がる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ]
+            },
+            {
+              "type_id": "E3",
+              "type_name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R2",
+                "E3.R3"
+              ]
+            },
+            {
+              "type_id": "E4",
+              "type_name": "理解しても、実行できる対処がない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ]
+            },
+            {
+              "type_id": "E5",
+              "type_name": "危険を抱え、管理し続けなければならない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ]
+            },
+            {
+              "type_id": "F1",
+              "type_name": "世界の基本規則が、自分たちの理解と違う",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ]
+            },
+            {
+              "type_id": "F2",
+              "type_name": "人間には、理解・制御できない領域がある",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ]
+            },
+            {
+              "type_id": "F3",
+              "type_name": "人間の価値や願いが、世界では重視されていない",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ]
+            },
+            {
+              "type_id": "F4",
+              "type_name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G3",
+                "F.G5",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ]
+            }
+          ],
+          "world_model_evidence": {
+            "old_premise": "普段の仲間Uが地元の怪談を声で話している局所理解。",
+            "new_evidence": "Uでないような声と出所の曖昧さ、紙の末尾、翌朝の記憶がないという応答。",
+            "evidence_scope": "疲れていた仲間の一晩の会。祖父の通夜の声との似方は後年の本人の解釈。",
+            "acceptance_and_threat": "本人は声を恐れUを揺すり紙を破り、以後話せないと述べる。具体的な加害は未指定。",
+            "why_local_explanation_insufficient": "未確認。疲労・演技・知覚や記憶、歴史の語りの局所説明が残る。",
+            "alternative_hypotheses": [
+              {
+                "hypothesis": "疲労・声の演技や知覚・Uの記憶の不確かさ",
+                "basis": "本人たちは疲れ、声の出所は曖昧。U本人の意図を確認したとは書かれない。",
+                "status": "unresolved"
+              }
+            ],
+            "limitation": "後年の死者の声の解釈を、当夜の観測・本人の世界一般の前提変更へ遡及しない。"
+          },
+          "closure_observed": "Uは正気に戻ったように見え眠り、会を終える。原因・紙の起動効力は未解明。",
+          "limitation": "声の知覚とその後の説明・解釈。U自身の意図を知らないため不随意発話を確定しない。",
+          "condition_evidence_location": "condition-extractions.json#G01-W24-V3-R2-R01"
+        }
+      ],
       "v1_comparisons": [
         {
           "scene_id": "G01-W24-SC01",
@@ -8325,9 +9475,11 @@
             "E1"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
-          "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "relation": "overlapping_scope",
+          "record_ids": [
+            "G01-W24-V3-R2-R01"
+          ],
+          "reason": "宿の会で声を聞く語り手だけを抽出。Uの発話・記憶や昔のゆきの死を同じ当事者にしない。"
         },
         {
           "scene_id": "G01-W24-SC02",
@@ -8336,9 +9488,9 @@
             "E1"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
+          "relation": "not_reviewed_in_r2",
           "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "reason": "後年の帰郷・通夜の解釈は再読したが、その時点の本人の78条件は未抽出。"
         }
       ]
     },
@@ -9068,9 +10220,9 @@
       "inherited_narrative_status": "ready",
       "progress": {
         "inherited_narrative_status": "ready",
-        "condition_extraction_status": "unextracted",
-        "completed_records": 0,
-        "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+        "condition_extraction_status": "selected_records_complete",
+        "completed_records": 1,
+        "limitation": "入れ子の伝聞と伯父の明示的推測。人物の出自の説明を現実の属性や因果へ一般化しない。"
       },
       "inherited_scope": "転載の単話。参照先リョウメンスクナ本編は本割当の追加作品にしない",
       "inherited_limitations": [
@@ -9090,7 +10242,591 @@
           "observed_after_at_utc": "2026-10-11T07:52:21Z"
         }
       ],
-      "selected_records": [],
+      "selected_records": [
+        {
+          "record_id": "G02-W02-V3-R2-R01",
+          "actor": "伯父と怪談を読み過去の話を聞く現代の語り手",
+          "time_scope": "怪談サイトの閲覧から、伯父の昔話と災害の推測を聞き終わる現在の会話。",
+          "world_layer": "narrated_conversation_and_nested_hearsay",
+          "selection_reason": "現代の聞き手、過去の祖父・妹・船の人を同じ当事者にしない。",
+          "anticipated_loss": null,
+          "recognition_basis": "恐ろしい話と感じるが、本人の具体的な帰結は指定されず、災害の因果にはまさかと返す。",
+          "type_records": [
+            {
+              "type_id": "A1",
+              "type_name": "見つかりそう",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ]
+            },
+            {
+              "type_id": "A2",
+              "type_name": "追われている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ]
+            },
+            {
+              "type_id": "A3",
+              "type_name": "安全な場所に入ってこられる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ]
+            },
+            {
+              "type_id": "A4",
+              "type_name": "囲まれ、じわじわ突破される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ]
+            },
+            {
+              "type_id": "B1",
+              "type_name": "気がついたら知らない場所にいる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ]
+            },
+            {
+              "type_id": "B2",
+              "type_name": "閉じ込められている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ]
+            },
+            {
+              "type_id": "B3",
+              "type_name": "道や時間が正常につながらない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ]
+            },
+            {
+              "type_id": "B4",
+              "type_name": "見聞きしたものを信用できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ]
+            },
+            {
+              "type_id": "C1",
+              "type_name": "目の前の人が本人ではないかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ]
+            },
+            {
+              "type_id": "C2",
+              "type_name": "味方や共同体が自分を害そうとしている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ]
+            },
+            {
+              "type_id": "C3",
+              "type_name": "危険を訴えても信じてもらえない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ]
+            },
+            {
+              "type_id": "C4",
+              "type_name": "大切な人を失いそう・助けられない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ]
+            },
+            {
+              "type_id": "D1",
+              "type_name": "体内に何か入った・感染したかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ]
+            },
+            {
+              "type_id": "D2",
+              "type_name": "自分の身体が別のものになる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ]
+            },
+            {
+              "type_id": "D3",
+              "type_name": "自分の行動を自分で制御できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ]
+            },
+            {
+              "type_id": "D4",
+              "type_name": "自分の記憶・人格・存在が自分のものではない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ]
+            },
+            {
+              "type_id": "D5",
+              "type_name": "身体が内側から壊される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ]
+            },
+            {
+              "type_id": "E1",
+              "type_name": "ある条件を満たすと災厄が来る",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ]
+            },
+            {
+              "type_id": "E2",
+              "type_name": "危険が他者や別の場所へ広がる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ]
+            },
+            {
+              "type_id": "E3",
+              "type_name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ]
+            },
+            {
+              "type_id": "E4",
+              "type_name": "理解しても、実行できる対処がない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ]
+            },
+            {
+              "type_id": "E5",
+              "type_name": "危険を抱え、管理し続けなければならない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ]
+            },
+            {
+              "type_id": "F1",
+              "type_name": "世界の基本規則が、自分たちの理解と違う",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ]
+            },
+            {
+              "type_id": "F2",
+              "type_name": "人間には、理解・制御できない領域がある",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ]
+            },
+            {
+              "type_id": "F3",
+              "type_name": "人間の価値や願いが、世界では重視されていない",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ]
+            },
+            {
+              "type_id": "F4",
+              "type_name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ]
+            }
+          ],
+          "world_model_evidence": {
+            "old_premise": "怪談に関心を持つ聞き手。世界一般の基本則・価値・用途の旧確信は未指定。",
+            "new_evidence": "伯父経由の祖父の話と、伯父自身が推測と断る災害との関連。",
+            "evidence_scope": "現在の会話と入れ子の昔話。",
+            "acceptance_and_threat": "本人は話を恐ろしく感じるが具体的損失は未指定。災害の因果にはまさかと笑う。",
+            "why_local_explanation_insufficient": "未確認。伝聞の誤り・伯父の推測・局所の個別呪具の説明が残る。",
+            "alternative_hypotheses": [
+              {
+                "hypothesis": "入れ子の伝聞の誤り・災害との偶然・伯父の推測",
+                "basis": "伯父が関連を妄想に近い推測と断る。語り手も笑って確定しない。",
+                "status": "unresolved"
+              }
+            ],
+            "limitation": "出自の作中説明・国や災害の関連を実在因果の検証にしない。"
+          },
+          "closure_observed": "会話は終わるが、呪具の行方・災害との因果は未確認。",
+          "limitation": "入れ子の伝聞と伯父の明示的推測。人物の出自の説明を現実の属性や因果へ一般化しない。",
+          "condition_evidence_location": "condition-extractions.json#G02-W02-V3-R2-R01"
+        }
+      ],
       "v1_comparisons": [
         {
           "scene_id": "G02-W02-S01",
@@ -9098,9 +10834,9 @@
             "E1"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
+          "relation": "not_reviewed_in_r2",
           "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "reason": "叔父の話の祖先・船の人々は再読したが本人たちの78条件は未抽出。新記録は現代の聞き手である。"
         }
       ]
     },
@@ -9719,9 +11455,9 @@
       "inherited_narrative_status": "ready",
       "progress": {
         "inherited_narrative_status": "ready",
-        "condition_extraction_status": "unextracted",
-        "completed_records": 0,
-        "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+        "condition_extraction_status": "selected_records_complete",
+        "completed_records": 1,
+        "limitation": "一応対の本人の認識。目を合わせる注意の効力、要求の実在の機序・因果は未確認。"
       },
       "inherited_scope": "店舗での遭遇・針金模型・再来店までの単話",
       "inherited_limitations": [
@@ -9740,7 +11476,542 @@
           "observed_after_at_utc": "2026-10-11T07:52:21Z"
         }
       ],
-      "selected_records": [],
+      "selected_records": [
+        {
+          "record_id": "G02-W05-V3-R2-R01",
+          "actor": "夜勤でおおいさんの命の要求へ応対する店員の語り手",
+          "time_scope": "カメラを見てレジへ出て、後輩と命の要求を断り、客が細工を残し帰るまで。後の細工・事故は別。",
+          "world_layer": "narrated_customer_interaction",
+          "selection_reason": "客の要求を救済に有効な犠牲の条件へしない。後の事故と来訪の伝聞を当時の知識へ遡及しない。",
+          "anticipated_loss": "客が自分か後輩の命を取る。",
+          "recognition_basis": "命を求められ怖いと思い、後輩と困って断る。",
+          "type_records": [
+            {
+              "type_id": "A1",
+              "type_name": "見つかりそう",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A1.R1",
+                "A1.R2"
+              ]
+            },
+            {
+              "type_id": "A2",
+              "type_name": "追われている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A2.R1",
+                "A2.R2"
+              ]
+            },
+            {
+              "type_id": "A3",
+              "type_name": "安全な場所に入ってこられる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ]
+            },
+            {
+              "type_id": "A4",
+              "type_name": "囲まれ、じわじわ突破される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ]
+            },
+            {
+              "type_id": "B1",
+              "type_name": "気がついたら知らない場所にいる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B1.R1",
+                "B1.R2"
+              ]
+            },
+            {
+              "type_id": "B2",
+              "type_name": "閉じ込められている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B2.R1",
+                "B2.R2"
+              ]
+            },
+            {
+              "type_id": "B3",
+              "type_name": "道や時間が正常につながらない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B3.R1",
+                "B3.R2"
+              ]
+            },
+            {
+              "type_id": "B4",
+              "type_name": "見聞きしたものを信用できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B4.R1",
+                "B4.R2"
+              ]
+            },
+            {
+              "type_id": "C1",
+              "type_name": "目の前の人が本人ではないかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ]
+            },
+            {
+              "type_id": "C2",
+              "type_name": "味方や共同体が自分を害そうとしている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ]
+            },
+            {
+              "type_id": "C3",
+              "type_name": "危険を訴えても信じてもらえない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ]
+            },
+            {
+              "type_id": "C4",
+              "type_name": "大切な人を失いそう・助けられない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ]
+            },
+            {
+              "type_id": "D1",
+              "type_name": "体内に何か入った・感染したかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D1.R1",
+                "D1.R2"
+              ]
+            },
+            {
+              "type_id": "D2",
+              "type_name": "自分の身体が別のものになる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D2.R1",
+                "D2.R2"
+              ]
+            },
+            {
+              "type_id": "D3",
+              "type_name": "自分の行動を自分で制御できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ]
+            },
+            {
+              "type_id": "D4",
+              "type_name": "自分の記憶・人格・存在が自分のものではない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D4.R1",
+                "D4.R2"
+              ]
+            },
+            {
+              "type_id": "D5",
+              "type_name": "身体が内側から壊される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ]
+            },
+            {
+              "type_id": "E1",
+              "type_name": "ある条件を満たすと災厄が来る",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E1.R2",
+                "E1.R3"
+              ]
+            },
+            {
+              "type_id": "E2",
+              "type_name": "危険が他者や別の場所へ広がる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ]
+            },
+            {
+              "type_id": "E3",
+              "type_name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ]
+            },
+            {
+              "type_id": "E4",
+              "type_name": "理解しても、実行できる対処がない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ]
+            },
+            {
+              "type_id": "E5",
+              "type_name": "危険を抱え、管理し続けなければならない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ]
+            },
+            {
+              "type_id": "F1",
+              "type_name": "世界の基本規則が、自分たちの理解と違う",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ]
+            },
+            {
+              "type_id": "F2",
+              "type_name": "人間には、理解・制御できない領域がある",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ]
+            },
+            {
+              "type_id": "F3",
+              "type_name": "人間の価値や願いが、世界では重視されていない",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ]
+            },
+            {
+              "type_id": "F4",
+              "type_name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ]
+            }
+          ],
+          "world_model_evidence": {
+            "old_premise": "カメラの後に来た普通の客かと局所的に理解する。世界基本則の旧確信は未指定。",
+            "new_evidence": "おおいさんの名と注意、本人らの命を求める発言。",
+            "evidence_scope": "一回の店舗の応対。",
+            "acceptance_and_threat": "本人は冗談とも受け取るが怖いと思い、要求を断る。",
+            "why_local_explanation_insufficient": "未確認。客の冗談・害意や時間差の記録の局所説明が残る。",
+            "alternative_hypotheses": [
+              {
+                "hypothesis": "客の冗談・害意、時間差のある観測",
+                "basis": "本人は冗談と述べ、カメラとレジの間に客が来たと説明する。",
+                "status": "unresolved"
+              }
+            ],
+            "limitation": "要求だけで犠牲の必要性や世界の用途依存、目の接触の起動効力を認定しない。"
+          },
+          "closure_observed": "客は細工を残し去る。その時点の本人の生存と全体の危険の解消は別。",
+          "limitation": "一応対の本人の認識。目を合わせる注意の効力、要求の実在の機序・因果は未確認。",
+          "condition_evidence_location": "condition-extractions.json#G02-W05-V3-R2-R01"
+        }
+      ],
       "v1_comparisons": [
         {
           "scene_id": "G02-W05-S01",
@@ -9749,9 +12020,11 @@
             "E1"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
-          "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "relation": "same_actor_time_scope",
+          "record_ids": [
+            "G02-W05-V3-R2-R01"
+          ],
+          "reason": "初夜の店員本人の映像と客への応対。店長への電話・後の事故を本人の事前の知識にしない。"
         },
         {
           "scene_id": "G02-W05-S02",
@@ -9759,9 +12032,9 @@
             "E1"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
+          "relation": "not_reviewed_in_r2",
           "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "reason": "後の電話・事故・帰店は再読したが、その時点の本人の78条件は未抽出。"
         }
       ]
     },
@@ -9771,9 +12044,9 @@
       "inherited_narrative_status": "ready",
       "progress": {
         "inherited_narrative_status": "ready",
-        "condition_extraction_status": "unextracted",
-        "completed_records": 0,
-        "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+        "condition_extraction_status": "selected_records_complete",
+        "completed_records": 1,
+        "limitation": "幼い時の一連の会話と記憶。成人後の転帰を以前の害意・必要犠牲へ遡及しない。"
       },
       "inherited_scope": "幼少期の交友、帰省後の再会、妊娠中の妻についての結末",
       "inherited_limitations": [
@@ -9792,7 +12065,537 @@
           "observed_after_at_utc": "2026-10-11T07:52:21Z"
         }
       ],
-      "selected_records": [],
+      "selected_records": [
+        {
+          "record_id": "G02-W06-V3-R2-R01",
+          "actor": "鏡内へ行く約束をした夜に帰還を不安に思う幼い語り手",
+          "time_scope": "幼い時の鏡の会話・約束からその夜の帰還への疑問、翌日以降の納戸回避まで。成人後と流産の知らせは別。",
+          "world_layer": "retrospective_childhood_memory_and_belief",
+          "selection_reason": "子の実際の帰還予期を、成人後の妊娠の転帰・本人も理解できなかった言葉から分ける。",
+          "anticipated_loss": "鏡の先へ行って帰れない。親へ話せば友人と会えなくなるという説明。",
+          "recognition_basis": "寝床で帰れるか考え怖くなり、翌日から納戸に行かない。",
+          "type_records": [
+            {
+              "type_id": "A1",
+              "type_name": "見つかりそう",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A1.R1",
+                "A1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A1.R1",
+                "A1.R2"
+              ]
+            },
+            {
+              "type_id": "A2",
+              "type_name": "追われている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A2.R1",
+                "A2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A2.R1",
+                "A2.R2"
+              ]
+            },
+            {
+              "type_id": "A3",
+              "type_name": "安全な場所に入ってこられる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A3.R1",
+                "A3.R2",
+                "A3.R3"
+              ]
+            },
+            {
+              "type_id": "A4",
+              "type_name": "囲まれ、じわじわ突破される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "A4.R1",
+                "A4.R2",
+                "A4.R3"
+              ]
+            },
+            {
+              "type_id": "B1",
+              "type_name": "気がついたら知らない場所にいる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B1.R1",
+                "B1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B1.R1",
+                "B1.R2"
+              ]
+            },
+            {
+              "type_id": "B2",
+              "type_name": "閉じ込められている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B2.R1",
+                "B2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B2.R1",
+                "B2.R2"
+              ]
+            },
+            {
+              "type_id": "B3",
+              "type_name": "道や時間が正常につながらない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B3.R1",
+                "B3.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B3.R1",
+                "B3.R2"
+              ]
+            },
+            {
+              "type_id": "B4",
+              "type_name": "見聞きしたものを信用できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "B4.R1",
+                "B4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "B4.R2"
+              ]
+            },
+            {
+              "type_id": "C1",
+              "type_name": "目の前の人が本人ではないかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C1.R1",
+                "C1.R2",
+                "C1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C1.R2",
+                "C1.R3"
+              ]
+            },
+            {
+              "type_id": "C2",
+              "type_name": "味方や共同体が自分を害そうとしている",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C2.R1",
+                "C2.R2",
+                "C2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C2.R2",
+                "C2.R3"
+              ]
+            },
+            {
+              "type_id": "C3",
+              "type_name": "危険を訴えても信じてもらえない",
+              "layer": "problem_state",
+              "decision": "not_fit",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C3.R1",
+                "C3.R2",
+                "C3.R3"
+              ],
+              "explicitly_false_condition_ids": [
+                "C3.R1"
+              ],
+              "unknown_condition_ids": [
+                "C3.R2",
+                "C3.R3"
+              ]
+            },
+            {
+              "type_id": "C4",
+              "type_name": "大切な人を失いそう・助けられない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "C4.R1",
+                "C4.R2",
+                "C4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "C4.R3"
+              ]
+            },
+            {
+              "type_id": "D1",
+              "type_name": "体内に何か入った・感染したかもしれない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D1.R1",
+                "D1.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D1.R1",
+                "D1.R2"
+              ]
+            },
+            {
+              "type_id": "D2",
+              "type_name": "自分の身体が別のものになる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D2.R1",
+                "D2.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D2.R1",
+                "D2.R2"
+              ]
+            },
+            {
+              "type_id": "D3",
+              "type_name": "自分の行動を自分で制御できない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D3.R1",
+                "D3.R2",
+                "D3.R3"
+              ]
+            },
+            {
+              "type_id": "D4",
+              "type_name": "自分の記憶・人格・存在が自分のものではない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D4.R1",
+                "D4.R2"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D4.R1",
+                "D4.R2"
+              ]
+            },
+            {
+              "type_id": "D5",
+              "type_name": "身体が内側から壊される",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "D5.R1",
+                "D5.R2",
+                "D5.R3"
+              ]
+            },
+            {
+              "type_id": "E1",
+              "type_name": "ある条件を満たすと災厄が来る",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E1.R1",
+                "E1.R2",
+                "E1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E1.R2"
+              ]
+            },
+            {
+              "type_id": "E2",
+              "type_name": "危険が他者や別の場所へ広がる",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E2.R1",
+                "E2.R2",
+                "E2.R3"
+              ]
+            },
+            {
+              "type_id": "E3",
+              "type_name": "助かるには大切なもの・誰かを犠牲にする必要がある",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E3.R1",
+                "E3.R2",
+                "E3.R3"
+              ]
+            },
+            {
+              "type_id": "E4",
+              "type_name": "理解しても、実行できる対処がない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E4.R1",
+                "E4.R2",
+                "E4.R3"
+              ]
+            },
+            {
+              "type_id": "E5",
+              "type_name": "危険を抱え、管理し続けなければならない",
+              "layer": "problem_state",
+              "decision": "pending",
+              "required_condition_ids": [
+                "AE.G1",
+                "AE.G2",
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "E5.R1",
+                "E5.R2",
+                "E5.R3",
+                "E5.R4"
+              ]
+            },
+            {
+              "type_id": "F1",
+              "type_name": "世界の基本規則が、自分たちの理解と違う",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F1.R1",
+                "F1.R2",
+                "F1.R3"
+              ]
+            },
+            {
+              "type_id": "F2",
+              "type_name": "人間には、理解・制御できない領域がある",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F2.R1",
+                "F2.R2",
+                "F2.R3"
+              ]
+            },
+            {
+              "type_id": "F3",
+              "type_name": "人間の価値や願いが、世界では重視されていない",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F3.R1",
+                "F3.R2",
+                "F3.R3"
+              ]
+            },
+            {
+              "type_id": "F4",
+              "type_name": "人間の安全・歴史・存在が、別の存在の用途に従属している",
+              "layer": "world_model",
+              "decision": "pending",
+              "required_condition_ids": [
+                "F.G1",
+                "F.G2",
+                "F.G3",
+                "F.G4",
+                "F.G5",
+                "F.G6",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ],
+              "explicitly_false_condition_ids": [],
+              "unknown_condition_ids": [
+                "F.G1",
+                "F.G3",
+                "F.G5",
+                "F4.R1",
+                "F4.R2",
+                "F4.R3"
+              ]
+            }
+          ],
+          "world_model_evidence": {
+            "old_premise": "鏡の友人を不思議でも怖くないと受け止めていた局所的理解。世界一般の旧確信は未指定。",
+            "new_evidence": "鏡内への誘いと秘密・約束、帰還できるかの未説明の疑問。",
+            "evidence_scope": "本人の幼い時の鏡の会話。",
+            "acceptance_and_threat": "本人は帰れない可能性を恐れ接触を避ける。",
+            "why_local_explanation_insufficient": "未確認。幼少期の記憶・空想や鏡の局所説明が残る。",
+            "alternative_hypotheses": [
+              {
+                "hypothesis": "幼少期の記憶・空想・鏡の局所現象",
+                "basis": "出会った時期は本人も覚えておらず、他の大人には見えない。",
+                "status": "unresolved"
+              }
+            ],
+            "limitation": "未実行の誘いを実際の帰還不能・侵入・人間一般の構造的限界にしない。"
+          },
+          "closure_observed": "鏡内へ実行しない。帰還条件の効力は試されていない。",
+          "limitation": "幼い時の一連の会話と記憶。成人後の転帰を以前の害意・必要犠牲へ遡及しない。",
+          "condition_evidence_location": "condition-extractions.json#G02-W06-V3-R2-R01"
+        }
+      ],
       "v1_comparisons": [
         {
           "scene_id": "G02-W06-S01",
@@ -9801,9 +12604,11 @@
             "C2"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
-          "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "relation": "overlapping_scope",
+          "record_ids": [
+            "G02-W06-V3-R2-R01"
+          ],
+          "reason": "子供の夜の約束を抽出。成年後の説明と子供時点の知識・実害を分ける。"
         },
         {
           "scene_id": "G02-W06-S02",
@@ -9812,9 +12617,9 @@
             "E2"
           ],
           "historical_scene_fit": "部分適合",
-          "relation": "not_mapped_for_comparison",
+          "relation": "not_reviewed_in_r2",
           "record_ids": [],
-          "reason": "追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。"
+          "reason": "成年後の子供への注意・流産は再読したが、その時点の本人の78条件は未抽出。"
         }
       ]
     },
@@ -15704,6 +18509,7 @@
               ],
               "explicitly_false_condition_ids": [],
               "unknown_condition_ids": [
+                "C3.R2",
                 "C3.R3"
               ]
             },

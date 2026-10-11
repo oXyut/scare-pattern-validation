@@ -487,6 +487,77 @@
       ],
       "relation": "same_actor_time_scope",
       "reason": "四年後の夢からの離脱困難と本人が覚醒後と断言する声、現在の次回の恐れ。異本・コメントの別人を混ぜない。"
+    },
+    {
+      "work_id": "G01-W10",
+      "scene_id": "G01-W10-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "村人・守り手の過去は再読したが本人たちの78条件は未抽出。現代の聞き手の認識へ危険を移さない。"
+    },
+    {
+      "work_id": "G01-W10",
+      "scene_id": "G01-W10-SC02",
+      "record_ids": [
+        "G01-W10-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "現代の語り手が話を尋ねて知る範囲。理解と本人の具体的予期損失を分ける。"
+    },
+    {
+      "work_id": "G01-W24",
+      "scene_id": "G01-W24-SC01",
+      "record_ids": [
+        "G01-W24-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "宿の会で声を聞く語り手だけを抽出。Uの発話・記憶や昔のゆきの死を同じ当事者にしない。"
+    },
+    {
+      "work_id": "G01-W24",
+      "scene_id": "G01-W24-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後年の帰郷・通夜の解釈は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G02-W02",
+      "scene_id": "G02-W02-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "叔父の話の祖先・船の人々は再読したが本人たちの78条件は未抽出。新記録は現代の聞き手である。"
+    },
+    {
+      "work_id": "G02-W05",
+      "scene_id": "G02-W05-S01",
+      "record_ids": [
+        "G02-W05-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "初夜の店員本人の映像と客への応対。店長への電話・後の事故を本人の事前の知識にしない。"
+    },
+    {
+      "work_id": "G02-W05",
+      "scene_id": "G02-W05-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の電話・事故・帰店は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G02-W06",
+      "scene_id": "G02-W06-S01",
+      "record_ids": [
+        "G02-W06-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "子供の夜の約束を抽出。成年後の説明と子供時点の知識・実害を分ける。"
+    },
+    {
+      "work_id": "G02-W06",
+      "scene_id": "G02-W06-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "成年後の子供への注意・流産は再読したが、その時点の本人の78条件は未抽出。"
     }
   ]
 }
