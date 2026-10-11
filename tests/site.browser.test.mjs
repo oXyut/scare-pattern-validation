@@ -188,6 +188,10 @@ test('work tracking keeps outcomes, uncertainty, scene links and closure audits 
 
 test('mobile keyboard navigation, disclosure state and layout remain usable',async t=>{
   const page=await open(t,'?q=赤い仏像#catalogue',{width:390,height:844});
+  for(const group of ['A','B','C','D','E','F']){
+    await page.keyboard.press('Tab');
+    assert.equal(await page.evaluate(()=>document.activeElement.getAttribute('href')),'#type-group-'+group);
+  }
   await page.keyboard.press('Tab');
   assert.equal(await page.locator('#query').evaluate(el=>el===document.activeElement),true);
   const link=page.locator('#results .work-link[href="#work=G01-W01"]');
@@ -391,7 +395,11 @@ test('all 131 works render their complete narrative state and every new referenc
     assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),n.status);
     assert.equal(await page.locator('.timeline-card').count(),n.threads.reduce((sum,f)=>sum+f.steps.length,0));
     assert.equal(await page.locator('.story-summary').count(),n.status==='pending'?0:1);
-    assert.deepEqual(await page.locator('.timeline-type').allTextContents(),n.threads.flatMap(f=>f.steps.flatMap(s=>s.fears.flatMap(a=>a.type_ids.map(id=>fixture.types.find(t=>t.id===id).name)))));
+    // Group order is the dictionary order; the story's steps remain chronological.
+    const expectedTypes=n.threads.flatMap(thread=>thread.steps.flatMap(step=>step.fears.flatMap(fear=>
+      fixture.type_groups.flatMap(group=>fear.type_ids.filter(id=>id[0]===group.id).map(id=>fixture.types.find(type=>type.id===id).name))
+    )));
+    assert.deepEqual(await page.locator('.timeline-type').allTextContents(),expectedTypes);
     assert.doesNotMatch(await page.locator('.scene .notation').allTextContents().then(x=>x.join(' ')),/[QDM](?:問い|危険|選択|世界モデル)|[A-F][1-5]/);
     await page.locator('.narrative-notes > summary').click();
     assert.equal(await page.locator('.narrative-source').count(),n.source_reviews.length);
@@ -404,6 +412,71 @@ test('all 131 works render their complete narrative state and every new referenc
     }
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,n.work_id);
   }
+});
+
+test('six Japanese group names and every catalogue type agree with the original dictionary',async t=>{
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const page=await open(t,'#catalogue');
+  const legends=await page.locator('#classification-legend li').evaluateAll(nodes=>nodes.map(e=>({id:e.dataset.typeGroup,name:e.querySelector('a > span:not(.group-swatch)').textContent,count:Number(e.querySelector('small').textContent.replace('型',''))})));
+  assert.deepEqual(legends,fixture.type_groups.map(g=>({id:g.id,name:g.name,count:fixture.types.filter(type=>type.id[0]===g.id).length})));
+  const rows=await page.locator('#results tbody tr').evaluateAll(nodes=>nodes.map(row=>({id:row.querySelector('.work-link').getAttribute('href').slice(6),groups:[...row.querySelectorAll('.type-cluster')].map(group=>({id:group.dataset.typeGroup,name:group.querySelector('.type-group-label').textContent,types:[...group.querySelectorAll('.tag')].map(a=>({id:a.getAttribute('href').slice(6),name:a.textContent,title:a.title}))}))})));
+  for(const row of rows){
+    const work=fixture.works.find(w=>w.work_id===row.id);
+    const ids=[...new Set(work.scenes.flatMap(s=>s.type_ids))].sort();
+    assert.deepEqual(row.groups.flatMap(g=>g.types.map(type=>type.id)).sort(),ids,row.id);
+    for(const group of row.groups){
+      assert.equal(group.name,fixture.type_groups.find(g=>g.id===group.id).name);
+      for(const type of group.types){assert.equal(type.id[0],group.id);assert.equal(type.name,fixture.types.find(t=>t.id===type.id).name);assert.ok(type.title.includes(group.name));}
+    }
+  }
+  assert.deepEqual(await page.locator('#type optgroup').evaluateAll(nodes=>nodes.map(e=>e.label)),fixture.type_groups.map(g=>g.name));
+  await page.locator('#classification-legend a[href="#type-group-D"]').click();
+  await page.waitForFunction(()=>document.activeElement.id==='type-group-D');
+  assert.equal(await page.locator('#type-group-D > h3').textContent(),'身体と自己5型');
+  await page.locator('#type-D3 summary').click();await page.locator('#type-D3 .type-search').click();
+  await page.waitForFunction(()=>document.getElementById('type').value==='D3');
+  assert.match(await page.locator('#type-context').textContent(),/上位分類：身体と自己/);
+  assert.equal(new URL(page.url()).searchParams.get('type'),'D3');
+  await page.locator('#filters button[type=reset]').click();
+  assert.equal(await page.locator('#results tbody tr').count(),131);
+  assert.doesNotMatch(await page.locator('#type-context').textContent(),/上位分類：身体と自己/);
+  await page.goto(base+'?type=none#catalogue');await page.waitForSelector('#empty-reset, #results tbody tr');
+  assert.match(await page.locator('#type-context').textContent(),/型が付いていない場面/);
+});
+
+test('group accents stay consistent and readable across the legend, types, scenes and timeline',async t=>{
+  const page=await open(t,'#catalogue');
+  const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
+  const colorMap=await page.locator('#classification-legend li').evaluateAll(nodes=>Object.fromEntries(nodes.map(e=>[e.dataset.typeGroup,getComputedStyle(e).getPropertyValue('--group-ink').trim()])));
+  assert.equal(new Set(Object.values(colorMap)).size,6);
+  let minimumContrast=Infinity;
+  function luminance(rgb){return rgb.slice(0,3).map(n=>{const v=n/255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4;}).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0);}
+  function contrast(fg,bg){const a=luminance(fg),b=luminance(bg);return (Math.max(a,b)+.05)/(Math.min(a,b)+.05);}
+  async function verify(){
+    const groups=await page.locator('[data-type-group]').evaluateAll(nodes=>nodes.map(e=>{
+      const cs=getComputedStyle(e),label=e.querySelector('.type-group-label')||e.querySelector('h3')||e.querySelector('a')||e;
+      let parent=label,bg;
+      while(parent){bg=getComputedStyle(parent).backgroundColor;if(!bg.startsWith('rgba')||!bg.endsWith(', 0)'))break;parent=parent.parentElement;}
+      return {id:e.dataset.typeGroup,accent:cs.getPropertyValue('--group-ink').trim(),text:getComputedStyle(label).color.match(/[\d.]+/g).map(Number),bg:bg.match(/[\d.]+/g).map(Number)};
+    }));
+    for(const g of groups){const ratio=contrast(g.text,g.bg);minimumContrast=Math.min(minimumContrast,ratio);assert.equal(g.accent,colorMap[g.id]);assert.ok(ratio>=4.5,JSON.stringify(g));}
+  }
+  await verify();
+  for(const g of fixture.type_groups){
+    assert.equal(await page.locator('#type-group-'+g.id).getAttribute('data-type-group'),g.id);
+    assert.equal(await page.locator('#type-group-'+g.id+' .type-entry').count(),fixture.types.filter(t=>t.id[0]===g.id).length);
+  }
+  await hash(page,'#work=G01-W01');await checkWork(page,'G01-W01','赤い仏像');await verify();
+  await page.locator('.work-group-legend > summary').click();
+  assert.equal(await page.locator('.work-group-legend .classification-legend-list li').count(),6);
+  for(const width of [768,390,320]){await page.setViewportSize({width,height:900});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);await checkRail(page);}
+  t.diagnostic('Minimum group-label/link contrast: '+minimumContrast.toFixed(2)+':1');
+  await page.emulateMedia({forcedColors:'active'});
+  assert.match(await page.locator('.timeline-types').allTextContents().then(texts=>texts.join(' ')),/捕捉と侵入|因果と選択/);
+  assert.equal(await page.locator('.timeline-type[href="#type-A2"]').first().isVisible(),true);
+  await page.locator('.timeline-type[href="#type-A2"]').first().focus();await page.keyboard.press('Enter');
+  await page.waitForFunction(()=>document.getElementById('type-A2').open);
+  assert.equal(await page.locator('#type-A2 > summary').textContent(),'追われている');
 });
 
 test('catalogue exposes spoiler excerpts and limited or pending states at desktop and mobile widths',async t=>{

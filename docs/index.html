@@ -129,7 +129,7 @@
       <section id="types">
         <p class="section-index">06 / 調査に使った26型</p>
         <h2>26型の定義と使い分け</h2>
-        <p>以下は調査に使ったv1の名称と定義です。各項目を開くと、問題が生じる条件、対処、決着する条件、使い分けが未確定の点を読めます。作品を絞り込むリンクでは、その型を付けた場面を探します。型を付けたことは適合を保証せず、同じ場面に複数の型が付く場合もあります。</p>
+        <p>調査に使ったv1の26型を、6つの上位分類ごとにまとめています。見出しの色は一覧・作品詳細・時系列と共通です。各項目を開くと、問題が生じる条件、対処、決着する条件、使い分けが未確定の点を読めます。型を付けたことは適合を保証せず、同じ場面に複数の型が付く場合もあります。</p>
         <div id="type-directory"><p class="loading">26型の定義を読み込み中です。</p></div>
         <p class="reference">根拠 <a data-repo="baseline/v1-26types/report.md" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/report.md">固定v1全文</a>・<a data-repo="baseline/v1-26types/provenance.json" href="https://github.com/oXyut/scare-pattern-validation/blob/148359afaa05072f95c3b57b374897f381ad093a/baseline/v1-26types/provenance.json">基準の由来と照合用ハッシュ</a></p>
       </section>
@@ -140,11 +140,12 @@
     <p class="section-index">07 / 作品別資料</p>
     <div class="catalogue-heading"><div><h2 id="catalogue-title">作品ごとの分析を探す</h2><p>ここに掲載する自作の分析要約には、展開・結末のネタバレが含まれます。場面の型と判定は全てv1の基準によるものです。</p></div><span class="total-mark">調査対象 <b>131</b></span></div>
     <p id="narrative-coverage" class="small-note" aria-live="polite">あらすじの参照範囲を読み込み中です。</p>
+    <nav id="classification-legend" class="classification-legend" aria-label="恐怖の型の上位分類と色の凡例"></nav>
     <form id="filters" class="filters" role="search">
       <label class="search-label">作品名・あらすじ・型名・分析から検索<input type="search" id="query" name="q" placeholder="例：くねくね、逃げる、未同定" autocomplete="off"></label>
       <div class="selects">
         <label>分類資料の本文確認<select id="status" name="status"><option value="">全ての状態</option><option value="verified">本文確認</option><option value="partial">部分確認</option><option value="unverified">未確認</option></select></label>
-        <label>恐怖の型<select id="type" name="type"><option value="">全ての型・型なし</option><option value="none">型なしの場面あり</option></select></label>
+        <label>恐怖の型<select id="type" name="type" aria-describedby="type-context"><option value="">全ての型・型なし</option><option value="none">型なしの場面あり</option></select><span id="type-context" class="type-context"></span></label>
         <label>場面全体の判定<select id="fit" name="fit"><option value="">全ての判定</option><option>適合</option><option>部分適合</option><option>不適合</option><option>本文不足</option></select></label>
         <label>担当群<select id="group" name="group"><option value="">全5群</option><option value="group_01">群01</option><option value="group_02">群02</option><option value="group_03">群03</option><option value="group_04">群04</option><option value="group_05">群05</option></select></label>
       </div>
