@@ -8,6 +8,17 @@ button,input,select{font:inherit}
 button,a,input,select,summary{touch-action:manipulation}
 button{cursor:pointer}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
+.route-heading:focus-visible{outline:2px solid var(--muted);outline-offset:3px;border-radius:2px}
+.reading-result-cell{min-width:180px;max-width:285px}
+.result-badge{display:inline-flex;align-items:baseline;gap:.4em;white-space:normal}
+.result-symbol{font-size:1.2em;font-weight:700;flex:none}
+.reading-outcome{display:block;font-size:.875rem;margin-top:.45rem}
+.reading-result-cell .small-note{font-size:.8125rem;line-height:1.8;margin:.5rem 0}
+.reading-result-cell a{font-size:.8125rem}
+.reading-result-detail{padding:1.4rem;margin:2rem 0;border:1px solid var(--line);border-left:3px solid var(--muted);background:var(--light)}
+.reading-result-detail h2{font-size:1.25rem}
+.reading-scope-split{padding-top:1rem;border-top:1px solid var(--line)}
+.result-key{margin:1rem 0}
 [hidden]{display:none!important}
 h1,h2,h3,p,dl,ol,ul,figure{margin:0}
 p+p{margin-top:1.2em}
@@ -113,10 +124,10 @@ tfoot th,tfoot td{border-top:2px solid var(--ink)}
 .small-note{font-size:.875rem;color:var(--muted);margin-top:15px}
 .results-table{margin-top:26px}
 .results-table{table-layout:fixed}
-.results-table .work-col{width:44%}
+.results-table .work-col{width:36%}
 .results-table thead th{white-space:normal}
-.results-table th:nth-child(2){width:13%}
-.results-table th:nth-child(3){width:27%}
+.results-table th:nth-child(2){width:24%}
+.results-table th:nth-child(3){width:24%}
 .results-table th:nth-child(4){width:16%}
 .results-table .work-link{font-family:var(--serif);font-size:1.08rem;font-weight:600}
 .catalogue-synopsis{margin:12px 0 8px;font-size:.875rem;line-height:1.9;max-width:40em;font-weight:400;overflow-wrap:anywhere}
@@ -310,8 +321,8 @@ main{padding:0 20px}
 .results-table tr{border-bottom:1px solid var(--line);padding:18px 0;position:relative}
 .results-table td,.results-table th{border:0;padding:3px 0}
 .results-table .work-col{width:auto;padding-right:0}
-.results-table .work-link{display:block;padding-right:100px}
-.results-table td:nth-child(2){position:absolute;right:0;top:18px}
+.results-table .work-link{display:block;padding-right:0}
+.results-table td:nth-child(2){position:static;max-width:none;min-width:0;width:100%;padding:1rem 0;margin:.75rem 0;border-block:1px solid var(--line)}
 .results-table td:last-child{font-size:.8rem}
 .results-table th small{margin-top:4px}
 .source-list>div{grid-template-columns:1fr;gap:4px}
@@ -400,7 +411,7 @@ a{color:inherit}
 thead{background:#2a1c1f}
 th,td{padding:13px 14px}
 tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
-.example-row{padding:27px 0;grid-template-columns:94px minmax(0,1fr)}
+.example-row{padding:27px 0;grid-template-columns:minmax(0,1fr)}
 .example-row h3{font-size:1.35rem}
 .document-details{padding:10px 0;border-top:2px solid var(--ink)}
 .document-details summary,.scene-more summary{min-height:44px;padding:8px 0}

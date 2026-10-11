@@ -1,9 +1,75 @@
-export const statusLabels = {verified:'本文確認',partial:'部分確認',unverified:'未確認'};
+export const statusLabels = {verified:'指定範囲を確認',partial:'範囲・作品一致に留保',unverified:'対象本文に未到達'};
+// Display annotations for the original v1 result. Never upgrade v1 from later readings.
+// Evidence: each work's mappings.json, report.md and ledger.csv at data.source_revision.
+const unreachedResults = {
+  'G01-W05':['作品特定不可','顔のある少女・成人女性の比較本文は読めたが、題名の少女と一致する根拠がない。'],
+  'G01-W06':['作品特定不可','名称への言及は見つかったが、怪談本文と元の投稿を特定できなかった。'],
+  'G01-W11':['作品特定不可','「坂の上の女」の本文などを比較したが、指定題名との同一性は確認できなかった。'],
+  'G01-W13':['作品特定不可','名称一覧・言及にとどまり、発端から結末までの本文を特定できなかった。'],
+  'G01-W20':['作品特定不可','名称一覧や別作品の候補はあるが、調査対象の本文を特定できなかった。'],
+  'G01-W27':['作品特定不可','題名を検索したが、調査対象として一致する本文を特定できなかった。'],
+  'G02-W03':['作品特定不可','表記違いも調べたが、伝承・図像と区別できる対象の怪談本文は未同定。'],
+  'G02-W08':['作品特定不可','軽自動車・満員というモチーフを調べたが、題名と本文の対応は未同定。'],
+  'G02-W12':['作品特定不可','同名の検索断片はあるが、指定された怪談の本文とは確認できなかった。'],
+  'G02-W13':['作品特定不可','名称情報にとどまり、対象の本文と元の投稿URLを特定できなかった。'],
+  'G02-W16':['作品特定不可','題名の揺れや特徴を検索したが、対象の本文を特定できなかった。'],
+  'G03-W03':['作品特定不可','二次紹介の検索断片はあるが、独立した対象作品の全編・原版は未同定。'],
+  'G03-W09':['作品特定不可','名称・画像の候補にとどまり、怪談本文として確認できなかった。'],
+  'G03-W10':['候補本文取得不可','Fandomの候補ページを取得できず、題名の表記違いも調べたが対象本文は未同定。'],
+  'G03-W14':['作品特定不可','雲・鳥居・創作などの検索候補と区別できる対象本文を特定できなかった。'],
+  'G03-W16':['作品特定不可','能力名などの別分野の候補はあるが、対象の怪談本文は未同定。'],
+  'G03-W19':['作品特定不可','動画の題名・概要にとどまり、本文や字幕を取得して作品を照合できなかった。'],
+  'G03-W21':['作品特定不可','題名を調べたが、怪談本文を特定できず、内容・結末は確認できなかった。'],
+  'G03-W24':['作品特定不可','対象の本文は未同定。似た題名だけでは同じ作品として扱えない。'],
+  'G04-W01':['作品特定不可','書誌や後発の同名台本の候補はあるが、調査対象との同一性は確認できなかった。'],
+  'G04-W02':['作品特定不可','「紅い石段」などの候補はあるが、指定題名との同一性は確認できなかった。'],
+  'G04-W20':['候補本文取得不可','同名候補は取得時に502エラーとなり、対象作品の全編と同一性は確認できなかった。'],
+  'G05-W04':['作品特定不可','題名や特徴を検索したが、対象本文と出典URLを特定できなかった。'],
+  'G05-W21':['作品特定不可','名称一覧や別分野の候補にとどまり、対象の怪談本文を特定できなかった。'],
+  'G05-W26':['作品特定不可','用語集が示す投稿先などを探したが、題名に一致する本文を特定できなかった。']
+};
+export function readingResult(work) {
+  const base={scope:work.episode_scope||'確認範囲の記録なし'};
+  if(work.body_status==='verified')return {...base,rank:0,symbol:'○',label:statusLabels.verified,outcome:'指定した掲載範囲を読了',reason:'確認範囲：'+base.scope,attempt:'本文読了の記録あり'};
+  if(work.body_status==='partial')return {...base,rank:1,symbol:'△',label:statusLabels.partial,outcome:'一部範囲・比較候補のみ',reason:base.scope,attempt:'限定した本文読了の記録あり'};
+  const found=unreachedResults[work.work_id];
+  if(work.body_status==='unverified'&&found)return {...base,rank:2,symbol:'×',label:statusLabels.unverified,outcome:found[0],reason:found[1],attempt:'検索・取得などを試行した記録あり'};
+  return {...base,rank:3,symbol:'□',label:'結果の記録不足',outcome:'到達結果を判別できず',reason:'既存資料だけでは確認結果を判別できません。',attempt:'試行結果の記録不足'};
+}
+export function narrativeReadingResult(n) {
+  if(n.status==='ready')return {symbol:'○',label:'掲載範囲を確認',reason:n.scope};
+  if(n.status==='scoped')return {symbol:'△',label:'一部範囲・候補を確認',reason:n.scope};
+  // The failed game-forum candidate for 死なず舞妓 is unrelated to an identified horror text.
+  const relevantFailures=new Set(['G03-W09','G03-W10','G03-W19','G04-W02','G04-W20','G05-W26']);
+  const failed=relevantFailures.has(n.work_id)&&n.investigation.some(a=>/fetch_failed|access_failed|retrieval_failed/.test(a.outcome));
+  return {symbol:'×',label:failed?'候補本文取得不可・同定留保':'作品・範囲を特定できず',reason:n.reason};
+}
+export function sortWorks(works, order='result') {
+  if(order==='original')return [...works];
+  const collator=new Intl.Collator('ja',{numeric:true});
+  return [...works].sort((a,b)=>(order==='title'?0:readingResult(a).rank-readingResult(b).rank)||collator.compare(a.title,b.title)||a.work_id.localeCompare(b.work_id));
+}
+export function recordCounts(scenes) {
+  const holds=scenes.filter(s=>s.fit==='本文不足').length;
+  return {scenes:scenes.length-holds,holds,total:scenes.length};
+}
 // The source IDs and four analytical axes remain unchanged. Only prose is expanded.
 export const axisLabels = {Q:'問い（分かっていないこと）',D:'危険（予期される損失）',C:'選択（選べる行動と条件）',M:'世界モデル（安全・自己・因果などへの前提）'};
 const axisNames = {Q:'問い',D:'危険',C:'選択',M:'世界モデル'};
+const proposalNames={'G01-N01':'迫る直接加害','G01-N02':'秘密・脆弱さが公に露見する','G02-N01':'順番・手続による直接加害の到来','G02-N02':'社会的正常性の不透明さ','G03-N01':'身体外面への付着・切り離せない','G03-N02':'現在の追跡が観測されていない加害者への再加害予期','G04-N01':'標的情報を知られている','G04-N02':'突然の直接加害への対処'};
 export function readerText(value, vocabulary) {
-  let text=String(value??'');
+  let text=String(value??'').replace(/(?:担当群|群別|各群|全群|他群|群間)/g,word=>({担当群:'担当',群別:'資料別',各群:'各資料',全群:'記録全体',他群:'別資料',群間:'資料間'}[word])).replace(/群0[1-5](?:–0[1-5])?/g,'調査資料');
+  text=text.replace(/G0[1-4]-N0[12]/g,id=>'未採用の候補「'+proposalNames[id]+'」');
+  text=text.replace(/(?:FU-)?G\d{2}-(?:W\d{2}(?:-S(?:C)?\d{2})?(?:-[QDCM])?|S\d{3})(?![A-Za-z0-9_-])/g,raw=>{
+    const suffix=/-([QDCM])$/.exec(raw),id=suffix?raw.slice(0,-2):raw;
+    const work=vocabulary.works?.find(w=>w.work_id===id);
+    if(work)return '「'+work.title+'」';
+    const owner=vocabulary.works?.find(w=>w.scenes.some(s=>s.scene_id===id));
+    if(owner)return '「'+owner.title+'」の場面'+(owner.scenes.findIndex(s=>s.scene_id===id)+1)+(suffix?'の'+axisNames[suffix[1]]:'');
+    const source=vocabulary.sources?.find(s=>s.source_id===id);
+    if(source){const title=vocabulary.works.find(w=>w.work_id===source.work_id)?.title;return '「'+title+'」の出典'+(vocabulary.sources.filter(s=>s.work_id===source.work_id).findIndex(s=>s.source_id===id)+1);}
+    return '参照資料';
+  });
   for(const type of vocabulary.types){
     text=text.replaceAll(type.id+'「'+type.name+'」','「'+type.name+'」');
   }
@@ -50,7 +116,7 @@ export function matchingScenes(work, filters) {
 }
 export function filterWorks(works, filters={}) {
   const terms=normalise(filters.q).trim().split(/\s+/u).filter(Boolean);
-  return works.filter(w=>(!filters.status||w.body_status===filters.status) && (!filters.group||w.group_id===filters.group) && terms.every(t=>searchText(w).includes(t)) && matchingScenes(w,filters).length>0);
+  return works.filter(w=>(!filters.status||w.body_status===filters.status) && terms.every(t=>searchText(w).includes(t)) && matchingScenes(w,filters).length>0);
 }
 
 // Resolve every detail URL against the data, regardless of the previously rendered work.
@@ -58,10 +124,10 @@ export function resolveRoute(data, fragment) {
   let anchor;
   try {anchor=decodeURIComponent(fragment.replace(/^#/,''));}
   catch {return {kind:'invalid'};}
-  const match=/^(work=|work-sources-|source-|scene-)(.*)$/su.exec(anchor);
+  const match=/^(work=|work-sources-|reading-result-|source-|scene-)(.*)$/su.exec(anchor);
   if (!match) return {kind:'report',anchor};
   const [,prefix,id]=match;
-  const resource={ 'work=':'work', 'work-sources-':'work', 'source-':'source', 'scene-':'scene' }[prefix];
+  const resource={ 'work=':'work', 'work-sources-':'work', 'reading-result-':'work', 'source-':'source', 'scene-':'scene' }[prefix];
   let work;
   if(resource==='work') work=data.works.find(w=>w.work_id===id);
   if(resource==='scene') work=data.works.find(w=>w.scenes.some(s=>s.scene_id===id));

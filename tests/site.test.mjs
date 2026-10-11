@@ -2,11 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute} from '../site/core.mjs';
+import {axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute,readingResult,narrativeReadingResult,sortWorks,recordCounts} from '../site/core.mjs';
 const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url)));
 test('UI changes preserve every published research and narrative fact byte for byte',()=>{
   const digest=createHash('sha256').update(readFileSync(new URL('../docs/data.json',import.meta.url))).digest('hex');
   assert.equal(digest,'a7bf52568a350bed322d4ab9c24bd0add9be0b658ee43f6a0fb32b524bdfb1f4');
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../site/narratives.json',import.meta.url))).digest('hex'),'3afeffcc998575c6395c700a29289199b26d7375c7d50019b9159c679015eab1');
 });
 test('analytical prose uses the original axis and type meanings without changing person initials',()=>{
   assert.deepEqual(Object.keys(axisLabels),['Q','D','C','M']);
@@ -99,6 +100,7 @@ test('all source and scene anchors resolve the correct owner independently of ea
     assert.equal(resolveRoute(data,'#work='+work.work_id).work,work);
     assert.equal(resolveRoute(data,'#work-sources-'+work.work_id).work,work);
     assert.equal(resolveRoute(data,'#work-sources-'+work.work_id).anchor,'work-sources-'+work.work_id);
+    assert.equal(resolveRoute(data,'#reading-result-'+work.work_id).work,work);
     for(const scene of work.scenes){
       const route=resolveRoute(data,'#scene-'+scene.scene_id);
       assert.equal(route.work,work);assert.equal(route.anchor,'scene-'+scene.scene_id);
@@ -127,4 +129,39 @@ test('new work tracking text is searchable without changing scene filter semanti
     assert.ok(works.every(w=>w.scenes.every(s=>s.outcomes==='')));
   }
   assert.doesNotMatch(JSON.stringify(data),/"(?:target_id|subject_id|problem_id)"/);
+});
+
+test('verification result, later narrative scope and attempts remain independent',()=>{
+  const counts={};
+  for(const w of data.works){
+    const result=readingResult(w);counts[result.symbol]=(counts[result.symbol]||0)+1;
+    assert.equal(result.scope,w.episode_scope);
+    assert.ok(result.reason&&result.outcome&&result.attempt);
+    const n=data.narratives.works.find(n=>n.work_id===w.work_id);
+    assert.ok(n.investigation.length>0);
+    assert.doesNotMatch(result.label+' '+result.attempt,/未着手|実施中/);
+    if(w.body_status==='unverified')assert.match(result.attempt,/試行/);
+  }
+  assert.deepEqual(counts,{'○':92,'△':14,'×':25});
+  const moved=data.works.filter(w=>w.body_status==='unverified'&&data.narratives.works.find(n=>n.work_id===w.work_id).status==='scoped');
+  assert.deepEqual(moved.map(w=>w.work_id),['G01-W11','G02-W08','G03-W03','G04-W01']);
+  for(const w of moved){assert.equal(readingResult(w).symbol,'×');assert.equal(narrativeReadingResult(data.narratives.works.find(n=>n.work_id===w.work_id)).symbol,'△');}
+  const relevant=data.narratives.works.filter(n=>narrativeReadingResult(n).label==='候補本文取得不可・同定留保');
+  assert.deepEqual(relevant.map(n=>n.work_id),['G03-W09','G03-W10','G03-W19','G04-W02','G04-W20','G05-W26']);
+  const unrelated=data.narratives.works.find(n=>n.work_id==='G02-W12');
+  assert.ok(unrelated.investigation.some(a=>a.outcome==='fetch_failed'));
+  assert.equal(narrativeReadingResult(unrelated).label,'作品・範囲を特定できず');
+  assert.equal(readingResult({work_id:'UNKNOWN',body_status:'unverified'}).symbol,'□');
+});
+test('result sorting does not mutate data and retired group filters cannot hide records',()=>{
+  const sorted=sortWorks(data.works),original=data.works.map(w=>w.work_id);
+  assert.deepEqual(data.works.map(w=>w.work_id),original);
+  for(let i=1;i<sorted.length;i++)assert.ok(readingResult(sorted[i-1]).rank<=readingResult(sorted[i]).rank);
+  assert.equal(sorted.filter(w=>w.body_status==='verified').length,92);
+  assert.deepEqual(sortWorks(data.works,'original').map(w=>w.work_id),original);
+  const titles=sortWorks(data.works,'title');const collator=new Intl.Collator('ja',{numeric:true});
+  for(let i=1;i<titles.length;i++)assert.ok(collator.compare(titles[i-1].title,titles[i].title)<=0);
+  assert.equal(filterWorks(data.works,{group:'group_01'}).length,131);
+  assert.deepEqual(recordCounts(data.works.flatMap(w=>w.scenes)),{scenes:233,holds:25,total:258});
+  assert.deepEqual(recordCounts(data.works.filter(w=>w.body_status==='unverified').flatMap(w=>w.scenes)),{scenes:0,holds:25,total:25});
 });

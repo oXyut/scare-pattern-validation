@@ -43,7 +43,7 @@ async function open(t, suffix='', viewport={width:1280,height:900}, fixture) {
 async function checkWork(page, id, title, anchor) {
   await page.waitForFunction(({id,title,anchor})=>{
     const detail=document.getElementById('work-detail');
-    return !detail.hidden && document.getElementById('work-title')?.textContent===title && detail.querySelector('.work-meta')?.textContent.includes(id) && document.activeElement.id===(anchor||'work-title');
+    return !detail.hidden && document.getElementById('work-title')?.textContent===title && detail.dataset.workId===id && (anchor?document.getElementById(anchor)?.contains(document.activeElement):document.activeElement.id==='work-title');
   },{id,title,anchor},{timeout:5000}).catch(async error=>{
     error.message+=' '+JSON.stringify(await page.evaluate(()=>({hash:location.hash,active:document.activeElement?.outerHTML.slice(0,250)})));
     throw error;
@@ -144,7 +144,7 @@ test('query, all filters, empty results and URL history keep their selected valu
   await checkWork(page,'G01-W01','赤い仏像');
   await page.locator('.back-link').first().click();
   await page.waitForFunction(()=>!document.getElementById('report').hidden);
-  for(const [id,value] of Object.entries({query:'赤い仏像',status:'verified',type:'A2',fit:'部分適合',group:'group_01'})) assert.equal(await page.locator('#'+id).inputValue(),value);
+  for(const [id,value] of Object.entries({query:'赤い仏像',status:'verified',type:'A2',fit:'部分適合'})) assert.equal(await page.locator('#'+id).inputValue(),value);
   await page.goBack();
   await checkWork(page,'G01-W01','赤い仏像');
   await page.goForward();
@@ -206,7 +206,7 @@ test('mobile keyboard navigation, disclosure state and layout remain usable',asy
   await page.keyboard.press('Enter');
   await checkWork(page,'G01-W01','赤い仏像','source-G01-S001');
   assert.equal(await page.locator('.scene-more').first().getAttribute('open'),'');
-  assert.equal(await page.locator('#source-G01-S001').evaluate(el=>el===document.activeElement),true);
+  assert.equal(await page.locator('#source-G01-S001').evaluate(el=>el.contains(document.activeElement)),true);
   await page.keyboard.press('Tab');
   assert.equal(await page.locator('#source-G01-S001 a').evaluate(el=>el===document.activeElement),true);
   assert.equal(await page.locator('#source-G01-S001 a').evaluate(el=>getComputedStyle(el).outlineWidth),'3px');
@@ -227,7 +227,7 @@ test('supplement displays all selected entries and never upgrades historical sce
   await screenshot(page,'desktop-followup-index');
   await page.locator('#followup-results a[href="#work=G03-W03"]').click();
   await checkWork(page,'G03-W03','井戸の足臭女');
-  assert.equal(await page.locator('.work-meta .status').textContent(),'未確認');
+  assert.match(await page.locator('.work-meta .status').textContent(),/対象本文に未到達/);
   assert.equal(await page.locator('.fit').first().textContent(),'本文不足');
   assert.match(await page.locator('.work-followup').textContent(),/関連本文を限定確認/);
   assert.match(await page.locator('.work-followup').textContent(),/原割当|対象版|未同定|未確定/);
@@ -286,8 +286,8 @@ test('spoiler summary leads the detail; chronology, interpretation and v1 backli
 
 test('all works are individually investigated; unconfirmed works keep reasons and source jumps',async t=>{
   const page=await open(t,'#catalogue');
-  assert.equal(await page.locator('#poc-links a').count(),4);
-  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  assert.equal(await page.locator('#poc-links').count(),0);
+  await page.locator('#results .work-link[href="#work=G02-W11"]').click();
   await checkWork(page,'G02-W11','猿夢');
   assert.equal(await page.locator('.work-narrative').getAttribute('data-narrative-status'),'ready');
   const fixture=JSON.parse(await readFile(resolve(docs,'data.json'),'utf8'));
@@ -335,8 +335,8 @@ test('one-file review allows switching stories without any extra resource or dat
   const previewBody=await readFile(file,'utf8');
   await page.route(base+'offline-preview.html',route=>route.fulfill({contentType:'text/html',body:previewBody}));
   await page.goto(base+'offline-preview.html');
-  await page.waitForFunction(()=>document.querySelectorAll('#poc-links a').length===4);
-  await page.locator('#poc-links a[href="#work=G02-W11"]').click();
+  await page.waitForFunction(()=>document.querySelectorAll('#results .work-link').length===131);
+  await page.locator('#results .work-link[href="#work=G02-W11"]').click();
   await page.waitForFunction(()=>document.querySelector('.story-summary'));
   await checkWork(page,'G02-W11','猿夢');
   await page.locator('.poc-switch > summary').click();
@@ -410,6 +410,13 @@ test('all 131 works render their complete narrative state and every new referenc
     if(n.threads.some(f=>f.steps.some(s=>s.fears.some(a=>a.classification_basis==='unclassified_new_evidence')))){
       assert.match(await page.locator('.timeline-fears').first().textContent(),/未分類（参照本文からの解釈）/);
     }
+    const sources=await page.locator('.source-entry').evaluateAll(nodes=>nodes.map(e=>({id:e.id.slice(7),value:[...e.querySelectorAll('dt')].find(dt=>dt.textContent==='出典台帳での本文確認の記録').nextElementSibling.textContent})));
+    for(const source of sources){
+      const recorded=fixture.sources.find(s=>s.source_id===source.id);
+      assert.ok(source.value.startsWith(['true','True'].includes(recorded.body_verified)?'掲載範囲の本文読了あり':'本文読了の記録なし'),source.id);
+    }
+    await page.locator('#work-detail details').evaluateAll(nodes=>nodes.forEach(e=>e.open=true));
+    assert.doesNotMatch(await page.locator('#work-detail').innerText(),/担当群|群別|群0[1-5]|全5群|G0[1-5]-/,n.work_id);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,n.work_id);
   }
 });
@@ -431,7 +438,7 @@ test('six Japanese group names and every catalogue type agree with the original 
   }
   assert.deepEqual(await page.locator('#type optgroup').evaluateAll(nodes=>nodes.map(e=>e.label)),fixture.type_groups.map(g=>g.name));
   await page.locator('#classification-legend a[href="#type-group-D"]').click();
-  await page.waitForFunction(()=>document.activeElement.id==='type-group-D');
+  await page.waitForFunction(()=>document.getElementById('type-group-D').contains(document.activeElement));
   assert.equal(await page.locator('#type-group-D > h3').textContent(),'身体と自己5型');
   await page.locator('#type-D3 summary').click();await page.locator('#type-D3 .type-search').click();
   await page.waitForFunction(()=>document.getElementById('type').value==='D3');
@@ -534,7 +541,7 @@ test('reader pages contain results and evidence instead of expansion history',as
   await hash(page,'#work=G02-W08');
   await checkWork(page,'G02-W08','ギュウギュウ詰めの軽自動車');
   await page.locator('.narrative-notes > summary').click();
-  assert.match(await page.locator('.narrative-notes').textContent(),/分類の本文確認.*未確認/);
+  assert.match(await page.locator('.narrative-notes').textContent(),/分類の本文確認.*対象本文に未到達/);
   assert.doesNotMatch(await page.locator('#work-detail').textContent(),/今回追加|旧v1|今回の本文照合|追加調査/);
   assert.match(await page.locator('.narrative-notes').textContent(),/確認した本文|照合の根拠|本文を確認した日時/);
   await hash(page,'#work=G02-W19');
@@ -559,4 +566,43 @@ test('long synthetic event, date and label wrap without shifting the rail or obs
   await analysis.locator('.timeline-scene a').focus();await page.keyboard.press('Enter');
   await checkWork(page,'G02-W11','猿夢','scene-'+step.fears[0].scene_id);
   assert.equal(await analysis.getAttribute('open'),'');
+});
+
+test('result order, symbols, scope evidence and retired group links remain usable',async t=>{
+  const page=await open(t,'?group=group_05#catalogue',{width:390,height:900});
+  assert.equal(await page.locator('#group').count(),0);
+  assert.equal(await page.locator('.poc-review').count(),0);
+  assert.equal(await page.locator('.opening-note').count(),0);
+  assert.match(await page.locator('.primary-link').textContent(),/作品を探して.*あらすじ・分類/);
+  assert.equal(await page.locator('#question details').getAttribute('open'),null);
+  assert.match(await page.locator('#question details').textContent(),/分析方法と読み方.*AIによる探索的/s);
+  assert.equal(await page.locator('#results tbody tr').count(),131);
+  assert.match(await page.locator('#result-count').textContent(),/場面記録233行・本文不足の保留25行.*258/);
+  assert.doesNotMatch(await page.locator('#report').textContent(),/担当群|群別|群0[1-5]|全5群|G0[1-5]-/);
+  const classes=await page.locator('.reading-result-cell > .status').evaluateAll(nodes=>nodes.map(e=>e.classList.contains('verified')?'verified':e.classList.contains('partial')?'partial':'unverified'));
+  assert.deepEqual(classes,[...Array(92).fill('verified'),...Array(14).fill('partial'),...Array(25).fill('unverified')]);
+  assert.equal(await page.evaluate(()=>document.activeElement.id),'catalogue-title');
+  assert.equal(await page.locator('#catalogue').getAttribute('tabindex'),null);
+  assert.equal(await page.locator('#catalogue-title').evaluate(e=>getComputedStyle(e).outlineWidth),'2px');
+  assert.equal(await page.locator('#catalogue').evaluate(e=>getComputedStyle(e).outlineStyle),'none');
+  await page.keyboard.press('Tab');
+  assert.equal(await page.evaluate(()=>document.activeElement.tagName),'A');
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.activeElement).outlineWidth),'3px');
+  await page.locator('#sort').selectOption('title');
+  assert.equal(new URL(page.url()).searchParams.get('sort'),'title');
+  assert.equal(new URL(page.url()).searchParams.has('group'),false);
+  await page.reload();await page.waitForSelector('#results tbody tr');
+  assert.equal(await page.locator('#sort').inputValue(),'title');
+  await page.locator('#status').selectOption('unverified');
+  assert.equal(await page.locator('#results tbody tr').count(),25);
+  assert.match(await page.locator('#result-count').textContent(),/場面記録0行・本文不足の保留25行/);
+  assert.equal(await page.locator('.reading-result-cell .result-symbol').count(),25);
+  await page.locator('#results a[href="#reading-result-G03-W03"]').click();
+  await checkWork(page,'G03-W03','井戸の足臭女','reading-result-G03-W03');
+  assert.equal(await page.locator('.reading-result-detail details').getAttribute('open'),'');
+  assert.match(await page.locator('.reading-result-detail').textContent(),/v1.*×.*対象本文に未到達.*作品特定不可.*後発.*△.*一部範囲・候補を確認/s);
+  await page.emulateMedia({forcedColors:'active'});
+  await page.locator('.reading-result-detail summary').focus();
+  assert.equal(await page.locator('.reading-result-detail summary').evaluate(e=>getComputedStyle(e).outlineWidth),'3px');
+  for(const width of [390,320]){await page.setViewportSize({width,height:900});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);}
 });

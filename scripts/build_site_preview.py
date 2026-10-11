@@ -18,7 +18,7 @@ def preview_html():
     css = css.replace("url('corridor-cover.webp')", "url('data:image/webp;base64," + cover + "')")
     core = (docs / 'core.mjs').read_text().replace('export ', '')
     app = (docs / 'app.mjs').read_text()
-    app = app.replace("import {statusLabels,axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute} from './core.mjs';\n", '')
+    app = app.replace("import {statusLabels,axisLabels,readerText,shortSynopsis,filterWorks,matchingScenes,resolveRoute,readingResult,narrativeReadingResult,sortWorks,recordCounts} from './core.mjs';\n", '')
     # Inline the already-validated public projection. No file:// fetch or imports.
     loader = "const response=await fetch('data.json');if(!response.ok)throw new Error('data unavailable');data=await response.json();"
     assert loader in app

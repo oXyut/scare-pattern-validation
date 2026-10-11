@@ -73,3 +73,5 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/scare-review
 ブラウザで `http://127.0.0.1:8765/preview.html#work=G02-W11` を開きます。HTML内にCSS・JS・公開データを含み、追加のリソース取得を行いません。原文・リポジトリへの外部リンクはクリック時だけ開きます。Cloudブラウザでは`file://`が管理設定で拒否されたため、localhost経由で確認しました。
 
 既存Chromiumを実行ファイルで指定する場合は`SITE_BROWSER_EXECUTABLE=/usr/bin/chromium`を使えます。今回、新しい実行環境・依存パッケージ・ブラウザをインストールしていません。
+
+通常画面の担当群は表示せず、v1の本文確認結果を○指定範囲を確認／△範囲・作品一致に留保／×対象本文に未到達の順で表示します。後発あらすじの確認範囲・試行履歴・場面の行数は別扱いです。内部IDと原資料は保持しています。[結果表示のレビューとオフラインプレビュー](review/reading-results/README.md)を参照してください。
