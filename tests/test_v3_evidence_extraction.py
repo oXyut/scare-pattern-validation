@@ -110,12 +110,45 @@ class EvidenceExtractionTests(unittest.TestCase):
             self.check()
 
     def test_unextracted_and_held_works_cannot_be_counted_complete(self):
-        for wid, progress in self.data['work_progress'].items():
-            if progress['condition_extraction_status'] == 'unextracted':
-                progress['condition_extraction_status'] = 'selected_records_complete'
-                break
+        wid = self.data['records'][0]['work_id']
+        self.data['records'] = [r for r in self.data['records'] if r['work_id'] != wid]
+        progress = self.data['work_progress'][wid]
+        progress['completed_records'] = 0
+        progress['condition_extraction_status'] = 'unextracted'
+        with self.assertRaisesRegex(ValueError, 'Final selected-scope coverage'):
+            self.check()
+        progress['condition_extraction_status'] = 'selected_records_complete'
         with self.assertRaisesRegex(ValueError, 'Completed extraction requires'):
             self.check()
+
+    def test_final_coverage_has_110_selected_and_21_uninvented_holds(self):
+        counts = self.check()
+        self.assertEqual(counts['condition_extraction_complete_works'], 110)
+        self.assertEqual(counts['fully_rechecked_published_bodies'], 110)
+        self.assertEqual(counts['fully_rechecked_of_r1_inherited_102'], 102)
+        self.assertEqual(counts['remaining_of_r1_inherited_102'], 0)
+        selected = {r['work_id'] for r in self.data['records']}
+        held = {w['work_id'] for w in self.narratives['works'] if w['status'] == 'pending'}
+        self.assertFalse(selected & held)
+        self.assertEqual(len(held), 21)
+
+    def test_final_comparison_rejects_an_omitted_historical_scene(self):
+        matches = r2.read('research/v3-20261011-r2/scene-correspondences.json')
+        matches['records'].pop()
+        with self.assertRaisesRegex(ValueError, 'map every historical scene'):
+            r2.results(self.data, self.reviews, self.narratives, self.codebook, matches)
+
+    def test_finite_protection_and_non_threatening_actor_cannot_be_promoted(self):
+        def state(wid, cid):
+            rec = next(r for r in self.data['records'] if r['work_id'] == wid)
+            return next(c['state'] for c in rec['conditions'] if c['condition_id'] == cid)
+        for wid in ('G05-W25', 'G05-W06'):
+            self.assertEqual(state(wid, 'E5.R2'), 'explicitly_false')
+        for wid in ('G04-W08', 'G03-W13'):
+            self.assertEqual(state(wid, 'AE.G2'), 'explicitly_false')
+            rec = next(r for r in self.data['records'] if r['work_id'] == wid)
+            self.assertTrue(all(t['decision'] == 'not_fit' for t in r2.type_records(rec, self.codebook)))
+        self.assertEqual(state('G04-W23', 'E2.R2'), 'unknown')
 
     def test_night_and_vehicle_are_separate_records_not_independent_works(self):
         records = [r for r in self.data['records'] if r['work_id'] == 'G05-W18']
@@ -149,6 +182,7 @@ class EvidenceExtractionTests(unittest.TestCase):
         hold = next(w for w in result['works'] if w['inherited_narrative_status'] == 'pending')
         self.assertEqual(hold['progress']['condition_extraction_status'], 'source_hold')
         self.assertFalse(hold['selected_records'])
+        self.assertTrue(all(m['relation'] == 'source_hold' and not m['selected_scope_differences'] for m in hold['v1_comparisons']))
 
     def test_unreviewed_scene_cannot_claim_corresponding_judgment(self):
         matches = r2.read('research/v3-20261011-r2/scene-correspondences.json')

@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
-  "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T09:02:12Z",
+  "stage": "selected_scope_review_complete",
+  "observed_after_at_utc": "2026-10-11T09:59:15Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 58,
+  "fully_rechecked_published_bodies": 110,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -41,11 +41,13 @@
     {
       "work_id": "G05-W25",
       "url": "https://syarekowa-mania.hateblo.jp/entry/resort-arbeit/",
-      "status": "targeted_reread",
-      "range": "1174〜1290行",
+      "status": "full_published_body_reread",
+      "range": "13〜1477行、後日談の末尾まで",
       "original_post_identity": "unconfirmed",
       "review_id": "G05-W25-R2-S1",
-      "observed_after_at_utc": "2026-10-11T06:16:33Z"
+      "observed_after_at_utc": "2026-10-11T09:59:15Z",
+      "previous_targeted_range": "1174〜1290行",
+      "note": "先の1174〜1290行の対象再読を保存し、今回全掲載話・後日談を再読。系列別版や初出原文の一致は未確認。"
     },
     {
       "work_id": "G05-W18",
@@ -616,8 +618,561 @@
       "status": "full_published_body_reread",
       "original_post_identity": "unconfirmed",
       "observed_after_at_utc": "2026-10-11T09:02:12Z"
+    },
+    {
+      "work_id": "G02-W01",
+      "url": "https://nazolog.com/blog-entry-2991.html",
+      "status": "full_published_body_reread",
+      "range": "1/4掲載9〜173行と別再掲27〜156行。2/4以後未確認。",
+      "original_post_identity": "unconfirmed",
+      "note": "初回の投稿者、釣り宣言、別投稿の体験を分ける。原系列の限定範囲保持。",
+      "review_id": "G02-W01-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:12:23Z",
+      "additional_urls": [
+        "https://xn--f8tx20an6r.com/洒落怖/アクロバティックサラサラ/"
+      ]
+    },
+    {
+      "work_id": "G02-W15",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=9652",
+      "status": "full_published_body_reread",
+      "range": "64〜425行",
+      "original_post_identity": "unconfirmed",
+      "note": "本人の実際の接触否定と、住職の由来・予言、他人の発症を分ける。",
+      "review_id": "G02-W15-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:12:23Z"
+    },
+    {
+      "work_id": "G02-W19",
+      "url": "https://nazolog.com/blog-entry-2875.html",
+      "status": "full_published_body_reread",
+      "range": "8〜228行、続き4667の9〜223行",
+      "original_post_identity": "unconfirmed",
+      "note": "本編の救助時の知識と続きの後知識を分ける。",
+      "review_id": "G02-W19-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:12:23Z",
+      "additional_urls": [
+        "https://nazolog.com/blog-entry-4667.html"
+      ]
+    },
+    {
+      "work_id": "G02-W20",
+      "url": "https://kowaimura.com/scary-story-hitchhiking/",
+      "status": "full_published_body_reread",
+      "range": "25〜464行、掲載投稿836〜854",
+      "original_post_identity": "unconfirmed",
+      "note": "見聞きした声・人影と、幻聴の可能性と犯罪の推測を分ける。",
+      "review_id": "G02-W20-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:12:23Z"
+    },
+    {
+      "work_id": "G02-W21",
+      "url": "https://kaidanstorys.com/mannequin/",
+      "status": "full_published_body_reread",
+      "range": "第1頁30〜94、第2頁23〜122、第3頁23〜84行",
+      "original_post_identity": "unconfirmed",
+      "note": "本人観測とS子・男子の伝聞を分ける。",
+      "review_id": "G02-W21-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:17:45Z",
+      "additional_urls": [
+        "https://kaidanstorys.com/mannequin/2/",
+        "https://kaidanstorys.com/mannequin/3/"
+      ]
+    },
+    {
+      "work_id": "G03-W01",
+      "url": "https://llike.net/2ch/fear/akaionna/2.htm",
+      "status": "full_published_body_reread",
+      "range": "112〜253行、由来話の投稿204〜238のみ",
+      "original_post_identity": "unconfirmed",
+      "note": "アキちゃんの由来話に限定。別目撃を未統合。",
+      "review_id": "G03-W01-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:17:45Z"
+    },
+    {
+      "work_id": "G03-W22",
+      "url": "https://paranormal-ch.com/archives/1076278852.html",
+      "status": "full_published_body_reread",
+      "range": "投稿926、331〜337行のみ",
+      "original_post_identity": "unconfirmed",
+      "note": "本編ワゴンRとは別の銀の軽自動車。",
+      "review_id": "G03-W22-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:17:45Z"
+    },
+    {
+      "work_id": "G04-W04",
+      "url": "https://nazolog.com/blog-entry-12105.html",
+      "status": "full_published_body_reread",
+      "range": "9〜36行、897・899",
+      "original_post_identity": "unconfirmed",
+      "note": "山の観測と大男の死の伝聞を分ける。",
+      "review_id": "G04-W04-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:17:45Z"
+    },
+    {
+      "work_id": "G04-W05",
+      "url": "https://fumibako.com/kowai/story/2/1290.html",
+      "status": "full_published_body_reread",
+      "range": "15〜114行",
+      "original_post_identity": "unconfirmed",
+      "note": "本人の記憶と現物、相談の反応を分ける。",
+      "review_id": "G04-W05-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:17:45Z"
+    },
+    {
+      "work_id": "G04-W18",
+      "url": "https://w.atwiki.jp/tasogaredoki/pages/86.html",
+      "status": "full_published_body_reread",
+      "range": "63〜227行、359〜371",
+      "original_post_identity": "unconfirmed",
+      "note": "守りの由来と本人の疑い、材料の人々の問題を分ける。",
+      "review_id": "G04-W18-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W19",
+      "url": "https://nazolog.com/blog-entry-12146.html",
+      "status": "full_published_body_reread",
+      "range": "9〜28行、488〜491",
+      "original_post_identity": "unconfirmed",
+      "note": "興味による前提変更と脅威の受容を分ける。",
+      "review_id": "G04-W19-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W13",
+      "url": "https://chikatomo.doorblog.jp/archives/28256153.html",
+      "status": "full_published_body_reread",
+      "range": "20〜248行、掲載797〜850",
+      "original_post_identity": "unconfirmed",
+      "note": "暴行・本人の怪異観測・別返信の報道主張を分ける。",
+      "review_id": "G04-W13-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W21",
+      "url": "https://horror2ch.livedoor.blog/archives/20329772.html",
+      "status": "full_published_body_reread",
+      "range": "56〜264行、まるはっちんの本編90〜112",
+      "original_post_identity": "unconfirmed",
+      "note": "大学生の後半は出所不明の物語記述であり直接体験としない。",
+      "review_id": "G04-W21-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W24",
+      "url": "https://nazolog.com/blog-entry-12100.html",
+      "status": "full_published_body_reread",
+      "range": "9〜41行、636・680",
+      "original_post_identity": "unconfirmed",
+      "note": "夢内と後の友人の説を分ける。",
+      "review_id": "G04-W24-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W06",
+      "url": "https://xn--f8tx20an6r.com/洒落怖/蟹風呂/",
+      "status": "full_published_body_reread",
+      "range": "24〜369行",
+      "original_post_identity": "unconfirmed",
+      "note": "本人と友人の身体を分ける。",
+      "review_id": "G04-W06-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G04-W10",
+      "url": "https://sanblo.com/ksaisakan/",
+      "status": "full_published_body_reread",
+      "range": "76〜144行、578〜582のみ",
+      "original_post_identity": "unconfirmed",
+      "note": "ミシマ沖は別作品。巨大なものは父の推測。",
+      "review_id": "G04-W10-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:18:19Z"
+    },
+    {
+      "work_id": "G05-W02",
+      "url": "https://nazolog.com/blog-entry-2512.html",
+      "status": "full_published_body_reread",
+      "range": "8〜97行、544〜568",
+      "original_post_identity": "unconfirmed",
+      "note": "霊能者の説明と本人観測・受容を分ける。",
+      "review_id": "G05-W02-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W05",
+      "url": "https://horror2ch.com/archives/post-2226.html",
+      "status": "full_published_body_reread",
+      "range": "6〜33行、356",
+      "original_post_identity": "unconfirmed",
+      "note": "声・損傷・走る人の同一性は不明。",
+      "review_id": "G05-W05-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W07",
+      "url": "https://ocsoku.com/archives/40323511.html",
+      "status": "full_published_body_reread",
+      "range": "27〜135行、765〜770",
+      "original_post_identity": "unconfirmed",
+      "note": "最後の創作訂正で先行説明を限定。",
+      "review_id": "G05-W07-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W08",
+      "url": "https://nazolog.com/blog-entry-5286.html",
+      "status": "full_published_body_reread",
+      "range": "8〜186行",
+      "original_post_identity": "unconfirmed",
+      "note": "祖父の語りと村の別人の伝承を分ける。",
+      "review_id": "G05-W08-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W13",
+      "url": "https://nazolog.com/blog-entry-5899.html",
+      "status": "full_published_body_reread",
+      "range": "8〜85行、468〜486",
+      "original_post_identity": "unconfirmed",
+      "note": "自己の観測と事故後の警察の説明を分ける。",
+      "review_id": "G05-W13-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W12",
+      "url": "https://fumibako.com/kowai/story/1/12.html",
+      "status": "full_published_body_reread",
+      "range": "15〜282行、邪視の全文",
+      "original_post_identity": "unconfirmed",
+      "note": "覚醒・夢・叔父の別経験の層を分ける。",
+      "review_id": "G05-W12-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W19",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=152",
+      "status": "full_published_body_reread",
+      "range": "64〜83行、保育園編だけ",
+      "original_post_identity": "unconfirmed",
+      "note": "全系列と名前の同一性の留保を保持。",
+      "review_id": "G05-W19-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:21:43Z"
+    },
+    {
+      "work_id": "G05-W20",
+      "url": "https://black-one-neck.blog.jp/archives/1083473520.html",
+      "status": "full_published_body_reread",
+      "range": "30〜508行",
+      "original_post_identity": "unconfirmed",
+      "note": "本文末の投稿者の終了まで再読。夢と覚醒を分離。",
+      "review_id": "G05-W20-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W15",
+      "url": "https://the-mystery.org/psychic/tsunbai_san/",
+      "status": "full_published_body_reread",
+      "range": "11〜191行",
+      "original_post_identity": "unconfirmed",
+      "note": "本人の写真観測と級友の追記を分離。",
+      "review_id": "G05-W15-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W22",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21301",
+      "status": "full_published_body_reread",
+      "range": "64〜122行",
+      "original_post_identity": "unconfirmed",
+      "note": "追跡とドア外の圧力の範囲を保持。",
+      "review_id": "G05-W22-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W10",
+      "url": "https://the-mystery.org/dreadful_story/post-2591/",
+      "status": "full_published_body_reread",
+      "range": "11〜360行",
+      "original_post_identity": "unconfirmed",
+      "note": "想像補完の宣言を保持、回収と後の大往生を区別。",
+      "review_id": "G05-W10-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W17",
+      "url": "https://fumibako.com/kowai/story/1/249.html",
+      "status": "full_published_body_reread",
+      "range": "15〜399行、後日談を含む",
+      "original_post_identity": "unconfirmed",
+      "note": "翌日の絵の訂正と本人の侵入時点を分離。",
+      "review_id": "G05-W17-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W06",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=22749",
+      "status": "full_published_body_reread",
+      "range": "64〜635行",
+      "original_post_identity": "unconfirmed",
+      "note": "当夜の規則と一ヶ月後の説明を分けて全掲載本文を再読。",
+      "review_id": "G05-W06-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G05-W16",
+      "url": "https://kowai-hanashi.hatenablog.com/entry/18",
+      "status": "full_published_body_reread",
+      "range": "15〜901行",
+      "original_post_identity": "unconfirmed",
+      "note": "本文末の理由不知まで再読、初めの女の通過と後の追随を区別。",
+      "review_id": "G05-W16-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G04-W22",
+      "url": "https://share-kowa.com/meiwaku-denwa.html",
+      "status": "full_published_body_reread",
+      "range": "25〜53行、投稿38",
+      "original_post_identity": "unconfirmed",
+      "note": "通信と物理領域を区別。",
+      "review_id": "G04-W22-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:30:13Z"
+    },
+    {
+      "work_id": "G04-W23",
+      "url": "https://sanblo.com/yamanoke/",
+      "status": "full_published_body_reread",
+      "range": "80〜142行、167〜169",
+      "original_post_identity": "unconfirmed",
+      "note": "父の現在の救助課題と娘の発話を分離。",
+      "review_id": "G04-W23-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G04-W03",
+      "url": "https://www.boyaki.eternalthirdplace.com/sharerukowa-swirl-doll/",
+      "status": "full_published_body_reread",
+      "range": "20〜366行、183〜296",
+      "original_post_identity": "unconfirmed",
+      "note": "専門家のひょうせ説の訂正を含め末尾まで再読。",
+      "review_id": "G04-W03-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G03-W23",
+      "url": "https://the-mystery.org/strange_experience/yamakerashi_sama/",
+      "status": "full_published_body_reread",
+      "range": "11〜113行",
+      "original_post_identity": "unconfirmed",
+      "note": "救助・感謝と夕暮れ警告を区別。",
+      "review_id": "G03-W23-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G04-W08",
+      "url": "https://kaiki-catharsis.com/girl-in-kimono/",
+      "status": "full_published_body_reread",
+      "range": "19〜164行",
+      "original_post_identity": "unconfirmed",
+      "note": "現在の不気味さの明示否定と過去の別れを分ける。",
+      "review_id": "G04-W08-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G04-W11",
+      "url": "https://sanblo.com/jikuunoossan/",
+      "status": "full_published_body_reread",
+      "range": "78〜133行、投稿228・230のみ",
+      "original_post_identity": "unconfirmed",
+      "note": "236の容姿補足は範囲外として評価に採らない。",
+      "review_id": "G04-W11-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G04-W01",
+      "url": "https://note.com/marumakimochi/n/n2cdbc564702b",
+      "status": "full_published_body_reread",
+      "range": "10〜31行",
+      "original_post_identity": "unconfirmed",
+      "note": "投稿者による3分朗読台本。書籍本文への転用を禁止。",
+      "review_id": "G04-W01-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z"
+    },
+    {
+      "work_id": "G04-W09",
+      "url": "https://paranormal-ch.com/archives/1082245965.html",
+      "status": "full_published_body_reread",
+      "range": "候補A23〜80行、候補B64〜70行",
+      "original_post_identity": "unconfirmed",
+      "note": "二候補を分け末尾まで確認。同定は解消しない。",
+      "review_id": "G04-W09-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z",
+      "additional_urls": [
+        "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=2797"
+      ]
+    },
+    {
+      "work_id": "G05-W23",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=22897",
+      "status": "full_published_body_reread",
+      "range": "候補A64〜143行、候補B64〜90行",
+      "original_post_identity": "unconfirmed",
+      "note": "教師・学校・年代の違う二候補を統合しない。",
+      "review_id": "G05-W23-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:34:29Z",
+      "additional_urls": [
+        "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=375"
+      ]
+    },
+    {
+      "work_id": "G04-W12",
+      "url": "https://kaidanstorys.com/sisyou-series/",
+      "status": "full_published_body_reread",
+      "range": "降霊実験38〜214行、壷217〜317行のみ",
+      "original_post_identity": "unconfirmed",
+      "note": "掲載他篇と全シリーズは範囲外。催眠の訂正と師匠の原罪説を別層に保持。",
+      "review_id": "G04-W12-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:40:21Z"
+    },
+    {
+      "work_id": "G05-W24",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8695",
+      "status": "full_published_body_reread",
+      "range": "64〜741行",
+      "original_post_identity": "unconfirmed",
+      "note": "全掲載の由来話・管理手配・K死亡を確認、祖父の管理とKの帰結は別対象。",
+      "review_id": "G05-W24-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:40:21Z"
+    },
+    {
+      "work_id": "G03-W13",
+      "url": "https://kaidanstorys.com/suku-mono-1/",
+      "status": "full_published_body_reread",
+      "range": "1頁27〜89行、2頁23〜97行、3頁23〜42行",
+      "original_post_identity": "unconfirmed",
+      "note": "第1話のみ全3頁を再読。B・A・語り手の知識を分ける。",
+      "review_id": "G03-W13-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:40:21Z",
+      "additional_urls": [
+        "https://kaidanstorys.com/suku-mono-1/2/",
+        "https://kaidanstorys.com/suku-mono-1/3/"
+      ]
+    },
+    {
+      "work_id": "G05-W11",
+      "url": "https://kaidanstorys.com/jikosekinin-13/",
+      "status": "full_published_body_reread",
+      "range": "27〜160行",
+      "original_post_identity": "unconfirmed",
+      "note": "読者への主張まで確認。現実の被害を認定しない。",
+      "review_id": "G05-W11-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:40:21Z"
+    },
+    {
+      "work_id": "G05-W14",
+      "url": "https://the-mystery.org/scary_story/post-2511/",
+      "status": "full_published_body_reread",
+      "range": "11〜296行",
+      "original_post_identity": "unconfirmed",
+      "note": "地下施設の事件と現在の逃亡を分離。",
+      "review_id": "G05-W14-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:40:21Z"
+    },
+    {
+      "work_id": "G05-W01",
+      "url": "https://nazolog.com/blog-entry-5168.html",
+      "status": "full_published_body_reread",
+      "range": "第1頁8〜137行、第2頁9〜165行",
+      "original_post_identity": "unconfirmed",
+      "note": "連続2頁の結末まで再読。指の効力を検証済みとしない。",
+      "review_id": "G05-W01-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:48:47Z",
+      "additional_urls": [
+        "https://nazolog.com/blog-entry-5169.html"
+      ]
+    },
+    {
+      "work_id": "G05-W03",
+      "url": "https://kaidanstorys.com/umikara-kuru/",
+      "status": "full_published_body_reread",
+      "range": "第1頁27〜55行、第2頁23〜48行、第3頁23〜42行",
+      "original_post_identity": "unconfirmed",
+      "note": "全3頁の掲載話を再読。酔った同僚の話の整理という証拠層を保持。",
+      "review_id": "G05-W03-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:48:47Z",
+      "additional_urls": [
+        "https://kaidanstorys.com/umikara-kuru/2/",
+        "https://kaidanstorys.com/umikara-kuru/3/"
+      ]
+    },
+    {
+      "work_id": "G03-W25",
+      "url": "https://kaidanstorys.com/youkai-hunter-series-15/",
+      "status": "full_published_body_reread",
+      "range": "第1話第1頁36〜127行・第2頁23〜81行、第15話37〜272行",
+      "original_post_identity": "unconfirmed",
+      "note": "台帳が指定する第1話・第15話のみ再読。全シリーズではない。",
+      "review_id": "G03-W25-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:48:47Z",
+      "additional_urls": [
+        "https://kaidanstorys.com/youkai-hunter-series-1/",
+        "https://kaidanstorys.com/youkai-hunter-series-1/2/"
+      ]
+    },
+    {
+      "work_id": "G03-W07",
+      "url": "https://yakou-ressha.com/post-3276/",
+      "status": "full_published_body_reread",
+      "range": "第1頁46〜179行、第2頁45〜233行、第3頁45〜172行",
+      "original_post_identity": "unconfirmed",
+      "note": "全3頁20投稿を再読。初期判断の改訂と治療引受を分離。",
+      "review_id": "G03-W07-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:56:00Z",
+      "additional_urls": [
+        "https://yakou-ressha.com/post-3276/2/",
+        "https://yakou-ressha.com/post-3276/3/"
+      ]
+    },
+    {
+      "work_id": "G04-W25",
+      "url": "https://kaidanstorys.com/real/",
+      "status": "full_published_body_reread",
+      "range": "第1頁29〜94行、第2頁23〜127行、第3頁23〜106行、第4頁23〜175行、第5頁23〜146行、第6頁23〜130行、第7頁23〜138行",
+      "original_post_identity": "unconfirmed",
+      "note": "全7頁と末尾の語り手訂正まで再読。Tの直接経験として投稿者を固定しない。",
+      "review_id": "G04-W25-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:56:00Z",
+      "additional_urls": [
+        "https://kaidanstorys.com/real/2/",
+        "https://kaidanstorys.com/real/3/",
+        "https://kaidanstorys.com/real/4/",
+        "https://kaidanstorys.com/real/5/",
+        "https://kaidanstorys.com/real/6/",
+        "https://kaidanstorys.com/real/7/"
+      ]
+    },
+    {
+      "work_id": "G02-W24",
+      "url": "https://kaidanstorys.com/oniyume/",
+      "status": "full_published_body_reread",
+      "range": "27〜2304行、末尾の方法訂正を含む",
+      "original_post_identity": "unconfirmed",
+      "note": "夢内、覚醒後の照合、由来伝承、最後の方法の虚偽告白を分離。掲載題は夢鬼。",
+      "review_id": "G02-W24-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:56:00Z"
+    },
+    {
+      "work_id": "G04-W07",
+      "url": "https://xn--u9jv84l7ea468b.com/kaidan/25wa.html",
+      "status": "full_published_body_reread",
+      "range": "6〜1554行",
+      "original_post_identity": "unconfirmed",
+      "note": "全掲載話の結末まで再読。犯罪の直接事実、警官の精神状態の説明、呪いの効力の推測を分離。",
+      "review_id": "G04-W07-R2-S1",
+      "observed_after_at_utc": "2026-10-11T09:59:15Z"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 55,
-  "remaining_of_r1_inherited_102": 47
+  "fully_rechecked_of_r1_inherited_102": 102,
+  "remaining_of_r1_inherited_102": 0
 }

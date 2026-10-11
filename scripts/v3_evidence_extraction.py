@@ -133,6 +133,8 @@ def validate(data, reviews, narratives, codebook):
             raise ValueError('Unextracted work cannot be counted as reviewed')
         if works[wid]['status'] == 'pending' and p['condition_extraction_status'] != 'source_hold':
             raise ValueError('Source hold must be kept distinct')
+    if reviews['stage'] == 'selected_scope_review_complete' and completed != {wid for wid, w in works.items() if w['status'] != 'pending'}:
+        raise ValueError('Final selected-scope coverage must include every non-held work')
     return dict(assigned_entries=len(works), fully_rechecked_published_bodies=len(complete_source_works),
                 fully_rechecked_of_r1_inherited_102=len(newly_reread),
                 remaining_of_r1_inherited_102=len(remaining_pool - newly_reread),
@@ -192,6 +194,11 @@ def results(data, reviews, narratives, codebook, correspondence):
             raise ValueError('Comparison must state actor/time/scope correspondence')
         if bool(match['record_ids']) == (match['relation'] == 'not_reviewed_in_r2'):
             raise ValueError('Unreviewed historical scope cannot have a linked judgment')
+    if reviews['stage'] == 'selected_scope_review_complete':
+        expected = {(wid, s['scene_id']) for wid, w in old_works.items()
+                    if by_work.get(wid) for s in w['scenes']}
+        if seen != expected:
+            raise ValueError('Final comparison must map every historical scene of non-held works')
     works = []
     for n in narratives['works']:
         wid = n['work_id']
@@ -204,16 +211,28 @@ def results(data, reviews, narratives, codebook, correspondence):
         comparisons = []
         for scene in old_works[wid]['scenes']:
             match = next((m for m in correspondence['records'] if m['scene_id'] == scene['scene_id']), None)
+            held = n['status'] == 'pending'
+            changes = []
+            if match:
+                for rid in match['record_ids']:
+                    decisions = {t['type_id']: t['decision'] for t in type_records(by_id[rid], codebook)}
+                    old_ids = scene['type_ids']
+                    changes.append(dict(record_id=rid,
+                                        historical_ids_with_v3_required_condition_result={tid: decisions[tid] for tid in old_ids},
+                                        v3_fit_ids_outside_historical_candidates=[tid for tid, state in decisions.items() if state == 'fit' and tid not in old_ids],
+                                        caution='型IDの一致は意味・基準の同一性を示さない。旧場面の型をコピーせずv3必須条件を別判定。重複範囲の差は作品全体の型の削除・追加としない。'))
             comparisons.append(dict(scene_id=scene['scene_id'], historical_type_ids=scene['type_ids'], historical_scene_fit=scene['fit'],
-                                    relation=match['relation'] if match else 'not_mapped_for_comparison',
+                                    relation=match['relation'] if match else 'source_hold' if held else 'not_mapped_for_comparison',
                                     record_ids=match['record_ids'] if match else [],
-                                    reason=match['reason'] if match else '追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。'))
+                                    reason=match['reason'] if match else '本文・作品同定保留のためv3場面を捏造せず、継承した保留理由を保持。' if held else '追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。',
+                                    selected_scope_differences=changes))
         works.append(dict(work_id=wid, title=old_works[wid]['title'], inherited_narrative_status=n['status'],
                           progress=data['work_progress'][wid], inherited_scope=n['scope'], inherited_limitations=n['limitations'],
+                          inherited_reason=n.get('reason'), inherited_reason_codes=n.get('reason_codes', []),
                           r2_source_reviews=[r for r in reviews['reviews'] if r['work_id'] == wid], selected_records=recs,
                           v1_comparisons=comparisons))
     return dict(schema_version='v3-r2-selected-record-results-1', version=data['version'], codebook_id=data['codebook_id'],
-                stage='in_progress', count_unit=data['count_unit'], counts=counts,
+                stage=reviews['stage'], count_unit=data['count_unit'], counts=counts,
                 independent_human_coding_performed=False, independent_test_performed=False, agreement=None,
                 comparison_caution='旧候補は旧場面全体、新しい判定は指定当事者・時点。未抽出・条件保留・明示的不成立を分ける。対応が異なる範囲を含む候補の差を作品全体の削除と扱わない。',
                 works=works)
@@ -221,9 +240,10 @@ def results(data, reviews, narratives, codebook, correspondence):
 
 def report(result):
     c = result['counts']
-    lines = ['# v3追加調査 r2（途中）', '',
+    lines = ['# v3追加調査 r2（全131割当の選定範囲・保留を記録）', '',
              f"掲載本文全体の再読{c['fully_rechecked_published_bodies']}件。選定場面の条件抽出{c['condition_extraction_complete_works']}作品・{c['selected_records']}記録、各78条件・{c['explicitly_inspected_condition_judgments']}判断。",
-             '条件抽出完了は指定した記録の全条件を本文と照合したことを指し、作品の全場面・原投稿一致・シリーズ全体の完了ではない。未処理の作品はunextractedとし、初回のunknown自動補完と分ける。', '',
+             '131割当のうち110作品は選定記録の全条件を本文と照合し、21作品は理由付き本文・同定保留を維持した。未処理作品は0。継承した92指定本文・18限定範囲・21保留を変更しない。確認範囲は指定掲載版で、作品の全場面・原投稿一致・シリーズ全体の完了ではない。', '',
+             f"根拠あり{c['condition_states']['supported']}、明示的不成立{c['condition_states']['explicitly_false']}、点検済み証拠不明{c['condition_states']['unknown']}。型×記録では成立{c['type_record_states']['fit']}、明示的不成立{c['type_record_states']['not_fit']}、保留{c['type_record_states']['pending']}。これらを作品数・独立評価数として数えない。", '',
              '初回の355明示判断へ加算しない。共通条件・対象・記録の数え方が異なり、同じ根拠を再点検している。単一AI・非盲検の開発資料点検で、独立符号化・一致度・効果測定は行っていない。', '',
              '## 選定記録の結果', '',
              '| 作品・当事者 | 条件が揃う型 | 明示的不成立の型 | 保留数 | 選定範囲と限界 |',
@@ -239,8 +259,15 @@ def report(result):
                                                     ' / '.join(negatives) or 'なし（陰性の意味ではない）', pending,
                                                     r['time_scope'] + ' ' + r['limitation']])) + ' |')
     lines += ['', '主型・副型とも必須条件を緩和せず、中心性の順位は未固定。部分適合は用いない。型が揃わない記録を全般的な陰性へ置換しない。', '',
-              '## 場面対応と根拠', '',
+              '## 本文・同定保留21作品', '',
+              '| 作品 | 継承した具体的な保留理由 |',
+              '| --- | --- |']
+    for w in result['works']:
+        if w['inherited_narrative_status'] == 'pending':
+            lines.append('| ' + cell(w['title']) + ' | ' + cell(w['inherited_reason']) + ' ' + cell(' / '.join(w['inherited_limitations'])) + ' |')
+    lines += ['', '## 場面対応と根拠', '',
               '[条件別の著者入力](condition-extractions.json)、[場面対応の著者入力](scene-correspondences.json)、[全131割当の進捗・結果](selected-record-results.json)に記録する。',
+              '本文確認110作品の旧237場面すべてについて、同一当事者・時点の対応、範囲の重なり、未抽出の区分を記入した。対応する記録には旧候補IDごとのv3条件結果と旧候補外の成立IDを保存する。本文保留21作品の旧場面はsource_holdで、型別の不成立には置換しない。',
               '八尺様の夜と搬送は別の当事者×時点記録。十年後の地蔵の管理は本文を再読したが、別記録の全条件抽出は未完了。ナール・ナーシュの相談時に後のYの死亡を予期したとは扱わない。',
               'E1・E5・Fの論点は [boundary-questions.md](boundary-questions.md)。基準変更を採用せず、Fの局所的な旧前提・新証拠・受容と、一般化の不足を実記入する。', '',
               '## 保存と確認', '',

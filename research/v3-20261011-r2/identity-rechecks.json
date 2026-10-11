@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-identity-rechecks-1",
-  "stage": "in_progress",
+  "stage": "selected_scope_review_complete_identity_unresolved",
   "inherited_pending_entries": 21,
   "inherited_scoped_entries": 18,
-  "scope_note": "保留21件と限定範囲18件の同定再点検。保留21件の検索メタデータを点検し、既存出典等7 URLを再取得したが失敗。限定掲載本文再読6、限定範囲未点検12。解消0件。",
+  "scope_note": "保留21件の探索メタデータを点検。限定範囲18件のうち掲載本文再読18、未再読0。同定解消0件。",
   "search_batches": [
     {
       "batch_id": "R2-IDENTITY-SEARCH-01",
@@ -730,9 +730,13 @@
         "台帳の後続3ページは403で未取得。別掲載ではバイク報告の投稿者識別情報が省かれており、初回投稿者との一致は未確認。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G02-W01-R2-S1"
+      ],
+      "note": "台帳の二つの掲載先で初回目撃と別投稿の指定範囲を再読。原系列の後続・画像・原投稿一致は未確認で、限定状態を保持。"
     },
     {
       "work_id": "G02-W03",
@@ -958,9 +962,13 @@
         "由来談は祖母からの伝聞で、投稿者自身も幽霊の話ではないと断っている。赤い女の正体だという結論は出さない。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W01-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G03-W03",
@@ -1133,9 +1141,13 @@
         "Bの幼少時の一人こっくりさんとの関係、眠らされた理由、将来の破裂は語り手やAの推測。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W13-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G03-W14",
@@ -1324,9 +1336,13 @@
         "白いワゴンRの購入や故障、女性の下半身は別投稿者の話。この作品の時系列へ含めない。ギュウギュウ詰めの軽自動車とも別の投稿。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W22-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G03-W24",
@@ -1388,9 +1404,13 @@
         "妖怪の性質や儀式の効果は語り手・先生の説明。第2〜14話、16話以降を通読した結末ではない。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W25-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G04-W01",
@@ -1403,9 +1423,13 @@
         "出版社ページは目次のみで、書籍本文を取得できません。台本版の結末を書籍版へ流用しません。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W01-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G04-W02",
@@ -1498,9 +1522,13 @@
         "候補AとBは別の出来事。互いの結末や恐怖を流用しない。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W09-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G04-W11",
@@ -1513,9 +1541,13 @@
         "同名で集められた他の話・シリーズ全体は未確認。投稿236など後続の容姿補足を本要約の範囲に加えない。",
         "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W11-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G04-W12",
@@ -1528,9 +1560,13 @@
         "師匠の人類起源の説明は作中の解釈で、歴史・考古学の事実として採らない。残る掲載篇とシリーズ全話は未確認。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W12-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G04-W20",
@@ -1626,9 +1662,13 @@
         "全体が伝聞。シリーズ内の他話と同じ存在・因果だとは確定しない。過去の絵と転居の詳細は未確認。",
         "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G05-W19-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G05-W21",
@@ -1669,9 +1709,13 @@
         "二候補の教師・学校・年代は別。呼び名の一致だけで同一人物や続編へ統合しない。",
         "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
       ],
-      "r2_identity_review_status": "not_rechecked",
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
       "resolution": "unchanged",
-      "r2_investigation": []
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G05-W23-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
     },
     {
       "work_id": "G05-W26",

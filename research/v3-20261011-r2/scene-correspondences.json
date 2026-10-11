@@ -2,97 +2,29 @@
   "schema_version": "v3-r2-authored-scene-correspondences-1",
   "records": [
     {
-      "work_id": "G01-W07",
-      "scene_id": "G01-W07-SC01",
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC01",
       "record_ids": [
-        "G01-W07-V3-R2-R01"
+        "G01-W01-V3-R2-R01"
       ],
-      "relation": "same_actor_time_scope",
-      "reason": "寮の語り手が同僚と知識を照合して検索する範囲。v1の具体的損失がないという解釈も、新しい各条件とは別に保持する。"
+      "relation": "overlapping_scope",
+      "reason": "現代の青年の追跡開始以後を抽出。テント内で気配を確かめる前半は未抽出。"
     },
     {
-      "work_id": "G01-W07",
-      "scene_id": "G01-W07-SC02",
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC02",
+      "record_ids": [
+        "G01-W01-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "犬への加害は青年の観測、身代わりの必要性は後の老婆の説明。青年が犬を犠牲として選んだとはしない。"
+    },
+    {
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC03",
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
-      "reason": "伝承内の不特定の追跡対象。現代の寮の語り手と同一主体・時点ではなく、この内側の問題状態の抽出は未完了。"
-    },
-    {
-      "work_id": "G03-W17",
-      "scene_id": "G03-W17-SC01",
-      "record_ids": [
-        "G03-W17-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "石を疑う前提は共有するが、v1は子の行為と身体被害も束ねる。r2は傷の後の本人の相談・引渡しを対象とし、子の制御問題の判定を引き継がない。"
-    },
-    {
-      "work_id": "G03-W17",
-      "scene_id": "G03-W17-SC02",
-      "record_ids": [
-        "G03-W17-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "引渡しは重なるが、v1は後の友人死亡と後悔を含む。r2の相談時には知らない将来の事故を当時の予期損失に移さない。"
-    },
-    {
-      "work_id": "G05-W09",
-      "scene_id": "G05-W09-S01",
-      "record_ids": [
-        "G05-W09-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "先行被害を参照するが、v1は細木の警告・初回逃走・死亡を束ねる。r2はその後の語り手の対処選択で、当事者と時点が一致する部分に限る。"
-    },
-    {
-      "work_id": "G05-W09",
-      "scene_id": "G05-W09-S02",
-      "record_ids": [
-        "G05-W09-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "再儀式の選択が重なる。v1のC2は元凶への集団の殺害計画で、r2の当事者である語り手自身への敵対計画とは別。"
-    },
-    {
-      "work_id": "G05-W09",
-      "scene_id": "G05-W09-S03",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "投稿の真偽と読者への主張の記録。訂正を出典限定に使用するが、語り手の儀式時の問題状態へ読者の危険を混ぜない。"
-    },
-    {
-      "work_id": "G05-W18",
-      "scene_id": "G05-W18-S01",
-      "record_ids": [
-        "G05-W18-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "同じ少年の夜の防護室。後日の本人照合を当時の違和感と分けて記録する。"
-    },
-    {
-      "work_id": "G05-W18",
-      "scene_id": "G05-W18-S02",
-      "record_ids": [
-        "G05-W18-V3-R2-R02"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "同じ少年の翌朝の村外搬送。父と祖父の身代わりの覚悟は後の伝聞で、少年が当時知る予期としては未確認。"
-    },
-    {
-      "work_id": "G05-W18",
-      "scene_id": "G05-W18-S03",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "村の地蔵の管理と十年後の再発予期。本文は再読したが、この別の管理単位・時点の全78条件抽出は未完了。"
-    },
-    {
-      "work_id": "G01-W17",
-      "scene_id": "G01-W17-SC01",
-      "record_ids": [
-        "G01-W17-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "v1は自他の変質を一行に含む。r2は目撃後に食品を避ける語り手を当事者とし、食べた女性の実際の変身や彼女自身の認識を補わない。"
+      "reason": "年代不明の子供の映像と村の口封じの解釈は本文再読のみ。現代の青年の追跡の78条件へ同一主体として混ぜない。"
     },
     {
       "work_id": "G01-W02",
@@ -120,93 +52,59 @@
       "reason": "旧行は患者と叔母の危険、読者の符号解釈を束ねる。追加記録は緋那の病室での安全期待から自身の救助要請まで。姪の事故と電子音の主観は別。"
     },
     {
-      "work_id": "G01-W22",
-      "scene_id": "G01-W22-SC01",
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC01",
       "record_ids": [
-        "G01-W22-V3-R2-R01"
+        "G01-W04-V3-R2-R01"
       ],
       "relation": "same_actor_time_scope",
-      "reason": "旧行と同じ幼少期の子ども・鍵穴の瞬間的危険と離脱を対象とする。A2の移動追跡の不足と、母に訴えていない事実を条件ごとに記録する。"
+      "reason": "学校での反復暴力と教師との面談。不受容と敵対意図はそれぞれの必要条件を点検する。"
     },
     {
-      "work_id": "G01-W25",
-      "scene_id": "G01-W25-SC01",
-      "record_ids": [
-        "G01-W25-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "旧行は祖父と孫の追跡・射撃・救助を束ねる。追加記録は抱えられる子どもの時点と認識。祖父の救助選択や子どもから見た救助不能は別に点検する。"
-    },
-    {
-      "work_id": "G01-W25",
-      "scene_id": "G01-W25-SC02",
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC02",
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
-      "reason": "祖父の死後の身代わり説明は全篇で再読したが、この後の本人の時点や祖父の選択の78条件記録は未抽出。追跡時の子どもの選択に移さない。"
+      "reason": "後の祓いとAの手紙は本文再読済み、条件未抽出。学校の記録に流用しない。"
     },
     {
-      "work_id": "G01-W19",
-      "scene_id": "G01-W19-SC01",
-      "record_ids": [
-        "G01-W19-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "旧行は音の探索から少女の加害、校門の施錠と脱出までを束ねる。追加記録は危険認識後の夢内の逃走と校門の時点。先の覗く行為の意図・制御の条件は別。"
-    },
-    {
-      "work_id": "G01-W19",
-      "scene_id": "G01-W19-SC02",
+      "work_id": "G01-W04",
+      "scene_id": "G01-W04-SC03",
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
-      "reason": "覚醒後のノートと次の夢への不安は本文を再読したが、この覚醒後の78条件記録は未抽出。夢内の型判定をそのまま移さない。"
+      "reason": "後のBの発話の変化は別当事者・時点。本文再読と条件抽出を分ける。"
     },
     {
-      "work_id": "G04-W26",
-      "scene_id": "G04-W26-S01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "幼少期の語り手の部屋の場面。本文再読済みだが現在の四男の条件抽出とは別。"
-    },
-    {
-      "work_id": "G04-W26",
-      "scene_id": "G04-W26-S02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "大学期の語り手の襲撃と救済。四男本人の現在の課題へ移さない。"
-    },
-    {
-      "work_id": "G04-W26",
-      "scene_id": "G04-W26-S03",
+      "work_id": "G01-W07",
+      "scene_id": "G01-W07-SC01",
       "record_ids": [
-        "G04-W26-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "旧場面は一族の過去の部屋管理と現在の四男の連絡制限を束ねる。新記録は後者のみで、過去の管理者・当事者とは対応しない。"
-    },
-    {
-      "work_id": "G04-W26",
-      "scene_id": "G04-W26-S04",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "後の語り手の形・指の発見は未抽出。四男の現在の条件と混ぜない。"
-    },
-    {
-      "work_id": "G01-W18",
-      "scene_id": "G01-W18-SC01",
-      "record_ids": [
-        "G01-W18-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "旧場面の発見前・発見後を束ねない。新記録は発見後の追跡のみ。発見前のA1は未抽出。"
-    },
-    {
-      "work_id": "G01-W18",
-      "scene_id": "G01-W18-SC02",
-      "record_ids": [
-        "G01-W18-V3-R2-R02"
+        "G01-W07-V3-R2-R01"
       ],
       "relation": "same_actor_time_scope",
-      "reason": "初回引用の後日の家の境界維持。未確認の専用スレッド・結末は含めない。"
+      "reason": "寮の語り手が同僚と知識を照合して検索する範囲。v1の具体的損失がないという解釈も、新しい各条件とは別に保持する。"
+    },
+    {
+      "work_id": "G01-W07",
+      "scene_id": "G01-W07-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "伝承内の不特定の追跡対象。現代の寮の語り手と同一主体・時点ではなく、この内側の問題状態の抽出は未完了。"
+    },
+    {
+      "work_id": "G01-W08",
+      "scene_id": "G01-W08-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "Kの来店・肩の症状と同僚の前史は未抽出。翌日の語り手の訪問に借りない。"
+    },
+    {
+      "work_id": "G01-W08",
+      "scene_id": "G01-W08-SC02",
+      "record_ids": [
+        "G01-W08-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "翌日の本人の人形目撃だけ抽出。Kの窓外目撃・除霊は別当事者で未抽出。"
     },
     {
       "work_id": "G01-W09",
@@ -232,27 +130,68 @@
       "reason": "他話・ネットロア全体の範囲は今回の第2・第3話と別。"
     },
     {
-      "work_id": "G01-W04",
-      "scene_id": "G01-W04-SC01",
+      "work_id": "G01-W09",
+      "scene_id": "G01-W09-SC04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "第4話と模倣のオマケは本文再読範囲に含むが、選定した別篇の記録へ対応させない。各篇の条件抽出は未実施。"
+    },
+    {
+      "work_id": "G01-W10",
+      "scene_id": "G01-W10-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "村人・守り手の過去は再読したが本人たちの78条件は未抽出。現代の聞き手の認識へ危険を移さない。"
+    },
+    {
+      "work_id": "G01-W10",
+      "scene_id": "G01-W10-SC02",
       "record_ids": [
-        "G01-W04-V3-R2-R01"
+        "G01-W10-V3-R2-R01"
       ],
       "relation": "same_actor_time_scope",
-      "reason": "学校での反復暴力と教師との面談。不受容と敵対意図はそれぞれの必要条件を点検する。"
+      "reason": "現代の語り手が話を尋ねて知る範囲。理解と本人の具体的予期損失を分ける。"
     },
     {
-      "work_id": "G01-W04",
-      "scene_id": "G01-W04-SC02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "後の祓いとAの手紙は本文再読済み、条件未抽出。学校の記録に流用しない。"
+      "work_id": "G01-W11",
+      "scene_id": "G01-W11-SC01",
+      "record_ids": [
+        "G01-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "指定掲載の一遭遇。女の未観測の移動と具体的損失の不足を、見た追跡や家への侵入へ補わない。"
     },
     {
-      "work_id": "G01-W04",
-      "scene_id": "G01-W04-SC03",
+      "work_id": "G01-W12",
+      "scene_id": "G01-W12-SC01",
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
-      "reason": "後のBの発話の変化は別当事者・時点。本文再読と条件抽出を分ける。"
+      "reason": "安川本人の排泄・羞恥の78条件は未抽出。新記録は隣席の語り手である。"
+    },
+    {
+      "work_id": "G01-W12",
+      "scene_id": "G01-W12-SC02",
+      "record_ids": [
+        "G01-W12-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "語り手の連鎖嘔吐への予期と車内の連鎖。各児童の身体状態は本人の身体条件にしない。"
+    },
+    {
+      "work_id": "G01-W14",
+      "scene_id": "G01-W14-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "演者本人の身体・強制の問題は再読のみ。観客の記録から転用しない。"
+    },
+    {
+      "work_id": "G01-W14",
+      "scene_id": "G01-W14-SC02",
+      "record_ids": [
+        "G01-W14-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "観客の語り手の枠。実演者の痛みと観客の予期損失を分ける。"
     },
     {
       "work_id": "G01-W15",
@@ -301,22 +240,237 @@
       "reason": "家への投げ込み・スクーター追跡・最後の犬連れは本文再読のみ。検証日と別。"
     },
     {
-      "work_id": "G01-W11",
-      "scene_id": "G01-W11-SC01",
+      "work_id": "G01-W17",
+      "scene_id": "G01-W17-SC01",
       "record_ids": [
-        "G01-W11-V3-R2-R01"
+        "G01-W17-V3-R2-R01"
       ],
-      "relation": "same_actor_time_scope",
-      "reason": "指定掲載の一遭遇。女の未観測の移動と具体的損失の不足を、見た追跡や家への侵入へ補わない。"
+      "relation": "overlapping_scope",
+      "reason": "v1は自他の変質を一行に含む。r2は目撃後に食品を避ける語り手を当事者とし、食べた女性の実際の変身や彼女自身の認識を補わない。"
     },
     {
-      "work_id": "G02-W14",
-      "scene_id": "G02-W14-S01",
+      "work_id": "G01-W18",
+      "scene_id": "G01-W18-SC01",
       "record_ids": [
-        "G02-W14-V3-R2-R01"
+        "G01-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面の発見前・発見後を束ねない。新記録は発見後の追跡のみ。発見前のA1は未抽出。"
+    },
+    {
+      "work_id": "G01-W18",
+      "scene_id": "G01-W18-SC02",
+      "record_ids": [
+        "G01-W18-V3-R2-R02"
       ],
       "relation": "same_actor_time_scope",
-      "reason": "飛行物体の目撃・正体の質問。旧の場面全体不適合と新しい78条件の証拠不明を別に残す。"
+      "reason": "初回引用の後日の家の境界維持。未確認の専用スレッド・結末は含めない。"
+    },
+    {
+      "work_id": "G01-W19",
+      "scene_id": "G01-W19-SC01",
+      "record_ids": [
+        "G01-W19-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は音の探索から少女の加害、校門の施錠と脱出までを束ねる。追加記録は危険認識後の夢内の逃走と校門の時点。先の覗く行為の意図・制御の条件は別。"
+    },
+    {
+      "work_id": "G01-W19",
+      "scene_id": "G01-W19-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "覚醒後のノートと次の夢への不安は本文を再読したが、この覚醒後の78条件記録は未抽出。夢内の型判定をそのまま移さない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "2008年の妹の目への加害は再読のみ。2011年の動作制御と混ぜない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC02",
+      "record_ids": [
+        "G01-W21-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "2011年の妹の動作制御。蛇の顔の説明は妹本人についてで家族の顔ではない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖父の管理と2015年の再封印は再読のみ。妹本人の管理責任にしない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "2015年の兄の救助と妹の自発的な摂取は再読のみ。意図に反する2011年の動作に遡及しない。"
+    },
+    {
+      "work_id": "G01-W22",
+      "scene_id": "G01-W22-SC01",
+      "record_ids": [
+        "G01-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "旧行と同じ幼少期の子ども・鍵穴の瞬間的危険と離脱を対象とする。A2の移動追跡の不足と、母に訴えていない事実を条件ごとに記録する。"
+    },
+    {
+      "work_id": "G01-W23",
+      "scene_id": "G01-W23-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "霊感者の初期警告と本人の不信は再読のみ。選定は仕事の休職勧告以後。"
+    },
+    {
+      "work_id": "G01-W23",
+      "scene_id": "G01-W23-SC02",
+      "record_ids": [
+        "G01-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の体質への相談と休職勧告。本文は休む必要はないと反発するので、旧行の休職実施という解釈を継承しない。"
+    },
+    {
+      "work_id": "G01-W24",
+      "scene_id": "G01-W24-SC01",
+      "record_ids": [
+        "G01-W24-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "宿の会で声を聞く語り手だけを抽出。Uの発話・記憶や昔のゆきの死を同じ当事者にしない。"
+    },
+    {
+      "work_id": "G01-W24",
+      "scene_id": "G01-W24-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後年の帰郷・通夜の解釈は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G01-W25",
+      "scene_id": "G01-W25-SC01",
+      "record_ids": [
+        "G01-W25-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は祖父と孫の追跡・射撃・救助を束ねる。追加記録は抱えられる子どもの時点と認識。祖父の救助選択や子どもから見た救助不能は別に点検する。"
+    },
+    {
+      "work_id": "G01-W25",
+      "scene_id": "G01-W25-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖父の死後の身代わり説明は全篇で再読したが、この後の本人の時点や祖父の選択の78条件記録は未抽出。追跡時の子どもの選択に移さない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC01",
+      "record_ids": [
+        "G01-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の寿命への不安を抽出。他作業員の身体・死亡を本人へ移さない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "僧の保管と移管は別当事者で未抽出。作業員のE5へ借りない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "制作史の閉じ込められた人々・殺害者は伝聞で未抽出。作業員の身体問題にしない。"
+    },
+    {
+      "work_id": "G02-W01",
+      "scene_id": "G02-W01-S01",
+      "record_ids": [
+        "G02-W01-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "塀越しの観察とバイクの陰への退避のみ。相手による本人への捜索は不明。"
+    },
+    {
+      "work_id": "G02-W01",
+      "scene_id": "G02-W01-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "別投稿者の自宅と後のバイク事故は別当事者・時点で、選定記録では未抽出。"
+    },
+    {
+      "work_id": "G02-W02",
+      "scene_id": "G02-W02-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "叔父の話の祖先・船の人々は再読したが本人たちの78条件は未抽出。新記録は現代の聞き手である。"
+    },
+    {
+      "work_id": "G02-W04",
+      "scene_id": "G02-W04-S01",
+      "record_ids": [
+        "G02-W04-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は手順中の匿名参加者。新記録は未体験の解説者の帰還不能予期。仮想手順を本人の実際の移動にしない。"
+    },
+    {
+      "work_id": "G02-W05",
+      "scene_id": "G02-W05-S01",
+      "record_ids": [
+        "G02-W05-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "初夜の店員本人の映像と客への応対。店長への電話・後の事故を本人の事前の知識にしない。"
+    },
+    {
+      "work_id": "G02-W05",
+      "scene_id": "G02-W05-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の電話・事故・帰店は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G02-W06",
+      "scene_id": "G02-W06-S01",
+      "record_ids": [
+        "G02-W06-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "子供の夜の約束を抽出。成年後の説明と子供時点の知識・実害を分ける。"
+    },
+    {
+      "work_id": "G02-W06",
+      "scene_id": "G02-W06-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "成年後の子供への注意・流産は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G02-W07",
+      "scene_id": "G02-W07-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼少時の姉と女の体験は再読のみ。成長後の声の疑いを幼少の知識にしない。"
+    },
+    {
+      "work_id": "G02-W07",
+      "scene_id": "G02-W07-S02",
+      "record_ids": [
+        "G02-W07-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "成長後の記憶・母妹の応答、家族の安否確認と母の声への疑い。"
     },
     {
       "work_id": "G02-W08",
@@ -324,6 +478,22 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "旧行は本文不足で当事者・時点が指定されない。別題「軽自動車」の駐車場の新記録を旧行と同一の場面・原作品だと同定しない。"
+    },
+    {
+      "work_id": "G02-W09",
+      "scene_id": "G02-W09-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "前夜の本人への死の要求は再読のみ。翌朝の家族救助の記録に父母本人の敵対利害を確定しない。"
+    },
+    {
+      "work_id": "G02-W09",
+      "scene_id": "G02-W09-S02",
+      "record_ids": [
+        "G02-W09-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "翌朝の語り手の家族救助。家族自身の動作制御・後の御守りの管理は未抽出で、同じ当事者の問題にしない。"
     },
     {
       "work_id": "G02-W10",
@@ -344,6 +514,154 @@
       "reason": "本人の家の反射・接近を点検するが、物理的侵入と必要援助の不受容による不成立は未確認で、旧A3・C3候補をコピーしない。"
     },
     {
+      "work_id": "G02-W11",
+      "scene_id": "G02-W11-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "最初の夢は前史の照合。四年後の予期・声を初回の知識へ遡及しない。"
+    },
+    {
+      "work_id": "G02-W11",
+      "scene_id": "G02-W11-S02",
+      "record_ids": [
+        "G02-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "四年後の夢からの離脱困難と本人が覚醒後と断言する声、現在の次回の恐れ。異本・コメントの別人を混ぜない。"
+    },
+    {
+      "work_id": "G02-W14",
+      "scene_id": "G02-W14-S01",
+      "record_ids": [
+        "G02-W14-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "飛行物体の目撃・正体の質問。旧の場面全体不適合と新しい78条件の証拠不明を別に残す。"
+    },
+    {
+      "work_id": "G02-W15",
+      "scene_id": "G02-W15-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祭祀後の友人の症状は後年の語り手の現在の問題とは別。条件未抽出。"
+    },
+    {
+      "work_id": "G02-W15",
+      "scene_id": "G02-W15-S02",
+      "record_ids": [
+        "G02-W15-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "東京で暮らす語り手が七年後の手紙に対応する現在を選定。過去の器の説明を現在の本人の症状へ移さない。"
+    },
+    {
+      "work_id": "G02-W17",
+      "scene_id": "G02-W17-S01",
+      "record_ids": [
+        "G02-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "祖父の死の恐れと未実行の愛車提供案を含む。後に実行する菓子の対処までで必要性を別点検する。"
+    },
+    {
+      "work_id": "G02-W17",
+      "scene_id": "G02-W17-S02",
+      "record_ids": [
+        "G02-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "菓子で去り愛車が残る対処を含む。祖父と孫の伝聞・曾々祖父の後の解釈を区別。"
+    },
+    {
+      "work_id": "G02-W18",
+      "scene_id": "G02-W18-S01",
+      "record_ids": [
+        "G02-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "探索から帰還まで含むが、痕跡から本人の具体的な被害予期は未確認。建物の用途を補作しない。"
+    },
+    {
+      "work_id": "G02-W18",
+      "scene_id": "G02-W18-S02",
+      "record_ids": [
+        "G02-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "三人の照合と帰還。異常な空を一般的世界規則の反証にしない。"
+    },
+    {
+      "work_id": "G02-W19",
+      "scene_id": "G02-W19-S01",
+      "record_ids": [
+        "G02-W19-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "友人を廃屋から連れ出し大人に助けを求める子どもの救助課題。友人の奇行を子ども自身のD型にしない。"
+    },
+    {
+      "work_id": "G02-W19",
+      "scene_id": "G02-W19-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後続の家系儀式・町の管理は子どもの現場救助とは別の当事者と時点。未抽出。"
+    },
+    {
+      "work_id": "G02-W20",
+      "scene_id": "G02-W20-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "降車拒否と森林迷いは選定したトイレ裏の潜伏より前。条件未抽出。"
+    },
+    {
+      "work_id": "G02-W20",
+      "scene_id": "G02-W20-S02",
+      "record_ids": [
+        "G02-W20-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "二人がトイレの裏に隠れ、捜索者に見つからずやり過ごす時間。"
+    },
+    {
+      "work_id": "G02-W20",
+      "scene_id": "G02-W20-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "店長の説明と帰宅は潜伏後。別時点の証言差は未抽出。"
+    },
+    {
+      "work_id": "G02-W21",
+      "scene_id": "G02-W21-S01",
+      "record_ids": [
+        "G02-W21-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "訪問者が長居の危険を予期し帰宅する範囲。人形の正体や具体的加害は未確認。"
+    },
+    {
+      "work_id": "G02-W21",
+      "scene_id": "G02-W21-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "別訪問者の証言と後の交友判断は別時点。記録の条件未抽出。"
+    },
+    {
+      "work_id": "G02-W22",
+      "scene_id": "G02-W22-S01",
+      "record_ids": [
+        "G02-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "内側の人物が死か他者加害を比較し進む。選択時には寝袋の相手を家族と知らない。"
+    },
+    {
+      "work_id": "G02-W22",
+      "scene_id": "G02-W22-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "家族の遺影と枠への戻りは再読済みだが、その時点の本人の全条件は未抽出。先の選択へ家族の同定を遡及しない。"
+    },
+    {
       "work_id": "G02-W23",
       "scene_id": "G02-W23-S01",
       "record_ids": [
@@ -360,6 +678,38 @@
       ],
       "relation": "overlapping_scope",
       "reason": "再訪・女店員の条件は案内人の伝聞。具体的な害は知らされず、部分適合を新設しない。"
+    },
+    {
+      "work_id": "G02-W24",
+      "scene_id": "G02-W24-S01",
+      "record_ids": [
+        "G02-W24-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "夢の校舎に閉じ込められ、鬼から未発見のまま隠れる範囲。後の追走全体は束ねない。"
+    },
+    {
+      "work_id": "G02-W24",
+      "scene_id": "G02-W24-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "覚醒後の六人の目撃照合は再読したが、この時点の全条件は別記録として未抽出。"
+    },
+    {
+      "work_id": "G02-W24",
+      "scene_id": "G02-W24-S03",
+      "record_ids": [
+        "G02-W24-V3-R2-R02"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "寺でEを救いたい本人が再参加できないと説明される時点をR02へ対応。由来・後のHや母の結果を現在の知識にしない。"
+    },
+    {
+      "work_id": "G02-W24",
+      "scene_id": "G02-W24-S04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "母の誘導とEの後の死は寺で再参加を相談する本人の当時の知識と別。条件未抽出。末尾の手順訂正は出典の留保に記録。"
     },
     {
       "work_id": "G02-W25",
@@ -396,326 +746,20 @@
       "reason": "身体回復後の録音・紙面の照合と電話の継続。通信を物理侵入にしない。"
     },
     {
-      "work_id": "G02-W04",
-      "scene_id": "G02-W04-S01",
+      "work_id": "G03-W01",
+      "scene_id": "G03-W01-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "投稿29の逃走者と、選定した投稿926の由来中の青年は別当事者。未抽出。"
+    },
+    {
+      "work_id": "G03-W01",
+      "scene_id": "G03-W01-SC02",
       "record_ids": [
-        "G02-W04-V3-R2-R01"
+        "G03-W01-V3-R2-R01"
       ],
       "relation": "overlapping_scope",
-      "reason": "旧行は手順中の匿名参加者。新記録は未体験の解説者の帰還不能予期。仮想手順を本人の実際の移動にしない。"
-    },
-    {
-      "work_id": "G02-W17",
-      "scene_id": "G02-W17-S01",
-      "record_ids": [
-        "G02-W17-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "祖父の死の恐れと未実行の愛車提供案を含む。後に実行する菓子の対処までで必要性を別点検する。"
-    },
-    {
-      "work_id": "G02-W17",
-      "scene_id": "G02-W17-S02",
-      "record_ids": [
-        "G02-W17-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "菓子で去り愛車が残る対処を含む。祖父と孫の伝聞・曾々祖父の後の解釈を区別。"
-    },
-    {
-      "work_id": "G02-W22",
-      "scene_id": "G02-W22-S01",
-      "record_ids": [
-        "G02-W22-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "内側の人物が死か他者加害を比較し進む。選択時には寝袋の相手を家族と知らない。"
-    },
-    {
-      "work_id": "G02-W22",
-      "scene_id": "G02-W22-S02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "家族の遺影と枠への戻りは再読済みだが、その時点の本人の全条件は未抽出。先の選択へ家族の同定を遡及しない。"
-    },
-    {
-      "work_id": "G02-W18",
-      "scene_id": "G02-W18-S01",
-      "record_ids": [
-        "G02-W18-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "探索から帰還まで含むが、痕跡から本人の具体的な被害予期は未確認。建物の用途を補作しない。"
-    },
-    {
-      "work_id": "G02-W18",
-      "scene_id": "G02-W18-S02",
-      "record_ids": [
-        "G02-W18-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "三人の照合と帰還。異常な空を一般的世界規則の反証にしない。"
-    },
-    {
-      "work_id": "G02-W09",
-      "scene_id": "G02-W09-S01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "前夜の本人への死の要求は再読のみ。翌朝の家族救助の記録に父母本人の敵対利害を確定しない。"
-    },
-    {
-      "work_id": "G02-W09",
-      "scene_id": "G02-W09-S02",
-      "record_ids": [
-        "G02-W09-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "翌朝の語り手の家族救助。家族自身の動作制御・後の御守りの管理は未抽出で、同じ当事者の問題にしない。"
-    },
-    {
-      "work_id": "G02-W11",
-      "scene_id": "G02-W11-S01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "最初の夢は前史の照合。四年後の予期・声を初回の知識へ遡及しない。"
-    },
-    {
-      "work_id": "G02-W11",
-      "scene_id": "G02-W11-S02",
-      "record_ids": [
-        "G02-W11-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "四年後の夢からの離脱困難と本人が覚醒後と断言する声、現在の次回の恐れ。異本・コメントの別人を混ぜない。"
-    },
-    {
-      "work_id": "G01-W10",
-      "scene_id": "G01-W10-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "村人・守り手の過去は再読したが本人たちの78条件は未抽出。現代の聞き手の認識へ危険を移さない。"
-    },
-    {
-      "work_id": "G01-W10",
-      "scene_id": "G01-W10-SC02",
-      "record_ids": [
-        "G01-W10-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "現代の語り手が話を尋ねて知る範囲。理解と本人の具体的予期損失を分ける。"
-    },
-    {
-      "work_id": "G01-W24",
-      "scene_id": "G01-W24-SC01",
-      "record_ids": [
-        "G01-W24-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "宿の会で声を聞く語り手だけを抽出。Uの発話・記憶や昔のゆきの死を同じ当事者にしない。"
-    },
-    {
-      "work_id": "G01-W24",
-      "scene_id": "G01-W24-SC02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "後年の帰郷・通夜の解釈は再読したが、その時点の本人の78条件は未抽出。"
-    },
-    {
-      "work_id": "G02-W02",
-      "scene_id": "G02-W02-S01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "叔父の話の祖先・船の人々は再読したが本人たちの78条件は未抽出。新記録は現代の聞き手である。"
-    },
-    {
-      "work_id": "G02-W05",
-      "scene_id": "G02-W05-S01",
-      "record_ids": [
-        "G02-W05-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "初夜の店員本人の映像と客への応対。店長への電話・後の事故を本人の事前の知識にしない。"
-    },
-    {
-      "work_id": "G02-W05",
-      "scene_id": "G02-W05-S02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "後の電話・事故・帰店は再読したが、その時点の本人の78条件は未抽出。"
-    },
-    {
-      "work_id": "G02-W06",
-      "scene_id": "G02-W06-S01",
-      "record_ids": [
-        "G02-W06-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "子供の夜の約束を抽出。成年後の説明と子供時点の知識・実害を分ける。"
-    },
-    {
-      "work_id": "G02-W06",
-      "scene_id": "G02-W06-S02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "成年後の子供への注意・流産は再読したが、その時点の本人の78条件は未抽出。"
-    },
-    {
-      "work_id": "G01-W01",
-      "scene_id": "G01-W01-SC01",
-      "record_ids": [
-        "G01-W01-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "現代の青年の追跡開始以後を抽出。テント内で気配を確かめる前半は未抽出。"
-    },
-    {
-      "work_id": "G01-W01",
-      "scene_id": "G01-W01-SC02",
-      "record_ids": [
-        "G01-W01-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "犬への加害は青年の観測、身代わりの必要性は後の老婆の説明。青年が犬を犠牲として選んだとはしない。"
-    },
-    {
-      "work_id": "G01-W01",
-      "scene_id": "G01-W01-SC03",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "年代不明の子供の映像と村の口封じの解釈は本文再読のみ。現代の青年の追跡の78条件へ同一主体として混ぜない。"
-    },
-    {
-      "work_id": "G01-W08",
-      "scene_id": "G01-W08-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "Kの来店・肩の症状と同僚の前史は未抽出。翌日の語り手の訪問に借りない。"
-    },
-    {
-      "work_id": "G01-W08",
-      "scene_id": "G01-W08-SC02",
-      "record_ids": [
-        "G01-W08-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "翌日の本人の人形目撃だけ抽出。Kの窓外目撃・除霊は別当事者で未抽出。"
-    },
-    {
-      "work_id": "G01-W12",
-      "scene_id": "G01-W12-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "安川本人の排泄・羞恥の78条件は未抽出。新記録は隣席の語り手である。"
-    },
-    {
-      "work_id": "G01-W12",
-      "scene_id": "G01-W12-SC02",
-      "record_ids": [
-        "G01-W12-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "語り手の連鎖嘔吐への予期と車内の連鎖。各児童の身体状態は本人の身体条件にしない。"
-    },
-    {
-      "work_id": "G01-W14",
-      "scene_id": "G01-W14-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "演者本人の身体・強制の問題は再読のみ。観客の記録から転用しない。"
-    },
-    {
-      "work_id": "G01-W14",
-      "scene_id": "G01-W14-SC02",
-      "record_ids": [
-        "G01-W14-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "観客の語り手の枠。実演者の痛みと観客の予期損失を分ける。"
-    },
-    {
-      "work_id": "G01-W21",
-      "scene_id": "G01-W21-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "2008年の妹の目への加害は再読のみ。2011年の動作制御と混ぜない。"
-    },
-    {
-      "work_id": "G01-W21",
-      "scene_id": "G01-W21-SC02",
-      "record_ids": [
-        "G01-W21-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "2011年の妹の動作制御。蛇の顔の説明は妹本人についてで家族の顔ではない。"
-    },
-    {
-      "work_id": "G01-W21",
-      "scene_id": "G01-W21-SC03",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "祖父の管理と2015年の再封印は再読のみ。妹本人の管理責任にしない。"
-    },
-    {
-      "work_id": "G01-W21",
-      "scene_id": "G01-W21-SC04",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "2015年の兄の救助と妹の自発的な摂取は再読のみ。意図に反する2011年の動作に遡及しない。"
-    },
-    {
-      "work_id": "G01-W23",
-      "scene_id": "G01-W23-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "霊感者の初期警告と本人の不信は再読のみ。選定は仕事の休職勧告以後。"
-    },
-    {
-      "work_id": "G01-W23",
-      "scene_id": "G01-W23-SC02",
-      "record_ids": [
-        "G01-W23-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "本人の体質への相談と休職勧告。本文は休む必要はないと反発するので、旧行の休職実施という解釈を継承しない。"
-    },
-    {
-      "work_id": "G01-W26",
-      "scene_id": "G01-W26-SC01",
-      "record_ids": [
-        "G01-W26-V3-R2-R01"
-      ],
-      "relation": "overlapping_scope",
-      "reason": "本人の寿命への不安を抽出。他作業員の身体・死亡を本人へ移さない。"
-    },
-    {
-      "work_id": "G01-W26",
-      "scene_id": "G01-W26-SC02",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "僧の保管と移管は別当事者で未抽出。作業員のE5へ借りない。"
-    },
-    {
-      "work_id": "G01-W26",
-      "scene_id": "G01-W26-SC03",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "制作史の閉じ込められた人々・殺害者は伝聞で未抽出。作業員の身体問題にしない。"
-    },
-    {
-      "work_id": "G02-W07",
-      "scene_id": "G02-W07-S01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "幼少時の姉と女の体験は再読のみ。成長後の声の疑いを幼少の知識にしない。"
-    },
-    {
-      "work_id": "G02-W07",
-      "scene_id": "G02-W07-S02",
-      "record_ids": [
-        "G02-W07-V3-R2-R01"
-      ],
-      "relation": "same_actor_time_scope",
-      "reason": "成長後の記憶・母妹の応答、家族の安否確認と母の声への疑い。"
+      "reason": "由来中で身請けを約束した青年が競争相手の行動を拒む救助課題を選定。アキ本人の当時の状態と合算しない。"
     },
     {
       "work_id": "G03-W02",
@@ -736,6 +780,13 @@
       "reason": "教師でない声と足音の追随、校門を出て止まる範囲。"
     },
     {
+      "work_id": "G03-W03",
+      "scene_id": "G03-W03-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "旧行は本文不足で場面を作らなかった。新しいATLAS由来記事の女性記録は洒落怖原投稿との対応が未同定で、旧行の評価に転用しない。"
+    },
+    {
       "work_id": "G03-W04",
       "scene_id": "G03-W04-SC01",
       "record_ids": [
@@ -752,6 +803,22 @@
       ],
       "relation": "overlapping_scope",
       "reason": "本人が聞いた伝達ネットワークと各体験報告。各聴衆自身の78条件は未抽出。"
+    },
+    {
+      "work_id": "G03-W05",
+      "scene_id": "G03-W05-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "別居・離婚時点の選択は前史で未抽出。現在の父の余命と娘の将来に遡及しない。"
+    },
+    {
+      "work_id": "G03-W05",
+      "scene_id": "G03-W05-SC02",
+      "record_ids": [
+        "G03-W05-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "父の現在の娘の将来・病気への相談。病気と呪いの因果は本人が留保する。"
     },
     {
       "work_id": "G03-W06",
@@ -772,6 +839,31 @@
       "reason": "既発の家族の死を知る本人と、未捕捉犯人への現在の恐れを分ける。"
     },
     {
+      "work_id": "G03-W07",
+      "scene_id": "G03-W07-SC01",
+      "record_ids": [
+        "G03-W07-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "森林で本人が柵を越え、友人Aを助けようと待つ場面。Bの後の症状は本人の条件にしない。"
+    },
+    {
+      "work_id": "G03-W07",
+      "scene_id": "G03-W07-SC02",
+      "record_ids": [
+        "G03-W07-V3-R2-R02"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "Bの母が専門家へ相談する初回の救助課題をR02に対応。後の目撃範囲の訂正・正式な治療引受で初回の拒否を永久不能としない。"
+    },
+    {
+      "work_id": "G03-W07",
+      "scene_id": "G03-W07-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "供犠の由来・封じ直しの伝承は現代の本人と母の記録とは別。条件未抽出。"
+    },
+    {
       "work_id": "G03-W08",
       "scene_id": "G03-W08-SC01",
       "record_ids": [
@@ -779,6 +871,56 @@
       ],
       "relation": "same_actor_time_scope",
       "reason": "再掲本文の車での追跡回避。記事の別次元・死後の村の説は除外。"
+    },
+    {
+      "work_id": "G03-W11",
+      "scene_id": "G03-W11-SC01",
+      "record_ids": [
+        "G03-W11-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "訪問と歯の対処。作者IDと別投稿者の伝承・他話を別にする。"
+    },
+    {
+      "work_id": "G03-W11",
+      "scene_id": "G03-W11-SC02",
+      "record_ids": [
+        "G03-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "名前の危険は町内の伝聞。具体的起動・伝播の実証を補わない。"
+    },
+    {
+      "work_id": "G03-W12",
+      "scene_id": "G03-W12-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "テントと道での追跡・犬への救助は再読のみ。新記録はバンガロー再出現。"
+    },
+    {
+      "work_id": "G03-W12",
+      "scene_id": "G03-W12-SC02",
+      "record_ids": [
+        "G03-W12-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "バンガローの玄関防衛と朝まで。犬の後の診療はその当事者・時点の78条件を未抽出。"
+    },
+    {
+      "work_id": "G03-W13",
+      "scene_id": "G03-W13-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "井戸で退避する一行の危険はB本人の現在の状態とは別。未抽出。"
+    },
+    {
+      "work_id": "G03-W13",
+      "scene_id": "G03-W13-SC02",
+      "record_ids": [
+        "G03-W13-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "Aの説明を受ける読者や語り手ではなく、存在を知らず通常に暮らすB本人を選定。本文が本人の損失予期を明示的に否定するためAE共通条件は不成立。"
     },
     {
       "work_id": "G03-W15",
@@ -795,6 +937,24 @@
       ],
       "relation": "overlapping_scope",
       "reason": "帰らない父の捜索と既発の死の確認を区別。雪との因果は未確認。"
+    },
+    {
+      "work_id": "G03-W17",
+      "scene_id": "G03-W17-SC01",
+      "record_ids": [
+        "G03-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "石を疑う前提は共有するが、v1は子の行為と身体被害も束ねる。r2は傷の後の本人の相談・引渡しを対象とし、子の制御問題の判定を引き継がない。"
+    },
+    {
+      "work_id": "G03-W17",
+      "scene_id": "G03-W17-SC02",
+      "record_ids": [
+        "G03-W17-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "引渡しは重なるが、v1は後の友人死亡と後悔を含む。r2の相談時には知らない将来の事故を当時の予期損失に移さない。"
     },
     {
       "work_id": "G03-W18",
@@ -833,6 +993,47 @@
       "reason": "観客が聞く声と神主の説明。箱内話者の自己・家族への問題は別主体で未抽出。"
     },
     {
+      "work_id": "G03-W22",
+      "scene_id": "G03-W22-SC01",
+      "record_ids": [
+        "G03-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "指定した投稿926の同乗者の観測差のみ。重大な判断損失は本文から不明。"
+    },
+    {
+      "work_id": "G03-W23",
+      "scene_id": "G03-W23-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "救助前の背の重さ・声は救助後の納得と別時点。未抽出。"
+    },
+    {
+      "work_id": "G03-W23",
+      "scene_id": "G03-W23-SC02",
+      "record_ids": [
+        "G03-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "負担が消え祖母が謝礼を説明した後の本人を選定。既に閉じた危険を継続中の予期に置き換えない。"
+    },
+    {
+      "work_id": "G03-W25",
+      "scene_id": "G03-W25-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "最初の仕事編の家族と退治者の問題は、選定した禁山の術者の時点とは別。未抽出。"
+    },
+    {
+      "work_id": "G03-W25",
+      "scene_id": "G03-W25-SC02",
+      "record_ids": [
+        "G03-W25-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "禁山の作業を説明する術者本人を選定。三年周期の仕事と効力の説明はあるが、本人の退出困難・損失予期は未確認。シリーズ全体へ広げない。"
+    },
+    {
       "work_id": "G03-W26",
       "scene_id": "G03-W26-SC01",
       "record_ids": [
@@ -851,61 +1052,209 @@
       "reason": "処分とその後の限定的収束・残る懸念。地獄の実在を確定しない。"
     },
     {
-      "work_id": "G03-W03",
-      "scene_id": "G03-W03-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "旧行は本文不足で場面を作らなかった。新しいATLAS由来記事の女性記録は洒落怖原投稿との対応が未同定で、旧行の評価に転用しない。"
-    },
-    {
-      "work_id": "G03-W05",
-      "scene_id": "G03-W05-SC01",
-      "record_ids": [],
-      "relation": "not_reviewed_in_r2",
-      "reason": "別居・離婚時点の選択は前史で未抽出。現在の父の余命と娘の将来に遡及しない。"
-    },
-    {
-      "work_id": "G03-W05",
-      "scene_id": "G03-W05-SC02",
+      "work_id": "G04-W01",
+      "scene_id": "G04-W01-S01",
       "record_ids": [
-        "G03-W05-V3-R2-R01"
+        "G04-W01-V3-R2-R01"
       ],
       "relation": "overlapping_scope",
-      "reason": "父の現在の娘の将来・病気への相談。病気と呪いの因果は本人が留保する。"
+      "reason": "旧場面は本文未確定のため同一場面と断定しない。再読した台本に限り、公園から逃げる少女を記録。原投稿同定は保留を維持。"
     },
     {
-      "work_id": "G03-W11",
-      "scene_id": "G03-W11-SC01",
+      "work_id": "G04-W03",
+      "scene_id": "G04-W03-S01",
       "record_ids": [
-        "G03-W11-V3-R2-R01"
+        "G04-W03-V3-R2-R01"
       ],
       "relation": "overlapping_scope",
-      "reason": "訪問と歯の対処。作者IDと別投稿者の伝承・他話を別にする。"
+      "reason": "廃屋の玄関を押しても開かず窓から退出する本人を選定。友人の笑いを本人の制御喪失へ移さない。"
     },
     {
-      "work_id": "G03-W11",
-      "scene_id": "G03-W11-SC02",
+      "work_id": "G04-W03",
+      "scene_id": "G04-W03-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "屋根の人形と専門家の説明は玄関の退出困難より後。未抽出。"
+    },
+    {
+      "work_id": "G04-W03",
+      "scene_id": "G04-W03-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "本人の笑い・涙と破壊処置は別時点。再読済みだが条件別の独立記録は未抽出。"
+    },
+    {
+      "work_id": "G04-W04",
+      "scene_id": "G04-W04-S01",
       "record_ids": [
-        "G03-W11-V3-R2-R01"
+        "G04-W04-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "指定投稿の子どもが禁止日に山へ行くことを避ける範囲。山の出現・失踪との前後関係だけで起動因果は確定しない。"
+    },
+    {
+      "work_id": "G04-W05",
+      "scene_id": "G04-W05-S01",
+      "record_ids": [
+        "G04-W05-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "二度目のロッカーを確認し、他者を呼ぶと消えている本人の確認課題。"
+    },
+    {
+      "work_id": "G04-W05",
+      "scene_id": "G04-W05-S02",
+      "record_ids": [
+        "G04-W05-V3-R2-R01"
       ],
       "relation": "same_actor_time_scope",
-      "reason": "名前の危険は町内の伝聞。具体的起動・伝播の実証を補わない。"
+      "reason": "料理の件を否定され同僚に孤立させられ、退職へ進む本人。S01からの継続記録だが型ごとの必須条件を適用。"
     },
     {
-      "work_id": "G03-W12",
-      "scene_id": "G03-W12-SC01",
+      "work_id": "G04-W06",
+      "scene_id": "G04-W06-S01",
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
-      "reason": "テントと道での追跡・犬への救助は再読のみ。新記録はバンガロー再出現。"
+      "reason": "知人に脅され匿う時点は、選定した蟹拷問より前。未抽出。"
     },
     {
-      "work_id": "G03-W12",
-      "scene_id": "G03-W12-SC02",
+      "work_id": "G04-W06",
+      "scene_id": "G04-W06-S02",
       "record_ids": [
-        "G03-W12-V3-R2-R01"
+        "G04-W06-V3-R2-R01"
       ],
       "relation": "overlapping_scope",
-      "reason": "バンガローの玄関防衛と朝まで。犬の後の診療はその当事者・時点の78条件を未抽出。"
+      "reason": "拷問施設に拘束されている本人の位置・拘束状態を選定範囲に含む。搬送前の自宅の出来事は条件未抽出。"
+    },
+    {
+      "work_id": "G04-W06",
+      "scene_id": "G04-W06-S03",
+      "record_ids": [
+        "G04-W06-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "蟹が本人の体へ入る325〜362行を選定。友人の症状を本人のD条件に移さず、内部損傷の機序は不明のまま。"
+    },
+    {
+      "work_id": "G04-W07",
+      "scene_id": "G04-W07-S01",
+      "record_ids": [
+        "G04-W07-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "小学生の本人が露見後につかまれ足を踏まれ、逃走を妨げられる時間。所在不明の潜伏状態は既に終わっている。"
+    },
+    {
+      "work_id": "G04-W07",
+      "scene_id": "G04-W07-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "山の露見後の生活圏への接近は別時点。未抽出。"
+    },
+    {
+      "work_id": "G04-W07",
+      "scene_id": "G04-W07-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "家への接近・放火未遂・警察の捕縛は別時点。未抽出。"
+    },
+    {
+      "work_id": "G04-W07",
+      "scene_id": "G04-W07-S04",
+      "record_ids": [
+        "G04-W07-V3-R2-R02"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "高校時の再訪で謝罪への安心が覆り、淳を下山させようとするR02。詛文の実在とその超常的効力は分けて記録。"
+    },
+    {
+      "work_id": "G04-W08",
+      "scene_id": "G04-W08-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼時の交流・発熱は選定した大人の回想末尾とは別時点。大人の明示的な懐かしさ・危険否定を幼時に逆適用しない。"
+    },
+    {
+      "work_id": "G04-W09",
+      "scene_id": "G04-W09-S01",
+      "record_ids": [
+        "G04-W09-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "候補Aの校内で少女と転落を目撃した本人の確認課題。候補Bと合算しない。"
+    },
+    {
+      "work_id": "G04-W09",
+      "scene_id": "G04-W09-S02",
+      "record_ids": [
+        "G04-W09-V3-R2-R02"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "候補Bで呼び出しを聞き、帰宅後に母へ確認した本人をR02へ対応。同一作品と確定せず限定範囲を維持。"
+    },
+    {
+      "work_id": "G04-W10",
+      "scene_id": "G04-W10-S01",
+      "record_ids": [
+        "G04-W10-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "釣りをした父の話として魚を放した後の怖さを抽出。本文では船で移動せず帰路の迎えを待つため、旧要約の移動を採用しない。"
+    },
+    {
+      "work_id": "G04-W11",
+      "scene_id": "G04-W11-S01",
+      "record_ids": [
+        "G04-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "指定投稿228・230の小学生が同じ電柱へ戻る反復と人・音の欠如。別投稿の衣服補足は範囲外。"
+    },
+    {
+      "work_id": "G04-W11",
+      "scene_id": "G04-W11-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "男性に触れられ通常の町へ戻った後は選定したループ中の状態と別。閉鎖の結果は記録するが、この時点の全条件は未抽出。"
+    },
+    {
+      "work_id": "G04-W12",
+      "scene_id": "G04-W12-S01",
+      "record_ids": [
+        "G04-W12-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "降霊実験の誘導想像内で、本人が目を開けられず家から出られない時間。現実の物理的閉じ込めと同一視しない。"
+    },
+    {
+      "work_id": "G04-W12",
+      "scene_id": "G04-W12-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の仕掛けの説明・師匠の信頼判断は降霊中の本人の知識と別。未抽出。"
+    },
+    {
+      "work_id": "G04-W12",
+      "scene_id": "G04-W12-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "壷編は再読したが、別場面の全条件は未抽出。シリーズ全体の完了とはしない。"
+    },
+    {
+      "work_id": "G04-W13",
+      "scene_id": "G04-W13-S01",
+      "record_ids": [
+        "G04-W13-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "浜で集団に拘束され殴られる本人を選定。友人の内面や重要性は独立の条件根拠が不足。"
+    },
+    {
+      "work_id": "G04-W13",
+      "scene_id": "G04-W13-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "窓・新聞への後の恐怖と投稿反応は別時点。未抽出。"
     },
     {
       "work_id": "G04-W14",
@@ -970,6 +1319,612 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "友人の別体験と三年後の報告は再読したが別当事者・時点の条件未抽出。"
+    },
+    {
+      "work_id": "G04-W18",
+      "scene_id": "G04-W18-S01",
+      "record_ids": [
+        "G04-W18-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "由来を聞き自分の護符を処分した現在の女性を選定。中身の由来への嫌悪と当人の具体的な損失予期を分ける。"
+    },
+    {
+      "work_id": "G04-W18",
+      "scene_id": "G04-W18-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "伝承中の被害女性と報復される男性は別当事者。現在の女性の条件へ移さず未抽出。"
+    },
+    {
+      "work_id": "G04-W19",
+      "scene_id": "G04-W19-S01",
+      "record_ids": [
+        "G04-W19-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "子どもの捕獲・観察中。蛇は子どもを追わず逃げるため、本人への標的接近は明示的不成立。"
+    },
+    {
+      "work_id": "G04-W21",
+      "scene_id": "G04-W21-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼時の被害児・家族の援助課題は大学時の合の本人確認と別。未抽出。"
+    },
+    {
+      "work_id": "G04-W21",
+      "scene_id": "G04-W21-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "トンネルの追走者は大学時の合の観測と別当事者・時点。未抽出。"
+    },
+    {
+      "work_id": "G04-W21",
+      "scene_id": "G04-W21-S03",
+      "record_ids": [
+        "G04-W21-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "合が帰還した＊田を死んだ子の姿として疑う時間を選定。本文の＊田・＊川の差を保持し、後の加害・自殺は合の動作ではない。"
+    },
+    {
+      "work_id": "G04-W22",
+      "scene_id": "G04-W22-S01",
+      "record_ids": [
+        "G04-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "最後の電話で本名を呼ばれた本人。既知情報を知られることだけで侵入・目前の加害を確定しない。"
+    },
+    {
+      "work_id": "G04-W23",
+      "scene_id": "G04-W23-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "山中の窓への接近は選定した一週間後の父の相談・救助課題とは別。未抽出。"
+    },
+    {
+      "work_id": "G04-W23",
+      "scene_id": "G04-W23-S02",
+      "record_ids": [
+        "G04-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "娘の症状の知らせを受けた父の救助課題を選定。娘の身体状態を父のD型へ移さない。"
+    },
+    {
+      "work_id": "G04-W23",
+      "scene_id": "G04-W23-S03",
+      "record_ids": [
+        "G04-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "一週間後に父が妻の接触を避けつつ娘を救おうとする時間。妻への実移行は観測されず専門家の予測として保存。"
+    },
+    {
+      "work_id": "G04-W24",
+      "scene_id": "G04-W24-S01",
+      "record_ids": [
+        "G04-W24-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "子ども本人の夢内で家々の窓を覗く女性が自宅へ接近する時間。侵入は窓の外にとどまる。"
+    },
+    {
+      "work_id": "G04-W24",
+      "scene_id": "G04-W24-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "友人の後の説明は夢内の本人の当時の認識と別。条件未抽出。"
+    },
+    {
+      "work_id": "G04-W25",
+      "scene_id": "G04-W25-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "Tの初回遭遇は選定した遺書読後とは別時点。最後の投稿者の正体訂正を踏まえ、全篇を投稿者自身の直接経験としない。"
+    },
+    {
+      "work_id": "G04-W25",
+      "scene_id": "G04-W25-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "金を要求した処置者への相談は遺書読後のTとは別時点。未抽出。"
+    },
+    {
+      "work_id": "G04-W25",
+      "scene_id": "G04-W25-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "寺の生活と一度の安心は遺書読後より前。未抽出。"
+    },
+    {
+      "work_id": "G04-W25",
+      "scene_id": "G04-W25-S04",
+      "record_ids": [
+        "G04-W25-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "手紙を読んで処置終了の安心が崩れた経験者T。末尾で投稿者がTの同僚だと明かすため、観測の伝聞層を保持。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼少期の語り手の部屋の場面。本文再読済みだが現在の四男の条件抽出とは別。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "大学期の語り手の襲撃と救済。四男本人の現在の課題へ移さない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S03",
+      "record_ids": [
+        "G04-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧場面は一族の過去の部屋管理と現在の四男の連絡制限を束ねる。新記録は後者のみで、過去の管理者・当事者とは対応しない。"
+    },
+    {
+      "work_id": "G04-W26",
+      "scene_id": "G04-W26-S04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の語り手の形・指の発見は未抽出。四男の現在の条件と混ぜない。"
+    },
+    {
+      "work_id": "G05-W01",
+      "scene_id": "G05-W01-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "電車・友人宅の最初の遭遇は帰宅後の自室連行より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W01",
+      "scene_id": "G05-W01-S02",
+      "record_ids": [
+        "G05-W01-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "電話を奪われ女の部屋へ連行される本人の時間を選定。電話ボックスへの最初の逃走とは時点が異なる。"
+    },
+    {
+      "work_id": "G05-W01",
+      "scene_id": "G05-W01-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "女の破損・交通衝突は連行後。別時点の条件未抽出。"
+    },
+    {
+      "work_id": "G05-W02",
+      "scene_id": "G05-W02-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "絵の異音と初回退避は専門家の処置後より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W02",
+      "scene_id": "G05-W02-S02",
+      "record_ids": [
+        "G05-W02-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "清め後に一生人形を守るよう告げられる本人。継続の指示のみで、退出を問題とするE5.R4は補わない。"
+    },
+    {
+      "work_id": "G05-W03",
+      "scene_id": "G05-W03-S01",
+      "record_ids": [
+        "G05-W03-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "同僚の話の中の運転者が車内で始動し存在の注意を引く時間。後の救助まで同じ当事者で追う。"
+    },
+    {
+      "work_id": "G05-W03",
+      "scene_id": "G05-W03-S02",
+      "record_ids": [
+        "G05-W03-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "車を出し、衰弱した友人を病院へ運ぶ運転者に対応。友人と犬の症状を本人のD型へ移さない。"
+    },
+    {
+      "work_id": "G05-W05",
+      "scene_id": "G05-W05-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "砂山から離れる前の声と、残した砂像への刺突は選定した追走より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W05",
+      "scene_id": "G05-W05-S02",
+      "record_ids": [
+        "G05-W05-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "目覚めている本人へ女が走り本人が車へ逃れる範囲。追走時に武器を持つかは本文で不明で、旧要約の刃物を採用しない。"
+    },
+    {
+      "work_id": "G05-W06",
+      "scene_id": "G05-W06-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "トンネルと友人宅での最初の接触は選定した有限の一晩の防護より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W06",
+      "scene_id": "G05-W06-S02",
+      "record_ids": [
+        "G05-W06-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "本人が声を出さず夜明けまで待つ防護。終身管理ではなく終了が定められている。"
+    },
+    {
+      "work_id": "G05-W06",
+      "scene_id": "G05-W06-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "後の正体説明とUの救済は別当事者・時点。本人の当夜の知識へ移さず未抽出。"
+    },
+    {
+      "work_id": "G05-W07",
+      "scene_id": "G05-W07-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "噂の収集と各家庭の目撃は、最後の飲み会で創作と明かされた語り手の現在とは別。未抽出。"
+    },
+    {
+      "work_id": "G05-W07",
+      "scene_id": "G05-W07-S02",
+      "record_ids": [
+        "G05-W07-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "創作者の訂正を聞く語り手を選定。本文に旧要約の「伏せた片眼の傷」の説明は確認できず採用しない。第三者の噂は直接目撃と分ける。"
+    },
+    {
+      "work_id": "G05-W08",
+      "scene_id": "G05-W08-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖先の変身・祖父の指の過去は選定した祖父の幼年時の夜とは別当事者・時点。未抽出。"
+    },
+    {
+      "work_id": "G05-W08",
+      "scene_id": "G05-W08-S02",
+      "record_ids": [
+        "G05-W08-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "女から隠れるのは本文では孫でなく祖父の正夫の幼年時。人物名と時点を訂正したr2の対応で、v1自体を書き換えない。"
+    },
+    {
+      "work_id": "G05-W09",
+      "scene_id": "G05-W09-S01",
+      "record_ids": [
+        "G05-W09-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "先行被害を参照するが、v1は細木の警告・初回逃走・死亡を束ねる。r2はその後の語り手の対処選択で、当事者と時点が一致する部分に限る。"
+    },
+    {
+      "work_id": "G05-W09",
+      "scene_id": "G05-W09-S02",
+      "record_ids": [
+        "G05-W09-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "再儀式の選択が重なる。v1のC2は元凶への集団の殺害計画で、r2の当事者である語り手自身への敵対計画とは別。"
+    },
+    {
+      "work_id": "G05-W09",
+      "scene_id": "G05-W09-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "投稿の真偽と読者への主張の記録。訂正を出典限定に使用するが、語り手の儀式時の問題状態へ読者の危険を混ぜない。"
+    },
+    {
+      "work_id": "G05-W10",
+      "scene_id": "G05-W10-S01",
+      "record_ids": [
+        "G05-W10-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "父が面の領域・盲目の子の案の警告を聞く時点を選定。子どもへの結果は伝承上の予測で実犠牲の観測ではない。"
+    },
+    {
+      "work_id": "G05-W10",
+      "scene_id": "G05-W10-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "座長が回収し後で死んだという話は選定した父の警告時点とは別。条件未抽出。歴史再構成を直接事実にしない。"
+    },
+    {
+      "work_id": "G05-W11",
+      "scene_id": "G05-W11-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "過去のA・Cの救助は現在投稿する語り手と別当事者・時点。未抽出。"
+    },
+    {
+      "work_id": "G05-W11",
+      "scene_id": "G05-W11-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "Cの死と旧友の過去の変化は現在の投稿より前。後の読み手への実際の伝播の根拠にはしない。"
+    },
+    {
+      "work_id": "G05-W11",
+      "scene_id": "G05-W11-S03",
+      "record_ids": [
+        "G05-W11-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "現在の投稿者が標的を増やす意図で語る時間。読者に現象が移った事実と自己の危険が減った効力は未確認。"
+    },
+    {
+      "work_id": "G05-W12",
+      "scene_id": "G05-W12-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "望遠鏡の初回症状と叔父の過去談は選定した森林の襲撃より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W12",
+      "scene_id": "G05-W12-S02",
+      "record_ids": [
+        "G05-W12-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人が森林で直接視線に晒され、サングラスで弱まり再び強まる比較を選定。本文の森林・直視を旧要約の小屋・遮蔽物の破壊に置き換えない。"
+    },
+    {
+      "work_id": "G05-W13",
+      "scene_id": "G05-W13-S01",
+      "record_ids": [
+        "G05-W13-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "背中を確認した直後の車内の出現を本人の侵入課題として選定。確認という単発の先行行為を確定した起動因果にしない。"
+    },
+    {
+      "work_id": "G05-W13",
+      "scene_id": "G05-W13-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "警察の速度説明と後の再目撃は車内出現より後。条件未抽出。"
+    },
+    {
+      "work_id": "G05-W14",
+      "scene_id": "G05-W14-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "雇用中の搬送と井戸への投入は選定した現在の潜伏より前。人の投入目的は不明のまま。"
+    },
+    {
+      "work_id": "G05-W14",
+      "scene_id": "G05-W14-S02",
+      "record_ids": [
+        "G05-W14-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "今も町を移り所在を隠し、Bの生存と再捜索を恐れる現在の本人。過去の被拘束者を本人の身体状態としない。"
+    },
+    {
+      "work_id": "G05-W15",
+      "scene_id": "G05-W15-S01",
+      "record_ids": [
+        "G05-W15-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "後に写真の隠された部分を母から見せられる本人を選定。幼時の追走やトイレ場面の全条件はこの記録では未抽出。"
+    },
+    {
+      "work_id": "G05-W15",
+      "scene_id": "G05-W15-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "脚のない女を見た別児童は写真を見る本人と別当事者。未抽出。"
+    },
+    {
+      "work_id": "G05-W16",
+      "scene_id": "G05-W16-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "到着時の客と、本人を通過した女は選定した車の襲撃より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W16",
+      "scene_id": "G05-W16-S02",
+      "record_ids": [
+        "G05-W16-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "駐車場で群れが本人の車へ接近し脱出する範囲。女性三人の目的・敵意は推測で、この本人の記録と別。"
+    },
+    {
+      "work_id": "G05-W16",
+      "scene_id": "G05-W16-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "町での消失と警察の記録は駐車場の襲撃後。別時点の条件未抽出。"
+    },
+    {
+      "work_id": "G05-W17",
+      "scene_id": "G05-W17-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "カラス・壁画・蜘蛛への先行解釈は家への侵入より前。未抽出。翌日の解釈逆転を侵入時の知識にしない。"
+    },
+    {
+      "work_id": "G05-W17",
+      "scene_id": "G05-W17-S02",
+      "record_ids": [
+        "G05-W17-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "本人が家の扉の突破を経験した時間。祖父を標的とする動作を本人への追跡として自動採用しない。"
+    },
+    {
+      "work_id": "G05-W17",
+      "scene_id": "G05-W17-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "卵の破損と神社への安置は後日談。家への侵入時点とは別、条件未抽出。"
+    },
+    {
+      "work_id": "G05-W18",
+      "scene_id": "G05-W18-S01",
+      "record_ids": [
+        "G05-W18-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "同じ少年の夜の防護室。後日の本人照合を当時の違和感と分けて記録する。"
+    },
+    {
+      "work_id": "G05-W18",
+      "scene_id": "G05-W18-S02",
+      "record_ids": [
+        "G05-W18-V3-R2-R02"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "同じ少年の翌朝の村外搬送。父と祖父の身代わりの覚悟は後の伝聞で、少年が当時知る予期としては未確認。"
+    },
+    {
+      "work_id": "G05-W18",
+      "scene_id": "G05-W18-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "村の地蔵の管理と十年後の再発予期。本文は再読したが、この別の管理単位・時点の全78条件抽出は未完了。"
+    },
+    {
+      "work_id": "G05-W19",
+      "scene_id": "G05-W19-S01",
+      "record_ids": [
+        "G05-W19-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "指定保育園編で調べる保育士の友人の話に限定。名称と保護者の説明差を実際の加害因果としない。"
+    },
+    {
+      "work_id": "G05-W19",
+      "scene_id": "G05-W19-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "絵の記憶を語るのは選定した友人でなく別の保育士。旧要約の語り手へ合算せず未抽出。シリーズ全体は未確認。"
+    },
+    {
+      "work_id": "G05-W20",
+      "scene_id": "G05-W20-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "旧友の記録照合と幼少記憶は門を拒否する夢の場面より前。未抽出。"
+    },
+    {
+      "work_id": "G05-W20",
+      "scene_id": "G05-W20-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "死人・偽覚醒・金縛りは選定した門の夢より前。夢の層を混ぜず未抽出。"
+    },
+    {
+      "work_id": "G05-W20",
+      "scene_id": "G05-W20-S03",
+      "record_ids": [
+        "G05-W20-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "夢内の案内人と門への同行を本人が拒否して戻る時間。拒否後の夢減少を因果確定にしない。"
+    },
+    {
+      "work_id": "G05-W22",
+      "scene_id": "G05-W22-S01",
+      "record_ids": [
+        "G05-W22-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人を屋上から階段・扉へ追う動作を選定。視線だけで必要十分な起動条件にはしない。"
+    },
+    {
+      "work_id": "G05-W22",
+      "scene_id": "G05-W22-S02",
+      "record_ids": [
+        "G05-W22-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "扉の外の音と朝までの待機を同じ追走記録に含む。実侵入・多方向の包囲・永続管理は確認されない。"
+    },
+    {
+      "work_id": "G05-W23",
+      "scene_id": "G05-W23-S01",
+      "record_ids": [
+        "G05-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "候補Aの成人女性が資料・記憶を相談する現在を選定。幼時の儀礼と同一時点にはせず、候補Bと合算しない。"
+    },
+    {
+      "work_id": "G05-W23",
+      "scene_id": "G05-W23-S02",
+      "record_ids": [
+        "G05-W23-V3-R2-R02"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "候補Bの本人は幽霊を見ず、周囲の退避を目撃する子ども。周囲の恐怖を本人の損失予期に移さない。"
+    },
+    {
+      "work_id": "G05-W24",
+      "scene_id": "G05-W24-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "Kの夢依存・自傷・死は選定した祖父の封じ直し・引渡し準備と別当事者。未抽出。"
+    },
+    {
+      "work_id": "G05-W24",
+      "scene_id": "G05-W24-S02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "宗介の歴史と分散の伝承は祖父の現在の管理と別当事者・時点。未抽出。"
+    },
+    {
+      "work_id": "G05-W24",
+      "scene_id": "G05-W24-S03",
+      "record_ids": [
+        "G05-W24-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "新しい箱・札と移管を準備するAの祖父を選定。同じ場所に二個置けないため自分の玉の維持との両立が問題。新住職の同意・能力・長期成否は直接未確認。"
+    },
+    {
+      "work_id": "G05-W25",
+      "scene_id": "G05-W25-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "上階と袋の爪の発見は堂での二度目の夜の声より前。Bの影の目撃を本人の侵入状態へ移さず未抽出。"
+    },
+    {
+      "work_id": "G05-W25",
+      "scene_id": "G05-W25-S02",
+      "record_ids": [
+        "G05-W25-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "堂の二度目の声が美咲を装い本人が拒否する時間を選定。以前のBの背後の目撃は別範囲。有限の防護を継続管理としない。"
+    },
+    {
+      "work_id": "G05-W25",
+      "scene_id": "G05-W25-S03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "女将の由来・母の喪失・後日談の電話は堂の本人とは別当事者・時点。再読したが全条件は未抽出。女将の給餌を危険抑制へ補作しない。"
     }
   ]
 }
