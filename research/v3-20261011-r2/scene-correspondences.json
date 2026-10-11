@@ -93,6 +93,40 @@
       ],
       "relation": "overlapping_scope",
       "reason": "v1は自他の変質を一行に含む。r2は目撃後に食品を避ける語り手を当事者とし、食べた女性の実際の変身や彼女自身の認識を補わない。"
+    },
+    {
+      "work_id": "G01-W02",
+      "scene_id": "G01-W02-SC01",
+      "record_ids": [
+        "G01-W02-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行はAと同行者の不調と説明を束ねる。追加記録はA本人の視点を固定し、同行者の症状を本人の損失・身体へ移さない。"
+    },
+    {
+      "work_id": "G01-W03",
+      "scene_id": "G01-W03-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "航空事故中の貴代は本文を再読したが、その当事者・時点の78条件記録は未抽出。"
+    },
+    {
+      "work_id": "G01-W03",
+      "scene_id": "G01-W03-SC02",
+      "record_ids": [
+        "G01-W03-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "旧行は患者と叔母の危険、読者の符号解釈を束ねる。追加記録は緋那の病室での安全期待から自身の救助要請まで。姪の事故と電子音の主観は別。"
+    },
+    {
+      "work_id": "G01-W22",
+      "scene_id": "G01-W22-SC01",
+      "record_ids": [
+        "G01-W22-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "旧行と同じ幼少期の子ども・鍵穴の瞬間的危険と離脱を対象とする。A2の移動追跡の不足と、母に訴えていない事実を条件ごとに記録する。"
     }
   ]
 }

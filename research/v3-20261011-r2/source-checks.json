@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T06:37:47Z",
+  "observed_after_at_utc": "2026-10-11T07:04:02Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 7,
+  "fully_rechecked_published_bodies": 14,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -86,8 +86,78 @@
       "original_post_identity": "unconfirmed",
       "observed_after_at_utc": "2026-10-11T06:37:47Z",
       "note": "安川の便意、語り手の嘔吐予期、和田の嘔吐と他児の反応を区別。比喩の悪魔や地獄を超常現象の直接事実にしない。"
+    },
+    {
+      "review_id": "G01-W02-R2-S1",
+      "work_id": "G01-W02",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜94行。本文の導入から結びまで。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:57:14Z",
+      "note": "友人から聞いた友人の友人Aの話。同行者の症状、A自身の無被害、寺の個別説明、外側の語り手の願いを分ける。"
+    },
+    {
+      "review_id": "G01-W03-R2-S1",
+      "work_id": "G01-W03",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜281行。録音の導入・全会話・事件資料という結びまで。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:57:14Z",
+      "note": "歯の電子音による回答と、叔母の質問・声、記録者の推測を区別。最後の二名惨殺事件から語り手が見ていない怪物の侵入を確定しない。"
+    },
+    {
+      "review_id": "G01-W10-R2-S1",
+      "work_id": "G01-W10",
+      "url": "https://the-mystery.org/scary_story/post-3648/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜145行。掲載者の謝辞・編集紹介を除く。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:57:14Z",
+      "note": "現在の会話、姪からの伝承、伝承内の村人による解釈を区別。掲載者の2026年5月18日更新と編集表示があり、原投稿との一致確認ではない。"
+    },
+    {
+      "review_id": "G01-W22-R2-S1",
+      "work_id": "G01-W22",
+      "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+      "status": "full_published_body_reread",
+      "range": "投稿175／掲載本文136〜175行。コメント・関連記事を除く。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:04:02Z",
+      "note": "鍵穴への道具の一撃と本人の離脱。移動追跡、身体内部の進行損傷、母の不受容を補わない。"
+    },
+    {
+      "review_id": "G01-W25-R2-S1",
+      "work_id": "G01-W25",
+      "url": "https://the-mystery.org/strange_experience/post-2764/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜98行。謝辞・編集者紹介を除く。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:04:02Z",
+      "note": "追跡は本人の目撃、祖父の身代わりは後の祖母の説明。本人の恐怖と祖父の選択、既発死亡の確認を分ける。"
+    },
+    {
+      "review_id": "G01-W08-R2-S1",
+      "work_id": "G01-W08",
+      "url": "https://the-mystery.org/scary_story/post-4112/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜170行。スタッフの伝聞と語り手自身の翌日訪問・後年の補足まで。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:04:02Z",
+      "note": "タクシー運転手経由のKの体験と、外側の語り手の人形の目撃を分離。肩への付着、車内の曇り、翌日の人形から同じ侵入・伝播を確定しない。"
+    },
+    {
+      "review_id": "G01-W11-R2-S1",
+      "work_id": "G01-W11",
+      "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=173",
+      "status": "full_published_body_reread",
+      "range": "掲載本文64〜73行。「坂の上の女」の一掲載範囲全体。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T07:04:02Z",
+      "note": "継承状態scopedの限定範囲として維持。「坂道の女」という割当との全同定・原投稿一致は未解消。女性の瞬間的な位置変化と移動追跡、ポケットの髪と住居侵入を区別。"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 6,
-  "remaining_of_r1_inherited_102": 96
+  "fully_rechecked_of_r1_inherited_102": 13,
+  "remaining_of_r1_inherited_102": 89
 }

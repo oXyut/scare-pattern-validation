@@ -5734,6 +5734,2847 @@
         ],
         "limitation": "特定の妖怪への局所的な前提変更を実記入。一般化の根拠を補わず、女性の未観測結果を不成立や成立のどちらにも捏造しない。"
       }
+    },
+    {
+      "work_id": "G01-W03",
+      "record_id": "G01-W03-V3-R2-R01",
+      "actor": "病室で姪へ質問し、録音末尾で自身の痛みと救助を訴える緋那",
+      "time_scope": "病院を安全と説明する質問中から録音末尾まで。航空事故の貴代の主観、記録公開者の後の推測は別。",
+      "world_layer": "recorded_speech_and_reported_context",
+      "selection_reason": "録音に残る叔母の安全期待と自身の危険認識を点検する。姪の電子音を叔母の不随意行為にしない。",
+      "anticipated_loss": "緋那自身への進行中の加害。録音末尾で痛みと救助要請がある。",
+      "recognition_basis": "緋那の声と説明された録音で、震えと痛み・救助要請が記録される。",
+      "closure_observed": "二名死亡という損失による終結が結びで知られる。加害者・侵入経路・伝播機序は不明。",
+      "limitation": "録音の一つの選定範囲。音声の事故再構成と現場での観察の境界は未確定。後の事件情報を当時の本人の知識に移さない。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W03-R2-E-a",
+          "source_review_id": "G01-W03-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+          "range": "64〜83行",
+          "layer": "reported_record_context",
+          "summary": "事故の唯一の生存者である貴代と叔母の刑事緋那。電子音による回答で二人きり、映像なし。"
+        },
+        {
+          "evidence_id": "G01-W03-R2-E-b",
+          "source_review_id": "G01-W03-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+          "range": "84〜193行",
+          "layer": "recorded_speech_and_signal",
+          "summary": "質問と回答、電子音の乱れ、休憩。緋那は病院では墜落せず安全と説明する。"
+        },
+        {
+          "evidence_id": "G01-W03-R2-E-c",
+          "source_review_id": "G01-W03-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+          "range": "194〜270行",
+          "layer": "recorded_speech_and_signal",
+          "summary": "事故時の異常についての誘導質問、電子音の停止、最後の緋那の痛みと救助要請。現場の映像はない。"
+        },
+        {
+          "evidence_id": "G01-W03-R2-E-d",
+          "source_review_id": "G01-W03-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=21825",
+          "range": "271〜281行",
+          "layer": "reported_record_context",
+          "summary": "後半の異音と震える声、詳細不明の記述。二名惨殺事件の重要参考物件として保管されるという結び。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "録音末尾の緋那自身の痛みと救助要請を、進行中の自身への加害・回避課題として指定する。二名の死亡という既発情報だけで成立させない。",
+          "evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "声が震え、最後に痛みと助けを求める緋那の発話。誰の声かという記録の説明を根拠層とする。",
+          "evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "supported",
+          "reason": "緋那は病院では墜落せず、もう怖がらなくてよいと貴代へ説明する。特定の避難先への旧期待。",
+          "evidence_ids": [
+            "G01-W03-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "異常な音、震える緋那の声、末尾の痛みと救助要請という録音情報と、二名死亡事件の記録。",
+          "evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一つの航空事故と病室の事件。世界や人間一般を対象に検証した証拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "supported",
+          "reason": "病院で安全と説明した緋那が後に自身の痛みと助けを訴える、局所的な安全期待の破綻。怪物の機序への受容までは含めない。",
+          "evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "病室内の個別加害や録音の解釈では足りない理由は記録されない。二件の事件だけで一般化しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "映像がなく、詳細不明という結びを根拠に、語り・録音解釈の誤りと個別加害の分析仮説を未排除として記す。",
+          "evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "緋那を捜索する追手が誰で、所在を把握済みかという情報はない。小さな隙間の説明を捜索へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "尋問を続ける行為と所在の感知を避ける行為は別。緋那が身を隠している根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "這う・登るなどの発話はあるが、質問での事故再構成か現場描写かが未確定。緋那を標的に接近する追手の観察を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "末尾の緋那の痛みと救助要請は、身体接触・加害の具体的な損失を支持する。移動追跡の成立とは別。",
+          "evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "supported",
+          "reason": "緋那は二人きりの病室を、墜落せず安全な場所として貴代へ説明している。",
+          "evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "音と二名死亡の記録から病室の境界を越える瞬間・経路は確認できない。事故時の窓破りの回答を病院への侵入にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "病室の加害は示すが、未確認の境界侵犯とその加害の結び付きは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "病室の周囲を脅威が占め、緋那が境界を守る局面という記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "身体へ張り付くという言葉と音は、防御境界・備蓄の消耗を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "加害と死亡の情報から防衛資源の枯渇による予期損失は特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "病院にいることは明示される。緋那自身の帰路・滞在の安全条件の定位が問題だったかは未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "恐怖と救助要請はあるが、現在地の不明による帰還不能・孤立とは示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "緋那が部屋から離脱したい意思は録音にない。助けという語だけで外への退出要求を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "二人きり・映像なしという取調べ条件は、病室から出られない障壁を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "事故と病院の二地点があるが、空間の接続・時間反復の異常という記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "救助要請に道や時間の異常による帰還不能・消耗の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "電子音の乱れは回答不能と不明を示すが、緋那が同一命題の競合する知覚や証言を得たとは確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "不明な回答を問い直すことから、競合する証拠の採用で危険が変わる選択を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "貴代は既知の姪だが、緋那が本人性を疑って検査しているという問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "電子音の異常や恐怖は、姪の姿・声・記憶を別存在が模倣・置換した根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "緋那が偽の姪を本人と扱うことによる損失を予期したとは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "姪との近親関係と穏やかな声かけは、援助・信頼を期待する関係の根拠となる。",
+          "evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "貴代の電子音や動揺を、貴代本人の敵対的利害や緋那を害する計画に帰属させない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "二人の加害結果から姪の裏切りや拘束計画を確定することはできない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "supported",
+          "reason": "末尾で緋那は自身の痛みと救助要請を発する。ただし誰が聞いて応答できたかは不明。",
+          "evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "最後に相手の返答が録音されないことは、訴えを信じなかった証拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "救助の不成立と死亡は、不受容による孤立の予期を示す根拠とは区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "緋那の姪という関係と精神安定を優先する声かけに、重要な他者としての根拠がある。",
+          "evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "質問中の動揺へ大丈夫かと問い、休憩する援助課題。後の死亡情報を当時の知識にしない。",
+          "evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "会話の中断や待機はあるが、緋那自身が姪を救えず喪失しそうと予期した根拠は未確認。末尾の自己救助要請と分ける。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "事故時の傷・唾液・牙についての質問は貴代の身体。緋那自身の内部侵入・感染を示す検査・症状はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "緋那の痛みと加害の予期を、体内への感染後の発症・伝播の認識へ置換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "緋那の痛みや死亡は、身体が別のものへ変形・変質して進む観察ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "救助を求める発話に変質による自己像や機能喪失の予期は特定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "乱れた電子音は貴代側。緋那の発話の震えや救助要請から、意に反する発話・動作の発生を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "緋那が自分の発話・行為を制御できないという記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "加害の予期と、自己の不随意な行為が自他へ損失をもたらすことは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "姪の記憶確認はあるが、緋那自身の記憶・人格・存在の複製・埋込・置換の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "末尾の痛みと助けを求める声に、自己の継続や置換への認識は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "噛む・食べるという外的加害の示唆と痛みはあるが、緋那の内部で損傷が進行する位置・機序は不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "助けを求めることだけで、未確認の内的損壊の進行を自分で制御不能と確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "死に至る加害は結びで知られるが、緋那自身が内的損壊から死を予期した時点は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "話を聞くことと事件の前後関係はあるが、起動条件として本人が特定した禁忌・接触規則はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "質問後の異音・事件という一度の順序だけで、語ることが危険を起動した因果を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "緋那は質問を続ける。起動条件を避ける判断として休憩や救助要請を解釈する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "航空事故の貴代と、病院事件で緋那へ生じる危険を異なる対象として区別できる。",
+          "evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "同種らしい音や描写があっても、語り・媒介・感染で貴代から緋那へ及んだ経路は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "緋那は病院を安全と説明する。自分が新たな被害対象になる伝播の予期は録音では未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "休憩は会話の動揺を緩めるが、加害への有効な対処として記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "加害を防ぐために重要なものや他人を犠牲にする必要という説明はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "質問の継続と中断は、重要な犠牲を必要とする救済選択としては未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "貴代の動揺に休憩する方法はあるが、末尾の加害を防ぐ既知の対処規則は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "救助要請のみで、理解した対処に必要な能力・設備・時間が不足すると確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "加害を受けることと、既知の対処の実行不能がその予期に結び付くことは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "病院の保護期待はあるが、怪異を抑制する管理方法の効力は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "二人きりの記録条件や事故後の療養は、緋那に危険物の監視・保管を継続する義務を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "質問を続けた後の加害から、管理の放棄・失敗による害を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "管理責任の離脱・終了と、終えられない理由を緋那が問題にしている記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "病院で墜落しないという個別安全の前提は、世界一般の因果・時空・生死の基本規則の前提ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "二事件には共有する被害者がいて、映像もない。旧基本規則を覆す複数の信頼できる証拠としては未確定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "一病室の加害と死亡から世界一般の安全判断を変更する本文根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "supported",
+          "reason": "質問を言い換え、休憩し、電子音による確認を続ける取調べ上の工夫と反復がある。",
+          "evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "映像がなく詳細不明なのは記録設備と観察範囲の限界。人間一般の認識構造の限界とは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "緋那の恐怖と救助要請を、人間一般の構造的限界を理解した受容にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "病院の安全期待や姪への配慮から、世界が人間の善意・正義・願いを重視するという旧前提を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "無惨な事件が、世界秩序全体で人間の価値が無関係という判断を証明するわけではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "痛みと救助要請は、人間の価値の非中心性を認識して受容した言葉ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "事故と病室の被害は、人間一般の成立や安全が別存在の用途に依存する仕組みを示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-a",
+            "G01-W03-R2-E-c",
+            "G01-W03-R2-E-d"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "食べるという一語の発話を、素材・設備・資源として人間を維持する用途へ広げない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "特定の病院での安全期待の崩れを、人間一般の成立条件の前提変更と扱う根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W03-R2-E-b",
+            "G01-W03-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "緋那が病院では落ちず怖がる必要がないと語る、特定の病室の安全期待。",
+        "new_evidence": "後半の異音・震える声・痛みと助けを求める発話。二名死亡事件の参考物件という記録者の説明。",
+        "evidence_scope": "一航空事故と一病室の録音。被害者が重なり、映像がない。世界・人間一般を検証した範囲ではない。",
+        "acceptance_and_threat": "病院を安全と説明した緋那が自身の痛みと救助を訴える。局所的な安全期待の破綻までを支持。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。個別加害、録音と語りの解釈で説明できる可能性が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "質問による事故再構成と現場描写の混同",
+            "basis": "映像がなく、後半の音と声の関係も不明とされる。",
+            "status": "analyst_hypothesis_unresolved"
+          },
+          {
+            "hypothesis": "病室での個別加害",
+            "basis": "二名死亡と救助要請はあるが、加害者・経路は記録されない。",
+            "status": "mechanism_unknown"
+          },
+          {
+            "hypothesis": "録音・掲載・記録説明の誤り",
+            "basis": "公開者の説明を含み、初出原投稿や原録音との一致は確認できない。",
+            "status": "analyst_hypothesis_unresolved"
+          }
+        ],
+        "limitation": "実際の録音を検証したのではなく、掲載された作中記録を再読した。局所的な期待変更と世界一般の前提変更を区別する。"
+      }
+    },
+    {
+      "work_id": "G01-W02",
+      "record_id": "G01-W02-V3-R2-R01",
+      "actor": "寺の説明を受ける友人の友人A",
+      "time_scope": "複数の心霊場所への訪問と単独再訪から寺の説明まで。友人たちの症状と外側の語り手の願いは別。",
+      "world_layer": "reported_nested",
+      "selection_reason": "無被害の本人、同行者、説明者の視点を分離して点検する。友人の不調や寺の初見を本人の危険・人間一般の限界にしない。",
+      "anticipated_loss": null,
+      "recognition_basis": "Aが具体的損失を予期する本文反応は未確認。寺へ調べに行くのは友人たちの不思議さによる。",
+      "closure_observed": "寺の説明はAの保護の理解を与える方向。同行者の被害の解消、保護の消滅・代償・管理義務は不明。",
+      "limitation": "友人経由の伝聞としての一つの選定範囲。危険のない本人を全型の陰性と自動判定せず、必要な予期損失の不明を保持する。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W02-R2-E-a",
+          "source_review_id": "G01-W02-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+          "range": "64〜73行",
+          "layer": "reported",
+          "summary": "友人から聞いたAの話。複数の場所で他人は不調だがAは無被害、単独再訪でも何も起こらない。"
+        },
+        {
+          "evidence_id": "G01-W02-R2-E-b",
+          "source_review_id": "G01-W02-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+          "range": "74〜79行",
+          "layer": "reported",
+          "summary": "友人たちがAの無被害を不思議がり、寺へ調べに行く。"
+        },
+        {
+          "evidence_id": "G01-W02-R2-E-c",
+          "source_review_id": "G01-W02-R2-S1",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=8927",
+          "range": "80〜94行",
+          "layer": "reported_and_outer_narrator_comment",
+          "summary": "寺が初見の巨大な守護霊による個別保護を説明。外側の語り手は同行者も守ればよいと願う。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "unknown",
+          "reason": "Aには無被害の経緯と保護の説明がある。本人が予期する具体的な望ましくない帰結や進行中の回避課題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "unknown",
+          "reason": "不思議だとして寺へ調べに行くのは友人たち。A自身が危険を問題として受け止めた発言・行動は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "unknown",
+          "reason": "Aの旧世界前提は語られない。寺の説明者が初めて見ることとAの旧理解は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "寺がAを見て、近づく霊を飲み込む守護霊を説明したという友人経由の伝聞。",
+          "evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "A一個体の保護の説明。人間一般の安全や成立条件を扱う根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "保護の説明はあるが、Aが旧前提を変更して脅威と受容した反応は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "個別の守護存在の説明で足りない理由は未確認。同行者の不調は別対象。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "全体が友人経由の伝聞で症状の検証がない。伝聞・寺の解釈の誤り、同行者の別原因の分析仮説を未排除として記録。",
+          "evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "近づく霊という寺の説明に、指定追手がAの所在をまだ把握していない情報はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "Aは自ら心霊場所を訪れる。本人が所在の感知を避ける問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "unknown",
+          "reason": "近づく霊の説明はあるが、Aを標的に方向を持って追随する具体的な移動観察はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "unknown",
+          "reason": "A本人は無被害と保護を説明される。追手の接触による加害をAが予期する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "心霊場所・寺は登場するが、Aが安全を期待した生活・避難境界は指定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "unknown",
+          "reason": "Aに霊が寄るという寺の一般説明を、特定の生活領域の境界侵犯にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "unknown",
+          "reason": "Aへの保護の説明は、境界への侵入による本人の安全喪失の予期とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "守護霊がAに付くという説明に、領域周囲の包囲とAの防衛はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "悪霊を飲み込むという説明だけで、境界・備蓄の維持が消耗するとは示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "Aが境界の破綻や資源枯渇による損失を予期する記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "Aの訪問経緯は述べられるが、本人の状況定位に必要な現在地・帰路・安全条件の不明が問題とは未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "場所で何も起こらないという経緯から、状況の不明による帰還不能・孤立の予期は補えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "unknown",
+          "reason": "本人が訪問先から外へ離脱したい理由と、滞在による損失は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "unknown",
+          "reason": "訪問と寺の相談に、離脱を阻む具体的な物理・制度・怪異の障壁は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "複数の場所への訪問はあるが、道・部屋の接続や時間差・反復の異常は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "無被害や寺の説明を、接続異常による帰還不能・消耗の予期へ置換しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "Aと同行者で体験が異なるが同一命題の証言対立ではない。A自身の知覚・記録の食い違いは不明。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "説明を聞くことが、競合証拠の採用によってAの安全判断を左右する問題とは示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "Aが既知人物の本人性を疑う相手・時点は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "守護霊の塊の説明は、既知人物の姿・声・記憶を模倣する根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "代替者を本人として認めることによるAの損失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "supported",
+          "reason": "友人たちと訪問し、友人たちが寺へ相談する仲間としての関係が記される。",
+          "evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "友人や寺の説明者に、Aを害する本人の敵対的利害・計画は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "守護と相談の説明から、Aが裏切りや拘束・供犠を予期したとは読めない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "unknown",
+          "reason": "A自身が危険を訴える記録はない。友人たちが不思議がって寺へ尋ねるのとは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "寺は説明するが、Aの危険の訴えを受容しなかった場面はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "Aが不受容で必要援助を失い、孤立による損失を予期する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "unknown",
+          "reason": "友人の関係はあるが、A自身が重要な喪失対象として扱う言葉・救助行為は未記録。関係名だけで重要性の必須条件を成立させない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "supported",
+          "reason": "友人たちは頭痛などの不調を受けるという伝聞がある。Aの身体の症状ではない。",
+          "evidence_ids": [
+            "G01-W02-R2-E-a"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "Aが友人を助けられず喪失しそうと受容する発言・行動は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "塊はAに付くと説明されるが、体内への寄生・感染・異物侵入の位置や症状はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "本人への守護という説明を、Aが体内侵入から発症・損傷を予期することにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "球状の守護霊の異形は、A自身の身体が変質して進む観察ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "Aが身体の変質による機能・自己像の喪失を予期する反応は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "Aの訪問や寺での相談に、意に反する本人の発話・動作・加害は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "守護霊の吸引という寺の説明は、A自身の行為の制御喪失とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "Aの不随意行為が自他へ損失をもたらす予期は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "守護霊の付着に、Aの記憶・人格・存在の複製・埋込・置換を示す根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "説明を聞いたAが自己の消失・継続の不確かさを脅威として受容する記録はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "頭痛は同行者の伝聞症状。Aの内部損傷や機能低下の進行へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "A自身の内的損壊の進行停止を制御できない根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "Aが内部の損傷から機能喪失や死を予期した時点は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "訪問時の同行者の不調とAの保護はあるが、Aへ危険を起動する条件は指定されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "他者の頭痛と訪問の伝聞から、A本人の災厄起動の因果を認定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "保護がある限りという説明を、Aの危険起動を避ける判断へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "supported",
+          "reason": "無被害のAと、頭痛などを受ける同行者という別の対象を区別できる。",
+          "evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "同じ場所で友人が不調でも、Aから友人へ危険が移る媒介・連結は未確認。共通場所での別被害とも区別する。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "Aが対象の増加・移転を具体的損失と予期する記述はない。外側の語り手の保護への願いは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "unknown",
+          "reason": "寺の説明と反復した無被害はあるが、Aが実行する対処方法と、その効力を区別した根拠は未確認。自動的な守護の説明を本人の有効対処へ変えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "霊を飲み込むという説明に、Aが重視する犠牲・他人への加害が必要とは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "Aが助かるために重要な代償を払うか不作為かを選ぶ問題は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "unknown",
+          "reason": "Aに保護の説明はあるが、本人が実行すべき具体的な危険対処規則は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "unknown",
+          "reason": "寺の初見という驚きは、Aの既知の対処を能力・設備・時間不足が妨げる証拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "Aの具体的な損失予期と、理解済み対処の実行不能の結び付きは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "寺の個別保護の説明はあるが、Aが危険を抑制する管理方法とその効力は記録されない。存在しているだけの守護を管理方法にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "守護霊がいる限りという条件に、Aが保管・監視・手入れ・継承を継続する義務は示されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "守護の存在条件と、Aが管理を放棄・失敗すると害が生じることは別で未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "Aが管理責任から離脱・終了したいという問題、退出条件・終われない理由は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "Aが持っていた因果・時空・生死の基本規則の旧前提は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "無被害の反復と一つの寺の説明はあるが、未特定の基本規則への複数の信頼できる反証とは認定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "特定の守護霊の説明を超える世界一般の安全判断の変更は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "複数の場所と単独再訪、友人たちの寺への相談はあるが、A本人が検証目的で工夫・反復したという根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "寺が初めて見る存在と述べることは、その人の経験不足。人間一般の認識構造の限界は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "Aが人間一般の構造的限界を旧前提から変更して脅威と受容する反応はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "Aに人間の善意・正義・願いが世界で重視されるという旧前提は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "一人への選択的な保護と同行者の不調から、世界秩序で人間の価値が無関係とは確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-a",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "Aが人間の価値の非中心性を脅威として受容する言葉・行動は未記録。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "個別の守護に安全が条件付けられる説明は、人間一般の歴史・存在の成立条件を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "悪霊を食べるという機能は、Aや人間を素材・設備・資源として維持する用途を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "Aの無被害の説明を、人間一般の成立条件の前提変更に広げる根拠は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W02-R2-E-b",
+            "G01-W02-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "A自身の旧前提は未記録。友人たちが無被害を不思議がり、寺の人が初見と述べることと区別する。",
+        "new_evidence": "寺の巨大な球状の守護霊という説明を、友人経由の伝聞として取得。複数回の無被害も伝聞。",
+        "evidence_scope": "A一個体と同行する友人たち。特定の守護霊の説明であり世界・人間一般の規則ではない。",
+        "acceptance_and_threat": "A本人の旧理解の変更と脅威受容は未記録。説明は本人の保護を示す方向。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。Aだけを守る個別存在という局所説明が残る。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "寺の解釈や友人経由の伝聞の誤り",
+            "basis": "全体が友人から聞いた話で、初出や独立確認はない。",
+            "status": "analyst_hypothesis_unresolved"
+          },
+          {
+            "hypothesis": "同行者の不調の別原因",
+            "basis": "頭痛などの伝聞で、感染・媒介の検証や機序の確認はない。",
+            "status": "analyst_hypothesis_unresolved"
+          }
+        ],
+        "limitation": "個別保護を人間利用の仕組みへ広げない。旧前提がない欄は、その不足と誰の言葉が存在するかを実記入する。"
+      }
+    },
+    {
+      "work_id": "G01-W22",
+      "record_id": "G01-W22-V3-R2-R01",
+      "actor": "銭湯で鍵穴を覗く四〜五歳の子どもである語り手",
+      "time_scope": "扉への好奇心と二度の覗き込みから、道具を見てその場を離れるまで。成人投稿時の情報は別。",
+      "world_layer": "narrated_childhood_recollection",
+      "selection_reason": "瞬間的な外部加害と局所回避を点検する。鍵穴の道具を移動追跡や内的損壊、母の不受容にしない。",
+      "anticipated_loss": "鍵穴を覗く目・身体への加害を避ける、その瞬間の回避課題。",
+      "recognition_basis": "身を引いて直後の道具を目撃し、息を呑んで離れ、怖くて母に話せない本人の反応。",
+      "closure_observed": "その場を離れる局所回避。向こう側の人物・動機やその後の安全は記録されない。",
+      "limitation": "短い回想の一選定範囲。瞬間的な道具の動作を追跡へ拡張しない。入浴場所の安全期待と、道具の境界越えの適用範囲には不足が残る。",
+      "evidence": [
+        {
+          "evidence_id": "G01-W22-R2-E-a",
+          "source_review_id": "G01-W22-R2-S1",
+          "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+          "range": "136〜154行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "幼少期に母と来た銭湯で遊び、湯船の横の扉に興味を持つ。"
+        },
+        {
+          "evidence_id": "G01-W22-R2-E-b",
+          "source_review_id": "G01-W22-R2-S1",
+          "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+          "range": "156〜169行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "鍵穴を二度覗き、向こうの機械を見る。突然目を離して身を引く。"
+        },
+        {
+          "evidence_id": "G01-W22-R2-E-c",
+          "source_review_id": "G01-W22-R2-S1",
+          "url": "https://tachiyomi-occult.blog.jp/archives/7574314.html",
+          "range": "171〜175行",
+          "layer": "narrated_childhood_recollection",
+          "summary": "直後に鍵穴から道具が動く。息を呑み離れ、怖くて母に話せない。"
+        }
+      ],
+      "conditions": [
+        {
+          "condition_id": "AE.G1",
+          "state": "supported",
+          "reason": "鍵穴を覗く子どもが、突然目を引いて直後のドライバーを避け、その場を離れる。目・身体への加害を避ける課題として指定する。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "AE.G2",
+          "state": "supported",
+          "reason": "息を呑みその場を離れ、怖くて母にも話せないという本人の反応がある。攻撃者の意図の確定とは別。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G1",
+          "state": "unknown",
+          "reason": "覗くことへの好奇心と向こうが見えるという期待はあるが、以前の安全・世界規則の前提は明記されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G2",
+          "state": "supported",
+          "reason": "身を引いた直後に鍵穴からドライバーが動くという幼少期の目撃の回想。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G3",
+          "state": "unknown",
+          "reason": "一つの銭湯の扉と一回の危険。世界・人間一般への一般化の根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G4",
+          "state": "unknown",
+          "reason": "好奇心から恐怖と離脱へ変わるが、未特定の旧世界前提を変更して受容したことまでは記録できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G5",
+          "state": "unknown",
+          "reason": "扉の向こうの人物や設備・記憶での局所説明が足りない理由は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F.G6",
+          "state": "supported",
+          "reason": "向こうの人物は見えず幼少期の回想のみ。人物の加害・設備の動き・記憶の誤りの分析仮説を未排除として記す。",
+          "evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R1",
+          "state": "unknown",
+          "reason": "扉の向こうの人物は特定されず、子どもの所在を捕捉済みか未捕捉かは確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A1.R2",
+          "state": "unknown",
+          "reason": "身を引き立ち去るが、所在の感知を避けることが問題だったとは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R1",
+          "state": "explicitly_false",
+          "reason": "指定範囲で観測されるのは鍵穴からの道具の瞬間的な加害動作。追手が子どもへ移動接近・追随する局面ではない。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A2.R2",
+          "state": "supported",
+          "reason": "目を引き、その場を怖がって離れる動作が接触・加害を避ける損失予期を支持する。追跡の成立とは別。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R1",
+          "state": "unknown",
+          "reason": "銭湯の浴場で遊んでいたが、扉を生活・避難領域の安全境界と期待する問題は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R2",
+          "state": "supported",
+          "reason": "ドライバーの先端が鍵穴から子ども側へ出る描写は物理的境界を越える根拠。加害者自体の侵入とは区別。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A3.R3",
+          "state": "supported",
+          "reason": "覗く目のあった鍵穴へ先端が出て、その場を離れる。領域内の身体加害の危険を支持する。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R1",
+          "state": "unknown",
+          "reason": "一つの鍵穴の危険に、防御領域の周囲を占める脅威と境界を守る局面はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R2",
+          "state": "unknown",
+          "reason": "道具の瞬間的な動きは境界維持・備蓄が消耗する競争を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "A4.R3",
+          "state": "unknown",
+          "reason": "子どもの離脱を、維持資源の枯渇による損失予期と解釈する根拠は不足。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R1",
+          "state": "unknown",
+          "reason": "母と来た銭湯と扉の向こうへの関心があるが、帰路や現在地の把握が問題とは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B1.R2",
+          "state": "unknown",
+          "reason": "鍵穴での危険は、未知の現在地による帰還不能・孤立の予期と別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R1",
+          "state": "supported",
+          "reason": "怖がってその場を離れる動作が、そこに留まる接触・加害を避けたい意思を支持する。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B2.R2",
+          "state": "explicitly_false",
+          "reason": "本文で子どもはそこを離れる。指定した瞬間の局所離脱を阻む実際の障壁は成立していない。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R1",
+          "state": "unknown",
+          "reason": "鍵穴の向こうが一度見えないことは遮蔽の記述。道・部屋の接続や時間差・反復の異常とは未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B3.R2",
+          "state": "unknown",
+          "reason": "道具からの離脱に接続異常による帰還不能・消耗の予期はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R1",
+          "state": "unknown",
+          "reason": "最初に穴が覆われ次に見えるが、遮蔽物が変わるだけでも説明できる。同一命題の競合する知覚・記録は未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "B4.R2",
+          "state": "unknown",
+          "reason": "突発的な離脱はあるが、どの競合証拠を採るかで誤判断の危険が変わる問題は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R1",
+          "state": "unknown",
+          "reason": "扉の向こうを覗く相手は見えない。特定の既知人物の本人性を疑う対象はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R2",
+          "state": "unknown",
+          "reason": "鍵穴の道具は既知人物の外見・声・記憶の模倣や置換を示さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C1.R3",
+          "state": "unknown",
+          "reason": "代替者を本人と認めて接近を許すことによる損失の予期は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R1",
+          "state": "unknown",
+          "reason": "母との関係はあるが、道具を動かす相手に援助・信頼を期待していた関係は特定できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R2",
+          "state": "unknown",
+          "reason": "危険な道具の動きはあるが、母や味方本人の敵対的な利害・計画の根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C2.R3",
+          "state": "unknown",
+          "reason": "子どもが味方の裏切り・拘束・供犠を予期する本文根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R1",
+          "state": "explicitly_false",
+          "reason": "本人は怖くて母にさえ話せなかったと明記する。指定範囲での危険の訴えは行われていない。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R2",
+          "state": "unknown",
+          "reason": "母に訴えないことを、母が信じず受容しなかったことにしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C3.R3",
+          "state": "unknown",
+          "reason": "母の不受容による援助の不成立・孤立の予期は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R1",
+          "state": "supported",
+          "reason": "一緒に銭湯へ来る母という近親の関係を指定できる。",
+          "evidence_ids": [
+            "G01-W22-R2-E-a"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R2",
+          "state": "unknown",
+          "reason": "母は一緒にいるが、母に将来の喪失・進行中の危険・救助課題があるという記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "C4.R3",
+          "state": "unknown",
+          "reason": "本人が母を救えず失いそうと予期する根拠はない。自分の危険と分ける。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R1",
+          "state": "unknown",
+          "reason": "鍵穴の先端を避けた描写に、体内への異物侵入・感染を支持する接触・症状は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D1.R2",
+          "state": "unknown",
+          "reason": "子どもの恐怖と離脱は、体内侵入後の発症・損傷・伝播の予期とは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R1",
+          "state": "unknown",
+          "reason": "本人の身体が別のものへ変形・変質して進む描写はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D2.R2",
+          "state": "unknown",
+          "reason": "怖さと離脱を、身体変質による機能・自己像の喪失の予期へ移さない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R1",
+          "state": "unknown",
+          "reason": "突然目を引く動作はあるが、本人の意図に反する発話・動作・加害と記録されていない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R2",
+          "state": "unknown",
+          "reason": "身を引いて離れることは、本人の行為を意図で制御できない根拠ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D3.R3",
+          "state": "unknown",
+          "reason": "危険な道具への恐怖と、自己の制御喪失からの自他への損失の予期は別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R1",
+          "state": "unknown",
+          "reason": "幼少期の回想という形式から、本人の記憶・人格・存在の埋込・複製・置換を認定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D4.R2",
+          "state": "unknown",
+          "reason": "本人が自己の消失・置換や継続の不確かさを具体的損失と受容する記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R1",
+          "state": "unknown",
+          "reason": "外部の道具による危険はあるが、本人の内部で痛み・損傷・機能低下が進む描写はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R2",
+          "state": "unknown",
+          "reason": "外部加害を避ける行為に、未特定の内的損壊を止められない問題を補わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "D5.R3",
+          "state": "unknown",
+          "reason": "本人が内的損壊から臓器損傷・機能喪失・死を予期する時点は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R1",
+          "state": "unknown",
+          "reason": "覗くことの後に道具が出るが、危険を起動する条件・禁忌・契約として本文は記録していない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R2",
+          "state": "unknown",
+          "reason": "一度の覗き込みと加害動作の前後関係だけで、覗くことが危険を起動する因果を確定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E1.R3",
+          "state": "unknown",
+          "reason": "当人は離れるが、認識した起動条件を解除・回避する判断とは未特定。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R1",
+          "state": "unknown",
+          "reason": "危険を受ける別対象や場所の増加・移転は記録されない。母の同席を新被害にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R2",
+          "state": "unknown",
+          "reason": "一つの鍵穴から出る道具は、新たな対象へ危険が及ぶ感染・媒介の経路とは別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E2.R3",
+          "state": "unknown",
+          "reason": "本人が他人への危険の増加・移転を具体的損失と予期した記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R1",
+          "state": "supported",
+          "reason": "身を引いて、その場から離れる局所的な回避が行われる。作品外の長期安全は保証しない。",
+          "evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R2",
+          "state": "unknown",
+          "reason": "局所回避に本人が重視する損失や他人への加害が必要に伴う根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E3.R3",
+          "state": "unknown",
+          "reason": "母に話せないことを、助かるための重大な犠牲と不作為の選択問題にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R1",
+          "state": "supported",
+          "reason": "道具の危険からその場を離れる対処を本人が実行する。向こう側の人物や機序の解明とは別。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R2",
+          "state": "explicitly_false",
+          "reason": "本人はその場を離れる対処を実行する。指定範囲でその実行を資源不足が妨げる状態ではない。",
+          "evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E4.R3",
+          "state": "unknown",
+          "reason": "未成立の実行不能を、本人の具体的損失予期の理由とする根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R1",
+          "state": "unknown",
+          "reason": "瞬間的な離脱はあるが、危険を抱えて抑制する管理方法の有効性は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R2",
+          "state": "unknown",
+          "reason": "その場から離れたことに、保管・監視・手入れ・継承の継続義務は記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R3",
+          "state": "unknown",
+          "reason": "鍵穴への一回の加害から、管理の放棄・失敗で自他が害される関係は確認できない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "E5.R4",
+          "state": "unknown",
+          "reason": "本人が管理責任の離脱・終了を問題としている記述はない。局所からの離脱と区別。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R1",
+          "state": "unknown",
+          "reason": "好奇心を持って覗くことは、世界一般の因果・時空・生死の基本規則の旧前提を特定しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R2",
+          "state": "unknown",
+          "reason": "一回の幼少期の危険の回想で、複数の信頼できる反証は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F1.R3",
+          "state": "unknown",
+          "reason": "局所的な扉の危険を超えて世界一般の安全判断を変える記述はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R1",
+          "state": "unknown",
+          "reason": "二度覗く動作はあるが、説明仮説の工夫・反復検証を実行したとは記録されない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R2",
+          "state": "unknown",
+          "reason": "向こうの人物を知らないことは観察範囲の不足。人間一般の認識・能力の構造的限界は未確認。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F2.R3",
+          "state": "unknown",
+          "reason": "子どもの恐怖を、人間一般の構造的限界を受容した前提変更にしない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R1",
+          "state": "unknown",
+          "reason": "母と銭湯に来て好奇心を持つことから、人間の善意・正義・願いを重視する世界という旧前提は補えない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R2",
+          "state": "unknown",
+          "reason": "一つの道具の危険から、世界秩序で人間の価値が無関係と判明したとは扱わない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F3.R3",
+          "state": "unknown",
+          "reason": "怖くて母に話せないことは、人間の価値の非中心性を受容した記述ではない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R1",
+          "state": "unknown",
+          "reason": "銭湯での危険に、人間の安全・歴史・存在が他存在の用途に依存する仕組みはない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-a",
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R2",
+          "state": "unknown",
+          "reason": "道具の加害を、人間を素材・設備・資源として維持する用途へ拡張しない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-b",
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        },
+        {
+          "condition_id": "F4.R3",
+          "state": "unknown",
+          "reason": "本人の局所的な恐怖に、人間一般の成立条件の前提変更を支持する根拠はない。",
+          "evidence_ids": [],
+          "inspected_evidence_ids": [
+            "G01-W22-R2-E-c"
+          ],
+          "inspection": "explicit_body_condition_review"
+        }
+      ],
+      "world_model_evidence": {
+        "old_premise": "鍵穴を覗く好奇心と向こうが見える期待はあるが、旧安全前提・基本規則の明示はない。",
+        "new_evidence": "鍵穴から動くドライバーを見たという幼少期の一回の回想。",
+        "evidence_scope": "一つの銭湯の扉の危険。加害者は見えず、別観測者や原投稿の一致は未確認。",
+        "acceptance_and_threat": "本人は怖がってその場を離れる。未特定の旧世界前提を変更した記述までは認定しない。",
+        "why_local_explanation_insufficient": "不足する理由は未確認。扉の向こうの人物・設備・記憶という局所説明を排除していない。",
+        "alternative_hypotheses": [
+          {
+            "hypothesis": "扉の向こうの人物による加害",
+            "basis": "ドライバーの動きは見えるが人物や意図は未観測。",
+            "status": "actor_and_intent_unknown"
+          },
+          {
+            "hypothesis": "設備の動きや幼少期の記憶・叙述の誤り",
+            "basis": "向こうに機械が見え、幼少期の回想のみ。分析上の未排除仮説。",
+            "status": "analyst_hypothesis_unresolved"
+          }
+        ],
+        "limitation": "危険認識は支持するが、好奇心を旧世界モデルの安全前提と自動的に扱わない。"
+      }
     }
   ],
   "work_progress": {
@@ -5745,15 +8586,15 @@
     },
     "G01-W02": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "友人経由の伝聞としての一つの選定範囲。危険のない本人を全型の陰性と自動判定せず、必要な予期損失の不明を保持する。"
     },
     "G01-W03": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "録音の一つの選定範囲。音声の事故再構成と現場での観察の境界は未確定。後の事件情報を当時の本人の知識に移さない。"
     },
     "G01-W04": {
       "inherited_narrative_status": "ready",
@@ -5865,9 +8706,9 @@
     },
     "G01-W22": {
       "inherited_narrative_status": "ready",
-      "condition_extraction_status": "unextracted",
-      "completed_records": 0,
-      "limitation": "本文再読と各78条件の明示的抽出をまだ完了していない。初回のunknown自動補完とは区別。"
+      "condition_extraction_status": "selected_records_complete",
+      "completed_records": 1,
+      "limitation": "短い回想の一選定範囲。瞬間的な道具の動作を追跡へ拡張しない。入浴場所の安全期待と、道具の境界越えの適用範囲には不足が残る。"
     },
     "G01-W23": {
       "inherited_narrative_status": "ready",
