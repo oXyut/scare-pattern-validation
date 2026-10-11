@@ -1,9 +1,9 @@
 {
   "schema_version": "v3-r2-source-review-progress-1",
   "stage": "in_progress",
-  "observed_after_at_utc": "2026-10-11T06:16:33Z",
+  "observed_after_at_utc": "2026-10-11T06:37:47Z",
   "r1_explicit_condition_judgments": 355,
-  "fully_rechecked_published_bodies": 4,
+  "fully_rechecked_published_bodies": 7,
   "reviews": [
     {
       "work_id": "G03-W17",
@@ -12,7 +12,8 @@
       "range": "掲載本文11〜421行",
       "original_post_identity": "unconfirmed",
       "note": "掲載者の編集・更新表示があり、初出原文確認とは数えない。",
-      "review_id": "G03-W17-R2-S1"
+      "review_id": "G03-W17-R2-S1",
+      "observed_after_at_utc": "2026-10-11T06:16:33Z"
     },
     {
       "work_id": "G04-W26",
@@ -20,7 +21,8 @@
       "status": "full_published_body_reread",
       "range": "掲載本文27〜378行",
       "original_post_identity": "unconfirmed",
-      "review_id": "G04-W26-R2-S1"
+      "review_id": "G04-W26-R2-S1",
+      "observed_after_at_utc": "2026-10-11T06:16:33Z"
     },
     {
       "work_id": "G05-W09",
@@ -33,7 +35,8 @@
         "https://llike.net/2ch/fear/akuryo/2.htm",
         "https://llike.net/2ch/fear/akuryo/3.htm"
       ],
-      "review_id": "G05-W09-R2-S1"
+      "review_id": "G05-W09-R2-S1",
+      "observed_after_at_utc": "2026-10-11T06:16:33Z"
     },
     {
       "work_id": "G05-W25",
@@ -41,7 +44,8 @@
       "status": "targeted_reread",
       "range": "1174〜1290行",
       "original_post_identity": "unconfirmed",
-      "review_id": "G05-W25-R2-S1"
+      "review_id": "G05-W25-R2-S1",
+      "observed_after_at_utc": "2026-10-11T06:16:33Z"
     },
     {
       "work_id": "G05-W18",
@@ -50,9 +54,40 @@
       "range": "投稿908〜916／掲載本文8〜169行。コメント・関連話は対象外。",
       "original_post_identity": "unconfirmed",
       "note": "初回の対象箇所再読8件に含まれる。今回の新規102件の進捗とは重複集計しない。",
-      "review_id": "G05-W18-R2-S1"
+      "review_id": "G05-W18-R2-S1",
+      "observed_after_at_utc": "2026-10-11T06:16:33Z"
+    },
+    {
+      "review_id": "G01-W07-R2-S1",
+      "work_id": "G01-W07",
+      "url": "https://nazolog.com/blog-entry-11958.html",
+      "status": "full_published_body_reread",
+      "range": "投稿1013〜1014／掲載本文9〜22行。読者コメントを除外。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:37:47Z",
+      "note": "噂の特徴の一致と検索の失敗。噂内の追跡を寮の語り手への直接追跡にしない。"
+    },
+    {
+      "review_id": "G01-W17-R2-S1",
+      "work_id": "G01-W17",
+      "url": "https://black-one-neck.blog.jp/archives/1084897179.html",
+      "status": "full_published_body_reread",
+      "range": "投稿626〜627／掲載本文30〜41行。コメント・カテゴリー一覧を除外。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:37:47Z",
+      "note": "食べた女性の結果は不明と明示。摂食・変身の伝承・語り手の回避を分ける。"
+    },
+    {
+      "review_id": "G01-W12-R2-S1",
+      "work_id": "G01-W12",
+      "url": "https://the-mystery.org/hilarious_ghost_story/post-2492/",
+      "status": "full_published_body_reread",
+      "range": "掲載本文11〜176行。掲載者の更新・編集を明示し、原投稿と一致した確認とはしない。",
+      "original_post_identity": "unconfirmed",
+      "observed_after_at_utc": "2026-10-11T06:37:47Z",
+      "note": "安川の便意、語り手の嘔吐予期、和田の嘔吐と他児の反応を区別。比喩の悪魔や地獄を超常現象の直接事実にしない。"
     }
   ],
-  "fully_rechecked_of_r1_inherited_102": 3,
-  "remaining_of_r1_inherited_102": 99
+  "fully_rechecked_of_r1_inherited_102": 6,
+  "remaining_of_r1_inherited_102": 96
 }

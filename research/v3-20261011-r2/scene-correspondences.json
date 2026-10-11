@@ -1,0 +1,15 @@
+{
+  "schema_version": "v3-r2-authored-scene-correspondences-1",
+  "records": [
+    {"work_id":"G01-W07","scene_id":"G01-W07-SC01","record_ids":["G01-W07-V3-R2-R01"],"relation":"same_actor_time_scope","reason":"寮の語り手が同僚と知識を照合して検索する範囲。v1の具体的損失がないという解釈も、新しい各条件とは別に保持する。"},
+    {"work_id":"G01-W07","scene_id":"G01-W07-SC02","record_ids":[],"relation":"not_reviewed_in_r2","reason":"伝承内の不特定の追跡対象。現代の寮の語り手と同一主体・時点ではなく、この内側の問題状態の抽出は未完了。"},
+    {"work_id":"G03-W17","scene_id":"G03-W17-SC01","record_ids":["G03-W17-V3-R2-R01"],"relation":"overlapping_scope","reason":"石を疑う前提は共有するが、v1は子の行為と身体被害も束ねる。r2は傷の後の本人の相談・引渡しを対象とし、子の制御問題の判定を引き継がない。"},
+    {"work_id":"G03-W17","scene_id":"G03-W17-SC02","record_ids":["G03-W17-V3-R2-R01"],"relation":"overlapping_scope","reason":"引渡しは重なるが、v1は後の友人死亡と後悔を含む。r2の相談時には知らない将来の事故を当時の予期損失に移さない。"},
+    {"work_id":"G05-W09","scene_id":"G05-W09-S01","record_ids":["G05-W09-V3-R2-R01"],"relation":"overlapping_scope","reason":"先行被害を参照するが、v1は細木の警告・初回逃走・死亡を束ねる。r2はその後の語り手の対処選択で、当事者と時点が一致する部分に限る。"},
+    {"work_id":"G05-W09","scene_id":"G05-W09-S02","record_ids":["G05-W09-V3-R2-R01"],"relation":"overlapping_scope","reason":"再儀式の選択が重なる。v1のC2は元凶への集団の殺害計画で、r2の当事者である語り手自身への敵対計画とは別。"},
+    {"work_id":"G05-W09","scene_id":"G05-W09-S03","record_ids":[],"relation":"not_reviewed_in_r2","reason":"投稿の真偽と読者への主張の記録。訂正を出典限定に使用するが、語り手の儀式時の問題状態へ読者の危険を混ぜない。"},
+    {"work_id":"G05-W18","scene_id":"G05-W18-S01","record_ids":["G05-W18-V3-R2-R01"],"relation":"same_actor_time_scope","reason":"同じ少年の夜の防護室。後日の本人照合を当時の違和感と分けて記録する。"},
+    {"work_id":"G05-W18","scene_id":"G05-W18-S02","record_ids":["G05-W18-V3-R2-R02"],"relation":"same_actor_time_scope","reason":"同じ少年の翌朝の村外搬送。父と祖父の身代わりの覚悟は後の伝聞で、少年が当時知る予期としては未確認。"},
+    {"work_id":"G05-W18","scene_id":"G05-W18-S03","record_ids":[],"relation":"not_reviewed_in_r2","reason":"村の地蔵の管理と十年後の再発予期。本文は再読したが、この別の管理単位・時点の全78条件抽出は未完了。"}
+  ]
+}

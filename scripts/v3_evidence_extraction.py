@@ -13,6 +13,20 @@ def read(path):
     return json.loads((ROOT / path).read_text())
 
 
+def type_records(rec, codebook):
+    by_id = {c['condition_id']: c for c in rec['conditions']}
+    rows = []
+    for t in codebook['types']:
+        ids = t['common_required_ids'] + [c['id'] for c in t['required_conditions']]
+        states = [by_id[k]['state'] for k in ids]
+        result = 'not_fit' if 'explicitly_false' in states else 'fit' if set(states) == {'supported'} else 'pending'
+        rows.append(dict(type_id=t['id'], type_name=t['name'], layer=t['layer'], decision=result,
+                         required_condition_ids=ids,
+                         explicitly_false_condition_ids=[k for k in ids if by_id[k]['state'] == 'explicitly_false'],
+                         unknown_condition_ids=[k for k in ids if by_id[k]['state'] == 'unknown']))
+    return rows
+
+
 def validate(data, reviews, narratives, codebook):
     if data['schema_version'] != 'v3-r2-authored-condition-extractions-1' or data['version'] != 'v3-development-review-r2':
         raise ValueError('Wrong extraction schema or research version')
@@ -79,12 +93,8 @@ def validate(data, reviews, narratives, codebook):
                     'why_local_explanation_insufficient', 'alternative_hypotheses', 'limitation'):
             if key not in model or not model[key]:
                 raise ValueError('F needs actual extracted fields and explicit limitations')
-        by_id = {c['condition_id']: c for c in cs}
-        for t in codebook['types']:
-            ids = t['common_required_ids'] + [c['id'] for c in t['required_conditions']]
-            states = [by_id[k]['state'] for k in ids]
-            result = 'not_fit' if 'explicitly_false' in states else 'fit' if set(states) == {'supported'} else 'pending'
-            judgments['type_' + result] += 1
+        for t in type_records(rec, codebook):
+            judgments['type_' + t['decision']] += 1
         records_by_work[wid] += 1
     if set(works) != set(data['work_progress']):
         raise ValueError('Progress must cover the same 131 assignment IDs')
@@ -111,21 +121,105 @@ def validate(data, reviews, narratives, codebook):
                 inherited_narrative_counts=dict(Counter(w['status'] for w in works.values())))
 
 
+def results(data, reviews, narratives, codebook, correspondence):
+    counts = validate(data, reviews, narratives, codebook)
+    old_works = {}
+    for path in sorted((ROOT / 'groups').glob('*/data/mappings.json')):
+        for w in json.loads(path.read_text())['works']:
+            old_works[w['work_id']] = w
+    by_work = {}
+    by_id = {}
+    for rec in data['records']:
+        by_work.setdefault(rec['work_id'], []).append(rec)
+        by_id[rec['record_id']] = rec
+    seen = set()
+    for match in correspondence['records']:
+        wid, sid = match['work_id'], match['scene_id']
+        key = (wid, sid)
+        if key in seen or wid not in old_works or sid not in {s['scene_id'] for s in old_works[wid]['scenes']}:
+            raise ValueError('Duplicate or unknown historical scene')
+        seen.add(key)
+        if any(rid not in by_id or by_id[rid]['work_id'] != wid for rid in match['record_ids']):
+            raise ValueError('Comparison cannot borrow a different work or record')
+        if match['relation'] not in ('same_actor_time_scope', 'overlapping_scope', 'not_reviewed_in_r2') or not match['reason']:
+            raise ValueError('Comparison must state actor/time/scope correspondence')
+        if bool(match['record_ids']) == (match['relation'] == 'not_reviewed_in_r2'):
+            raise ValueError('Unreviewed historical scope cannot have a linked judgment')
+    works = []
+    for n in narratives['works']:
+        wid = n['work_id']
+        recs = [dict(record_id=r['record_id'], actor=r['actor'], time_scope=r['time_scope'],
+                     world_layer=r['world_layer'], selection_reason=r['selection_reason'],
+                     anticipated_loss=r['anticipated_loss'], recognition_basis=r['recognition_basis'],
+                     type_records=type_records(r, codebook), world_model_evidence=r['world_model_evidence'],
+                     closure_observed=r['closure_observed'], limitation=r['limitation'],
+                     condition_evidence_location='condition-extractions.json#' + r['record_id']) for r in by_work.get(wid, [])]
+        comparisons = []
+        for scene in old_works[wid]['scenes']:
+            match = next((m for m in correspondence['records'] if m['scene_id'] == scene['scene_id']), None)
+            comparisons.append(dict(scene_id=scene['scene_id'], historical_type_ids=scene['type_ids'], historical_scene_fit=scene['fit'],
+                                    relation=match['relation'] if match else 'not_mapped_for_comparison',
+                                    record_ids=match['record_ids'] if match else [],
+                                    reason=match['reason'] if match else '追加調査の場面対応は未記入。未抽出を不成立・保留の条件判断へ変換しない。'))
+        works.append(dict(work_id=wid, title=old_works[wid]['title'], inherited_narrative_status=n['status'],
+                          progress=data['work_progress'][wid], inherited_scope=n['scope'], inherited_limitations=n['limitations'],
+                          r2_source_reviews=[r for r in reviews['reviews'] if r['work_id'] == wid], selected_records=recs,
+                          v1_comparisons=comparisons))
+    return dict(schema_version='v3-r2-selected-record-results-1', version=data['version'], codebook_id=data['codebook_id'],
+                stage='in_progress', count_unit=data['count_unit'], counts=counts,
+                independent_human_coding_performed=False, independent_test_performed=False, agreement=None,
+                comparison_caution='旧候補は旧場面全体、新しい判定は指定当事者・時点。未抽出・条件保留・明示的不成立を分ける。対応が異なる範囲を含む候補の差を作品全体の削除と扱わない。',
+                works=works)
+
+
+def report(result):
+    c = result['counts']
+    lines = ['# v3追加調査 r2（途中）', '',
+             f"掲載本文全体の再読{c['fully_rechecked_published_bodies']}件。選定場面の条件抽出{c['condition_extraction_complete_works']}作品・{c['selected_records']}記録、各78条件・{c['explicitly_inspected_condition_judgments']}判断。",
+             '条件抽出完了は指定した記録の全条件を本文と照合したことを指し、作品の全場面・原投稿一致・シリーズ全体の完了ではない。未処理の作品はunextractedとし、初回のunknown自動補完と分ける。', '',
+             '初回の355明示判断へ加算しない。共通条件・対象・記録の数え方が異なり、同じ根拠を再点検している。単一AI・非盲検の開発資料点検で、独立符号化・一致度・効果測定は行っていない。', '',
+             '## 選定記録の結果', '',
+             '| 作品・当事者 | 条件が揃う型 | 明示的不成立の型 | 保留数 | 選定範囲と限界 |',
+             '| --- | --- | --- | --- | --- |']
+    def cell(s):
+        return str(s).replace('|', '\\|').replace('\n', ' ')
+    for w in result['works']:
+        for r in w['selected_records']:
+            fits = [t['type_id'] + ' ' + t['type_name'] for t in r['type_records'] if t['decision'] == 'fit']
+            negatives = [t['type_id'] for t in r['type_records'] if t['decision'] == 'not_fit']
+            pending = sum(t['decision'] == 'pending' for t in r['type_records'])
+            lines.append('| ' + ' | '.join(map(cell, [w['title'] + '／' + r['actor'], ' / '.join(fits) or '未確定',
+                                                    ' / '.join(negatives) or 'なし（陰性の意味ではない）', pending,
+                                                    r['time_scope'] + ' ' + r['limitation']])) + ' |')
+    lines += ['', '主型・副型とも必須条件を緩和せず、中心性の順位は未固定。部分適合は用いない。型が揃わない記録を全般的な陰性へ置換しない。', '',
+              '## 場面対応と根拠', '',
+              '[条件別の著者入力](condition-extractions.json)、[場面対応の著者入力](scene-correspondences.json)、[全131割当の進捗・結果](selected-record-results.json)に記録する。',
+              '八尺様の夜と搬送は別の当事者×時点記録。十年後の地蔵の管理は本文を再読したが、別記録の全条件抽出は未完了。ナール・ナーシュの相談時に後のYの死亡を予期したとは扱わない。',
+              'E1・E5・Fの論点は [boundary-questions.md](boundary-questions.md)。基準変更を採用せず、Fの局所的な旧前提・新証拠・受容と、一般化の不足を実記入する。', '',
+              '## 保存と確認', '',
+              'v1、92指定本文・18限定範囲・21保留、公開済みr1、現行UIを保持する。追加調査はPR #24の別ブランチ。UI共通カラー・上位分類グループ化は別セッションの担当。',
+              '機械検査の結果は [validation.md](validation.md)。r1公開の根拠と直接HTTP未確認は [r1-publication.json](r1-publication.json)。']
+    return '\n'.join(lines) + '\n'
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
-    result = validate(read('research/v3-20261011-r2/condition-extractions.json'),
-                      read('research/v3-20261011-r2/source-checks.json'),
-                      read('site/narratives.json'), read('followup/classification/v3-codebook.json'))
-    path = DIR / 'extraction-counts.json'
-    content = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
-    if args.check:
-        if path.read_text() != content:
-            raise ValueError('Extraction counts are stale')
-    else:
-        path.write_text(content)
-    print(json.dumps(result, ensure_ascii=False))
+    result = results(read('research/v3-20261011-r2/condition-extractions.json'),
+                     read('research/v3-20261011-r2/source-checks.json'), read('site/narratives.json'),
+                     read('followup/classification/v3-codebook.json'), read('research/v3-20261011-r2/scene-correspondences.json'))
+    output = {'extraction-counts.json': json.dumps(result['counts'], ensure_ascii=False, indent=2) + '\n',
+              'selected-record-results.json': json.dumps(result, ensure_ascii=False, indent=2) + '\n',
+              'report.md': report(result)}
+    for name, content in output.items():
+        path = DIR / name
+        if args.check:
+            if path.read_text() != content:
+                raise ValueError('Extraction output is stale: ' + name)
+        else:
+            path.write_text(content)
+    print(json.dumps(result['counts'], ensure_ascii=False))
 
 
 if __name__ == '__main__':

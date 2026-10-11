@@ -1,19 +1,19 @@
 {
   "assigned_entries": 131,
-  "fully_rechecked_published_bodies": 4,
-  "condition_extraction_complete_works": 2,
-  "selected_records": 3,
+  "fully_rechecked_published_bodies": 7,
+  "condition_extraction_complete_works": 4,
+  "selected_records": 5,
   "distinct_conditions_per_record": 78,
-  "explicitly_inspected_condition_judgments": 234,
+  "explicitly_inspected_condition_judgments": 390,
   "condition_states": {
-    "explicitly_false": 13,
-    "supported": 50,
-    "unknown": 171
+    "explicitly_false": 18,
+    "supported": 72,
+    "unknown": 300
   },
   "type_record_states": {
-    "fit": 3,
-    "not_fit": 10,
-    "pending": 65
+    "fit": 5,
+    "not_fit": 14,
+    "pending": 111
   },
   "inherited_narrative_counts": {
     "ready": 92,

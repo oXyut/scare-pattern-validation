@@ -93,6 +93,33 @@ class EvidenceExtractionTests(unittest.TestCase):
         self.assertEqual(decision(records[1], common + ['A2.R1', 'A2.R2']), 'fit')
         self.assertEqual(self.data['work_progress']['G05-W18']['completed_records'], 2)
 
+    def test_comparison_rejects_foreign_record(self):
+        matches = r2.read('research/v3-20261011-r2/scene-correspondences.json')
+        matches['records'][0]['record_ids'] = ['G03-W17-V3-R2-R01']
+        with self.assertRaisesRegex(ValueError, 'different work or record'):
+            r2.results(self.data, self.reviews, self.narratives, self.codebook, matches)
+
+    def test_unreviewed_scene_is_distinct_from_pending_and_not_fit(self):
+        matches = r2.read('research/v3-20261011-r2/scene-correspondences.json')
+        result = r2.results(self.data, self.reviews, self.narratives, self.codebook, matches)
+        self.assertEqual(len(result['works']), 131)
+        w = next(w for w in result['works'] if w['work_id'] == 'G05-W18')
+        later = next(m for m in w['v1_comparisons'] if m['scene_id'] == 'G05-W18-S03')
+        self.assertEqual(later['relation'], 'not_reviewed_in_r2')
+        self.assertFalse(later['record_ids'])
+        self.assertNotIn('decision', later)
+        decisions = {t['decision'] for r in w['selected_records'] for t in r['type_records']}
+        self.assertEqual(decisions, {'fit', 'not_fit', 'pending'})
+        hold = next(w for w in result['works'] if w['inherited_narrative_status'] == 'pending')
+        self.assertEqual(hold['progress']['condition_extraction_status'], 'source_hold')
+        self.assertFalse(hold['selected_records'])
+
+    def test_unreviewed_scene_cannot_claim_corresponding_judgment(self):
+        matches = r2.read('research/v3-20261011-r2/scene-correspondences.json')
+        matches['records'][0]['relation'] = 'not_reviewed_in_r2'
+        with self.assertRaisesRegex(ValueError, 'Unreviewed historical scope'):
+            r2.results(self.data, self.reviews, self.narratives, self.codebook, matches)
+
 
 if __name__ == '__main__':
     unittest.main()
