@@ -1,0 +1,1776 @@
+{
+  "schema_version": "v3-r2-source-identity-rechecks-1",
+  "stage": "selected_scope_review_complete_identity_unresolved",
+  "inherited_pending_entries": 21,
+  "inherited_scoped_entries": 18,
+  "scope_note": "保留21件の探索メタデータを点検。限定範囲18件のうち掲載本文再読18、未再読0。同定解消0件。",
+  "search_batches": [
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-01",
+      "queries": [
+        "\"おかっぱで顔のない着物の少女\" 洒落怖",
+        "\"おっぱい揉み豚\" 怖い話",
+        "\"スシ・ウォーリア・ガールズ\"",
+        "\"ンーボボツク\""
+      ],
+      "returned_candidate_urls": [
+        "https://t.co/kQ9gKzdxdn",
+        "https://zh.wikipedia.org/wiki/%E7%A5%9E%E8%B0%B7%E6%B5%A9%E5%8F%B2%E3%80%81%E5%B0%8F%E9%87%8E%E5%A4%A7%E8%BC%94%E7%9A%84DearGirl%EF%BD%9EStories%EF%BD%9E"
+      ],
+      "source_body_confirmed": false,
+      "limitation": "一括結果にクエリ別対応がない。百科事典の名称一覧は探索の索引に留め、原作品の根拠へ使わない。"
+    },
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-02",
+      "queries": [
+        "\"ピヨピヨの魔\" 怪談",
+        "\"一本足の妖女\" 洒落怖",
+        "\"死なず舞妓\" 怪談",
+        "\"寿司ノ神国駅\""
+      ],
+      "queries_executed_separately": true,
+      "query_results": [
+        {
+          "work_id": "G01-W20",
+          "query": "\"ピヨピヨの魔\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "returned_result_headers": [],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G02-W03",
+          "query": "\"一本足の妖女\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "returned_result_headers": [
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/1380082/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/1380082/?q=%E6%AF%92%E5%A5%B3"
+            },
+            {
+              "title": "https://kds-t.jp/?jdcn=06A0000000000639810T&lastUr...",
+              "url": "https://kds-t.jp/?jdcn=06A0000000000639810T&lastUrl=DMjwPG4z"
+            },
+            {
+              "title": "https://www.cmoa.jp/community/review/post/title/23...",
+              "url": "https://www.cmoa.jp/community/review/post/title/235751/?ret_url=%2Ftitle%2F235751%2F&srsltid=AU7gw4V_M_TQmN4ONWkks3HbalSRIocdxjfV0ZK8wXlfAV4fed7WkhqJ"
+            },
+            {
+              "title": "https://ilisod006.apsel.jp/yachimata/item-details?...",
+              "url": "https://ilisod006.apsel.jp/yachimata/item-details?id=42"
+            },
+            {
+              "title": "居家",
+              "url": "https://www.pinterest.com/pin/964966657652818843/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G02-W12",
+          "query": "\"死なず舞妓\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "returned_result_headers": [
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/1105937/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/1105937/?q=%E8%88%9E%E5%A6%93"
+            },
+            {
+              "title": "国際日本文化研究センター | 怪異・妖怪伝承データベース",
+              "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/ksearch.cgi?Area=%E5%85%A8%E5%9B%BD&Name=%E3%83%84%E3%83%A4&Pref="
+            },
+            {
+              "title": "https://kds-t.jp/?jdcn=06A0000000000520420M&lastUr...",
+              "url": "https://kds-t.jp/?jdcn=06A0000000000520420M&lastUrl=BelZnp2I"
+            },
+            {
+              "title": "国際日本文化研究センター | 怪異・妖怪伝承データベース",
+              "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/simsearch.cgi?ID=0160173"
+            },
+            {
+              "title": "https://sitereports.nabunken.go.jp/ja/search-artic...",
+              "url": "https://sitereports.nabunken.go.jp/ja/search-article?all=%E6%AD%BB%E5%BE%8C%E6%80%A8%E9%9C%8A"
+            },
+            {
+              "title": "千年怪談【単話備忘録】",
+              "url": "https://www.youtube.com/"
+            },
+            {
+              "title": "Ириэ, Такако",
+              "url": "https://ru.wikipedia.org/wiki/%D0%98%D1%80%D0%B8%D1%8D%2C_%D0%A2%D0%B0%D0%BA%D0%B0%D0%BA%D0%BE"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G02-W13",
+          "query": "\"寿司ノ神国駅\"",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        }
+      ],
+      "source_body_confirmed": false,
+      "limitation": "検索返却の題名・URL・断片の点検。クエリと結果を個別に紐付けたが、原作品本文の取得・同定ではない。"
+    },
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-03",
+      "queries": [
+        "\"つぎはぎ柄の猿みたいなヤツ\"",
+        "\"愚乱怒狂魔ちゃん\"",
+        "\"The_Color-Stealing_Man\"",
+        "\"空に浮かぶ「い」\""
+      ],
+      "queries_executed_separately": true,
+      "query_results": [
+        {
+          "work_id": "G02-W16",
+          "query": "\"つぎはぎ柄の猿みたいなヤツ\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W09",
+          "query": "\"愚乱怒狂魔ちゃん\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "returned_result_headers": [
+            {
+              "title": "\"愚乱怒狂魔ちゃん、字が違うので100%具乱怒物乃怪が ...",
+              "url": "https://x.com/Madara_kun_chan/status/2026935355371659631"
+            },
+            {
+              "title": "\"愚乱怒狂魔ちゃん、みんなでゴリ押しして流行らせよう 洒落怖 ...",
+              "url": "https://x.com/Madara_kun_chan/status/2026931184840880626"
+            },
+            {
+              "title": "ganea(ガニア) on X: \"愚乱怒狂魔ちゃん",
+              "url": "https://x.com/ganeas1/status/2026956421997404204"
+            },
+            {
+              "title": "現代妖怪を紹介。今回は「愚乱怒狂魔ちゃん」です。 ...",
+              "url": "https://x.com/tospo_UMA/status/2047180098441502749"
+            },
+            {
+              "title": "\"ピエロは良いですね。 子供の頃に、ティム・カリーの「IT」 ...",
+              "url": "https://x.com/HyKg8jok/status/2047329539395842096"
+            },
+            {
+              "title": "増田よしはる (@HyKg8jok) / X",
+              "url": "https://x.com/HyKg8jok"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W10",
+          "query": "\"The_Color-Stealing_Man\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "returned_result_headers": [
+            {
+              "title": "About Rob",
+              "url": "https://www.flickr.com/people/99339918%40N00/"
+            },
+            {
+              "title": "Stone man by lemonsthedestroyer",
+              "url": "https://www.colorslive.com/painting/4869565"
+            },
+            {
+              "title": "Mr. Steal-yo'-Man by ColorCodeTheArtist on DeviantArt",
+              "url": "https://www.deviantart.com/colorcodetheartist/art/Mr.-Steal-yo%27-Man-807502067"
+            },
+            {
+              "title": "Art Thief Oh My. - RedLikeRomance",
+              "url": "https://www.deviantart.com/redlikeromance/journal/Art-Thief-Oh-My.-231131815"
+            },
+            {
+              "title": "OfficialArtMan",
+              "url": "https://www.colorslive.com/artist/OfficialArtMan"
+            },
+            {
+              "title": "to steal something and not just steal it? | The Bad Guys",
+              "url": "https://www.getyarn.io/yarn-clip/f24111e5-0c8f-4fcd-ad73-17367318a519"
+            },
+            {
+              "title": "Steal His Look • 9.2K reels on Instagram",
+              "url": "https://www.instagram.com/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W14",
+          "query": "\"空に浮かぶ「い」\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "returned_result_headers": [
+            {
+              "title": "たんちょうボーロの新着記事｜アメーバブログ（アメブロ）",
+              "url": "https://blogtag.ameba.jp/news/%E3%81%9F%E3%82%93%E3%81%A1%E3%82%87%E3%81%86%E3%83%9C%E3%83%BC%E3%83%AD"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        }
+      ],
+      "source_body_confirmed": false,
+      "limitation": "検索返却の題名・URL・断片の点検。クエリと結果を個別に紐付けたが、原作品本文の取得・同定ではない。"
+    },
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-04",
+      "queries": [
+        "\"透眼\" 洒落怖",
+        "\"一つ目のっぺらぼう\" 怪談",
+        "\"漫湖マン\"",
+        "\"友人様\" 怪談 \"友神様\""
+      ],
+      "queries_executed_separately": true,
+      "query_results": [
+        {
+          "work_id": "G03-W16",
+          "query": "\"透眼\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖・閲覧注意まとめ",
+              "url": "https://ncode.syosetu.com/n3787lw/204/"
+            },
+            {
+              "title": "YouTube",
+              "url": "https://m.youtube.com/"
+            },
+            {
+              "title": "【洒落怖】眼の不自由な人",
+              "url": "https://sharekowa-archive.blog.jp/archives/12262513.html"
+            },
+            {
+              "title": "Untitled",
+              "url": "https://jp.finalfantasyxiv.com/lodestone/character/4915386/blog/2874803/"
+            },
+            {
+              "title": "https://www.facebook.com/iikotobahajinseiokaeru/po...",
+              "url": "https://www.facebook.com/iikotobahajinseiokaeru/posts/%E9%96%B2%E8%A6%A7%E6%B3%A8%E6%84%8F%E3%81%BB%E3%82%93%E3%81%A8%E3%81%AB%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E6%80%96%E3%81%84%E9%9B%91%E5%AD%A6/1236423308509651/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W19",
+          "query": "\"一つ目のっぺらぼう\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "returned_result_headers": [
+            {
+              "title": "\"【のっぺらぼう】（noppera-bou） 眼鼻口が無い妖怪。 ...",
+              "url": "https://x.com/yokai_zukan/status/744880742723792896"
+            },
+            {
+              "title": "https://web.d-library.jp/SKI01/g0102/libcontentsin...",
+              "url": "https://web.d-library.jp/SKI01/g0102/libcontentsinfo/?conid=304303"
+            },
+            {
+              "title": "小泉八雲の代表作「のっぺらぼう」など – 日本文学の重要な ...",
+              "url": "https://otonano-ehon.com/archives/2000.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W21",
+          "query": "\"漫湖マン\"",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "returned_result_headers": [
+            {
+              "title": "しかし根の影響で漫湖は濡れなくなり干潟が減る事に ...",
+              "url": "https://x.com/inuyama_inuo/status/1945778002287112292"
+            },
+            {
+              "title": "\"北海道の珍小島（ちんこじま）と沖縄の漫湖（まんこ） ...",
+              "url": "https://x.com/matsujun5213/status/1412034267769491457"
+            },
+            {
+              "title": "漫湖（まんこ）大特集〜空港からすぐ、手軽にジャングルを ...",
+              "url": "https://kokorosha.hatenablog.com/entry/20100811/p1"
+            },
+            {
+              "title": "漫湖",
+              "url": "https://www.youtube.com/"
+            },
+            {
+              "title": "File:Manko Waterbird and Wetland Center.jpg",
+              "url": "https://commons.wikimedia.org/wiki/File%3AManko_Waterbird_and_Wetland_Center.jpg"
+            },
+            {
+              "title": "漫湖水鳥・湿地センター正面 - Picture of Manko Waterbird ...",
+              "url": "https://www.tripadvisor.ca/LocationPhotoDirectLink-g1023467-d6565542-i265310008-Manko_Waterbird_and_Wetland_Center-Tomigusuku_Okinawa_Prefecture.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G03-W24",
+          "query": "\"友人様\" 怪談 \"友神様\"",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "returned_result_headers": [
+            {
+              "title": "https://www.cmoa.jp/community/review/post/title/23...",
+              "url": "https://www.cmoa.jp/community/review/post/title/230338/?ret_url=%2Ftitle%2F230338%2Fvol%2F19%2F&srsltid=AU7gw4V-njV2rUJtqVCyIiunbNeyu1ITpDVYUUEUavJmju9v2ZwMJkc0"
+            },
+            {
+              "title": "https://www.amazon.co.jp/gp/offer-listing/47684797...",
+              "url": "https://www.amazon.co.jp/gp/offer-listing/4768479723/ref%3Ddp_olp_ALL_mbc?condition=ALL&ie=UTF8"
+            },
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/2375338/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/2375338/?q=%E5%B9%BD%E9%9C%8A"
+            },
+            {
+              "title": "https://bookwalker.jp/deb9ff9ba3-3949-41ba-b8fd-9a...",
+              "url": "https://bookwalker.jp/deb9ff9ba3-3949-41ba-b8fd-9aee9b69cc24/?sample=1&srsltid=AU7gw4X_QraeT4P8A-wJgF_bElAYc5TxXMUjb7xPpEeLDy_ndXIz9zHp"
+            },
+            {
+              "title": "幸福光暈",
+              "url": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E7%A6%8F%E5%85%89%E6%9A%88"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        }
+      ],
+      "source_body_confirmed": false,
+      "limitation": "検索返却の題名・URL・断片の点検。クエリと結果を個別に紐付けたが、原作品本文の取得・同定ではない。"
+    },
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-05",
+      "queries": [
+        "\"紅い階段\" 怪談",
+        "\"人型の物体\" 洒落怖",
+        "\"女の字の怪\"",
+        "\"魔翠姫\""
+      ],
+      "queries_executed_separately": true,
+      "query_results": [
+        {
+          "work_id": "G04-W02",
+          "query": "\"紅い階段\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "returned_result_headers": [
+            {
+              "title": "怪談",
+              "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E8%AB%87"
+            },
+            {
+              "title": "ほぼ日の怪談2026",
+              "url": "https://www.1101.com/n/s/fear2026/index.html"
+            },
+            {
+              "title": "「怪談」上映作品詳細 - 午前十時の映画祭16 デジタルで甦る ...",
+              "url": "https://asa10.eiga.com/"
+            },
+            {
+              "title": "NanashiroHorror - 怪談師ナナシロ",
+              "url": "https://x.com/NanashiroHorror"
+            },
+            {
+              "title": "稲川淳二の怪談プレミアム ～王者たちの恐宴",
+              "url": "https://tver.jp/"
+            },
+            {
+              "title": "怪談、幽霊、お坊さん…？夏の夜に行ってみたいバー3選 | SPOT",
+              "url": "https://travel.spot-app.jp/"
+            },
+            {
+              "title": "STAR DRIVER 閃亮的塔科特",
+              "url": "https://zh.wikipedia.org/wiki/STAR_DRIVER_%E9%96%83%E4%BA%AE%E7%9A%84%E5%A1%94%E7%A7%91%E7%89%B9"
+            },
+            {
+              "title": "夏樹靜子",
+              "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E6%A8%B9%E9%9D%9C%E5%AD%90"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G04-W20",
+          "query": "\"人型の物体\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "returned_result_headers": [
+            {
+              "title": "https://ameblo.jp/citizen8823/entry-12870509398.html",
+              "url": "https://ameblo.jp/citizen8823/entry-12870509398.html"
+            },
+            {
+              "title": "http://w.yumeuranai.jp/column/detail.php?seq=744",
+              "url": "https://w.yumeuranai.jp/column/detail.php?seq=744"
+            },
+            {
+              "title": "Untitled",
+              "url": "https://m.3dmgame.com/iBoUfpk/xqil.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G05-W04",
+          "query": "\"女の字の怪\"",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        },
+        {
+          "work_id": "G05-W21",
+          "query": "\"魔翠姫\"",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "returned_result_headers": [],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        }
+      ],
+      "source_body_confirmed": false,
+      "limitation": "検索返却の題名・URL・断片の点検。クエリと結果を個別に紐付けたが、原作品本文の取得・同定ではない。"
+    },
+    {
+      "batch_id": "R2-IDENTITY-SEARCH-06",
+      "queries": [
+        "\"ヲヲーンワ\""
+      ],
+      "queries_executed_separately": true,
+      "query_results": [
+        {
+          "work_id": "G05-W26",
+          "query": "\"ヲヲーンワ\"",
+          "batch_id": "R2-IDENTITY-SEARCH-06",
+          "returned_result_headers": [
+            {
+              "title": "イヌ掲示板 2000年6月26日(月)22時24分",
+              "url": "https://www.vets.ne.jp/log/search/data/1100/200006/64.html"
+            },
+            {
+              "title": "ヲヲーンワ - PI-MOODY Art",
+              "url": "https://pi-moody.de/amphtml/analysis/video/cultura-lovabane-hovasanchu.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "source_body_confirmed": false
+        }
+      ],
+      "source_body_confirmed": false,
+      "limitation": "検索返却の題名・URL・断片の点検。クエリと結果を個別に紐付けたが、原作品本文の取得・同定ではない。"
+    }
+  ],
+  "works": [
+    {
+      "work_id": "G01-W05",
+      "title": "おかっぱで顔のない着物の少女",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳の一方のURLは「着物の少女」という別内容、もう一方のまとめ記事には特徴語が見つからない。追加検索も別作の人形話のみで、割当作品を同定できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未同定\n顔のある保護的な「着物の少女」と、成人女性を描く別投稿が候補として見つかったが、割当の少女との同一性は確認できない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"おかっぱで顔のない着物の少女\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-01",
+          "observed_after_at_utc": "2026-10-11T07:04:02Z",
+          "outcome": "no_identifiable_body_in_returned_batch",
+          "note": "4クエリの返却結果を点検。作品名を含む洒落怖の百科事典一覧と無関係なラジオ記事が返された。一覧は本文ではなく、各クエリへの結果の割当も返却されないため、同定解消・取得失敗・不存在と認定しない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W06",
+      "title": "おっぱい揉み豚",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳に本文URLがなく、完全一致と怪談語を加えた検索でも対象作品の本文を見つけられなかった。人物アカウント・別の投稿スレッドは同定根拠にならない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未同定\n名称のX言及のみ。対象の物語本文は未同定。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"おっぱい揉み豚\" 怖い話",
+          "batch_id": "R2-IDENTITY-SEARCH-01",
+          "observed_after_at_utc": "2026-10-11T07:04:02Z",
+          "outcome": "no_identifiable_body_in_returned_batch",
+          "note": "4クエリの返却結果を点検。作品名を含む洒落怖の百科事典一覧と無関係なラジオ記事が返された。一覧は本文ではなく、各クエリへの結果の割当も返却されないため、同定解消・取得失敗・不存在と認定しない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W09",
+      "title": "くねくね",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "まとめページの第2話と第3話。独立した語り手の話であり、一人に起きた連続事件ではありません。",
+      "inherited_limitations": [
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G01-W09-R2-S1"
+      ],
+      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。"
+    },
+    {
+      "work_id": "G01-W11",
+      "title": "坂道の女",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "台帳で「坂道の女」に割り当てられたURLの掲載作「坂の上の女」。題名表記差があり、他の同名作品まで同定したものではありません。",
+      "inherited_limitations": [
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_reader",
+          "url": "https://kowaihanasi.ghostmap.jp/hanasi.php?cd=173",
+          "source_review_id": "G01-W11-R2-S1",
+          "observed_after_at_utc": "2026-10-11T07:04:02Z",
+          "outcome": "specified_body_confirmed_identity_limit_unchanged",
+          "note": "坂の上の女の本文64〜73行は再読。割当題名との全同定・原投稿一致は未確認で、限定範囲を維持。"
+        }
+      ],
+      "source_review_ids": [
+        "G01-W11-R2-S1"
+      ],
+      "note": "坂の上の女の本文64〜73行は再読。割当題名との全同定・原投稿一致は未確認で、限定範囲を維持。"
+    },
+    {
+      "work_id": "G01-W13",
+      "title": "スシ・ウォーリア・ガールズ",
+      "inherited_status": "pending",
+      "inherited_reason": "題名へのSNS言及や百科事典への言及は見つかったが、作品本文・初出投稿・結末へたどれず、同定できない。台帳に本文URLもない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未同定\n名称リストとX言及は本文の代用にならない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"スシ・ウォーリア・ガールズ\"",
+          "batch_id": "R2-IDENTITY-SEARCH-01",
+          "observed_after_at_utc": "2026-10-11T07:04:02Z",
+          "outcome": "no_identifiable_body_in_returned_batch",
+          "note": "4クエリの返却結果を点検。作品名を含む洒落怖の百科事典一覧と無関係なラジオ記事が返された。一覧は本文ではなく、各クエリへの結果の割当も返却されないため、同定解消・取得失敗・不存在と認定しない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W18",
+      "title": "猫の忍者(ネットロア)",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "最初の実況として掲載された引用部分のみ。専用スレッド「猫忍」「二ノ巻」の全体は未確認。",
+      "inherited_limitations": [
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G01-W18-R2-S1"
+      ],
+      "note": "継承した指定範囲を再読。原投稿・まとめ全体・シリーズ全体との同定は未確認で、限定範囲を解消しない。",
+      "original_source_attempts": [
+        {
+          "url": "https://hobby10.5ch.net/test/read.cgi/occult/1205653191/",
+          "method": "web_reader",
+          "outcome": "fetch_failed",
+          "observed_after_at_utc": "2026-10-11T07:41:16Z",
+          "note": "掲載者の初出リンクを開いたがInternal Error。原投稿取得・シリーズ範囲の解消とはしない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G01-W20",
+      "title": "ピヨピヨの魔",
+      "inherited_status": "pending",
+      "inherited_reason": "完全一致と怪談語を加えた検索は、別作品の考察や無関係な結果のみ。台帳に本文URLがなく本文未取得。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未同定\n名称リストと無関係小説は本文の代用にならない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"ピヨピヨの魔\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "一クエリの検索返却はEmpty search results。作品の不存在は証明せず、本文URL・同定未解消。",
+          "returned_result_headers": [],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "一クエリの検索返却はEmpty search results。作品の不存在は証明せず、本文URL・同定未解消。"
+    },
+    {
+      "work_id": "G01-W21",
+      "title": "蛇神憑きの家系",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "同じページの3篇。2015年の投稿者自身が以前の投稿との続柄を述べていますが、投稿者の実在・同一性は独立検証していません。",
+      "inherited_limitations": [
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G01-W21-R2-S1"
+      ],
+      "note": "三篇の掲載本文と投稿内の続柄の説明を再読した。投稿者の独立した同定・未確認異本や全シリーズの確認はしていない。"
+    },
+    {
+      "work_id": "G01-W27",
+      "title": "ンーボボツク",
+      "inherited_status": "pending",
+      "inherited_reason": "完全一致検索は該当なし。怪談語を加えた検索でも対象本文は見つからず、台帳に本文URLがない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未同定\n検索2系統で対象本文を確認できない。非実在・非ホラーとは判定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"ンーボボツク\"",
+          "batch_id": "R2-IDENTITY-SEARCH-01",
+          "observed_after_at_utc": "2026-10-11T07:04:02Z",
+          "outcome": "no_identifiable_body_in_returned_batch",
+          "note": "4クエリの返却結果を点検。作品名を含む洒落怖の百科事典一覧と無関係なラジオ記事が返された。一覧は本文ではなく、各クエリへの結果の割当も返却されないため、同定解消・取得失敗・不存在と認定しない。"
+        }
+      ]
+    },
+    {
+      "work_id": "G02-W01",
+      "title": "アクロバティックサラサラ",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "初回遭遇と、別掲載の自宅出現・バイク報告。全投稿を一人の体験として連結しない。",
+      "inherited_limitations": [
+        "台帳の後続3ページは403で未取得。別掲載ではバイク報告の投稿者識別情報が省かれており、初回投稿者との一致は未確認。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G02-W01-R2-S1"
+      ],
+      "note": "台帳の二つの掲載先で初回目撃と別投稿の指定範囲を再読。原系列の後続・画像・原投稿一致は未確認で、限定状態を保持。"
+    },
+    {
+      "work_id": "G02-W03",
+      "title": "一本足の妖女",
+      "inherited_status": "pending",
+      "inherited_reason": "同名の本文は見つからず、検索結果は別作品や幽霊の一般解説。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"一本足の妖女\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "雑誌検索・書籍・図書館・画像のメタデータが返った。割当の怪談本文としての対応は確認できない。",
+          "returned_result_headers": [
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/1380082/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/1380082/?q=%E6%AF%92%E5%A5%B3"
+            },
+            {
+              "title": "https://kds-t.jp/?jdcn=06A0000000000639810T&lastUr...",
+              "url": "https://kds-t.jp/?jdcn=06A0000000000639810T&lastUrl=DMjwPG4z"
+            },
+            {
+              "title": "https://www.cmoa.jp/community/review/post/title/23...",
+              "url": "https://www.cmoa.jp/community/review/post/title/235751/?ret_url=%2Ftitle%2F235751%2F&srsltid=AU7gw4V_M_TQmN4ONWkks3HbalSRIocdxjfV0ZK8wXlfAV4fed7WkhqJ"
+            },
+            {
+              "title": "https://ilisod006.apsel.jp/yachimata/item-details?...",
+              "url": "https://ilisod006.apsel.jp/yachimata/item-details?id=42"
+            },
+            {
+              "title": "居家",
+              "url": "https://www.pinterest.com/pin/964966657652818843/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "雑誌検索・書籍・図書館・画像のメタデータが返った。割当の怪談本文としての対応は確認できない。"
+    },
+    {
+      "work_id": "G02-W04",
+      "title": "エレベーターで異世界に行く方法",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "2017年の手順解説に限定。もう一つの台帳URLの2022年インタビュー風記事とは範囲・結末が異なり、混ぜません。",
+      "inherited_limitations": [
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G02-W04-R2-S1"
+      ],
+      "note": "2017年の未体験の二次解説を再読。未確認の初出伝承・異本・帰還結果を解消せず、2022年の別記事を混ぜない。"
+    },
+    {
+      "work_id": "G02-W08",
+      "title": "ギュウギュウ詰めの軽自動車",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "別題「軽自動車」の本文。車内がギュウギュウ詰めという特徴が題名と一致する候補。",
+      "inherited_limitations": [
+        "台帳は本文未確認かつあらすじなし。別題本文との同定を暫定扱いとし、他の軽自動車作品とは統合しない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G02-W08-R2-S1"
+      ],
+      "note": "別題「軽自動車」の指定本文を再読。割当と原投稿の全同定は未解消。"
+    },
+    {
+      "work_id": "G02-W12",
+      "title": "死なず舞妓",
+      "inherited_status": "pending",
+      "inherited_reason": "同名はゲーム攻略掲示板への言及で、怪談の掲載本文を確認できない。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"死なず舞妓\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "雑誌検索・伝承データベース・動画等のメタデータ。割当名との本文同定・台帳のゲーム掲示板との関係は未解消。",
+          "returned_result_headers": [
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/1105937/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/1105937/?q=%E8%88%9E%E5%A6%93"
+            },
+            {
+              "title": "国際日本文化研究センター | 怪異・妖怪伝承データベース",
+              "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/ksearch.cgi?Area=%E5%85%A8%E5%9B%BD&Name=%E3%83%84%E3%83%A4&Pref="
+            },
+            {
+              "title": "https://kds-t.jp/?jdcn=06A0000000000520420M&lastUr...",
+              "url": "https://kds-t.jp/?jdcn=06A0000000000520420M&lastUrl=BelZnp2I"
+            },
+            {
+              "title": "国際日本文化研究センター | 怪異・妖怪伝承データベース",
+              "url": "https://www.nichibun.ac.jp/cgi-bin/YoukaiDB3/simsearch.cgi?ID=0160173"
+            },
+            {
+              "title": "https://sitereports.nabunken.go.jp/ja/search-artic...",
+              "url": "https://sitereports.nabunken.go.jp/ja/search-article?all=%E6%AD%BB%E5%BE%8C%E6%80%A8%E9%9C%8A"
+            },
+            {
+              "title": "千年怪談【単話備忘録】",
+              "url": "https://www.youtube.com/"
+            },
+            {
+              "title": "Ириэ, Такако",
+              "url": "https://ru.wikipedia.org/wiki/%D0%98%D1%80%D0%B8%D1%8D%2C_%D0%A2%D0%B0%D0%BA%D0%B0%D0%BA%D0%BE"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "雑誌検索・伝承データベース・動画等のメタデータ。割当名との本文同定・台帳のゲーム掲示板との関係は未解消。"
+    },
+    {
+      "work_id": "G02-W13",
+      "title": "寿司ノ神国駅",
+      "inherited_status": "pending",
+      "inherited_reason": "作品名の一覧への言及だけで、異界駅の物語本文は見つからない。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"寿司ノ神国駅\"",
+          "batch_id": "R2-IDENTITY-SEARCH-02",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "百科事典の作品名一覧のみ。物語本文や原投稿の同定ではない。",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "百科事典の作品名一覧のみ。物語本文や原投稿の同定ではない。"
+    },
+    {
+      "work_id": "G02-W16",
+      "title": "つぎはぎ柄の猿みたいなヤツ",
+      "inherited_status": "pending",
+      "inherited_reason": "完全一致では結果なし。短縮表記でも対応する本文を確認できない。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別名・独立作品・派生の判定保留"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"つぎはぎ柄の猿みたいなヤツ\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "百科事典の名称一覧のみ。特徴語を本文の出来事へ展開しない。",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "百科事典の名称一覧のみ。特徴語を本文の出来事へ展開しない。"
+    },
+    {
+      "work_id": "G03-W01",
+      "title": "赤福アキちゃん",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "Part2にあるアキちゃんの由来談。赤い女の各目撃投稿とは別の流れ。",
+      "inherited_limitations": [
+        "由来談は祖母からの伝聞で、投稿者自身も幽霊の話ではないと断っている。赤い女の正体だという結論は出さない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W01-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G03-W03",
+      "title": "井戸の足臭女",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "ATLASの同名妖怪の由来記事。洒落怖の原投稿との一致は未確認。",
+      "inherited_limitations": [
+        "台帳の題名と掲載URLは一致するが、記事は妖怪の由来説明。洒落怖原投稿を確認したとは扱わない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "source_review_id": "G03-W03-R2-S1",
+          "observed_after_at_utc": "2026-10-11T08:58:28Z",
+          "method": "specified_published_body_reread",
+          "note": "ATLASの正式由来記事を53〜57行末まで再読。妖怪由来記事であり洒落怖原投稿との同一性は未確認。全シリーズの同定や限定範囲の解消とは数えない。"
+        }
+      ],
+      "source_review_ids": [
+        "G03-W03-R2-S1"
+      ],
+      "note": "ATLASの正式妖怪由来記事を再読した。洒落怖原投稿との同一性は未確認で限定範囲を解消しない。"
+    },
+    {
+      "work_id": "G03-W09",
+      "title": "愚乱怒狂魔ちゃん",
+      "inherited_status": "pending",
+      "inherited_reason": "題名一致の本文は検索で得られない。Xの本文を取得できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"愚乱怒狂魔ちゃん\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "名称一致のXの紹介・考察・イラスト反応の検索メタデータ。既存の東スポUMA投稿と考察投稿は403で本文を取得できない。断片の妖怪図鑑の説明から全体・結末を作らない。",
+          "returned_result_headers": [
+            {
+              "title": "\"愚乱怒狂魔ちゃん、字が違うので100%具乱怒物乃怪が ...",
+              "url": "https://x.com/Madara_kun_chan/status/2026935355371659631"
+            },
+            {
+              "title": "\"愚乱怒狂魔ちゃん、みんなでゴリ押しして流行らせよう 洒落怖 ...",
+              "url": "https://x.com/Madara_kun_chan/status/2026931184840880626"
+            },
+            {
+              "title": "ganea(ガニア) on X: \"愚乱怒狂魔ちゃん",
+              "url": "https://x.com/ganeas1/status/2026956421997404204"
+            },
+            {
+              "title": "現代妖怪を紹介。今回は「愚乱怒狂魔ちゃん」です。 ...",
+              "url": "https://x.com/tospo_UMA/status/2047180098441502749"
+            },
+            {
+              "title": "\"ピエロは良いですね。 子供の頃に、ティム・カリーの「IT」 ...",
+              "url": "https://x.com/HyKg8jok/status/2047329539395842096"
+            },
+            {
+              "title": "増田よしはる (@HyKg8jok) / X",
+              "url": "https://x.com/HyKg8jok"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://x.com/tospo_UMA/status/2047180098441502749",
+          "outcome": "fetch_failed",
+          "error": "403 Forbidden",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://x.com/Madara_kun_chan/status/2026935355371659631",
+          "outcome": "fetch_failed",
+          "error": "403 Forbidden",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        }
+      ],
+      "r2_hold_reason": "名称一致のXの紹介・考察・イラスト反応の検索メタデータ。既存の東スポUMA投稿と考察投稿は403で本文を取得できない。断片の妖怪図鑑の説明から全体・結末を作らない。"
+    },
+    {
+      "work_id": "G03-W10",
+      "title": "The_Color-Stealing_Man",
+      "inherited_status": "pending",
+      "inherited_reason": "題名一致の本文は得られない。Fandomの本文を取得できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"The_Color-Stealing_Man\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "題名一致の本文は返却メタデータにない。既存FandomのURLもツールでアクセスできず、別名・非ホラーを推定しない。",
+          "returned_result_headers": [
+            {
+              "title": "About Rob",
+              "url": "https://www.flickr.com/people/99339918%40N00/"
+            },
+            {
+              "title": "Stone man by lemonsthedestroyer",
+              "url": "https://www.colorslive.com/painting/4869565"
+            },
+            {
+              "title": "Mr. Steal-yo'-Man by ColorCodeTheArtist on DeviantArt",
+              "url": "https://www.deviantart.com/colorcodetheartist/art/Mr.-Steal-yo%27-Man-807502067"
+            },
+            {
+              "title": "Art Thief Oh My. - RedLikeRomance",
+              "url": "https://www.deviantart.com/redlikeromance/journal/Art-Thief-Oh-My.-231131815"
+            },
+            {
+              "title": "OfficialArtMan",
+              "url": "https://www.colorslive.com/artist/OfficialArtMan"
+            },
+            {
+              "title": "to steal something and not just steal it? | The Bad Guys",
+              "url": "https://www.getyarn.io/yarn-clip/f24111e5-0c8f-4fcd-ad73-17367318a519"
+            },
+            {
+              "title": "Steal His Look • 9.2K reels on Instagram",
+              "url": "https://www.instagram.com/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://urbanlegend.fandom.com/wiki/The_Color-Stealing_Man",
+          "outcome": "fetch_failed",
+          "error": "URL not accessible via this tool",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        }
+      ],
+      "r2_hold_reason": "題名一致の本文は返却メタデータにない。既存FandomのURLもツールでアクセスできず、別名・非ホラーを推定しない。"
+    },
+    {
+      "work_id": "G03-W13",
+      "title": "巣くうもの",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "シリーズ第1話のみ。全シリーズの結末は扱わない。",
+      "inherited_limitations": [
+        "Bの幼少時の一人こっくりさんとの関係、眠らされた理由、将来の破裂は語り手やAの推測。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W13-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G03-W14",
+      "title": "空に浮かぶ「い」",
+      "inherited_status": "pending",
+      "inherited_reason": "関連しない検索結果のみで作品を同定できない。台帳に本文URLがない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"空に浮かぶ「い」\"",
+          "batch_id": "R2-IDENTITY-SEARCH-03",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "表記の一部に似る日常ブログのメタデータ。割当の本文・結末の同定は未解消。",
+          "returned_result_headers": [
+            {
+              "title": "たんちょうボーロの新着記事｜アメーバブログ（アメブロ）",
+              "url": "https://blogtag.ameba.jp/news/%E3%81%9F%E3%82%93%E3%81%A1%E3%82%87%E3%81%86%E3%83%9C%E3%83%BC%E3%83%AD"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "表記の一部に似る日常ブログのメタデータ。割当の本文・結末の同定は未解消。"
+    },
+    {
+      "work_id": "G03-W16",
+      "title": "透眼",
+      "inherited_status": "pending",
+      "inherited_reason": "題名一致の本文を得られない。台帳に本文URLがない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"透眼\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "別題の怪談まとめ・眼の不自由な人・ゲームブログ等のメタデータ。同じ作品という根拠は得られない。",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖・閲覧注意まとめ",
+              "url": "https://ncode.syosetu.com/n3787lw/204/"
+            },
+            {
+              "title": "YouTube",
+              "url": "https://m.youtube.com/"
+            },
+            {
+              "title": "【洒落怖】眼の不自由な人",
+              "url": "https://sharekowa-archive.blog.jp/archives/12262513.html"
+            },
+            {
+              "title": "Untitled",
+              "url": "https://jp.finalfantasyxiv.com/lodestone/character/4915386/blog/2874803/"
+            },
+            {
+              "title": "https://www.facebook.com/iikotobahajinseiokaeru/po...",
+              "url": "https://www.facebook.com/iikotobahajinseiokaeru/posts/%E9%96%B2%E8%A6%A7%E6%B3%A8%E6%84%8F%E3%81%BB%E3%82%93%E3%81%A8%E3%81%AB%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E6%80%96%E3%81%84%E9%9B%91%E5%AD%A6/1236423308509651/"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "別題の怪談まとめ・眼の不自由な人・ゲームブログ等のメタデータ。同じ作品という根拠は得られない。"
+    },
+    {
+      "work_id": "G03-W19",
+      "title": "一つ目のっぺらぼう",
+      "inherited_status": "pending",
+      "inherited_reason": "鬼などの候補はあるが台帳との同一作品根拠が不足。動画の取得がthrottledとなり本文・字幕を得られない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"一つ目のっぺらぼう\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "一般ののっぺらぼうの解説・書籍等。割当の一つ目の本文との同定は未解消。",
+          "returned_result_headers": [
+            {
+              "title": "\"【のっぺらぼう】（noppera-bou） 眼鼻口が無い妖怪。 ...",
+              "url": "https://x.com/yokai_zukan/status/744880742723792896"
+            },
+            {
+              "title": "https://web.d-library.jp/SKI01/g0102/libcontentsin...",
+              "url": "https://web.d-library.jp/SKI01/g0102/libcontentsinfo/?conid=304303"
+            },
+            {
+              "title": "小泉八雲の代表作「のっぺらぼう」など – 日本文学の重要な ...",
+              "url": "https://otonano-ehon.com/archives/2000.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "一般ののっぺらぼうの解説・書籍等。割当の一つ目の本文との同定は未解消。"
+    },
+    {
+      "work_id": "G03-W21",
+      "title": "漫湖マン",
+      "inherited_status": "pending",
+      "inherited_reason": "観光情報などが返り本文を同定できない。台帳に本文URLがない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"漫湖マン\"",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "同じ地名の観光や湿地のメタデータ。人型の名前の物語を補作しない。",
+          "returned_result_headers": [
+            {
+              "title": "しかし根の影響で漫湖は濡れなくなり干潟が減る事に ...",
+              "url": "https://x.com/inuyama_inuo/status/1945778002287112292"
+            },
+            {
+              "title": "\"北海道の珍小島（ちんこじま）と沖縄の漫湖（まんこ） ...",
+              "url": "https://x.com/matsujun5213/status/1412034267769491457"
+            },
+            {
+              "title": "漫湖（まんこ）大特集〜空港からすぐ、手軽にジャングルを ...",
+              "url": "https://kokorosha.hatenablog.com/entry/20100811/p1"
+            },
+            {
+              "title": "漫湖",
+              "url": "https://www.youtube.com/"
+            },
+            {
+              "title": "File:Manko Waterbird and Wetland Center.jpg",
+              "url": "https://commons.wikimedia.org/wiki/File%3AManko_Waterbird_and_Wetland_Center.jpg"
+            },
+            {
+              "title": "漫湖水鳥・湿地センター正面 - Picture of Manko Waterbird ...",
+              "url": "https://www.tripadvisor.ca/LocationPhotoDirectLink-g1023467-d6565542-i265310008-Manko_Waterbird_and_Wetland_Center-Tomigusuku_Okinawa_Prefecture.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "同じ地名の観光や湿地のメタデータ。人型の名前の物語を補作しない。"
+    },
+    {
+      "work_id": "G03-W22",
+      "title": "みっちり乗った軽自動車",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "長い白いワゴンR体験に添えられた926番の短い別投稿のみ。",
+      "inherited_limitations": [
+        "白いワゴンRの購入や故障、女性の下半身は別投稿者の話。この作品の時系列へ含めない。ギュウギュウ詰めの軽自動車とも別の投稿。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W22-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G03-W24",
+      "title": "友人様",
+      "inherited_status": "pending",
+      "inherited_reason": "類似名のみで台帳の作品へ結末を帰属させない。「友神様」の本文は読めたが「友人様」との別名関係は確認できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "未判定。別名・派生・パロディ・非ホラーのいずれもタイトルから推定しない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"友人様\" 怪談 \"友神様\"",
+          "batch_id": "R2-IDENTITY-SEARCH-04",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "書籍・雑誌・無関係な記事のメタデータ。友神様との別名関係を確認できない。",
+          "returned_result_headers": [
+            {
+              "title": "https://www.cmoa.jp/community/review/post/title/23...",
+              "url": "https://www.cmoa.jp/community/review/post/title/230338/?ret_url=%2Ftitle%2F230338%2Fvol%2F19%2F&srsltid=AU7gw4V-njV2rUJtqVCyIiunbNeyu1ITpDVYUUEUavJmju9v2ZwMJkc0"
+            },
+            {
+              "title": "https://www.amazon.co.jp/gp/offer-listing/47684797...",
+              "url": "https://www.amazon.co.jp/gp/offer-listing/4768479723/ref%3Ddp_olp_ALL_mbc?condition=ALL&ie=UTF8"
+            },
+            {
+              "title": "https://www.fujisan.co.jp/zasshi_kensaku/2375338/?...",
+              "url": "https://www.fujisan.co.jp/zasshi_kensaku/2375338/?q=%E5%B9%BD%E9%9C%8A"
+            },
+            {
+              "title": "https://bookwalker.jp/deb9ff9ba3-3949-41ba-b8fd-9a...",
+              "url": "https://bookwalker.jp/deb9ff9ba3-3949-41ba-b8fd-9aee9b69cc24/?sample=1&srsltid=AU7gw4X_QraeT4P8A-wJgF_bElAYc5TxXMUjb7xPpEeLDy_ndXIz9zHp"
+            },
+            {
+              "title": "幸福光暈",
+              "url": "https://zh.wikipedia.org/wiki/%E5%B9%B8%E7%A6%8F%E5%85%89%E6%9A%88"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "書籍・雑誌・無関係な記事のメタデータ。友神様との別名関係を確認できない。"
+    },
+    {
+      "work_id": "G03-W25",
+      "title": "妖怪退治の仕事してるけど、何か質問ある?",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "シリーズの第1話と第15話のみ。両話の間の経過・シリーズ全体は未確認。",
+      "inherited_limitations": [
+        "妖怪の性質や儀式の効果は語り手・先生の説明。第2〜14話、16話以降を通読した結末ではない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G03-W25-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G04-W01",
+      "title": "赤いマフラーの女",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "noteの3分朗読台本に限定。書籍の同名章との本文同一性は未確認。",
+      "inherited_limitations": [
+        "出版社ページは目次のみで、書籍本文を取得できません。台本版の結末を書籍版へ流用しません。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W01-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G04-W02",
+      "title": "紅い階段",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳URLと同名候補を試したが本文を取得できず、題名だけでは同一作品を確定できない。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "同名・近似名候補があり同定未完了。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"紅い階段\" 怪談",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "一般怪談の検索結果、台帳のなろうURLはアクセス不可。URL指定の追加検索も不動産の紅い階段の記事が返り、本文を確認できない。",
+          "returned_result_headers": [
+            {
+              "title": "怪談",
+              "url": "https://ja.wikipedia.org/wiki/%E6%80%AA%E8%AB%87"
+            },
+            {
+              "title": "ほぼ日の怪談2026",
+              "url": "https://www.1101.com/n/s/fear2026/index.html"
+            },
+            {
+              "title": "「怪談」上映作品詳細 - 午前十時の映画祭16 デジタルで甦る ...",
+              "url": "https://asa10.eiga.com/"
+            },
+            {
+              "title": "NanashiroHorror - 怪談師ナナシロ",
+              "url": "https://x.com/NanashiroHorror"
+            },
+            {
+              "title": "稲川淳二の怪談プレミアム ～王者たちの恐宴",
+              "url": "https://tver.jp/"
+            },
+            {
+              "title": "怪談、幽霊、お坊さん…？夏の夜に行ってみたいバー3選 | SPOT",
+              "url": "https://travel.spot-app.jp/"
+            },
+            {
+              "title": "STAR DRIVER 閃亮的塔科特",
+              "url": "https://zh.wikipedia.org/wiki/STAR_DRIVER_%E9%96%83%E4%BA%AE%E7%9A%84%E5%A1%94%E7%A7%91%E7%89%B9"
+            },
+            {
+              "title": "夏樹靜子",
+              "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E6%A8%B9%E9%9D%9C%E5%AD%90"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://ncode.syosetu.com/n6798cx/",
+          "outcome": "fetch_failed",
+          "error": "URL not accessible via this tool",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        },
+        {
+          "method": "web_search",
+          "query": "site:ncode.syosetu.com/n6798cx \"紅い階段\"",
+          "outcome": "unrelated_property_metadata_returned",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "returned_candidate_urls": [
+            "https://www.hachise.jp/project/roman/roman2/6.html"
+          ],
+          "note": "台帳の原本文を確認できない。"
+        }
+      ],
+      "r2_hold_reason": "一般怪談の検索結果、台帳のなろうURLはアクセス不可。URL指定の追加検索も不動産の紅い階段の記事が返り、本文を確認できない。"
+    },
+    {
+      "work_id": "G04-W09",
+      "title": "校内放送",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "台帳の二つの候補本文。それぞれ末尾まで確認したが、対象作を一つには同定しない。",
+      "inherited_limitations": [
+        "候補AとBは別の出来事。互いの結末や恐怖を流用しない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W09-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G04-W11",
+      "title": "時空のおっさん",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "2009/04/25の投稿228・230の「小学四年生と自転車」の一話のみ。",
+      "inherited_limitations": [
+        "同名で集められた他の話・シリーズ全体は未確認。投稿236など後続の容姿補足を本要約の範囲に加えない。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W11-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G04-W12",
+      "title": "師匠シリーズ",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "掲載ページの「降霊実験」「壷」の二篇のみ。シリーズ全体ではない。",
+      "inherited_limitations": [
+        "師匠の人類起源の説明は作中の解釈で、歴史・考古学の事実として採らない。残る掲載篇とシリーズ全話は未確認。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G04-W12-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G04-W20",
+      "title": "人型の物体",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳URLがタイムアウト・502で読めず、検索にも同じ掲載の抜粋しかない。本文と結末を未確認。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "同名・近似名候補があり同定未完了。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"人型の物体\" 洒落怖",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "別題の昔話・夢等の検索メタデータ。台帳のlivedoor URLを再取得したが502で本文・結末は未確認。",
+          "returned_result_headers": [
+            {
+              "title": "https://ameblo.jp/citizen8823/entry-12870509398.html",
+              "url": "https://ameblo.jp/citizen8823/entry-12870509398.html"
+            },
+            {
+              "title": "http://w.yumeuranai.jp/column/detail.php?seq=744",
+              "url": "https://w.yumeuranai.jp/column/detail.php?seq=744"
+            },
+            {
+              "title": "Untitled",
+              "url": "https://m.3dmgame.com/iBoUfpk/xqil.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://blog.livedoor.jp/iori811-arbeit/archives/58034179.html",
+          "outcome": "fetch_failed",
+          "error": "502 Bad Gateway",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        }
+      ],
+      "r2_hold_reason": "別題の昔話・夢等の検索メタデータ。台帳のlivedoor URLを再取得したが502で本文・結末は未確認。"
+    },
+    {
+      "work_id": "G05-W04",
+      "title": "女の字の怪",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳に本文URLがなく、題名と表記を変えた検索でも対象の掲載本文を同定できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別名・派生・独立性は未判定。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"女の字の怪\"",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "百科事典の作品名一覧のみ。本文や結末・別名関係の同定ではない。",
+          "returned_result_headers": [
+            {
+              "title": "洒落怖 (しゃれこわ)とは【ピクシブ百科事典】 - t.co / X",
+              "url": "https://t.co/kQ9gKzdxdn"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "百科事典の作品名一覧のみ。本文や結末・別名関係の同定ではない。"
+    },
+    {
+      "work_id": "G05-W19",
+      "title": "ヒサルキ",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "保育園編の単篇のみ。ヒサルキの他の失踪・山・動物の関連話は未確認。",
+      "inherited_limitations": [
+        "全体が伝聞。シリーズ内の他話と同じ存在・因果だとは確定しない。過去の絵と転居の詳細は未確認。",
+        "初出原投稿との完全一致や、確認範囲外の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G05-W19-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G05-W21",
+      "title": "魔翠姫",
+      "inherited_status": "pending",
+      "inherited_reason": "台帳に本文URLがなく、検索で題名一覧は出るが本文と結末を確認できない。",
+      "inherited_reason_codes": [
+        "identity_or_scope_pending"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "同音名・カード名等の検索結果は別物で、置き換えない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"魔翠姫\"",
+          "batch_id": "R2-IDENTITY-SEARCH-05",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "一クエリの検索返却はEmpty search results。不存在とは扱わず、台帳の本文URL不足を維持。",
+          "returned_result_headers": [],
+          "inspection": "returned_search_metadata_only"
+        }
+      ],
+      "r2_hold_reason": "一クエリの検索返却はEmpty search results。不存在とは扱わず、台帳の本文URL不足を維持。"
+    },
+    {
+      "work_id": "G05-W23",
+      "title": "U先生",
+      "inherited_status": "scoped",
+      "inherited_reason": "",
+      "inherited_reason_codes": [],
+      "inherited_scope": "v1台帳にある二候補をそれぞれ確認。同じU先生のシリーズだとは同定していない。",
+      "inherited_limitations": [
+        "二候補の教師・学校・年代は別。呼び名の一致だけで同一人物や続編へ統合しない。",
+        "掲載本文の範囲を確認。初出原投稿との完全一致や未確認の派生・続編は保証しません。"
+      ],
+      "r2_identity_review_status": "specified_published_body_reread_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [],
+      "source_review_ids": [
+        "G05-W23-R2-S1"
+      ],
+      "note": "台帳の指定掲載範囲を再読した。既存の限定範囲・原典一致・作品系列の留保を保持し、全系列確認や同定解消とはしない。"
+    },
+    {
+      "work_id": "G05-W26",
+      "title": "ヲヲーンワ",
+      "inherited_status": "pending",
+      "inherited_reason": "用語集には名称があるが物語本文はなく、参照スレとキャッシュの対象投稿を取得・同定できない。名称だけからあらすじを作らない。",
+      "inherited_reason_codes": [
+        "body_unavailable",
+        "identity_or_scope_pending",
+        "retrieval_failed"
+      ],
+      "inherited_scope": "今回試した掲載本文・検索結果の範囲。未確認の物語を補いません。",
+      "inherited_limitations": [
+        "別掲示板の犬の鳴き声としての同じ文字列は別資料で、作品へ置き換えない。"
+      ],
+      "r2_identity_review_status": "batch_search_inspected_unresolved",
+      "resolution": "unchanged",
+      "r2_investigation": [
+        {
+          "method": "web_search",
+          "query": "\"ヲヲーンワ\"",
+          "batch_id": "R2-IDENTITY-SEARCH-06",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "outcome": "search_metadata_inspected_no_body_identity_resolved",
+          "note": "犬の鳴き声の同じ語と新しい説明ページの断片。用語集が参照する380スレの対象本文との同定ではない。参照スレはアクセス不可、キャッシュ候補は403で、原本文を取得できない。",
+          "returned_result_headers": [
+            {
+              "title": "イヌ掲示板 2000年6月26日(月)22時24分",
+              "url": "https://www.vets.ne.jp/log/search/data/1100/200006/64.html"
+            },
+            {
+              "title": "ヲヲーンワ - PI-MOODY Art",
+              "url": "https://pi-moody.de/amphtml/analysis/video/cultura-lovabane-hovasanchu.html"
+            }
+          ],
+          "inspection": "returned_search_metadata_only"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://mao.5ch.io/test/read.cgi/occult/1729726033/",
+          "outcome": "fetch_failed",
+          "error": "URL not accessible via this tool",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        },
+        {
+          "method": "web_reader",
+          "url": "https://n2ch.net/r/3cv0/occult/1729726033/1-?guid=ON",
+          "outcome": "fetch_failed",
+          "error": "403 Forbidden",
+          "observed_after_at_utc": "2026-10-11T08:31:36Z",
+          "note": "本文取得・原作品同定は未解消。"
+        }
+      ],
+      "r2_hold_reason": "犬の鳴き声の同じ語と新しい説明ページの断片。用語集が参照する380スレの対象本文との同定ではない。参照スレはアクセス不可、キャッシュ候補は403で、原本文を取得できない。"
+    }
+  ]
+}

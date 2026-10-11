@@ -1,0 +1,19 @@
+{
+  "schema_version": "v3-r1-publication-verification-1",
+  "pull_request": "https://github.com/oXyut/scare-pattern-validation/pull/23",
+  "approved_head_sha": "aacc77da1913817827ab8f8aae067ab200d8b5ae",
+  "merge_sha": "e73678799497d312e171c2e3ec04ffc3ef0daafd",
+  "pages_run_id": 38117020509,
+  "pages_run_url": "https://github.com/oXyut/scare-pattern-validation/actions/runs/38117020509",
+  "pages_run_status": "completed",
+  "pages_run_conclusion": "success",
+  "build_job_id": 114403821474,
+  "deploy_job_id": 114403850642,
+  "deployment_environment_url": "https://oxyut.github.io/scare-pattern-validation/",
+  "v3_url": "https://oxyut.github.io/scare-pattern-validation/v3.html",
+  "verification_basis": "GitHub Actions run and completed build/deploy jobs; deploy log environment URL",
+  "direct_live_http_verified": false,
+  "direct_live_http_limitation": "The selected cloud environment's proxy returns 403 or ERR_TUNNEL_CONNECTION_FAILED for the published github.io URL; local browser tests passed before merge.",
+  "additional_research_branch": "research/v3-evidence-extraction-20261011",
+  "additional_research_included_in_approved_merge": false
+}
