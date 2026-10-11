@@ -558,6 +558,227 @@
       "record_ids": [],
       "relation": "not_reviewed_in_r2",
       "reason": "成年後の子供への注意・流産は再読したが、その時点の本人の78条件は未抽出。"
+    },
+    {
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC01",
+      "record_ids": [
+        "G01-W01-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "現代の青年の追跡開始以後を抽出。テント内で気配を確かめる前半は未抽出。"
+    },
+    {
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC02",
+      "record_ids": [
+        "G01-W01-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "犬への加害は青年の観測、身代わりの必要性は後の老婆の説明。青年が犬を犠牲として選んだとはしない。"
+    },
+    {
+      "work_id": "G01-W01",
+      "scene_id": "G01-W01-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "年代不明の子供の映像と村の口封じの解釈は本文再読のみ。現代の青年の追跡の78条件へ同一主体として混ぜない。"
+    },
+    {
+      "work_id": "G01-W08",
+      "scene_id": "G01-W08-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "Kの来店・肩の症状と同僚の前史は未抽出。翌日の語り手の訪問に借りない。"
+    },
+    {
+      "work_id": "G01-W08",
+      "scene_id": "G01-W08-SC02",
+      "record_ids": [
+        "G01-W08-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "翌日の本人の人形目撃だけ抽出。Kの窓外目撃・除霊は別当事者で未抽出。"
+    },
+    {
+      "work_id": "G01-W12",
+      "scene_id": "G01-W12-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "安川本人の排泄・羞恥の78条件は未抽出。新記録は隣席の語り手である。"
+    },
+    {
+      "work_id": "G01-W12",
+      "scene_id": "G01-W12-SC02",
+      "record_ids": [
+        "G01-W12-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "語り手の連鎖嘔吐への予期と車内の連鎖。各児童の身体状態は本人の身体条件にしない。"
+    },
+    {
+      "work_id": "G01-W14",
+      "scene_id": "G01-W14-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "演者本人の身体・強制の問題は再読のみ。観客の記録から転用しない。"
+    },
+    {
+      "work_id": "G01-W14",
+      "scene_id": "G01-W14-SC02",
+      "record_ids": [
+        "G01-W14-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "観客の語り手の枠。実演者の痛みと観客の予期損失を分ける。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "2008年の妹の目への加害は再読のみ。2011年の動作制御と混ぜない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC02",
+      "record_ids": [
+        "G01-W21-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "2011年の妹の動作制御。蛇の顔の説明は妹本人についてで家族の顔ではない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "祖父の管理と2015年の再封印は再読のみ。妹本人の管理責任にしない。"
+    },
+    {
+      "work_id": "G01-W21",
+      "scene_id": "G01-W21-SC04",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "2015年の兄の救助と妹の自発的な摂取は再読のみ。意図に反する2011年の動作に遡及しない。"
+    },
+    {
+      "work_id": "G01-W23",
+      "scene_id": "G01-W23-SC01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "霊感者の初期警告と本人の不信は再読のみ。選定は仕事の休職勧告以後。"
+    },
+    {
+      "work_id": "G01-W23",
+      "scene_id": "G01-W23-SC02",
+      "record_ids": [
+        "G01-W23-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の体質への相談と休職勧告。本文は休む必要はないと反発するので、旧行の休職実施という解釈を継承しない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC01",
+      "record_ids": [
+        "G01-W26-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人の寿命への不安を抽出。他作業員の身体・死亡を本人へ移さない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC02",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "僧の保管と移管は別当事者で未抽出。作業員のE5へ借りない。"
+    },
+    {
+      "work_id": "G01-W26",
+      "scene_id": "G01-W26-SC03",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "制作史の閉じ込められた人々・殺害者は伝聞で未抽出。作業員の身体問題にしない。"
+    },
+    {
+      "work_id": "G02-W07",
+      "scene_id": "G02-W07-S01",
+      "record_ids": [],
+      "relation": "not_reviewed_in_r2",
+      "reason": "幼少時の姉と女の体験は再読のみ。成長後の声の疑いを幼少の知識にしない。"
+    },
+    {
+      "work_id": "G02-W07",
+      "scene_id": "G02-W07-S02",
+      "record_ids": [
+        "G02-W07-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "成長後の記憶・母妹の応答、家族の安否確認と母の声への疑い。"
+    },
+    {
+      "work_id": "G03-W02",
+      "scene_id": "G03-W02-SC01",
+      "record_ids": [
+        "G03-W02-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "子供の校舎への接近と教師の援助。教師本人の敵対計画は別条件で不明。"
+    },
+    {
+      "work_id": "G03-W02",
+      "scene_id": "G03-W02-SC02",
+      "record_ids": [
+        "G03-W02-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "教師でない声と足音の追随、校門を出て止まる範囲。"
+    },
+    {
+      "work_id": "G03-W04",
+      "scene_id": "G03-W04-SC01",
+      "record_ids": [
+        "G03-W04-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "現在の投稿で参照する本人の知覚。寝室での当時の安全課題の全条件は未抽出。"
+    },
+    {
+      "work_id": "G03-W04",
+      "scene_id": "G03-W04-SC02",
+      "record_ids": [
+        "G03-W04-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "本人が聞いた伝達ネットワークと各体験報告。各聴衆自身の78条件は未抽出。"
+    },
+    {
+      "work_id": "G03-W06",
+      "scene_id": "G03-W06-SC01",
+      "record_ids": [
+        "G03-W06-V3-R2-R01"
+      ],
+      "relation": "overlapping_scope",
+      "reason": "叔父宅の確認と記憶・説明の競合。前の家族像を同じ時系列の実在として扱わない。"
+    },
+    {
+      "work_id": "G03-W06",
+      "scene_id": "G03-W06-SC02",
+      "record_ids": [
+        "G03-W06-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "既発の家族の死を知る本人と、未捕捉犯人への現在の恐れを分ける。"
+    },
+    {
+      "work_id": "G03-W08",
+      "scene_id": "G03-W08-SC01",
+      "record_ids": [
+        "G03-W08-V3-R2-R01"
+      ],
+      "relation": "same_actor_time_scope",
+      "reason": "再掲本文の車での追跡回避。記事の別次元・死後の村の説は除外。"
     }
   ]
 }
